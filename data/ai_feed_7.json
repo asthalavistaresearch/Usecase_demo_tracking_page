@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-03-27T04:31:08.645Z",
+  "timestamp": "2026-03-28T01:45:12.509Z",
   "categories": {
     "news": {
-      "count": 14,
+      "count": 16,
       "items": [
+        {
+          "subject": "Taisei Corporation shapes the next generation of talent with AI",
+          "body": "Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization.",
+          "timestamp": "2026-03-27T14:00:02",
+          "url": "https://openai.com/index/taisei",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Into the Omniverse: NVIDIA GTC Showcases Virtual Worlds Powering the Physical AI Era",
+          "body": "Editor’s note: This post is part of Into the Omniverse, a series...",
+          "timestamp": "2026-03-27T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/gtc-2026-virtual-worlds-physical-ai/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Inside our approach to the Model Spec",
           "body": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
@@ -134,8 +152,28 @@
       ]
     },
     "models": {
-      "count": 8,
+      "count": 7,
       "items": [
+        {
+          "subject": "nvidia/RE-USE",
+          "body": "[\"mamba-ssm\", \"safetensors\", \"universal speech enhancement\", \"multiple input sampling rates\", \"language-agnostic\", \"audio-to-audio\", \"arxiv:2603.02641\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-03-26T18:18:44",
+          "url": "https://huggingface.co/nvidia/RE-USE",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/gpt-oss-puzzle-88B",
+          "body": "[\"transformers\", \"safetensors\", \"gpt_oss_puzzle\", \"text-generation\", \"nvidia\", \"gpt-oss\", \"puzzle\", \"mixture-of-experts\", \"reasoning\", \"pytorch\", \"vllm\", \"conversational\", \"custom_code\", \"en\", \"arxiv:2411.19146\", \"arxiv:2508.10925\", \"arxiv:2602.11937\", \"license:other\", \"8-bit\", \"mxfp4\", \"region:us\"]",
+          "timestamp": "2026-03-26T11:23:46",
+          "url": "https://huggingface.co/nvidia/gpt-oss-puzzle-88B",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/Nemotron-Cascade-2-30B-A3B",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"nemotron-cascade-2\", \"reasoning\", \"general-purpose\", \"SFT\", \"RL\", \"conversational\", \"custom_code\", \"en\", \"arxiv:2603.19220\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"deploy:azure\", \"region:us\"]",
@@ -177,16 +215,6 @@
           }
         },
         {
-          "subject": "nvidia/RE-USE",
-          "body": "[\"mamba-ssm\", \"mamba\", \"universal speech enhancement\", \"multiple input sampling rates\", \"language-agnostic\", \"audio-to-audio\", \"arxiv:2603.02641\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-03-24T15:09:43",
-          "url": "https://huggingface.co/nvidia/RE-USE",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
           "subject": "nvidia/nvpanoptix-3d-v1.1-matterport3d",
           "body": "[\"arxiv:2503.11651\", \"license:other\", \"region:us\"]",
           "timestamp": "2026-03-24T09:41:36",
@@ -195,29 +223,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"conversational\", \"custom_code\", \"en\", \"dataset:nvidia/Nemotron-CC-v2\", \"dataset:nvidia/Nemotron-Post-Training-Dataset-v2\", \"dataset:nvidia/Nemotron-Science-v1\", \"dataset:nvidia/Nemotron-Instruction-Following-Chat-v1\", \"dataset:nvidia/Nemotron-Agentic-v1\", \"dataset:nvidia/Nemotron-Competitive-Programming-v1\", \"dataset:nvidia/Nemotron-Math-Proofs-v1\", \"dataset:nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1\", \"dataset:nvidia/Nemotron-RL-instruction_following\", \"dataset:nvidia/Nemotron-RL-agent-calendar_scheduling\", \"dataset:nvidia/Nemotron-RL-instruction_following-structured_outputs\", \"arxiv:2511.16664\", \"arxiv:2504.03624\", \"arxiv:2512.20856\", \"arxiv:2512.20848\", \"arxiv:2412.02595\", \"base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-03-20T20:50:41",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF",
-          "body": "[\"gguf\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"unsloth\", \"text-generation\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"ja\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2512.20848\", \"arxiv:2512.20856\", \"base_model:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
-          "timestamp": "2026-03-20T13:30:50",
-          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "unsloth"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 4-6 key bullet points and 1 trend related to OpenAI's recent developments:\n\n**Key Developments:**\n\n* **OpenAI Model Spec**: OpenAI introduced a public framework, Model Spec, that aims to balance safety, user freedom, and accountability as AI systems advance.\n* **Safety Bug Bounty program**: OpenAI launched a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.\n* **Reenforcement fine-tuning on Amazon Bedrock**: OpenAI announced the availability of Reinforcement fine-tuning (RFT) on Amazon Bedrock, a platform that uses OpenAI-compatible APIs.\n* **Teen safety policies**: OpenAI released prompt-based teen safety policies for developers using gpt-oss-safeguard to moderate age-specific risks in AI systems.\n* **Powering product discovery in ChatGPT**: ChatGPT introduced richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.\n\n**Trend:**\n\n* **Increasing focus on AI safety and accountability**: OpenAI's recent developments indicate a growing emphasis on AI safety and accountability. The company is introducing frameworks and programs to identify and mitigate potential risks associated with AI systems, such as Safety Bug Bounty and Model Spec. This trend reflects a broader industry movement towards responsible AI development.\n\n**Additional insights:**\n\n* OpenAI's partnerships, such as the collaboration with Amazon on Bedrock, demonstrate the company's efforts to integrate its technology with other platforms and industries.\n* The increase in AI-related models and research papers, such as those listed in the Hugging Face model repository, suggests a high level of innovation and activity in the field of AI.\n* The involvement of industry leaders, such as NVIDIA, in AI research and development underscores the significance of the artificial intelligence sector in shaping the future of technology."
+  "summary": "Here are 4-6 bullet points summarizing key OpenAI-related developments with insight:\n\n* **Companies embracing OpenAI's technology**: Taisei Corporation is rolling out ChatGPT Enterprise to drive AI-powered talent development across the organization, highlighting the increasing adoption of OpenAI's technology by companies.\n* **NVIDIA's advancements in AI**: NVIDIA has donated a dynamic resource allocation driver for GPUs to the Kubernetes community, demonstrating its continued commitment to advancing AI research and development. Additionally, NVIDIA CEO Jensen Huang has stated that the company has the most energy-efficient architecture in the world.\n* **OpenAI's focus on safety**: OpenAI has launched a Safety Bug Bounty program to identify and mitigate AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration. This highlights the growing importance of prioritizing AI safety and security.\n* **Advancements in natural language processing**: NVIDIA has released several large-scale language models, including the Nemotron-Cascade-2-30B-A3B and NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4, which demonstrate significant advancements in natural language processing capabilities.\n* **Industry partnerships and collaborations**: OpenAI has partnered with companies like AWS to enable reinforcement fine-tuning on Amazon Bedrock with OpenAI-compatible APIs, and has also released teen safety policies for developers using gpt-oss-safeguard.\n\nTrend: **Exponential growth of AI adoption and research**: The articles suggest a rapidly advancing AI landscape, with companies and organizations investing heavily in AI research, development, and adoption. This trend is likely to continue, with a focus on prioritizing AI safety, security, and ethics as AI becomes increasingly integrated into various industries and aspects of life."
 }
