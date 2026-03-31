@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-03-31T02:57:41.464Z",
+  "timestamp": "2026-03-31T04:33:41.957Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 10,
       "items": [
         {
           "subject": "Helping disaster response teams turn AI into action across Asia",
@@ -94,15 +94,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "How Autonomous AI Agents Become Secure by Design With NVIDIA OpenShell",
-          "body": "Autonomous agents mark a new inflection point in AI. Systems are no...",
-          "timestamp": "2026-03-24T04:00:01",
-          "url": "https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -182,5 +173,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 key OpenAI-related developments with some insight, along with a trend:\n\n**Developments:**\n\n* **OpenAI Launches Safety Bug Bounty Program**: OpenAI has introduced a Safety Bug Bounty program to identify and address potential AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.\n* **Introducing Teen Safety Policies for Developers**: OpenAI has released prompt-based teen safety policies for developers using gpt-oss-safeguard, aimed at moderating age-specific risks in AI systems.\n* **Powering Product Discovery in ChatGPT**: ChatGPT now features richer, visually immersive shopping experiences powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.\n* **Taisei Corporation Adopts ChatGPT Enterprise for Talent Development**: Taisei Corporation is using ChatGPT Enterprise to drive AI-powered talent development across the organization.\n* **OpenAI Workshop with Gates Foundation for Disaster Response**: OpenAI is partnering with the Bill & Melinda Gates Foundation to host a workshop on using AI for disaster response in Asia.\n* **NVIDIA Debuts Dynamic Resource Allocation Driver for GPUs**: NVIDIA has donated a dynamic resource allocation driver for GPUs to the Kubernetes community, advancing open-source AI.\n\n**Trend:**\n\n* **Growing Focus on AI Safety and Accountability**: The trend in recent OpenAI-related developments is a growing emphasis on ensuring AI safety and accountability, with the company introducing measures such as the Safety Bug Bounty program and teen safety policies for developers. This reflects a broader industry effort to address the risks and challenges associated with the development and deployment of AI models."
+  "summary": "Here are 4-6 key OpenAI-related developments with insight:\n\n* **AI for Disaster Response**: OpenAI has partnered with the Bill and Melinda Gates Foundation to host a workshop in Asia aimed at helping disaster response teams utilize AI to make more informed decisions and improve response times.\n* **Talent Development**: Taisei Corporation has announced the deployment of ChatGPT Enterprise to drive talent development across the organization, marking a significant milestone in the adoption of AI-powered talent development.\n* **OpenAI Safety Bug Bounty**: OpenAI has launched a Safety Bug Bounty program to identify and address potential AI safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.\n* **Teen Safety Policies**: OpenAI has released prompt-based teen safety policies for developers using gpt-oss-safeguard, aiming to moderate age-specific risks in AI systems and ensure a safer experience for teenagers.\n* **Foundation Update**: The OpenAI Foundation has announced plans to invest at least $1 billion in various initiatives, including curing diseases, promoting economic opportunities, and supporting AI resilience and community programs.\n* **Advancements in Model Spec**: OpenAI has provided an in-depth look at its approach to the Model Spec, aiming to strike a balance between safety, user freedom, and accountability as AI systems advance.\n\nTrend: **Increased Focus on Safety and Security**: The recent OpenAI-related developments highlight a growing emphasis on ensuring the safety and security of AI systems. This includes initiatives such as the Safety Bug Bounty program, teen safety policies, and the Foundation's investment in AI resilience and community programs. As AI continues to advance and become more ubiquitous, OpenAI is recognizing the importance of prioritizing safety and security to avoid potential risks and ensure a more responsible development of AI."
 }
