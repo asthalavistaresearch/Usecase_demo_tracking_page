@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-01T00:10:29.553Z",
+  "timestamp": "2026-04-01T04:44:35.619Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 8,
       "items": [
         {
           "subject": "Nvidia’s Jensen Huang says ‘We’ve achieved AGI.’ But no one can agree on what that means. Why the most important term in tech remains hotly debated.",
@@ -76,33 +76,6 @@
           "extras": {
             "data_origin": "AWS AI News"
           }
-        },
-        {
-          "subject": "Helping developers build safer AI experiences for teens",
-          "body": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
-          "timestamp": "2026-03-25T04:00:02",
-          "url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Update on the OpenAI Foundation",
-          "body": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
-          "timestamp": "2026-03-25T04:00:02",
-          "url": "https://openai.com/index/update-on-the-openai-foundation",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Powering product discovery in ChatGPT",
-          "body": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
-          "timestamp": "2026-03-25T04:00:02",
-          "url": "https://openai.com/index/powering-product-discovery-in-chatgpt",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -132,5 +105,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key OpenAI related developments with insight, along with 1 trend:\n\n**Bullet Points:**\n\n* **AGI Debate Renewed**: Nvidia's Jensen Huang's statement on AGI achievement has sparked a debate on the definition of Artificial General Intelligence (AGI), with some experts arguing that it has not been achieved yet.\n* **OpenAI's Safety Bug Bounty Program**: OpenAI has launched a Safety Bug Bounty program to identify and address potential safety risks in AI systems, including agentic vulnerabilities, prompt injection, and data exfiltration.\n* **ChatGPT Updates**: OpenAI has introduced visually immersive product discovery in ChatGPT, enabling side-by-side comparisons and merchant integration.\n* **Partnerships and Collaborations**: Marvell has joined NVIDIA's AI ecosystem through NVLink Fusion, expanding the range of options for customers.\n* **Model Spec Released**: OpenAI has introduced the Model Spec framework, balancing safety, user freedom, and accountability for AI systems.\n* **Disaster Response with AI**: OpenAI has collaborated with the Bill and Melinda Gates Foundation to develop AI for disaster response teams in Asia.\n\n**Trend:** **Increased Focus on AI Safety and Social Responsibility**: The recent developments suggest that OpenAI is prioritizing safety and social responsibility in its research and product development, including the launch of the Safety Bug Bounty program and the introduction of the Model Spec framework. This trend is likely to continue as AI continues to be integrated into various aspects of life and the importance of ensuring its safe and responsible use becomes more apparent."
+  "summary": "Here are 4-6 key OpenAI-related developments with insight, followed by a trend:\n\n**Developments:**\n\n1. **OpenAI's Safety Bug Bounty program**: OpenAI has launched a program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration. This move highlights the growing concern around AI safety and potential misuse.\n2. **ChatGPT Enterprise adoption**: Taisei Corporation, a Japanese construction company, is rolling out OpenAI's ChatGPT Enterprise to drive AI-powered talent development across the organization. This represents a significant adoption of OpenAI's technology in a new market.\n3. **AWS collaboration with OpenAI**: AWS has announced the availability of Reinforcement fine-tuning (RFT) on Amazon Bedrock with OpenAI-compatible APIs. This collaboration aims to provide a seamless integration of OpenAI's AI capabilities with AWS's cloud infrastructure.\n4. **OpenAI's Model Spec**: OpenAI has published its approach to the Model Spec, a public framework for model behavior that balances safety, user freedom, and accountability as AI systems advance. This move demonstrates OpenAI's commitment to transparency and safety in AI development.\n5. **Nvidia's collaboration with Marvell**: Nvidia has announced a collaboration with Marvell through NVLink Fusion, expanding its AI ecosystem and providing greater choice and flexibility for customers.\n\n**Trend:**\n\n**Growing importance of AI safety and accountability**: The launch of OpenAI's Safety Bug Bounty program and the adoption of ChatGPT Enterprise in a new market highlight the increasing concern around AI safety and potential misuse. As AI technology advances, the need for transparency, accountability, and safety measures becomes more pressing. This trend is likely to continue, with AI developers and organizations prioritizing safety and responsibility in AI development and deployment."
 }
