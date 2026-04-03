@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-02T04:27:12.107Z",
+  "timestamp": "2026-04-03T04:13:51.054Z",
   "categories": {
     "news": {
-      "count": 7,
+      "count": 6,
       "items": [
         {
           "subject": "Accelerating the next phase of AI",
@@ -58,43 +58,51 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
+        }
+      ]
+    },
+    "papers": {
+      "count": 3,
+      "items": [
+        {
+          "subject": "OrgAgent: Organize Your Multi-Agent System like a Company",
+          "body": "While large language model-based multi-agent systems have shown strong potential for complex reasoning, how to effectively organize multiple agents remains an open question. In this paper, we introduce OrgAgent, a company-style hierarchical multi-agent framework that separates collaboration into governance, execution, and compliance layers. OrgAgent decomposes multi-agent reasoning into three layers: a governance layer for planning and resource allocation, an execution layer for task solving and review, and a compliance layer for final answer control. By evaluating the framework across reasoning tasks, LLMs, execution modes, and execution policies, we find that multi-agent systems organized in a company-style hierarchy generally outperform other organizational structures. Besides, hierarchical coordination also reduces token consumption relative to flat collaboration in most settings. For example, for GPT-OSS-120B, the hierarchical setting improves performance over flat multi-agent system by 102.73% while reducing token usage by 74.52% on SQuAD 2.0. Further analysis shows that hierarchy helps most when tasks benefit from stable skill assignment, controlled information flow, and layered verification. Overall, our findings highlight organizational structure as an important factor in multi-agent reasoning, shaping not only effectiveness and cost, but also coordination behavior.",
+          "timestamp": "2026-04-01T15:21:14",
+          "url": "https://arxiv.org/abs/2604.01020v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Yiru Wang, Xinyue Shen, Yaohui Han, Michael Backes, Pin-Yu Chen, Tsung-Yi Ho",
+            "updated": "2026-04-01T15:21:14"
+          }
         },
         {
-          "subject": "Into the Omniverse: NVIDIA GTC Showcases Virtual Worlds Powering the Physical AI Era",
-          "body": "Editor’s note: This post is part of Into the Omniverse, a series...",
-          "timestamp": "2026-03-27T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/gtc-2026-virtual-worlds-physical-ai/",
+          "subject": "GPT-NL Public Corpus: A Permissively Licensed, Dutch-First Dataset for LLM Pre-training",
+          "body": "We present the GPT-NL Public Corpus, the biggest permissively licensed corpus of Dutch language resources. The GPT-NL Public Corpus contains 21 Dutch-only collections totalling 36B preprocessed Dutch tokens not present in any other LLM pretraining corpus. Additionally, the corpus includes roughly 207B English, 232B Code, and 48B German/Danish tokens taken from existing sets which we further curated for compliance. This corpus includes curated data from large existing corpora like Common Corpus and Common Crawl, as well as newly created Dutch-specific collections. Most newly created Dutch collections consist of content collected in collaboration with organisations or synthetically augmented content. All data is collected and evaluated with the aim of facilitating the creation of (commercial) language models that are lawful, useful and non-harmful. All data included in the GPT-NL Public Corpus is sourced from datasets with permissive licensing and is curated and redistributed under a CC-BY license. The full dataset is publicly available on the Hugging Face Hub.",
+          "timestamp": "2026-04-01T14:00:53",
+          "url": "https://arxiv.org/abs/2604.00920v1",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "arXiv",
+            "authors": "Jesse van Oort, Frank Brinkkemper, Erik de Graaf, Bram Vanroy, Saskia Lensink",
+            "updated": "2026-04-01T14:00:53"
+          }
+        },
+        {
+          "subject": "In harmony with gpt-oss",
+          "body": "No one has independently reproduced OpenAI's published scores for gpt-oss-20b with tools, because the original paper discloses neither the tools nor the agent harness. We reverse-engineered the model's in-distribution tools: when prompted without tool definitions, gpt-oss still calls tools from its training distribution with high statistical confidence -- a strong prior, not a hallucination. We then built a native harmony agent harness (https://github.com/borislavmavrin/harmonyagent.git) that encodes messages in the model's native format, bypassing the lossy Chat Completions conversion. Together, these yield the first independent reproduction of OpenAI's published scores: 60.4% on SWE Verified HIGH (published 60.7%), 53.3% MEDIUM (53.2%), and 91.7% on AIME25 with tools (90.4%).",
+          "timestamp": "2026-04-01T01:16:13",
+          "url": "https://arxiv.org/abs/2604.00362v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Borislav Mavrin",
+            "updated": "2026-04-01T01:16:13"
           }
         }
       ]
     },
     "models": {
-      "count": 2,
-      "items": [
-        {
-          "subject": "nvidia/RE-USE",
-          "body": "[\"mamba-ssm\", \"safetensors\", \"universal speech enhancement\", \"multiple input sampling rates\", \"language-agnostic\", \"audio-to-audio\", \"arxiv:2603.02641\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-03-26T18:18:44",
-          "url": "https://huggingface.co/nvidia/RE-USE",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/gpt-oss-puzzle-88B",
-          "body": "[\"transformers\", \"safetensors\", \"gpt_oss_puzzle\", \"text-generation\", \"nvidia\", \"gpt-oss\", \"puzzle\", \"mixture-of-experts\", \"reasoning\", \"pytorch\", \"vllm\", \"conversational\", \"custom_code\", \"en\", \"arxiv:2411.19146\", \"arxiv:2508.10925\", \"arxiv:2602.11937\", \"license:other\", \"8-bit\", \"mxfp4\", \"region:us\"]",
-          "timestamp": "2026-03-26T11:23:46",
-          "url": "https://huggingface.co/nvidia/gpt-oss-puzzle-88B",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   },
-  "summary": "Here are 6 key OpenAI-related developments with insight:\n\n**Bullet Points:**\n\n1. **$122 Billion in New Funding**: OpenAI has raised $122 billion in new funding to expand its frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.\n2. **NVIDIA's AGI Claim**: NVIDIA's CEO Jensen Huang claims that \"AGI has already been achieved,\" but experts disagree on the definition and measurement of AGI.\n3. **NVIDIA AI Ecosystem Expansion**: NVIDIA has collaborated with Marvell to expand its AI ecosystem through NVLink Fusion, offering greater choice and flexibility for customers.\n4. **Disaster Response and AI**: OpenAI and the Gates Foundation have collaborated on a workshop to help disaster response teams across Asia turn AI into action.\n5. **Talent Development with AI**: Taisei Corporation is rolling out ChatGPT Enterprise to drive AI-powered talent development across the organization.\n6. **Virtual Worlds and AI**: NVIDIA's GTC showcase, \"Into the Omniverse,\" has highlighted virtual worlds powering the physical AI era.\n\n**Trend:** The increasing adoption of AI and related technologies is driving the expansion of AI ecosystems, and NVIDIA and OpenAI are at the forefront of this trend. As demand for AI grows, we can expect to see more collaborations, investments, and innovations in the field. The future of AI is shaping up to be a multi-billion dollar market, with significant opportunities for growth and disruption."
+  "summary": "Here are 4-6 key OpenAI related developments with insight, along with a trend:\n\n**Developments:**\n\n* **OpenAI raises $122 billion in new funding**: OpenAI has secured significant funding to expand its frontier AI capabilities globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.\n* **NVIDIA's Jensen Huang claims AGI has been achieved, but experts debate the definition**: NVIDIA's CEO, Jensen Huang, has stated that AGI has been achieved, but experts are still debating what this means and how to measure it.\n* **NVIDIA expands AI ecosystem with Marvell partnership**: NVIDIA has partnered with Marvell to expand its AI ecosystem, providing customers with greater choice and flexibility.\n* **OpenAI helps disaster response teams in Asia with AI workshop**: OpenAI has collaborated with the Gates Foundation to hold a workshop on using AI for disaster response in Asia.\n* **Taisei Corporation uses ChatGPT Enterprise for AI-powered talent development**: Taisei Corporation is leveraging ChatGPT Enterprise to drive AI-powered talent development across the organization.\n\n**Trend:**\n\n* **Accelerating growth of AI in enterprise and industries**: The trend in recent developments suggests that AI is becoming increasingly integrated into various industries and enterprises, with a focus on applications such as disaster response, talent development, and enterprise AI.\n\nInsight: The developments highlight the growing importance of AI in various industries and enterprises, with a focus on practical applications. This trend is likely to continue, with more companies investing in AI to drive innovation and improve efficiency. OpenAI, as a leading AI research organization, is playing a significant role in shaping this trend through its funding, partnerships, and product developments."
 }
