@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-08T03:15:51.059Z",
+  "timestamp": "2026-04-08T04:34:20.344Z",
   "categories": {
     "news": {
-      "count": 8,
+      "count": 6,
       "items": [
         {
           "subject": "Announcing the OpenAI Safety Fellowship",
@@ -55,24 +55,6 @@
           "body": "Open models are driving a new wave of on-device AI, extending innovation...",
           "timestamp": "2026-04-03T04:00:01",
           "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Accelerating the next phase of AI",
-          "body": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
-          "timestamp": "2026-04-01T04:00:01",
-          "url": "https://openai.com/index/accelerating-the-next-phase-ai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Efficiency at Scale: NVIDIA, Energy Leaders Accelerating Power‑Flexible AI Factories to Fortify the Grid",
-          "body": "CERAWeek — dubbed the Davos of energy — is where policymakers, producers...",
-          "timestamp": "2026-04-01T04:00:01",
-          "url": "https://blogs.nvidia.com/blog/energy-efficiency-ai-factories-grid/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -166,5 +148,5 @@
       ]
     }
   },
-  "summary": "Here are the key OpenAI related developments with insights:\n\n**Developments:**\n\n* **OpenAI Safety Fellowship**: OpenAI has launched a pilot program to support independent safety and alignment research and develop the next generation of talent. (April 7, 2026)\n* **Product Hunt Launch: ChatGPT on CarPlay**: ChatGPT is now available on CarPlay, allowing for hands-free driving AI on the go. (April 3, 2026)\n* **OpenAI acquires TBPN**: OpenAI has acquired TBPN to accelerate global conversations around AI and support independent media. (April 3, 2026)\n* **Codex now offers more flexible pricing for teams**: Codex, a product from OpenAI, now offers pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams with a more flexible option to start and scale adoption. (April 3, 2026)\n* **OpenAI raises $122 billion in new funding**: OpenAI has raised $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI. (April 1, 2026)\n\n**Trend:**\n\n* **Increased focus on AI safety and security**: The recent developments suggest that OpenAI is increasing its focus on AI safety and security, with the launch of the Safety Fellowship program and the acquisition of TBPN, which will help the company to accelerate global conversations around AI and support independent media. This trend indicates that OpenAI is prioritizing the responsible development and deployment of AI systems, which is a crucial aspect of the AI industry's growth and adoption.\n\nAdditionally, the research papers listed below provide insights into various aspects of AI development and safety:\n\n* **Mapping the Exploitation Surface**: A study on the features of LLM agents that trigger exploitation vulnerabilities, which provides a narrowed and testable threat model for defenders.\n* **Context Engineering**: A methodology for structured human-AI collaboration, which can improve output quality and reduce iteration cycles.\n* **OrgAgent: Organize Your Multi-Agent System like a Company**: A framework for organizing multi-agent systems, which can improve performance and reduce token consumption.\n* **GPT-NL Public Corpus**: A permissively licensed corpus of Dutch language resources for LLM pre-training, which can facilitate the creation of lawful, useful, and non-harmful language models."
+  "summary": "Here are the key developments in OpenAI related news with insights:\n\n**Bullet Points:**\n\n* **OpenAI Safety Fellowship**: OpenAI has launched a pilot program to support independent safety and alignment research, which aims to develop the next generation of talent in the field of AI safety and alignment.\n* **ChatGPT on CarPlay**: OpenAI has launched a new product, ChatGPT on CarPlay, which allows users to access ChatGPT's conversational AI capabilities directly in their car's infotainment system.\n* **Acquisition of TBPN**: OpenAI has acquired TBPN, a company that focuses on accelerating global conversations around AI and supporting independent media, in order to expand its reach and dialogue with the broader tech community.\n* **Codex pricing changes**: OpenAI has introduced pay-as-you-go pricing for its Codex product, which provides a more flexible option for teams to start and scale adoption.\n* **New AI research papers**: Several papers on AI-related topics have been published, including research on multimodal vision-language interaction, AI and cost reduction in public higher education, and mapping the exploitation surface of large language models.\n\n**Trend:**\n**Growing importance of safety and alignment research in AI development**: The increasing focus on AI safety and alignment research, as evident from the OpenAI Safety Fellowship program, highlights the growing recognition of the need to ensure that AI systems are developed responsibly and with minimal risk of misalignment. This trend suggests that the industry is recognizing the importance of addressing the challenges of AI safety and alignment in order to realize the full potential of AI benefits."
 }
