@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-16T04:48:34.174Z",
+  "timestamp": "2026-04-16T23:53:27.686Z",
   "categories": {
     "news": {
-      "count": 8,
+      "count": 10,
       "items": [
+        {
+          "subject": "Accelerating the cyber defense ecosystem that protects us all",
+          "body": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+          "timestamp": "2026-04-16T14:00:02",
+          "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Product Hunt Launch: OpenAI Agents SDK",
+          "body": "Build production agents with harness and sandbox",
+          "timestamp": "2026-04-16T14:00:02",
+          "url": "https://www.producthunt.com/products/openai",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "The next evolution of the Agents SDK",
+          "body": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+          "timestamp": "2026-04-16T04:00:01",
+          "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "New Adobe Premiere Color Grading Mode Accelerated on NVIDIA GPUs",
           "body": "The NAB Show 2026 trade show, running April 18-22 in Las Vegas...",
@@ -67,26 +94,17 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "OpenAI Full Fan Mode Contest: Terms & Conditions",
-          "body": "Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate, submit your entry on Instagram, and win IPL match tickets.",
-          "timestamp": "2026-04-09T14:00:02",
-          "url": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 3,
+      "count": 4,
       "items": [
         {
-          "subject": "nvidia/parakeet-unified-en-0.6b",
-          "body": "[\"nemo\", \"speech-recognition\", \"unified-asr\", \"offline-asr\", \"streaming-asr\", \"automatic-speech-recognition\", \"speech\", \"audio\", \"FastConformer\", \"RNNT\", \"Parakeet\", \"ASR\", \"pytorch\", \"NeMo\", \"dataset:nvidia/Granary\", \"dataset:YTC\", \"dataset:Yodas2\", \"dataset:LibriLight\", \"dataset:librispeech_asr\", \"dataset:fisher_corpus\", \"dataset:Switchboard-1\", \"dataset:WSJ-0\", \"dataset:WSJ-1\", \"dataset:National-Singapore-Corpus-Part-1\", \"dataset:National-Singapore-Corpus-Part-6\", \"dataset:vctk\", \"dataset:voxpopuli\", \"dataset:europarl\", \"dataset:multilingual_librispeech\", \"dataset:fleurs\", \"dataset:mozilla-foundation/common_voice_8_0\", \"dataset:MLCommons/peoples_speech\", \"dataset:google/speech_commands\", \"arxiv:2312.17279\", \"arxiv:2305.05084\", \"arxiv:2304.09325\", \"license:other\", \"model-index\", \"region:us\"]",
-          "timestamp": "2026-04-14T03:46:34",
-          "url": "https://huggingface.co/nvidia/parakeet-unified-en-0.6b",
+          "subject": "nvidia/Lyra-2.0",
+          "body": "[\"arxiv:2604.13036\", \"region:us\"]",
+          "timestamp": "2026-04-16T03:07:24",
+          "url": "https://huggingface.co/nvidia/Lyra-2.0",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -94,8 +112,8 @@
         },
         {
           "subject": "nvidia/audio-flamingo-next-hf",
-          "body": "[\"transformers\", \"safetensors\", \"audioflamingonext\", \"text-generation\", \"audio\", \"speech\", \"sound\", \"music\", \"reasoning\", \"audio understanding\", \"ASR\", \"audio captioning\", \"long-context\", \"audio-language-model\", \"long-audio\", \"timestamp-grounding\", \"instruction-tuned\", \"audio-text-to-text\", \"en\", \"dataset:nvidia/LongAudio\", \"dataset:nvidia/AF-Chat\", \"dataset:nvidia/AF-Think\", \"arxiv:2604.10905\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-04-14T01:54:54",
+          "body": "[\"transformers\", \"safetensors\", \"audioflamingonext\", \"text-generation\", \"audio\", \"speech\", \"sound\", \"music\", \"reasoning\", \"audio understanding\", \"ASR\", \"audio captioning\", \"long-context\", \"audio-language-model\", \"long-audio\", \"timestamp-grounding\", \"instruction-tuned\", \"audio-text-to-text\", \"en\", \"dataset:nvidia/LongAudio\", \"dataset:nvidia/AF-Skills\", \"dataset:nvidia/AF-Chat\", \"dataset:nvidia/AF-Think\", \"arxiv:2604.10905\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-04-15T19:41:03",
           "url": "https://huggingface.co/nvidia/audio-flamingo-next-hf",
           "extras": {
             "data_origin": "huggingface",
@@ -105,8 +123,18 @@
         {
           "subject": "nvidia/Gemma-4-31B-IT-NVFP4",
           "body": "[\"Model Optimizer\", \"safetensors\", \"gemma4\", \"nvidia\", \"ModelOpt\", \"Gemma-4-31B-IT\", \"lighthouse\", \"quantized\", \"NVFP4\", \"text-generation\", \"conversational\", \"base_model:google/gemma-4-31B-it\", \"base_model:quantized:google/gemma-4-31B-it\", \"license:other\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-04-13T17:30:23",
+          "timestamp": "2026-04-15T18:52:34",
           "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/parakeet-unified-en-0.6b",
+          "body": "[\"nemo\", \"speech-recognition\", \"unified-asr\", \"offline-asr\", \"streaming-asr\", \"automatic-speech-recognition\", \"speech\", \"audio\", \"FastConformer\", \"RNNT\", \"Parakeet\", \"ASR\", \"pytorch\", \"NeMo\", \"dataset:nvidia/Granary\", \"dataset:YTC\", \"dataset:Yodas2\", \"dataset:LibriLight\", \"dataset:librispeech_asr\", \"dataset:fisher_corpus\", \"dataset:Switchboard-1\", \"dataset:WSJ-0\", \"dataset:WSJ-1\", \"dataset:National-Singapore-Corpus-Part-1\", \"dataset:National-Singapore-Corpus-Part-6\", \"dataset:vctk\", \"dataset:voxpopuli\", \"dataset:europarl\", \"dataset:multilingual_librispeech\", \"dataset:fleurs\", \"dataset:mozilla-foundation/common_voice_8_0\", \"dataset:MLCommons/peoples_speech\", \"dataset:google/speech_commands\", \"arxiv:2312.17279\", \"arxiv:2305.05084\", \"arxiv:2304.09325\", \"license:other\", \"model-index\", \"region:us\"]",
+          "timestamp": "2026-04-14T03:46:34",
+          "url": "https://huggingface.co/nvidia/parakeet-unified-en-0.6b",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -115,5 +143,5 @@
       ]
     }
   },
-  "summary": "Based on the provided data, here are 4-6 key OpenAI related developments with insight, along with 1 trend:\n\n**Developments:**\n\n* **Trusted Access for Cyber**: OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.\n* **GPT-5.4 and Codex on Agent Cloud**: Cloudflare brings OpenAI's GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.\n* **CyberAgent uses ChatGPT Enterprise and Codex**: CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.\n* **OpenAI Full Fan Mode Contest**: OpenAI Launches Full Fan Mode Contest, a contest where participants can showcase their creativity using OpenAI's technology.\n\n**Notable mentions:**\n\n* **NVIDIA Launches Ising**: NVIDIA announces the world’s first family of open source quantum AI models, Ising, to accelerate the path to useful quantum computers.\n* **Graphs Explain the State of AI**: 12 graphs from IEEE Spectrum illustrate the state of AI in 2026, with OpenAI and Anthropic leading the charge towards large-scale adoption.\n\n**Trend:**\n\n* **Growing Adoption of OpenAI Technology**: OpenAI technology is increasingly being adopted by various industries, such as cyber security (Trusted Access for Cyber), cloud computing (Agent Cloud), and gaming (CyberAgent). This trend suggests that OpenAI's technology is becoming more pervasive and essential for real-world applications."
+  "summary": "Here are the key OpenAI related developments with insight:\n\n**Bullet points:**\n\n* **Trusted Access for Cyber**: OpenAI has expanded its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders to strengthen global cyber defense.\n* **Agents SDK Updates**: OpenAI has updated its Agents SDK with native sandbox execution and a model-native harness, enabling developers to build secure, long-running agents across files and tools.\n* **Cloudflare Partnership**: Cloudflare has integrated OpenAI's GPT-5.4 and Codex into its Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.\n* **CyberAgent**: CyberAgent is using ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.\n* **Model Updates**: NVIDIA has introduced several new models, including Lyra-2.0, Audio Flamingo Next, Gemma-4-31B-IT-NVFP4, and Parakeet Unified-EN-0.6b, which can be used for tasks such as text generation, speech recognition, and conversational dialogue.\n\n**Trend:**\nThe trend in recent OpenAI developments is a focus on **accelerating the adoption of AI in various sectors**, including cybersecurity, enterprise workflows, and model updates. OpenAI is also partnering with companies like Cloudflare and NVIDIA to enable the use of its AI models in real-world applications. This suggests that OpenAI is prioritizing the development and deployment of its technology to address pressing needs in various industries."
 }
