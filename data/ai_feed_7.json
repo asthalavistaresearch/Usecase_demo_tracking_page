@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-16T23:53:27.686Z",
+  "timestamp": "2026-04-17T04:46:25.800Z",
   "categories": {
     "news": {
-      "count": 10,
+      "count": 9,
       "items": [
         {
           "subject": "Accelerating the cyber defense ecosystem that protects us all",
@@ -85,15 +85,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
-          "body": "Cyber: Agent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
-          "timestamp": "2026-04-10T04:00:02",
-          "url": "https://openai.com/index/cyberagent",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -143,5 +134,5 @@
       ]
     }
   },
-  "summary": "Here are the key OpenAI related developments with insight:\n\n**Bullet points:**\n\n* **Trusted Access for Cyber**: OpenAI has expanded its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders to strengthen global cyber defense.\n* **Agents SDK Updates**: OpenAI has updated its Agents SDK with native sandbox execution and a model-native harness, enabling developers to build secure, long-running agents across files and tools.\n* **Cloudflare Partnership**: Cloudflare has integrated OpenAI's GPT-5.4 and Codex into its Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.\n* **CyberAgent**: CyberAgent is using ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.\n* **Model Updates**: NVIDIA has introduced several new models, including Lyra-2.0, Audio Flamingo Next, Gemma-4-31B-IT-NVFP4, and Parakeet Unified-EN-0.6b, which can be used for tasks such as text generation, speech recognition, and conversational dialogue.\n\n**Trend:**\nThe trend in recent OpenAI developments is a focus on **accelerating the adoption of AI in various sectors**, including cybersecurity, enterprise workflows, and model updates. OpenAI is also partnering with companies like Cloudflare and NVIDIA to enable the use of its AI models in real-world applications. This suggests that OpenAI is prioritizing the development and deployment of its technology to address pressing needs in various industries."
+  "summary": "Here are 6 key developments related to OpenAI, along with 1 trend:\n\n**Key Developments:**\n\n* **Launching the Agents SDK with Native Sandbox Execution**: OpenAI has updated its Agents SDK with native sandbox execution and a model-native harness, enabling developers to build secure, long-running agents across files and tools.\n* **Expanding Trusted Access for Cyber Program**: OpenAI has expanded its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.\n* **Cloudflare Partnership**: Cloudflare has brought OpenAI's GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.\n* **GPT-5.4-Cyber**: OpenAI has introduced GPT-5.4-Cyber, a new model designed to enhance cyber defense.\n* **NVIDIA Partnership**: NVIDIA has announced the launch of Ising, the world's first open AI models to accelerate the path to useful quantum computers.\n\n**Trend:**\n\n* **Increasing Partnership and Integration with Other Companies**: OpenAI is partnering with leading companies such as Cloudflare, NVIDIA, and aspiring to collaborate with other organizations to bolster AI innovation and adoption. This trend reflects OpenAI's focus on driving growth and development in the AI space through strategic partnerships."
 }
