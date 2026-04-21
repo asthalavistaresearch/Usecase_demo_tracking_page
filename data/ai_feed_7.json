@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-20T04:54:50.177Z",
+  "timestamp": "2026-04-21T00:52:43.087Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 12,
       "items": [
+        {
+          "subject": "OpenAI helps Hyatt advance AI among colleagues",
+          "body": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+          "timestamp": "2026-04-20T14:00:02",
+          "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Autonomous AI at Scale: Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP",
+          "body": "AI agents are transforming how work gets done across all industries, accelerating...",
+          "timestamp": "2026-04-20T14:00:02",
+          "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe 2026",
+          "body": "Manufacturing is at an inflection point. Across every major industrial economy, the...",
+          "timestamp": "2026-04-20T14:00:02",
+          "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Codex for (almost) everything",
           "body": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
@@ -85,24 +112,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "12 Graphs That Explain the State of AI in 2026",
-          "body": "The capabilities of leading AI models continue to accelerate and the largest AI companies, including OpenAI and Anthropic , are hurtling toward IPOs later this year. Yet resentment towards AI continues to simmer and in some cases has boiled over,...",
-          "timestamp": "2026-04-13T14:00:02",
-          "url": "https://spectrum.ieee.org/state-of-ai-index-2026",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
-          }
-        },
-        {
-          "subject": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
-          "body": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
-          "timestamp": "2026-04-13T14:00:02",
-          "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -152,5 +161,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **OpenAI Updates Codex App**: The company has released an updated version of its Codex app, which adds features such as computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.\n* **GPT-Rosalind for Life Sciences Research**: OpenAI has introduced GPT-Rosalind, a frontier reasoning model designed to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.\n* **Trusted Access for Cyber Defense**: OpenAI has expanded its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.\n* **NVIDIA Launches Ising**: NVIDIA has announced the launch of Ising, the world's first open AI models to accelerate the path to useful quantum computers.\n* **Cloudflare Partners with OpenAI**: Cloudflare has partnered with OpenAI to bring its GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.\n\n**Trend:** **Increased Adoption of AI in Enterprise Applications**\n\nAs evident from the above developments, there is a growing trend of adopting AI in enterprise applications, particularly in areas such as cyber defense, scientific research, and cloud infrastructure. This trend is driven by the need for increased efficiency, accuracy, and security in these domains."
+  "summary": "Here are 4-6 bullet points summarizing the key developments:\n\n* **Hyatt deploys AI across its global workforce**: Hyatt is using OpenAI's ChatGPT Enterprise, GPT-5.4, and Codex to improve productivity, operations, and guest experiences.\n* **Adobe and NVIDIA advance AI-driven creative intelligence**: Adobe and NVIDIA are using AI agents to transform how work gets done across industries, accelerating creative intelligence.\n* **NVIDIA showcases AI-driven manufacturing at Hannover Messe**: NVIDIA and its partners demonstrated the future of AI-driven manufacturing at the Hannover Messe 2026, marking a significant milestone in the field.\n* **OpenAI updates Codex app with new features**: The updated Codex app for macOS and Windows adds new features such as computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.\n* **OpenAI introduces GPT-Rosalind for life sciences research**: GPT-Rosalind is a new frontier reasoning model that can accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.\n* **NVIDIA launches Ising, the world's first open AI models for quantum computing**: NVIDIA has released Ising, a family of open-source AI models that can accelerate the path to useful quantum computers.\n\nTrend:\n**The AI industry is moving towards integrating AI across various industries, transforming how work gets done**. The recent developments in AI-driven manufacturing, creative intelligence, and cyber defense are examples of how AI is becoming a crucial tool for businesses and industries, leading to increased productivity, innovation, and efficiency."
 }
