@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-21T04:45:46.638Z",
+  "timestamp": "2026-04-22T04:43:16.961Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 10,
       "items": [
+        {
+          "subject": "Scaling Codex to enterprises worldwide",
+          "body": "OpenAI launches Codex Transformation Partners, a program with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle.",
+          "timestamp": "2026-04-21T14:00:02",
+          "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "OpenAI helps Hyatt advance AI among colleagues",
           "body": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
@@ -85,33 +94,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "OpenAI Engineer Helps Companies Attract Buyers and Boost Sales",
-          "body": "Like many engineers, Sarang Gupta spent his childhood tinkering with everyday items around the house. From a young age he gravitated to projects that could make a difference in someone’s everyday life.",
-          "timestamp": "2026-04-15T04:00:02",
-          "url": "https://spectrum.ieee.org/openai-engineer-sarang-gupta",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
-          }
-        },
-        {
-          "subject": "Trusted access for the next era of cyber defense",
-          "body": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
-          "timestamp": "2026-04-15T04:00:02",
-          "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Launches Ising, the World’s First Open AI Models to Accelerate the Path to Useful Quantum Computers",
-          "body": "NVIDIA today announced the world’s first family of open source quantum AI...",
-          "timestamp": "2026-04-15T04:00:02",
-          "url": "http://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -151,5 +133,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **Hyatt Deploys ChatGPT Enterprise**: Hyatt is using OpenAI's ChatGPT Enterprise to improve productivity, operations, and guest experiences across its global workforce.\n* **Adobe Accelerates Creative Intelligence**: Adobe is using AI agents powered by NVIDIA and WPP to transform the creative industry, accelerating breakthroughs in creative intelligence.\n* **NVIDIA Showcases AI-Driven Manufacturing**: NVIDIA and its partners showcased the future of AI-driven manufacturing at Hannover Messe 2026, highlighting the potential for AI to revolutionize the industry.\n* **OpenAI Updates Codex App**: OpenAI updated the Codex app to accelerate developer workflows, adding features such as computer use, in-app browsing, and image generation.\n* **OpenAI Introduces GPT-Rosalind**: OpenAI introduced GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, and scientific research workflows.\n* **NVIDIA Launches Ising**: NVIDIA launched Ising, the world's first open AI models to accelerate the path to useful quantum computers.\n\n**Trend:**\n**Accelerated Adoption of AI in Various Industries**: The current trend is the accelerated adoption of AI in various industries, including hospitality (Hyatt), creative industries (Adobe), manufacturing (NVIDIA), and life sciences (OpenAI). This suggests a growing recognition of the potential of AI to transform business operations, improve productivity, and drive innovation."
+  "summary": "**Key Developments:**\n\n* **OpenAI launches Codex Transformation Partners**: A program with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle.\n* **Hyatt deploys ChatGPT Enterprise**: Uses GPT-5.4 and Codex to improve productivity, operations, and guest experiences across its global workforce.\n* **Adobe and NVIDIA showcase AI-driven manufacturing**: Demonstrates the future of AI-driven manufacturing at Hannover Messe 2026, highlighting the potential of AI to transform the industry.\n* **OpenAI introduces GPT-Rosalind**: A frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows in life sciences research.\n* **NVIDIA and partners accelerate cyber defense ecosystem**: Leading security firms and enterprises join OpenAI's Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.\n* **OpenAI updates Agents SDK**: Introduces native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.\n\n**Trend:**\n\n* **Enterprise adoption of AI**: OpenAI's launch of Codex Transformation Partners and Hyatt's deployment of ChatGPT Enterprise indicate a growing trend of enterprise adoption of AI technologies, particularly in the software development and customer service spaces. This trend is likely to continue as more companies seek to leverage AI to improve productivity, operations, and guest experiences."
 }
