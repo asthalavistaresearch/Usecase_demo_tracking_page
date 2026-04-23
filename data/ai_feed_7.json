@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-22T08:17:56.383Z",
+  "timestamp": "2026-04-23T01:05:40.947Z",
   "categories": {
     "news": {
-      "count": 10,
+      "count": 13,
       "items": [
+        {
+          "subject": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
+          "body": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications...",
+          "timestamp": "2026-04-22T14:00:01",
+          "url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
+          "body": "NVIDIA and Google Cloud have collaborated for more than a decade, co‑engineering...",
+          "timestamp": "2026-04-22T14:00:01",
+          "url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Product Hunt Launch: ChatGPT Images 2.0",
+          "body": "First image model with thinking capabilities",
+          "timestamp": "2026-04-22T14:00:01",
+          "url": "https://www.producthunt.com/products/chatgpt-images-2-0",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "ChatGPT Images 2.0",
+          "body": "AI image generation with a thinking layer. Create, refine, and validate visuals in one flow. Supports flexible aspect ratios and multiple outputs per prompt, making it easier to go from idea to production-ready assets fast.",
+          "timestamp": "2026-04-22T04:00:01",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Scaling Codex to enterprises worldwide",
           "body": "OpenAI launches Codex Transformation Partners, a program with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle.",
@@ -85,20 +121,11 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "New Adobe Premiere Color Grading Mode Accelerated on NVIDIA GPUs",
-          "body": "The NAB Show 2026 trade show, running April 18-22 in Las Vegas...",
-          "timestamp": "2026-04-15T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-nab-adobe-premiere-color-mode/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 3,
+      "count": 1,
       "items": [
         {
           "subject": "nvidia/Lyra-2.0",
@@ -109,29 +136,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/audio-flamingo-next-hf",
-          "body": "[\"transformers\", \"safetensors\", \"audioflamingonext\", \"text-generation\", \"audio\", \"speech\", \"sound\", \"music\", \"reasoning\", \"audio understanding\", \"ASR\", \"audio captioning\", \"long-context\", \"audio-language-model\", \"long-audio\", \"timestamp-grounding\", \"instruction-tuned\", \"audio-text-to-text\", \"en\", \"dataset:nvidia/LongAudio\", \"dataset:nvidia/AF-Skills\", \"dataset:nvidia/AF-Chat\", \"dataset:nvidia/AF-Think\", \"arxiv:2604.10905\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-04-15T19:41:03",
-          "url": "https://huggingface.co/nvidia/audio-flamingo-next-hf",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/Gemma-4-31B-IT-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"gemma4\", \"nvidia\", \"ModelOpt\", \"Gemma-4-31B-IT\", \"lighthouse\", \"quantized\", \"NVFP4\", \"text-generation\", \"conversational\", \"base_model:google/gemma-4-31B-it\", \"base_model:quantized:google/gemma-4-31B-it\", \"license:other\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-04-15T18:52:34",
-          "url": "https://huggingface.co/nvidia/Gemma-4-31B-IT-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Based on the provided data, here are 6 key developments with insight and 1 trend:\n\n**Key Developments:**\n\n* **OpenAI Expands Codex to Enterprises**: OpenAI has launched Codex Transformation Partners, a program to help enterprises deploy and scale Codex across the software development lifecycle. This marks a significant expansion of Codex's capabilities and its potential applications in the enterprise space.\n* **Hyatt Deploys ChatGPT Enterprise**: Hyatt has deployed ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences. This deployment highlights the growing adoption of AI-powered tools in large organizations.\n* **Adobe and NVIDIA Collaborate on AI-Driven Manufacturing**: NVIDIA and Adobe have partnered to showcase the future of AI-driven manufacturing at Hannover Messe 2026. This collaboration reflects the growing importance of AI in manufacturing and the need for companies to develop and integrate AI technologies.\n* **OpenAI Introduces GPT-Rosalind**: OpenAI has introduced GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows. This model represents a significant advancement in the application of AI to scientific research.\n* **NVIDIA and Partners Showcase AI-Driven Cyber Defense**: NVIDIA has partnered with leading security firms and enterprises to accelerate the cyber defense ecosystem using GPT-5.4-Cyber and API grants. This initiative reflects the growing importance of AI in cyber defense and the need for companies to develop and integrate AI-powered security solutions.\n* **OpenAI Updates Agents SDK**: OpenAI has updated the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools. This update reflects the growing importance of developers in the AI ecosystem and the need for tools and platforms to support their work.\n\n**Trend:**\n\n* **Increased Adoption of AI in the Enterprise**: The data highlights a growing trend of AI adoption in the enterprise space, with companies like Hyatt deploying AI-powered tools across their global workforce and organizations like Adobe and NVIDIA partnering to showcase the future of AI-driven manufacturing. This trend reflects the increasing maturity of AI technologies and the need for companies to develop and integrate AI solutions to drive business value and improve productivity."
+  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **NVIDIA and Google Cloud Collaborate on AI**: NVIDIA and Google Cloud have collaborated to advance agentic and physical AI, enabling the development of more complex and intelligent AI systems.\n* **OpenAI Launches ChatGPT Images 2.0**: OpenAI has launched ChatGPT Images 2.0, an AI image generation model with thinking capabilities, allowing users to create, refine, and validate visuals in one flow.\n* **OpenAI Introduces GPT-Rosalind for Life Sciences Research**: OpenAI has introduced GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.\n* **Autonomous AI at Scale: Adobe Agents Unlock Breakthrough Creative Intelligence**: NVIDIA, Adobe, and WPP have developed AI agents that are transforming the creative industry, accelerating innovation and productivity.\n* **NVIDIA and Partners Showcase AI-Driven Manufacturing at Hannover Messe**: NVIDIA and its partners demonstrated the future of AI-driven manufacturing at Hannover Messe 2026, showcasing the potential of AI to transform the industry.\n* **Codex Updates and GPT-5.4 for Language Understanding**: OpenAI has updated its Codex app, adding new features to accelerate developer workflows, and has also introduced GPT-5.4 for language understanding tasks.\n\n**Trend:**\n\n* **AI Applications and Partnerships are Accelerating**: There is a clear trend of AI companies partnering with each other to accelerate innovation and develop more complex AI applications across various industries, from manufacturing and creative industries to life sciences and cyber defense."
 }
