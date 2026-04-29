@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-29T03:54:30.708Z",
+  "timestamp": "2026-04-29T05:22:53.538Z",
   "categories": {
     "news": {
-      "count": 22,
+      "count": 21,
       "items": [
         {
           "subject": "Choco automates food distribution with AI agents",
@@ -168,6 +168,15 @@
           }
         },
         {
+          "subject": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
+          "body": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications...",
+          "timestamp": "2026-04-22T14:00:01",
+          "url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
           "subject": "Product Hunt Launch: ChatGPT Images 2.0",
           "body": "First image model with thinking capabilities",
           "timestamp": "2026-04-22T14:00:01",
@@ -183,24 +192,6 @@
           "url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
           "extras": {
             "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
-          "body": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications...",
-          "timestamp": "2026-04-22T14:00:01",
-          "url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "ChatGPT Images 2.0",
-          "body": "AI image generation with a thinking layer. Create, refine, and validate visuals in one flow. Supports flexible aspect ratios and multiple outputs per prompt, making it easier to go from idea to production-ready assets fast.",
-          "timestamp": "2026-04-22T04:00:01",
-          "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
-          "extras": {
-            "data_origin": "OpenAI News"
           }
         }
       ]
@@ -221,5 +212,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 key developments with insight, along with one trend:\n\n**Key Developments:**\n\n* **Choco Automates Food Distribution with AI**: Choco, a food delivery startup, has successfully implemented an AI-powered system to streamline its food distribution process, resulting in increased productivity and growth.\n* **Microsoft and OpenAI End Exclusive Partnership**: Microsoft and OpenAI have ended their exclusive partnership, allowing OpenAI to offer its products across any cloud provider. Microsoft will still have non-exclusive rights to OpenAI technology through 2032.\n* **OpenAI Available at FedRAMP Moderate**: OpenAI has achieved FedRAMP Moderate authorization, enabling secure AI adoption for U.S. federal agencies.\n* **Codex 3.0 by OpenAI**: OpenAI has announced Codex 3.0, a new version of its Codex platform that can build, test, and debug on autopilot.\n* **ChatGPT Images 2.0**: OpenAI has introduced ChatGPT Images 2.0, a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.\n* **Workspace Agents in ChatGPT**: OpenAI has introduced workspace agents in ChatGPT, which can automate complex workflows, run in the cloud, and help teams scale work across tools securely.\n\n**Trend:**\n\n* **Increased Adoption of AI-Powered Automation**: The trend continues to grow with more companies and organizations adopting AI-powered automation solutions to streamline processes, increase productivity, and improve outcomes. This trend is expected to accelerate in the coming years as AI technology improves and becomes more accessible.\n\nInsight: The increasing adoption of AI-powered automation is transforming industries and organizations across the globe. As AI technology continues to evolve, we can expect to see more widespread adoption and integration of AI-powered automation in various sectors, leading to improved efficiency, productivity, and outcomes."
+  "summary": "**Key Developments:**\n\n* **Choco automates food distribution with AI agents**: Choco, a company that delivers fresh food to underserved communities, has implemented an AI-powered solution to streamline its food distribution process.\n* **OpenAI's Codex achieves AI agent breakthrough**: OpenAI's Codex, a tool that automates tasks, has reached a significant milestone, improving both the number and quality of tasks it can accomplish.\n* **Microsoft and OpenAI end exclusive partnership**: Microsoft and OpenAI have ended their exclusive partnership, allowing OpenAI to offer its products across any cloud provider.\n* **NVIDIA and Google Cloud collaborate on agentic and physical AI**: NVIDIA and Google Cloud have collaborated to advance agentic and physical AI, demonstrating their commitment to accelerating innovation in these fields.\n* **OpenAI achieves FedRAMP Moderate authorization**: OpenAI has secured authorization for its ChatGPT Enterprise and OpenAI API, enabling secure AI adoption for US federal agencies.\n* **New plugins and skills for Codex**: OpenAI has released new plugins and skills for Codex, enabling users to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.\n\n**Trend:**\n\n* **Increased focus on agentic and physical AI**: The trend in the news is towards increased focus on agentic and physical AI, with both NVIDIA and Google Cloud collaborating to advance this field and OpenAI achieving AI agent breakthroughs."
 }
