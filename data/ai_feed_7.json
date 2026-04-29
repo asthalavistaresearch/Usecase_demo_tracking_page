@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-28T05:27:07.894Z",
+  "timestamp": "2026-04-29T03:54:30.708Z",
   "categories": {
     "news": {
-      "count": 19,
+      "count": 22,
       "items": [
+        {
+          "subject": "Choco automates food distribution with AI agents",
+          "body": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+          "timestamp": "2026-04-28T04:00:02",
+          "url": "https://openai.com/index/choco",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "An open-source spec for orchestration: Symphony",
+          "body": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+          "timestamp": "2026-04-28T04:00:02",
+          "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI available at FedRAMP Moderate",
+          "body": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U. S. federal agencies.",
+          "timestamp": "2026-04-28T04:00:02",
+          "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
+          "body": "Microsoft and OpenAI are loosening their exclusive partnership, allowing OpenAI to offer its products across any cloud provider. Microsoft keeps non-exclusive rights to OpenAI technology through 2032, but will stop receiving a revenue share from OpenAI going forward, while still receiving capped payments through 2030 under existing agreements and remaining a major shareholder.",
+          "timestamp": "2026-04-28T04:00:02",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
+          "extras": {
+            "data_origin": "Bloomberg"
+          }
+        },
         {
           "subject": "The next phase of the Microsoft OpenAI partnership",
           "body": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
@@ -21,6 +57,15 @@
           "url": "https://www.producthunt.com/products/codex-3-0-by-openai",
           "extras": {
             "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "Plugins and skills",
+          "body": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://openai.com/academy/codex-plugins-and-skills",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -55,15 +100,6 @@
           "body": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
           "timestamp": "2026-04-24T04:00:02",
           "url": "https://openai.com/academy/working-with-codex",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Plugins and skills",
-          "body": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://openai.com/academy/codex-plugins-and-skills",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -166,15 +202,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Scaling Codex to enterprises worldwide",
-          "body": "OpenAI launches Codex Transformation Partners, a program with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle.",
-          "timestamp": "2026-04-21T14:00:02",
-          "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -194,5 +221,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* OpenAI and Microsoft announced an amended agreement that simplifies their partnership and provides long-term clarity for continued AI innovation at scale. This development suggests a strengthening of their collaboration, which can lead to accelerated advancements in AI technology.\n* OpenAI launched Codex 3.0, which can build, test, and debug on autopilot, enhancing its abilities as a developer tool. This upgrade indicates OpenAI's focus on improving its product offerings to support the growing demand for AI-powered automation.\n* OpenAI introduced ChatGPT Images 2.0, a state-of-the-art image generation model that incorporates multilingual support and advanced visual reasoning. This innovation underscores OpenAI's commitment to expanding its suite of AI tools, enabling developers to create more sophisticated visual content.\n* The company also released Codex, a platform that automates tasks, connects tools, and produces real outputs. Codex Transformation Partners, a program with major consultancies like Accenture and PwC, aims to help large enterprises deploy and scale Codex across the software development lifecycle.\n* OpenAI has also been working with NVIDIA on various AI initiatives, including collaboration on the development of Codex on NVIDIA infrastructure and NVIDIA's use of OpenAI's GPT-5.5 model. These partnerships demonstrate OpenAI's strategy to collaborate with industry leaders and leverage their resources to advance AI innovation.\n\n**Trend:**\n\nThe current trend in the AI space is the focus on large-scale, enterprise-level deployments of AI tools. OpenAI's efforts to partner with major consultancies and industry leaders, such as NVIDIA, Microsoft, and Accenture, highlight this trend. As AI becomes increasingly sophisticated and integrated into various industries, companies are investing in scaling their AI capabilities to support large-scale deployment and adoption. This trend is likely to continue, with a growing emphasis on creating AI solutions that can be easily integrated into existing workflows and infrastructure."
+  "summary": "Here are 4-6 key developments with insight, along with one trend:\n\n**Key Developments:**\n\n* **Choco Automates Food Distribution with AI**: Choco, a food delivery startup, has successfully implemented an AI-powered system to streamline its food distribution process, resulting in increased productivity and growth.\n* **Microsoft and OpenAI End Exclusive Partnership**: Microsoft and OpenAI have ended their exclusive partnership, allowing OpenAI to offer its products across any cloud provider. Microsoft will still have non-exclusive rights to OpenAI technology through 2032.\n* **OpenAI Available at FedRAMP Moderate**: OpenAI has achieved FedRAMP Moderate authorization, enabling secure AI adoption for U.S. federal agencies.\n* **Codex 3.0 by OpenAI**: OpenAI has announced Codex 3.0, a new version of its Codex platform that can build, test, and debug on autopilot.\n* **ChatGPT Images 2.0**: OpenAI has introduced ChatGPT Images 2.0, a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.\n* **Workspace Agents in ChatGPT**: OpenAI has introduced workspace agents in ChatGPT, which can automate complex workflows, run in the cloud, and help teams scale work across tools securely.\n\n**Trend:**\n\n* **Increased Adoption of AI-Powered Automation**: The trend continues to grow with more companies and organizations adopting AI-powered automation solutions to streamline processes, increase productivity, and improve outcomes. This trend is expected to accelerate in the coming years as AI technology improves and becomes more accessible.\n\nInsight: The increasing adoption of AI-powered automation is transforming industries and organizations across the globe. As AI technology continues to evolve, we can expect to see more widespread adoption and integration of AI-powered automation in various sectors, leading to improved efficiency, productivity, and outcomes."
 }
