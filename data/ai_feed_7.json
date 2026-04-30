@@ -1,10 +1,91 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-29T05:22:53.538Z",
+  "timestamp": "2026-04-30T00:46:37.928Z",
   "categories": {
     "news": {
-      "count": 21,
+      "count": 27,
       "items": [
+        {
+          "subject": "Cybersecurity in the Intelligence Age",
+          "body": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
+          "timestamp": "2026-04-29T14:00:02",
+          "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "‘The cost of compute is far beyond the costs of the employees’: Nvidia executive says right now AI is more expensive than paying human workers",
+          "body": "Big Tech has announced $740 billion in capex this year, but AI has yet to show evidence of widespread increased productivity.",
+          "timestamp": "2026-04-29T14:00:02",
+          "url": "https://fortune.com/2026/04/28/nvidia-executive-cost-of-ai-is-greater-than-cost-of-employees/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
+        {
+          "subject": "AWS: NVIDIA Nemotron 3 Nano Omni model now available on Amazon SageMaker JumpStart",
+          "body": "Today, we are excited to announce the day zero availability of NVIDIA...",
+          "timestamp": "2026-04-29T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-nano-omni-model-now-available-on-amazon-sagemaker-jumpstart/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "Together AI: Together AI Brings NVIDIA Nemotron 3 Nano Omni to Developers on Day 0",
+          "body": "NVIDIA Nemotron 3 Nano Omni is now on Together AI: a single open model that reasons across video, images, audio, and text, built for agentic workloads at scale.",
+          "timestamp": "2026-04-29T04:00:02",
+          "url": "https://www.together.ai/blog/together-ai-brings-nvidia-nemotron-3-nano-omni-to-developers-on-day-0",
+          "extras": {
+            "data_origin": "Together AI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents",
+          "body": "AI agent systems today juggle separate models for vision, speech and language...",
+          "timestamp": "2026-04-29T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "IEEE Medal of Honor Recipient Is NVIDIA's CEO Jensen Huang",
+          "body": "IEEE Spectrum",
+          "timestamp": "2026-04-29T04:00:02",
+          "url": "https://spectrum.ieee.org/2026-ieee-medal-of-honor",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "OpenAI models, Codex, and Managed Agents come to AWS",
+          "body": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+          "timestamp": "2026-04-29T04:00:02",
+          "url": "https://openai.com/index/openai-on-aws",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Our commitment to community safety",
+          "body": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+          "timestamp": "2026-04-29T04:00:02",
+          "url": "https://openai.com/index/our-commitment-to-community-safety",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Microsoft and OpenAI’s famed AGI agreement is dead",
+          "body": "OpenAI and Microsoft's partnership-turned-situationship just got even less committed. And a clause about artificial general intelligence, which has for years dictated the future of their deal, has officially been dropped. On Monday morning, Microsoft announce…",
+          "timestamp": "2026-04-29T04:00:02",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract",
+          "extras": {
+            "data_origin": "The Verge"
+          }
+        },
         {
           "subject": "Choco automates food distribution with AI agents",
           "body": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
@@ -60,15 +141,6 @@
           }
         },
         {
-          "subject": "Plugins and skills",
-          "body": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://openai.com/academy/codex-plugins-and-skills",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
           "subject": "OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work",
           "body": "AI agents have revolutionized developer workflows, and their next frontier is knowledge...",
           "timestamp": "2026-04-24T04:00:02",
@@ -105,6 +177,15 @@
           }
         },
         {
+          "subject": "Plugins and skills",
+          "body": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://openai.com/academy/codex-plugins-and-skills",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "Top 10 uses for Codex at work",
           "body": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
           "timestamp": "2026-04-24T04:00:02",
@@ -118,6 +199,15 @@
           "body": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
           "timestamp": "2026-04-24T04:00:02",
           "url": "https://openai.com/academy/codex-automations",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Introducing workspace agents in ChatGPT",
+          "body": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+          "timestamp": "2026-04-23T04:00:01",
+          "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -157,60 +247,54 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Introducing workspace agents in ChatGPT",
-          "body": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
-          "body": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications...",
-          "timestamp": "2026-04-22T14:00:01",
-          "url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Product Hunt Launch: ChatGPT Images 2.0",
-          "body": "First image model with thinking capabilities",
-          "timestamp": "2026-04-22T14:00:01",
-          "url": "https://www.producthunt.com/products/chatgpt-images-2-0",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
-        },
-        {
-          "subject": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
-          "body": "NVIDIA and Google Cloud have collaborated for more than a decade, co‑engineering...",
-          "timestamp": "2026-04-22T14:00:01",
-          "url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 1,
+      "count": 4,
       "items": [
         {
-          "subject": "openai/privacy-filter",
-          "body": "[\"transformers\", \"onnx\", \"safetensors\", \"openai_privacy_filter\", \"token-classification\", \"transformers.js\", \"license:apache-2.0\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-04-22T16:50:17",
-          "url": "https://huggingface.co/openai/privacy-filter",
+          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"feature-extraction\", \"nvidia\", \"pytorch\", \"multimodal\", \"any-to-any\", \"custom_code\", \"dataset:nvidia/Nemotron-Image-Training-v3\", \"arxiv:2604.24954\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-04-29T03:52:44",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
           "extras": {
             "data_origin": "huggingface",
-            "namespace": "openai"
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+          "body": "[\"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"nvidia\", \"multimodal\", \"custom_code\", \"arxiv:2604.24954\", \"base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"base_model:quantized:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-04-29T01:44:52",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+          "body": "[\"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"nvidia\", \"multimodal\", \"custom_code\", \"arxiv:2604.24954\", \"base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"base_model:quantized:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"license:other\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-04-29T01:44:35",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
+          "body": "[\"gguf\", \"nvidia\", \"unsloth\", \"nemotron-3\", \"multimodal\", \"text-generation\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"ja\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"base_model:quantized:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"imatrix\", \"conversational\"]",
+          "timestamp": "2026-04-28T16:14:16",
+          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "unsloth"
           }
         }
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **Choco automates food distribution with AI agents**: Choco, a company that delivers fresh food to underserved communities, has implemented an AI-powered solution to streamline its food distribution process.\n* **OpenAI's Codex achieves AI agent breakthrough**: OpenAI's Codex, a tool that automates tasks, has reached a significant milestone, improving both the number and quality of tasks it can accomplish.\n* **Microsoft and OpenAI end exclusive partnership**: Microsoft and OpenAI have ended their exclusive partnership, allowing OpenAI to offer its products across any cloud provider.\n* **NVIDIA and Google Cloud collaborate on agentic and physical AI**: NVIDIA and Google Cloud have collaborated to advance agentic and physical AI, demonstrating their commitment to accelerating innovation in these fields.\n* **OpenAI achieves FedRAMP Moderate authorization**: OpenAI has secured authorization for its ChatGPT Enterprise and OpenAI API, enabling secure AI adoption for US federal agencies.\n* **New plugins and skills for Codex**: OpenAI has released new plugins and skills for Codex, enabling users to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.\n\n**Trend:**\n\n* **Increased focus on agentic and physical AI**: The trend in the news is towards increased focus on agentic and physical AI, with both NVIDIA and Google Cloud collaborating to advance this field and OpenAI achieving AI agent breakthroughs."
+  "summary": "**Key Developments:**\n\n* **NVIDIA releases Nemotron 3 Nano Omni model**: A unified, multimodal AI agent that can reason across video, images, audio, and text, designed for efficient AI agent systems.\n* **OpenAI announces partnership with AWS**: OpenAI models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.\n* **Microsoft and OpenAI end exclusive partnership**: Microsoft and OpenAI are loosening their exclusive partnership, allowing OpenAI to offer its products across any cloud provider.\n* **NVIDIA's CEO Jensen Huang receives IEEE Medal of Honor**: NVIDIA's CEO Jensen Huang was awarded the IEEE Medal of Honor for his contributions to the development of AI and computer vision.\n* **OpenAI announces new features and integrations**: OpenAI has announced several new features and integrations, including ChatGPT Images 2.0, OpenAI Privacy Filter, and workspace agents in ChatGPT.\n\n**Trend:**\nThe increasing focus on AI and machine learning (ML) has led to a surge in the development of AI models and platforms. This trend is expected to continue, with major players like NVIDIA, OpenAI, and Microsoft investing heavily in AI research and development. The integration of AI and ML into various industries, including healthcare, finance, and education, is also expected to drive growth in the AI market."
 }
