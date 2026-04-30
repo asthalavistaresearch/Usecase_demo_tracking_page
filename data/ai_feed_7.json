@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-30T00:46:37.928Z",
+  "timestamp": "2026-04-30T05:26:51.214Z",
   "categories": {
     "news": {
-      "count": 27,
+      "count": 22,
       "items": [
         {
           "subject": "Cybersecurity in the Intelligence Age",
@@ -87,19 +87,19 @@
           }
         },
         {
-          "subject": "Choco automates food distribution with AI agents",
-          "body": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+          "subject": "An open-source spec for orchestration: Symphony",
+          "body": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
           "timestamp": "2026-04-28T04:00:02",
-          "url": "https://openai.com/index/choco",
+          "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "An open-source spec for orchestration: Symphony",
-          "body": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+          "subject": "Choco automates food distribution with AI agents",
+          "body": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
           "timestamp": "2026-04-28T04:00:02",
-          "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+          "url": "https://openai.com/index/choco",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -138,6 +138,15 @@
           "url": "https://www.producthunt.com/products/codex-3-0-by-openai",
           "extras": {
             "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "Automations",
+          "body": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+          "timestamp": "2026-04-24T04:00:02",
+          "url": "https://openai.com/academy/codex-automations",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -193,60 +202,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Automations",
-          "body": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://openai.com/academy/codex-automations",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing workspace agents in ChatGPT",
-          "body": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing ChatGPT Images 2.0",
-          "body": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing OpenAI Privacy Filter",
-          "body": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/index/introducing-openai-privacy-filter",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Speeding up agentic workflows with WebSockets in the Responses API",
-          "body": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Workspace agents",
-          "body": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-          "timestamp": "2026-04-23T04:00:01",
-          "url": "https://openai.com/academy/workspace-agents",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -296,5 +251,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **NVIDIA releases Nemotron 3 Nano Omni model**: A unified, multimodal AI agent that can reason across video, images, audio, and text, designed for efficient AI agent systems.\n* **OpenAI announces partnership with AWS**: OpenAI models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.\n* **Microsoft and OpenAI end exclusive partnership**: Microsoft and OpenAI are loosening their exclusive partnership, allowing OpenAI to offer its products across any cloud provider.\n* **NVIDIA's CEO Jensen Huang receives IEEE Medal of Honor**: NVIDIA's CEO Jensen Huang was awarded the IEEE Medal of Honor for his contributions to the development of AI and computer vision.\n* **OpenAI announces new features and integrations**: OpenAI has announced several new features and integrations, including ChatGPT Images 2.0, OpenAI Privacy Filter, and workspace agents in ChatGPT.\n\n**Trend:**\nThe increasing focus on AI and machine learning (ML) has led to a surge in the development of AI models and platforms. This trend is expected to continue, with major players like NVIDIA, OpenAI, and Microsoft investing heavily in AI research and development. The integration of AI and ML into various industries, including healthcare, finance, and education, is also expected to drive growth in the AI market."
+  "summary": "**Key Developments:**\n\n* OpenAI has outlined a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.\n* NVIDIA has released its Nemotron 3 Nano Omni model, a single open model that reasons across video, images, audio, and text, built for agentic workloads at scale.\n* OpenAI models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.\n* Microsoft and OpenAI have renegotiated their contract, ending their exclusive and revenue-sharing deal, allowing OpenAI to offer its products across any cloud provider.\n* NVIDIA CEO Jensen Huang has received the IEEE Medal of Honor.\n* OpenAI has announced the availability of its products at FedRAMP Moderate authorization, enabling secure AI adoption for U.S. federal agencies.\n\n**Trend:**\n**Increased Adoption of AI and Multimodal Models:** The trend observed is the increasing adoption of AI and multimodal models, such as NVIDIA's Nemotron 3 Nano Omni model, which can reason across multiple modalities. This trend is driven by the need for more efficient and effective AI agents, as well as the growing demand for secure AI adoption in various industries."
 }
