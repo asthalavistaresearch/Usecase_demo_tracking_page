@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-04-30T05:26:51.214Z",
+  "timestamp": "2026-05-01T05:38:31.775Z",
   "categories": {
     "news": {
-      "count": 22,
+      "count": 18,
       "items": [
+        {
+          "subject": "It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power",
+          "body": "It’s gonna be May — and the cloud’s in full festival mode...",
+          "timestamp": "2026-04-30T14:00:02",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-may-2026-games-list/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Sets Conference Call for First-Quarter Financial Results",
+          "body": "Written CFO Commentary to Be Provided Ahead of Call: SANTA CLARA, Calif., April...",
+          "timestamp": "2026-04-30T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-first-quarter-financial-results-6919947",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Building the compute infrastructure for the Intelligence Age",
+          "body": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+          "timestamp": "2026-04-30T04:00:02",
+          "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Cybersecurity in the Intelligence Age",
           "body": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
@@ -21,6 +48,15 @@
           "url": "https://fortune.com/2026/04/28/nvidia-executive-cost-of-ai-is-greater-than-cost-of-employees/",
           "extras": {
             "data_origin": "Fortune"
+          }
+        },
+        {
+          "subject": "IEEE Medal of Honor Recipient Is NVIDIA's CEO Jensen Huang",
+          "body": "IEEE Spectrum",
+          "timestamp": "2026-04-29T04:00:02",
+          "url": "https://spectrum.ieee.org/2026-ieee-medal-of-honor",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -46,15 +82,6 @@
           "body": "AI agent systems today juggle separate models for vision, speech and language...",
           "timestamp": "2026-04-29T04:00:02",
           "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "IEEE Medal of Honor Recipient Is NVIDIA's CEO Jensen Huang",
-          "body": "IEEE Spectrum",
-          "timestamp": "2026-04-29T04:00:02",
-          "url": "https://spectrum.ieee.org/2026-ieee-medal-of-honor",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -87,19 +114,19 @@
           }
         },
         {
-          "subject": "An open-source spec for orchestration: Symphony",
-          "body": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+          "subject": "Choco automates food distribution with AI agents",
+          "body": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
           "timestamp": "2026-04-28T04:00:02",
-          "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+          "url": "https://openai.com/index/choco",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Choco automates food distribution with AI agents",
-          "body": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+          "subject": "An open-source spec for orchestration: Symphony",
+          "body": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
           "timestamp": "2026-04-28T04:00:02",
-          "url": "https://openai.com/index/choco",
+          "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -138,69 +165,6 @@
           "url": "https://www.producthunt.com/products/codex-3-0-by-openai",
           "extras": {
             "data_origin": "Product Hunt"
-          }
-        },
-        {
-          "subject": "Automations",
-          "body": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://openai.com/academy/codex-automations",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work",
-          "body": "AI agents have revolutionized developer workflows, and their next frontier is knowledge...",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "How to get started with Codex",
-          "body": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://openai.com/academy/codex-how-to-start",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "What is Codex?",
-          "body": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://openai.com/academy/what-is-codex",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Working with Codex",
-          "body": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://openai.com/academy/working-with-codex",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Plugins and skills",
-          "body": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://openai.com/academy/codex-plugins-and-skills",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Top 10 uses for Codex at work",
-          "body": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-          "timestamp": "2026-04-24T04:00:02",
-          "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-          "extras": {
-            "data_origin": "OpenAI News"
           }
         }
       ]
@@ -251,5 +215,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* OpenAI has outlined a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.\n* NVIDIA has released its Nemotron 3 Nano Omni model, a single open model that reasons across video, images, audio, and text, built for agentic workloads at scale.\n* OpenAI models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.\n* Microsoft and OpenAI have renegotiated their contract, ending their exclusive and revenue-sharing deal, allowing OpenAI to offer its products across any cloud provider.\n* NVIDIA CEO Jensen Huang has received the IEEE Medal of Honor.\n* OpenAI has announced the availability of its products at FedRAMP Moderate authorization, enabling secure AI adoption for U.S. federal agencies.\n\n**Trend:**\n**Increased Adoption of AI and Multimodal Models:** The trend observed is the increasing adoption of AI and multimodal models, such as NVIDIA's Nemotron 3 Nano Omni model, which can reason across multiple modalities. This trend is driven by the need for more efficient and effective AI agents, as well as the growing demand for secure AI adoption in various industries."
+  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Developments:**\n\n* **NVIDIA GeForce RTX 5080 Power**: 16 games will be available on the cloud in May, powered by NVIDIA GeForce RTX 5080 graphics.\n* **NVIDIA Nemotron 3 Nano Omni**: NVIDIA has launched a new multimodal AI agent system, Nemotron 3 Nano Omni, which can reason across video, images, audio, and text.\n* **OpenAI on AWS**: OpenAI models, Codex, and Managed Agents are now available on Amazon Web Services (AWS), enabling enterprises to build secure AI in their AWS environments.\n* **Microsoft and OpenAI Partnership**: Microsoft and OpenAI have renegotiated their partnership, simplifying the agreement and adding long-term clarity.\n* **Codex 3.0**: OpenAI has launched Codex 3.0, a new version of its AI coding assistant, which can now build, test, and debug code on autopilot.\n* **Cybersecurity in the Intelligence Age**: OpenAI has outlined a five-part action plan for strengthening cybersecurity in the Intelligence Age, focusing on democratizing AI-powered cyber defense and protecting critical systems.\n\n**Trend:**\n\n* **Cloud Gaming and AI**: The trend is towards cloud gaming and AI, with NVIDIA, OpenAI, and Microsoft leading the way. The availability of 16 games on the cloud in May, powered by NVIDIA GeForce RTX 5080 graphics, and the launch of Nemotron 3 Nano Omni, a multimodal AI agent system, indicate a significant shift towards cloud-based gaming and AI."
 }
