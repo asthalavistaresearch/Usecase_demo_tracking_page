@@ -1,6 +1,6 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-02T04:55:51.302Z",
+  "timestamp": "2026-05-03T05:26:53.645Z",
   "categories": {
     "news": {
       "count": 17,
@@ -161,23 +161,13 @@
       ]
     },
     "models": {
-      "count": 4,
+      "count": 5,
       "items": [
         {
-          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"feature-extraction\", \"nvidia\", \"pytorch\", \"multimodal\", \"any-to-any\", \"custom_code\", \"dataset:nvidia/Nemotron-Image-Training-v3\", \"arxiv:2604.24954\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-04-29T03:52:44",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
-          "body": "[\"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"nvidia\", \"multimodal\", \"custom_code\", \"arxiv:2604.24954\", \"base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"base_model:quantized:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-04-29T01:44:52",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+          "subject": "nvidia/Gemma-4-26B-A4B-NVFP4",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"gemma4\", \"nvidia\", \"ModelOpt\", \"quantized\", \"NVFP4\", \"nvfp4\", \"gemma4-26b-A4B-it\", \"text-generation\", \"conversational\", \"base_model:google/gemma-4-26B-A4B-it\", \"base_model:quantized:google/gemma-4-26B-A4B-it\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-05-01T21:59:53",
+          "url": "https://huggingface.co/nvidia/Gemma-4-26B-A4B-NVFP4",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -185,9 +175,29 @@
         },
         {
           "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
-          "body": "[\"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"nvidia\", \"multimodal\", \"custom_code\", \"arxiv:2604.24954\", \"base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"base_model:quantized:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"license:other\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-04-29T01:44:35",
+          "body": "[\"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"nvidia\", \"multimodal\", \"any-to-any\", \"custom_code\", \"arxiv:2604.24954\", \"base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"base_model:quantized:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"license:other\", \"modelopt\", \"deploy:azure\", \"region:us\"]",
+          "timestamp": "2026-05-01T20:14:23",
           "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+          "body": "[\"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"nvidia\", \"multimodal\", \"any-to-any\", \"custom_code\", \"arxiv:2604.24954\", \"base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"base_model:quantized:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"license:other\", \"8-bit\", \"modelopt\", \"deploy:azure\", \"region:us\"]",
+          "timestamp": "2026-05-01T20:13:49",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"feature-extraction\", \"nvidia\", \"pytorch\", \"multimodal\", \"any-to-any\", \"custom_code\", \"dataset:nvidia/Nemotron-Image-Training-v3\", \"arxiv:2604.24954\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-04-29T03:52:44",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -206,5 +216,5 @@
       ]
     }
   },
-  "summary": "Here are four to six key points and one trend with insight:\n\n**Key Points:**\n\n* **16 new games will be available on the cloud in May, powered by NVIDIA GeForce RTX 5080 graphics**. This includes titles such as Middle-earth: Shadow of War and Cygnus, which are expected to offer high-quality graphics and seamless gameplay.\n* **NVIDIA has released its Nemotron 3 Nano Omni model**, a multimodal AI agent that can perform tasks across multiple domains, including vision, speech, and language. This model has been released on Amazon SageMaker JumpStart and Together AI, and is expected to enhance AI-powered applications.\n* **OpenAI has expanded its partnership with AWS to offer its GPT models, Codex, and Managed Agents**. This will enable enterprises to build secure AI in their AWS environments, further expanding the adoption of AI-powered applications.\n* **NVIDIA's CEO, Jensen Huang, has been awarded the IEEE Medal of Honor** for his contributions to the field of technology, specifically for his work on AI and graphics processing.\n* **OpenAI has ended its exclusive partnership with Microsoft**, which will allow the company to offer its products across any cloud provider. Microsoft will no longer receive a revenue share from OpenAI, but will retain non-exclusive rights to OpenAI technology through 2032.\n* **The OpenAI API is now available at FedRAMP Moderate authorization**, enabling secure AI adoption for U.S. federal agencies.\n\n**Trend:** **The shift towards cloud-based AI is accelerating**. With the release of the NVIDIA GeForce RTX 5080, the expansion of OpenAI's partnership with AWS, and the availability of Nemotron 3 Nano Omni on Amazon SageMaker JumpStart, it's clear that cloud-based AI is becoming increasingly prominent. This trend is driven by the need for scalability, flexibility, and security in AI-powered applications, and is expected to continue in the coming months."
+  "summary": "Here are the key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **NVIDIA's Cloud Expansion**: 16 new games will be added to NVIDIA's cloud gaming service, GeForce Now, in May, with more NVIDIA GeForce RTX 5080 power.\n* **NVIDIA's Nemotron 3 Nano Omni Model**: NVIDIA has launched a new model, Nemotron 3 Nano Omni, which unifies vision, audio, and language for up to 9x more efficient AI agents.\n* **OpenAI's Expansion**: OpenAI has made its GPT models, Codex, and Managed Agents available on AWS, enabling enterprises to build secure AI in their AWS environments.\n* **Microsoft and OpenAI's Partnership Update**: Microsoft and OpenAI have renegotiated their exclusive partnership, allowing OpenAI to offer its products across any cloud provider.\n* **Trend: AI Compute Infrastructure**: There is a growing trend of investing in compute infrastructure for Artificial General Intelligence (AGI). OpenAI has scaled its Stargate compute infrastructure to build the compute infrastructure powering AGI, and companies like NVIDIA and Amazon Web Services (AWS) are also investing heavily in this space.\n* **Cybersecurity in AI**: OpenAI has outlined a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.\n* **Choco automates food distribution with AI agents**: Choco, a food delivery company, has used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth.\n\n**Trend:** The investment in AI compute infrastructure for AGI is gaining momentum, with companies like OpenAI, NVIDIA, and AWS leading the charge. This trend is expected to continue in the near future, as AGI becomes a key focus area for innovation and growth."
 }
