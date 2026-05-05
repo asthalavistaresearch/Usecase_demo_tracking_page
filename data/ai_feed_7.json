@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-05T02:20:06.985Z",
+  "timestamp": "2026-05-05T04:56:58.359Z",
   "categories": {
     "news": {
-      "count": 16,
+      "count": 12,
       "items": [
         {
           "subject": "It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power",
@@ -112,42 +112,6 @@
           "extras": {
             "data_origin": "AWS AI News"
           }
-        },
-        {
-          "subject": "Microsoft and OpenAI end their exclusive and revenue-sharing deal",
-          "body": "Microsoft and OpenAI are loosening their exclusive partnership, allowing OpenAI to offer its products across any cloud provider. Microsoft keeps non-exclusive rights to OpenAI technology through 2032, but will stop receiving a revenue share from OpenAI going forward, while still receiving capped payments through 2030 under existing agreements and remaining a major shareholder.",
-          "timestamp": "2026-04-28T04:00:02",
-          "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
-          "extras": {
-            "data_origin": "Bloomberg"
-          }
-        },
-        {
-          "subject": "OpenAI available at FedRAMP Moderate",
-          "body": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U. S. federal agencies.",
-          "timestamp": "2026-04-28T04:00:02",
-          "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "An open-source spec for orchestration: Symphony",
-          "body": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
-          "timestamp": "2026-04-28T04:00:02",
-          "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Choco automates food distribution with AI agents",
-          "body": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
-          "timestamp": "2026-04-28T04:00:02",
-          "url": "https://openai.com/index/choco",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -207,5 +171,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 key developments summarized with insight, along with a trend:\n\n**Key Developments:**\n\n1. **NVIDIA Releases GT 5080-Powered Cloud Gaming Services**: NVIDIA has announced the launch of 16 new games on its cloud gaming platform, with more to come in May. This is a significant development for cloud gaming, allowing users to access high-quality games on demand without the need for expensive hardware.\n2. **OpenAI Expands Compute Infrastructure**: OpenAI has scaled its compute infrastructure to meet growing demand for AI services. This expansion will enable the company to handle larger and more complex AI workloads, driving innovation in areas like natural language processing and computer vision.\n3. **Microsoft and OpenAI Part Ways**: Microsoft and OpenAI are renegotiating their exclusive partnership, allowing OpenAI to offer its products across any cloud provider. This move reflects changing market dynamics and the need for greater flexibility in the AI space.\n4. **NVIDIA Unveils Nemotron 3 Nano Omni Multimodal AI Agents**: NVIDIA has released Nemotron 3 Nano Omni, a unified AI agent system that integrates vision, audio, and language capabilities. This breakthrough has the potential to revolutionize agentic workloads at scale, enabling more efficient and effective AI decision-making.\n5. **AWS Integrates Nemotron 3 Nano Omni Model**: Amazon Web Services (AWS) has made Nemotron 3 Nano Omni available on its platform, allowing developers to access this powerful AI agent system. This integration will enable seamless deployment and scaling of AI workloads on AWS.\n6. **Choco Automates Food Distribution with AI Agents**: OpenAI customer Choco has successfully implemented AI agents to streamline food distribution, boosting productivity and growth. This success story highlights the real-world impact of AI on business operations and decision-making.\n\n**Trend:**\n\n* **AI Infrastructure Expands to Meet Growing Demand**: The AI industry is witnessing rapid growth in compute infrastructure, with companies like OpenAI, NVIDIA, and AWS expanding their capabilities to meet the increasing demand for AI services. This trend is driven by the proliferation of AI applications across industries, from healthcare and finance to retail and logistics. As AI adoption continues to rise, the need for scalable and efficient compute infrastructure will become even more pressing."
+  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **NVIDIA's Nemotron 3 Nano Omni Model**: NVIDIA has launched its Nemotron 3 Nano Omni model, which is a single open model that can reason across video, images, audio, and text, built for agentic workloads at scale. This model is now available on multiple platforms, including Together AI, Amazon SageMaker JumpStart, and Hugging Face.\n* **OpenAI's Compute Infrastructure Expansion**: OpenAI has scaled its Stargate to build the compute infrastructure powering Artificial General Intelligence (AGI), adding new data center capacity to meet growing AI demand.\n* **OpenAI's Partnership Status with Microsoft**: OpenAI and Microsoft have reneguated their contract, effectively ending their partnership on artificial general intelligence (AGI).\n* **Security Concerns**: OpenAI has outlined a five-part plan for strengthening cybersecurity in the Intelligence Age, democratizing AI-powered cyber defense and protecting critical systems.\n* **GPU News**: NVIDIA has announced 16 new games that will be supported by the cloud this month, including more power from its GeForce RTX 5080 GPU.\n* **NVIDIA's CFO Commentary**: NVIDIA's CFO will provide written commentary ahead of the company's first-quarter financial results.\n\n**Trend:**\n\n* **Increasing Investment in AI Infrastructure**: The trend is clear: companies like NVIDIA and OpenAI are heavily investing in the development of AI infrastructure, including compute infrastructure, models, and partnerships to drive the growth of AI capabilities. This suggests a continued focus on the rapid development and deployment of AI technology in various industries."
 }
