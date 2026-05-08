@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-07T11:12:13.345Z",
+  "timestamp": "2026-05-08T04:50:57.307Z",
   "categories": {
     "news": {
-      "count": 9,
+      "count": 11,
       "items": [
+        {
+          "subject": "Chatbots Need Guardrails to Prevent Delusions and Psychosis",
+          "body": "Millions of people worldwide are turning to chatbots like ChatGPT or Claude, and a proliferating class of specialized AI companionship apps for friendship, therapy or even romance. While some users report psychological benefits from these simulated...",
+          "timestamp": "2026-05-07T04:00:02",
+          "url": "https://spectrum.ieee.org/mental-health-chatbot-guardrails",
+          "extras": {
+            "data_origin": "IEEE Spectrum"
+          }
+        },
+        {
+          "subject": "Introducing ChatGPT Futures: Class of 2026",
+          "body": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
+          "timestamp": "2026-05-07T04:00:02",
+          "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+          "body": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
+          "timestamp": "2026-05-07T04:00:02",
+          "url": "https://openai.com/index/singular-bank",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
           "body": "The race to build the world’s most powerful AI factories demands networking...",
@@ -76,21 +103,111 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power",
-          "body": "It’s gonna be May — and the cloud’s in full festival mode...",
-          "timestamp": "2026-04-30T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-may-2026-games-list/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 8,
+      "count": 17,
       "items": [
+        {
+          "subject": "Curated AI beats frontier LLMs at pharma asset discovery",
+          "body": "General-purpose LLMs with web search are increasingly used to scout the competitive landscape of pharmaceutical pipelines. We benchmark Gosset -- an AI platform with a chat interface backed by curated target-, modality-, and indication-level drug-asset annotations -- against four frontier systems with web access (Claude Opus 4.7, GPT 5.5, Gemini 3.1 Pro, Perplexity sonar-pro) on ten niche oncology/immunology targets where most of the pipeline lives in the long tail of preclinical and Asian-developed assets. All five systems receive the same natural-language query and the same JSON output schema. Across 10 targets Gosset returns 3.2x more verified drugs per query than the best frontier system, at perfect precision and 100% recall against the cross-system union of verified drugs. The same curated index is exposed as a Gosset MCP server that any frontier model can call as a tool, suggesting that each of these systems can close most of the recall gap by swapping generic web search for a curated index behind the same chat interface.",
+          "timestamp": "2026-05-06T13:36:25",
+          "url": "https://arxiv.org/abs/2605.04908v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Łukasz Kidziński, Kevin Thomas",
+            "updated": "2026-05-06T13:36:25"
+          }
+        },
+        {
+          "subject": "A geometric relation of the error introduced by sampling a language model's output distribution to its internal state",
+          "body": "GPT-style language models are sensitive to single-token changes at generation points where the predicted probability distribution is spread across multiple tokens. Viewing this sensitivity as a geometric property, we derive an $\\mathfrak{so}(n)$-valued 1-form that depends only on the geometry of the token embeddings. Despite this purely geometric origin, we show that its curvature is semantically meaningful: On chess reasoning tasks, the curvature couples to the world model of an off-the-shelf instruction-tuned model, with transformations clustering by board region and respecting piece importance. Our findings suggest that token space geometry directly reflects how models internally represent problems.",
+          "timestamp": "2026-05-06T13:28:16",
+          "url": "https://arxiv.org/abs/2605.04899v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Albert F. Modenbach",
+            "updated": "2026-05-06T13:28:16"
+          }
+        },
+        {
+          "subject": "AISSA: Implementation and Deployment of an AI-based Student Slides Analysis tool for Academic Presentations",
+          "body": "Providing timely and actionable feedback on oral presentation slides is challenging in higher education, particularly in large classes where teachers cannot realistically deliver detailed formative feedback before students present. This paper introduces AISSA (AI-based Student Slides Analysis tool), a web-based system that combines large language models (LLMs) and Learning Analytics dashboards to support scalable, rubric-based feedback on presentation slides. AISSA allows students to upload their slide decks prior to an oral presentation and automatically receive quantitative scores and qualitative feedback based on teacher-defined evaluation rubrics. The system analyzes both slide-level features and slide content, generates structured feedback through an LLM (ChatGPT 5.2), and presents the results through interactive dashboards for students and teachers. We tested AISSA on a pilot deployment with 46 undergraduate students in a real academic setting. The results indicate that AISSA is technically reliable, economically feasible, and perceived by students as useful for iterative slide improvement. These findings suggest that combining LLM-based analysis with Learning Analytics dashboards is a promising approach for supporting formative feedback on presentation slides at scale.",
+          "timestamp": "2026-05-06T10:30:27",
+          "url": "https://arxiv.org/abs/2605.04729v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Alvaro Becerra, Diego Gomez, Ruth Cobos",
+            "updated": "2026-05-06T10:30:27"
+          }
+        },
+        {
+          "subject": "Generative Quantum-inspired Kolmogorov-Arnold Eigensolver",
+          "body": "High-performance computing (HPC) is increasingly important for scalable quantum chemistry workflows that couple classical generative models, quantum circuit simulation, and selected configuration interaction postprocessing. We present the generative quantum-inspired Kolmogorov-Arnold eigensolver (GQKAE), a parameter-efficient extension of the generative quantum eigensolver (GQE) for quantum chemistry. GQKAE replaces the parameter-heavy feed-forward network components in GPT-style generative eigensolvers with hybrid quantum-inspired Kolmogorov-Arnold network modules, forming a compact HQKANsformer backbone. The method preserves autoregressive operator selection and the quantum-selected configuration interaction evaluation pipeline, while using single-qubit DatA Re-Uploading ActivatioN modules to provide expressive nonlinear mappings. Numerical benchmarks on H4, N2, LiH, C2H6, H2O, and the H2O dimer show that GQKAE achieves chemical accuracy comparable to the GPT-based GQE architecture, while reducing trainable parameters and memory by approximately 66% and improving wall-time performance. For strongly correlated systems such as N2 and LiH, GQKAE also improves convergence behavior and final energy errors. These results indicate that quantum-inspired Kolmogorov-Arnold networks can reduce classical-side overhead while preserving circuit-generation quality, offering a scalable route for HPC-quantum co-design on near-term quantum platforms.",
+          "timestamp": "2026-05-06T07:53:55",
+          "url": "https://arxiv.org/abs/2605.04604v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Yu-Cheng Lin, Yu-Chao Hsu, I-Shan Tsai, Chun-Hua Lin, Kuo-Chung Peng, Jiun-Cheng Jiang, Yun-Yuan Wang, Tzung-Chi Huang, Tai-Yue Li, Kuan-Cheng Chen, Samuel Yen-Chi Chen, Nan-Yow Chen",
+            "updated": "2026-05-06T07:53:55"
+          }
+        },
+        {
+          "subject": "Benchmarking LLMs on the Massive Sound Embedding Benchmark (MSEB)",
+          "body": "The Massive Sound Embedding Benchmark (MSEB) has emerged as a standard for evaluating the functional breadth of audio models. While initial baselines focused on specialized encoders, the shift toward \"audio-native\" Large Language Models (LLMs) suggests a new paradigm where a single multimodal backbone may replace complex, task-specific pipelines. This paper provides a rigorous empirical evaluation of leading LLMs - including members from the Gemini and GPT families - across the eight core MSEB capabilities to assess their efficacy and audio-text parity. Our results indicate that while a significant modality gap persists regarding performance and robustness, the empirical evidence for an \"optimal\" modeling approach remains inconclusive. Ultimately, the choice between audionative and cascaded architectures depends heavily on specific use-case requirements and the underlying assumptions regarding latency, cost, and reasoning depth.",
+          "timestamp": "2026-05-06T06:58:45",
+          "url": "https://arxiv.org/abs/2605.04556v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Cyril Allauzen, Tom Bagby, Georg Heigold, Ehsan Variani, Ke Wu",
+            "updated": "2026-05-06T06:58:45"
+          }
+        },
+        {
+          "subject": "RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge-Orchestrated LLM Ensemble for Faithful Multi-Turn Response Generation",
+          "body": "We present our winning system for Task~B (generation with reference passages) in SemEval-2026 Task~8: MTRAGEval. Our method is a heterogeneous ensemble of seven LLMs with two prompting variants, where a GPT-4o-mini judge selects the best candidate per instance. We ranked 1st out of 26 teams, achieving a conditioned harmonic mean of 0.7827 and outperforming the strongest baseline (gpt-oss-120b, 0.6390). Ablations show that diversity in model families, scales, and prompting strategies is essential, with the ensemble consistently beating any single model. We also introduce Meno-Lite-0.1, a 7B domain-adapted model with a strong cost--performance trade-off, and analyse MTRAGEval, highlighting annotation limitations and directions for improvement. Our code is publicly available: https://github.com/RaguTeam/ragu_mtrag_semeval",
+          "timestamp": "2026-05-06T06:04:37",
+          "url": "https://arxiv.org/abs/2605.04523v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Ivan Bondarenko, Roman Derunets, Oleg Sedukhin, Mikhail Komarov, Ivan Chernov, Mikhail Kulakov",
+            "updated": "2026-05-06T06:04:37"
+          }
+        },
+        {
+          "subject": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Models",
+          "body": "We evaluate whether enabling provider-exposed reasoning mode changes moral judgments within the same model checkpoint. Across 100 moral-judgment scenarios and five frontier reasoning-trained LLMs (Claude Sonnet 4.6, GPT 5.5, Gemini 3 Flash, DeepSeek V3.1, and Qwen3.5 397B), aggregate binary-verdict agreement remains high and statistically indistinguishable between instant and thinking modes (Krippendorff's alpha = 0.78 vs. 0.79). However, disagreement is concentrated in 21 model-disputed scenarios, where instant-mode agreement is near chance (alpha = 0.08). On these scenarios, reasoning directionally narrows cross-model disagreement, increasing mean pairwise agreement from 5.4 to 6.7 out of 10. Reasoning also reduces demographic-judgment inconsistency in three of five models and does not increase it for any model. Across all five model families, reasoning changes self-labeled ethical frameworks more often than binary verdicts.",
+          "timestamp": "2026-05-06T04:33:04",
+          "url": "https://arxiv.org/abs/2605.04488v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Sai Sourabh Madur",
+            "updated": "2026-05-06T04:33:04"
+          }
+        },
+        {
+          "subject": "Not All That Is Fluent Is Factual: Investigating Hallucinations of Large Language Models in Academic Writing",
+          "body": "Large Language models (LLMs) show extraordinary abilities, but they are still prone to hallucinations, especially when we use them for generating Academic content. We have investigated four popular LLMs, ChatGPT, Grok, Gemini, and Copilot for hallucinations specifically for academic writing. We have designed 80 prompts across four categories, namely, reference generation, factual explanation, abstract generation, and writing improvement. We evaluated the model using a 0-5 rubric score, which checks factual accuracy, reference validity, coherence, style consistency, and academic tone. A novel weighted metric, Hallucination Index (HI), was introduced to measure hallucination in the responses generated by the models. Some of the most widely used evaluation metrics often fail to check errors which alter sentiment in machine-translated text. We found that Grok and Copilot perform better on reference generation tasks, but they often struggle with abstract or stylistic prompts, with HI values of 0.67 and 0.70, respectively. Whereas, Gemini and ChatGPT have done well with having stronger tone control, but they lack in writing factual tasks and higher hallucination risk with HI scores of 0.53 and 0.57, respectively. Our study found that hallucination behavior does not depend solely on model architecture but also on the type of task and the prompting conditions we are providing. We propose that our work opens new research dimensions for future researchers.",
+          "timestamp": "2026-05-05T18:08:15",
+          "url": "https://arxiv.org/abs/2605.04171v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Humam Khan, Md Tabrez Nafis, Shahab Saquib Sohail, Aqeel Khalique, Rehan Hasan Khan",
+            "updated": "2026-05-05T18:08:15"
+          }
+        },
+        {
+          "subject": "A Dialogue-Based Framework for Correcting Multimodal Errors in AI-Assisted STEM Education",
+          "body": "Large Language Models (LLMs) are democratizing access to personalized tutoring; however, their effectiveness is hindered by challenges in processing multimodal content, which limits AI's potential to provide equitable, high-quality STEM support. This study evaluates LLM performance on multimodal physics problems, identifies specific failure modes through an empirical error taxonomy, and tests practical interventions designed to overcome multimodal processing limitations. We assessed three publicly available LLMs (Claude, Gemini, and ChatGPT) on multimodal physics problems from the OpenStax database and compared the results with text-only performance. An empirically derived error taxonomy was developed through pilot testing, followed by evaluation of a structured multimodal dialogue intervention. All three models achieved near-ceiling accuracy (96%) on text-only physics problems. Performance declined substantially on multimodal problems, consistent with what we term the Multimodal Interference Effect. Error analysis identified four failure modes: visual processing errors, context misinterpretation, mathematical computational errors, and hybrid errors, with visual processing errors being the most prevalent. The structured dialogue intervention corrected 82% of errors overall; visual processing errors were corrected at 100% across all models. Educators and students can implement these interventions immediately, requiring no model retraining, to improve AI tutoring reliability on image-rich STEM content, advancing equitable access to high-quality learning support.",
+          "timestamp": "2026-05-05T17:07:16",
+          "url": "https://arxiv.org/abs/2605.04131v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Akshay Syal, Lawrence Swaminathan Xavier Prince, Evin Gultepe, Nik Bear Brown, Srinivas Sridhar",
+            "updated": "2026-05-05T17:07:16"
+          }
+        },
         {
           "subject": "ELAS: Efficient Pre-Training of Low-Rank Large Language Models via 2:4 Activation Sparsity",
           "body": "Large Language Models (LLMs) have achieved remarkable capabilities, but their immense computational demands during training remain a critical bottleneck for widespread adoption. Low-rank training has received attention in recent years due to its ability to significantly reduce training memory usage. Meanwhile, applying 2:4 structured sparsity to weights and activations to leverage NVIDIA GPU support for 2:4 structured sparse format has become a promising direction. However, existing low-rank methods often leave activation matrices in full-rank, which dominates memory consumption and limits throughput during large-batch training. Furthermore, directly applying sparsity to weights often leads to non-negligible performance degradation. To achieve efficient pre-training of LLMs, this paper proposes ELAS: Efficient pre-training of Low-rank LLMs via 2:4 Activation Sparsity, a novel framework for low-rank models via 2:4 activation sparsity. ELAS applies squared ReLU activation functions to the feed-forward networks in low-rank models and implements 2:4 structured sparsity on the activations after the squared ReLU operation. We evaluated ELAS through pre-training experiments on LLaMA models ranging from 60M to 1B parameters. The results demonstrate that ELAS maintains performance with minimal degradation after applying 2:4 activation sparsity, while achieving training and inference acceleration. Moreover, ELAS reduces activation memory overhead, particularly with large batch sizes. Code is available at ELAS Repo.",
@@ -227,5 +344,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **NVIDIA Announces Spectrum-X: An Open, AI-Native Ethernet Fabric**: NVIDIA has introduced Spectrum-X, an open Ethernet fabric designed for gigascale AI. It now includes multipoint to multipoint routing capability (MRC), enabling high-performance data transfer within AI infrastructure.\n* **NVIDIA Partners with Corning to Strengthen US Manufacturing**: NVIDIA and Corning have formed a long-term partnership to enhance US manufacturing capabilities for AI infrastructure, focusing on the production of advanced glass and ceramic materials.\n* **OpenAI Updates GPT-5.5 Instant with Improved Accuracy and Personalization**: OpenAI has released GPT-5.5 Instant, an updated version of its popular GPT-5 model. This new model offers improved accuracy, reduced hallucinations, and enhanced personalization controls.\n* **Product Hunt Launches Ads in ChatGPT**: Product Hunt has introduced ads in ChatGPT, enabling users to create, manage, and measure their ad campaigns within the platform.\n* **Researchers Propose ELAS: Efficient Pre-Training of Low-Rank Large Language Models**: Researchers have proposed ELAS, a novel framework for efficient pre-training of low-rank large language models using 2:4 activation sparsity.\n* **Ultrasound Vision-Language Alignment via Contrastive Learning**: Researchers have developed EchoCare-CLIP, a CLIP-style dual-encoder contrastive framework for ultrasonography-vision-language alignment.\n\n**Trend: Growing Collaborations in AI Research and Development**\n\nThe past week has seen a notable increase in collaborations between companies, researchers, and organizations in the AI space. These collaborations are driving innovation and pushing the boundaries of what is possible in AI research and development. Examples include NVIDIA's partnership with Corning, OpenAI's collaboration with PwC, and the research effort on Ultrasound Vision-Language Alignment via Contrastive Learning. This trend is likely to continue, leading to exciting breakthroughs and advancements in the field of AI."
+  "summary": "Here are four to six bullet points summarizing the key developments in AI research and applications, along with one trend:\n\n**Key Developments:**\n\n* **Improved Large Language Models (LLMs):** Researchers have made significant progress in developing more accurate and efficient LLMs, with recent models like GPT-5.5 Instant and CLIP-based architectures achieving state-of-the-art performance in various tasks.\n* **Advances in AI Augmentation:** Studies have shown that AI augmentation can enhance human intelligence in specific domains, with researchers exploring the potential of AI-powered sensory systems for humans.\n* **AI for Social Good:** Researchers have applied AI to tackle various real-world challenges, including climate change, healthcare, and education, with initiatives like OpenAI's partnership with PwC to reimagine the office of the CFO.\n* **New Applications of AI:** AI has been applied to multimedia content analysis, including audio, image, and video analysis, with researchers exploring its potential in areas like biomedicine and digital art.\n* **Enhanced Explainability and Trustworthiness:** Researchers have made progress in developing more transparent and explainable AI systems, with techniques like optimal transport and gradient-free optimizers improving the ability to understand and trust AI decision-making.\n\n**Trend:**\n\n* **Increased Focus on Responsible AI Development:** As AI continues to become more pervasive in various aspects of life, there is a growing recognition of the need for responsible AI development, including the need for greater transparency, explainability, and control over AI systems. This trend is reflected in the growing number of research initiatives and companies focused on developing AI that is fair, accountable, and beneficial to society."
 }
