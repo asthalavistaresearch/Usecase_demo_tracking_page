@@ -1,17 +1,71 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-08T04:50:57.307Z",
+  "timestamp": "2026-05-09T05:18:19.326Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 18,
       "items": [
         {
-          "subject": "Chatbots Need Guardrails to Prevent Delusions and Psychosis",
-          "body": "Millions of people worldwide are turning to chatbots like ChatGPT or Claude, and a proliferating class of specialized AI companionship apps for friendship, therapy or even romance. While some users report psychological benefits from these simulated...",
-          "timestamp": "2026-05-07T04:00:02",
-          "url": "https://spectrum.ieee.org/mental-health-chatbot-guardrails",
+          "subject": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
+          "body": "AI will help build the energy it needs. That’s the case U. S...",
+          "timestamp": "2026-05-08T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/energy-secretary-chris-wright-ian-buck/",
           "extras": {
-            "data_origin": "IEEE Spectrum"
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
+          "body": "NVIDIA (NASDAQ: NVDA) and IREN Limited (NASDAQ: IREN) (“IREN”) today announced a...",
+          "timestamp": "2026-05-08T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How frontier firms are pulling ahead",
+          "body": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+          "timestamp": "2026-05-08T04:00:02",
+          "url": "https://openai.com/index/introducing-b2b-signals",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Simplex rethinks software development with Codex",
+          "body": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+          "timestamp": "2026-05-08T04:00:02",
+          "url": "https://openai.com/index/simplex",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Introducing Trusted Contact in ChatGPT",
+          "body": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+          "timestamp": "2026-05-08T04:00:02",
+          "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Advancing voice intelligence with new models in the API",
+          "body": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+          "timestamp": "2026-05-08T04:00:02",
+          "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+          "body": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+          "timestamp": "2026-05-08T04:00:02",
+          "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -33,21 +87,12 @@
           }
         },
         {
-          "subject": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
-          "body": "The race to build the world’s most powerful AI factories demands networking...",
-          "timestamp": "2026-05-06T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
+          "subject": "Chatbots Need Guardrails to Prevent Delusions and Psychosis",
+          "body": "Millions of people worldwide are turning to chatbots like ChatGPT or Claude, and a proliferating class of specialized AI companionship apps for friendship, therapy or even romance. While some users report psychological benefits from these simulated...",
+          "timestamp": "2026-05-07T04:00:02",
+          "url": "https://spectrum.ieee.org/mental-health-chatbot-guardrails",
           "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
-          "body": "NVIDIA (NASDAQ: NVDA) and Corning Incorporated (NYSE: GLW) today announced a multiyear...",
-          "timestamp": "2026-05-06T14:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
-          "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "IEEE Spectrum"
           }
         },
         {
@@ -60,12 +105,21 @@
           }
         },
         {
-          "subject": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-          "body": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-          "timestamp": "2026-05-06T04:00:02",
-          "url": "https://openai.com/index/gpt-5-5-instant",
+          "subject": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
+          "body": "NVIDIA (NASDAQ: NVDA) and Corning Incorporated (NYSE: GLW) today announced a multiyear...",
+          "timestamp": "2026-05-06T14:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
+          "body": "The race to build the world’s most powerful AI factories demands networking...",
+          "timestamp": "2026-05-06T14:00:02",
+          "url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -75,6 +129,15 @@
           "url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
           "extras": {
             "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+          "body": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+          "timestamp": "2026-05-06T04:00:02",
+          "url": "https://openai.com/index/gpt-5-5-instant",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -102,198 +165,6 @@
           "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
           "extras": {
             "data_origin": "OpenAI News"
-          }
-        }
-      ]
-    },
-    "papers": {
-      "count": 17,
-      "items": [
-        {
-          "subject": "Curated AI beats frontier LLMs at pharma asset discovery",
-          "body": "General-purpose LLMs with web search are increasingly used to scout the competitive landscape of pharmaceutical pipelines. We benchmark Gosset -- an AI platform with a chat interface backed by curated target-, modality-, and indication-level drug-asset annotations -- against four frontier systems with web access (Claude Opus 4.7, GPT 5.5, Gemini 3.1 Pro, Perplexity sonar-pro) on ten niche oncology/immunology targets where most of the pipeline lives in the long tail of preclinical and Asian-developed assets. All five systems receive the same natural-language query and the same JSON output schema. Across 10 targets Gosset returns 3.2x more verified drugs per query than the best frontier system, at perfect precision and 100% recall against the cross-system union of verified drugs. The same curated index is exposed as a Gosset MCP server that any frontier model can call as a tool, suggesting that each of these systems can close most of the recall gap by swapping generic web search for a curated index behind the same chat interface.",
-          "timestamp": "2026-05-06T13:36:25",
-          "url": "https://arxiv.org/abs/2605.04908v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Łukasz Kidziński, Kevin Thomas",
-            "updated": "2026-05-06T13:36:25"
-          }
-        },
-        {
-          "subject": "A geometric relation of the error introduced by sampling a language model's output distribution to its internal state",
-          "body": "GPT-style language models are sensitive to single-token changes at generation points where the predicted probability distribution is spread across multiple tokens. Viewing this sensitivity as a geometric property, we derive an $\\mathfrak{so}(n)$-valued 1-form that depends only on the geometry of the token embeddings. Despite this purely geometric origin, we show that its curvature is semantically meaningful: On chess reasoning tasks, the curvature couples to the world model of an off-the-shelf instruction-tuned model, with transformations clustering by board region and respecting piece importance. Our findings suggest that token space geometry directly reflects how models internally represent problems.",
-          "timestamp": "2026-05-06T13:28:16",
-          "url": "https://arxiv.org/abs/2605.04899v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Albert F. Modenbach",
-            "updated": "2026-05-06T13:28:16"
-          }
-        },
-        {
-          "subject": "AISSA: Implementation and Deployment of an AI-based Student Slides Analysis tool for Academic Presentations",
-          "body": "Providing timely and actionable feedback on oral presentation slides is challenging in higher education, particularly in large classes where teachers cannot realistically deliver detailed formative feedback before students present. This paper introduces AISSA (AI-based Student Slides Analysis tool), a web-based system that combines large language models (LLMs) and Learning Analytics dashboards to support scalable, rubric-based feedback on presentation slides. AISSA allows students to upload their slide decks prior to an oral presentation and automatically receive quantitative scores and qualitative feedback based on teacher-defined evaluation rubrics. The system analyzes both slide-level features and slide content, generates structured feedback through an LLM (ChatGPT 5.2), and presents the results through interactive dashboards for students and teachers. We tested AISSA on a pilot deployment with 46 undergraduate students in a real academic setting. The results indicate that AISSA is technically reliable, economically feasible, and perceived by students as useful for iterative slide improvement. These findings suggest that combining LLM-based analysis with Learning Analytics dashboards is a promising approach for supporting formative feedback on presentation slides at scale.",
-          "timestamp": "2026-05-06T10:30:27",
-          "url": "https://arxiv.org/abs/2605.04729v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Alvaro Becerra, Diego Gomez, Ruth Cobos",
-            "updated": "2026-05-06T10:30:27"
-          }
-        },
-        {
-          "subject": "Generative Quantum-inspired Kolmogorov-Arnold Eigensolver",
-          "body": "High-performance computing (HPC) is increasingly important for scalable quantum chemistry workflows that couple classical generative models, quantum circuit simulation, and selected configuration interaction postprocessing. We present the generative quantum-inspired Kolmogorov-Arnold eigensolver (GQKAE), a parameter-efficient extension of the generative quantum eigensolver (GQE) for quantum chemistry. GQKAE replaces the parameter-heavy feed-forward network components in GPT-style generative eigensolvers with hybrid quantum-inspired Kolmogorov-Arnold network modules, forming a compact HQKANsformer backbone. The method preserves autoregressive operator selection and the quantum-selected configuration interaction evaluation pipeline, while using single-qubit DatA Re-Uploading ActivatioN modules to provide expressive nonlinear mappings. Numerical benchmarks on H4, N2, LiH, C2H6, H2O, and the H2O dimer show that GQKAE achieves chemical accuracy comparable to the GPT-based GQE architecture, while reducing trainable parameters and memory by approximately 66% and improving wall-time performance. For strongly correlated systems such as N2 and LiH, GQKAE also improves convergence behavior and final energy errors. These results indicate that quantum-inspired Kolmogorov-Arnold networks can reduce classical-side overhead while preserving circuit-generation quality, offering a scalable route for HPC-quantum co-design on near-term quantum platforms.",
-          "timestamp": "2026-05-06T07:53:55",
-          "url": "https://arxiv.org/abs/2605.04604v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Yu-Cheng Lin, Yu-Chao Hsu, I-Shan Tsai, Chun-Hua Lin, Kuo-Chung Peng, Jiun-Cheng Jiang, Yun-Yuan Wang, Tzung-Chi Huang, Tai-Yue Li, Kuan-Cheng Chen, Samuel Yen-Chi Chen, Nan-Yow Chen",
-            "updated": "2026-05-06T07:53:55"
-          }
-        },
-        {
-          "subject": "Benchmarking LLMs on the Massive Sound Embedding Benchmark (MSEB)",
-          "body": "The Massive Sound Embedding Benchmark (MSEB) has emerged as a standard for evaluating the functional breadth of audio models. While initial baselines focused on specialized encoders, the shift toward \"audio-native\" Large Language Models (LLMs) suggests a new paradigm where a single multimodal backbone may replace complex, task-specific pipelines. This paper provides a rigorous empirical evaluation of leading LLMs - including members from the Gemini and GPT families - across the eight core MSEB capabilities to assess their efficacy and audio-text parity. Our results indicate that while a significant modality gap persists regarding performance and robustness, the empirical evidence for an \"optimal\" modeling approach remains inconclusive. Ultimately, the choice between audionative and cascaded architectures depends heavily on specific use-case requirements and the underlying assumptions regarding latency, cost, and reasoning depth.",
-          "timestamp": "2026-05-06T06:58:45",
-          "url": "https://arxiv.org/abs/2605.04556v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Cyril Allauzen, Tom Bagby, Georg Heigold, Ehsan Variani, Ke Wu",
-            "updated": "2026-05-06T06:58:45"
-          }
-        },
-        {
-          "subject": "RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge-Orchestrated LLM Ensemble for Faithful Multi-Turn Response Generation",
-          "body": "We present our winning system for Task~B (generation with reference passages) in SemEval-2026 Task~8: MTRAGEval. Our method is a heterogeneous ensemble of seven LLMs with two prompting variants, where a GPT-4o-mini judge selects the best candidate per instance. We ranked 1st out of 26 teams, achieving a conditioned harmonic mean of 0.7827 and outperforming the strongest baseline (gpt-oss-120b, 0.6390). Ablations show that diversity in model families, scales, and prompting strategies is essential, with the ensemble consistently beating any single model. We also introduce Meno-Lite-0.1, a 7B domain-adapted model with a strong cost--performance trade-off, and analyse MTRAGEval, highlighting annotation limitations and directions for improvement. Our code is publicly available: https://github.com/RaguTeam/ragu_mtrag_semeval",
-          "timestamp": "2026-05-06T06:04:37",
-          "url": "https://arxiv.org/abs/2605.04523v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Ivan Bondarenko, Roman Derunets, Oleg Sedukhin, Mikhail Komarov, Ivan Chernov, Mikhail Kulakov",
-            "updated": "2026-05-06T06:04:37"
-          }
-        },
-        {
-          "subject": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Models",
-          "body": "We evaluate whether enabling provider-exposed reasoning mode changes moral judgments within the same model checkpoint. Across 100 moral-judgment scenarios and five frontier reasoning-trained LLMs (Claude Sonnet 4.6, GPT 5.5, Gemini 3 Flash, DeepSeek V3.1, and Qwen3.5 397B), aggregate binary-verdict agreement remains high and statistically indistinguishable between instant and thinking modes (Krippendorff's alpha = 0.78 vs. 0.79). However, disagreement is concentrated in 21 model-disputed scenarios, where instant-mode agreement is near chance (alpha = 0.08). On these scenarios, reasoning directionally narrows cross-model disagreement, increasing mean pairwise agreement from 5.4 to 6.7 out of 10. Reasoning also reduces demographic-judgment inconsistency in three of five models and does not increase it for any model. Across all five model families, reasoning changes self-labeled ethical frameworks more often than binary verdicts.",
-          "timestamp": "2026-05-06T04:33:04",
-          "url": "https://arxiv.org/abs/2605.04488v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Sai Sourabh Madur",
-            "updated": "2026-05-06T04:33:04"
-          }
-        },
-        {
-          "subject": "Not All That Is Fluent Is Factual: Investigating Hallucinations of Large Language Models in Academic Writing",
-          "body": "Large Language models (LLMs) show extraordinary abilities, but they are still prone to hallucinations, especially when we use them for generating Academic content. We have investigated four popular LLMs, ChatGPT, Grok, Gemini, and Copilot for hallucinations specifically for academic writing. We have designed 80 prompts across four categories, namely, reference generation, factual explanation, abstract generation, and writing improvement. We evaluated the model using a 0-5 rubric score, which checks factual accuracy, reference validity, coherence, style consistency, and academic tone. A novel weighted metric, Hallucination Index (HI), was introduced to measure hallucination in the responses generated by the models. Some of the most widely used evaluation metrics often fail to check errors which alter sentiment in machine-translated text. We found that Grok and Copilot perform better on reference generation tasks, but they often struggle with abstract or stylistic prompts, with HI values of 0.67 and 0.70, respectively. Whereas, Gemini and ChatGPT have done well with having stronger tone control, but they lack in writing factual tasks and higher hallucination risk with HI scores of 0.53 and 0.57, respectively. Our study found that hallucination behavior does not depend solely on model architecture but also on the type of task and the prompting conditions we are providing. We propose that our work opens new research dimensions for future researchers.",
-          "timestamp": "2026-05-05T18:08:15",
-          "url": "https://arxiv.org/abs/2605.04171v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Humam Khan, Md Tabrez Nafis, Shahab Saquib Sohail, Aqeel Khalique, Rehan Hasan Khan",
-            "updated": "2026-05-05T18:08:15"
-          }
-        },
-        {
-          "subject": "A Dialogue-Based Framework for Correcting Multimodal Errors in AI-Assisted STEM Education",
-          "body": "Large Language Models (LLMs) are democratizing access to personalized tutoring; however, their effectiveness is hindered by challenges in processing multimodal content, which limits AI's potential to provide equitable, high-quality STEM support. This study evaluates LLM performance on multimodal physics problems, identifies specific failure modes through an empirical error taxonomy, and tests practical interventions designed to overcome multimodal processing limitations. We assessed three publicly available LLMs (Claude, Gemini, and ChatGPT) on multimodal physics problems from the OpenStax database and compared the results with text-only performance. An empirically derived error taxonomy was developed through pilot testing, followed by evaluation of a structured multimodal dialogue intervention. All three models achieved near-ceiling accuracy (96%) on text-only physics problems. Performance declined substantially on multimodal problems, consistent with what we term the Multimodal Interference Effect. Error analysis identified four failure modes: visual processing errors, context misinterpretation, mathematical computational errors, and hybrid errors, with visual processing errors being the most prevalent. The structured dialogue intervention corrected 82% of errors overall; visual processing errors were corrected at 100% across all models. Educators and students can implement these interventions immediately, requiring no model retraining, to improve AI tutoring reliability on image-rich STEM content, advancing equitable access to high-quality learning support.",
-          "timestamp": "2026-05-05T17:07:16",
-          "url": "https://arxiv.org/abs/2605.04131v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Akshay Syal, Lawrence Swaminathan Xavier Prince, Evin Gultepe, Nik Bear Brown, Srinivas Sridhar",
-            "updated": "2026-05-05T17:07:16"
-          }
-        },
-        {
-          "subject": "ELAS: Efficient Pre-Training of Low-Rank Large Language Models via 2:4 Activation Sparsity",
-          "body": "Large Language Models (LLMs) have achieved remarkable capabilities, but their immense computational demands during training remain a critical bottleneck for widespread adoption. Low-rank training has received attention in recent years due to its ability to significantly reduce training memory usage. Meanwhile, applying 2:4 structured sparsity to weights and activations to leverage NVIDIA GPU support for 2:4 structured sparse format has become a promising direction. However, existing low-rank methods often leave activation matrices in full-rank, which dominates memory consumption and limits throughput during large-batch training. Furthermore, directly applying sparsity to weights often leads to non-negligible performance degradation. To achieve efficient pre-training of LLMs, this paper proposes ELAS: Efficient pre-training of Low-rank LLMs via 2:4 Activation Sparsity, a novel framework for low-rank models via 2:4 activation sparsity. ELAS applies squared ReLU activation functions to the feed-forward networks in low-rank models and implements 2:4 structured sparsity on the activations after the squared ReLU operation. We evaluated ELAS through pre-training experiments on LLaMA models ranging from 60M to 1B parameters. The results demonstrate that ELAS maintains performance with minimal degradation after applying 2:4 activation sparsity, while achieving training and inference acceleration. Moreover, ELAS reduces activation memory overhead, particularly with large batch sizes. Code is available at ELAS Repo.",
-          "timestamp": "2026-05-05T12:04:51",
-          "url": "https://arxiv.org/abs/2605.03667v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Jiaxi Li, Lu Yin, Li Shen, Jinjin Xu, Yuhui Liu, Wenwu Wang, Shiwei Liu, Xilu Wang",
-            "updated": "2026-05-05T12:04:51"
-          }
-        },
-        {
-          "subject": "When Agents Handle Secrets: A Survey of Confidential Computing for Agentic AI",
-          "body": "Agentic AI systems, specifically LLM-driven agents that plan, invoke tools, maintain persistent memory, and delegate tasks to peer agents via protocols such as MCP and A2A, introduce a threat surface that differs materially from standalone model inference. Agents accumulate sensitive context, hold credentials, and operate across pipelines no single party fully controls, enabling prompt injection, context exfiltration, credential theft, and inter-agent message poisoning. Current defenses operate entirely within the software stack and can be silently bypassed by a sufficiently privileged adversary such as a compromised cloud operator. Confidential computing (CC) offers a hardware-rooted alternative: Trusted Execution Environments (TEEs) isolate agent code and data from privileged system software, while remote attestation enables verifiable trust across distributed deployments. This survey synthesizes the design space in four parts: (i) a unified taxonomy of six TEE platforms (Intel SGX, Intel TDX, AMD SEV-SNP, ARM TrustZone, ARM CCA, and NVIDIA H100 CC) covering deployment roles and performance tradeoffs; (ii) an agent-centric threat model spanning perception, planning, memory, action, and coordination layers mapped to nine security goals; (iii) a comparative survey of CC-based defenses distinguishing findings that transfer from single-call inference versus what requires new agentic designs; and (iv) six open challenges including compound attestation for multi-hop agent chains and GPU-TEE performance at LLM scale. While several hardware trust primitives appear mature enough for targeted deployments, no broadly established end-to-end framework yet binds them into a coherent security substrate for production agentic AI.",
-          "timestamp": "2026-05-04T23:09:16",
-          "url": "https://arxiv.org/abs/2605.03213v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Javad Forough, Marios Kogias, Hamed Haddadi",
-            "updated": "2026-05-04T23:09:16"
-          }
-        },
-        {
-          "subject": "Reinforcement Learning for LLM-based Multi-Agent Systems through Orchestration Traces",
-          "body": "As large language model (LLM) agents evolve from isolated tool users into coordinated teams, reinforcement learning (RL) must optimize not only individual actions but also how work is spawned, delegated, communicated, aggregated, and stopped. This paper studies RL for LLM-based multi-agent systems through orchestration traces: temporal interaction graphs whose events include sub-agent spawning, delegation, communication, tool use, return, aggregation, and stopping decisions.\n  Using this lens, we identify three technical axes. First, reward design spans eight families, including orchestration rewards for parallelism speedup, split correctness, and aggregation quality. Second, reward and credit signals attach to eight credit- or signal-bearing units from token to team; explicit counterfactual message-level credit remains especially sparse in our curated pool. Third, orchestration learning decomposes into five sub-decisions: when to spawn, whom to delegate to, how to communicate, how to aggregate, and when to stop. In our curated pool as of May 4, 2026, we found no explicit RL training method for the stopping decision.\n  We connect academic methods to public industrial evidence from Kimi Agent Swarm, OpenAI Codex, and Anthropic Claude Code. The resulting scale gap is a gap between publicly reported deployment envelopes and open academic evaluation regimes, not independent verification of industrial training traces. We release the artifact at https://github.com/xxzcc/awesome-llm-mas-rl, including an 84-entry tagged paper pool, a 32-record exclusion log, scripted corpus statistics, and a minimal JSON schema for replayable orchestration traces.",
-          "timestamp": "2026-05-04T16:42:18",
-          "url": "https://arxiv.org/abs/2605.02801v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Chenchen Zhang",
-            "updated": "2026-05-04T16:42:18"
-          }
-        },
-        {
-          "subject": "Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study",
-          "body": "Retrieval-Augmented Generation (RAG) offers a well-established path to grounding large language model (LLM) outputs in external knowledge, yet the question of which retrieval strategy works best in a high-stakes domain such as biomedicine has not received the controlled, multi-metric treatment it deserves. This paper presents a systematic empirical comparison of five retrieval strategies -- Dense Vector Search, Hybrid BM25 + Dense retrieval, Cross-Encoder Reranking, Multi-Query Expansion, and Maximal Marginal Relevance (MMR) -- within a biomedical question-answering RAG pipeline. All strategies share a fixed generation model (GPT-4o-mini), a common vector store (ChromaDB), and OpenAI's text-embedding-3-small embeddings, ensuring that observed differences are attributable to retrieval alone. Evaluation is conducted on 250 question-answer pairs drawn from a preprocessed subset of the BioASQ benchmark (rag-mini-bioasq) using four DeepEval metrics: contextual precision, contextual recall, faithfulness, and answer relevancy, each reported with 95% confidence intervals. A no-context ablation is included as a lower bound. Cross-Encoder Reranking achieves the best composite score (0.827) and highest contextual precision (0.852), confirming that query-document interaction yields measurable retrieval gains. Multi-Query Expansion, despite its recall-oriented design, produces the weakest contextual precision (0.671), suggesting naive query diversification introduces retrieval noise. MMR sacrifices answer relevancy for diversity, while the Dense baseline (composite 0.822) falls within 0.005 points of the top strategy. All RAG conditions dramatically outperform the no-context ablation on answer relevancy (0.658-0.701 vs. 0.287), confirming the practical value of retrieval. The full pipeline, hyperparameters, and evaluation code are publicly available.",
-          "timestamp": "2026-05-04T12:21:46",
-          "url": "https://arxiv.org/abs/2605.02520v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Devi Prasad Bal, Subhashree Puhan",
-            "updated": "2026-05-04T12:21:46"
-          }
-        },
-        {
-          "subject": "When Correct Isn't Usable: Improving Structured Output Reliability in Small Language Models",
-          "body": "Deployed language models must produce outputs that are both correct and format-compliant. We study this structured-output reliability gap using two mathematical benchmarks -- GSM8K and MATH -- as a controlled testbed: ground truth is unambiguous and the output contract is strict (JSON with required fields). We evaluate three 7-9B models under five prompting strategies and report output accuracy -- the joint event of mathematical correctness and valid JSON structure -- as the primary metric. A systematic format failure emerges: NAIVE prompting (no system prompt) achieves up to 85% task accuracy on GSM8K but 0% output accuracy across all models and datasets. REFERENCE prompting (a minimal hand-written JSON format prompt) fares little better, yielding 0% output accuracy for two of four models tested. Constrained decoding enforces syntactic validity but incurs 3.6x-8.2x latency overhead and in several settings degrades task performance substantially. To overcome this limitation, we developed AloLab, an iterative system-prompt optimizer (meta-agent: Claude Sonnet 4.5) requiring only black-box API access to the target model; it reaches 84-87% output accuracy on GSM8K and 34-40% on MATH across five independent runs per model, with 29/30 paired McNemar comparisons against the best static prompt significant at p < 0.05, at near-NAIVE inference latency and without model fine-tuning. The same format failure extends to GPT-4o (OpenAI, 2024), a proprietary closed-source model: REFERENCE achieves 0% output accuracy due to systematic markdown-fence wrapping, while AloLab reaches 95.2% [94.8, 95.6]. An ablation replacing the Sonnet 4.5 meta-agent with Claude 3 Haiku reduces mean output accuracy to 61.0% and increases run-to-run standard deviation from <1 pp to 21.8 pp, confirming that meta-agent capability is a primary driver of optimization quality.",
-          "timestamp": "2026-05-04T09:07:44",
-          "url": "https://arxiv.org/abs/2605.02363v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Cosimo Galeone, Minsu Park, Giuseppe Ettorre, Daniele Ligorio",
-            "updated": "2026-05-04T09:07:44"
-          }
-        },
-        {
-          "subject": "Ultrasound Vision-Language Alignment via Contrastive Learning",
-          "body": "Ultrasound foundation models have achieved strong performance on structured prediction tasks but remain exclusively vision-based, limiting zero-shot and few-shot transfer to novel tasks where task-specific annotation is scarce. We address this gap with EchoCare-CLIP, a CLIP-style dual-encoder contrastive framework that aligns ultrasound images with clinical text in a shared embedding space. We curate a multi-organ corpus of over 16K image-text pairs spanning breast, liver, lung, and thyroid, with over 78% of captions derived from expert-annotated reports, and complement the remainder with a three-tier template-based and LLM-based caption generation pipeline. We evaluate model configurations spanning two text encoder families (CLIP, BioClinicalBERT) and two caption strategies (template-based, LLM-generated) against OpenAI CLIP and BiomedCLIP baselines. Our trained models consistently improve cross-modal alignment over baselines, with the best configuration achieving a paired alignment score of 0.682. However, stronger alignment does not guarantee better downstream performance: CLIP-based variants with partial fine-tuning achieve the strongest zero-shot classification on external held-out datasets (0.709 on BUSI; 0.626 on AULI), while full end-to-end fine-tuning degrades transfer due to overfitting. On linear probing and few-shot adaptation, model rankings are dataset-dependent, reflecting a trade-off between domain adaptation and representational generalizability. We further show that template-based captions match or outperform LLM-generated captions, suggesting lexical diversity is not a proxy for caption quality. Taken together, our results demonstrate that ultrasound vision-language alignment is achievable from public data alone, but robust clinical transfer requires careful balancing of domain adaptation, encoder capacity, and caption supervision quality.",
-          "timestamp": "2026-05-04T01:12:45",
-          "url": "https://arxiv.org/abs/2605.02126v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Zhuoyang Lyu, Yiyang Zhang, Tongxin Wang, Ruirui Lan",
-            "updated": "2026-05-04T01:12:45"
-          }
-        },
-        {
-          "subject": "Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration",
-          "body": "Memory systems enable otherwise-stateless LLM agents to persist user information across sessions, but also introduce a new attack surface. We characterize the Trojan Hippo attack, a class of persistent memory attacks that operates in a more realistic threat model than prior memory poisoning work: the attacker plants a dormant payload into an agent's long-term memory via a single untrusted tool call (e.g., a crafted email), which activates only when the user later discusses sensitive topics such as finance, health, or identity, and exfiltrates high-value personal data to the attacker.\n  While anecdotal demonstrations of such attacks have appeared against deployed systems, no prior work systematically evaluates them across heterogeneous memory architectures and defenses.We introduce a dynamic evaluation framework comprising two components: (1) an OpenEvolve-based adaptive red-teaming benchmark that stress-tests defenses and memory backends against continuously refined attacks, and (2) the first capability-aware security/utility analysis for persistent memory systems, enabling principled reasoning about defense deployment across different usage profiles.\n  Instantiated on an email assistant across four memory backends (explicit tool memory, agentic memory, RAG, and sliding-window context), Trojan Hippo achieves up to 85-100 percent ASR against current frontier models from OpenAI and Google, with planted memories successfully activating even after 100 benign sessions. We evaluate four memory-system defenses inspired by basic security principles, finding they substantially reduce attack success rates (to as low as 0-5 percent), though at utility costs that vary widely with task requirements. Because of this substantial security-utility tradeoff, the effective real-world deployment of defenses remains an open challenge, which our evaluation framework is specifically designed to address.",
-          "timestamp": "2026-05-03T17:07:20",
-          "url": "https://arxiv.org/abs/2605.01970v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Debeshee Das, Julien Piet, Darya Kaviani, Luca Beurer-Kellner, Florian Tramèr, David Wagner",
-            "updated": "2026-05-03T17:07:20"
-          }
-        },
-        {
-          "subject": "Training Non-Differentiable Networks via Optimal Transport",
-          "body": "Neural networks increasingly embed non-differentiable components (spiking neurons, quantized layers, discrete routing, blackbox simulators, etc.) where backpropagation is inapplicable and surrogate gradients introduce bias. We present PolyStep, a gradient-free optimizer that updates parameters using only forward passes. Each step evaluates the loss at structured polytope vertices in a compressed subspace, computes softmax-weighted assignments over the resulting cost matrix, and displaces particles toward low-cost vertices via barycentric projection. This update corresponds to the one-sided limit of a regularized optimal-transport problem, inheriting its geometric structure without Sinkhorn iterations.\n  PolyStep trains genuinely non-differentiable models where existing gradient-free methods collapse to near-random accuracy. On hard-LIF spiking networks we reach 93.4% test accuracy, outperforming all gradient-free baselines by over 60~pp and closing to within 4.4~pp of a surrogate-gradient Adam ceiling. Across four additional non-differentiable architectures (int8 quantization, argmax attention, staircase activations, hard MoE routing) we lead every gradient-free competitor. On MAX-SAT scaling from 100 to 1M variables, we sustain above 92% clause satisfaction while evolution strategies drop 8--12~pp. On RL policy search, we match OpenAI-ES on classical control and retain performance under integer and binary quantization that collapses gradient-based methods. We prove convergence to conservative-stationary points at rate $O(\\log T/\\sqrt{T})$ on piecewise-smooth losses, upgraded to Clarke-stationary on the headline architectures and extended to the piecewise-constant regime via a hitting-time bound. These rates match the known zeroth-order query-complexity lower bounds that all forward-only methods inherit. Code is available at https://github.com/anindex/polystep.",
-          "timestamp": "2026-05-03T15:20:56",
-          "url": "https://arxiv.org/abs/2605.01928v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "An T. Le",
-            "updated": "2026-05-03T15:20:56"
           }
         }
       ]
@@ -344,5 +215,5 @@
       ]
     }
   },
-  "summary": "Here are four to six bullet points summarizing the key developments in AI research and applications, along with one trend:\n\n**Key Developments:**\n\n* **Improved Large Language Models (LLMs):** Researchers have made significant progress in developing more accurate and efficient LLMs, with recent models like GPT-5.5 Instant and CLIP-based architectures achieving state-of-the-art performance in various tasks.\n* **Advances in AI Augmentation:** Studies have shown that AI augmentation can enhance human intelligence in specific domains, with researchers exploring the potential of AI-powered sensory systems for humans.\n* **AI for Social Good:** Researchers have applied AI to tackle various real-world challenges, including climate change, healthcare, and education, with initiatives like OpenAI's partnership with PwC to reimagine the office of the CFO.\n* **New Applications of AI:** AI has been applied to multimedia content analysis, including audio, image, and video analysis, with researchers exploring its potential in areas like biomedicine and digital art.\n* **Enhanced Explainability and Trustworthiness:** Researchers have made progress in developing more transparent and explainable AI systems, with techniques like optimal transport and gradient-free optimizers improving the ability to understand and trust AI decision-making.\n\n**Trend:**\n\n* **Increased Focus on Responsible AI Development:** As AI continues to become more pervasive in various aspects of life, there is a growing recognition of the need for responsible AI development, including the need for greater transparency, explainability, and control over AI systems. This trend is reflected in the growing number of research initiatives and companies focused on developing AI that is fair, accountable, and beneficial to society."
+  "summary": "Here are the key developments with insight:\n\n**Developments:**\n\n1. **NVIDIA and IREN Announce Strategic Partnership**: NVIDIA and IREN Limited have announced a strategic partnership to accelerate the deployment of up to 5 gigawatts of AI infrastructure.\n2. **OpenAI Introduces New Models and Features**: OpenAI has introduced new models and features, including GPT-5.5 Instant, which updates ChatGPT's default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.\n3. **NVIDIA and Corning Announce Long-Term Partnership**: NVIDIA and Corning Incorporated have announced a multi-year partnership to strengthen US manufacturing for AI infrastructure.\n4. **OpenAI and PwC Collaborate on Finance Workflows**: OpenAI and PwC have partnered to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.\n5. **NVIDIA Spectrum-X Sets the Standard for Gigascale AI**: NVIDIA has announced that its Spectrum-X Ethernet fabric has set the standard for gigascale AI, now with Multi-Root Complex (MRC) capabilities.\n6. **Simplex Boosts Software Development with ChatGPT and Codex**: Simplex has used ChatGPT and Codex to boost software development, reducing design, build, and testing time while scaling AI-driven workflows.\n\n**Trend:**\n\nThe trend in AI development is towards increasing emphasis on scaling, efficiency, and collaboration. AI models are being optimized for performance, accuracy, and real-time applications, with a focus on developing more efficient and effective workflows. There is also a growing trend towards collaboration between companies, institutions, and governments to drive innovation and adoption of AI technologies."
 }
