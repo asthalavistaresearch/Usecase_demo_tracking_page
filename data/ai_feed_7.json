@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-09T05:18:19.326Z",
+  "timestamp": "2026-05-10T05:33:36.810Z",
   "categories": {
     "news": {
-      "count": 18,
+      "count": 20,
       "items": [
+        {
+          "subject": "Together AI: Serving DeepSeek-V4: why million-token context is an inference systems problem",
+          "body": "Deep: Seek-V4 makes million-token context a serving-systems problem. Together AI explores the inference work behind V4 on NVIDIA HGX B200, including compressed KV layouts, prefix caching, kernel maturity, and endpoint profiles for long-context workloads.",
+          "timestamp": "2026-05-09T04:00:02",
+          "url": "https://www.together.ai/blog/serving-deepseek-v4-why-million-token-context-is-an-inference-systems-problem",
+          "extras": {
+            "data_origin": "Together AI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Names Suzanne Nora Johnson to Board of Directors",
+          "body": "NVIDIA today announced that it has named to its board of directors...",
+          "timestamp": "2026-05-09T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission",
           "body": "AI will help build the energy it needs. That’s the case U. S...",
@@ -69,19 +87,19 @@
           }
         },
         {
-          "subject": "Introducing ChatGPT Futures: Class of 2026",
-          "body": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
+          "subject": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+          "body": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
           "timestamp": "2026-05-07T04:00:02",
-          "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+          "url": "https://openai.com/index/singular-bank",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-          "body": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
+          "subject": "Introducing ChatGPT Futures: Class of 2026",
+          "body": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
           "timestamp": "2026-05-07T04:00:02",
-          "url": "https://openai.com/index/singular-bank",
+          "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -170,7 +188,7 @@
       ]
     },
     "models": {
-      "count": 4,
+      "count": 3,
       "items": [
         {
           "subject": "nvidia/Gemma-4-26B-A4B-NVFP4",
@@ -201,19 +219,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"feature-extraction\", \"nvidia\", \"pytorch\", \"multimodal\", \"any-to-any\", \"custom_code\", \"dataset:nvidia/Nemotron-Image-Training-v3\", \"arxiv:2604.24954\", \"license:other\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-05-02T06:18:14",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Developments:**\n\n1. **NVIDIA and IREN Announce Strategic Partnership**: NVIDIA and IREN Limited have announced a strategic partnership to accelerate the deployment of up to 5 gigawatts of AI infrastructure.\n2. **OpenAI Introduces New Models and Features**: OpenAI has introduced new models and features, including GPT-5.5 Instant, which updates ChatGPT's default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.\n3. **NVIDIA and Corning Announce Long-Term Partnership**: NVIDIA and Corning Incorporated have announced a multi-year partnership to strengthen US manufacturing for AI infrastructure.\n4. **OpenAI and PwC Collaborate on Finance Workflows**: OpenAI and PwC have partnered to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.\n5. **NVIDIA Spectrum-X Sets the Standard for Gigascale AI**: NVIDIA has announced that its Spectrum-X Ethernet fabric has set the standard for gigascale AI, now with Multi-Root Complex (MRC) capabilities.\n6. **Simplex Boosts Software Development with ChatGPT and Codex**: Simplex has used ChatGPT and Codex to boost software development, reducing design, build, and testing time while scaling AI-driven workflows.\n\n**Trend:**\n\nThe trend in AI development is towards increasing emphasis on scaling, efficiency, and collaboration. AI models are being optimized for performance, accuracy, and real-time applications, with a focus on developing more efficient and effective workflows. There is also a growing trend towards collaboration between companies, institutions, and governments to drive innovation and adoption of AI technologies."
+  "summary": "Here are 6 key developments with insight, along with a trend:\n\n**Developments:**\n\n* **NVIDIA's Strategic Partnership:** NVIDIA has announced a strategic partnership with IREN Limited to accelerate the deployment of up to 5 gigawatts of AI infrastructure. This move highlights the growing importance of AI infrastructure and NVIDIA's efforts to stay at the forefront of this emerging market.\n* **OpenAI's Codex-Powered Software Development:** OpenAI has collaborated with Simplex to integrate Codex into their software development process, reducing design, build, and testing time while scaling AI-driven workflows. This demonstrates the growing potential of Codex in software development and automation.\n* **NVIDIA's AI-Native Ethernet Fabric:** NVIDIA has announced the development of Spectrum-X, an open, AI-native Ethernet fabric designed to meet the networking demands of gigascale AI. This innovation is critical for the development of powerful AI factories and could potentially disrupt the networking landscape.\n* **OpenAI's GPT-5.5 Instant:** OpenAI has released an update to ChatGPT's default model, GPT-5.5 Instant, which offers smarter, more accurate answers, reduced hallucinations, and improved personalization controls. This improvement showcases the ever-evolving nature of AI models and the ongoing efforts to enhance their performance.\n* **Collaboration between OpenAI and PwC:** OpenAI and PwC have announced a partnership to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function. This collaboration highlights the growing importance of AI in finance and the need for innovative solutions.\n* **NVIDIA's Partnership with Corning:** NVIDIA has announced a multi-year partnership with Corning to strengthen US manufacturing for AI infrastructure. This partnership demonstrates the growing importance of domestic manufacturing in the AI industry and NVIDIA's efforts to support the development of AI infrastructure.\n\n**Trend:** The trend in these developments is the growing convergence of AI, infrastructure, and innovation. As AI continues to advance, the need for innovative infrastructure and collaboration between industry leaders is becoming increasingly important. This trend will likely continue to shape the AI landscape in the coming years, with companies that adapt and innovate in this space likely to emerge as leaders in the industry."
 }
