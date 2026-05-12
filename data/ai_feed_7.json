@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-11T05:55:07.802Z",
+  "timestamp": "2026-05-12T05:35:06.034Z",
   "categories": {
     "news": {
-      "count": 20,
+      "count": 21,
       "items": [
+        {
+          "subject": "OpenAI launches DeployCo to help businesses build around intelligence",
+          "body": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+          "timestamp": "2026-05-11T14:00:02",
+          "url": "https://openai.com/index/openai-launches-the-deployment-company",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI Campus Network: Student club interest form",
+          "body": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+          "timestamp": "2026-05-11T14:00:02",
+          "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
+          "body": "Delivering the commencement address to Carnegie Mellon University’s Class of 2026, NVIDIA...",
+          "timestamp": "2026-05-11T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/your-career-starts-at-the-beginning-of-the-ai-revolution-nvidia-ceo-tells-graduates/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Together AI: Serving DeepSeek-V4: why million-token context is an inference systems problem",
           "body": "Deep: Seek-V4 makes million-token context a serving-systems problem. Together AI explores the inference work behind V4 on NVIDIA HGX B200, including compressed KV layouts, prefix caching, kernel maturity, and endpoint profiles for long-context workloads.",
@@ -21,6 +48,15 @@
           "url": "https://nvidianews.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
           "extras": {
             "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Advancing voice intelligence with new models in the API",
+          "body": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+          "timestamp": "2026-05-08T04:00:02",
+          "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -64,15 +100,6 @@
           "body": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
           "timestamp": "2026-05-08T04:00:02",
           "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Advancing voice intelligence with new models in the API",
-          "body": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
-          "timestamp": "2026-05-08T04:00:02",
-          "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -166,24 +193,6 @@
           "extras": {
             "data_origin": "IEEE Spectrum"
           }
-        },
-        {
-          "subject": "OpenAI and PwC collaborate to reimagine the office of the CFO",
-          "body": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
-          "timestamp": "2026-05-05T04:00:02",
-          "url": "https://openai.com/index/openai-pwc-finance-collaboration",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How OpenAI delivers low-latency voice AI at scale",
-          "body": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
-          "timestamp": "2026-05-05T04:00:02",
-          "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -223,5 +232,5 @@
       ]
     }
   },
-  "summary": "**Summary of Key Developments:**\n\n* **DeepSeek-V4:** Together AI has explored the inference work behind DeepSeek-V4 on NVIDIA HGX B200, highlighting compressed KV layouts, prefix caching, kernel maturity, and endpoint profiles for long-context workloads.\n* **NVIDIA Board of Directors:** NVIDIA has named Suzanne Nora Johnson to its board of directors, further strengthening its leadership team.\n* **AI Infrastructure Partnerships:** NVIDIA has announced strategic partnerships with IREN and Corning to accelerate the deployment of up to 5 gigawatts of AI infrastructure.\n* **OpenAI Developments:** OpenAI has introduced several new features, including GPT-5.5 Instant, which updates ChatGPT's default model with smarter, more accurate answers and reduced hallucinations.\n* **NVIDIA Spectrum-X:** NVIDIA has announced its open, AI-native Ethernet fabric, Spectrum-X, which sets the standard for gigascale AI.\n\n**Trend:**\n\n* **Advancements in AI Infrastructure:** The trend in the industry is shifting towards the development of more powerful and efficient AI infrastructure, with a focus on scalability, reliability, and performance. This is reflected in the announcements from NVIDIA, OpenAI, and other companies, which are investing heavily in AI infrastructure and partnerships to accelerate its adoption.\n\n**Insights:**\n\n* The increasing demand for AI infrastructure is driving innovation and investment in the industry.\n* The development of more powerful AI models, such as DeepSeek-V4 and GPT-5.5 Instant, is leading to breakthroughs in areas like natural language processing and machine learning.\n* The partnership between NVIDIA and Corning highlights the importance of collaboration between companies to accelerate the adoption of AI infrastructure."
+  "summary": "Here are 6 bullet points and 1 trend based on the news articles:\n\n**Bullet Points:**\n\n* OpenAI launches DeployCo, a new enterprise deployment company to help businesses build and deploy AI models.\n* NVIDIA announces a partnership with Corning to strengthen US manufacturing for AI infrastructure.\n* OpenAI releases GPT-5.5 Instant, an updated model with smarter, clearer, and more personalized answers.\n* NVIDIA and ServiceNow partner on new autonomous AI agents for enterprises.\n* NVIDIA and IREN announce a strategic partnership to accelerate deployment of up to 5 gigawatts of AI infrastructure.\n* Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time.\n\n**Trend:**\n\n* **The growing importance of AI in enterprise and business settings**: The articles highlight the increasing adoption of AI in various industries, from manufacturing to software development, and the need for businesses to deploy and scale AI models to achieve measurable business impact. This trend reflects the growing recognition of AI's potential to drive innovation, efficiency, and competitiveness in the enterprise world.\n\nAdditionally, the trend of AI being integrated into various aspects of business and industry is also evident, including:\n\n* AI being used for software development and deployment\n* AI being used in manufacturing and infrastructure\n* AI being used for customer service and support\n* AI being used for cybersecurity and threat detection\n\nOverall, the trend suggests that AI is becoming increasingly essential for businesses to stay competitive and achieve their goals."
 }
