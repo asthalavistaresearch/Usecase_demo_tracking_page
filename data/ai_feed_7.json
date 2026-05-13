@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-12T12:44:51.625Z",
+  "timestamp": "2026-05-13T05:44:17.324Z",
   "categories": {
     "news": {
-      "count": 21,
+      "count": 19,
       "items": [
+        {
+          "subject": "NVIDIA and SAP Bring Trust to Specialized Agents",
+          "body": "Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen...",
+          "timestamp": "2026-05-12T14:00:02",
+          "url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "OpenAI launches DeployCo to help businesses build around intelligence",
           "body": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
@@ -51,10 +60,10 @@
           }
         },
         {
-          "subject": "Advancing voice intelligence with new models in the API",
-          "body": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+          "subject": "Simplex rethinks software development with Codex",
+          "body": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
           "timestamp": "2026-05-08T04:00:02",
-          "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+          "url": "https://openai.com/index/simplex",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -87,19 +96,19 @@
           }
         },
         {
-          "subject": "Simplex rethinks software development with Codex",
-          "body": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+          "subject": "Introducing Trusted Contact in ChatGPT",
+          "body": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
           "timestamp": "2026-05-08T04:00:02",
-          "url": "https://openai.com/index/simplex",
+          "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Introducing Trusted Contact in ChatGPT",
-          "body": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+          "subject": "Advancing voice intelligence with new models in the API",
+          "body": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
           "timestamp": "2026-05-08T04:00:02",
-          "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+          "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -141,6 +150,15 @@
           }
         },
         {
+          "subject": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
+          "body": "The race to build the world’s most powerful AI factories demands networking...",
+          "timestamp": "2026-05-06T14:00:02",
+          "url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
           "subject": "Product Hunt Launch: Ads in ChatGPT",
           "body": "Create, manage, and measure your ChatGPT ad campaigns",
           "timestamp": "2026-05-06T14:00:02",
@@ -157,47 +175,11 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
-          "body": "The race to build the world’s most powerful AI factories demands networking...",
-          "timestamp": "2026-05-06T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
-          "body": "Enterprise AI has learned to generate. It has learned to reason. Now...",
-          "timestamp": "2026-05-06T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-          "body": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-          "timestamp": "2026-05-06T04:00:02",
-          "url": "https://openai.com/index/gpt-5-5-instant",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Do We Really Need Smarter AI to Cure Cancer?",
-          "body": "By some estimates, more than a trillion dollars have already been invested in artificial intelligence. But large tech companies including Meta and OpenAI are still not content with today’s AI, and say they have set their sights on powerful,...",
-          "timestamp": "2026-05-05T14:00:02",
-          "url": "https://spectrum.ieee.org/can-ai-cure-cancer-javorsky",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
-          }
         }
       ]
     },
     "models": {
-      "count": 3,
+      "count": 1,
       "items": [
         {
           "subject": "nvidia/Gemma-4-26B-A4B-NVFP4",
@@ -208,29 +190,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
-          "body": "[\"transformers\", \"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"feature-extraction\", \"nvidia\", \"pytorch\", \"multimodal\", \"any-to-any\", \"custom_code\", \"dataset:nvidia/Nemotron-Image-Training-v3\", \"arxiv:2604.24954\", \"base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"base_model:quantized:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"license:other\", \"modelopt\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-05-05T14:35:05",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
-          "body": "[\"transformers\", \"safetensors\", \"NemotronH_Nano_Omni_Reasoning_V3\", \"feature-extraction\", \"nvidia\", \"pytorch\", \"multimodal\", \"any-to-any\", \"custom_code\", \"dataset:nvidia/Nemotron-Image-Training-v3\", \"arxiv:2604.24954\", \"base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"base_model:quantized:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16\", \"license:other\", \"8-bit\", \"modelopt\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-05-05T14:35:03",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* OpenAI has launched DeployCo, a new enterprise deployment company that helps organizations bring frontier AI into production and turn it into measurable business impact.\n* NVIDIA has announced a strategic partnership with IREN to accelerate deployment of up to 5 gigawatts of AI infrastructure.\n* OpenAI has introduced a new feature called Trust Contact in ChatGPT, which notifies someone you trust if serious self-harm concerns are detected.\n* NVIDIA has launched a new autonomous AI agent for enterprises in partnership with ServiceNow.\n* OpenAI has updated ChatGPT's default model with GPT-5.5 Instant, which provides smarter, more accurate answers and improved personalization controls.\n\n**Trend:** The increasing focus on enterprise adoption of AI is a key trend in the AI industry. Companies like OpenAI and NVIDIA are investing heavily in providing solutions that help businesses bring AI into production and scale its impact. This trend is expected to continue as more companies recognize the value of AI in driving business growth and innovation."
+  "summary": "**Key Developments:**\n\n* **NVIDIA and SAP Partnership**: NVIDIA and SAP have partnered to bring trust to specialized AI agents, enabling businesses to deploy AI models with confidence. (5/12)\n* **OpenAI Launches DeployCo**: OpenAI has launched DeployCo, a new enterprise deployment company to help organizations bring frontier AI into production. (5/11)\n* **Simplex Boosts Software Development with Codex**: Simplex has utilized ChatGPT Enterprise and Codex to reduce design, build, and testing time while scaling AI-driven workflows. (5/8)\n* **NVIDIA and IREN Announce Strategic Partnership**: NVIDIA and IREN have partnered to accelerate the deployment of up to 5 Gigawatts of AI infrastructure. (5/8)\n* **OpenAI Expands Trusted Access for Cyber**: OpenAI has expanded Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure. (5/8)\n* **Singular Bank Uses ChatGPT and Codex**: Singular Bank has built an internal assistant using ChatGPT and Codex to help bankers save 60-90 minutes daily on meeting prep, portfolio analysis, and follow-up. (5/7)\n\n**Trend:** The AI industry is witnessing a surge in collaborations and partnerships between key players to accelerate the deployment of AI infrastructure and enhance the adoption of AI models in various industries."
 }
