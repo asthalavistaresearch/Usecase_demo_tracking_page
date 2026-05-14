@@ -1,10 +1,64 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-13T05:44:17.324Z",
+  "timestamp": "2026-05-14T05:43:35.410Z",
   "categories": {
     "news": {
       "count": 19,
       "items": [
+        {
+          "subject": "Product Hunt Launch: Zen Reports",
+          "body": "See how much traffic your website gets from ChatGPT",
+          "timestamp": "2026-05-13T14:00:02",
+          "url": "https://www.producthunt.com/products/zen-reports",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
+          "body": "Agentic AI is changing the way users get work done. Following the...",
+          "timestamp": "2026-05-13T14:00:02",
+          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
+          "body": "Reinforcement-learning agents — AI systems that learn by trial and error —...",
+          "timestamp": "2026-05-13T14:00:02",
+          "url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AutoScout24 scales engineering with AI-powered workflows",
+          "body": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+          "timestamp": "2026-05-13T04:00:01",
+          "url": "https://openai.com/index/autoscout24",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How NVIDIA engineers and researchers build with Codex",
+          "body": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+          "timestamp": "2026-05-13T04:00:01",
+          "url": "https://openai.com/index/nvidia",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How finance teams use Codex",
+          "body": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+          "timestamp": "2026-05-13T04:00:01",
+          "url": "https://openai.com/academy/how-finance-teams-use-codex",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "NVIDIA and SAP Bring Trust to Specialized Agents",
           "body": "Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen...",
@@ -60,10 +114,10 @@
           }
         },
         {
-          "subject": "Simplex rethinks software development with Codex",
-          "body": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+          "subject": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+          "body": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
           "timestamp": "2026-05-08T04:00:02",
-          "url": "https://openai.com/index/simplex",
+          "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -96,6 +150,15 @@
           }
         },
         {
+          "subject": "Simplex rethinks software development with Codex",
+          "body": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+          "timestamp": "2026-05-08T04:00:02",
+          "url": "https://openai.com/index/simplex",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "Introducing Trusted Contact in ChatGPT",
           "body": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
           "timestamp": "2026-05-08T04:00:02",
@@ -112,69 +175,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-          "body": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-          "timestamp": "2026-05-08T04:00:02",
-          "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-          "body": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
-          "timestamp": "2026-05-07T04:00:02",
-          "url": "https://openai.com/index/singular-bank",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing ChatGPT Futures: Class of 2026",
-          "body": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
-          "timestamp": "2026-05-07T04:00:02",
-          "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Chatbots Need Guardrails to Prevent Delusions and Psychosis",
-          "body": "Millions of people worldwide are turning to chatbots like ChatGPT or Claude, and a proliferating class of specialized AI companionship apps for friendship, therapy or even romance. While some users report psychological benefits from these simulated...",
-          "timestamp": "2026-05-07T04:00:02",
-          "url": "https://spectrum.ieee.org/mental-health-chatbot-guardrails",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
-          }
-        },
-        {
-          "subject": "NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC",
-          "body": "The race to build the world’s most powerful AI factories demands networking...",
-          "timestamp": "2026-05-06T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Product Hunt Launch: Ads in ChatGPT",
-          "body": "Create, manage, and measure your ChatGPT ad campaigns",
-          "timestamp": "2026-05-06T14:00:02",
-          "url": "https://www.producthunt.com/products/chatgpt",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
-        },
-        {
-          "subject": "NVIDIA and Corning Announce Long-Term Partnership to Strengthen US Manufacturing for AI Infrastructure",
-          "body": "NVIDIA (NASDAQ: NVDA) and Corning Incorporated (NYSE: GLW) today announced a multiyear...",
-          "timestamp": "2026-05-06T14:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -183,8 +183,8 @@
       "items": [
         {
           "subject": "nvidia/Gemma-4-26B-A4B-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"gemma4\", \"nvidia\", \"ModelOpt\", \"quantized\", \"NVFP4\", \"nvfp4\", \"gemma4-26b-A4B-it\", \"text-generation\", \"conversational\", \"base_model:google/gemma-4-26B-A4B-it\", \"base_model:quantized:google/gemma-4-26B-A4B-it\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-05-07T00:43:59",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"gemma4\", \"nvidia\", \"ModelOpt\", \"quantized\", \"NVFP4\", \"nvfp4\", \"gemma4-26b-A4B-it\", \"text-generation\", \"conversational\", \"base_model:google/gemma-4-26B-A4B-it\", \"base_model:quantized:google/gemma-4-26B-A4B-it\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-05-11T15:58:52",
           "url": "https://huggingface.co/nvidia/Gemma-4-26B-A4B-NVFP4",
           "extras": {
             "data_origin": "huggingface",
@@ -194,5 +194,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **NVIDIA and SAP Partnership**: NVIDIA and SAP have partnered to bring trust to specialized AI agents, enabling businesses to deploy AI models with confidence. (5/12)\n* **OpenAI Launches DeployCo**: OpenAI has launched DeployCo, a new enterprise deployment company to help organizations bring frontier AI into production. (5/11)\n* **Simplex Boosts Software Development with Codex**: Simplex has utilized ChatGPT Enterprise and Codex to reduce design, build, and testing time while scaling AI-driven workflows. (5/8)\n* **NVIDIA and IREN Announce Strategic Partnership**: NVIDIA and IREN have partnered to accelerate the deployment of up to 5 Gigawatts of AI infrastructure. (5/8)\n* **OpenAI Expands Trusted Access for Cyber**: OpenAI has expanded Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure. (5/8)\n* **Singular Bank Uses ChatGPT and Codex**: Singular Bank has built an internal assistant using ChatGPT and Codex to help bankers save 60-90 minutes daily on meeting prep, portfolio analysis, and follow-up. (5/7)\n\n**Trend:** The AI industry is witnessing a surge in collaborations and partnerships between key players to accelerate the deployment of AI infrastructure and enhance the adoption of AI models in various industries."
+  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **NVIDIA and OpenAI continue to push the boundaries of AI**: The two companies have been making significant advancements in AI research and development, with a focus on applications in industries such as finance, healthcare, and energy.\n* **Agentic AI agents become more powerful**: NVIDIA's Hermes agent, powered by NVIDIA RTX PCs and DGX Spark, has been demonstrated to be self-improving, enabling users to work more efficiently.\n* **AI-powered workflows become more mainstream**: AutoScout24, a leading automotive marketplace, has scaled its engineering with AI-powered workflows using Codex and ChatGPT, reducing development cycles and improving code quality.\n* **OpenAI launches DeployCo to help businesses bring frontier AI into production**: DeployCo is a new enterprise deployment company built to help organizations turn frontier AI into measurable business impact.\n* **NVIDIA and SAP announce partnership to bring trust to specialized agents**: The partnership aims to accelerate the adoption of specialized agents in industries such as finance and healthcare.\n\n**Trend:**\n\n* **Increased focus on enterprise AI adoption**: The recent announcements from NVIDIA and OpenAI highlight the growing importance of AI adoption in the enterprise space. As more businesses seek to leverage the power of AI to drive innovation and growth, we can expect to see more developments in this area.\n\nInsights:\n\n* The collaboration between NVIDIA and OpenAI is driving significant advancements in AI research and development, with a focus on practical applications.\n* The increasing adoption of agentic AI agents and AI-powered workflows is transforming the way businesses operate and innovate.\n* The launch of DeployCo and the partnership between NVIDIA and SAP demonstrate the growing importance of bringing frontier AI into production and ensuring trust in specialized agents."
 }
