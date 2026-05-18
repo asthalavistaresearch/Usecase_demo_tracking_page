@@ -1,6 +1,6 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-18T06:09:00.885Z",
+  "timestamp": "2026-05-18T12:21:27.736Z",
   "categories": {
     "news": {
       "count": 12,
@@ -141,5 +141,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Bullet Points:**\n\n* **Codex adoption grows:** Sea Limited, NVIDIA, and AutoScout24 are using Codex to accelerate AI-native software development and improve code quality.\n* **NVIDIA and SAP partner on specialized agents:** The two companies are working together to bring trust to specialized agents, enabling organizations to build and deploy AI-powered workflows.\n* **OpenAI launches DeployCo:** The company is launching a new enterprise deployment company to help organizations bring frontier AI into production and turn it into measurable business impact.\n* **ChatGPT mobile app is live:** Users can now access Codex anywhere with the ChatGPT mobile app, allowing for real-time monitoring, steering, and approval of coding tasks across devices and remote environments.\n* **Codex is being used in finance:** Finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.\n* **NVIDIA engineers and researchers use Codex:** Teams are using Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.\n\n**Trend:**\n\n* **The rise of agentic AI:** The trend is towards the development of agentic AI, where AI systems can act on their own and make decisions, leading to increased productivity, efficiency, and innovation. This is reflected in the adoption of Codex and other agentic AI tools by companies like Sea Limited, NVIDIA, and AutoScout24."
+  "summary": "**Key Developments:**\n\n* **Codex Adoption**: Sea Limited's CPO explained why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.\n* **Codex Integration**: OpenAI released a ChatGPT mobile app, enabling users to work with Codex from anywhere, monitor, steer, and approve coding tasks in real-time across devices and remote environments.\n* **Sandbox Development**: OpenAI built a secure sandbox for Codex on Windows, enabling safe and efficient coding agents with controlled file access and network restrictions.\n* **NVIDIA Collaborations**: NVIDIA and Ineffable Intelligence partnered to build the future of reinforcement learning infrastructure, while NVIDIA also announced partnerships with SAP and OpenAI to bring trust to specialized agents.\n\n**Trend:**\n\n* **Rise of Agentic Software Development**: The increasing adoption of Codex and other AI-powered tools suggests a growing trend towards agentic software development, where AI systems learn, adapt, and evolve to solve complex problems. This trend is likely to continue as companies invest more in AI research and development."
 }
