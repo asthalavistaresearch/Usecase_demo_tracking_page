@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-18T12:21:27.736Z",
+  "timestamp": "2026-05-19T06:03:26.504Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 11,
       "items": [
         {
           "subject": "Sea's View on the Future of Agentic Software Development with Codex",
@@ -19,6 +19,15 @@
           "body": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
           "timestamp": "2026-05-15T04:00:02",
           "url": "https://openai.com/index/work-with-codex-from-anywhere",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Helping ChatGPT better recognize context in sensitive conversations",
+          "body": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
+          "timestamp": "2026-05-15T04:00:02",
+          "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -94,30 +103,22 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "OpenAI Campus Network: Student club interest form",
-          "body": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-          "timestamp": "2026-05-11T14:00:02",
-          "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI launches DeployCo to help businesses build around intelligence",
-          "body": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-          "timestamp": "2026-05-11T14:00:02",
-          "url": "https://openai.com/index/openai-launches-the-deployment-company",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "models": {
       "count": 2,
       "items": [
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-ASR-Streaming-Multilingual-0.6b",
+          "body": "[\"nemo\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-05-16T05:35:07",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-ASR-Streaming-Multilingual-0.6b",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/Kimi-K2.6-NVFP4",
           "body": "[\"Model Optimizer\", \"safetensors\", \"kimi_k25\", \"nvidia\", \"ModelOpt\", \"Kimi-K2.6\", \"quantized\", \"FP4\", \"fp4\", \"text-generation\", \"conversational\", \"custom_code\", \"base_model:moonshotai/Kimi-K2.6\", \"base_model:quantized:moonshotai/Kimi-K2.6\", \"license:other\", \"modelopt\", \"region:us\"]",
@@ -127,19 +128,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Gemma-4-26B-A4B-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"gemma4\", \"nvidia\", \"ModelOpt\", \"quantized\", \"NVFP4\", \"nvfp4\", \"gemma4-26b-A4B-it\", \"text-generation\", \"conversational\", \"base_model:google/gemma-4-26B-A4B-it\", \"base_model:quantized:google/gemma-4-26B-A4B-it\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-05-11T15:58:52",
-          "url": "https://huggingface.co/nvidia/Gemma-4-26B-A4B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **Codex Adoption**: Sea Limited's CPO explained why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.\n* **Codex Integration**: OpenAI released a ChatGPT mobile app, enabling users to work with Codex from anywhere, monitor, steer, and approve coding tasks in real-time across devices and remote environments.\n* **Sandbox Development**: OpenAI built a secure sandbox for Codex on Windows, enabling safe and efficient coding agents with controlled file access and network restrictions.\n* **NVIDIA Collaborations**: NVIDIA and Ineffable Intelligence partnered to build the future of reinforcement learning infrastructure, while NVIDIA also announced partnerships with SAP and OpenAI to bring trust to specialized agents.\n\n**Trend:**\n\n* **Rise of Agentic Software Development**: The increasing adoption of Codex and other AI-powered tools suggests a growing trend towards agentic software development, where AI systems learn, adapt, and evolve to solve complex problems. This trend is likely to continue as companies invest more in AI research and development."
+  "summary": "Here are 4-6 bullet points summarizing key developments in AI with insight, along with a trend:\n\n**Key Developments:**\n\n* **Codex Adoption Gains Momentum**: Sea Limited's CPO is deploying Codex across engineering teams to accelerate AI-native software development in Asia, highlighting the growing adoption of Codex for AI development.\n* **NVIDIA and OpenAI Collaborate on AI Infrastructure**: NVIDIA and OpenAI are working together to build the future of reinforcement learning infrastructure, with NVIDIA's Ineffable Intelligence teaming up with OpenAI to create more effective AI systems.\n* **Hermes Unlocks Self-Improving AI Agents**: Hermes, a new AI agent, is powered by NVIDIA RTX PCs and DGX Spark, enabling self-improving AI agents that can change the way users get work done.\n* **Finance Teams Leverage Codex**: Finance teams are using Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios, demonstrating the application of Codex in various industries.\n* **AutoScout24 Scales Engineering with AI-Powered Workflows**: AutoScout24 Group is using Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption, showcasing the benefits of AI-powered workflows in engineering.\n\n**Trend:**\n\n* **Rise of Agentic AI**: The trend of agentic AI, which enables AI systems to learn and adapt on their own, is gaining momentum. This trend is driven by advancements in reinforcement learning, self-improving AI agents, and the increasing adoption of AI in various industries. As agentic AI becomes more prevalent, we can expect to see more AI systems that can learn, adapt, and improve on their own, leading to significant breakthroughs in fields such as software development, finance, and engineering."
 }
