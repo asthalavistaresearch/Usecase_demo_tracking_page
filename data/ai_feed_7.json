@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-19T06:03:26.504Z",
+  "timestamp": "2026-05-20T06:03:00.304Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 9,
       "items": [
+        {
+          "subject": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+          "body": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+          "timestamp": "2026-05-19T04:00:02",
+          "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA CEO Jensen Huang at Dell Technologies World: “Demand Is Going Parabolic, Utterly Parabolic”",
+          "body": "Agentic AI inference at one-tenth the cost per token with NVIDIA Vera...",
+          "timestamp": "2026-05-19T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
+          "body": "The first NVIDIA Vera CPUs arrived at three of the world's leading...",
+          "timestamp": "2026-05-19T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Sea's View on the Future of Agentic Software Development with Codex",
           "body": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
@@ -19,15 +46,6 @@
           "body": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
           "timestamp": "2026-05-15T04:00:02",
           "url": "https://openai.com/index/work-with-codex-from-anywhere",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Helping ChatGPT better recognize context in sensitive conversations",
-          "body": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-          "timestamp": "2026-05-15T04:00:02",
-          "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -67,42 +85,6 @@
           "extras": {
             "data_origin": "Product Hunt"
           }
-        },
-        {
-          "subject": "How finance teams use Codex",
-          "body": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
-          "timestamp": "2026-05-13T04:00:01",
-          "url": "https://openai.com/academy/how-finance-teams-use-codex",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How NVIDIA engineers and researchers build with Codex",
-          "body": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-          "timestamp": "2026-05-13T04:00:01",
-          "url": "https://openai.com/index/nvidia",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "AutoScout24 scales engineering with AI-powered workflows",
-          "body": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-          "timestamp": "2026-05-13T04:00:01",
-          "url": "https://openai.com/index/autoscout24",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA and SAP Bring Trust to Specialized Agents",
-          "body": "Announced today at SAP Sapphire — where NVIDIA founder and CEO Jensen...",
-          "timestamp": "2026-05-12T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -132,5 +114,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments in AI with insight, along with a trend:\n\n**Key Developments:**\n\n* **Codex Adoption Gains Momentum**: Sea Limited's CPO is deploying Codex across engineering teams to accelerate AI-native software development in Asia, highlighting the growing adoption of Codex for AI development.\n* **NVIDIA and OpenAI Collaborate on AI Infrastructure**: NVIDIA and OpenAI are working together to build the future of reinforcement learning infrastructure, with NVIDIA's Ineffable Intelligence teaming up with OpenAI to create more effective AI systems.\n* **Hermes Unlocks Self-Improving AI Agents**: Hermes, a new AI agent, is powered by NVIDIA RTX PCs and DGX Spark, enabling self-improving AI agents that can change the way users get work done.\n* **Finance Teams Leverage Codex**: Finance teams are using Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios, demonstrating the application of Codex in various industries.\n* **AutoScout24 Scales Engineering with AI-Powered Workflows**: AutoScout24 Group is using Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption, showcasing the benefits of AI-powered workflows in engineering.\n\n**Trend:**\n\n* **Rise of Agentic AI**: The trend of agentic AI, which enables AI systems to learn and adapt on their own, is gaining momentum. This trend is driven by advancements in reinforcement learning, self-improving AI agents, and the increasing adoption of AI in various industries. As agentic AI becomes more prevalent, we can expect to see more AI systems that can learn, adapt, and improve on their own, leading to significant breakthroughs in fields such as software development, finance, and engineering."
+  "summary": "Here are 6 key developments with insight:\n\n* **OpenAI and Dell partner to bring Codex to hybrid and on-premise environments**: This partnership will enable enterprises to deploy AI coding agents securely across data and workflows, marking a significant step towards widespread adoption of Codex.\n* **NVIDIA CEO Jensen Huang predicts \"parabolic\" demand for AI**: Huang's statement suggests that the demand for AI is growing exponentially, and NVIDIA is well-positioned to capitalize on this trend.\n* **NVIDIA's Vera CPU arrives at top AI labs**: The arrival of Vera CPUs at leading AI research institutions marks a significant milestone in the development of NVIDIA's agentic AI technology.\n* **Sea Limited deploys Codex across engineering teams**: Sea Limited's adoption of Codex highlights the growing demand for AI-native software development and the need for efficient coding agents.\n* **NVIDIA teams up with Ineffable Intelligence to build reinforcement learning infrastructure**: This partnership will enable the development of more sophisticated reinforcement learning agents, which could lead to breakthroughs in areas like robotics and autonomous systems.\n* **Hermes unlocks self-improving AI agents**: The Hermes project, built on NVIDIA RTX PCs and DGX Spark, has achieved a significant milestone in agentic AI, enabling self-improving AI agents that can learn and adapt to new tasks.\n\n**Trend:** The trend is towards the widespread adoption of AI coding agents, with a focus on agentic AI that can learn, adapt, and improve on its own. This trend is driven by the growing demand for efficient coding and the need for AI-native software development, with major players like OpenAI, NVIDIA, and Sea Limited leading the charge."
 }
