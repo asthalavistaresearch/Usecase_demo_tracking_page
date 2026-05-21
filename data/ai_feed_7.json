@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-20T06:03:00.304Z",
+  "timestamp": "2026-05-21T06:05:51.016Z",
   "categories": {
     "news": {
       "count": 9,
       "items": [
+        {
+          "subject": "The next phase of OpenAI’s Education for Countries",
+          "body": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+          "timestamp": "2026-05-20T14:00:01",
+          "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Introducing OpenAI for Singapore",
+          "body": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+          "timestamp": "2026-05-20T04:00:02",
+          "url": "https://openai.com/index/introducing-openai-for-singapore",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Advancing content provenance for a safer, more transparent AI ecosystem",
+          "body": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
+          "timestamp": "2026-05-20T04:00:02",
+          "url": "https://openai.com/index/advancing-content-provenance",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
+          "body": "At this year’s Google I/O conference, NVIDIA and Google Cloud are accelerating...",
+          "timestamp": "2026-05-20T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
           "body": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
@@ -49,42 +85,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Building a safe, effective sandbox to enable Codex on Windows",
-          "body": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
-          "timestamp": "2026-05-14T04:00:02",
-          "url": "https://openai.com/index/building-codex-windows-sandbox",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
-          "body": "Reinforcement-learning agents — AI systems that learn by trial and error —...",
-          "timestamp": "2026-05-13T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
-          "body": "Agentic AI is changing the way users get work done. Following the...",
-          "timestamp": "2026-05-13T14:00:02",
-          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Product Hunt Launch: Zen Reports",
-          "body": "See how much traffic your website gets from ChatGPT",
-          "timestamp": "2026-05-13T14:00:02",
-          "url": "https://www.producthunt.com/products/zen-reports",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
         }
       ]
     },
@@ -114,5 +114,5 @@
       ]
     }
   },
-  "summary": "Here are 6 key developments with insight:\n\n* **OpenAI and Dell partner to bring Codex to hybrid and on-premise environments**: This partnership will enable enterprises to deploy AI coding agents securely across data and workflows, marking a significant step towards widespread adoption of Codex.\n* **NVIDIA CEO Jensen Huang predicts \"parabolic\" demand for AI**: Huang's statement suggests that the demand for AI is growing exponentially, and NVIDIA is well-positioned to capitalize on this trend.\n* **NVIDIA's Vera CPU arrives at top AI labs**: The arrival of Vera CPUs at leading AI research institutions marks a significant milestone in the development of NVIDIA's agentic AI technology.\n* **Sea Limited deploys Codex across engineering teams**: Sea Limited's adoption of Codex highlights the growing demand for AI-native software development and the need for efficient coding agents.\n* **NVIDIA teams up with Ineffable Intelligence to build reinforcement learning infrastructure**: This partnership will enable the development of more sophisticated reinforcement learning agents, which could lead to breakthroughs in areas like robotics and autonomous systems.\n* **Hermes unlocks self-improving AI agents**: The Hermes project, built on NVIDIA RTX PCs and DGX Spark, has achieved a significant milestone in agentic AI, enabling self-improving AI agents that can learn and adapt to new tasks.\n\n**Trend:** The trend is towards the widespread adoption of AI coding agents, with a focus on agentic AI that can learn, adapt, and improve on its own. This trend is driven by the growing demand for efficient coding and the need for AI-native software development, with major players like OpenAI, NVIDIA, and Sea Limited leading the charge."
+  "summary": "**Summary of Key Developments:**\n\n• **OpenAI Expands Education Efforts**: OpenAI has launched the next phase of its Education for Countries initiative, expanding AI adoption in schools through new partnerships, teacher training, and tools to improve global learning outcomes.\n• **OpenAI and Dell Partner on Codex**: OpenAI and Dell have partnered to bring Codex, a coding agent, to hybrid and on-premise enterprise environments, enabling secure deployment of AI across data and workflows.\n• **NVIDIA Advances AI Inference**: NVIDIA has announced the arrival of its first CPU, Vera, built specifically for agents, which is expected to reduce AI inference costs by 90%.\n• **OpenAI Enhances Content Provenance**: OpenAI has introduced Content Credentials, SynthID, and a verification tool to help identify and trust AI-generated media, advancing content provenance for a safer AI ecosystem.\n• **NVIDIA and Google Cloud Empower AI Builders**: NVIDIA and Google Cloud are accelerating AI adoption through their partnership, empowering the next wave of AI builders with cutting-edge technologies.\n\n**Trend:** The development of more advanced AI tools and technologies, such as Codex and Vera, is accelerating the adoption of AI in various industries, including education, enterprise, and research. This trend is expected to continue, driving innovation and transformation across the globe."
 }
