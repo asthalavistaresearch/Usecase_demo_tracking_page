@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-22T06:02:19.503Z",
+  "timestamp": "2026-05-23T00:39:24.748Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 13,
       "items": [
+        {
+          "subject": "NVIDIA Announces Upcoming Events for Financial Community",
+          "body": "SANTA CLARA, Calif., May 21, 2026 (GLOBE NEWSWIRE) -- NVIDIA will present...",
+          "timestamp": "2026-05-22T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
+          "body": "At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry...",
+          "timestamp": "2026-05-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "An OpenAI model has disproved a central conjecture in discrete geometry",
           "body": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
@@ -107,7 +125,7 @@
       ]
     },
     "models": {
-      "count": 2,
+      "count": 1,
       "items": [
         {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-ASR-Streaming-Multilingual-0.6b",
@@ -118,19 +136,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Kimi-K2.6-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"kimi_k25\", \"nvidia\", \"ModelOpt\", \"Kimi-K2.6\", \"quantized\", \"FP4\", \"fp4\", \"text-generation\", \"conversational\", \"custom_code\", \"base_model:moonshotai/Kimi-K2.6\", \"base_model:quantized:moonshotai/Kimi-K2.6\", \"license:other\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-05-15T17:40:07",
-          "url": "https://huggingface.co/nvidia/Kimi-K2.6-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Top 4-6 developments:**\n\n* **OpenAI model solves 80-year-old conjecture in discrete geometry**: An OpenAI model has disproved a major conjecture in discrete geometry, marking a significant milestone in AI-driven mathematics.\n* **NVIDIA announces record revenue for Q1 FY 2027**: NVIDIA reported record revenue for the first quarter ended in May, indicating strong demand for its AI and GPU technologies.\n* **OpenAI and Dell partner to bring Codex to hybrid and on-premise environments**: OpenAI and Dell have partnered to bring Codex, an AI-powered coding agent, to hybrid and on-premise enterprise environments, enabling secure AI coding across data and workflows.\n* **NVIDIA and Google Cloud empower the next wave of AI builders**: NVIDIA and Google Cloud are collaborating to accelerate AI development, providing tools and resources to support the next generation of AI experts.\n* **Amazon SageMaker AI introduces OpenAI-compatible API support**: Amazon SageMaker AI has introduced OpenAI-compatible API support for real-time inference endpoints, enabling businesses to integrate OpenAI capabilities with AWS services.\n\n**Trend:** **More companies are embracing AI and collaborating with OpenAI and NVIDIA to drive innovation**: OpenAI and NVIDIA are partnering with multiple companies, including Dell, AWS, and Google Cloud, to develop and integrate AI technologies, driving the growth of the AI industry and further democratizing access to AI innovation.\n\nNote: These developments highlight the increasing focus on AI research, development, and adoption across various industries, with a particular emphasis on the importance of partnerships and collaborations in driving innovation and growth."
+  "summary": "**Summary of Key Developments:**\n\nHere are the 6 key developments from the provided data:\n\n* **NVIDIA Announces Upcoming Events for Financial Community**: NVIDIA has announced upcoming events for the financial community, including a presentation that discusses the company's financial results and future prospects. (May 21, 2026)\n* **NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI**: NVIDIA is hosting a GTC Taipei event at COMPUTEX, where developers, researchers, and industry professionals will share insights on the latest advancements in AI. (May 22, 2026)\n* **OpenAI Model Disproves 80-Year-Old Conjecture in Discrete Geometry**: An OpenAI model has successfully solved the 80-year-old unit distance problem, marking a significant milestone in AI-driven mathematics and demonstrating the power of AI in resolving complex problems.\n* **AWS Announces OpenAI-Compatible API Support for Amazon SageMaker AI Endpoints**: AWS has introduced OpenAI-compatible API support for Amazon SageMaker AI endpoints, enabling easier integration of AI models and applications into the cloud.\n* **NVIDIA Announces Financial Results for First Quarter Fiscal 2027**: NVIDIA has reported record revenue for the first quarter ended April 25, 2026, highlighting the company's continued growth and success in the AI and GPU markets.\n* **OpenAI and Dell Partner to Bring Codex to Hybrid and On-Premise Enterprise Environments**: OpenAI and Dell have collaborated to bring Codex, a leading AI coding agent, to hybrid and on-premise enterprise environments, expanding the reach of AI-powered coding tools.\n\n**Trend: Expansion of AI Applications and Infrastructure**\n\nThe trend evident from these developments is the expanding reach and adoption of AI applications and infrastructure across various industries and sectors. This is demonstrated by the increasing involvement of companies like NVIDIA, AWS, and Dell in AI-related endeavors, as well as the introduction of new AI-powered tools and services. The advancements in AI-driven mathematics, such as the OpenAI model's solution to the unit distance problem, highlight the potential of AI to resolve complex problems and make breakthroughs in various fields."
 }
