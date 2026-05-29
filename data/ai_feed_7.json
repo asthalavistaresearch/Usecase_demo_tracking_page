@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-05-28T06:06:46.083Z",
+  "timestamp": "2026-05-29T06:08:58.316Z",
   "categories": {
     "news": {
-      "count": 5,
+      "count": 7,
       "items": [
+        {
+          "subject": "NVIDIA Research Advances Robotics From Simulation to the Real World",
+          "body": "Robotics is entering a new phase: moving from controlled demos and scripted...",
+          "timestamp": "2026-05-28T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Cisco and OpenAI redefine enterprise engineering with Codex",
+          "body": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+          "timestamp": "2026-05-28T04:00:02",
+          "url": "https://openai.com/index/cisco",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Building self-improving tax agents with Codex",
+          "body": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+          "timestamp": "2026-05-28T04:00:02",
+          "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How to use Codex for everyday work",
+          "body": "Explore 10 practical ChatGPT Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+          "timestamp": "2026-05-28T04:00:02",
+          "url": "https://openai.com/academy/how-to-use-codex-for-everyday-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
           "body": "The shift to agentic AI creates a new CPU requirement for the...",
@@ -31,24 +67,6 @@
           "extras": {
             "data_origin": "Product Hunt"
           }
-        },
-        {
-          "subject": "NVIDIA Announces Upcoming Events for Financial Community",
-          "body": "SANTA CLARA, Calif., May 21, 2026 (GLOBE NEWSWIRE) -- NVIDIA will present...",
-          "timestamp": "2026-05-22T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-upcoming-events-for-financial-community-6921679",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI",
-          "body": "At NVIDIA GTC Taipei at COMPUTEX, the world’s developers, researchers and industry...",
-          "timestamp": "2026-05-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -57,5 +75,5 @@
       "items": []
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA Vera CPU gains traction**: NVIDIA's Vera CPU is being positioned as a heavy-hitting punch against competition, suggesting a significant shift in the market towards specialized CPUs for AI workloads.\n* **AWS announces collaboration with NVIDIA and Amazon**: AWS is building high-performance generative AI systems with Strands Agents, NVIDIA NIM, and Amazon Bedrock AgentCore, highlighting the importance of partnerships in the AI ecosystem.\n* **Product Hunt Launch: MashuPack**: MashuPack is a tool that turns codebases into a clean file for use with Claude and ChatGPT, indicating the growing demand for tools that integrate with large language models.\n* **NVIDIA announces upcoming events**: NVIDIA is presenting at various events, including NVIDIA GTC Taipei at COMPUTEX, showcasing the company's commitment to sharing its vision and innovations with the industry.\n* **NVIDIA's focus on AI**: NVIDIA's emphasis on AI workloads, as seen in the Vera CPU and other initiatives, suggests a strong focus on this area, which is likely to drive the company's future growth.\n\n**Trend:**\n\n* **Specialization in AI hardware and software is on the rise**: The developments above highlight a trend towards specialized hardware and software designed specifically for AI workloads, such as CPUs, accelerators, and tools for integrating large language models. This trend is likely to continue as AI becomes increasingly prevalent in various industries."
+  "summary": "Here are 4-6 bullet points and 1 trend summarizing the key developments:\n\n**Key Developments:**\n\n* NVIDIA Research has advanced robotics from simulation to the real world, enabling more controlled and efficient testing and deployment of robotic systems.\n* Cisco and OpenAI are redefining enterprise engineering with Codex, a tool that helps scale AI-native development, accelerate AI Defense work, and automate defect remediation.\n* OpenAI, Thrive, and Crete have built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.\n* NVIDIA has announced its Vera CPU, designed to tackle the challenges of agentic AI and provide a competitive edge in the market.\n* AWS has released a tutorial on building high-performance generative AI systems using Strands Agents, NVIDIA NIM, and Amazon Bedrock AgentCore.\n* Product Hunt has launched MashuPack, a tool that turns codebases into a clean file for Claude and ChatGPT.\n\n**Trend:**\nThe trend in this set of developments is the increasing focus on applying AI and machine learning to real-world problems, such as robotics, enterprise engineering, and high-performance computing. There is a growing emphasis on using AI to automate tasks, improve efficiency, and accelerate workflows in various industries. This trend is driven by the need for organizations to leverage AI and machine learning to stay competitive and solve complex problems."
 }
