@@ -1,10 +1,73 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-02T06:38:00.533Z",
+  "timestamp": "2026-06-03T06:47:54.482Z",
   "categories": {
     "news": {
-      "count": 24,
+      "count": 28,
       "items": [
+        {
+          "subject": "Product Hunt Launch: Paste MCP & AI Tools",
+          "body": "Infinite clipboard for Claude, Codex and other AI tools",
+          "timestamp": "2026-06-02T13:30:02",
+          "url": "https://www.producthunt.com/products/paste",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "Codex is becoming a productivity tool for everyone",
+          "body": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+          "timestamp": "2026-06-02T13:30:02",
+          "url": "https://openai.com/index/codex-for-knowledge-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "AWS: OpenAI models and Codex on Amazon Bedrock are now generally available",
+          "body": "GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock. Deploy...",
+          "timestamp": "2026-06-02T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+          "body": "Agentic AI is getting physical. At COMPUTEX on Tuesday, NVIDIA announced NVIDIA...",
+          "timestamp": "2026-06-02T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "OpenAI frontier models and Codex are now available on AWS",
+          "body": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+          "timestamp": "2026-06-02T04:00:02",
+          "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Building the infrastructure for the Intelligence Age in Michigan",
+          "body": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+          "timestamp": "2026-06-02T04:00:02",
+          "url": "https://openai.com/index/stargate-michigan-data-center",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
+          "body": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than...",
+          "timestamp": "2026-06-01T13:30:01",
+          "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
           "body": "NVIDIA today launched NVIDIA Cosmos™ 3, an open world foundation model for...",
@@ -69,15 +132,6 @@
           }
         },
         {
-          "subject": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
-          "body": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than...",
-          "timestamp": "2026-06-01T13:30:01",
-          "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
           "body": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI...",
           "timestamp": "2026-06-01T13:30:01",
@@ -96,19 +150,19 @@
           }
         },
         {
-          "subject": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
-          "body": "NVIDIA GTC Taipei -- NVIDIA today announced the NVIDIA Vera Rubin platform...",
+          "subject": "NVIDIA DSX Gives Infrastructure Builders the Playbook for AI Factories",
+          "body": "News Summary: Engineered from the ground up for AI factories, the NVIDIA...",
           "timestamp": "2026-06-01T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-dsx-gives-infrastructure-builders-the-playbook-for-ai-factories",
           "extras": {
             "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "NVIDIA DSX Gives Infrastructure Builders the Playbook for AI Factories",
-          "body": "News Summary: Engineered from the ground up for AI factories, the NVIDIA...",
+          "subject": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
+          "body": "NVIDIA GTC Taipei -- NVIDIA today announced the NVIDIA Vera Rubin platform...",
           "timestamp": "2026-06-01T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-dsx-gives-infrastructure-builders-the-playbook-for-ai-factories",
+          "url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -177,6 +231,15 @@
           }
         },
         {
+          "subject": "Cisco and OpenAI redefine enterprise engineering with Codex",
+          "body": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+          "timestamp": "2026-05-28T04:00:02",
+          "url": "https://openai.com/index/cisco",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "How to use Codex for everyday work",
           "body": "Explore 10 practical ChatGPT Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
           "timestamp": "2026-05-28T04:00:02",
@@ -193,40 +256,115 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
+        }
+      ]
+    },
+    "papers": {
+      "count": 6,
+      "items": [
         {
-          "subject": "Cisco and OpenAI redefine enterprise engineering with Codex",
-          "body": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-          "timestamp": "2026-05-28T04:00:02",
-          "url": "https://openai.com/index/cisco",
+          "subject": "AgentRedBench: Dynamic Redteaming and Integration-Aware Defense for LLM Agents over SaaS Integrations",
+          "body": "Indirect prompt injection in tool-use agents is a concrete production threat: LLM agents read from integrations (third-party services such as Gmail, Salesforce, or Jira accessed through tool calls) whose response content the user neither writes nor controls. Existing benchmarks under-measure the threat: most cover only a handful of integrations with the same attack payload replayed across runs, and open-source guards are trained on chat-style data rather than tool-response content. We introduce AGENTREDBENCH, a dynamic LLM-driven redteaming benchmark of 215 subtle underspecified authorization (attacks at the boundary of what the user's request authorises) scenarios across 24 enterprise integrations in nine functional families and five attack types. Across an eight-model panel (Anthropic, OpenAI, Google), no-guard ASR (attack success rate) ranges from 32% (Claude Sonnet 4.6) to 81% (Gemini 3 Flash). To keep the scenario set out of training corpora and preserve headline ASR meaning over time, we release the codebase, integration schemas, and AGENTREDGUARD model openly; the canonical scenarios are evaluated through a maintainer-mediated channel with immutable versioning. We release AGENTREDGUARD alongside the benchmark: a guard trained on an integration-diverse corpus of adversarial tool-response content. AGENTREDGUARD cuts panel ASR from 69.9% to 2.4% at 0.37% false-positive rate, outperforming every open-source baseline with non-trivial detection (Llama Guard, PromptGuard 2, ProtectAI) on both axes. Cross-integration and cross-attack type holdouts both confirm the gain transfers beyond the training subset.",
+          "timestamp": "2026-06-01T13:34:24",
+          "url": "https://arxiv.org/abs/2606.02240v1",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "arXiv",
+            "authors": "Hiskias Dingeto, Will Leeney",
+            "updated": "2026-06-01T13:34:24"
           }
         },
         {
-          "subject": "NVIDIA Vera CPU Is ‘Packing a Heavy-Hitting Punch’ Against Competition",
-          "body": "The shift to agentic AI creates a new CPU requirement for the...",
-          "timestamp": "2026-05-27T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
+          "subject": "WebSpline: Structure-Informed Splines for Real-Time 3D Gaussians from Monocular Videos",
+          "body": "Dynamic scene reconstruction from monocular videos remains highly challenging, as existing methods often struggle to balance global structural coherence and local fine-grained details under limited multi-view cues. To address this challenge, we propose WebSpline, a novel dynamic 3D Gaussian framework that enables structurally coherent and high-fidelity reconstruction from monocular videos with fast rendering. The core of WebSpline is the Structure-Informed Spline (SIS) representation, which models each dynamic Gaussian trajectory using a learnable cubic Hermite spline whose motion is structurally organized with an auxiliary Structural Proxy Graph (SPG). The proposed framework is optimized in two stages: (i) in the first stage, the SPG is initialized from 2D point tracks and refined with temporal rigidity regularization to establish structural coherence for moving objects across the sequence; and (ii) in the second stage, the SIS representation is initialized from the refined SPG and optimized under both spatial and structural neighborhood constraints. At inference, Gaussian motion is obtained solely by evaluating the learned SIS, enabling fast rendering. Extensive experiments on the challenging monocular dynamic scene benchmarks, iPhone and NVIDIA, demonstrate that our WebSpline achieves state-of-the-art rendering quality while rendering over 10 times faster than WorldTree, the second-best method on the iPhone dataset.",
+          "timestamp": "2026-06-01T11:28:17",
+          "url": "https://arxiv.org/abs/2606.02096v1",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "arXiv",
+            "authors": "Jongmin Park, Jeonghwan Yun, Minh-Quan Viet Bui, Munchurl Kim",
+            "updated": "2026-06-01T11:28:17"
           }
         },
         {
-          "subject": "AWS: Build high-performance generative AI systems with Strands Agents, NVIDIA NIM, and Amazon Bedrock AgentCore",
-          "body": "Building high-performance generative AI agents requires architecture that can deliver fast inference...",
-          "timestamp": "2026-05-27T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-high-performance-generative-ai-systems-with-strands-agents-nvidia-nim-and-amazon-bedrock-agentcore/",
+          "subject": "OpenWebRL: Demystifying Online Multi-turn Reinforcement Learning for Visual Web Agents",
+          "body": "Building capable visual web agents requires long-horizon reasoning, precise grounding, and robust interaction with dynamic real-world websites. Despite rapid progress, the strongest systems remain largely proprietary, while open agents still depend heavily on supervised post-training over large collections of curated web trajectories. This dependence creates a major scalability bottleneck: high-quality demonstrations are expensive to collect, and static datasets offer limited coverage of the diverse, ever-changing open web. Although online RL has shown promise for text-based agents, its potential for training visual web agents directly on live websites remains largely underexplored. In this paper, we introduce OpenWebRL, an open framework for training visual web agents with online multi-turn RL on real websites. OpenWebRL covers the full training pipeline, including scalable live-browser infrastructure, supervised initialization, multimodal context management, trajectory-level success judging, and efficient multi-turn policy optimization. Using this framework, we train OpenWebRL-4B, which establishes a new open-source state of the art on challenging live-web benchmarks. With only 0.4K initialization trajectories and 2.2K open-ended RL training tasks, OpenWebRL-4B achieves 67.0% success on Online-Mind2Web and 64.0% on DeepShop, outperforming prior open agents of similar or larger scale and remaining competitive with proprietary systems including OpenAI CUA and Gemini CUA. Beyond strong benchmark performance, we systematically study the key design choices that make online RL effective for visual web agents, and analyze how RL improves agentic reasoning. Overall, our work offers a practical path toward building more capable, reproducible, and cost-efficient open web agents. We will release our training data, models, and code to support future research.",
+          "timestamp": "2026-06-01T10:20:10",
+          "url": "https://arxiv.org/abs/2606.02031v1",
           "extras": {
-            "data_origin": "AWS AI News"
+            "data_origin": "arXiv",
+            "authors": "Rui Yang, Qianhui Wu, Yuxi Chen, Hao Bai, Wenlin Yao, Hao Cheng, Baolin Peng, Huan Zhang, Tong Zhang, Jianfeng Gao",
+            "updated": "2026-06-01T10:20:10"
+          }
+        },
+        {
+          "subject": "ClawHub Security Signals: When VirusTotal, Static Analysis, and SkillSpector Disagree",
+          "body": "Agent skills extend AI agents with reusable instructions, tools, scripts, references, and workflows, establishing a security boundary distinct from both model safety and traditional package-malware detection. ClawHub Security Signals is a sanitized dataset of 67,453 latest public OpenClaw skill versions. Each row pairs redacted SKILL.md content and sanitized bundled files where present with a final ClawScan registry verdict and evidence from three scanner families: VirusTotal, static heuristic analysis, and NVIDIA SkillSpector.\n  Rather than estimating malicious-skill prevalence, we study scanner disagreement. The three scanners rarely flag the same skills: any pair overlaps on at most 10.4% of their combined positives, only 0.69% of skills are flagged by all three, and 81.9% of flagged skills are identified by a single scanner. The disagreement is structured by attack surface. SkillSpector, which raises semantic agentic-risk advisories rather than malware-reputation signals, is positive for 19,209 of 25,504 suspicious rows (75.3%) but only 14 of 206 malicious rows (6.8%). The malicious-verdict region shows the inverse profile: 150 of 206 malicious rows (72.8%) are VirusTotal-positive, consistent with bundled-code malware evidence.\n  These results show that agent-skill security requires layered governance, not single-scanner allow/block decisions. The corpus is released as a sanitized silver-standard dataset: labels are the registry's automated verdicts, not human-annotated ground truth, and the release represents an early, versioned snapshot intended to support the community while a human-annotated subset is developed. Further research is encouraged, including models tailored for skill-security triage.",
+          "timestamp": "2026-05-31T23:20:25",
+          "url": "https://arxiv.org/abs/2606.01494v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Vincent Koc, Patrick Erichsen, Jacob Tomlinson, Agustin Rivera, Michael Appel, Nir Paz",
+            "updated": "2026-05-31T23:20:25"
+          }
+        },
+        {
+          "subject": "Dynamic Coordination Strategy Selection for Enterprise Multi-Agent Systems",
+          "body": "Enterprise multi-agent systems increasingly expose multiple coordination patterns, but deployments often lack evidence for when to use consensus, debate, synthesis, or a simpler single-agent workflow. This paper evaluates whether coordination strategy should be selected dynamically by problem class rather than fixed globally. We run a frozen matrix of 30 enterprise tasks spanning six industries, five problem classes, four execution conditions, three replications per cell, and four model arms: qwen_local, sonnet, gemma_openrouter, and an auxiliary openai cloud-validation arm. All 1,440 generated outputs are judged by a fixed Sonnet rubric.\n  The main finding is bounded and operationally useful, but it is not the original strict H1. The pre-registered exact-winner/CI criterion is not supported: exact winner identity is unstable across model arms, and several predicted strategies are close to, but not above, the best observed alternative. A weaker near-best routing claim is strongly supported. In every pre-registered model arm and problem class, and again in the auxiliary OpenAI validation arm, the predicted strategy is within 0.10 quality-score points of the best observed condition. Structured compliance verification is the clearest exception to the original mapping: all arms favor single_agent rather than consensus. A pre-registered Kendall's W test finds no reliable difference between Vietnamese-domain and English-domain tasks in how consistently the four coordination conditions are ranked (mean W of 0.20 in both strata; signed-rank p = .85), so H2 is not supported. We conclude that enterprise coordination policy should use dynamic routing as a calibrated default, not as a deterministic winner-selection law.",
+          "timestamp": "2026-05-30T16:43:02",
+          "url": "https://arxiv.org/abs/2606.00804v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Thanh Luong Tuan",
+            "updated": "2026-05-30T16:43:02"
+          }
+        },
+        {
+          "subject": "DriveAnchor: Progressive Anchor-based Flow Learning for Autonomous Driving Planning",
+          "body": "We present DriveAnchor, a three-stage framework for autonomous driving planning that achieves behavioral diversity, controllability, and safety in a composable pipeline. Demonstration Flow Pretraining replaces the unstructured Gaussian prior with a vocabulary of 2,398 trajectory shapes constructed by farthest-point sampling, structurally grounding behavioral diversity in vocabulary coverage. Guided Flow Post-training jointly post-trains an Energy Field module with flow matching (FM), conditioning the Energy Field on static road geometry alone, to relocate anchors toward user-specified corridor polygons before flow generation, adding controllability without differentiable guidance; after Stage 2, new corridor presets require only Energy Field updates, not FM retraining. Reward-Refined Flow Fine-tuning applies zeroth-order reinforcement learning to align each anchor's output with collision-avoidance objectives: because the flow-matching model is a deterministic feedforward network in single-step mode, each anchor uniquely determines the output trajectory, reducing reward optimization to a direction search in anchor space without log-likelihood computation or ODE-to-SDE conversion. Evaluated on approximately 2 million held-out driving scenarios, DriveAnchor reduces near-range collision rates by 89% and improves mean reward by 32% without degradation in imitation accuracy, with 2.06 ms inference on NVIDIA Drive Orin. DriveAnchor has been validated through real-world vehicle testing, confirming its practicality for production deployment.",
+          "timestamp": "2026-05-30T04:17:59",
+          "url": "https://arxiv.org/abs/2606.00519v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Limin Yan, Haoyun Tang, Yutao Qiu, Hongqing Liu, Haoyu Xu",
+            "updated": "2026-05-30T04:17:59"
           }
         }
       ]
     },
     "models": {
-      "count": 0,
-      "items": []
+      "count": 3,
+      "items": [
+        {
+          "subject": "nvidia/Cosmos3-Super-Image2Video",
+          "body": "[\"cosmos\", \"diffusers\", \"safetensors\", \"cosmos3_omni\", \"nvidia\", \"cosmos3\", \"vllm-omni\", \"image-to-video\", \"video-generation\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-06-01T04:43:55",
+          "url": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Cosmos3-Super-Text2Image",
+          "body": "[\"cosmos\", \"diffusers\", \"safetensors\", \"cosmos3_omni\", \"nvidia\", \"cosmos3\", \"vllm-omni\", \"text-to-image\", \"image-generation\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-06-01T04:43:55",
+          "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/dvlt",
+          "body": "[\"dvlt\", \"safetensors\", \"3d-reconstruction\", \"depth-estimation\", \"camera-pose\", \"pointmap\", \"looped-transformer\", \"image-to-3d\", \"arxiv:2605.30215\", \"base_model:facebook/dinov2-base\", \"base_model:finetune:facebook/dinov2-base\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-05-30T20:37:41",
+          "url": "https://huggingface.co/nvidia/dvlt",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        }
+      ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Recent Developments:**\n\n* NVIDIA has launched several new products and services, including the NVIDIA Cosmos 3, Alpamayo 2, and Vera Rubin, which are designed to support the development of agentic and physical AI.\n* OpenAI has announced several new products and services, including the Codex AI model and the Rosalind Biodefense platform, which are designed to support the development of agentic AI.\n* AWS has announced a new service, Strands Agents, which is designed to support the development of high-performance generative AI systems.\n\n**Trends:**\n\n* **The shift towards agentic AI:** The development of agentic AI, which is AI that can make decisions and take actions on its own, is becoming a major trend in the industry. This trend is driven by the increasing need for AI systems that can operate independently and make decisions in real-time.\n\n**Insight:**\n\n* The launch of NVIDIA's new products and services suggests that the company is investing heavily in the development of agentic and physical AI. This is likely driven by the increasing demand for AI systems that can operate in the physical world and interact with humans in a more natural way.\n* The launch of OpenAI's new products and services suggests that the company is also investing heavily in the development of agentic AI. This is likely driven by the increasing need for AI systems that can make decisions and take actions on their own, and the potential for agentic AI to transform industries such as healthcare and finance.\n* The announcement of AWS's new service, Strands Agents, suggests that the company is also investing in the development of high-performance generative AI systems. This is likely driven by the increasing need for AI systems that can generate high-quality content, such as images and text, in real-time.\n\n**Key Developments:**\n\n* NVIDIA's new products and services, including the NVIDIA Cosmos 3 and Alpamayo 2, are designed to support the development of agentic and physical AI.\n* OpenAI's new products and services, including the Codex AI model and the Rosalind Biodefense platform, are designed to support the development of agentic AI.\n* AWS's new service, Strands Agents, is designed to support the development of high-performance generative AI systems.\n* The shift towards agentic AI is becoming a major trend in the industry, driven by the increasing need for AI systems that can operate independently and make decisions in real-time."
+  "summary": "Here are the key developments with insight:\n\n**4-6 Key Developments:**\n\n1. **NVIDIA and OpenAI Advance in AI**: NVIDIA and OpenAI have made significant advancements in their respective AI research and development, with NVIDIA launching its NVIDIA Cosmos 3, an open-world foundation model for physical AI, and OpenAI announcing its Codex, a productivity tool for everyone.\n2. **AI-infused Data Centers**: OpenAI has broken ground on a 1GW data center project in Michigan, expanding its presence in the region and reinforcing its commitment to building the infrastructure for the Intelligence Age.\n3. **AI in Everyday Work**: OpenAI's Codex is being used for everyday work, with practical use cases such as automating tasks, creating deliverables, and turning real inputs into outputs across tools, files, and workflows.\n4. **Agentic AI for Society**: NVIDIA and OpenAI are working to advance agentic AI for society, with applications in areas such as biodefense, tax agents, and software delivery.\n5. **Physical AI Infrastructure**: NVIDIA has announced the NVIDIA Vera Rubin platform, which provides agentic AI infrastructure for factories, and has also released a major collection of open-source agent tools and skills for physical AI.\n6. **AI in Autonomous Driving**: DriveAnchor, a three-stage framework for autonomous driving planning, has been developed to achieve behavioral diversity, controllability, and safety in a composable pipeline.\n\n**Trend:**\nThe trend in AI research and development is towards advancing agentic AI, with a focus on building AI that is capable of physically interacting with the world and making decisions on its own. This includes AI-infused data centers, physical AI infrastructure, agentic AI for society, and AI in autonomous driving."
 }
