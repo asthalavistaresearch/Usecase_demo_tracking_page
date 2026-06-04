@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-03T06:47:54.482Z",
+  "timestamp": "2026-06-04T06:38:39.450Z",
   "categories": {
     "news": {
-      "count": 28,
+      "count": 27,
       "items": [
+        {
+          "subject": "Advancing youth safety and opportunity through global leadership",
+          "body": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+          "timestamp": "2026-06-03T04:00:02",
+          "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Travelers deploys AI-powered claims countrywide with OpenAI",
+          "body": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+          "timestamp": "2026-06-03T04:00:02",
+          "url": "https://openai.com/index/travelers",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Product Hunt Launch: Paste MCP & AI Tools",
           "body": "Infinite clipboard for Claude, Codex and other AI tools",
@@ -60,10 +78,10 @@
           }
         },
         {
-          "subject": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
-          "body": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than...",
+          "subject": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
+          "body": "News Summary: Foxconn is deploying NVIDIA AI across Taiwan's leading medical centers...",
           "timestamp": "2026-06-01T13:30:01",
-          "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -114,19 +132,19 @@
           }
         },
         {
-          "subject": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
-          "body": "News Summary: Foxconn is deploying NVIDIA AI across Taiwan's leading medical centers...",
+          "subject": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
+          "body": "NVIDIA today announced that TSMC, the world’s leading semiconductor company, is using...",
           "timestamp": "2026-06-01T13:30:01",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
           "extras": {
             "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
-          "body": "NVIDIA today announced that TSMC, the world’s leading semiconductor company, is using...",
+          "subject": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
+          "body": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than...",
           "timestamp": "2026-06-01T13:30:01",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+          "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -229,48 +247,98 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "Cisco and OpenAI redefine enterprise engineering with Codex",
-          "body": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-          "timestamp": "2026-05-28T04:00:02",
-          "url": "https://openai.com/index/cisco",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How to use Codex for everyday work",
-          "body": "Explore 10 practical ChatGPT Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-          "timestamp": "2026-05-28T04:00:02",
-          "url": "https://openai.com/academy/how-to-use-codex-for-everyday-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Building self-improving tax agents with Codex",
-          "body": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-          "timestamp": "2026-05-28T04:00:02",
-          "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 6,
+      "count": 13,
       "items": [
+        {
+          "subject": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+          "body": "We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained on a billion-scale motion corpus for whole-body control. Unlike prior shallow MLP trackers constrained by scarce data and an agility-generalization trade-off, Humanoid-GPT is pre-trained on a 2B-frame retargeted corpus that unifies all major mocap datasets with large-scale in-house recordings. Scaling both data and model capacity yields a single generative Transformer that tracks highly dynamic behaviors while achieving unprecedented zero-shot generalization to unseen motions and control tasks. Extensive experiments and scaling analyses show that our model establishes a new performance frontier, demonstrating robust zero-shot generalization to unseen tasks while simultaneously tracking highly dynamic and complex motions.",
+          "timestamp": "2026-06-02T17:59:05",
+          "url": "https://arxiv.org/abs/2606.03985v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Zekun Qi, Xuchuan Chen, Dairu Liu, Chenghuai Lin, Yunrui Lian, Sikai Liang, Zhikai Zhang, Yu Guan, Jilong Wang, Wenyao Zhang, Xinqiang Yu, He Wang, Li Yi",
+            "updated": "2026-06-02T17:59:05"
+          }
+        },
+        {
+          "subject": "Self-Refining Agentic Reinforcement Learning for Vision-Conditioned UAV Navigation",
+          "body": "Deep reinforcement learning has shown strong potential for enabling autonomous robots to learn complex navigational tasks. However, its practical use still depends heavily on human designed reward functions and repeated manual fine tuning, which is time consuming and does not guarantee high success in the desired task. This paper presents AgenticRL, agent guided reinforcement learning framework that increases autonomy in reward design, policy refinement, and real world deployment for unmanned aerial vehicles (UAV) navigation tasks. AgenticRL uses a multimodal generative pre-trained tansformer (GPT) agent to interpret task information and visual scene observations, generate task specific reward functions, train policies using Proximal Policy Optimization (PPO) algorithm, and then act as a critic by evaluating the trained policy through diagnosis packets to generate feedback. Based on this feedback, the agent identifies failure modes and refines the reward function in a closed loop self improvement process. To further leverage the multimodal GPT agent during inference, AgenticRL uses real world images and natural language task information to automatically identify the active scenario and select the appropriate trained policy for execution. The framework is evaluated on multiple navigational tasks, including gate traversal, obstacle avoidance, wall barrier crossing with landing, trajectory following, and motion behavior learning. Experimental results show that the closed loop refinement process improves policy behavior compared with initial rewards by 71%. We also demonstrate sim-to-real transfer of the proposed framework, achieving a real world success rate of 91% and a sim-to-real accuracy of 94%.",
+          "timestamp": "2026-06-02T17:50:15",
+          "url": "https://arxiv.org/abs/2606.03963v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Roohan Ahmed Khan, Yasheerah Yaqoot, Muhammad Ahsan Mustafa, Dzmitry Tsetserukou",
+            "updated": "2026-06-02T17:50:15"
+          }
+        },
+        {
+          "subject": "The Impact of Configuring Agentic AI Coding Tools on Build-vs-Buy Decisions: A Study Protocol",
+          "body": "Agentic AI coding tools write code with increasing autonomy and in doing so decide when to import a library and when to implement functionality from scratch. These decisions, whether to build functionality from scratch or buy into an external library, hereafter build-versus-buy, carry direct consequences for software security, licensing compliance, performance, and long-term maintainability. Yet no controlled experimental study has examined what governs build-versus-buy decisions in agentic AI coding tools. Configuration mechanisms, i.e., the means by which developers tailor agentic AI coding tool behavior to a project or workflow, are one of the primary means by which practitioners can influence these decisions. However, it is unclear which configuration mechanisms influence build-versus-buy decisions most effectively. We present a pre-registered protocol to study how configuration mechanisms alter build-versus-buy behavior in two popular agentic AI coding tools: Claude Code and OpenAI Codex. We will execute controlled programming tasks drawn from a benchmark of staged projects, each constructed around identifiable build-versus-buy points, and will manipulate the configuration supplied to each tool, ranging from no configuration, through context files with soft preferences and explicit prohibitions, to Skills (instructions that can be autonomously discovered), MCP-enabled library discovery tools, and permission controls, measuring which libraries the tool selects, whether it discloses newly introduced libraries, and whether those disclosures are complete and accurate. Nine pre-registered hypotheses structure the protocol. The resulting benchmark dataset and analysis pipeline will be released as a reusable artifact for evaluating build-versus-buy behavior in agentic AI coding tools.",
+          "timestamp": "2026-06-02T17:01:28",
+          "url": "https://arxiv.org/abs/2606.03907v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Jai Lal Lulla, Matthias Galster, Jie M. Zhang, Sebastian Baltes, Christoph Treude",
+            "updated": "2026-06-02T17:01:28"
+          }
+        },
+        {
+          "subject": "Entropy Gate: Entropy Quenching for Near-Lossless Token Compression in LLM Pipelines",
+          "body": "LLM pipelines waste substantial token budgets on low-information content: repeated context, verbose responses, and redundant boilerplate. We introduce Entropy Gate, a token compression framework applying entropy quenching $-$ a thermodynamic process that progressively freezes out low-energy tokens while preserving semantic fidelity. Each token receives a multi-factor information energy $E(t)$ combining statistical, structural, and positional components. An adaptive quenching schedule $T(τ) = T_0 / (1 + ατ)$ removes tokens whose Boltzmann survival probability $p_i = \\exp(-E_i / kT)$ falls below threshold, with a fidelity gate halting compression when energy-weighted similarity drops below $θ$. We prove token selection by descending $E(t)$ maximizes expected semantic preservation, that quenching produces nested survival sets, and that achievable compression approaches the information-theoretic limit $\\text{CR} \\to 1 - I(P; T)/H(P)$. A Phase 1 heuristic achieves 40-60% compression across five prompt categories while maintaining $S_E > 0.80$, with energy-squared amplification $E \\to E^2$ adding 10-25 percentage points. Context deduplication adds 50-70% savings on repeated blocks. Output-side quenching, motivated by findings that brevity improves accuracy, further reduces response overhead. Combined with external memory, reduction composes multiplicatively to 88-96% for agentic workloads. The framework is stateless, model-agnostic, and deploys as an OpenAI-compatible HTTP proxy.",
+          "timestamp": "2026-06-02T14:55:02",
+          "url": "https://arxiv.org/abs/2606.03739v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Justice Owusu Agyemang, Jerry John Kponyo, Kwame Opuni-Boachie Obour Agyekum, Francisca Adoma Acheampong, Kwame Agyeman-Prempeh Agyekum, James Dzisi Gadze",
+            "updated": "2026-06-02T14:55:02"
+          }
+        },
+        {
+          "subject": "Gender-Dependent Diagnostic Substitution in LLM Medical Triage: Same Symptoms, Unequal Urgency",
+          "body": "We investigate whether large language models produce different medical triage recommendations for identical neurological symptoms when only the patient's stated gender and age vary. Using three model families--Gemini 3.5 Flash, Claude Sonnet 4.6, and GPT-5.4-mini--we present a standardized symptom profile (persistent headache, blurred vision, morning nausea, visual disturbances) across seven demographic conditions: three age groups (25, 38, 65) x two genders (male, female), plus a gender-unspecified baseline (n = 30 per condition per model, 630 total trials). We find a stark, systemic gender-dependent triage disparity: young women receive significantly lower emergency room (ER) referral rates than age-matched men (Gemini: 0% vs. 23.3%; Claude: 6.7% vs. 96.7%; GPT: 6.7% vs. 66.7%, all p < 0.001). The disparity disappears at age 65 for all models. The primary mechanism is diagnostic substitution: the models anchor on a gender-associated diagnosis, preferentially classifying young women with Idiopathic Intracranial Hypertension (IIH)--a condition epidemiologically linked to women of childbearing age--while diagnosing men with generic increased intracranial pressure with space-occupying lesions in the differential. This diagnostic closure routes female patients to lower-urgency care (outpatient doctor appointments) despite comparable severity ratings (7-9/10). Our findings demonstrate that clinical LLMs replicate documented human clinical biases by using epidemiological priors to suppress triage urgency, suggesting that AI triage engines must decouple urgency assessment from probabilistic diagnostic priors. We release all code, prompts, and raw results.",
+          "timestamp": "2026-06-02T13:35:12",
+          "url": "https://arxiv.org/abs/2606.03641v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Qi Han Wong",
+            "updated": "2026-06-02T13:35:12"
+          }
+        },
+        {
+          "subject": "Testing LLM Arithmetic Reasoning Generalization with Automatic Numeric-Remapping Attacks",
+          "body": "Large language models achieve strong performance on arithmetic reasoning benchmarks, and one common response to arithmetic brittleness is to delegate computation to code. Yet models are still often used in settings where they must reason directly from natural language, and trustworthy models should solve small-number arithmetic word problems without external tools. Prior work shows that LLMs are sensitive to numerical variation: a model may solve an original problem but fail on structurally similar variants requiring the same reasoning procedure with different numbers. We ask whether this fragility persists under a stricter setting involving small, schema-preserving numeric changes that retain the original reasoning program and avoid large-number stress tests. We introduce an automatic algorithm for generating numeric-remapping attacks on arithmetic word problems. Unlike template-based perturbation methods requiring manual schemas or constraints, our approach derives problem-specific symbolic representations, generates constrained numeric remappings, recomputes gold answers, and realizes transformed questions through deterministic edits guided by LLM-generated edit plans. Stage-wise validation and a high-confidence audit retain reliable attacks, making the pipeline scalable with limited human intervention. We evaluate DeepSeek-R1 (70B), Gemma4 (31B), and GPT-OSS (120B) on GSM8K, MAWPS, and MultiArith. On GSM8K, completed runs show conditional accuracy drops of 12.16 to 25.82 percentage points. MAWPS and MultiArith are far more stable, with most attacked accuracies near or above 98%. These results show that numeric-remapping robustness depends strongly on dataset structure: GSM8K remains sensitive even when reasoning programs are preserved and answers are recomputed, while shorter, more regular datasets are more robust.",
+          "timestamp": "2026-06-02T13:09:44",
+          "url": "https://arxiv.org/abs/2606.03606v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Malia Barker, Bishal Lakha, Edoardo Serra, Francesco Gullo",
+            "updated": "2026-06-02T13:09:44"
+          }
+        },
+        {
+          "subject": "BaltiVoice: A Speech Corpus and Fine-tuned Whisper ASR System for the Balti Language",
+          "body": "We present BaltiVoice, a 16.8-hour read-speech corpus for Balti (ISO 639-3: bft), a Tibetic language spoken in Gilgit-Baltistan, Pakistan, with no prior publicly available ASR resources. The corpus contains 10,060 validated utterances in native Nastaliq script, derived from Mozilla Common Voice recordings. We fine-tune OpenAI Whisper-small on this corpus and report a Word Error Rate (WER) of 30.07% on a held-out validation set of 538 utterances, down from a measured zero-shot baseline of 182.18% for Whisper-small on Balti. The dataset, fine-tuned model, and a live transcription demo are publicly available on HuggingFace.",
+          "timestamp": "2026-06-02T11:23:49",
+          "url": "https://arxiv.org/abs/2606.03504v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Muhammad Ali",
+            "updated": "2026-06-02T11:23:49"
+          }
+        },
         {
           "subject": "AgentRedBench: Dynamic Redteaming and Integration-Aware Defense for LLM Agents over SaaS Integrations",
           "body": "Indirect prompt injection in tool-use agents is a concrete production threat: LLM agents read from integrations (third-party services such as Gmail, Salesforce, or Jira accessed through tool calls) whose response content the user neither writes nor controls. Existing benchmarks under-measure the threat: most cover only a handful of integrations with the same attack payload replayed across runs, and open-source guards are trained on chat-style data rather than tool-response content. We introduce AGENTREDBENCH, a dynamic LLM-driven redteaming benchmark of 215 subtle underspecified authorization (attacks at the boundary of what the user's request authorises) scenarios across 24 enterprise integrations in nine functional families and five attack types. Across an eight-model panel (Anthropic, OpenAI, Google), no-guard ASR (attack success rate) ranges from 32% (Claude Sonnet 4.6) to 81% (Gemini 3 Flash). To keep the scenario set out of training corpora and preserve headline ASR meaning over time, we release the codebase, integration schemas, and AGENTREDGUARD model openly; the canonical scenarios are evaluated through a maintainer-mediated channel with immutable versioning. We release AGENTREDGUARD alongside the benchmark: a guard trained on an integration-diverse corpus of adversarial tool-response content. AGENTREDGUARD cuts panel ASR from 69.9% to 2.4% at 0.37% false-positive rate, outperforming every open-source baseline with non-trivial detection (Llama Guard, PromptGuard 2, ProtectAI) on both axes. Cross-integration and cross-attack type holdouts both confirm the gain transfers beyond the training subset.",
           "timestamp": "2026-06-01T13:34:24",
-          "url": "https://arxiv.org/abs/2606.02240v1",
+          "url": "https://arxiv.org/abs/2606.02240v2",
           "extras": {
             "data_origin": "arXiv",
-            "authors": "Hiskias Dingeto, Will Leeney",
-            "updated": "2026-06-01T13:34:24"
+            "authors": "Hiskias Dingeto, William Leeney",
+            "updated": "2026-06-02T15:23:51"
           }
         },
         {
@@ -331,8 +399,18 @@
       ]
     },
     "models": {
-      "count": 3,
+      "count": 4,
       "items": [
+        {
+          "subject": "latam-gpt/Llama-3.1-70B-LatamGPT-SFT-1.0",
+          "body": "[\"transformers\", \"safetensors\", \"llama\", \"text-generation\", \"research\", \"latin-america\", \"cenia\", \"latamgpt\", \"conversational\", \"en\", \"es\", \"pt\", \"base_model:meta-llama/Llama-3.1-70B\", \"base_model:finetune:meta-llama/Llama-3.1-70B\", \"license:llama3.1\", \"text-generation-inference\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-06-02T15:46:59",
+          "url": "https://huggingface.co/latam-gpt/Llama-3.1-70B-LatamGPT-SFT-1.0",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "latam-gpt"
+          }
+        },
         {
           "subject": "nvidia/Cosmos3-Super-Image2Video",
           "body": "[\"cosmos\", \"diffusers\", \"safetensors\", \"cosmos3_omni\", \"nvidia\", \"cosmos3\", \"vllm-omni\", \"image-to-video\", \"video-generation\", \"license:other\", \"region:us\"]",
@@ -366,5 +444,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**4-6 Key Developments:**\n\n1. **NVIDIA and OpenAI Advance in AI**: NVIDIA and OpenAI have made significant advancements in their respective AI research and development, with NVIDIA launching its NVIDIA Cosmos 3, an open-world foundation model for physical AI, and OpenAI announcing its Codex, a productivity tool for everyone.\n2. **AI-infused Data Centers**: OpenAI has broken ground on a 1GW data center project in Michigan, expanding its presence in the region and reinforcing its commitment to building the infrastructure for the Intelligence Age.\n3. **AI in Everyday Work**: OpenAI's Codex is being used for everyday work, with practical use cases such as automating tasks, creating deliverables, and turning real inputs into outputs across tools, files, and workflows.\n4. **Agentic AI for Society**: NVIDIA and OpenAI are working to advance agentic AI for society, with applications in areas such as biodefense, tax agents, and software delivery.\n5. **Physical AI Infrastructure**: NVIDIA has announced the NVIDIA Vera Rubin platform, which provides agentic AI infrastructure for factories, and has also released a major collection of open-source agent tools and skills for physical AI.\n6. **AI in Autonomous Driving**: DriveAnchor, a three-stage framework for autonomous driving planning, has been developed to achieve behavioral diversity, controllability, and safety in a composable pipeline.\n\n**Trend:**\nThe trend in AI research and development is towards advancing agentic AI, with a focus on building AI that is capable of physically interacting with the world and making decisions on its own. This includes AI-infused data centers, physical AI infrastructure, agentic AI for society, and AI in autonomous driving."
+  "summary": "Here are 4-6 bullet points summarizing the key developments with insight:\n\n* **OpenAI and NVIDIA make significant advancements in AI research and development**: OpenAI has proposed an international institute to strengthen safeguards, standards, and opportunities for young people, while NVIDIA has announced several new AI models and tools, including NVIDIA Cosmos 3, Alpamayo 2, and Vera Rubin, which are designed to bring agentic AI to the physical world.\n* **AI-powered tools and services are being deployed in various industries**: Travelers has deployed an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, while MUFG is using ChatGPT Enterprise to build an AI-native organization and improve workflows.\n* **Research papers highlight the potential and challenges of AI**: A study on Humanoid-GPT shows that a GPT-style Transformer can track highly dynamic behaviors while achieving unprecedented zero-shot generalization to unseen motions and control tasks. Another paper on AgenticRL presents a framework that increases autonomy in reward design, policy refinement, and real-world deployment for unmanned aerial vehicles (UAV) navigation tasks.\n* **AI safety and security are becoming increasingly important**: A study on Entropy Gate proposes a token compression framework that applies entropy quenching to reduce token budgets in LLM pipelines, while another paper on ClawHub Security Signals presents a dataset of 67,453 latest public OpenClaw skill versions and evaluates the effectiveness of three scanner families in detecting malicious skills.\n* **AI is being used to improve productivity and efficiency**: A report on Codex explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation, while a paper on OpenWebRL introduces an open framework for training visual web agents with online multi-turn RL on real websites.\n\nTrend: **The increasing focus on AI safety and security**: As AI becomes more pervasive in various industries, there is a growing need to ensure that AI systems are safe and secure. This trend is reflected in the research papers and news articles, which highlight the importance of AI safety and security in various contexts, from LLMs to autonomous vehicles."
 }
