@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-05T06:17:42.665Z",
+  "timestamp": "2026-06-06T05:50:32.555Z",
   "categories": {
     "news": {
-      "count": 31,
+      "count": 32,
       "items": [
+        {
+          "subject": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
+          "body": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as...",
+          "timestamp": "2026-06-05T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AWS: NVIDIA Nemotron 3 Ultra now available on Amazon SageMaker JumpStart",
+          "body": "Today, we are excited to announce the day-zero availability of NVIDIA Nemotron...",
+          "timestamp": "2026-06-05T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-ultra-now-available-on-amazon-sagemaker-jumpstart/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "Dreaming: Better memory for a more helpful ChatGPT",
+          "body": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+          "timestamp": "2026-06-05T04:00:02",
+          "url": "https://openai.com/index/chatgpt-memory-dreaming",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "How Endava is redesigning software delivery around AI agents",
           "body": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
@@ -105,21 +132,21 @@
           }
         },
         {
-          "subject": "AWS: OpenAI models and Codex on Amazon Bedrock are now generally available",
-          "body": "GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock. Deploy...",
-          "timestamp": "2026-06-02T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
           "subject": "NVIDIA Jetson Brings Agentic AI to the Physical World",
           "body": "Agentic AI is getting physical. At COMPUTEX on Tuesday, NVIDIA announced NVIDIA...",
           "timestamp": "2026-06-02T04:00:02",
           "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
           "extras": {
             "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AWS: OpenAI models and Codex on Amazon Bedrock are now generally available",
+          "body": "GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock. Deploy...",
+          "timestamp": "2026-06-02T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/",
+          "extras": {
+            "data_origin": "AWS AI News"
           }
         },
         {
@@ -231,6 +258,15 @@
           }
         },
         {
+          "subject": "NVIDIA Unveils Vera, the CPU for Agents",
+          "body": "NVIDIA today announced that the world’s technology leaders are planning to adopt...",
+          "timestamp": "2026-06-01T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-vera-the-cpu-for-agents",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
           "subject": "NVIDIA DSX Gives Infrastructure Builders the Playbook for AI Factories",
           "body": "News Summary: Engineered from the ground up for AI factories, the NVIDIA...",
           "timestamp": "2026-06-01T04:00:02",
@@ -256,39 +292,45 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "NVIDIA Unveils Vera, the CPU for Agents",
-          "body": "NVIDIA today announced that the world’s technology leaders are planning to adopt...",
-          "timestamp": "2026-06-01T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-vera-the-cpu-for-agents",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Strengthening societal resilience with Rosalind Biodefense",
-          "body": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U. S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
-          "timestamp": "2026-05-29T13:30:02",
-          "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "MUFG aims to become AI-native with OpenAI",
-          "body": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-          "timestamp": "2026-05-29T13:30:02",
-          "url": "https://openai.com/index/mufg",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 16,
+      "count": 18,
       "items": [
+        {
+          "subject": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
+          "body": "Sparse attention is becoming increasingly important for serving large language models (LLMs) as generation lengths continue to grow. However, deploying and evaluating new sparse attention algorithms at scale remains highly engineering-intensive, slowing both human researchers and AI agents in exploring the sparse attention design. To address this challenge, we present Vortex, a system that combines a Python-embedded frontend language atop a page-centric tensor abstraction for expressing a broad range of sparse attention algorithms, with an efficient backend tightly integrated into modern LLM serving stacks. Vortex enables rapid prototyping, deployment, and evaluation of sparse attention algorithms, effectively translating their theoretical efficiency gains into real-world throughput improvements. As a result, Vortex substantially accelerates the design and iteration of sparse attention algorithms. First, AI agents use Vortex to automatically generate and refine diverse algorithms, the best reaching up to $3.46\\times$ higher throughput than full attention while preserving accuracy. Second, Vortex extends sparse attention to emerging architectures and very large models that are otherwise hard to experiment with, reaching up to $4.7\\times$ higher throughput on the MLA-based GLM-4.7-Flash and $1.37\\times$ on the 229B-parameter MiniMax-M2.7 on NVIDIA B200 GPUs.",
+          "timestamp": "2026-06-04T17:48:17",
+          "url": "https://arxiv.org/abs/2606.06453v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Zhuoming Chen, Xinrui Zhong, Qilong Feng, Ranajoy Sadhukhan, Yang Zhou, Michael Qizhe Shieh, Zhihao Jia, Beidi Chen",
+            "updated": "2026-06-04T17:48:17"
+          }
+        },
+        {
+          "subject": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+          "body": "We propose world-language-action (WLA) models as a new class of embodied foundation models. WLA takes textual instructions, images, and robot states as inputs to jointly predict textual subtasks, subgoal images, and robot actions, conjoining the \\emph{world modeling interface} to learn from extensive egocentric videos as in the world-action model (WAM) and the \\emph{language reasoning} capacities to solve complex long-horizon tasks as in vision-language-action (VLA) models. At the core of WLA lies an \\emph{autoregressive (AR)} Transformer backbone, instead of a bidirectional diffusion Transformer as in WAMs, to predict the \\emph{next state}, comprising the \\emph{semantic-level} textual intention and complementary \\emph{fine-grained} physical dynamics. The physical dynamics are supervised by the world modeling objective based on a dedicated World Expert, and are leveraged to ease the characterization of the state-action correlation for the Action Expert. WLA leverages meta-queries to make the world prediction \\emph{implicitly} impact the action generation so that the former can be disabled during inference. The world prediction can also be activated to enable test-time scaling for improved robot control. Our WLA-0 prototype, with 2B active parameters, achieves 40 ms per inference on an NVIDIA RTX 5090. Evaluations across simulated and real-world environments demonstrate that WLA-0 achieves state-of-the-art multi-task and long-horizon learning abilities, e.g., 92.94\\% success rate on RoboTwin2.0 Clean and 56.5\\% success rate on RMBench. WLA-0 also holds the promise to learn novel tasks directly from \\emph{cross-embodiment robot videos} without action annotations.",
+          "timestamp": "2026-06-04T10:23:01",
+          "url": "https://arxiv.org/abs/2606.05979v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Yi Yang, Zhihong Liu, Siqi Kou, Yiyang Chen, Yanzhe Hu, Jianbo Zhou, Boyuan Zhao, Zhijie Wei, Xiao Xia, Xueqi Li, Pengfei Liu, Zhijie Deng",
+            "updated": "2026-06-04T10:23:01"
+          }
+        },
+        {
+          "subject": "Evaluation of LLMs for Mathematical Formalization in Lean",
+          "body": "Within the past few years, the ability of Large Language Models (LLMs) to generate formal mathematical proofs has improved drastically. We provide a comparison of various LLMs' effectiveness in producing formal proofs in Lean 4 with the goal of assisting those seeking to use LLMs to support their own projects. We utilize both pass@$k$ and refine@$k$ metrics as the benchmark for our comparison and evaluate on subsets of both miniF2F and miniCTX datasets. Our testing shows that overall, Gemini 3.1 Pro and Claude Opus 4.7 perform best. Gemini 3.1 Pro achieved a 92\\% success rate on miniF2F via refine@32 whereas Opus 4.7 achieved a 86\\% success rate on miniCTX via refine@32. When taking cost into account, NVIDIA Nemotron 3 Super and GPT-OSS 120B were the most efficient, with competitive accuracies and average costs of $<\\$0.01$ per correct proof.",
+          "timestamp": "2026-06-04T02:59:39",
+          "url": "https://arxiv.org/abs/2606.05632v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Tyson Klingner, Drew Bladek, Escher Crawford, Bohao Chen, Ariel Fu, Kaira Nair, Jarod Alper, Giovanni Inchiostro, Vasily Ilin",
+            "updated": "2026-06-04T02:59:39"
+          }
+        },
         {
           "subject": "Automatic Generation of Titles for Research Papers Using Language Models",
           "body": "The title of a research paper conveys its primary idea and, occasionally, its conclusions in a clear and concise manner. Choosing an appropriate title is often challenging, and automated title generation can assist authors in this task. In this work, we propose a technique to generate paper titles from abstracts using open-weight pre-trained and large language models. We use the CSPubSum and LREC-COLING-2024 datasets and introduce a new dataset, SpringerSSAT, curated from four Springer journals in the social sciences. Additionally, we use GPT-3.5-turbo in a zero-shot setting to generate titles. Model performance is evaluated with ROUGE, METEOR, MoverScore, BERTScore, and SciBERTScore metrics. Our experiments show that fine-tuned PEGASUS-large outperforms other models, including fine-tuned LLaMA-3-8B and zero-shot GPT-3.5-turbo, across most metrics. We further demonstrate that ChatGPT can generate creative paper titles. Overall, AI-generated titles are generally appropriate and reliable.",
@@ -453,23 +495,42 @@
             "authors": "Thanh Luong Tuan",
             "updated": "2026-05-30T16:43:02"
           }
-        },
-        {
-          "subject": "DriveAnchor: Progressive Anchor-based Flow Learning for Autonomous Driving Planning",
-          "body": "We present DriveAnchor, a three-stage framework for autonomous driving planning that achieves behavioral diversity, controllability, and safety in a composable pipeline. Demonstration Flow Pretraining replaces the unstructured Gaussian prior with a vocabulary of 2,398 trajectory shapes constructed by farthest-point sampling, structurally grounding behavioral diversity in vocabulary coverage. Guided Flow Post-training jointly post-trains an Energy Field module with flow matching (FM), conditioning the Energy Field on static road geometry alone, to relocate anchors toward user-specified corridor polygons before flow generation, adding controllability without differentiable guidance; after Stage 2, new corridor presets require only Energy Field updates, not FM retraining. Reward-Refined Flow Fine-tuning applies zeroth-order reinforcement learning to align each anchor's output with collision-avoidance objectives: because the flow-matching model is a deterministic feedforward network in single-step mode, each anchor uniquely determines the output trajectory, reducing reward optimization to a direction search in anchor space without log-likelihood computation or ODE-to-SDE conversion. Evaluated on approximately 2 million held-out driving scenarios, DriveAnchor reduces near-range collision rates by 89% and improves mean reward by 32% without degradation in imitation accuracy, with 2.06 ms inference on NVIDIA Drive Orin. DriveAnchor has been validated through real-world vehicle testing, confirming its practicality for production deployment.",
-          "timestamp": "2026-05-30T04:17:59",
-          "url": "https://arxiv.org/abs/2606.00519v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Limin Yan, Haoyun Tang, Yutao Qiu, Hongqing Liu, Haoyu Xu",
-            "updated": "2026-05-30T04:17:59"
-          }
         }
       ]
     },
     "models": {
-      "count": 4,
+      "count": 7,
       "items": [
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-06-05T20:20:05",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-06-05T18:16:36",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-06-05T17:57:11",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "latam-gpt/Llama-3.1-70B-LatamGPT-SFT-1.0",
           "body": "[\"transformers\", \"safetensors\", \"llama\", \"text-generation\", \"research\", \"latin-america\", \"cenia\", \"latamgpt\", \"conversational\", \"en\", \"es\", \"pt\", \"base_model:meta-llama/Llama-3.1-70B\", \"base_model:finetune:meta-llama/Llama-3.1-70B\", \"license:llama3.1\", \"text-generation-inference\", \"endpoints_compatible\", \"region:us\"]",
@@ -513,5 +574,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **NVIDIA**: Released a collection of open source agent tools and skills for physical AI, including a new foundation model for agentic AI (Cosmos 3) and a super reasoning model for robotaxis (Alpamayo 2). Also announced a major expansion of NVIDIA DRIVE Hyperion, a robotaxi-ready platform.\n* **OpenAI**: Unveiled a blueprint for democratic governance of frontier AI, proposing a federal framework for safety, resilience, and national security. Also, announced a new public policy agenda for AI, including safety, youth protection, workforce transition, and global standards.\n* **AI Research**: Published several research papers on various topics, including automatic generation of titles for research papers using language models, self-refining agentic reinforcement learning for vision-conditioned UAV navigation, and more.\n* **LLM Security**: Introduced a new framework, ClawHub Security Signals, to study second-class threat evaluation of LLM skills. Also, proposed a new test of numeric CGTK decoy agility with the Twin challenge package endorsed by product proponent Audigo.\n* **Enterprise Coordination**: Evaluated whether coordination strategy should be selected dynamically by problem class rather than fixed globally in enterprise multi-agent systems.\n\n**Trend:**\n\n* **Agentic AI**: A growing trend in AI research and development, with increasing emphasis on creating more autonomous and interactive AI systems that can learn, reason, and act in complex environments."
+  "summary": "Here are 4-6 key developments with insight:\n\n* **NVIDIA and South Korea are building the future of AI**: NVIDIA and South Korea are collaborating to develop sovereign AI infrastructure and robotics innovators, positioning themselves as leaders in the global AI landscape.\n* **OpenAI releases new models and capabilities**: OpenAI has released new models, including GPT-Rosalind, which advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, and genomics analysis.\n* **NVIDIA unveils new physical AI agent skills**: NVIDIA has unveiled new physical AI agent skills that help with autonomous vehicles, robotics, and vision AI, enabling more advanced and efficient applications.\n* **AWS makes OpenAI models and Codex generally available**: AWS has made OpenAI models and Codex generally available on Amazon Bedrock, providing enterprises with a new path to build with OpenAI through the AWS environment.\n* **OpenAI and NVIDIA partner on AI infrastructure**: OpenAI is building a 1GW data center project in Michigan as part of Stargate, a partnership with NVIDIA to build AI infrastructure and expand access to AI.\n\nTrend: **Physical AI is becoming increasingly important**: The trend is shifting towards physical AI, with NVIDIA and other companies focusing on developing AI skills that can interact with the physical world, such as autonomous vehicles and robots. This trend is driven by the growing need for more efficient and advanced applications in areas like manufacturing, logistics, and healthcare."
 }
