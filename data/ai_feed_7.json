@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-06T05:50:32.555Z",
+  "timestamp": "2026-06-07T06:19:08.994Z",
   "categories": {
     "news": {
-      "count": 32,
+      "count": 33,
       "items": [
+        {
+          "subject": "Nvidia’s AI Hardware Comes to Windows in RTX Spark PCs",
+          "body": "At Computex 2026, an annual computer trade show held in Taipei, Taiwan, Nvidia made a long anticipated announcement—a version of the company’s Blackwell GB10 superchip for Windows PCs, called RTX Spark. Originally rumored to launch in 2025 , it was...",
+          "timestamp": "2026-06-06T13:30:02",
+          "url": "https://spectrum.ieee.org/nvidia-rtx-spark-windows-pc",
+          "extras": {
+            "data_origin": "IEEE Spectrum"
+          }
+        },
         {
           "subject": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
           "body": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as...",
@@ -42,24 +51,6 @@
           }
         },
         {
-          "subject": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
-          "body": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help...",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-          "body": "What makes a robot gripper useful isn’t that it can pick up...",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "OpenAI public policy agenda",
           "body": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
           "timestamp": "2026-06-04T04:00:02",
@@ -69,10 +60,10 @@
           }
         },
         {
-          "subject": "A blueprint for democratic governance of frontier AI",
-          "body": "OpenAI outlines a blueprint for U. S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+          "subject": "Introducing new capabilities to GPT-Rosalind",
+          "body": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
           "timestamp": "2026-06-04T04:00:02",
-          "url": "https://openai.com/index/frontier-safety-blueprint",
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -87,12 +78,30 @@
           }
         },
         {
-          "subject": "Introducing new capabilities to GPT-Rosalind",
-          "body": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+          "subject": "A blueprint for democratic governance of frontier AI",
+          "body": "OpenAI outlines a blueprint for U. S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
           "timestamp": "2026-06-04T04:00:02",
-          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+          "url": "https://openai.com/index/frontier-safety-blueprint",
           "extras": {
             "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+          "body": "What makes a robot gripper useful isn’t that it can pick up...",
+          "timestamp": "2026-06-04T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+          "body": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help...",
+          "timestamp": "2026-06-04T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -296,7 +305,7 @@
       ]
     },
     "papers": {
-      "count": 18,
+      "count": 17,
       "items": [
         {
           "subject": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
@@ -376,14 +385,14 @@
           }
         },
         {
-          "subject": "Self-Refining Agentic Reinforcement Learning for Vision-Conditioned UAV Navigation",
+          "subject": "AgenticRL: Self-Refining Agentic Reinforcement Learning for Vision-Conditioned UAV Navigation",
           "body": "Deep reinforcement learning has shown strong potential for enabling autonomous robots to learn complex navigational tasks. However, its practical use still depends heavily on human designed reward functions and repeated manual fine tuning, which is time consuming and does not guarantee high success in the desired task. This paper presents AgenticRL, agent guided reinforcement learning framework that increases autonomy in reward design, policy refinement, and real world deployment for unmanned aerial vehicles (UAV) navigation tasks. AgenticRL uses a multimodal generative pre-trained tansformer (GPT) agent to interpret task information and visual scene observations, generate task specific reward functions, train policies using Proximal Policy Optimization (PPO) algorithm, and then act as a critic by evaluating the trained policy through diagnosis packets to generate feedback. Based on this feedback, the agent identifies failure modes and refines the reward function in a closed loop self improvement process. To further leverage the multimodal GPT agent during inference, AgenticRL uses real world images and natural language task information to automatically identify the active scenario and select the appropriate trained policy for execution. The framework is evaluated on multiple navigational tasks, including gate traversal, obstacle avoidance, wall barrier crossing with landing, trajectory following, and motion behavior learning. Experimental results show that the closed loop refinement process improves policy behavior compared with initial rewards by 71%. We also demonstrate sim-to-real transfer of the proposed framework, achieving a real world success rate of 91% and a sim-to-real accuracy of 94%.",
           "timestamp": "2026-06-02T17:50:15",
-          "url": "https://arxiv.org/abs/2606.03963v1",
+          "url": "https://arxiv.org/abs/2606.03963v2",
           "extras": {
             "data_origin": "arXiv",
             "authors": "Roohan Ahmed Khan, Yasheerah Yaqoot, Muhammad Ahsan Mustafa, Dzmitry Tsetserukou",
-            "updated": "2026-06-02T17:50:15"
+            "updated": "2026-06-03T18:08:23"
           }
         },
         {
@@ -484,17 +493,6 @@
             "authors": "Vincent Koc, Patrick Erichsen, Jacob Tomlinson, Agustin Rivera, Michael Appel, Nir Paz",
             "updated": "2026-05-31T23:20:25"
           }
-        },
-        {
-          "subject": "Dynamic Coordination Strategy Selection for Enterprise Multi-Agent Systems",
-          "body": "Enterprise multi-agent systems increasingly expose multiple coordination patterns, but deployments often lack evidence for when to use consensus, debate, synthesis, or a simpler single-agent workflow. This paper evaluates whether coordination strategy should be selected dynamically by problem class rather than fixed globally. We run a frozen matrix of 30 enterprise tasks spanning six industries, five problem classes, four execution conditions, three replications per cell, and four model arms: qwen_local, sonnet, gemma_openrouter, and an auxiliary openai cloud-validation arm. All 1,440 generated outputs are judged by a fixed Sonnet rubric.\n  The main finding is bounded and operationally useful, but it is not the original strict H1. The pre-registered exact-winner/CI criterion is not supported: exact winner identity is unstable across model arms, and several predicted strategies are close to, but not above, the best observed alternative. A weaker near-best routing claim is strongly supported. In every pre-registered model arm and problem class, and again in the auxiliary OpenAI validation arm, the predicted strategy is within 0.10 quality-score points of the best observed condition. Structured compliance verification is the clearest exception to the original mapping: all arms favor single_agent rather than consensus. A pre-registered Kendall's W test finds no reliable difference between Vietnamese-domain and English-domain tasks in how consistently the four coordination conditions are ranked (mean W of 0.20 in both strata; signed-rank p = .85), so H2 is not supported. We conclude that enterprise coordination policy should use dynamic routing as a calibrated default, not as a deterministic winner-selection law.",
-          "timestamp": "2026-05-30T16:43:02",
-          "url": "https://arxiv.org/abs/2606.00804v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Thanh Luong Tuan",
-            "updated": "2026-05-30T16:43:02"
-          }
         }
       ]
     },
@@ -504,7 +502,7 @@
         {
           "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-06-05T20:20:05",
+          "timestamp": "2026-06-06T19:08:52",
           "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "extras": {
             "data_origin": "huggingface",
@@ -514,7 +512,7 @@
         {
           "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-06-05T18:16:36",
+          "timestamp": "2026-06-06T19:08:33",
           "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
           "extras": {
             "data_origin": "huggingface",
@@ -529,6 +527,16 @@
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "unsloth/NVIDIA-Nemotron-3-Ultra-550B-A55B-GGUF",
+          "body": "[\"transformers\", \"gguf\", \"nemotron_h\", \"text-generation\", \"unsloth\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"base_model:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
+          "timestamp": "2026-06-04T16:47:22",
+          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Ultra-550B-A55B-GGUF",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "unsloth"
           }
         },
         {
@@ -560,19 +568,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/dvlt",
-          "body": "[\"dvlt\", \"safetensors\", \"3d-reconstruction\", \"depth-estimation\", \"camera-pose\", \"pointmap\", \"looped-transformer\", \"image-to-3d\", \"arxiv:2605.30215\", \"base_model:facebook/dinov2-base\", \"base_model:finetune:facebook/dinov2-base\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-05-30T20:37:41",
-          "url": "https://huggingface.co/nvidia/dvlt",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 4-6 key developments with insight:\n\n* **NVIDIA and South Korea are building the future of AI**: NVIDIA and South Korea are collaborating to develop sovereign AI infrastructure and robotics innovators, positioning themselves as leaders in the global AI landscape.\n* **OpenAI releases new models and capabilities**: OpenAI has released new models, including GPT-Rosalind, which advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, and genomics analysis.\n* **NVIDIA unveils new physical AI agent skills**: NVIDIA has unveiled new physical AI agent skills that help with autonomous vehicles, robotics, and vision AI, enabling more advanced and efficient applications.\n* **AWS makes OpenAI models and Codex generally available**: AWS has made OpenAI models and Codex generally available on Amazon Bedrock, providing enterprises with a new path to build with OpenAI through the AWS environment.\n* **OpenAI and NVIDIA partner on AI infrastructure**: OpenAI is building a 1GW data center project in Michigan as part of Stargate, a partnership with NVIDIA to build AI infrastructure and expand access to AI.\n\nTrend: **Physical AI is becoming increasingly important**: The trend is shifting towards physical AI, with NVIDIA and other companies focusing on developing AI skills that can interact with the physical world, such as autonomous vehicles and robots. This trend is driven by the growing need for more efficient and advanced applications in areas like manufacturing, logistics, and healthcare."
+  "summary": "Here are the key developments with insight:\n\n* **NVIDIA Announces RTX Spark PCs**: NVIDIA has announced the release of its AI hardware, Blackwell GB10 superchip, for Windows PCs under the name RTX Spark. This marks a significant move for the company, making its AI technology more accessible to a broader range of users.\n* **OpenAI Makes Progress in AI Safety and Governance**: OpenAI has outlined its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society. The company is also building a 1GW data center project in Michigan as part of its Stargate initiative.\n* **AWS and OpenAI Partner on AI Models and Codex**: AWS and OpenAI have partnered to make OpenAI models and Codex available on Amazon Bedrock, providing enterprises with a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use.\n* **New AI Research and Advancements**: Research papers have been published on various AI-related topics, including Vortex, a system that combines a Python-embedded frontend language atop a page-centric tensor abstraction for expressing a broad range of sparse attention algorithms, and AgenticRL, a framework for self-refining agentic reinforcement learning for vision-conditioned UAV navigation.\n* **Trend:** The trend in AI research and development is shifting towards more robust and explainable AI systems, with a focus on safety, governance, and transparency. Companies like NVIDIA and OpenAI are investing heavily in AI research and development, and partnerships between companies like AWS and OpenAI are becoming more common.\n\nNote: The trend is based on the analysis of the provided data and may not be a definitive conclusion."
 }
