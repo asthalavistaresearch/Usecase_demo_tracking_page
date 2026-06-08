@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-07T06:19:08.994Z",
+  "timestamp": "2026-06-08T06:38:43.857Z",
   "categories": {
     "news": {
-      "count": 33,
+      "count": 29,
       "items": [
         {
           "subject": "Nvidia’s AI Hardware Comes to Windows in RTX Spark PCs",
@@ -51,28 +51,28 @@
           }
         },
         {
+          "subject": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+          "body": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help...",
+          "timestamp": "2026-06-04T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+          "body": "What makes a robot gripper useful isn’t that it can pick up...",
+          "timestamp": "2026-06-04T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
           "subject": "OpenAI public policy agenda",
           "body": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
           "timestamp": "2026-06-04T04:00:02",
           "url": "https://openai.com/index/public-policy-agenda",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing new capabilities to GPT-Rosalind",
-          "body": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Wasmer used Codex to build a Node.js runtime for the edge",
-          "body": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://openai.com/index/wasmer",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -87,21 +87,21 @@
           }
         },
         {
-          "subject": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-          "body": "What makes a robot gripper useful isn’t that it can pick up...",
+          "subject": "How Wasmer used Codex to build a Node.js runtime for the edge",
+          "body": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
           "timestamp": "2026-06-04T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+          "url": "https://openai.com/index/wasmer",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
-          "body": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help...",
+          "subject": "Introducing new capabilities to GPT-Rosalind",
+          "body": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
           "timestamp": "2026-06-04T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -123,15 +123,6 @@
           }
         },
         {
-          "subject": "Product Hunt Launch: Paste MCP & AI Tools",
-          "body": "Infinite clipboard for Claude, Codex and other AI tools",
-          "timestamp": "2026-06-02T13:30:02",
-          "url": "https://www.producthunt.com/products/paste",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
-        },
-        {
           "subject": "Codex is becoming a productivity tool for everyone",
           "body": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
           "timestamp": "2026-06-02T13:30:02",
@@ -141,12 +132,12 @@
           }
         },
         {
-          "subject": "NVIDIA Jetson Brings Agentic AI to the Physical World",
-          "body": "Agentic AI is getting physical. At COMPUTEX on Tuesday, NVIDIA announced NVIDIA...",
-          "timestamp": "2026-06-02T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+          "subject": "Product Hunt Launch: Paste MCP & AI Tools",
+          "body": "Infinite clipboard for Claude, Codex and other AI tools",
+          "timestamp": "2026-06-02T13:30:02",
+          "url": "https://www.producthunt.com/products/paste",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "Product Hunt"
           }
         },
         {
@@ -156,6 +147,15 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/",
           "extras": {
             "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+          "body": "Agentic AI is getting physical. At COMPUTEX on Tuesday, NVIDIA announced NVIDIA...",
+          "timestamp": "2026-06-02T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -174,6 +174,15 @@
           "url": "https://openai.com/index/stargate-michigan-data-center",
           "extras": {
             "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
+          "body": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI...",
+          "timestamp": "2026-06-01T13:30:01",
+          "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -256,56 +265,11 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-          "body": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI...",
-          "timestamp": "2026-06-01T13:30:01",
-          "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Unveils Vera, the CPU for Agents",
-          "body": "NVIDIA today announced that the world’s technology leaders are planning to adopt...",
-          "timestamp": "2026-06-01T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-vera-the-cpu-for-agents",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA DSX Gives Infrastructure Builders the Playbook for AI Factories",
-          "body": "News Summary: Engineered from the ground up for AI factories, the NVIDIA...",
-          "timestamp": "2026-06-01T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-dsx-gives-infrastructure-builders-the-playbook-for-ai-factories",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
-          "body": "NVIDIA GTC Taipei -- NVIDIA today announced the NVIDIA Vera Rubin platform...",
-          "timestamp": "2026-06-01T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Vera BlueField-4 STX Brings Agentic AI Storage Processing With In-Silicon Security",
-          "body": "NVIDIA today announced new NVIDIA DOCA™ security innovations for NVIDIA Vera Blue: Field-4...",
-          "timestamp": "2026-06-01T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-vera-bluefield-4-stx-brings-agentic-ai-storage-processing-with-in-silicon-security",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 17,
+      "count": 16,
       "items": [
         {
           "subject": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
@@ -482,22 +446,11 @@
             "authors": "Rui Yang, Qianhui Wu, Yuxi Chen, Hao Bai, Wenlin Yao, Hao Cheng, Baolin Peng, Huan Zhang, Tong Zhang, Jianfeng Gao",
             "updated": "2026-06-01T10:20:10"
           }
-        },
-        {
-          "subject": "ClawHub Security Signals: When VirusTotal, Static Analysis, and SkillSpector Disagree",
-          "body": "Agent skills extend AI agents with reusable instructions, tools, scripts, references, and workflows, establishing a security boundary distinct from both model safety and traditional package-malware detection. ClawHub Security Signals is a sanitized dataset of 67,453 latest public OpenClaw skill versions. Each row pairs redacted SKILL.md content and sanitized bundled files where present with a final ClawScan registry verdict and evidence from three scanner families: VirusTotal, static heuristic analysis, and NVIDIA SkillSpector.\n  Rather than estimating malicious-skill prevalence, we study scanner disagreement. The three scanners rarely flag the same skills: any pair overlaps on at most 10.4% of their combined positives, only 0.69% of skills are flagged by all three, and 81.9% of flagged skills are identified by a single scanner. The disagreement is structured by attack surface. SkillSpector, which raises semantic agentic-risk advisories rather than malware-reputation signals, is positive for 19,209 of 25,504 suspicious rows (75.3%) but only 14 of 206 malicious rows (6.8%). The malicious-verdict region shows the inverse profile: 150 of 206 malicious rows (72.8%) are VirusTotal-positive, consistent with bundled-code malware evidence.\n  These results show that agent-skill security requires layered governance, not single-scanner allow/block decisions. The corpus is released as a sanitized silver-standard dataset: labels are the registry's automated verdicts, not human-annotated ground truth, and the release represents an early, versioned snapshot intended to support the community while a human-annotated subset is developed. Further research is encouraged, including models tailored for skill-security triage.",
-          "timestamp": "2026-05-31T23:20:25",
-          "url": "https://arxiv.org/abs/2606.01494v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Vincent Koc, Patrick Erichsen, Jacob Tomlinson, Agustin Rivera, Michael Appel, Nir Paz",
-            "updated": "2026-05-31T23:20:25"
-          }
         }
       ]
     },
     "models": {
-      "count": 7,
+      "count": 5,
       "items": [
         {
           "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -548,29 +501,9 @@
             "data_origin": "huggingface",
             "namespace": "latam-gpt"
           }
-        },
-        {
-          "subject": "nvidia/Cosmos3-Super-Image2Video",
-          "body": "[\"cosmos\", \"diffusers\", \"safetensors\", \"cosmos3_omni\", \"nvidia\", \"cosmos3\", \"vllm-omni\", \"image-to-video\", \"video-generation\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-06-01T04:43:55",
-          "url": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/Cosmos3-Super-Text2Image",
-          "body": "[\"cosmos\", \"diffusers\", \"safetensors\", \"cosmos3_omni\", \"nvidia\", \"cosmos3\", \"vllm-omni\", \"text-to-image\", \"image-generation\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-06-01T04:43:55",
-          "url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n* **NVIDIA Announces RTX Spark PCs**: NVIDIA has announced the release of its AI hardware, Blackwell GB10 superchip, for Windows PCs under the name RTX Spark. This marks a significant move for the company, making its AI technology more accessible to a broader range of users.\n* **OpenAI Makes Progress in AI Safety and Governance**: OpenAI has outlined its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society. The company is also building a 1GW data center project in Michigan as part of its Stargate initiative.\n* **AWS and OpenAI Partner on AI Models and Codex**: AWS and OpenAI have partnered to make OpenAI models and Codex available on Amazon Bedrock, providing enterprises with a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use.\n* **New AI Research and Advancements**: Research papers have been published on various AI-related topics, including Vortex, a system that combines a Python-embedded frontend language atop a page-centric tensor abstraction for expressing a broad range of sparse attention algorithms, and AgenticRL, a framework for self-refining agentic reinforcement learning for vision-conditioned UAV navigation.\n* **Trend:** The trend in AI research and development is shifting towards more robust and explainable AI systems, with a focus on safety, governance, and transparency. Companies like NVIDIA and OpenAI are investing heavily in AI research and development, and partnerships between companies like AWS and OpenAI are becoming more common.\n\nNote: The trend is based on the analysis of the provided data and may not be a definitive conclusion."
+  "summary": "**Key Developments:**\n\n1. **Nvidia's RTX Spark PCs**: Nvidia has announced the availability of its AI hardware, Blackwell GB10 superchip, for Windows PCs, called RTX Spark. This is a long-awaited move that will enable Windows users to access Nvidia's AI capabilities.\n2. **OpenAI Codex**: OpenAI has released Codex, a new AI-powered tool for knowledge work, which can assist with research, data analysis, workflow automation, and content creation.\n3. **Nvidia's AI Cloud Ecosystem**: Nvidia has expanded its AI Cloud ecosystem worldwide to meet the growing demand for AI compute power.\n4. **NVIDIA's New AI Models**: Nvidia has released several new AI models, including the Alpamayo 2 Super Open Reasoning Model for robotaxis and the NVIDIA Cosmos 3, an open world foundation model for physical AI.\n5. **AWS Availability of OpenAI Models**: OpenAI models and Codex are now generally available on Amazon Bedrock, enabling enterprises to access OpenAI's capabilities through the AWS environment.\n\n**Trend:**\n\n**Rise of Agentic AI**: The trend is towards the development of agentic AI, which is characterized by the ability of AI systems to reason, learn, and interact with their environment in a more human-like way. This is evident in the numerous papers and announcements related to agentic AI, including the release of Nvidia's Isaac GR00T Reference Humanoid Robot and the development of new AI models and tools that enable agentic behavior."
 }
