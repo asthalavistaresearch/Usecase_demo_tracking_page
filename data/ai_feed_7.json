@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-10T06:19:24.576Z",
+  "timestamp": "2026-06-11T06:44:27.748Z",
   "categories": {
     "news": {
-      "count": 20,
+      "count": 18,
       "items": [
+        {
+          "subject": "AWS: Scale Robot Reinforcement Learning with NVIDIA Isaac Lab on Amazon SageMaker AI",
+          "body": "Physical AI is moving from research into production. Robots are increasingly trained...",
+          "timestamp": "2026-06-10T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scale-robot-reinforcement-learning-with-nvidia-isaac-lab-on-amazon-sagemaker-ai/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
+          "body": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in...",
+          "timestamp": "2026-06-10T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "What Codex unlocks for Notion",
+          "body": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+          "timestamp": "2026-06-10T04:00:02",
+          "url": "https://openai.com/index/notion",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How engineers at Nextdoor use Codex to build without limits",
+          "body": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+          "timestamp": "2026-06-10T04:00:02",
+          "url": "https://openai.com/index/nextdoor",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Introducing the OpenAI Economic Research Exchange",
           "body": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
@@ -130,60 +166,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Introducing new capabilities to GPT-Rosalind",
-          "body": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
-          "body": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help...",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-          "body": "What makes a robot gripper useful isn’t that it can pick up...",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "OpenAI public policy agenda",
-          "body": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://openai.com/index/public-policy-agenda",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "A blueprint for democratic governance of frontier AI",
-          "body": "OpenAI outlines a blueprint for U. S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://openai.com/index/frontier-safety-blueprint",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Wasmer used Codex to build a Node.js runtime for the edge",
-          "body": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-          "timestamp": "2026-06-04T04:00:02",
-          "url": "https://openai.com/index/wasmer",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -191,20 +173,20 @@
       "count": 4,
       "items": [
         {
-          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-06-10T05:26:20",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-06-10T05:43:40",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
         },
         {
-          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-06-10T05:09:43",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-06-10T05:26:20",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -233,5 +215,5 @@
       ]
     }
   },
-  "summary": "**Key Developments and Insights**\n\n* OpenAI has launched the Economic Research Exchange to study AI's impact on jobs, productivity, and the economy. This move aims to ensure that AI benefits everyone, particularly low-income individuals who may be disproportionately affected by AI-driven job displacement.\n* NVIDIA has announced partnerships with several companies to build sovereign AI infrastructure, enabling the development of AI-powered applications and accelerating the adoption of AI in various industries.\n* OpenAI has introduced new capabilities to its GPT-Rosalind platform, which can now perform enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.\n* NVIDIA has unveiled new physical AI agent skills that can help with autonomous vehicles, robotics, and vision AI.\n* A blueprint for democratic governance of frontier AI has been proposed by OpenAI, outlining a federal framework for safety, resilience, and national security.\n\n**Trend:** The increasing focus on applications of AI in various sectors, such as healthcare, education, and industry, highlights the growing need for responsible AI development and deployment.\n\n**Bullet Points:**\n\n* OpenAI's Economic Research Exchange aims to study the impact of AI on the economy, making it essential to understand AI's effects on jobs and productivity.\n* NVIDIA's partnerships with various companies demonstrate the growing importance of AI infrastructure in enabling AI development and adoption.\n* OpenAI's GPT-Rosalind platform has become a powerful tool for life sciences research, underscoring its potential to revolutionize the field.\n* The proposed blueprint for democratic governance of frontier AI recognises the importance of addressing safety, resilience, and national security concerns.\n* The increasing focus on physical AI applications, such as autonomous vehicles and robotics, can have significant implications for industries and society as a whole."
+  "summary": "Here are 4-6 bullet points summarizing the key developments and 1 trend:\n\n**Summary:**\n\n* **NVIDIA** has been at the forefront of various AI-related developments, including:\n\t+ Expanding sovereign AI infrastructure in the UK and South Korea, with collaborations with various organizations such as NAVER, SK Telecom, and LG Group.\n\t+ Launching new AI hardware, including the RTX Spark PCs and NVIDIA Nemotron 3 Ultra models, which will be available on Amazon SageMaker JumpStart.\n\t+ Enhancing their AI hardware with Confidential Computing to help ensure secure and confidential inference in public cloud computing.\n* **OpenAI** has been focusing on:\n\t+ Launching the Economic Research Exchange to study AI's impact on jobs, productivity, and the economy.\n\t+ Improving chatbots, such as ChatGPT, with new features like enhanced memory and conversation capabilities.\n\t+ Allowing OpenAI's developers to work with businesses to help them adopt AI technology.\n* Other notable developments:\n\t+ Amazon Web Services (AWS) has been expanding its AI capabilities, including the availability of NVIDIA Nemotron 3 Ultra on Amazon SageMaker JumpStart.\n\t+ Researchers and developers have been working on various AI-related projects, including using Codex to build and improve software.\n\n**Trend:** The increasing focus on **sovereign AI infrastructure** is a significant trend in the AI industry. This trend involves companies and governments investing in AI infrastructure and technology that can be controlled and run within their countries, rather than relying on foreign-made technology. This trend is driven by concerns over data sovereignty, security, and economic self-sufficiency. NVIDIA is at the forefront of this trend, with its collaborations with various organizations in the UK and South Korea."
 }
