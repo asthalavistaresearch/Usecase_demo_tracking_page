@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-12T06:36:53.808Z",
+  "timestamp": "2026-06-13T06:12:24.497Z",
   "categories": {
     "news": {
-      "count": 19,
+      "count": 22,
       "items": [
+        {
+          "subject": "How Preply combines AI and human tutors to personalize learning",
+          "body": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+          "timestamp": "2026-06-12T13:30:02",
+          "url": "https://openai.com/index/preply",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Stockholder Meeting Set for June 24; Individuals Can Participate Online",
+          "body": "SANTA CLARA, Calif., June 11, 2026 (GLOBE NEWSWIRE) -- NVIDIA today announced...",
+          "timestamp": "2026-06-12T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-stockholder-meeting-set-for-june-24-individuals-can-participate-online",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "OpenAI to acquire Ona",
+          "body": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+          "timestamp": "2026-06-12T04:00:02",
+          "url": "https://openai.com/index/openai-to-acquire-ona",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "BBVA puts AI at the core of banking with OpenAI",
+          "body": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+          "timestamp": "2026-06-12T04:00:02",
+          "url": "https://openai.com/index/bbva",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
           "body": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
@@ -42,6 +78,15 @@
           }
         },
         {
+          "subject": "What Codex unlocks for Notion",
+          "body": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+          "timestamp": "2026-06-10T04:00:02",
+          "url": "https://openai.com/index/notion",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "AWS: Scale Robot Reinforcement Learning with NVIDIA Isaac Lab on Amazon SageMaker AI",
           "body": "Physical AI is moving from research into production. Robots are increasingly trained...",
           "timestamp": "2026-06-10T04:00:02",
@@ -60,15 +105,6 @@
           }
         },
         {
-          "subject": "What Codex unlocks for Notion",
-          "body": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-          "timestamp": "2026-06-10T04:00:02",
-          "url": "https://openai.com/index/notion",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
           "subject": "How engineers at Nextdoor use Codex to build without limits",
           "body": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
           "timestamp": "2026-06-10T04:00:02",
@@ -78,19 +114,19 @@
           }
         },
         {
-          "subject": "Built to benefit everyone: our plan",
-          "body": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+          "subject": "Introducing the OpenAI Economic Research Exchange",
+          "body": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
           "timestamp": "2026-06-09T04:00:02",
-          "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+          "url": "https://openai.com/index/economic-research-exchange",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Introducing the OpenAI Economic Research Exchange",
-          "body": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+          "subject": "Built to benefit everyone: our plan",
+          "body": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
           "timestamp": "2026-06-09T04:00:02",
-          "url": "https://openai.com/index/economic-research-exchange",
+          "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -166,21 +202,22 @@
           "extras": {
             "data_origin": "IEEE Spectrum"
           }
-        },
-        {
-          "subject": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
-          "body": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as...",
-          "timestamp": "2026-06-05T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
       "count": 3,
       "items": [
+        {
+          "subject": "nvidia/diffusiongemma-26B-A4B-it-NVFP4",
+          "body": "[\"safetensors\", \"diffusion_gemma\", \"nvidia\", \"ModelOpt\", \"DiffusionGemma-26B-A4B-IT\", \"quantized\", \"NVFP4\", \"nvfp4\", \"text-generation\", \"conversational\", \"base_model:google/diffusiongemma-26B-A4B-it\", \"base_model:quantized:google/diffusiongemma-26B-A4B-it\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-06-11T00:05:07",
+          "url": "https://huggingface.co/nvidia/diffusiongemma-26B-A4B-it-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
@@ -200,19 +237,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-06-05T17:57:11",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.\n* NVIDIA accelerates Google DeepMind's DiffusionGemma, an experimental open model built for local AI, and collaborates with various companies to advance AI infrastructure, including NAVER, SK Telecom, and Doosan Group.\n* A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.\n* OpenAI launches the Economic Research Exchange to study AI's impact on jobs, productivity, and the economy.\n* NVIDIA releases RTX Spark PCs, which come with its Blackwell GB10 superchip, for Windows PCs.\n* NVIDIA and LG Group build an AI factory to advance physical AI, mobility, and AI infrastructure.\n\n**Trend:** The increasing focus on AI infrastructure and its applications across various industries, including technology, finance, and education, suggests a growing recognition of the importance of AI in driving innovation and economic growth. This trend is likely to continue as more companies invest in AI research and development, leading to the creation of new AI-powered technologies and applications."
+  "summary": "Here are 4-6 key developments with insight and 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA's RTX Spark PCs with AI Hardware**: NVIDIA launched the RTX Spark, a version of their Blackwell GB10 superchip, for Windows PCs, a long-awaited development that marks the company's entry into the Windows PC market.\n* **OpenAI Acquisition of Ona**: OpenAI announced plans to acquire Ona, a company that specializes in secure, persistent cloud environments, to expand its Codex technology with long-running AI agents across enterprise workflows.\n* **BBVA's Adoption of OpenAI**: BBVA, a bank, partnered with OpenAI to accelerate its AI-powered banking transformation, with OpenAI's ChatGPT Enterprise scaled to 100,000 employees.\n* **NVIDIA's AI Infrastructure Expansion**: NVIDIA announced partnerships with several companies, including NAVER, SK Telecom, and LG Group, to build and expand sovereign AI infrastructure to support the growing demand for AI worldwide.\n* **OpenAI's Economic Research Exchange**: OpenAI launched an economic research exchange to study the impact of AI on jobs, productivity, and the economy, with applications open for research projects.\n* **NVIDIA's AI Hardware for Windows**: NVIDIA's RTX Spark PCs are designed to accelerate AI computing on Windows PCs, making AI more accessible to the broader computer hardware market.\n* **Google DeepMind's DiffusionGemma**: Google DeepMind released DiffusionGemma, an experimental open model built for local AI, highlighting the increasing focus on building models that can run on smaller-scale hardware like edge devices.\n\n**Trend:**\n\n* **Increased Investing in AI Infrastructure**: The trend is towards greater investment in AI infrastructure, as companies like NVIDIA, OpenAI, and Google DeepMind seek to build and expand their AI capabilities, highlighting the growing importance of AI in various industries, from banking to hardware to research. This trend is driven by the need for faster and more efficient computing resources to support the development and deployment of increasingly complex AI models."
 }
