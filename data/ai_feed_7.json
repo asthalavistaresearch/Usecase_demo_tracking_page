@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-13T06:12:24.497Z",
+  "timestamp": "2026-06-14T06:33:10.024Z",
   "categories": {
     "news": {
       "count": 22,
       "items": [
+        {
+          "subject": "New OpenAI Academy courses for the next era of work",
+          "body": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+          "timestamp": "2026-06-13T04:05:02",
+          "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "How Preply combines AI and human tutors to personalize learning",
           "body": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
@@ -78,12 +87,12 @@
           }
         },
         {
-          "subject": "What Codex unlocks for Notion",
-          "body": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+          "subject": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
+          "body": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in...",
           "timestamp": "2026-06-10T04:00:02",
-          "url": "https://openai.com/index/notion",
+          "url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -96,12 +105,12 @@
           }
         },
         {
-          "subject": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
-          "body": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in...",
+          "subject": "What Codex unlocks for Notion",
+          "body": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
           "timestamp": "2026-06-10T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+          "url": "https://openai.com/index/notion",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -150,6 +159,15 @@
           }
         },
         {
+          "subject": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
+          "body": "NVIDIA and LG Group are building an AI factory to accelerate LG...",
+          "timestamp": "2026-06-08T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
           "subject": "NAVER Expands AI Infrastructure With NVIDIA to Serve Surging Global AI Demand",
           "body": "NVIDIA and NAVER today announced that NAVER will expand sovereign AI infrastructure...",
           "timestamp": "2026-06-08T04:00:02",
@@ -183,24 +201,6 @@
           "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
           "extras": {
             "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
-          "body": "NVIDIA and LG Group are building an AI factory to accelerate LG...",
-          "timestamp": "2026-06-08T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Nvidia’s AI Hardware Comes to Windows in RTX Spark PCs",
-          "body": "At Computex 2026, an annual computer trade show held in Taipei, Taiwan, Nvidia made a long anticipated announcement—a version of the company’s Blackwell GB10 superchip for Windows PCs, called RTX Spark. Originally rumored to launch in 2025 , it was...",
-          "timestamp": "2026-06-06T13:30:02",
-          "url": "https://spectrum.ieee.org/nvidia-rtx-spark-windows-pc",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
           }
         }
       ]
@@ -241,5 +241,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 key developments with insight and 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA's RTX Spark PCs with AI Hardware**: NVIDIA launched the RTX Spark, a version of their Blackwell GB10 superchip, for Windows PCs, a long-awaited development that marks the company's entry into the Windows PC market.\n* **OpenAI Acquisition of Ona**: OpenAI announced plans to acquire Ona, a company that specializes in secure, persistent cloud environments, to expand its Codex technology with long-running AI agents across enterprise workflows.\n* **BBVA's Adoption of OpenAI**: BBVA, a bank, partnered with OpenAI to accelerate its AI-powered banking transformation, with OpenAI's ChatGPT Enterprise scaled to 100,000 employees.\n* **NVIDIA's AI Infrastructure Expansion**: NVIDIA announced partnerships with several companies, including NAVER, SK Telecom, and LG Group, to build and expand sovereign AI infrastructure to support the growing demand for AI worldwide.\n* **OpenAI's Economic Research Exchange**: OpenAI launched an economic research exchange to study the impact of AI on jobs, productivity, and the economy, with applications open for research projects.\n* **NVIDIA's AI Hardware for Windows**: NVIDIA's RTX Spark PCs are designed to accelerate AI computing on Windows PCs, making AI more accessible to the broader computer hardware market.\n* **Google DeepMind's DiffusionGemma**: Google DeepMind released DiffusionGemma, an experimental open model built for local AI, highlighting the increasing focus on building models that can run on smaller-scale hardware like edge devices.\n\n**Trend:**\n\n* **Increased Investing in AI Infrastructure**: The trend is towards greater investment in AI infrastructure, as companies like NVIDIA, OpenAI, and Google DeepMind seek to build and expand their AI capabilities, highlighting the growing importance of AI in various industries, from banking to hardware to research. This trend is driven by the need for faster and more efficient computing resources to support the development and deployment of increasingly complex AI models."
+  "summary": "Here are the key developments with insight:\n\n**Bullet Points:**\n\n* **OpenAI introduces new Academy courses**: OpenAI has introduced three new courses that focus on building practical AI skills, creating repeatable workflows, and applying agents in everyday work.\n* **NVIDIA makes announcements on various partnerships**: NVIDIA has made several announcements on partnerships with companies such as LG Group, NAVER, SK Telecom, and Doosan Group to advance physical AI and AI factory infrastructure.\n* **NVIDIA releases new models on Hugging Face**: NVIDIA has released new models, including DiffusionGemma and Nemotron, on Hugging Face, a popular platform for machine learning models.\n* **OpenAI supports EU Code of Practice on AI content transparency**: OpenAI has supported the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.\n* **OpenAI Economic Research Exchange launched**: OpenAI has launched the Economic Research Exchange to study AI's impact on jobs, productivity, and the economy.\n\n**Trend:** The trend in this news is the increasing focus on AI infrastructure and partnerships, particularly in the areas of physical AI, AI factory infrastructure, and economic research. This suggests that companies are investing in building robust AI ecosystems to drive innovation and growth."
 }
