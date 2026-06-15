@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-14T06:33:10.024Z",
+  "timestamp": "2026-06-15T07:13:11.039Z",
   "categories": {
     "news": {
-      "count": 22,
+      "count": 17,
       "items": [
         {
           "subject": "New OpenAI Academy courses for the next era of work",
@@ -60,6 +60,15 @@
           }
         },
         {
+          "subject": "How an astrophysicist uses Codex to help simulate black holes",
+          "body": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+          "timestamp": "2026-06-11T04:00:02",
+          "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
           "body": "Today, Google DeepMind released DiffusionGemma an experimental open model built for...",
           "timestamp": "2026-06-11T04:00:02",
@@ -78,12 +87,12 @@
           }
         },
         {
-          "subject": "How an astrophysicist uses Codex to help simulate black holes",
-          "body": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-          "timestamp": "2026-06-11T04:00:02",
-          "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+          "subject": "AWS: Scale Robot Reinforcement Learning with NVIDIA Isaac Lab on Amazon SageMaker AI",
+          "body": "Physical AI is moving from research into production. Robots are increasingly trained...",
+          "timestamp": "2026-06-10T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scale-robot-reinforcement-learning-with-nvidia-isaac-lab-on-amazon-sagemaker-ai/",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "AWS AI News"
           }
         },
         {
@@ -93,15 +102,6 @@
           "url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
           "extras": {
             "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "AWS: Scale Robot Reinforcement Learning with NVIDIA Isaac Lab on Amazon SageMaker AI",
-          "body": "Physical AI is moving from research into production. Robots are increasingly trained...",
-          "timestamp": "2026-06-10T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/scale-robot-reinforcement-learning-with-nvidia-isaac-lab-on-amazon-sagemaker-ai/",
-          "extras": {
-            "data_origin": "AWS AI News"
           }
         },
         {
@@ -157,51 +157,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
-          "body": "NVIDIA and LG Group are building an AI factory to accelerate LG...",
-          "timestamp": "2026-06-08T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NAVER Expands AI Infrastructure With NVIDIA to Serve Surging Global AI Demand",
-          "body": "NVIDIA and NAVER today announced that NAVER will expand sovereign AI infrastructure...",
-          "timestamp": "2026-06-08T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/naver-ai-infrastructure",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",
-          "body": "NVIDIA and SK Telecom today announced that SK Telecom plans to build...",
-          "timestamp": "2026-06-08T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/sk-telecom-ai-infrastructure",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and SK hynix Announce Multiyear Technology Partnership to Advance Memory for AI Factories",
-          "body": "NVIDIA and SK hynix today announced a multiyear technology partnership to advance...",
-          "timestamp": "2026-06-08T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure",
-          "body": "NVIDIA and Doosan Group are expanding their collaboration to advance new opportunities...",
-          "timestamp": "2026-06-08T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -241,5 +196,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Bullet Points:**\n\n* **OpenAI introduces new Academy courses**: OpenAI has introduced three new courses that focus on building practical AI skills, creating repeatable workflows, and applying agents in everyday work.\n* **NVIDIA makes announcements on various partnerships**: NVIDIA has made several announcements on partnerships with companies such as LG Group, NAVER, SK Telecom, and Doosan Group to advance physical AI and AI factory infrastructure.\n* **NVIDIA releases new models on Hugging Face**: NVIDIA has released new models, including DiffusionGemma and Nemotron, on Hugging Face, a popular platform for machine learning models.\n* **OpenAI supports EU Code of Practice on AI content transparency**: OpenAI has supported the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.\n* **OpenAI Economic Research Exchange launched**: OpenAI has launched the Economic Research Exchange to study AI's impact on jobs, productivity, and the economy.\n\n**Trend:** The trend in this news is the increasing focus on AI infrastructure and partnerships, particularly in the areas of physical AI, AI factory infrastructure, and economic research. This suggests that companies are investing in building robust AI ecosystems to drive innovation and growth."
+  "summary": "**Summary of Key Developments:**\n\n* **OpenAI Expands its Offering:** OpenAI introduced three new Academy courses that focus on building practical AI skills, creating repeatable workflows, and applying AI agents in everyday work.\n* **Partnerships and Collaborations:** OpenAI has been actively collaborating with various companies, including NVIDIA, BBVA, and Nextdoor, to integrate AI into their products and services.\n* **AI Acquisition and Growth:** OpenAI has acquired Ona to expand Codex with secure, persistent cloud environments and has been actively growing its product portfolio through partnerships and acquisitions.\n* **AI Research and Innovation:** OpenAI has been conducting research on various aspects of AI, including AI's impact on jobs, productivity, and the economy, and is releasing research on topics such as AGI and AI-generated content.\n* **NVIDIA's AI Advancements:** NVIDIA has been pushing the boundaries of AI research and innovation, releasing new AI models and partnering with companies like Google and Apple to accelerate AI adoption.\n\n**Key Trend:** As AI becomes increasingly pervasive in various industries, AI companies are competing to create innovative products and services. The current trend highlights a focus on scalability, security, and collaboration as AI companies strive to deliver robust and trustworthy AI solutions. Companies like OpenAI and NVIDIA are taking the lead in shaping the future of AI and setting the standard for AI innovation.\n\n**Additional Insights:**\n\n* AI adoption is becoming more widespread across industries, with companies focusing on integrating AI into their products and services.\n* AI research and innovation are key drivers of growth and competitiveness in the AI industry.\n* AI companies are prioritizing scalability, security, and collaboration to deliver robust and trustworthy AI solutions."
 }
