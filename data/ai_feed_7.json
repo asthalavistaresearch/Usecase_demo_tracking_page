@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-15T07:13:11.039Z",
+  "timestamp": "2026-06-16T07:21:55.280Z",
   "categories": {
     "news": {
-      "count": 17,
+      "count": 14,
       "items": [
+        {
+          "subject": "Introducing the OpenAI Partner Network",
+          "body": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+          "timestamp": "2026-06-15T04:00:02",
+          "url": "https://openai.com/index/introducing-openai-partner-network",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "New OpenAI Academy courses for the next era of work",
           "body": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
@@ -24,12 +33,12 @@
           }
         },
         {
-          "subject": "NVIDIA Stockholder Meeting Set for June 24; Individuals Can Participate Online",
-          "body": "SANTA CLARA, Calif., June 11, 2026 (GLOBE NEWSWIRE) -- NVIDIA today announced...",
+          "subject": "BBVA puts AI at the core of banking with OpenAI",
+          "body": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
           "timestamp": "2026-06-12T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-stockholder-meeting-set-for-june-24-individuals-can-participate-online",
+          "url": "https://openai.com/index/bbva",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -42,12 +51,12 @@
           }
         },
         {
-          "subject": "BBVA puts AI at the core of banking with OpenAI",
-          "body": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+          "subject": "NVIDIA Stockholder Meeting Set for June 24; Individuals Can Participate Online",
+          "body": "SANTA CLARA, Calif., June 11, 2026 (GLOBE NEWSWIRE) -- NVIDIA today announced...",
           "timestamp": "2026-06-12T04:00:02",
-          "url": "https://openai.com/index/bbva",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-stockholder-meeting-set-for-june-24-individuals-can-participate-online",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -69,15 +78,6 @@
           }
         },
         {
-          "subject": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
-          "body": "Today, Google DeepMind released DiffusionGemma an experimental open model built for...",
-          "timestamp": "2026-06-11T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "PRC-linked influence operations are targeting AI debates in the US",
           "body": "A new report from OpenAI details PRC-linked influence operations using AI to target U. S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
           "timestamp": "2026-06-11T04:00:02",
@@ -87,30 +87,12 @@
           }
         },
         {
-          "subject": "AWS: Scale Robot Reinforcement Learning with NVIDIA Isaac Lab on Amazon SageMaker AI",
-          "body": "Physical AI is moving from research into production. Robots are increasingly trained...",
-          "timestamp": "2026-06-10T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/scale-robot-reinforcement-learning-with-nvidia-isaac-lab-on-amazon-sagemaker-ai/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
-          "body": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in...",
-          "timestamp": "2026-06-10T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+          "subject": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
+          "body": "Today, Google DeepMind released DiffusionGemma an experimental open model built for...",
+          "timestamp": "2026-06-11T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
           "extras": {
             "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "What Codex unlocks for Notion",
-          "body": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-          "timestamp": "2026-06-10T04:00:02",
-          "url": "https://openai.com/index/notion",
-          "extras": {
-            "data_origin": "OpenAI News"
           }
         },
         {
@@ -123,39 +105,30 @@
           }
         },
         {
-          "subject": "Introducing the OpenAI Economic Research Exchange",
-          "body": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
-          "timestamp": "2026-06-09T04:00:02",
-          "url": "https://openai.com/index/economic-research-exchange",
+          "subject": "What Codex unlocks for Notion",
+          "body": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+          "timestamp": "2026-06-10T04:00:02",
+          "url": "https://openai.com/index/notion",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Built to benefit everyone: our plan",
-          "body": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-          "timestamp": "2026-06-09T04:00:02",
-          "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Confidential submission of draft S-1 to the SEC",
-          "body": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-          "timestamp": "2026-06-09T04:00:02",
-          "url": "https://openai.com/index/openai-submits-confidential-s-1",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies",
-          "body": "A year ago at London Tech Week, NVIDIA founder and CEO Jensen...",
-          "timestamp": "2026-06-08T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
+          "subject": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
+          "body": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in...",
+          "timestamp": "2026-06-10T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
           "extras": {
             "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AWS: Scale Robot Reinforcement Learning with NVIDIA Isaac Lab on Amazon SageMaker AI",
+          "body": "Physical AI is moving from research into production. Robots are increasingly trained...",
+          "timestamp": "2026-06-10T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scale-robot-reinforcement-learning-with-nvidia-isaac-lab-on-amazon-sagemaker-ai/",
+          "extras": {
+            "data_origin": "AWS AI News"
           }
         }
       ]
@@ -196,5 +169,5 @@
       ]
     }
   },
-  "summary": "**Summary of Key Developments:**\n\n* **OpenAI Expands its Offering:** OpenAI introduced three new Academy courses that focus on building practical AI skills, creating repeatable workflows, and applying AI agents in everyday work.\n* **Partnerships and Collaborations:** OpenAI has been actively collaborating with various companies, including NVIDIA, BBVA, and Nextdoor, to integrate AI into their products and services.\n* **AI Acquisition and Growth:** OpenAI has acquired Ona to expand Codex with secure, persistent cloud environments and has been actively growing its product portfolio through partnerships and acquisitions.\n* **AI Research and Innovation:** OpenAI has been conducting research on various aspects of AI, including AI's impact on jobs, productivity, and the economy, and is releasing research on topics such as AGI and AI-generated content.\n* **NVIDIA's AI Advancements:** NVIDIA has been pushing the boundaries of AI research and innovation, releasing new AI models and partnering with companies like Google and Apple to accelerate AI adoption.\n\n**Key Trend:** As AI becomes increasingly pervasive in various industries, AI companies are competing to create innovative products and services. The current trend highlights a focus on scalability, security, and collaboration as AI companies strive to deliver robust and trustworthy AI solutions. Companies like OpenAI and NVIDIA are taking the lead in shaping the future of AI and setting the standard for AI innovation.\n\n**Additional Insights:**\n\n* AI adoption is becoming more widespread across industries, with companies focusing on integrating AI into their products and services.\n* AI research and innovation are key drivers of growth and competitiveness in the AI industry.\n* AI companies are prioritizing scalability, security, and collaboration to deliver robust and trustworthy AI solutions."
+  "summary": "Here are the key developments with insight:\n\n* **OpenAI Partners Network**: OpenAI has launched the OpenAI Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation. This move positions OpenAI as a key player in the enterprise AI market.\n* **AI Adoption in Banking**: BBVA has partnered with OpenAI to accelerate AI-powered banking transformation worldwide, showcasing the growing adoption of AI in the financial sector.\n* **Codex Expands**: OpenAI plans to acquire Ona to expand Codex, enabling long-running AI agents across enterprise workflows. This move reinforces OpenAI's commitment to developing and integrating its language model technology into strategic partnerships.\n* **AI-Generated Lesson Summaries**: Preply has launched AI-generated lesson summaries using OpenAI, providing personalized feedback and language learning exercises. This implementation highlights the practical applications of AI-generated content in education.\n* **NVIDIA and Google DeepMind**: NVIDIA has announced its Accelerates Google DeepMind's DiffusionGemma, an experimental open model for local AI. This partnership underscores the importance of collaboration between AI research institutions and industry leaders.\n\n**Trend**: The increasing focus on practical applications and business adoption of AI technologies is driving the growth of the global AI market. These developments demonstrate the expanding role of AI in enterprise settings, education, and other industries, with a growing emphasis on developing and integrating AI capabilities to drive innovation and efficiency."
 }
