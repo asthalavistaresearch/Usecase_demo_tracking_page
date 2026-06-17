@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-16T07:21:55.280Z",
+  "timestamp": "2026-06-17T07:04:39.294Z",
   "categories": {
     "news": {
-      "count": 14,
+      "count": 11,
       "items": [
+        {
+          "subject": "‘The cost of compute is far beyond the costs of the employee’: Nvidia executive says right now AI is more expensive than paying human workers",
+          "body": "Big Tech has announced $740 billion in capex this year, but AI has yet to show evidence of widespread increased productivity.",
+          "timestamp": "2026-06-16T04:00:02",
+          "url": "https://fortune.com/article/why-is-the-cost-of-ai-higher-than-human-workers-nvidia-executive/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
         {
           "subject": "Introducing the OpenAI Partner Network",
           "body": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
@@ -94,47 +103,11 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "How engineers at Nextdoor use Codex to build without limits",
-          "body": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-          "timestamp": "2026-06-10T04:00:02",
-          "url": "https://openai.com/index/nextdoor",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "What Codex unlocks for Notion",
-          "body": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-          "timestamp": "2026-06-10T04:00:02",
-          "url": "https://openai.com/index/notion",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Confidential Computing to Help Expand Apple’s Private Cloud Compute",
-          "body": "NVIDIA GPUs with Confidential Computing are now used for confidential inference in...",
-          "timestamp": "2026-06-10T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "AWS: Scale Robot Reinforcement Learning with NVIDIA Isaac Lab on Amazon SageMaker AI",
-          "body": "Physical AI is moving from research into production. Robots are increasingly trained...",
-          "timestamp": "2026-06-10T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/scale-robot-reinforcement-learning-with-nvidia-isaac-lab-on-amazon-sagemaker-ai/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 3,
+      "count": 1,
       "items": [
         {
           "subject": "nvidia/diffusiongemma-26B-A4B-it-NVFP4",
@@ -145,29 +118,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-06-10T05:43:40",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-06-10T05:26:20",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n* **OpenAI Partners Network**: OpenAI has launched the OpenAI Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation. This move positions OpenAI as a key player in the enterprise AI market.\n* **AI Adoption in Banking**: BBVA has partnered with OpenAI to accelerate AI-powered banking transformation worldwide, showcasing the growing adoption of AI in the financial sector.\n* **Codex Expands**: OpenAI plans to acquire Ona to expand Codex, enabling long-running AI agents across enterprise workflows. This move reinforces OpenAI's commitment to developing and integrating its language model technology into strategic partnerships.\n* **AI-Generated Lesson Summaries**: Preply has launched AI-generated lesson summaries using OpenAI, providing personalized feedback and language learning exercises. This implementation highlights the practical applications of AI-generated content in education.\n* **NVIDIA and Google DeepMind**: NVIDIA has announced its Accelerates Google DeepMind's DiffusionGemma, an experimental open model for local AI. This partnership underscores the importance of collaboration between AI research institutions and industry leaders.\n\n**Trend**: The increasing focus on practical applications and business adoption of AI technologies is driving the growth of the global AI market. These developments demonstrate the expanding role of AI in enterprise settings, education, and other industries, with a growing emphasis on developing and integrating AI capabilities to drive innovation and efficiency."
+  "summary": "Here are the key developments with insight:\n\n**4-6 Bullet Points:**\n\n* **OpenAI Launches Partner Network:** OpenAI has launched its Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.\n* **AI Cost Concerns:** ARR researcher Mike Grove estimates that AI costs are currently higher than paying human workers, casting doubts on the productivity gains often expected from AI adoption.\n* **NVIDIA Acquires Techniques to Enhance Codex:** OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.\n* **BBVA Leverages OpenAI:** BBVA has scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.\n* **OpenAI Supports Transparency in AI Ecosystem:** OpenAI has joined the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.\n* **AI Applications in Astrophysics:** Astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein's theory of general relativity.\n\n**Trend:**\n\n* **Growing Focus on Responsible AI Development:** The tech industry is shifting its focus towards developing AI responsibly, with OpenAI's support for the EU Code of Practice on AI content transparency and NVIDIA's involvement in ensuring a trustworthy AI ecosystem demonstrating this trend."
 }
