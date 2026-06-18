@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-17T07:04:39.294Z",
+  "timestamp": "2026-06-18T06:47:56.484Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 12,
       "items": [
+        {
+          "subject": "Predicting model behavior before release by simulating deployment",
+          "body": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+          "timestamp": "2026-06-17T04:00:02",
+          "url": "https://openai.com/index/deployment-simulation",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Hands Free, AIs Forward: NVIDIA XR AI Brings Agents to AR Glasses",
+          "body": "NVIDIA XR AI is now available in public beta, giving developers a...",
+          "timestamp": "2026-06-17T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "HPE AI Factory With NVIDIA Expands for the Era of Agents",
+          "body": "Enterprises are moving agentic AI from proof of concept to production —...",
+          "timestamp": "2026-06-17T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+          "body": "Every breakthrough AI model starts the same way: with a training run...",
+          "timestamp": "2026-06-17T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "‘The cost of compute is far beyond the costs of the employee’: Nvidia executive says right now AI is more expensive than paying human workers",
           "body": "Big Tech has announced $740 billion in capex this year, but AI has yet to show evidence of widespread increased productivity.",
@@ -76,33 +112,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "How an astrophysicist uses Codex to help simulate black holes",
-          "body": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-          "timestamp": "2026-06-11T04:00:02",
-          "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "PRC-linked influence operations are targeting AI debates in the US",
-          "body": "A new report from OpenAI details PRC-linked influence operations using AI to target U. S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
-          "timestamp": "2026-06-11T04:00:02",
-          "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
-          "body": "Today, Google DeepMind released DiffusionGemma an experimental open model built for...",
-          "timestamp": "2026-06-11T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -110,10 +119,10 @@
       "count": 1,
       "items": [
         {
-          "subject": "nvidia/diffusiongemma-26B-A4B-it-NVFP4",
-          "body": "[\"safetensors\", \"diffusion_gemma\", \"nvidia\", \"ModelOpt\", \"DiffusionGemma-26B-A4B-IT\", \"quantized\", \"NVFP4\", \"nvfp4\", \"text-generation\", \"conversational\", \"base_model:google/diffusiongemma-26B-A4B-it\", \"base_model:quantized:google/diffusiongemma-26B-A4B-it\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-06-11T00:05:07",
-          "url": "https://huggingface.co/nvidia/diffusiongemma-26B-A4B-it-NVFP4",
+          "subject": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"pt\", \"ja\", \"ko\", \"hi\", \"ar\", \"zh\", \"he\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-06-17T15:44:43",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -122,5 +131,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**4-6 Bullet Points:**\n\n* **OpenAI Launches Partner Network:** OpenAI has launched its Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.\n* **AI Cost Concerns:** ARR researcher Mike Grove estimates that AI costs are currently higher than paying human workers, casting doubts on the productivity gains often expected from AI adoption.\n* **NVIDIA Acquires Techniques to Enhance Codex:** OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.\n* **BBVA Leverages OpenAI:** BBVA has scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.\n* **OpenAI Supports Transparency in AI Ecosystem:** OpenAI has joined the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.\n* **AI Applications in Astrophysics:** Astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein's theory of general relativity.\n\n**Trend:**\n\n* **Growing Focus on Responsible AI Development:** The tech industry is shifting its focus towards developing AI responsibly, with OpenAI's support for the EU Code of Practice on AI content transparency and NVIDIA's involvement in ensuring a trustworthy AI ecosystem demonstrating this trend."
+  "summary": "Here are the key developments with insight:\n\n**Bullet Points:**\n\n* **OpenAI introduces Deployment Simulation**: OpenAI has introduced a new method to predict AI model behavior before deployment using real conversation data, aiming to improve safety and evaluation accuracy.\n* **NVIDIA XR AI in public beta**: NVIDIA's XR AI is now available in public beta, giving developers access to a platform that brings agents to AR glasses, enabling new use cases for augmented reality applications.\n* **HPE AI Factory expands for agentic AI**: HPE has expanded its AI Factory to support the production of agentic AI, a form of AI that can take actions independently, marking a significant milestone in the adoption of AI in enterprises.\n* **NVIDIA Blackwell sweeps MLPerf Training 6.0**: NVIDIA's Blackwell model has won the MLPerf Training 6.0 competition, setting a new benchmark for AI model training and demonstrating NVIDIA's leadership in AI innovation.\n* **NVIDIA executive highlights cost of AI**: An NVIDIA executive has highlighted the high cost of AI, stating that the cost of compute is far beyond the costs of human workers, raising questions about the value proposition of AI adoption.\n\n**Trend:**\n\n* **Agentic AI adoption accelerates**: The news articles suggest a significant acceleration in the adoption of agentic AI, with HPE expanding its AI Factory to support the production of agentic AI models and OpenAI launching a Partner Network to accelerate enterprise AI adoption. This trend indicates a growing recognition of the potential of agentic AI to transform industries and enterprises."
 }
