@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-18T06:47:56.484Z",
+  "timestamp": "2026-06-19T07:01:35.732Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 11,
       "items": [
+        {
+          "subject": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
+          "body": "The digital era gave the advertising and marketing industry speed; the AI...",
+          "timestamp": "2026-06-18T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "France Advances Europe’s AI Future With NVIDIA Technologies",
+          "body": "A year ago at NVIDIA GTC Paris at VivaTech, France laid out...",
+          "timestamp": "2026-06-18T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+          "body": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+          "timestamp": "2026-06-18T04:00:02",
+          "url": "https://openai.com/index/ai-chemist-improves-reaction",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Predicting model behavior before release by simulating deployment",
           "body": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
@@ -76,42 +103,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "BBVA puts AI at the core of banking with OpenAI",
-          "body": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-          "timestamp": "2026-06-12T04:00:02",
-          "url": "https://openai.com/index/bbva",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI to acquire Ona",
-          "body": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-          "timestamp": "2026-06-12T04:00:02",
-          "url": "https://openai.com/index/openai-to-acquire-ona",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Stockholder Meeting Set for June 24; Individuals Can Participate Online",
-          "body": "SANTA CLARA, Calif., June 11, 2026 (GLOBE NEWSWIRE) -- NVIDIA today announced...",
-          "timestamp": "2026-06-12T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-stockholder-meeting-set-for-june-24-individuals-can-participate-online",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-          "body": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-          "timestamp": "2026-06-11T13:30:01",
-          "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -131,5 +122,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Bullet Points:**\n\n* **OpenAI introduces Deployment Simulation**: OpenAI has introduced a new method to predict AI model behavior before deployment using real conversation data, aiming to improve safety and evaluation accuracy.\n* **NVIDIA XR AI in public beta**: NVIDIA's XR AI is now available in public beta, giving developers access to a platform that brings agents to AR glasses, enabling new use cases for augmented reality applications.\n* **HPE AI Factory expands for agentic AI**: HPE has expanded its AI Factory to support the production of agentic AI, a form of AI that can take actions independently, marking a significant milestone in the adoption of AI in enterprises.\n* **NVIDIA Blackwell sweeps MLPerf Training 6.0**: NVIDIA's Blackwell model has won the MLPerf Training 6.0 competition, setting a new benchmark for AI model training and demonstrating NVIDIA's leadership in AI innovation.\n* **NVIDIA executive highlights cost of AI**: An NVIDIA executive has highlighted the high cost of AI, stating that the cost of compute is far beyond the costs of human workers, raising questions about the value proposition of AI adoption.\n\n**Trend:**\n\n* **Agentic AI adoption accelerates**: The news articles suggest a significant acceleration in the adoption of agentic AI, with HPE expanding its AI Factory to support the production of agentic AI models and OpenAI launching a Partner Network to accelerate enterprise AI adoption. This trend indicates a growing recognition of the potential of agentic AI to transform industries and enterprises."
+  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **NVIDIA partners with the advertising and marketing industry to reshape the industry with AI**: NVIDIA showcased its AI capabilities at the Cannes Lions festival, highlighting the potential of AI to transform the advertising and marketing industry.\n* **OpenAI introduces a near-autonomous AI chemist**: OpenAI partnered with Molecule.one to demonstrate how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.\n* **AI model behavior prediction**: OpenAI introduced Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.\n* **NVIDIA XR AI brings agents to AR glasses**: NVIDIA XR AI is now available in public beta, giving developers access to a library of pre-trained models for augmented reality applications.\n* **OpenAI launches the Partner Network**: OpenAI launched the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.\n\n**Trend:** **Growing investment in AI**: The trend is that there is a significant increase in investment in AI, with NVIDIA announcing a partnership with HPE to expand the HPE AI Factory for agentic AI, and OpenAI launching a Partner Network to accelerate enterprise AI adoption and deployment. This suggests that companies are increasingly recognizing the potential of AI to drive productivity and innovation, but also highlight the need for significant investment to make AI a reality.\n\n**Other notable mentions:**\n\n* Intelligence platform Preply used OpenAI to launch AI-generated lesson summaries, providing personalized feedback and language learning exercises.\n* OpenAI introduced three Academy courses to help people build practical AI skills, create repeatable workflows, and apply agents in everyday work."
 }
