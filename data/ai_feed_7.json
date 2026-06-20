@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-19T07:01:35.732Z",
+  "timestamp": "2026-06-20T06:16:29.854Z",
   "categories": {
     "news": {
       "count": 11,
       "items": [
+        {
+          "subject": "New usage analytics and updated spend controls for enterprises",
+          "body": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+          "timestamp": "2026-06-19T04:00:02",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Improving health intelligence in ChatGPT",
+          "body": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+          "timestamp": "2026-06-19T04:00:02",
+          "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
           "body": "The digital era gave the advertising and marketing industry speed; the AI...",
@@ -85,24 +103,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "New OpenAI Academy courses for the next era of work",
-          "body": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-          "timestamp": "2026-06-13T04:05:02",
-          "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Preply combines AI and human tutors to personalize learning",
-          "body": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
-          "timestamp": "2026-06-12T13:30:02",
-          "url": "https://openai.com/index/preply",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -122,5 +122,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **NVIDIA partners with the advertising and marketing industry to reshape the industry with AI**: NVIDIA showcased its AI capabilities at the Cannes Lions festival, highlighting the potential of AI to transform the advertising and marketing industry.\n* **OpenAI introduces a near-autonomous AI chemist**: OpenAI partnered with Molecule.one to demonstrate how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.\n* **AI model behavior prediction**: OpenAI introduced Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.\n* **NVIDIA XR AI brings agents to AR glasses**: NVIDIA XR AI is now available in public beta, giving developers access to a library of pre-trained models for augmented reality applications.\n* **OpenAI launches the Partner Network**: OpenAI launched the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.\n\n**Trend:** **Growing investment in AI**: The trend is that there is a significant increase in investment in AI, with NVIDIA announcing a partnership with HPE to expand the HPE AI Factory for agentic AI, and OpenAI launching a Partner Network to accelerate enterprise AI adoption and deployment. This suggests that companies are increasingly recognizing the potential of AI to drive productivity and innovation, but also highlight the need for significant investment to make AI a reality.\n\n**Other notable mentions:**\n\n* Intelligence platform Preply used OpenAI to launch AI-generated lesson summaries, providing personalized feedback and language learning exercises.\n* OpenAI introduced three Academy courses to help people build practical AI skills, create repeatable workflows, and apply agents in everyday work."
+  "summary": "Here are 4-6 bullet points summarizing key developments with insight:\n\n* **OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise**, helping organizations manage costs and scale AI with confidence.\n* **Improvements to health intelligence in ChatGPT**, with GPT-5.5 Instant enhancing the AI's health and wellness responses with stronger reasoning, better context, and clearer communication.\n* **NVIDIA partners reshape advertising and marketing with AI**, leveraging AI to accelerate and transform industries.\n* **Breakthroughs in medicinal chemistry research**, with OpenAI and Molecule.one demonstrating the potential of AI to improve key drug-making reactions.\n* **Advancements in AI model behavior prediction**, with OpenAI introducing Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data.\n* **Expansion of HPE AI Factory with NVIDIA**, enabling enterprises to move agentic AI from proof of concept to production.\n\nAnd here is one trend:\n\n* **The increasing focus on enterprise AI adoption and deployment**, with companies like OpenAI, NVIDIA, and HPE investing in tools and platforms to facilitate the growth of AI in the enterprise sector."
 }
