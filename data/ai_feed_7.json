@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-21T06:46:58.351Z",
+  "timestamp": "2026-06-22T07:18:27.534Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 10,
       "items": [
         {
           "subject": "New usage analytics and updated spend controls for enterprises",
@@ -94,15 +94,6 @@
           "extras": {
             "data_origin": "Fortune"
           }
-        },
-        {
-          "subject": "Introducing the OpenAI Partner Network",
-          "body": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-          "timestamp": "2026-06-15T04:00:02",
-          "url": "https://openai.com/index/introducing-openai-partner-network",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -132,5 +123,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 key bullet points and 1 trend based on the latest developments in AI:\n\n**Key Developments:**\n\n* **OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise**: This move will help organizations manage costs and scale AI with confidence.\n* **NVIDIA partners with HPE to expand AI Factory for agentic AI**: This collaboration will help enterprises move agentic AI from proof of concept to production.\n* **NVIDIA's Blackwell model sweeps MLPerf Training 6.0**: This achievement demonstrates NVIDIA's leadership in AI computing and potential applications in various industries.\n* **OpenAI introduces Deployment Simulation to predict AI model behavior**: This new method will improve the safety and evaluation accuracy of AI models by simulating deployment using real conversation data.\n* **NVIDIA demonstrates AI-powered AR glasses with XR AI**: This new technology will enable developers to create more advanced AR experiences using AI-powered agents.\n\n**Trend:**\n\n* **Increased emphasis on affordable and practical AI solutions**: The recent statements from NVIDIA executives and partnerships between major tech companies highlight the need for more cost-effective and widely adopted AI solutions that can drive productivity and innovation.\n\nThese developments showcase the rapid advancements in AI technology and the growing emphasis on practical and affordable solutions that can drive business value and improve lives."
+  "summary": "Here are 4-6 bullet points summarizing key developments in AI, along with 1 trend:\n\n**Key Developments:**\n\n* **New spend controls and usage analytics for enterprises**: OpenAI has introduced new features for ChatGPT Enterprise, allowing organizations to better manage costs and scale AI adoption with confidence.\n* **Improvements in health intelligence for ChatGPT**: OpenAI has enhanced its health and wellness responses in ChatGPT through stronger reasoning, better context, and clearer communication, physician-informed evaluations.\n* **NVIDIA's advancements in AI for advertising and marketing**: NVIDIA is leveraging AI to reshape the advertising and marketing industry, enabling designers to create immersive experiences and collaboration across creative teams.\n* **Breakthrough in AI-assisted chemistry**: OpenAI and Molecule.one have demonstrated a near-autonomous AI chemist using GPT-5.4 improved a challenging reaction in medicinal chemistry research.\n* **NVIDIA's focus on AR and AI**: NVIDIA has released its XR AI technology in public beta, allowing developers to bring digital agents to life, transforming the way people interact with information.\n* **NVIDIA's AI factory with HP expands for enterprise adoption**: The partnership between NVIDIA and HPE is now poised to accelerate agentic AI adoption in the enterprise space.\n\n**Trend:**\n\n* **The high cost of AI:** The high cost of AI is becoming increasingly apparent, with NVIDIA executive stating that AI is currently more expensive than paying human workers. This trend highlights the significant investments being made in AI, but also the challenges in achieving widespread productivity gains.\n\nThese developments and the trend suggest that AI is advancing rapidly across various industries, including healthcare, advertising, and chemistry. However, the high cost of AI is a concern that needs to be addressed to make AI more accessible and effective for organizations."
 }
