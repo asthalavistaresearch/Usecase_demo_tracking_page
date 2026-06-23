@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-22T07:18:27.534Z",
+  "timestamp": "2026-06-23T06:02:43.078Z",
   "categories": {
     "news": {
-      "count": 10,
+      "count": 9,
       "items": [
         {
           "subject": "New usage analytics and updated spend controls for enterprises",
@@ -85,15 +85,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "‘The cost of compute is far beyond the costs of the employee’: Nvidia executive says right now AI is more expensive than paying human workers",
-          "body": "Big Tech has announced $740 billion in capex this year, but AI has yet to show evidence of widespread increased productivity.",
-          "timestamp": "2026-06-16T04:00:02",
-          "url": "https://fortune.com/article/why-is-the-cost-of-ai-higher-than-human-workers-nvidia-executive/",
-          "extras": {
-            "data_origin": "Fortune"
-          }
         }
       ]
     },
@@ -123,5 +114,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments in AI, along with 1 trend:\n\n**Key Developments:**\n\n* **New spend controls and usage analytics for enterprises**: OpenAI has introduced new features for ChatGPT Enterprise, allowing organizations to better manage costs and scale AI adoption with confidence.\n* **Improvements in health intelligence for ChatGPT**: OpenAI has enhanced its health and wellness responses in ChatGPT through stronger reasoning, better context, and clearer communication, physician-informed evaluations.\n* **NVIDIA's advancements in AI for advertising and marketing**: NVIDIA is leveraging AI to reshape the advertising and marketing industry, enabling designers to create immersive experiences and collaboration across creative teams.\n* **Breakthrough in AI-assisted chemistry**: OpenAI and Molecule.one have demonstrated a near-autonomous AI chemist using GPT-5.4 improved a challenging reaction in medicinal chemistry research.\n* **NVIDIA's focus on AR and AI**: NVIDIA has released its XR AI technology in public beta, allowing developers to bring digital agents to life, transforming the way people interact with information.\n* **NVIDIA's AI factory with HP expands for enterprise adoption**: The partnership between NVIDIA and HPE is now poised to accelerate agentic AI adoption in the enterprise space.\n\n**Trend:**\n\n* **The high cost of AI:** The high cost of AI is becoming increasingly apparent, with NVIDIA executive stating that AI is currently more expensive than paying human workers. This trend highlights the significant investments being made in AI, but also the challenges in achieving widespread productivity gains.\n\nThese developments and the trend suggest that AI is advancing rapidly across various industries, including healthcare, advertising, and chemistry. However, the high cost of AI is a concern that needs to be addressed to make AI more accessible and effective for organizations."
+  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise**: OpenAI has introduced new features to help enterprises manage costs and scale AI with confidence. This includes new spend controls and usage analytics to track and optimize AI usage.\n* **NVIDIA partners reshape advertising and marketing with AI**: NVIDIA has partnered with various organizations to showcase the potential of AI in advertising and marketing. This includes using AI to improve ad targeting, personalization, and optimization.\n* **OpenAI improves health intelligence in ChatGPT**: OpenAI has updated ChatGPT's health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.\n* **NVIDIA introduces NVIDIA XR AI**: NVIDIA has introduced NVIDIA XR AI, a platform that brings agents to AR glasses, allowing developers to create more immersive and interactive experiences.\n* **HPE AI Factory with NVIDIA expands for the era of agents**: HPE AI Factory with NVIDIA is expanding to support the development of agentic AI, which enables AI to make decisions and take actions without human intervention.\n\n**Trend:**\n\n* **AI for Enterprises is gaining momentum**: The news suggests that AI is becoming increasingly important for enterprises, with companies like OpenAI, NVIDIA, and HPE investing heavily in AI research and development. This trend is likely to continue as AI becomes more pervasive in various industries, from advertising and marketing to healthcare and finance.\n\n**Insight:**\n\n* The increasing focus on AI for enterprises highlights the growing need for companies to adopt AI-driven solutions to stay competitive. This trend is likely to drive innovation and investment in AI research and development, leading to new and improved AI technologies.\n* The introduction of new spend controls and usage analytics by OpenAI suggests that companies are becoming more aware of the need to manage costs and optimize AI usage. This could lead to more efficient and effective AI adoption in enterprises.\n* The use of AI in advertising and marketing is becoming more prevalent, with NVIDIA partners showcasing the potential of AI to improve ad targeting, personalization, and optimization. This trend is likely to continue as companies look to AI to drive customer engagement and loyalty."
 }
