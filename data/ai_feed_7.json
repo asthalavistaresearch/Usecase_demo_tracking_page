@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-25T06:02:13.493Z",
+  "timestamp": "2026-06-26T06:06:00.706Z",
   "categories": {
     "news": {
-      "count": 14,
+      "count": 12,
       "items": [
+        {
+          "subject": "How agents are transforming work",
+          "body": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+          "timestamp": "2026-06-25T13:30:02",
+          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "47% of Harvard seniors admit to cheating — and the problem existed long before ChatGPT",
+          "body": "My colleagues and I recently spoke with a group of talented, interesting students who just completed their first year of college about using artificial intelligence as a research tool. I asked what must have seemed like an unrelated question: “How many of you…",
+          "timestamp": "2026-06-25T04:00:02",
+          "url": "https://fortune.com/2026/06/23/harvard-cheating-academic-integrity-ai-detection/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
         {
           "subject": "OpenAI and Broadcom unveil LLM-optimized inference chip",
           "body": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
@@ -94,42 +112,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "New usage analytics and updated spend controls for enterprises",
-          "body": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-          "timestamp": "2026-06-19T04:00:02",
-          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Improving health intelligence in ChatGPT",
-          "body": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-          "timestamp": "2026-06-19T04:00:02",
-          "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
-          "body": "The digital era gave the advertising and marketing industry speed; the AI...",
-          "timestamp": "2026-06-18T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "France Advances Europe’s AI Future With NVIDIA Technologies",
-          "body": "A year ago at NVIDIA GTC Paris at VivaTech, France laid out...",
-          "timestamp": "2026-06-18T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -149,5 +131,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\nHere are four key developments in the field of artificial intelligence (AI) over the past few days:\n\n* **LLM-optimized inference chip unveiled by OpenAI and Broadcom**: OpenAI and Broadcom have introduced Jalapeño, a custom AI chip designed to improve the performance, efficiency, and scalability of Large Language Models (LLMs).\n* **NVIDIA's BioNeMo Agent Toolkit launched for scientific discovery**: NVIDIA has announced the BioNeMo Agent Toolkit, a set of tools for AI agents to accelerate scientific discovery in various domains, including medicine and finance.\n* **Patch the Planet initiative launched by OpenAI**: OpenAI has introduced a new initiative called Patch the Planet, which aims to support open-source maintainers in finding, validating, and fixing vulnerabilities with AI and expert review.\n* **New usage analytics and updated spend controls for ChatGPT Enterprise**: OpenAI has introduced new features for its ChatGPT Enterprise platform, including usage analytics and updated spend controls, to help organizations manage costs and scale AI adoption.\n* **Improvements to ChatGPT's health and wellness responses**: OpenAI has made updates to ChatGPT to improve its responses to health and wellness queries, including stronger reasoning, better context, clearer communication, and physician-informed evaluations.\n\n**Trend:**\n\n* **Increased focus on AI scaling and efficiency**: The recent developments highlight a growing emphasis on scaling and efficiency in AI, with companies like OpenAI and NVIDIA innovating new hardware and software solutions to support the growth of LLMs and other complex AI systems."
+  "summary": "**Summary of Key Developments**\n\nHere are 4-6 key points highlighting recent advancements in AI:\n\n* **AI Agents Transforming Work**: A new OpenAI research paper shows how AI agents are transforming work by enabling longer, more complex tasks and expanding productivity across roles.\n* **LLM-Optimized Inference Chip**: OpenAI and Broadcom have unveiled Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.\n* **Shared Standards for Advanced AI**: OpenAI is helping build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.\n* **NVIDIA and AWS Collaborate**: NVIDIA and AWS are collaborating to bring AI to production at scale, requiring low-latency inference, fast vector processing, and efficient training.\n* **Conversational Travel with OpenAI**: Omio is using OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.\n\n**Trend: Increased Focus on AI Agents and Large Language Models**\n\nThe recent developments highlight an increasing focus on AI agents and large language models (LLMs) in various industries, including work productivity, AI chip development, and conversational travel. This trend suggests that AI agents and LLMs are becoming increasingly essential for driving innovation and productivity across different sectors."
 }
