@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-26T06:06:00.706Z",
+  "timestamp": "2026-06-27T05:49:42.529Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 13,
       "items": [
+        {
+          "subject": "AWS: Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
+          "body": "Optimizing model training on Amazon SageMaker AI with NVIDIA Blackwell GPUs changes...",
+          "timestamp": "2026-06-26T04:00:01",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-model-training-on-amazon-sagemaker-ai-with-nvidia-blackwell/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "How agents are transforming work",
           "body": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
@@ -116,8 +125,18 @@
       ]
     },
     "models": {
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "subject": "nvidia/MiniMax-M3-NVFP4",
+          "body": "[\"safetensors\", \"minimax_m3_vl\", \"nvidia\", \"ModelOpt\", \"MiniMax-M3\", \"quantized\", \"NVFP4\", \"nvfp4\", \"text-generation\", \"conversational\", \"custom_code\", \"base_model:MiniMaxAI/MiniMax-M3\", \"base_model:quantized:MiniMaxAI/MiniMax-M3\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-06-26T17:18:03",
+          "url": "https://huggingface.co/nvidia/MiniMax-M3-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "cloudyu/gpt-oss-120b-Fable-5-Distilled",
           "body": "[\"mlx\", \"safetensors\", \"gpt_oss\", \"lora\", \"muon\", \"apple-silicon\", \"moe\", \"coding\", \"agent\", \"fine-tuned\", \"en\", \"dataset:armand0e/claude-fable-5-claude-code\", \"4-bit\", \"region:us\"]",
@@ -131,5 +150,5 @@
       ]
     }
   },
-  "summary": "**Summary of Key Developments**\n\nHere are 4-6 key points highlighting recent advancements in AI:\n\n* **AI Agents Transforming Work**: A new OpenAI research paper shows how AI agents are transforming work by enabling longer, more complex tasks and expanding productivity across roles.\n* **LLM-Optimized Inference Chip**: OpenAI and Broadcom have unveiled Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.\n* **Shared Standards for Advanced AI**: OpenAI is helping build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.\n* **NVIDIA and AWS Collaborate**: NVIDIA and AWS are collaborating to bring AI to production at scale, requiring low-latency inference, fast vector processing, and efficient training.\n* **Conversational Travel with OpenAI**: Omio is using OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.\n\n**Trend: Increased Focus on AI Agents and Large Language Models**\n\nThe recent developments highlight an increasing focus on AI agents and large language models (LLMs) in various industries, including work productivity, AI chip development, and conversational travel. This trend suggests that AI agents and LLMs are becoming increasingly essential for driving innovation and productivity across different sectors."
+  "summary": "**Key Developments:**\n\n* **Optimizing model training on Amazon SageMaker AI**: Amazon has announced a new optimization technique using NVIDIA Blackwell GPUs, which can improve model training times by up to 3x.\n* **Transforming work with AI agents**: A new OpenAI research paper has shown how AI agents can transform work by enabling longer, more complex tasks and expanding productivity across roles.\n* **LLM-optimized inference chip**: OpenAI and Broadcom have introduced Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.\n* **NVIDIA and AWS collaboration**: NVIDIA and AWS have collaborated to bring AI to production at scale, enabling low-latency inference and fast vector operations.\n* **BioNeMo Agent Toolkit**: NVIDIA has announced BioNeMo Agent Toolkit, which provides domain-specific tools for agents to accelerate scientific discovery.\n\n**Trend:**\n\n* **Growing importance of AI agents**: The increasing use of AI agents to automate tasks, improve productivity, and accelerate scientific discovery suggests that AI agents will become a critical component of various industries and applications in the near future."
 }
