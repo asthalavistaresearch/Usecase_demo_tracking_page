@@ -1,6 +1,6 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-27T05:49:42.529Z",
+  "timestamp": "2026-06-28T06:12:52.426Z",
   "categories": {
     "news": {
       "count": 13,
@@ -128,6 +128,16 @@
       "count": 2,
       "items": [
         {
+          "subject": "nvidia/GLM-5.2-NVFP4",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"glm_moe_dsa\", \"nvidia\", \"ModelOpt\", \"GLM-5\", \"quantized\", \"4-bit precision\", \"FP4\", \"fp4\", \"text-generation\", \"conversational\", \"base_model:zai-org/GLM-5.2\", \"base_model:quantized:zai-org/GLM-5.2\", \"license:mit\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-06-26T23:49:20",
+          "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
           "subject": "nvidia/MiniMax-M3-NVFP4",
           "body": "[\"safetensors\", \"minimax_m3_vl\", \"nvidia\", \"ModelOpt\", \"MiniMax-M3\", \"quantized\", \"NVFP4\", \"nvfp4\", \"text-generation\", \"conversational\", \"custom_code\", \"base_model:MiniMaxAI/MiniMax-M3\", \"base_model:quantized:MiniMaxAI/MiniMax-M3\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
           "timestamp": "2026-06-26T17:18:03",
@@ -136,19 +146,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "cloudyu/gpt-oss-120b-Fable-5-Distilled",
-          "body": "[\"mlx\", \"safetensors\", \"gpt_oss\", \"lora\", \"muon\", \"apple-silicon\", \"moe\", \"coding\", \"agent\", \"fine-tuned\", \"en\", \"dataset:armand0e/claude-fable-5-claude-code\", \"4-bit\", \"region:us\"]",
-          "timestamp": "2026-06-21T01:06:19",
-          "url": "https://huggingface.co/cloudyu/gpt-oss-120b-Fable-5-Distilled",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "cloudyu"
-          }
         }
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **Optimizing model training on Amazon SageMaker AI**: Amazon has announced a new optimization technique using NVIDIA Blackwell GPUs, which can improve model training times by up to 3x.\n* **Transforming work with AI agents**: A new OpenAI research paper has shown how AI agents can transform work by enabling longer, more complex tasks and expanding productivity across roles.\n* **LLM-optimized inference chip**: OpenAI and Broadcom have introduced Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.\n* **NVIDIA and AWS collaboration**: NVIDIA and AWS have collaborated to bring AI to production at scale, enabling low-latency inference and fast vector operations.\n* **BioNeMo Agent Toolkit**: NVIDIA has announced BioNeMo Agent Toolkit, which provides domain-specific tools for agents to accelerate scientific discovery.\n\n**Trend:**\n\n* **Growing importance of AI agents**: The increasing use of AI agents to automate tasks, improve productivity, and accelerate scientific discovery suggests that AI agents will become a critical component of various industries and applications in the near future."
+  "summary": "Here are 4-6 bullet points summarizing key developments with insight, and 1 trend:\n\n**Key Developments:**\n\n* **Optimizing Model Training with NVIDIA Blackwell GPUs**: Amazon SageMaker AI has optimized model training with NVIDIA Blackwell GPUs, enabling faster and more efficient model training on Amazon's cloud platform.\n* **Transforming Work with AI Agents**: A recent OpenAI research paper highlights how AI agents are transforming work by enabling longer and more complex tasks, expanding productivity across various roles.\n* **OpenAI and Broadcom unveil LLM-optimized inference chip**: OpenAI and Broadcom have introduced a custom AI chip, Jalapeño, built for LLM inference, which improves performance, efficiency, and scale across AI systems.\n* **NVIDIA powers 400 of the World's 500 Fastest Supercomputers**: NVIDIA technology runs on 81% of the world's top 500 fastest supercomputers, showcasing its dominance in the AI computing landscape.\n* **Patch the Planet: OpenAI's initiative to support open source maintainers**: OpenAI has launched Patch the Planet, an initiative that uses AI and expert review to help open-source maintainers find and fix vulnerabilities.\n\n**Trend:**\n\n* **Increasing focus on AI efficiency and optimization**: The trend in the latest developments points to a growing focus on optimizing AI processing efficiency and scale, with companies like NVIDIA and OpenAI introducing custom chips and tools to improve performance and reduce costs. This trend highlights the increasing importance of AI in various industries, including cloud computing, telecommunications, and supercomputing."
 }
