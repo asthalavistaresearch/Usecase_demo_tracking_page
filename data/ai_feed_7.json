@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-29T06:41:24.658Z",
+  "timestamp": "2026-06-30T06:06:17.969Z",
   "categories": {
     "news": {
       "count": 13,
       "items": [
+        {
+          "subject": "Mapping Europe’s AI Workforce Opportunity",
+          "body": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+          "timestamp": "2026-06-29T13:30:02",
+          "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
+          "body": "Showcasing the importance of open source innovation in American AI, Palantir’s new...",
+          "timestamp": "2026-06-29T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "HP Inc. launches Frontier strategic partnership with OpenAI",
+          "body": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+          "timestamp": "2026-06-29T04:00:02",
+          "url": "https://openai.com/index/hp-frontier-partnership",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "AWS: Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
           "body": "Optimizing model training on Amazon SageMaker AI with NVIDIA Blackwell GPUs changes...",
@@ -94,33 +121,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-          "body": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-          "timestamp": "2026-06-23T04:00:01",
-          "url": "https://openai.com/index/patch-the-planet",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Daybreak: Tools for securing every organization in the world",
-          "body": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-          "timestamp": "2026-06-23T04:00:01",
-          "url": "https://openai.com/index/daybreak-securing-the-world",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Codex-maxxing for long-running work",
-          "body": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-          "timestamp": "2026-06-23T04:00:01",
-          "url": "https://openai.com/index/codex-maxxing-long-running-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -150,5 +150,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **Optimizing Model Training on Amazon SageMaker AI**: Amazon SageMaker AI has partnered with NVIDIA to optimize model training using NVIDIA Blackwell GPUs, which can speed up model training by up to 4x.\n* **OpenAI Unveils Jalapeño, a Custom AI Chip**: OpenAI has collaborated with Broadcom to introduce Jalapeño, a custom AI chip designed for Large Language Model (LLM) inference, which can improve performance, efficiency, and scale across AI systems.\n* **NVIDIA and AWS Collaborate on AI at Scale**: NVIDIA and AWS have partnered to bring AI to production at scale, enabling low-latency inference and fast vector processing for large-scale AI applications.\n* **OpenAI Launches Daybreak Initiative**: OpenAI has introduced the Daybreak initiative, which provides tools and resources to help organizations find, validate, and patch vulnerabilities at scale, with a focus on open-source maintainers.\n* **NVIDIA BioNeMo Agent Toolkit**: NVIDIA has launched the BioNeMo Agent Toolkit, which provides domain-specific tools for agents to accelerate scientific discovery in fields like life sciences and healthcare.\n* **Omio Uses OpenAI for Conversational Travel Experiences**: Omio, a travel company, is using OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.\n\n**Trend:**\n\n* **Increased Focus on AI at Scale**: The trend is towards developing AI solutions that can handle large-scale applications, with a focus on performance, efficiency, and scalability. This is evident in the collaborations between Amazon SageMaker AI and NVIDIA, NVIDIA and AWS, and OpenAI and Broadcom."
+  "summary": "Here are 4-6 bullet points summarizing the key developments with insight:\n\n* **AI-powered job transformation**: OpenAI's report maps how AI could reshape jobs across the EU, highlighting occupations that may face automation, growth, or workflow changes. This highlights the need for workers to adapt to an increasingly AI-driven workforce.\n* **Secure AI innovation**: Palantir's partnership with NVIDIA and the use of secure AI in US agencies demonstrate the importance of open-source innovation in keeping up with emerging AI technologies.\n* **AI hardware advancements**: OpenAI and Broadcom unveiled a custom AI chip for LLM inference, improving performance, efficiency, and scale across AI systems. This chip is designed to support the increasing demand for large language models.\n* **LLM optimization**: NVIDIA's Blackwell software helps optimize model training on Amazon SageMaker AI, highlighting the partnership between NVIDIA and AWS in AI innovation.\n* **AI adoption in industries**: Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company, demonstrating the versatility of AI adoption in different sectors.\n* **Scientific discovery acceleration**: NVIDIA's BioNeMo Agent Toolkit provides domain-specific tools to accelerate scientific discovery through AI, showcasing the role of AI in driving breakthroughs in various fields.\n\n**Trend: Increased focus on AI hardware and infrastructure**\n\nThe latest developments suggest a significant focus on AI hardware and infrastructure, with advancements in custom chips, software optimization, and partnership between tech giants. This bodes well for the growth of AI adoption and innovation in various industries, from finance to healthcare and beyond."
 }
