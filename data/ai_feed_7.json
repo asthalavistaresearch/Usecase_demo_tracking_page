@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-06-30T06:06:17.969Z",
+  "timestamp": "2026-07-01T06:21:17.555Z",
   "categories": {
     "news": {
-      "count": 13,
+      "count": 8,
       "items": [
+        {
+          "subject": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
+          "body": "Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and...",
+          "timestamp": "2026-06-30T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Mapping Europe’s AI Workforce Opportunity",
           "body": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
@@ -67,65 +76,11 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Helping build shared standards for advanced AI",
-          "body": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-          "timestamp": "2026-06-24T04:00:02",
-          "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
-          "body": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector...",
-          "timestamp": "2026-06-24T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "How Omio is building the future of conversational travel",
-          "body": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-          "timestamp": "2026-06-23T13:30:02",
-          "url": "https://openai.com/index/omio",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery",
-          "body": "BIO -- NVIDIA today announced NVIDIA BioNeMo Agent Toolkit, which provides domain-specific...",
-          "timestamp": "2026-06-23T13:30:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-launches-bionemo-agent-toolkit-giving-ai-agents-the-tools-to-accelerate-scientific-discovery",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
-          "body": "News Highlights: NVIDIA technology runs 81% of the TOP500 and 90% of...",
-          "timestamp": "2026-06-23T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
-          "body": "Telecom operators have seen remarkable returns from using generative AI to automate...",
-          "timestamp": "2026-06-23T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 2,
+      "count": 3,
       "items": [
         {
           "subject": "nvidia/GLM-5.2-NVFP4",
@@ -135,6 +90,16 @@
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "0xSero/GLM-5.2-504B-Nvidia",
+          "body": "[\"safetensors\", \"glm_moe_dsa\", \"moe\", \"reap\", \"pruning\", \"expert-pruning\", \"nvfp4\", \"glm\", \"glm-5.2\", \"text-generation\", \"conversational\", \"base_model:nvidia/GLM-5.2-NVFP4\", \"base_model:quantized:nvidia/GLM-5.2-NVFP4\", \"license:mit\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-06-26T19:08:01",
+          "url": "https://huggingface.co/0xSero/GLM-5.2-504B-Nvidia",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "0xSero"
           }
         },
         {
@@ -150,5 +115,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing the key developments with insight:\n\n* **AI-powered job transformation**: OpenAI's report maps how AI could reshape jobs across the EU, highlighting occupations that may face automation, growth, or workflow changes. This highlights the need for workers to adapt to an increasingly AI-driven workforce.\n* **Secure AI innovation**: Palantir's partnership with NVIDIA and the use of secure AI in US agencies demonstrate the importance of open-source innovation in keeping up with emerging AI technologies.\n* **AI hardware advancements**: OpenAI and Broadcom unveiled a custom AI chip for LLM inference, improving performance, efficiency, and scale across AI systems. This chip is designed to support the increasing demand for large language models.\n* **LLM optimization**: NVIDIA's Blackwell software helps optimize model training on Amazon SageMaker AI, highlighting the partnership between NVIDIA and AWS in AI innovation.\n* **AI adoption in industries**: Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company, demonstrating the versatility of AI adoption in different sectors.\n* **Scientific discovery acceleration**: NVIDIA's BioNeMo Agent Toolkit provides domain-specific tools to accelerate scientific discovery through AI, showcasing the role of AI in driving breakthroughs in various fields.\n\n**Trend: Increased focus on AI hardware and infrastructure**\n\nThe latest developments suggest a significant focus on AI hardware and infrastructure, with advancements in custom chips, software optimization, and partnership between tech giants. This bodes well for the growth of AI adoption and innovation in various industries, from finance to healthcare and beyond."
+  "summary": "Here are 4-6 bullet points summarizing key developments in AI, along with 1 trend:\n\n**Key Developments:**\n\n* **Anthropic's Claude models run on NVIDIA GB300 in Azure**: Anthropic's language model, Claude, is now running on NVIDIA's GB300 GPUs in Microsoft Azure, demonstrating the growing importance of cloud-based AI infrastructure.\n* **OpenAI report maps AI workforce opportunities in Europe**: A new report by OpenAI highlights how AI could reshape jobs across the EU, identifying occupations that may face automation, growth, or workflow changes.\n* **Palantir brings secure AI to US agencies with NVIDIA Nemotron**: Palantir has showcased the importance of open source innovation in American AI by launching a secure AI solution with NVIDIA's Nemotron platform.\n* **HP Inc. scales OpenAI Frontier partnership**: HP Inc. has expanded its partnership with OpenAI to deploy AI across customer experiences, software development, and enterprise operations.\n* **AWS optimizes model training on Amazon SageMaker AI with NVIDIA Blackwell**: AWS has optimized model training on Amazon SageMaker AI using NVIDIA's Blackwell GPUs, demonstrating the growing adoption of AI infrastructure in cloud computing.\n* **OpenAI and Broadcom unveil LLM-optimized inference chip**: OpenAI and Broadcom have introduced a custom AI chip, Jalapeño, optimized for large language model inference, which could improve performance, efficiency, and scalability across AI systems.\n\n**Trend:**\n\n* **Increased adoption of cloud-based AI infrastructure**: The growing number of partnerships and developments between cloud computing providers (e.g., Azure, AWS) and AI companies (e.g., Anthropic, OpenAI) suggests a trend towards increased adoption of cloud-based AI infrastructure. This trend is driven by the need for scalable and secure AI computing, as well as the growing importance of AI in various industries."
 }
