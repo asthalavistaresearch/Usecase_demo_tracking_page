@@ -1,10 +1,64 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-01T06:21:17.555Z",
+  "timestamp": "2026-07-02T05:54:34.291Z",
   "categories": {
     "news": {
-      "count": 8,
+      "count": 12,
       "items": [
+        {
+          "subject": "NVIDIA and Partners Build in America, for America",
+          "body": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy...",
+          "timestamp": "2026-07-01T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Meta Contractors Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
+          "body": "Hundreds of contractors working on a project for Meta pretended to be kids—and then prompted rival chatbots like Gemini and ChatGPT to discuss high-risk subjects.",
+          "timestamp": "2026-07-01T04:00:02",
+          "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
+          "extras": {
+            "data_origin": "Wired"
+          }
+        },
+        {
+          "subject": "How ChatGPT adoption has expanded",
+          "body": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+          "timestamp": "2026-07-01T04:00:02",
+          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Core dump epidemiology: fixing an 18-year-old bug",
+          "body": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+          "timestamp": "2026-07-01T04:00:02",
+          "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
+          "body": "Life sciences has entered an era of computational scale, and for more...",
+          "timestamp": "2026-07-01T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+          "body": "As organizations move from AI pilots to production AI factories, infrastructure decisions...",
+          "timestamp": "2026-07-01T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
           "body": "Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and...",
@@ -58,30 +112,22 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "47% of Harvard seniors admit to cheating — and the problem existed long before ChatGPT",
-          "body": "My colleagues and I recently spoke with a group of talented, interesting students who just completed their first year of college about using artificial intelligence as a research tool. I asked what must have seemed like an unrelated question: “How many of you…",
-          "timestamp": "2026-06-25T04:00:02",
-          "url": "https://fortune.com/2026/06/23/harvard-cheating-academic-integrity-ai-detection/",
-          "extras": {
-            "data_origin": "Fortune"
-          }
-        },
-        {
-          "subject": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-          "body": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-          "timestamp": "2026-06-24T13:30:02",
-          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 3,
+      "count": 4,
       "items": [
+        {
+          "subject": "nvidia/Qwen3.6-27B-NVFP4",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen3_5\", \"nvidia\", \"ModelOpt\", \"Qwen3.6\", \"quantized\", \"FP4\", \"fp4\", \"text-generation\", \"conversational\", \"base_model:Qwen/Qwen3.6-27B\", \"base_model:quantized:Qwen/Qwen3.6-27B\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-06-30T14:40:07",
+          "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/GLM-5.2-NVFP4",
           "body": "[\"Model Optimizer\", \"safetensors\", \"glm_moe_dsa\", \"nvidia\", \"ModelOpt\", \"GLM-5\", \"quantized\", \"4-bit precision\", \"FP4\", \"fp4\", \"text-generation\", \"conversational\", \"base_model:zai-org/GLM-5.2\", \"base_model:quantized:zai-org/GLM-5.2\", \"license:mit\", \"8-bit\", \"modelopt\", \"region:us\"]",
@@ -115,5 +161,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments in AI, along with 1 trend:\n\n**Key Developments:**\n\n* **Anthropic's Claude models run on NVIDIA GB300 in Azure**: Anthropic's language model, Claude, is now running on NVIDIA's GB300 GPUs in Microsoft Azure, demonstrating the growing importance of cloud-based AI infrastructure.\n* **OpenAI report maps AI workforce opportunities in Europe**: A new report by OpenAI highlights how AI could reshape jobs across the EU, identifying occupations that may face automation, growth, or workflow changes.\n* **Palantir brings secure AI to US agencies with NVIDIA Nemotron**: Palantir has showcased the importance of open source innovation in American AI by launching a secure AI solution with NVIDIA's Nemotron platform.\n* **HP Inc. scales OpenAI Frontier partnership**: HP Inc. has expanded its partnership with OpenAI to deploy AI across customer experiences, software development, and enterprise operations.\n* **AWS optimizes model training on Amazon SageMaker AI with NVIDIA Blackwell**: AWS has optimized model training on Amazon SageMaker AI using NVIDIA's Blackwell GPUs, demonstrating the growing adoption of AI infrastructure in cloud computing.\n* **OpenAI and Broadcom unveil LLM-optimized inference chip**: OpenAI and Broadcom have introduced a custom AI chip, Jalapeño, optimized for large language model inference, which could improve performance, efficiency, and scalability across AI systems.\n\n**Trend:**\n\n* **Increased adoption of cloud-based AI infrastructure**: The growing number of partnerships and developments between cloud computing providers (e.g., Azure, AWS) and AI companies (e.g., Anthropic, OpenAI) suggests a trend towards increased adoption of cloud-based AI infrastructure. This trend is driven by the need for scalable and secure AI computing, as well as the growing importance of AI in various industries."
+  "summary": "Here are 4-6 bullet points and 1 trend summarizing the key developments in the field of AI:\n\n**Bullet points:**\n\n* NVIDIA and its partners are investing in American manufacturing, supply chains, and energy projects, aimed at building a robust and sustainable AI ecosystem in the US.\n* OpenAI's research paper highlights the transformative impact of AI agents on work, enabling longer, more complex tasks and expanding productivity across various roles.\n* HP Inc. has launched a strategic partnership with OpenAI to deploy AI across customer experiences, software development, and enterprise operations.\n* Anthropic's Claude models are now running on NVIDIA's GB300 in Microsoft Azure, marking a significant development in cloud-based AI computing.\n* Amazon Web Services (AWS) has partnered with NVIDIA to optimize model training on Amazon SageMaker AI using NVIDIA's Blackwell GPUs, leading to improved performance and cost-effectiveness.\n\n**Trend:** **Rise of AI Partnerships and Collaborations**: The AI landscape is witnessing a significant increase in partnerships and collaborations among leading tech companies, research institutions, and organizations. This trend is driven by the need for innovation, resource sharing, and expertise exchange to accelerate AI development and adoption. As AI continues to transform industries and society, these partnerships are likely to play a crucial role in shaping the future of AI research, development, and deployment."
 }
