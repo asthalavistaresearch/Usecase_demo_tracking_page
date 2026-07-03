@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-02T05:54:34.291Z",
+  "timestamp": "2026-07-03T05:48:45.752Z",
   "categories": {
     "news": {
       "count": 12,
       "items": [
+        {
+          "subject": "NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout",
+          "body": "As AI moves from model development to production inference, compute demand is...",
+          "timestamp": "2026-07-02T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AWS: Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
+          "body": "Government agencies running workloads in AWS GovCloud (US) need AI capabilities that...",
+          "timestamp": "2026-07-02T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "NVIDIA and Partners Build in America, for America",
           "body": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy...",
@@ -94,23 +112,32 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
+        }
+      ]
+    },
+    "papers": {
+      "count": 2,
+      "items": [
         {
-          "subject": "AWS: Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
-          "body": "Optimizing model training on Amazon SageMaker AI with NVIDIA Blackwell GPUs changes...",
-          "timestamp": "2026-06-26T04:00:01",
-          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-model-training-on-amazon-sagemaker-ai-with-nvidia-blackwell/",
+          "subject": "A Methodology for Investigating AI Patterns Prevalence in Software Repositories",
+          "body": "As Artificial Intelligence(AI)-based applications take off, a clear understanding of AI patterns can uplift the quality of AI applications. Many AI patterns have been proposed in the literature; however, their prevalence in real-life code has not yet been validated. Understanding the actual use of those patterns in practice can clarify our understanding both of the significance of these patterns and their utility. In this paper, we present a methodology to a) identify relevant patterns by mining the literature and then to b) validate their presence and prevalence in actual code repositories using active learning. To that end, we identify 14 AI pattern classes by mining 44 published AI pattern-related sources. Then we use an active learning approach to determine the prevalence of the most common pattern class across 100 GitHub open AI repositories. Using prevalence estimation, we propose bounds on the accuracy of the occurrences. The model achieves 56\\% accuracy and 55\\% recall in an 8-way classification task, significantly outperforming the 11\\% random-chance baseline. Furthermore, the prevalence estimation offers usable bounds for analyzing pattern applications. This methodology provides a robust foundation to start understanding how AI patterns are used in practice, a field that currently lacks empirical data.",
+          "timestamp": "2026-07-01T07:46:06",
+          "url": "https://arxiv.org/abs/2607.00558v1",
           "extras": {
-            "data_origin": "AWS AI News"
+            "data_origin": "arXiv",
+            "authors": "Srinath Perera, Hasinthaka Piyumal, Frank Leymann, Rania Khalaf",
+            "updated": "2026-07-01T07:46:06"
           }
         },
         {
-          "subject": "How agents are transforming work",
-          "body": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-          "timestamp": "2026-06-25T13:30:02",
-          "url": "https://openai.com/index/how-agents-are-transforming-work",
+          "subject": "Steal the Patch Size: Adversarially Manipulate Vision-Language Models",
+          "body": "We present a black-box model-stealing attack that recovers private vision-tokenizer configurations of deployed vision-language models (VLMs), including the visual patch size and input preprocessing pipeline. The key idea is a task-level side channel induced by ViT-style patchification: when a synthetic grid image is aligned with the hidden patch grid, boundary cues are erased at tokenization, causing periodic accuracy drop. By sweeping the grid cell size and measuring these collapses, we infer the patch size; by introducing padding and a consistency-check test, we further identify whether preprocessing is dynamic- or fixed-resolution and recover the target resize resolution. Across open-source Qwen-VL variants and proprietary models including GPT and Claude, we reliably recover tokenizer-related parameters. Finally, we show that such leakage enables preprocessing-aware transfer attacks and model-targeted adversarial manipulation.",
+          "timestamp": "2026-06-30T20:47:35",
+          "url": "https://arxiv.org/abs/2607.00174v1",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "arXiv",
+            "authors": "Kai Hu, Akash Bharadwaj, Weichen Yu, Matt Fredrikson",
+            "updated": "2026-06-30T20:47:35"
           }
         }
       ]
@@ -161,5 +188,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points and 1 trend summarizing the key developments in the field of AI:\n\n**Bullet points:**\n\n* NVIDIA and its partners are investing in American manufacturing, supply chains, and energy projects, aimed at building a robust and sustainable AI ecosystem in the US.\n* OpenAI's research paper highlights the transformative impact of AI agents on work, enabling longer, more complex tasks and expanding productivity across various roles.\n* HP Inc. has launched a strategic partnership with OpenAI to deploy AI across customer experiences, software development, and enterprise operations.\n* Anthropic's Claude models are now running on NVIDIA's GB300 in Microsoft Azure, marking a significant development in cloud-based AI computing.\n* Amazon Web Services (AWS) has partnered with NVIDIA to optimize model training on Amazon SageMaker AI using NVIDIA's Blackwell GPUs, leading to improved performance and cost-effectiveness.\n\n**Trend:** **Rise of AI Partnerships and Collaborations**: The AI landscape is witnessing a significant increase in partnerships and collaborations among leading tech companies, research institutions, and organizations. This trend is driven by the need for innovation, resource sharing, and expertise exchange to accelerate AI development and adoption. As AI continues to transform industries and society, these partnerships are likely to play a crucial role in shaping the future of AI research, development, and deployment."
+  "summary": "Here are the key developments in the field of AI with insight:\n\n**Key Developments:**\n\n1. **NVIDIA Unlocks AI Compute at Scale**: NVIDIA has announced that it is unlocking AI compute at scale, inviting capital partners to power the AI infrastructure buildout. This move aims to accelerate the adoption of AI in various industries.\n2. **AWS and NVIDIA Collaborate on AI**: Amazon Web Services (AWS) has partnered with NVIDIA to run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US). This collaboration will enable government agencies to leverage AI capabilities for workloads in the cloud.\n3. **Meta Contractors Posed as Teens to Test Rival Chatbots**: A recent report by Wired revealed that hundreds of contractors working on a project for Meta posed as teenagers to prompt rival chatbots, such as Gemini and ChatGPT, to discuss high-risk subjects. This raises concerns about the ethics of chatbot testing.\n4. **OpenAI's ChatGPT Adoption Expands Globally**: OpenAI has reported that ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.\n5. **NVIDIA's BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences**: NVIDIA has launched the BioNeMo Agent Toolkit, which brings accelerated AI to life sciences researchers in Claude Science. This toolkit aims to accelerate the adoption of AI in life sciences.\n6. **Anthropic's Claude Models Run on NVIDIA GB300 in Azure**: Anthropic's Claude models are now running on NVIDIA GB300 in Microsoft Azure, enabling large-scale AI computations in the cloud.\n\n**Trend:**\n\n* **Increasing Adoption of AI in Various Industries**: The trend in the field of AI is the increasing adoption of AI in various industries, including healthcare, finance, and education. This is driven by the growing demand for AI-powered solutions and the availability of cloud computing resources.\n\nInsight: The increasing adoption of AI in various industries is driven by the growing demand for AI-powered solutions and the availability of cloud computing resources. This trend is expected to continue, with AI becoming an essential tool for businesses and organizations across various sectors."
 }
