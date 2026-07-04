@@ -1,6 +1,6 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-03T05:48:45.752Z",
+  "timestamp": "2026-07-04T05:41:15.665Z",
   "categories": {
     "news": {
       "count": 12,
@@ -143,7 +143,7 @@
       ]
     },
     "models": {
-      "count": 4,
+      "count": 1,
       "items": [
         {
           "subject": "nvidia/Qwen3.6-27B-NVFP4",
@@ -154,39 +154,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/GLM-5.2-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"glm_moe_dsa\", \"nvidia\", \"ModelOpt\", \"GLM-5\", \"quantized\", \"4-bit precision\", \"FP4\", \"fp4\", \"text-generation\", \"conversational\", \"base_model:zai-org/GLM-5.2\", \"base_model:quantized:zai-org/GLM-5.2\", \"license:mit\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-06-26T23:49:20",
-          "url": "https://huggingface.co/nvidia/GLM-5.2-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "0xSero/GLM-5.2-504B-Nvidia",
-          "body": "[\"safetensors\", \"glm_moe_dsa\", \"moe\", \"reap\", \"pruning\", \"expert-pruning\", \"nvfp4\", \"glm\", \"glm-5.2\", \"text-generation\", \"conversational\", \"base_model:nvidia/GLM-5.2-NVFP4\", \"base_model:quantized:nvidia/GLM-5.2-NVFP4\", \"license:mit\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-06-26T19:08:01",
-          "url": "https://huggingface.co/0xSero/GLM-5.2-504B-Nvidia",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "0xSero"
-          }
-        },
-        {
-          "subject": "nvidia/MiniMax-M3-NVFP4",
-          "body": "[\"safetensors\", \"minimax_m3_vl\", \"nvidia\", \"ModelOpt\", \"MiniMax-M3\", \"quantized\", \"NVFP4\", \"nvfp4\", \"text-generation\", \"conversational\", \"custom_code\", \"base_model:MiniMaxAI/MiniMax-M3\", \"base_model:quantized:MiniMaxAI/MiniMax-M3\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-06-26T17:18:03",
-          "url": "https://huggingface.co/nvidia/MiniMax-M3-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are the key developments in the field of AI with insight:\n\n**Key Developments:**\n\n1. **NVIDIA Unlocks AI Compute at Scale**: NVIDIA has announced that it is unlocking AI compute at scale, inviting capital partners to power the AI infrastructure buildout. This move aims to accelerate the adoption of AI in various industries.\n2. **AWS and NVIDIA Collaborate on AI**: Amazon Web Services (AWS) has partnered with NVIDIA to run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US). This collaboration will enable government agencies to leverage AI capabilities for workloads in the cloud.\n3. **Meta Contractors Posed as Teens to Test Rival Chatbots**: A recent report by Wired revealed that hundreds of contractors working on a project for Meta posed as teenagers to prompt rival chatbots, such as Gemini and ChatGPT, to discuss high-risk subjects. This raises concerns about the ethics of chatbot testing.\n4. **OpenAI's ChatGPT Adoption Expands Globally**: OpenAI has reported that ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.\n5. **NVIDIA's BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences**: NVIDIA has launched the BioNeMo Agent Toolkit, which brings accelerated AI to life sciences researchers in Claude Science. This toolkit aims to accelerate the adoption of AI in life sciences.\n6. **Anthropic's Claude Models Run on NVIDIA GB300 in Azure**: Anthropic's Claude models are now running on NVIDIA GB300 in Microsoft Azure, enabling large-scale AI computations in the cloud.\n\n**Trend:**\n\n* **Increasing Adoption of AI in Various Industries**: The trend in the field of AI is the increasing adoption of AI in various industries, including healthcare, finance, and education. This is driven by the growing demand for AI-powered solutions and the availability of cloud computing resources.\n\nInsight: The increasing adoption of AI in various industries is driven by the growing demand for AI-powered solutions and the availability of cloud computing resources. This trend is expected to continue, with AI becoming an essential tool for businesses and organizations across various sectors."
+  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA's AI Compute at Scale**: NVIDIA has unveiled a new initiative to power the buildout of AI infrastructure, inviting capital partners to join the effort. This move aims to accelerate AI adoption across various industries.\n* **AWS and NVIDIA Partnership**: AWS and NVIDIA have collaborated to bring NVIDIA's Nemotron and OpenAI GPT OSS models to Amazon Bedrock in AWS GovCloud (US). This partnership will enable government agencies to run AI workloads in a secure and compliant environment.\n* **ChatGPT Adoption**: New data from OpenAI indicates that ChatGPT adoption is growing globally, with users increasing their usage and exploring more capabilities. This expansion is driving growth across regions and languages.\n* **Core Dump Epidemiology**: OpenAI engineers have used large-scale core dump analysis to debug rare infrastructure crashes, uncovering a hardware fault and a long-standing software bug. This approach highlights the importance of robust testing and validation in AI infrastructure.\n* **NVIDIA BioNeMo Agent Toolkit**: NVIDIA has introduced the BioNeMo Agent Toolkit, which brings accelerated AI to life sciences researchers in the Claude Science platform. This development promotes the use of AI in life sciences research.\n* **Anthropic's Claude Models on NVIDIA GB300**: Anthropic's Claude models can now run on NVIDIA's GB300 GPUs, hosted on Microsoft Azure. This collaboration enables the deployment of advanced AI models at scale.\n\n**Trend:**\n\n* **Increased Adoption of AI in Various Industries**: The recent developments highlight the growing adoption of AI across various industries, including government, life sciences, and enterprise operations. This trend indicates a rapidly accelerating pace of AI adoption, with a focus on scalability, security, and collaboration among industries and companies."
 }
