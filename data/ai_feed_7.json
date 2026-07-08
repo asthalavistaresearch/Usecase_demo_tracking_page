@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-07T06:03:07.715Z",
+  "timestamp": "2026-07-08T05:16:58.820Z",
   "categories": {
     "news": {
-      "count": 8,
+      "count": 4,
       "items": [
+        {
+          "subject": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
+          "body": "Open source AI has shown how quickly developers can innovate when models...",
+          "timestamp": "2026-07-07T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout",
           "body": "As AI moves from model development to production inference, compute demand is...",
@@ -31,57 +40,45 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "Meta Contractors Posed as Teens to Prompt Rival Chatbots About Suicide, Sex, and Drugs",
-          "body": "Hundreds of contractors working on a project for Meta pretended to be kids—and then prompted rival chatbots like Gemini and ChatGPT to discuss high-risk subjects.",
-          "timestamp": "2026-07-01T04:00:02",
-          "url": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
-          "extras": {
-            "data_origin": "Wired"
-          }
-        },
-        {
-          "subject": "How ChatGPT adoption has expanded",
-          "body": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-          "timestamp": "2026-07-01T04:00:02",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Core dump epidemiology: fixing an 18-year-old bug",
-          "body": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-          "timestamp": "2026-07-01T04:00:02",
-          "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
-          "body": "Life sciences has entered an era of computational scale, and for more...",
-          "timestamp": "2026-07-01T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
-          "body": "As organizations move from AI pilots to production AI factories, infrastructure decisions...",
-          "timestamp": "2026-07-01T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 2,
+      "count": 4,
       "items": [
+        {
+          "subject": "Multiplayer Interactive World Models with Representation Autoencoders",
+          "body": "We introduce the first multiplayer world model for highly dynamic environments governed by complex physical interactions. Whereas single-player world models treat the other agents as part of the environment, ours conditions on the action streams of multiple agents, learning to attribute changes in the scene to the correct player and to stay coherent under arbitrary combinations of their actions. We study this problem in the game of Rocket League, where players compete and cooperate under fast, tightly coupled dynamics. Trained on 10,000 hours of gameplay collected with publicly available bots, our 5-billion-parameter latent diffusion model generates four-player matches in real time, producing 20 frames per second on a single Nvidia B200 GPU. Although trained only on short clips, its rollouts stay stable far beyond the training horizon: distributional quality holds steady out to five minutes, the longest horizon we measure, and in practice we observe rollouts continuing for hours with no sign of collapse. We systematically investigate the central design choices: the video codec, the generative objective, and the multiplayer conditioning scheme. In addition, we characterize how behavior changes with model and data scale, including the capabilities that emerge and the failure modes that persist. We further develop targeted evaluations that probe the model's physical understanding rather than visual appearance alone. To support continued research on multiplayer world models, we release our dataset, our full training and inference codebase, and a live demo.",
+          "timestamp": "2026-07-06T17:31:52",
+          "url": "https://arxiv.org/abs/2607.05352v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Anthony Hu, Václav Volhejn, Adrien Ramanana Rahary, Chris Mulder, Aditya Makkar, Amélie Royer, Manu Orsini, Alyx Liao, Adam Jelley, Eloi Alonso, Florian Laurent, Fredrik Norén, James Swingos, Jan Hünermann, Kent Rollins, Lucas Hosseini, Matthieu Le Cauchois, Maxim Peter, Pim de Witte, Tim Brown, Vincent Micheli, Moritz Böhle, Gabriel de Marmiesse, Viktoriia Sharmanska, Lucia Specia, Michael Black, Patrick Pérez",
+            "updated": "2026-07-06T17:31:52"
+          }
+        },
+        {
+          "subject": "When Words Predict Workload",
+          "body": "Standard distributed \\ac{llm} schedulers rely on static token counts or rolling latency averages, making them susceptible to failures on statutorily constrained text. On \\ac{epo} claims governed by Article 84 \\ac{epc}, linguistic rigidity makes human and machine authorship statistically indistinguishable. Resolving this ambiguity mid-flight forces dynamic multi-model ensemble expansion, triggering unpredictable KV-cache and weight-allocation spikes that saturate consumer-grade edge GPU VRAM and cause severe \\ac{oom} crashes. To prevent hardware collapse, we propose a CPU-side Linguistic Resource Forecasting (LRF) gateway. The gateway extracts a 16-dimensional text-structure vector and applies an XGBoost predictor to forecast trap-band membership. The resulting escalation probability ($\\Pesc$) is evaluated against a dynamic, closed-form routing threshold ($\\Tauroute(t)$) computed via real-time latency telemetry. Requests are safely routed to either a local Qwen2.5-7B edge worker or a remote contrastive ensemble (Qwen2.5 7B + 32B) on an NVIDIA H100 \\emph{before} any edge GPU memory is allocated. In a 6,000-request live trial, the LRF gateway reduced the operational misroute fraction ($R_{\\mathrm{mis}}$) to $0.087$--$0.095$, an order of magnitude below the token-count baseline ($0.849$). Peak edge VRAM remained safely bounded at $\\SI{4.82}{\\gibi\\byte}$ (under the $\\SI{8}{\\gibi\\byte}$ ceiling) across a $27\\times$ variation in \\ac{wan} delay. The predictor achieved a live-trial AUROC of $0.84$, and the dynamic $\\Tauroute(t)$ controller yielded an $8.2\\%$ relative reduction in misroutes compared to an equivalent static threshold.",
+          "timestamp": "2026-07-06T11:27:29",
+          "url": "https://arxiv.org/abs/2607.04951v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Anubhab Banerjee",
+            "updated": "2026-07-06T11:27:29"
+          }
+        },
+        {
+          "subject": "Quantize the Target, Quantize the Drafter: Efficient Inference with Qwen3.5-4B",
+          "body": "This report describes our approach to the Efficient Qwen Competition, where the goal is to enable low-latency serving of Qwen3.5-4B on a resource-constrained NVIDIA A10G GPU. Our system combines a quantized target model with speculative decoding. To recover accuracy, we apply quantization-aware distillation to the target model while retaining the original quantization grid. To speed up decoding, a block-diffusion drafter specialized for the quantized target model is trained using a two-stage procedure: first learning from the high-precision target and then adapting to the low-precision target. Because the drafter is invoked at every speculative decoding step, we further reduce its overhead with quantization and sliding-window attention, preserving draft-token acceptance while improving long-context decoding latency. As a result, our submission achieves a 6.978$\\times$ average speedup over the baseline while satisfying the required quality thresholds, ranking 3rd overall. We hope these results provide useful insights for practical LLM inference. The code and resources are available at https://github.com/nota-github/adaptfm-quant-dflash",
+          "timestamp": "2026-07-05T11:44:45",
+          "url": "https://arxiv.org/abs/2607.04244v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Jaeyeon Kim, Jewon Lee, Bo-Kyeong Kim",
+            "updated": "2026-07-05T11:44:45"
+          }
+        },
         {
           "subject": "A Methodology for Investigating AI Patterns Prevalence in Software Repositories",
           "body": "As Artificial Intelligence(AI)-based applications take off, a clear understanding of AI patterns can uplift the quality of AI applications. Many AI patterns have been proposed in the literature; however, their prevalence in real-life code has not yet been validated. Understanding the actual use of those patterns in practice can clarify our understanding both of the significance of these patterns and their utility. In this paper, we present a methodology to a) identify relevant patterns by mining the literature and then to b) validate their presence and prevalence in actual code repositories using active learning. To that end, we identify 14 AI pattern classes by mining 44 published AI pattern-related sources. Then we use an active learning approach to determine the prevalence of the most common pattern class across 100 GitHub open AI repositories. Using prevalence estimation, we propose bounds on the accuracy of the occurrences. The model achieves 56\\% accuracy and 55\\% recall in an 8-way classification task, significantly outperforming the 11\\% random-chance baseline. Furthermore, the prevalence estimation offers usable bounds for analyzing pattern applications. This methodology provides a robust foundation to start understanding how AI patterns are used in practice, a field that currently lacks empirical data.",
@@ -92,35 +89,13 @@
             "authors": "Srinath Perera, Hasinthaka Piyumal, Frank Leymann, Rania Khalaf",
             "updated": "2026-07-01T07:46:06"
           }
-        },
-        {
-          "subject": "Steal the Patch Size: Adversarially Manipulate Vision-Language Models",
-          "body": "We present a black-box model-stealing attack that recovers private vision-tokenizer configurations of deployed vision-language models (VLMs), including the visual patch size and input preprocessing pipeline. The key idea is a task-level side channel induced by ViT-style patchification: when a synthetic grid image is aligned with the hidden patch grid, boundary cues are erased at tokenization, causing periodic accuracy drop. By sweeping the grid cell size and measuring these collapses, we infer the patch size; by introducing padding and a consistency-check test, we further identify whether preprocessing is dynamic- or fixed-resolution and recover the target resize resolution. Across open-source Qwen-VL variants and proprietary models including GPT and Claude, we reliably recover tokenizer-related parameters. Finally, we show that such leakage enables preprocessing-aware transfer attacks and model-targeted adversarial manipulation.",
-          "timestamp": "2026-06-30T20:47:35",
-          "url": "https://arxiv.org/abs/2607.00174v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Kai Hu, Akash Bharadwaj, Weichen Yu, Matt Fredrikson",
-            "updated": "2026-06-30T20:47:35"
-          }
         }
       ]
     },
     "models": {
-      "count": 1,
-      "items": [
-        {
-          "subject": "nvidia/Qwen3.6-27B-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen3_5\", \"nvidia\", \"ModelOpt\", \"Qwen3.6\", \"quantized\", \"FP4\", \"fp4\", \"text-generation\", \"conversational\", \"base_model:Qwen/Qwen3.6-27B\", \"base_model:quantized:Qwen/Qwen3.6-27B\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-06-30T14:40:07",
-          "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   },
-  "summary": "Here are 4-6 key developments with insight:\n\n* **NVIDIA Unlocks AI Compute at Scale**: NVIDIA has introduced a new framework that enables organizations to scale AI compute at a lower cost. This is a significant development as AI adoption continues to grow, and the need for scalable compute resources becomes more pressing.\n* **AWS Partners with NVIDIA for GovCloud**: Amazon Web Services (AWS) has partnered with NVIDIA to bring AI capabilities to government agencies running workloads in AWS GovCloud (US). This is a strategic move to tap into the growing demand for AI in the public sector.\n* **NVIDIA Invests in American Manufacturing**: NVIDIA has announced plans to invest in American manufacturing, supply chains, and energy production. This move is part of the company's efforts to strengthen its presence in the US and support domestic innovation.\n* **ChatGPT Adoption Expands Globally**: OpenAI has reported a significant increase in ChatGPT adoption, with users expanding across regions and languages. This development highlights the growing popularity of chatbots and the importance of natural language processing (NLP) in AI.\n* **Meta Contractors Pretend to be Teens for Chatbot Testing**: Meta has come under fire for its testing methods, where contractors posed as teenagers to prompt rival chatbots to discuss sensitive topics. This raises concerns about the ethics of AI testing and the potential consequences of such experiments.\n* **NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences**: NVIDIA has introduced a new toolkit that brings accelerated AI to life sciences researchers. This is a significant development in the field of bioinformatics, where AI is being used to analyze large amounts of data and make new discoveries.\n\nTrend: **Increased Adoption of AI in Emerging Industries**: The recent developments highlight the growing adoption of AI in emerging industries such as life sciences, public sector, and manufacturing. This trend is likely to continue as organizations recognize the potential of AI to drive innovation and improve efficiency."
+  "summary": "**Key Developments with Insight**\n\n* **NVIDIA Advances Open-Source AI with LeRobot Models and Frameworks**: NVIDIA, in collaboration with Hugging Face, has brought new models and frameworks to LeRobot, an open-source platform for robotics research. This development enables faster innovation and experimentation with AI models, paving the way for more efficient robotics technologies.\n* **AWS and NVIDIA Announce AI Compute Capability Expansion**: AWS has announced the availability of NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US). This expansion enables government agencies to access advanced AI capabilities, enhancing research and innovation in the public sector.\n* **NVIDIA and Partners Invest in American Manufacturing and Supply Chains**: NVIDIA and its partners have committed to investing in American manufacturing, supply chains, and energy efficiency. This move supports economic growth, job creation, and environmental sustainability in the United States.\n* **Multiplayer Interactive World Models with Representation Autoencoders**: Researchers have developed a multiplayer world model for dynamic environments, using a 5-billion-parameter latent diffusion model to generate realistic matches in real-time. This innovation enables the creation of more realistic and engaging virtual environments.\n* **Linguistic Resource Forecasting (LRF) Gateway for Preventing AI Crashes**: Scientists have proposed a CPU-side LRF gateway to prevent AI crashes due to unpredictable KV-cache and weight-allocation spikes. This development ensures the stability and reliability of AI systems, particularly in edge environments.\n\n**Trend:** **Increased Focus on Open-Source AI and Collaboration**\n\nThere is a growing trend towards open-source AI and collaboration in the industry. NVIDIA's partnership with Hugging Face and AWS's expansion of AI capabilities on Amazon Bedrock demonstrate this shift towards openness and sharing of resources. As AI continues to advance, the importance of collaboration and open-source development will become increasingly crucial for driving innovation and progress."
 }
