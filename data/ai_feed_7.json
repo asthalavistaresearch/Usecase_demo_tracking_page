@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-08T05:16:58.820Z",
+  "timestamp": "2026-07-09T06:09:48.690Z",
   "categories": {
     "news": {
       "count": 4,
       "items": [
+        {
+          "subject": "Australian Payments Plus moves faster with ChatGPT and Codex",
+          "body": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+          "timestamp": "2026-07-08T04:00:02",
+          "url": "https://openai.com/index/australian-payments-plus",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+          "body": "Max single-threaded CPUs at scale are a new category of CPUs built...",
+          "timestamp": "2026-07-08T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
           "body": "Open source AI has shown how quickly developers can innovate when models...",
@@ -22,80 +40,64 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "AWS: Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
-          "body": "Government agencies running workloads in AWS GovCloud (US) need AI capabilities that...",
-          "timestamp": "2026-07-02T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Partners Build in America, for America",
-          "body": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy...",
-          "timestamp": "2026-07-01T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        }
-      ]
-    },
-    "papers": {
-      "count": 4,
-      "items": [
-        {
-          "subject": "Multiplayer Interactive World Models with Representation Autoencoders",
-          "body": "We introduce the first multiplayer world model for highly dynamic environments governed by complex physical interactions. Whereas single-player world models treat the other agents as part of the environment, ours conditions on the action streams of multiple agents, learning to attribute changes in the scene to the correct player and to stay coherent under arbitrary combinations of their actions. We study this problem in the game of Rocket League, where players compete and cooperate under fast, tightly coupled dynamics. Trained on 10,000 hours of gameplay collected with publicly available bots, our 5-billion-parameter latent diffusion model generates four-player matches in real time, producing 20 frames per second on a single Nvidia B200 GPU. Although trained only on short clips, its rollouts stay stable far beyond the training horizon: distributional quality holds steady out to five minutes, the longest horizon we measure, and in practice we observe rollouts continuing for hours with no sign of collapse. We systematically investigate the central design choices: the video codec, the generative objective, and the multiplayer conditioning scheme. In addition, we characterize how behavior changes with model and data scale, including the capabilities that emerge and the failure modes that persist. We further develop targeted evaluations that probe the model's physical understanding rather than visual appearance alone. To support continued research on multiplayer world models, we release our dataset, our full training and inference codebase, and a live demo.",
-          "timestamp": "2026-07-06T17:31:52",
-          "url": "https://arxiv.org/abs/2607.05352v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Anthony Hu, Václav Volhejn, Adrien Ramanana Rahary, Chris Mulder, Aditya Makkar, Amélie Royer, Manu Orsini, Alyx Liao, Adam Jelley, Eloi Alonso, Florian Laurent, Fredrik Norén, James Swingos, Jan Hünermann, Kent Rollins, Lucas Hosseini, Matthieu Le Cauchois, Maxim Peter, Pim de Witte, Tim Brown, Vincent Micheli, Moritz Böhle, Gabriel de Marmiesse, Viktoriia Sharmanska, Lucia Specia, Michael Black, Patrick Pérez",
-            "updated": "2026-07-06T17:31:52"
-          }
-        },
-        {
-          "subject": "When Words Predict Workload",
-          "body": "Standard distributed \\ac{llm} schedulers rely on static token counts or rolling latency averages, making them susceptible to failures on statutorily constrained text. On \\ac{epo} claims governed by Article 84 \\ac{epc}, linguistic rigidity makes human and machine authorship statistically indistinguishable. Resolving this ambiguity mid-flight forces dynamic multi-model ensemble expansion, triggering unpredictable KV-cache and weight-allocation spikes that saturate consumer-grade edge GPU VRAM and cause severe \\ac{oom} crashes. To prevent hardware collapse, we propose a CPU-side Linguistic Resource Forecasting (LRF) gateway. The gateway extracts a 16-dimensional text-structure vector and applies an XGBoost predictor to forecast trap-band membership. The resulting escalation probability ($\\Pesc$) is evaluated against a dynamic, closed-form routing threshold ($\\Tauroute(t)$) computed via real-time latency telemetry. Requests are safely routed to either a local Qwen2.5-7B edge worker or a remote contrastive ensemble (Qwen2.5 7B + 32B) on an NVIDIA H100 \\emph{before} any edge GPU memory is allocated. In a 6,000-request live trial, the LRF gateway reduced the operational misroute fraction ($R_{\\mathrm{mis}}$) to $0.087$--$0.095$, an order of magnitude below the token-count baseline ($0.849$). Peak edge VRAM remained safely bounded at $\\SI{4.82}{\\gibi\\byte}$ (under the $\\SI{8}{\\gibi\\byte}$ ceiling) across a $27\\times$ variation in \\ac{wan} delay. The predictor achieved a live-trial AUROC of $0.84$, and the dynamic $\\Tauroute(t)$ controller yielded an $8.2\\%$ relative reduction in misroutes compared to an equivalent static threshold.",
-          "timestamp": "2026-07-06T11:27:29",
-          "url": "https://arxiv.org/abs/2607.04951v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Anubhab Banerjee",
-            "updated": "2026-07-06T11:27:29"
-          }
-        },
-        {
-          "subject": "Quantize the Target, Quantize the Drafter: Efficient Inference with Qwen3.5-4B",
-          "body": "This report describes our approach to the Efficient Qwen Competition, where the goal is to enable low-latency serving of Qwen3.5-4B on a resource-constrained NVIDIA A10G GPU. Our system combines a quantized target model with speculative decoding. To recover accuracy, we apply quantization-aware distillation to the target model while retaining the original quantization grid. To speed up decoding, a block-diffusion drafter specialized for the quantized target model is trained using a two-stage procedure: first learning from the high-precision target and then adapting to the low-precision target. Because the drafter is invoked at every speculative decoding step, we further reduce its overhead with quantization and sliding-window attention, preserving draft-token acceptance while improving long-context decoding latency. As a result, our submission achieves a 6.978$\\times$ average speedup over the baseline while satisfying the required quality thresholds, ranking 3rd overall. We hope these results provide useful insights for practical LLM inference. The code and resources are available at https://github.com/nota-github/adaptfm-quant-dflash",
-          "timestamp": "2026-07-05T11:44:45",
-          "url": "https://arxiv.org/abs/2607.04244v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Jaeyeon Kim, Jewon Lee, Bo-Kyeong Kim",
-            "updated": "2026-07-05T11:44:45"
-          }
-        },
-        {
-          "subject": "A Methodology for Investigating AI Patterns Prevalence in Software Repositories",
-          "body": "As Artificial Intelligence(AI)-based applications take off, a clear understanding of AI patterns can uplift the quality of AI applications. Many AI patterns have been proposed in the literature; however, their prevalence in real-life code has not yet been validated. Understanding the actual use of those patterns in practice can clarify our understanding both of the significance of these patterns and their utility. In this paper, we present a methodology to a) identify relevant patterns by mining the literature and then to b) validate their presence and prevalence in actual code repositories using active learning. To that end, we identify 14 AI pattern classes by mining 44 published AI pattern-related sources. Then we use an active learning approach to determine the prevalence of the most common pattern class across 100 GitHub open AI repositories. Using prevalence estimation, we propose bounds on the accuracy of the occurrences. The model achieves 56\\% accuracy and 55\\% recall in an 8-way classification task, significantly outperforming the 11\\% random-chance baseline. Furthermore, the prevalence estimation offers usable bounds for analyzing pattern applications. This methodology provides a robust foundation to start understanding how AI patterns are used in practice, a field that currently lacks empirical data.",
-          "timestamp": "2026-07-01T07:46:06",
-          "url": "https://arxiv.org/abs/2607.00558v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Srinath Perera, Hasinthaka Piyumal, Frank Leymann, Rania Khalaf",
-            "updated": "2026-07-01T07:46:06"
-          }
         }
       ]
     },
     "models": {
-      "count": 0,
-      "items": []
+      "count": 5,
+      "items": [
+        {
+          "subject": "nvidia/Nemotron-Labs-Audex-2B",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"RL\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-07-08T17:58:07",
+          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Nemotron-Labs-Audex-30B-A3B",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"RL\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-07-08T17:58:05",
+          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "CodeFault/Nvidia-Qwen3.6-27B-NVFP4-GGUF",
+          "body": "[\"gguf\", \"chain-of-thought\", \"nvfp4\", \"moe\", \"qwen\", \"qwen3.6\", \"quantized\", \"reasoning\", \"llama.cpp\", \"text-generation\", \"en\", \"base_model:nvidia/Qwen3.6-27B-NVFP4\", \"base_model:quantized:nvidia/Qwen3.6-27B-NVFP4\", \"license:apache-2.0\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
+          "timestamp": "2026-07-08T02:30:50",
+          "url": "https://huggingface.co/CodeFault/Nvidia-Qwen3.6-27B-NVFP4-GGUF",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "CodeFault"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_puzzle\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"ja\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2607.04371\", \"arxiv:2411.19146\", \"arxiv:2604.12374\", \"arxiv:2512.20848\", \"base_model:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-07-07T10:58:31",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_puzzle\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"ja\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2607.04371\", \"arxiv:2411.19146\", \"arxiv:2604.12374\", \"arxiv:2512.20848\", \"base_model:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-07-07T10:58:24",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        }
+      ]
     }
   },
-  "summary": "**Key Developments with Insight**\n\n* **NVIDIA Advances Open-Source AI with LeRobot Models and Frameworks**: NVIDIA, in collaboration with Hugging Face, has brought new models and frameworks to LeRobot, an open-source platform for robotics research. This development enables faster innovation and experimentation with AI models, paving the way for more efficient robotics technologies.\n* **AWS and NVIDIA Announce AI Compute Capability Expansion**: AWS has announced the availability of NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US). This expansion enables government agencies to access advanced AI capabilities, enhancing research and innovation in the public sector.\n* **NVIDIA and Partners Invest in American Manufacturing and Supply Chains**: NVIDIA and its partners have committed to investing in American manufacturing, supply chains, and energy efficiency. This move supports economic growth, job creation, and environmental sustainability in the United States.\n* **Multiplayer Interactive World Models with Representation Autoencoders**: Researchers have developed a multiplayer world model for dynamic environments, using a 5-billion-parameter latent diffusion model to generate realistic matches in real-time. This innovation enables the creation of more realistic and engaging virtual environments.\n* **Linguistic Resource Forecasting (LRF) Gateway for Preventing AI Crashes**: Scientists have proposed a CPU-side LRF gateway to prevent AI crashes due to unpredictable KV-cache and weight-allocation spikes. This development ensures the stability and reliability of AI systems, particularly in edge environments.\n\n**Trend:** **Increased Focus on Open-Source AI and Collaboration**\n\nThere is a growing trend towards open-source AI and collaboration in the industry. NVIDIA's partnership with Hugging Face and AWS's expansion of AI capabilities on Amazon Bedrock demonstrate this shift towards openness and sharing of resources. As AI continues to advance, the importance of collaboration and open-source development will become increasingly crucial for driving innovation and progress."
+  "summary": "Here are the key developments with insight:\n\n**Summarized Key Developments:**\n\n* **Australian Payments Plus is accelerating payments processing with ChatGPT and Codex**: Australian Payments Plus is utilizing OpenAI's ChatGPT Enterprise and Codex to streamline payments complexity, saving time and improving quality while maintaining human judgment.\n* **NVIDIA is launching a new category of CPUs**: NVIDIA has introduced Max Single-Threaded CPUs at Scale, designed for use in edge computing and AI applications.\n* **NVIDIA releases new models and frameworks for Open Robotics**: NVIDIA and Hugging Face have collaborated to bring new models and frameworks to LeRobot, a platform for the Open Robotics community.\n* **NVIDIA unlocks AI compute at scale with capital partners**: NVIDIA has partnered with capital partners to provide infrastructure for AI compute at scale, focusing on transitioning from model development to production inference.\n* **New AI models have been released on the Hugging Face model hub**: NVIDIA has released several new AI models on the Hugging Face model hub, including Nemotron Labs Audex 2B, Nemotron Labs 30B A3B, and Nemotron Labs 3 Puzzle 75B A9B NVFP4.\n\n**Trend:** There is a significant emphasis on scaling up AI capabilities, with a focus on improving efficiency, performance, and accessibility. The majority of the key developments revolve around advancements in AI computing infrastructure, including the release of new CPUs, models, and frameworks that enable the development of more powerful and efficient AI applications."
 }
