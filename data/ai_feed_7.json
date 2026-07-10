@@ -1,10 +1,55 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-09T11:20:02.138Z",
+  "timestamp": "2026-07-10T05:59:06.612Z",
   "categories": {
     "news": {
-      "count": 4,
+      "count": 8,
       "items": [
+        {
+          "subject": "Large Tabular Models Excel Where LLMs Fail",
+          "body": "The large language models (LLMs) that form the basis of generative AI chatbots such as ChatGPT, Claude, and Gemini can generate uncannily human-like text and images. But these models still struggle with a skill that, ironically, looks at face value...",
+          "timestamp": "2026-07-09T13:30:02",
+          "url": "https://spectrum.ieee.org/large-tabular-models-nexus",
+          "extras": {
+            "data_origin": "IEEE Spectrum"
+          }
+        },
+        {
+          "subject": "Palantir CEO Alex Karp is wrong about the threat Anthropic and OpenAI pose to most enterprises. That doesn’t mean he doesn’t have something to lose",
+          "body": "The Palantir CEO says frontier AI companies deliver no value and 'steal alpha.' Here's why he's mostly wrong.",
+          "timestamp": "2026-07-09T04:00:02",
+          "url": "https://fortune.com/2026/07/07/palantir-ceo-alex-karp-cnbc-rant-wrong-about-anthropic-and-openai-but-he-still-has-reason-to-fear/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
+        {
+          "subject": "Our approach to government and national security partnerships",
+          "body": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+          "timestamp": "2026-07-09T04:00:02",
+          "url": "https://openai.com/index/government-national-security-partnerships",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Separating signal from noise in coding evaluations",
+          "body": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+          "timestamp": "2026-07-09T04:00:02",
+          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Helping K–12 educators build practical AI skills",
+          "body": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+          "timestamp": "2026-07-09T04:00:02",
+          "url": "https://openai.com/index/k-12-educators-practical-skills",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Australian Payments Plus moves faster with ChatGPT and Codex",
           "body": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
@@ -31,15 +76,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout",
-          "body": "As AI moves from model development to production inference, compute demand is...",
-          "timestamp": "2026-07-02T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -48,8 +84,8 @@
       "items": [
         {
           "subject": "nvidia/Nemotron-Labs-Audex-2B",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"RL\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-07-08T17:58:07",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-07-09T18:50:10",
           "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B",
           "extras": {
             "data_origin": "huggingface",
@@ -99,5 +135,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing the key developments and 1 trend:\n\n**Key Developments:**\n\n* **Australian Payments Plus uses ChatGPT and Codex to improve payment processing**: Australian Payments Plus has implemented ChatGPT Enterprise and Codex to streamline their payment processing and improve quality while retaining human judgment.\n* **NVIDIA Vera max single-threaded CPU at scale**: NVIDIA has introduced a new category of CPUs, max single-threaded CPUs at scale, which are designed to provide higher performance and efficiency at scale.\n* **NVIDIA and Hugging Face collaborate on LeRobot for Open Robotics Community**: NVIDIA and Hugging Face have collaborated to bring new models and frameworks to LeRobot, an open-source AI platform for robotics, enabling faster innovation and development.\n* **NVIDIA unlocks AI compute at scale**: NVIDIA has announced that it will invite capital partners to power the AI infrastructure buildout, aiming to unlock AI compute at scale and support the industry's growth.\n* **Leveraging large language models in new ways**: Several pre-trained models, such as Nemotron-Labs-Audex, Nemotron-Labs-Audex-30B-A3B, and NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4, have been released to the public, offering new possibilities for leveraging large language models in various applications.\n\n**Trend:**\n* **Increased focus on scalability, efficiency, and collaboration**: The latest developments in the AI and robotics industries highlight an increasing focus on scalability, efficiency, and collaboration. This trend is demonstrated by NVIDIA's introduction of new CPUs, its collaboration with Hugging Face on LeRobot, and the release of large language models to the public. As AI continues to evolve, these factors will likely play a crucial role in driving innovation and progress forward."
+  "summary": "**Key Developments and Trends:**\n\n* The large language models (LLMs) that power generative AI chatbots are struggling with tasks that require tabular data, such as analyzing spreadsheets or reading financial statements, according to a recent article on IEEE Spectrum.\n* Palantir CEO Alex Karp has stated that frontier AI companies like Anthropic and OpenAI deliver no value and \"steal alpha\", but is mostly wrong, according to an article on Fortune.\n* OpenAI has announced new approaches to government and national security partnerships, focusing on responsible AI use, democratic accountability, and public safety.\n* OpenAI has also revealed issues with SWE-Bench Pro, a popular coding benchmark, which raises concerns about the reliability and accuracy of evaluating AI models.\n* OpenAI is working with the Walton Family Foundation to bring hands-on AI skills training to K-12 educators.\n* NVIDIA has launched NVIDIA Vera, a new category of CPUs that offers maximum single-threaded performance at scale.\n* NVIDIA has also collaborated with Hugging Face to bring new models and frameworks to LeRobot for the open robotics community.\n\n**Trend:** There is a growing focus on the limitations of large language models, including their inability to handle tabular data, and the need for more responsible and transparent AI development practices, particularly in industries such as government and national security."
 }
