@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-10T05:59:06.612Z",
+  "timestamp": "2026-07-11T05:09:10.009Z",
   "categories": {
     "news": {
-      "count": 8,
+      "count": 10,
       "items": [
+        {
+          "subject": "Product Hunt Launch: ChatCut",
+          "body": "Your AI video editor - in ChatGPT, desktop, and web",
+          "timestamp": "2026-07-10T13:30:02",
+          "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "ChatGPT is now a partner for your most ambitious work",
+          "body": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+          "timestamp": "2026-07-10T04:00:01",
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Large Tabular Models Excel Where LLMs Fail",
           "body": "The large language models (LLMs) that form the basis of generative AI chatbots such as ChatGPT, Claude, and Gemini can generate uncannily human-like text and images. But these models still struggle with a skill that, ironically, looks at face value...",
@@ -135,5 +153,5 @@
       ]
     }
   },
-  "summary": "**Key Developments and Trends:**\n\n* The large language models (LLMs) that power generative AI chatbots are struggling with tasks that require tabular data, such as analyzing spreadsheets or reading financial statements, according to a recent article on IEEE Spectrum.\n* Palantir CEO Alex Karp has stated that frontier AI companies like Anthropic and OpenAI deliver no value and \"steal alpha\", but is mostly wrong, according to an article on Fortune.\n* OpenAI has announced new approaches to government and national security partnerships, focusing on responsible AI use, democratic accountability, and public safety.\n* OpenAI has also revealed issues with SWE-Bench Pro, a popular coding benchmark, which raises concerns about the reliability and accuracy of evaluating AI models.\n* OpenAI is working with the Walton Family Foundation to bring hands-on AI skills training to K-12 educators.\n* NVIDIA has launched NVIDIA Vera, a new category of CPUs that offers maximum single-threaded performance at scale.\n* NVIDIA has also collaborated with Hugging Face to bring new models and frameworks to LeRobot for the open robotics community.\n\n**Trend:** There is a growing focus on the limitations of large language models, including their inability to handle tabular data, and the need for more responsible and transparent AI development practices, particularly in industries such as government and national security."
+  "summary": "Here are 5 key developments with insight:\n\n* **AI Video Editor Launched:** Product Hunt launched ChatCut, an AI-powered video editor that allows users to edit videos directly in ChatGPT, desktop, or web.\n* **ChatGPT Update:** OpenAI announced ChatGPT Work, an agent that can take action across apps and files, stay with a project for hours if needed, and turn a goal into finished work.\n* **Separating Signal from Noise:** OpenAI released a study that reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.\n* **Australian Company Leverages ChatGPT:** Australian Payments Plus shared how they use ChatGPT Enterprise and Codex to move faster through payments complexity, saving time and improving quality.\n* **NVIDIA and Hugging Face Collaborate:** NVIDIA and Hugging Face announced a new collaboration to bring new models and frameworks to LeRobot for the open robotics community.\n\nAnd here's a trend:\n\n**Trend:** The increasing focus on practical AI applications to drive business value and productivity, with companies like Australian Payments Plus showcasing the use of AI to solve specific pain points, and OpenAI investing in education and training for K-12 educators to build AI skills.\n\nThese developments highlight the growing interest in practical AI applications, collaborations between tech giants, and the increased investment in AI education and training."
 }
