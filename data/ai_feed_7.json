@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-14T04:47:14.346Z",
+  "timestamp": "2026-07-15T04:47:44.376Z",
   "categories": {
     "news": {
-      "count": 10,
+      "count": 8,
       "items": [
+        {
+          "subject": "AWS: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
+          "body": "Build with the smartest family of models from OpenAI yet, on Amazon...",
+          "timestamp": "2026-07-14T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "Product Hunt Launch: ChatCut",
           "body": "Your AI video editor - in ChatGPT, desktop, and web",
@@ -67,38 +76,11 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Australian Payments Plus moves faster with ChatGPT and Codex",
-          "body": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-          "timestamp": "2026-07-08T04:00:02",
-          "url": "https://openai.com/index/australian-payments-plus",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
-          "body": "Max single-threaded CPUs at scale are a new category of CPUs built...",
-          "timestamp": "2026-07-08T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
-          "body": "Open source AI has shown how quickly developers can innovate when models...",
-          "timestamp": "2026-07-07T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 5,
+      "count": 2,
       "items": [
         {
           "subject": "nvidia/Nemotron-Labs-Audex-2B",
@@ -119,39 +101,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "CodeFault/Nvidia-Qwen3.6-27B-NVFP4-GGUF",
-          "body": "[\"gguf\", \"chain-of-thought\", \"nvfp4\", \"moe\", \"qwen\", \"qwen3.6\", \"quantized\", \"reasoning\", \"llama.cpp\", \"text-generation\", \"en\", \"base_model:nvidia/Qwen3.6-27B-NVFP4\", \"base_model:quantized:nvidia/Qwen3.6-27B-NVFP4\", \"license:apache-2.0\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
-          "timestamp": "2026-07-08T02:30:50",
-          "url": "https://huggingface.co/CodeFault/Nvidia-Qwen3.6-27B-NVFP4-GGUF",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "CodeFault"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_puzzle\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"ja\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2607.04371\", \"arxiv:2411.19146\", \"arxiv:2604.12374\", \"arxiv:2512.20848\", \"base_model:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-07-07T10:58:31",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_puzzle\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3\", \"latent-moe\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"fr\", \"es\", \"it\", \"de\", \"ja\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2607.04371\", \"arxiv:2411.19146\", \"arxiv:2604.12374\", \"arxiv:2512.20848\", \"base_model:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-07-07T10:58:24",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments:\n\n* **ChatGPT supports AI video editing**: ChatGPT has launched a new feature called ChatCut, which enables users to edit videos using AI-powered tools, available in ChatGPT, desktop, and web versions.\n* **Large language models excel with tabular data**: According to IEEE Spectrum, large language models excel in processing tabular data, showcasing their ability to handle structured data more effectively than other forms of AI.\n* **NVIDIA announces Vera and LRobot**: NVIDIA has introduced Vera, a new category of CPUs built for AI workloads, and collaborated with Hugging Face to bring new models and frameworks to the Open Robotics community through LRobot.\n* **Concerns over AI model evaluation**: OpenAI has analyzed the SWE-Bench Pro coding benchmark and found issues with reliability and accuracy, highlighting the need for improved methods to evaluate AI models.\n* **Palantir CEO's criticism of frontier AI companies**: Palantir CEO Alex Karp claims that frontier AI companies, such as OpenAI and Anthropic, deliver no value and \"steal alpha.\" However, analysts argue that his assessment is largely incorrect.\n* **OpenAI partnerships with governments and educators**: OpenAI has announced its approach to government and national security partnerships, highlighting principles for responsible AI use, democratic accountability, and public safety. Additionally, the company is working with OpenAI Academy and the Walton Family Foundation to provide hands-on AI skills training for K-12 educators.\n\nTrend: **Growing interest in AI research and development** - The recent developments in AI research and development demonstrate a growing interest in exploring new frontiers in AI applications, partnerships, and technological advancements. This trend is likely to continue, with companies like OpenAI, NVIDIA, and Palantir playing significant roles in driving innovation."
+  "summary": "Here are the key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **AWS: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock**: OpenAI's latest models are now available on AWS, marking a significant expansion of the company's technology to a wider audience.\n* **Product Hunt Launch: ChatCut**: A new AI-powered video editor, ChatCut, has been launched on Product Hunt, offering users a convenient and user-friendly way to create and edit videos.\n* **ChatGPT is now a partner for your most ambitious work**: OpenAI has announced a new feature, ChatGPT Work, which enables users to take action across multiple apps and files, and complete complex tasks with the help of the AI assistant.\n* **Large Tabular Models Excel Where LLMs Fail**: A new article in IEEE Spectrum highlights the strengths of large tabular models, which can perform certain tasks better than large language models (LLMs).\n* **Palantir CEO Alex Karp is wrong about the threat Anthropic and OpenAI pose to most enterprises**: A Fortune article argues that Palantir's CEO is mistaken in his assessment of the threat posed by frontier AI companies like Anthropic and OpenAI.\n\n**Trend:**\n\n* **Expansion of AI Technology to Wider Audiences**: The trend in AI technology is towards making it more accessible and available to a wider audience. The availability of OpenAI's latest models on AWS, the launch of ChatCut on Product Hunt, and OpenAI's efforts to educate K-12 educators about AI skills all point to a growing emphasis on democratizing AI technology. This trend is likely to continue, as more companies and organizations seek to harness the power of AI for their benefit."
 }
