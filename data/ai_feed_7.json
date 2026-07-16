@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-15T04:47:44.376Z",
+  "timestamp": "2026-07-16T04:55:57.287Z",
   "categories": {
     "news": {
-      "count": 8,
+      "count": 6,
       "items": [
+        {
+          "subject": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
+          "body": "Home to leading manufacturers, robotics pioneers and infrastructure builders, Japan is one...",
+          "timestamp": "2026-07-15T13:30:01",
+          "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Elon Musk and Sam Altman are accusing each other of scamming investors as SpaceX and OpenAI jockey to lead AI revolution",
+          "body": "A social media fight erupted after their companies launched competing AI models one day apart.",
+          "timestamp": "2026-07-15T04:00:02",
+          "url": "https://fortune.com/2026/07/13/elon-musk-sam-altman-feud-scam-accusations-spacex-openai-ipos-grok-gpt-apple-lawsuit/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
         {
           "subject": "AWS: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
           "body": "Build with the smartest family of models from OpenAI yet, on Amazon...",
@@ -40,48 +58,22 @@
           "extras": {
             "data_origin": "IEEE Spectrum"
           }
-        },
-        {
-          "subject": "Palantir CEO Alex Karp is wrong about the threat Anthropic and OpenAI pose to most enterprises. That doesn’t mean he doesn’t have something to lose",
-          "body": "The Palantir CEO says frontier AI companies deliver no value and 'steal alpha.' Here's why he's mostly wrong.",
-          "timestamp": "2026-07-09T04:00:02",
-          "url": "https://fortune.com/2026/07/07/palantir-ceo-alex-karp-cnbc-rant-wrong-about-anthropic-and-openai-but-he-still-has-reason-to-fear/",
-          "extras": {
-            "data_origin": "Fortune"
-          }
-        },
-        {
-          "subject": "Our approach to government and national security partnerships",
-          "body": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-          "timestamp": "2026-07-09T04:00:02",
-          "url": "https://openai.com/index/government-national-security-partnerships",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Separating signal from noise in coding evaluations",
-          "body": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-          "timestamp": "2026-07-09T04:00:02",
-          "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Helping K–12 educators build practical AI skills",
-          "body": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
-          "timestamp": "2026-07-09T04:00:02",
-          "url": "https://openai.com/index/k-12-educators-practical-skills",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "models": {
       "count": 2,
       "items": [
+        {
+          "subject": "nvidia/Nemotron-3-Embed-1B-BF16",
+          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2407.14679\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-3B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-07-14T16:44:26",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/Nemotron-Labs-Audex-2B",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
@@ -91,19 +83,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Nemotron-Labs-Audex-30B-A3B",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"RL\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-07-08T17:58:05",
-          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are the key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **AWS: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock**: OpenAI's latest models are now available on AWS, marking a significant expansion of the company's technology to a wider audience.\n* **Product Hunt Launch: ChatCut**: A new AI-powered video editor, ChatCut, has been launched on Product Hunt, offering users a convenient and user-friendly way to create and edit videos.\n* **ChatGPT is now a partner for your most ambitious work**: OpenAI has announced a new feature, ChatGPT Work, which enables users to take action across multiple apps and files, and complete complex tasks with the help of the AI assistant.\n* **Large Tabular Models Excel Where LLMs Fail**: A new article in IEEE Spectrum highlights the strengths of large tabular models, which can perform certain tasks better than large language models (LLMs).\n* **Palantir CEO Alex Karp is wrong about the threat Anthropic and OpenAI pose to most enterprises**: A Fortune article argues that Palantir's CEO is mistaken in his assessment of the threat posed by frontier AI companies like Anthropic and OpenAI.\n\n**Trend:**\n\n* **Expansion of AI Technology to Wider Audiences**: The trend in AI technology is towards making it more accessible and available to a wider audience. The availability of OpenAI's latest models on AWS, the launch of ChatCut on Product Hunt, and OpenAI's efforts to educate K-12 educators about AI skills all point to a growing emphasis on democratizing AI technology. This trend is likely to continue, as more companies and organizations seek to harness the power of AI for their benefit."
+  "summary": "Here are 4-6 bullet points summarizing key developments in AI with insight:\n\n* **NVIDIA and Japan partner on full-stack AI and robotics**: NVIDIA has partnered with Japan to bring full-stack AI and robotics solutions to various industries, leveraging the country's strengths in manufacturing, robotics, and infrastructure. This partnership is expected to drive innovation in AI adoption across sectors.\n* **SpaceX and OpenAI engage in public feud over AI revolution leadership**: Elon Musk and Sam Altman have engaged in a public social media spat over whose company is leading the AI revolution, with Musk accusing Altman of scamming investors. This feud highlights the intense competition in the AI space.\n* **AWS makes OpenAI's GPT-5.6, Sol, Terra, and Luna models available on Amazon Bedrock**: Amazon Web Services has made OpenAI's latest models available on its platform, enabling developers to integrate these models into their applications. This move further cements AWS' position as a leading provider of AI infrastructure.\n* **OpenAI's ChatGPT expands capabilities with Work feature**: OpenAI has introduced ChatGPT Work, an agent that can perform tasks across multiple applications and files, and help users complete projects. This feature demonstrates the company's commitment to making AI more accessible and useful to a broader audience.\n* **Large Language Models (LLMs) struggle with tabular data processing**: While LLMs excel in generating human-like text and images, they still struggle with processing tabular data, highlighting the need for specialized models in certain domains.\n* **NVIDIA releases Nemotron-3 Embed-1B-BF16 model on Hugging Face**: NVIDIA has released a new model, Nemotron-3 Embed-1B-BF16, on the Hugging Face platform, expanding the capabilities of its transformer models and enabling developers to build more sophisticated AI applications.\n\nTrend: The trend in AI development is towards specialized models and platforms that cater to specific use cases and industries. As AI becomes increasingly ubiquitous, the need for models that excel in particular domains is growing, and companies like NVIDIA and OpenAI are investing in research and development to meet this need."
 }
