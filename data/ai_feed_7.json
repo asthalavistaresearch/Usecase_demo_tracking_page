@@ -1,10 +1,64 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-16T04:55:57.287Z",
+  "timestamp": "2026-07-17T04:58:54.378Z",
   "categories": {
     "news": {
-      "count": 6,
+      "count": 10,
       "items": [
+        {
+          "subject": "Japan Government, Industrial Leaders and NVIDIA Launch the World’s First National AI Infrastructure",
+          "body": "NVIDIA today announced it is working with Noetra Corp. to launch an...",
+          "timestamp": "2026-07-16T13:30:01",
+          "url": "https://nvidianews.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "The US is advancing AI safety through state and federal action",
+          "body": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+          "timestamp": "2026-07-16T04:00:02",
+          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "GPT-Red: Unlocking Self-Improvement for Robustness",
+          "body": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+          "timestamp": "2026-07-16T04:00:02",
+          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier",
+          "body": "NVIDIA today announced that Japan’s physical AI leaders are building on the...",
+          "timestamp": "2026-07-16T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models",
+          "body": "News Summary: Institution of Science Tokyo, SoftBank Corp.'s SB Intuitions and Stockmark...",
+          "timestamp": "2026-07-16T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/japans-enterprises-and-startups-build-industry-specialized-ai-with-nvidia-nemotron-open-models",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
+          "body": "General-purpose robots and autonomous machines are moving from research labs to real-world...",
+          "timestamp": "2026-07-16T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
           "body": "Home to leading manufacturers, robotics pioneers and infrastructure builders, Japan is one...",
@@ -40,24 +94,6 @@
           "extras": {
             "data_origin": "Product Hunt"
           }
-        },
-        {
-          "subject": "ChatGPT is now a partner for your most ambitious work",
-          "body": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-          "timestamp": "2026-07-10T04:00:01",
-          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Large Tabular Models Excel Where LLMs Fail",
-          "body": "The large language models (LLMs) that form the basis of generative AI chatbots such as ChatGPT, Claude, and Gemini can generate uncannily human-like text and images. But these models still struggle with a skill that, ironically, looks at face value...",
-          "timestamp": "2026-07-09T13:30:02",
-          "url": "https://spectrum.ieee.org/large-tabular-models-nexus",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
-          }
         }
       ]
     },
@@ -65,20 +101,20 @@
       "count": 2,
       "items": [
         {
-          "subject": "nvidia/Nemotron-3-Embed-1B-BF16",
-          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2407.14679\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-3B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-07-14T16:44:26",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+          "subject": "nvidia/Nemotron-3-Embed-8B-BF16",
+          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-8B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-8B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-07-15T17:11:24",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
         },
         {
-          "subject": "nvidia/Nemotron-Labs-Audex-2B",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-07-09T18:50:10",
-          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B",
+          "subject": "nvidia/Nemotron-3-Embed-1B-BF16",
+          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2407.14679\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-3B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-07-15T17:03:46",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -87,5 +123,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments in AI with insight:\n\n* **NVIDIA and Japan partner on full-stack AI and robotics**: NVIDIA has partnered with Japan to bring full-stack AI and robotics solutions to various industries, leveraging the country's strengths in manufacturing, robotics, and infrastructure. This partnership is expected to drive innovation in AI adoption across sectors.\n* **SpaceX and OpenAI engage in public feud over AI revolution leadership**: Elon Musk and Sam Altman have engaged in a public social media spat over whose company is leading the AI revolution, with Musk accusing Altman of scamming investors. This feud highlights the intense competition in the AI space.\n* **AWS makes OpenAI's GPT-5.6, Sol, Terra, and Luna models available on Amazon Bedrock**: Amazon Web Services has made OpenAI's latest models available on its platform, enabling developers to integrate these models into their applications. This move further cements AWS' position as a leading provider of AI infrastructure.\n* **OpenAI's ChatGPT expands capabilities with Work feature**: OpenAI has introduced ChatGPT Work, an agent that can perform tasks across multiple applications and files, and help users complete projects. This feature demonstrates the company's commitment to making AI more accessible and useful to a broader audience.\n* **Large Language Models (LLMs) struggle with tabular data processing**: While LLMs excel in generating human-like text and images, they still struggle with processing tabular data, highlighting the need for specialized models in certain domains.\n* **NVIDIA releases Nemotron-3 Embed-1B-BF16 model on Hugging Face**: NVIDIA has released a new model, Nemotron-3 Embed-1B-BF16, on the Hugging Face platform, expanding the capabilities of its transformer models and enabling developers to build more sophisticated AI applications.\n\nTrend: The trend in AI development is towards specialized models and platforms that cater to specific use cases and industries. As AI becomes increasingly ubiquitous, the need for models that excel in particular domains is growing, and companies like NVIDIA and OpenAI are investing in research and development to meet this need."
+  "summary": "Here are 5 key points, 1 trend, and 1 analysis:\n\n**Key points:**\n\n* NVIDIA has partnered with Japanese company Noetra Corp. to launch the world's first national AI infrastructure, aimed at advancing Japan's AI and robotics capabilities.\n* OpenAI has introduced a new automated red teaming system called GPT-Red, which uses self-play to improve AI safety, alignment, and prompt injection robustness.\n* NVIDIA has released new Jetson Thor computers, designed to advance mainstream robotics and edge AI applications.\n* Japan's robotics and manufacturing leaders are building on NVIDIA's Cosmos platform to advance the physical AI frontier.\n* OpenAI's models, GPT-5.6 Sol, Terra, and Luna, are now available on Amazon Bedrock for general use.\n\n**Trend:**\n\n* The increasing focus on AI safety and alignment: Many of the recent developments point to a growing concern about the potential risks of AI and the need for safe and aligned AI systems. OpenAI's GPT-Red is an example of this, with a focus on improving AI safety and robustness.\n\n**Analysis:**\n\nThe AI landscape continues to evolve rapidly, with major players like NVIDIA and OpenAI pushing the boundaries of what is possible with AI and robotics. The recent developments point to a growing focus on safe and aligned AI systems, with a emphasis on addressing the potential risks associated with AI. As AI continues to advance, it will be important for developers and researchers to prioritize safety and alignment in order to ensure that AI benefits humanity as a whole."
 }
