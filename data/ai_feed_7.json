@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-17T04:58:54.378Z",
+  "timestamp": "2026-07-18T04:45:02.218Z",
   "categories": {
     "news": {
-      "count": 10,
+      "count": 12,
       "items": [
+        {
+          "subject": "Thinking Machines Lab Drops Its First Model",
+          "body": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
+          "timestamp": "2026-07-17T04:00:01",
+          "url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
+          "extras": {
+            "data_origin": "Wired"
+          }
+        },
+        {
+          "subject": "Why teens deserve access to safe AI",
+          "body": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+          "timestamp": "2026-07-17T04:00:01",
+          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How Cars24 scales conversations and builds faster with OpenAI",
+          "body": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+          "timestamp": "2026-07-17T04:00:01",
+          "url": "https://openai.com/index/cars24",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Japan Government, Industrial Leaders and NVIDIA Launch the World’s First National AI Infrastructure",
           "body": "NVIDIA today announced it is working with Noetra Corp. to launch an...",
@@ -85,21 +112,42 @@
           "extras": {
             "data_origin": "AWS AI News"
           }
-        },
-        {
-          "subject": "Product Hunt Launch: ChatCut",
-          "body": "Your AI video editor - in ChatGPT, desktop, and web",
-          "timestamp": "2026-07-10T13:30:02",
-          "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
         }
       ]
     },
     "models": {
-      "count": 2,
+      "count": 4,
       "items": [
+        {
+          "subject": "nvidia/Nemotron-Labs-Audex-2B",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-07-16T20:31:57",
+          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Nemotron-Labs-Audex-30B-A3B",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"RL\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-07-16T20:31:55",
+          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Nemotron-3-Embed-1B-BF16",
+          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2407.14679\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-3B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-07-16T11:00:53",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/Nemotron-3-Embed-8B-BF16",
           "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-8B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-8B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
@@ -109,19 +157,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Embed-1B-BF16",
-          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2407.14679\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-3B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-07-15T17:03:46",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 5 key points, 1 trend, and 1 analysis:\n\n**Key points:**\n\n* NVIDIA has partnered with Japanese company Noetra Corp. to launch the world's first national AI infrastructure, aimed at advancing Japan's AI and robotics capabilities.\n* OpenAI has introduced a new automated red teaming system called GPT-Red, which uses self-play to improve AI safety, alignment, and prompt injection robustness.\n* NVIDIA has released new Jetson Thor computers, designed to advance mainstream robotics and edge AI applications.\n* Japan's robotics and manufacturing leaders are building on NVIDIA's Cosmos platform to advance the physical AI frontier.\n* OpenAI's models, GPT-5.6 Sol, Terra, and Luna, are now available on Amazon Bedrock for general use.\n\n**Trend:**\n\n* The increasing focus on AI safety and alignment: Many of the recent developments point to a growing concern about the potential risks of AI and the need for safe and aligned AI systems. OpenAI's GPT-Red is an example of this, with a focus on improving AI safety and robustness.\n\n**Analysis:**\n\nThe AI landscape continues to evolve rapidly, with major players like NVIDIA and OpenAI pushing the boundaries of what is possible with AI and robotics. The recent developments point to a growing focus on safe and aligned AI systems, with a emphasis on addressing the potential risks associated with AI. As AI continues to advance, it will be important for developers and researchers to prioritize safety and alignment in order to ensure that AI benefits humanity as a whole."
+  "summary": "Here are the key developments with insight:\n\n• **Thinking Machines Lab Releases Its First Model**: Thinking Machines Lab has released its first open-source model, Inkling, a 975-billion-parameter model that can understand video and audio. This move could help the company establish itself among competitors like Anthropic and OpenAI.\n• **OpenAI and AWS Expand Their Partnership**: OpenAI's GPT-5.6 Sol, Terra, and Luna models are now generally available on Amazon Web Services (AWS), making them easier to access and integrate into applications.\n• **NVIDIA Strengthens Its Position in AI and Robotics**: NVIDIA has announced a series of partnerships and releases, including the introduction of new Jetson Thor computers for edge AI and robotics, the launch of the first national AI infrastructure in Japan, and the development of new AI models on its Nemotron platform.\n• **Tensions Between Elon Musk and Sam Altman**: A social media feud erupted between Elon Musk and Sam Altman, with each accusing the other of scamming investors and engaging in a competition to lead the AI revolution.\n• **Advances in AI Safety**: State and federal governments are taking steps to advance AI safety, with OpenAI outlining a \"reverse federalism\" approach to governance and the US government taking action to address AI safety concerns.\n• **New Developments in Japan's AI Ecosystem**: Japan's government, industrial leaders, and NVIDIA have launched a national AI infrastructure, and the country's enterprises and startups are building industry-specialized AI models on NVIDIA's Nemotron platform.\n\nTrend:\n**Explosive Growth of AI Infrastructure**: The rapid advancement of AI and the increasing demand for AI infrastructure have led to a flurry of releases and partnerships in recent days, with companies like NVIDIA, OpenAI, and Thinking Machines Lab expanding their offerings and capabilities. This trend is expected to continue in the coming months, with a focus on developing more specialized and applications-driven AI models."
 }
