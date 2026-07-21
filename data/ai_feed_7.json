@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-20T05:34:55.239Z",
+  "timestamp": "2026-07-21T05:16:30.653Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 11,
       "items": [
         {
           "subject": "Thinking Machines Lab Drops Its First Model",
@@ -103,15 +103,6 @@
           "extras": {
             "data_origin": "Fortune"
           }
-        },
-        {
-          "subject": "AWS: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
-          "body": "Build with the smartest family of models from OpenAI yet, on Amazon...",
-          "timestamp": "2026-07-14T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
         }
       ]
     },
@@ -161,5 +152,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **Thinking Machines Lab releases its first model, Inkling**: A 975-billion-parameter open-source model that was trained to understand video and audio, aiming to establish Thinking Machines among AI competitors like Anthropic and OpenAI.\n* **NVIDIA launches Japan's first national AI infrastructure**: Partnership with Japan's government and industrial leaders to create an AI ecosystem, reinforcing NVIDIA's presence in the country.\n* **NVIDIA introduces Jetson Thor computers**: Advancing mainstream robotics and edge AI, enabling general-purpose robots and autonomous machines to be used in real-world applications.\n* **AWS makes OpenAI's GPT-5.6 Sol, Terra, and Luna available**: Further expanding the reach of OpenAI's models, now accessible on Amazon Bedrock.\n\n**Trend:** The development of increasingly powerful and specialized AI models, such as GPT-5.6 and Inkling, underscores the rapid advancement of the field of AI."
+  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n1. **Thinking Machines Lab releases its first model, Inkling**: The company has dropped a 975-billion-parameter open-source model, Inkling, which is trained to understand video and audio. This move is significant as it establishes Thinking Machines as a competitor to other AI labs like Anthropic and OpenAI.\n2. **OpenAI prioritizes teen safety and accessibility**: OpenAI has introduced age-appropriate protections, learning tools, parental controls, and expert partnerships to make ChatGPT safer for teenagers. This step is crucial in ensuring AI is developed responsibly and for the greater good.\n3. **NVIDIA collaborates with Japan to advance national AI infrastructure**: The Japanese government and industrial leaders, along with NVIDIA, have launched the first national AI infrastructure, marking a significant step forward in the country's AI ambitions.\n4. **OpenAI emphasizes AI safety and governance**: OpenAI has outlined a \"reverse federalism\" approach to AI governance, where state laws help build a national framework for safe and democratic AI. This approach aims to ensure AI development aligns with societal values.\n\n**Trend:** The AI industry is seeing increased emphasis on safety, accessibility, and governance, as companies and governments recognize the potential benefits and risks associated with AI development. The trend towards more responsible AI development is expected to continue, with a focus on creating AI that benefits society as a whole."
 }
