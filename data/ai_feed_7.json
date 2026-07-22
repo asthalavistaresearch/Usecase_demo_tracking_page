@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-21T05:16:30.653Z",
+  "timestamp": "2026-07-22T05:15:17.087Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 13,
       "items": [
+        {
+          "subject": "NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds",
+          "body": "NVIDIA today announced that NVIDIA Agent Toolkit now includes NVIDIA Omniverse™ libraries...",
+          "timestamp": "2026-07-21T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+          "body": "From open models to real-time simulation, AI and graphics breakthroughs are transforming...",
+          "timestamp": "2026-07-21T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AWS: Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit",
+          "body": "Fast-growing companies and enterprise supply-chain teams often have enough data to see...",
+          "timestamp": "2026-07-21T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "Thinking Machines Lab Drops Its First Model",
           "body": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
@@ -94,21 +121,32 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "Elon Musk and Sam Altman are accusing each other of scamming investors as SpaceX and OpenAI jockey to lead AI revolution",
-          "body": "A social media fight erupted after their companies launched competing AI models one day apart.",
-          "timestamp": "2026-07-15T04:00:02",
-          "url": "https://fortune.com/2026/07/13/elon-musk-sam-altman-feud-scam-accusations-spacex-openai-ipos-grok-gpt-apple-lawsuit/",
-          "extras": {
-            "data_origin": "Fortune"
-          }
         }
       ]
     },
     "models": {
       "count": 4,
       "items": [
+        {
+          "subject": "nvidia/Nemotron-3-Embed-8B-BF16",
+          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-8B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-8B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"deploy:azure\", \"region:us\"]",
+          "timestamp": "2026-07-20T21:45:47",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Nemotron-3-Embed-1B-BF16",
+          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2407.14679\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-3B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"deploy:azure\", \"region:us\"]",
+          "timestamp": "2026-07-20T21:45:17",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/Nemotron-Labs-Audex-2B",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
@@ -128,29 +166,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Embed-1B-BF16",
-          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2407.14679\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-3B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-07-16T11:00:53",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Embed-8B-BF16",
-          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-8B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-8B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-07-15T17:11:24",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n1. **Thinking Machines Lab releases its first model, Inkling**: The company has dropped a 975-billion-parameter open-source model, Inkling, which is trained to understand video and audio. This move is significant as it establishes Thinking Machines as a competitor to other AI labs like Anthropic and OpenAI.\n2. **OpenAI prioritizes teen safety and accessibility**: OpenAI has introduced age-appropriate protections, learning tools, parental controls, and expert partnerships to make ChatGPT safer for teenagers. This step is crucial in ensuring AI is developed responsibly and for the greater good.\n3. **NVIDIA collaborates with Japan to advance national AI infrastructure**: The Japanese government and industrial leaders, along with NVIDIA, have launched the first national AI infrastructure, marking a significant step forward in the country's AI ambitions.\n4. **OpenAI emphasizes AI safety and governance**: OpenAI has outlined a \"reverse federalism\" approach to AI governance, where state laws help build a national framework for safe and democratic AI. This approach aims to ensure AI development aligns with societal values.\n\n**Trend:** The AI industry is seeing increased emphasis on safety, accessibility, and governance, as companies and governments recognize the potential benefits and risks associated with AI development. The trend towards more responsible AI development is expected to continue, with a focus on creating AI that benefits society as a whole."
+  "summary": "Here are the key developments with insight, 4-6 bullet points, and 1 trend:\n\n**Key Developments:**\n\n• NVIDIA has expanded its Agent Toolkit with new Omniverse libraries, enabling AI agents to build simulation-ready worlds.\n• OpenAI has released GPT-Red, an automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.\n• Thinking Machines Lab has dropped its first model, Inkling, a 975-billion-parameter open source model trained to understand video and audio.\n• NVIDIA has partnered with Japan's government and industrial leaders to launch the world's first national AI infrastructure.\n• NVIDIA has introduced new Jetson Thor computers to advance mainstream robotics and edge AI.\n• Japan's enterprises and startups are building industry-specialized AI using NVIDIA's Nemotron open models.\n\n**Trend:** **Fast expansion of AI infrastructure and technologies in Japan**\n\nJapan is becoming a hub for AI development, with NVIDIA's partnership with the Japanese government and industries leading to the launch of the world's first national AI infrastructure. This is in line with the country's goal to become a leader in AI adoption and development. Japan's enterprises and startups are also leveraging NVIDIA's Nemotron open models to build industry-specialized AI, indicating a growing interest in AI adoption in various sectors."
 }
