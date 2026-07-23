@@ -1,10 +1,91 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-22T05:15:17.087Z",
+  "timestamp": "2026-07-23T05:20:25.669Z",
   "categories": {
     "news": {
-      "count": 13,
+      "count": 16,
       "items": [
+        {
+          "subject": "Building AI infrastructure with the Effingham County community",
+          "body": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+          "timestamp": "2026-07-22T13:30:02",
+          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Introducing OpenAI Presence",
+          "body": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+          "timestamp": "2026-07-22T13:30:02",
+          "url": "https://openai.com/index/introducing-openai-presence",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
+          "body": "Before a healthcare robot can be useful in the real world, it...",
+          "timestamp": "2026-07-22T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Introducing the ChatGPT for small business program",
+          "body": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+          "timestamp": "2026-07-22T04:00:02",
+          "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+          "body": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+          "timestamp": "2026-07-22T04:00:02",
+          "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+          "body": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+          "timestamp": "2026-07-22T04:00:02",
+          "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+          "body": "The AI era runs on AI infrastructure. Many of these advanced systems...",
+          "timestamp": "2026-07-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
+          "body": "NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72...",
+          "timestamp": "2026-07-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/vera-rubin/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
+          "body": "AI has entered the gigascale era. The world’s most advanced AI factories...",
+          "timestamp": "2026-07-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds",
           "body": "NVIDIA today announced that NVIDIA Agent Toolkit now includes NVIDIA Omniverse™ libraries...",
@@ -67,60 +148,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "The US is advancing AI safety through state and federal action",
-          "body": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-          "timestamp": "2026-07-16T04:00:02",
-          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "GPT-Red: Unlocking Self-Improvement for Robustness",
-          "body": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-          "timestamp": "2026-07-16T04:00:02",
-          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier",
-          "body": "NVIDIA today announced that Japan’s physical AI leaders are building on the...",
-          "timestamp": "2026-07-16T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models",
-          "body": "News Summary: Institution of Science Tokyo, SoftBank Corp.'s SB Intuitions and Stockmark...",
-          "timestamp": "2026-07-16T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/japans-enterprises-and-startups-build-industry-specialized-ai-with-nvidia-nemotron-open-models",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
-          "body": "General-purpose robots and autonomous machines are moving from research labs to real-world...",
-          "timestamp": "2026-07-16T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
-          "body": "Home to leading manufacturers, robotics pioneers and infrastructure builders, Japan is one...",
-          "timestamp": "2026-07-15T13:30:01",
-          "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -170,5 +197,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight, 4-6 bullet points, and 1 trend:\n\n**Key Developments:**\n\n• NVIDIA has expanded its Agent Toolkit with new Omniverse libraries, enabling AI agents to build simulation-ready worlds.\n• OpenAI has released GPT-Red, an automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.\n• Thinking Machines Lab has dropped its first model, Inkling, a 975-billion-parameter open source model trained to understand video and audio.\n• NVIDIA has partnered with Japan's government and industrial leaders to launch the world's first national AI infrastructure.\n• NVIDIA has introduced new Jetson Thor computers to advance mainstream robotics and edge AI.\n• Japan's enterprises and startups are building industry-specialized AI using NVIDIA's Nemotron open models.\n\n**Trend:** **Fast expansion of AI infrastructure and technologies in Japan**\n\nJapan is becoming a hub for AI development, with NVIDIA's partnership with the Japanese government and industries leading to the launch of the world's first national AI infrastructure. This is in line with the country's goal to become a leader in AI adoption and development. Japan's enterprises and startups are also leveraging NVIDIA's Nemotron open models to build industry-specialized AI, indicating a growing interest in AI adoption in various sectors."
+  "summary": "Here are 4-6 bullet points summarizing the key developments and insights from the provided data:\n\n• **OpenAI initiatives**: OpenAI has made several announcements, including the launch of Project Camellia in Effingham County, Georgia, which aims to build AI infrastructure with community investment and job creation. They have also introduced OpenAI Presence, a proven enterprise AI agent platform for trusted voice and chat agents, and the ChatGPT for small business program, which helps entrepreneurs build AI skills and automate work.\n\n• **NVIDIA advancements**: NVIDIA has also made significant announcements, including the open-sourcing of its GPU-accelerated medical physics simulation framework, and the launch of NVIDIA Vera Rubin, a new AI chip that drives performance per watt and is the first to reach the gigascale era. They have also announced the NVIDIA Agent Toolkit, which now includes Omniverse libraries, and the NVIDIA Spectrum-6, which arrives in gigascale AI factories.\n\n• **AI partnerships and collaborations**: Japan's government and industrial leaders, along with NVIDIA, have launched the world's first national AI infrastructure. OpenAI has also partnered with Hugging Face to address a security incident during AI model evaluation, highlighting lessons for defenders. Wistron has also opened an advanced manufacturing plant in Fort Worth to produce NVIDIA AI systems.\n\n• **AI accessibility and safety**: OpenAI has announced that it is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships. Thinking Machines Lab has also released its first model, Inkling, a 975-billion-parameter open-source model that can understand video and audio.\n\n• **Model developments**: NVIDIA has released several new models, including nvidia/Nemotron-3-Embed-8B-BF16, nvidia/Nemotron-3-Embed-1B-BF16, nvidia/Nemotron-Labs-Audex-2B, and nvidia/Nemotron-Labs-Audex-30B-A3B, with various capabilities such as general-purpose AI, audio-language modeling, and speech recognition.\n\n**Trend:** The trend in these announcements is the increasing focus on building and deploying AI infrastructure, with a emphasis on responsible and sustainable development. There is also a growing recognition of the importance of AI accessibility and safety, particularly for teens, and a focus on collaboration and partnerships in the AI space."
 }
