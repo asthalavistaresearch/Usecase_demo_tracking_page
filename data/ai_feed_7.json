@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-23T05:20:25.669Z",
+  "timestamp": "2026-07-24T05:16:25.859Z",
   "categories": {
     "news": {
-      "count": 16,
+      "count": 15,
       "items": [
+        {
+          "subject": "Advancing the next era of national science",
+          "body": "OpenAI outlines its commitment to advancing American science working with the U. S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+          "timestamp": "2026-07-23T04:00:02",
+          "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+          "body": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+          "timestamp": "2026-07-23T04:00:02",
+          "url": "https://openai.com/index/ntt-data",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+          "body": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School...",
+          "timestamp": "2026-07-23T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Building AI infrastructure with the Effingham County community",
           "body": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
@@ -112,47 +139,11 @@
           "extras": {
             "data_origin": "AWS AI News"
           }
-        },
-        {
-          "subject": "Thinking Machines Lab Drops Its First Model",
-          "body": "Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
-          "timestamp": "2026-07-17T04:00:01",
-          "url": "https://www.wired.com/story/thinking-machines-lab-releases-its-first-model-inkling/",
-          "extras": {
-            "data_origin": "Wired"
-          }
-        },
-        {
-          "subject": "Why teens deserve access to safe AI",
-          "body": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-          "timestamp": "2026-07-17T04:00:01",
-          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Cars24 scales conversations and builds faster with OpenAI",
-          "body": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-          "timestamp": "2026-07-17T04:00:01",
-          "url": "https://openai.com/index/cars24",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Japan Government, Industrial Leaders and NVIDIA Launch the World’s First National AI Infrastructure",
-          "body": "NVIDIA today announced it is working with Noetra Corp. to launch an...",
-          "timestamp": "2026-07-16T13:30:01",
-          "url": "https://nvidianews.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 4,
+      "count": 2,
       "items": [
         {
           "subject": "nvidia/Nemotron-3-Embed-8B-BF16",
@@ -173,29 +164,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Nemotron-Labs-Audex-2B",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-07-16T20:31:57",
-          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-2B",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/Nemotron-Labs-Audex-30B-A3B",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_labs_audex\", \"nvidia\", \"nemotron-labs-audex\", \"reasoning\", \"general-purpose\", \"SFT\", \"RL\", \"audio-language-modeling\", \"audio-understanding\", \"text-to-speech\", \"text-to-audio\", \"speech-recognition\", \"speech-translation\", \"text-generation\", \"en\", \"arxiv:2607.05196\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-07-16T20:31:55",
-          "url": "https://huggingface.co/nvidia/Nemotron-Labs-Audex-30B-A3B",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing the key developments and insights from the provided data:\n\n• **OpenAI initiatives**: OpenAI has made several announcements, including the launch of Project Camellia in Effingham County, Georgia, which aims to build AI infrastructure with community investment and job creation. They have also introduced OpenAI Presence, a proven enterprise AI agent platform for trusted voice and chat agents, and the ChatGPT for small business program, which helps entrepreneurs build AI skills and automate work.\n\n• **NVIDIA advancements**: NVIDIA has also made significant announcements, including the open-sourcing of its GPU-accelerated medical physics simulation framework, and the launch of NVIDIA Vera Rubin, a new AI chip that drives performance per watt and is the first to reach the gigascale era. They have also announced the NVIDIA Agent Toolkit, which now includes Omniverse libraries, and the NVIDIA Spectrum-6, which arrives in gigascale AI factories.\n\n• **AI partnerships and collaborations**: Japan's government and industrial leaders, along with NVIDIA, have launched the world's first national AI infrastructure. OpenAI has also partnered with Hugging Face to address a security incident during AI model evaluation, highlighting lessons for defenders. Wistron has also opened an advanced manufacturing plant in Fort Worth to produce NVIDIA AI systems.\n\n• **AI accessibility and safety**: OpenAI has announced that it is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships. Thinking Machines Lab has also released its first model, Inkling, a 975-billion-parameter open-source model that can understand video and audio.\n\n• **Model developments**: NVIDIA has released several new models, including nvidia/Nemotron-3-Embed-8B-BF16, nvidia/Nemotron-3-Embed-1B-BF16, nvidia/Nemotron-Labs-Audex-2B, and nvidia/Nemotron-Labs-Audex-30B-A3B, with various capabilities such as general-purpose AI, audio-language modeling, and speech recognition.\n\n**Trend:** The trend in these announcements is the increasing focus on building and deploying AI infrastructure, with a emphasis on responsible and sustainable development. There is also a growing recognition of the importance of AI accessibility and safety, particularly for teens, and a focus on collaboration and partnerships in the AI space."
+  "summary": "Here are 6 key points and 1 trend from the latest developments in AI:\n\n**Key Points:**\n\n* **OpenAI announces commitment to advancing American science**: OpenAI has partnered with the US Department of Energy and national labs to use frontier AI to accelerate scientific discovery.\n* **NTT DATA Group automates work with ChatGPT**: NTT DATA Group uses ChatGPT Enterprise and Codex to automate work, reduce incident analysis to 30 minutes, and scale secure AI adoption.\n* **NVIDIA AI Supercomputer Comes Online**: NVIDIA has launched an AI supercomputer at the Naval Postgraduate School, marking a significant milestone in AI research and development.\n* **OpenAI partners with Hugging Face to address security incident**: OpenAI and Hugging Face have shared findings from a security incident, highlighting advanced cyber capabilities and lessons for AI defenders.\n* **New AI infrastructure for Effingham County community**: OpenAI announces Project Camellia, a community-driven initiative to build responsible AI infrastructure in Effingham County, Georgia.\n* **NVIDIA launches Omniverse libraries**: NVIDIA Agent Toolkit now includes Omniverse libraries, enabling AI agents to build simulation-ready worlds.\n\n**Trend:** The trend is towards **larger-scale AI infrastructure and accelerators**, with a focus on advancing scientific research, automating work, and developing more secure and responsible AI systems. This is reflected in the launch of the NVIDIA AI Supercomputer and the introduction of Omniverse libraries, which enable the creation of complex AI simulations and models. Additionally, the growth of community-driven initiatives like Project Camellia highlights the importance of responsible AI development and deployment."
 }
