@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-27T05:44:10.755Z",
+  "timestamp": "2026-07-28T05:10:20.523Z",
   "categories": {
     "news": {
       "count": 22,
       "items": [
+        {
+          "subject": "Ilya Sutskever’s Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
+          "body": "Access to NVIDIA's Best-in-Class Vera Rubin Systems Expands SSI's Compute by an...",
+          "timestamp": "2026-07-27T13:30:02",
+          "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+          "body": "The complexity of modern chip design continues to grow as engineering teams...",
+          "timestamp": "2026-07-27T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Expands NVIDIA Agent Toolkit With NVIDIA PhysicsNeMo and CUDA-X Libraries to Transform How the World Engineers, Designs and Builds",
+          "body": "NVIDIA today announced an expansion of NVIDIA Agent Toolkit for engineering, now...",
+          "timestamp": "2026-07-27T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-nvidia-agent-toolkit-with-nvidia-physicsnemo-and-cuda-x-libraries-to-transform-how-the-world-engineers-designs-and-builds-6926982",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "NAVER, NVIDIA and Brookfield to Expand Korea’s National AI Factory Infrastructure Buildout",
           "body": "Planned Investments to Scale NAVER's Initial Multi-Tenant NVIDIA DSX AI Factory to...",
@@ -123,6 +150,15 @@
           }
         },
         {
+          "subject": "Introducing the ChatGPT for small business program",
+          "body": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+          "timestamp": "2026-07-22T04:00:02",
+          "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
           "body": "AI has entered the gigascale era. The world’s most advanced AI factories...",
           "timestamp": "2026-07-22T04:00:02",
@@ -166,70 +202,13 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Introducing the ChatGPT for small business program",
-          "body": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-          "timestamp": "2026-07-22T04:00:02",
-          "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Agent Toolkit Expands With New Omniverse Libraries, Putting AI Agents to Work Building Simulation-Ready Worlds",
-          "body": "NVIDIA today announced that NVIDIA Agent Toolkit now includes NVIDIA Omniverse™ libraries...",
-          "timestamp": "2026-07-21T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "AWS: Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit",
-          "body": "Fast-growing companies and enterprise supply-chain teams often have enough data to see...",
-          "timestamp": "2026-07-21T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
-          "body": "From open models to real-time simulation, AI and graphics breakthroughs are transforming...",
-          "timestamp": "2026-07-21T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 2,
-      "items": [
-        {
-          "subject": "nvidia/Nemotron-3-Embed-8B-BF16",
-          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-8B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-8B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-07-20T21:45:47",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Embed-1B-BF16",
-          "body": "[\"sentence-transformers\", \"safetensors\", \"ministral3\", \"feature-extraction\", \"text\", \"text-embeddings\", \"retrieval\", \"semantic-search\", \"transformers\", \"rag\", \"vllm\", \"sentence-similarity\", \"multilingual\", \"en\", \"ar\", \"as\", \"bn\", \"bg\", \"zh\", \"da\", \"nl\", \"fi\", \"fr\", \"de\", \"hi\", \"id\", \"it\", \"ja\", \"ko\", \"ms\", \"mr\", \"ne\", \"no\", \"fa\", \"pt\", \"ro\", \"ru\", \"es\", \"sw\", \"sv\", \"ta\", \"te\", \"th\", \"uk\", \"ur\", \"vi\", \"arxiv:2407.14679\", \"arxiv:2502.13595\", \"base_model:mistralai/Ministral-3-3B-Instruct-2512\", \"base_model:finetune:mistralai/Ministral-3-3B-Instruct-2512\", \"license:other\", \"endpoints_compatible\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-07-20T21:45:17",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   },
-  "summary": "Here are 4-6 bullet points and 1 trend:\n\n**Key Developments:**\n\n* NVIDIA and partner NAVER are expanding Korea's national AI factory infrastructure buildout with a planned investment.\n* SK Group and NVIDIA are expanding their strategic partnership across AI factories and next-generation memory, with a focus on the $500 billion-plus NVIDIA-SK AI initiative.\n* OpenAI has launched a joint AI research lab with KAIST to accelerate AI innovation in Korea.\n* NVIDIA has opened-sourced its first GPU-accelerated medical physics simulation framework.\n* OpenAI has introduced its Presence, a proven enterprise AI agent platform for customer and internal workflows.\n* NVIDIA has introduced its Agent Toolkit, which now includes Omniverse libraries for building simulation-ready worlds.\n\n**Trend:** **AI Collaboration and Expansion**\n\nThe trend is towards increased collaboration and expansion in the AI space, with major players like NVIDIA, OpenAI, and SK Group working together to accelerate AI innovation, scale up AI infrastructure, and develop new AI applications. This trend is evident in the announcements of new partnerships, research collaborations, and open-sourcing of AI frameworks and libraries, indicating a focus on accelerating the growth and adoption of AI technologies."
+  "summary": "Here are 6 key developments with insight:\n\n* **NVIDIA and Safe Superintelligence Inc. announce long-term strategic partnership**: NVIDIA and Safe Superintelligence Inc. (SSI) have entered into a long-term strategic partnership, with NVIDIA providing SSI with access to its Vera Rubin Systems, a high-performance computing platform. This partnership will enable SSI to accelerate its compute capabilities and advance its AI research.\n* **NVIDIA expands NVIDIA Agent Toolkit**: NVIDIA has expanded its NVIDIA Agent Toolkit, which now includes NVIDIA PhysicsNeMo and CUDA-X libraries. This expansion will enable engineers to design and build more complex systems, transforming how the world engineers, designs, and builds.\n* **NAVER, NVIDIA, and Brookfield to expand Korea's National AI Factory infrastructure**: NAVER, NVIDIA, and Brookfield have announced plans to expand Korea's National AI Factory infrastructure, with NAVER initially investing in a multi-tenant NVIDIA DSX AI Factory. This partnership will enhance the country's AI capabilities and drive innovation in the region.\n* **SK Group and NVIDIA expand strategic partnership**: SK Group and NVIDIA have expanded their strategic partnership, which spans AI factories, next-generation memory, and other areas. This partnership will drive innovations in AI and memory technologies, benefitting both companies and their respective industries.\n* **NVIDIA AI Supercomputer comes online at the Naval Postgraduate School**: NVIDIA has installed an AI supercomputer at the Naval Postgraduate School, providing the institution with advanced AI capabilities to support its research and education initiatives.\n* **OpenAI and Hugging Face address security incident**: OpenAI and Hugging Face have shared early findings from a security incident during model evaluation, highlighting advanced cyber capabilities and lessons for defenders. This incident emphasizes the importance of security in AI development and evaluation.\n\n**Trend:** The trend in the AI industry is the increasing collaboration and partnership between leading AI companies, governments, and institutions to drive innovation and advancements in AI technologies. These partnerships are essential for advancing AI capabilities, exploring new applications, and addressing the societal and economic impact of AI."
 }
