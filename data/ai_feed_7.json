@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-07-30T04:54:10.933Z",
+  "timestamp": "2026-07-31T05:31:01.348Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 8,
       "items": [
+        {
+          "subject": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+          "body": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+          "timestamp": "2026-07-30T04:00:01",
+          "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
           "body": "Anyone can make a robot move; NVIDIA Jetson makes it think. As...",
@@ -67,42 +76,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "What to know about the AI hacking blamed on rogue OpenAI models",
-          "body": "ChatGPT maker OpenAI says it is still investigating the “unprecedented cyber incident” that led its artificial intelligence systems to break out of a testing environment and hack into another AI company. OpenAI said Tuesday that two of its most capable AI mod…",
-          "timestamp": "2026-07-24T04:00:02",
-          "url": "https://apnews.com/article/openai-rogue-ai-hack-hugging-face-67b151f1ca59851a9234bee110699f05",
-          "extras": {
-            "data_origin": "Associated Press"
-          }
-        },
-        {
-          "subject": "Launching Health in ChatGPT",
-          "body": "Health in ChatGPT now lets eligible U. S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-          "timestamp": "2026-07-24T04:00:02",
-          "url": "https://openai.com/index/health-in-chatgpt",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Codex became a collaborator for OpenAI’s creative team",
-          "body": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
-          "timestamp": "2026-07-24T04:00:02",
-          "url": "https://openai.com/index/codex-collaborator-creative-team",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA and KAIST Launch Joint AI Research Lab to Accelerate AI Innovation in Korea",
-          "body": "NVIDIA and the Korea Advanced Institute of Science and Technology (KAIST) today...",
-          "timestamp": "2026-07-24T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-kaist-launch-joint-ai-research-lab-to-accelerate-ai-innovation-in-korea",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -111,5 +84,5 @@
       "items": []
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **NVIDIA Expands Capabilities**: NVIDIA has made several significant announcements, including the expansion of their NVIDIA Agent Toolkit, which now includes NVIDIA PhysicsNeMo and CUDA-X Libraries, allowing users to transform how they engineer, design, and build. Additionally, their Vera CPU is being harnessed to speed up the design of next-generation CPUs and GPUs.\n* **Partnership Expansions**: NVIDIA has formed new partnerships with several major companies, including Safe Superintelligence Inc., SK Group, and NAVER, to advance AI research and development. \n* **AI Innovation in Korea**: NVIDIA has launched a joint AI research lab with the Korea Advanced Institute of Science and Technology (KAIST) to accelerate AI innovation in Korea.\n* **Health in ChatGPT**: OpenAI has launched a feature called Health in ChatGPT, which allows eligible US users to securely connect medical records and Apple Health to gain more personalized insights and better understand their health.\n\n**Trend:** The increasing focus on AI research and development, with a emphasis on improving the design and execution of AI systems, is becoming a dominant trend in the tech industry. The announcements and partnerships announced by NVIDIA and other companies reflect this trend, as they seek to advance the capabilities of AI and leverage its potential in various industries, from healthcare to manufacturing."
+  "summary": "Here are 5 key developments with insight, as well as 1 trend:\n\n**Key Developments:**\n\n* **OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models**: This move can significantly accelerate scientific research, collaboration, and discovery, and highlights the growing importance of AI in the academic world.\n* **NVIDIA expands NVIDIA Agent Toolkit with new features**: The toolkit is now more powerful and versatile, allowing engineers and designers to transform how they engineer, design, and build, and further demonstrates NVIDIA's commitment to AI and machine learning.\n* **NVIDIA and SK Group expand strategic partnership**: This partnership expands the scope of their collaboration in AI factories and next-generation memory, and underscores the growing importance of AI in industries such as manufacturing.\n* **NVIDIA and NAVER to expand Korea's AI factory infrastructure buildout**: This expansion will help scale up NAVER's initial multi-tenant NVIDIA DSX AI factory, and highlights the importance of AI infrastructure development in Korea.\n* **NVIDIA, SK Group, and NAVER collaborate to create a more comprehensive AI ecoystem**: This collaboration brings together key players in the AI space, and demonstrates their shared commitment to advancing AI technology and applications.\n\n**Trend:**\n\n* **Growing importance of AI in the tech industry and beyond**: The current developments highlight the increasing importance of AI in various industries, from manufacturing to research and development. As AI technology advances rapidly, we can expect to see more partnerships and collaborations that leverages its capabilities to drive innovation and growth."
 }
