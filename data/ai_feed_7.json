@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-01T05:22:39.978Z",
+  "timestamp": "2026-08-02T05:22:22.983Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 13,
       "items": [
+        {
+          "subject": "Ten advances in mathematics and theoretical computer science",
+          "body": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+          "timestamp": "2026-08-01T13:30:02",
+          "url": "https://openai.com/index/ten-advances-in-mathematics",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Disrupting a Criminal Scam Operation",
+          "body": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+          "timestamp": "2026-08-01T04:00:02",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "“Tech and Tariffs” Campaign: Influence activity targeting US tech policy",
+          "body": "OpenAI banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions.",
+          "timestamp": "2026-08-01T04:00:02",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "“Data Center Bandwagon” Campaign: US-targeted influence activity",
+          "body": "OpenAI banned a likely PRC-origin cluster using AI to generate social media content criticizing US data centers and AI infrastructure.",
+          "timestamp": "2026-08-01T04:00:02",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Advancing responsible AI across Europe",
           "body": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
@@ -85,24 +121,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
-          "body": "$500-Billion-Plus NVIDIA-SK AI Initiative Spans SK Telecom's AI Factory of up to...",
-          "timestamp": "2026-07-25T13:30:02",
-          "url": "https://nvidianews.nvidia.com/news/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NAVER, NVIDIA and Brookfield to Expand Korea’s National AI Factory Infrastructure Buildout",
-          "body": "Planned Investments to Scale NAVER's Initial Multi-Tenant NVIDIA DSX AI Factory to...",
-          "timestamp": "2026-07-25T13:30:02",
-          "url": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -111,5 +129,5 @@
       "items": []
     }
   },
-  "summary": "Here are the key developments in the field of AI with insight:\n\n**Key Developments:**\n\n* **OpenAI's advancements in responsible AI**: OpenAI is prioritizing responsible AI governance in Europe, sharing its safety, security, transparency, and provenance practices to support the EU AI Act.\n* **Efficient AI models**: OpenAI is releasing GPT-5.6, a more efficient model that enables enterprises to deploy AI workflows at scale, while also offering lower pricing options for Luna and Terra.\n* **Retail AI solutions**: Avatarin uses OpenAI's GPT-Realtime to create a 24/7 multilingual retail agent, achieving positive survey responses from 92% of customers.\n* **AWS collaboration**: Amazon Web Services (AWS) and OpenAI collaborate on explicit prompt caching for GPT-5.6 models on Amazon Bedrock, making it easier for developers to integrate AI into their applications.\n* **NVIDIA's AI advancements**: NVIDIA expands its AI tools with NVIDIA Agent Toolkit, VERAMO, and CUDA-X Libraries, enabling engineers to design and build more efficiently.\n* **NVIDIA's strategic partnerships**: NVIDIA partners with SK Group, NAVER, and Brookfield to expand AI infrastructure and innovations in South Korea.\n\n**Trend:**\n* **Growing emphasis on responsible AI practices**: The industry is shifting towards prioritizing responsible AI governance, transparency, and security, as seen in OpenAI's efforts to support the EU AI Act and NVIDIA's focus on Vera CPU for chip design. This trend is likely to continue as AI adoption accelerates and the importance of responsible AI development becomes more pronounced."
+  "summary": "Here are 4-6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **Advances in Mathematics and Theoretical Computer Science:** OpenAI has made significant progress in solving long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.\n* **Disrupting Criminal Scam Operations:** OpenAI has disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.\n* **Advancing Responsible AI Governance:** OpenAI has shared its safety, security, transparency, and provenance practices to support responsible AI governance in Europe, aligning with the EU AI Act.\n* **Price-Performance Frontier Advancements:** OpenAI has introduced lower pricing for GPT-5.6, making it more accessible to enterprises deploying AI workflows at scale.\n* **Avatarin's 24/7 Retail Agent:** Avatarin has built a 24/7 multilingual retail agent using OpenAI's GPT-Realtime, achieving positive results with 30,000 users in two weeks.\n\n**Trend:**\n\n* **Growing Adoption of AI in Various Industries:** The trend is towards increasing adoption of AI in various industries, including retail, scientific research, and engineering, with companies like OpenAI, NVIDIA, and AWS developing and promoting AI technologies to support these use cases.\n\nThese developments and the trend highlight the rapid progress being made in AI research, applications, and governance, with a growing emphasis on responsible AI practices and adoption across various industries."
 }
