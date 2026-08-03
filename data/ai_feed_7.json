@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-02T05:22:22.983Z",
+  "timestamp": "2026-08-03T05:36:52.590Z",
   "categories": {
     "news": {
-      "count": 13,
+      "count": 11,
       "items": [
         {
           "subject": "Ten advances in mathematics and theoretical computer science",
@@ -103,24 +103,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "NVIDIA Expands NVIDIA Agent Toolkit With NVIDIA PhysicsNeMo and CUDA-X Libraries to Transform How the World Engineers, Designs and Builds",
-          "body": "NVIDIA today announced an expansion of NVIDIA Agent Toolkit for engineering, now...",
-          "timestamp": "2026-07-27T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-nvidia-agent-toolkit-with-nvidia-physicsnemo-and-cuda-x-libraries-to-transform-how-the-world-engineers-designs-and-builds-6926982",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
-          "body": "The complexity of modern chip design continues to grow as engineering teams...",
-          "timestamp": "2026-07-27T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -129,5 +111,5 @@
       "items": []
     }
   },
-  "summary": "Here are 4-6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **Advances in Mathematics and Theoretical Computer Science:** OpenAI has made significant progress in solving long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.\n* **Disrupting Criminal Scam Operations:** OpenAI has disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.\n* **Advancing Responsible AI Governance:** OpenAI has shared its safety, security, transparency, and provenance practices to support responsible AI governance in Europe, aligning with the EU AI Act.\n* **Price-Performance Frontier Advancements:** OpenAI has introduced lower pricing for GPT-5.6, making it more accessible to enterprises deploying AI workflows at scale.\n* **Avatarin's 24/7 Retail Agent:** Avatarin has built a 24/7 multilingual retail agent using OpenAI's GPT-Realtime, achieving positive results with 30,000 users in two weeks.\n\n**Trend:**\n\n* **Growing Adoption of AI in Various Industries:** The trend is towards increasing adoption of AI in various industries, including retail, scientific research, and engineering, with companies like OpenAI, NVIDIA, and AWS developing and promoting AI technologies to support these use cases.\n\nThese developments and the trend highlight the rapid progress being made in AI research, applications, and governance, with a growing emphasis on responsible AI practices and adoption across various industries."
+  "summary": "Here are 6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **Advances in Mathematics and Theoretical Computer Science**: OpenAI has made significant progress in solving long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.\n* **Disrupting a Criminal Scam Operation**: OpenAI has disrupted a Cambodia-based scam operation that used ChatGPT to support investment, romance, gambling, and impersonation schemes.\n* **Influence Activity Targeting US Tech Policy**: OpenAI has banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions.\n* **Data Center Bandwagon Campaign**: OpenAI has banned a likely PRC-origin cluster using AI to generate social media content criticizing US data centers and AI infrastructure.\n* **Advancing Responsible AI Across Europe**: OpenAI has shared its safety, security, transparency, and provenance practices to support responsible AI governance in Europe, in line with the EU AI Act.\n* **Advancing the Price-Performance Frontier with GPT-5.6**: OpenAI has introduced lower GPT-5.6 pricing for Luna and Terra, and has made its more efficient models available to help enterprises deploy AI workflows at scale.\n\n**Trend:**\n\n* **Increased Focus on Responsible AI and AI Governance**: The recent developments suggest a growing focus on responsible AI and AI governance, with OpenAI and other organizations working to ensure that AI is used in a safe, secure, and transparent manner. This trend is likely to continue as governments and industries around the world grapple with the implications of AI and work to establish clear guidelines and regulations for its development and use."
 }
