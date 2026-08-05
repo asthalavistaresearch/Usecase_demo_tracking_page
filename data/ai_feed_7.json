@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-04T05:10:32.061Z",
+  "timestamp": "2026-08-05T05:10:31.310Z",
   "categories": {
     "news": {
       "count": 10,
       "items": [
+        {
+          "subject": "How we built a realtime system for responsive voice AI in six months",
+          "body": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+          "timestamp": "2026-08-04T04:00:02",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Ten advances in mathematics and theoretical computer science",
           "body": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
@@ -85,22 +94,205 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
+        }
+      ]
+    },
+    "papers": {
+      "count": 16,
+      "items": [
+        {
+          "subject": "VARPose: Flexible 2D Pose Densification via Visual Autoregressive Modeling for Enhanced 3D Lifting",
+          "body": "Visual AutoRegressive Modeling (VAR) has excelled in natural image generation via next-scale prediction, but its use on topology-structured data like human skeletons is still unexplored. VARPose is proposed to adaptively densify 2D sparse poses, thereby enriching the anatomical information available for 3D lifting models. Our core contributions are twofold. First, we introduce a Granularity-agnostic Pose Tokenizer (GPT), which employs a single hybrid codebook and a residual quantization strategy to encode poses of varying densities into a unified, multi-scale discrete representation. Our results demonstrate the strong generalizability of this representation. By decoupling the representation from the projection, we can successfully decode novel pose granularities using a frozen codebook with a retrained decoder. Second, we propose UniSkelar, a unified autoregressive model that treats \"joint density\" as \"scale\". UniSkelar learns to predict the token sequence for the next density level in a coarse-to-fine manner, conditioned on the sparsest pose. VARPose not only outperforms state-of-the-art methods and generalizes to unseen granularities, but also confers tangible performance gains on downstream tasks, such as 3D Pose Estimation and Human Mesh Recovery, through 2D pose densification. Our code and model are available at https://github.com/BRL-SYSU/VARPose.git.",
+          "timestamp": "2026-08-03T13:36:24",
+          "url": "https://arxiv.org/abs/2608.02214v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Kaiyuan Pu, Tiantian Yang, Dan Zeng",
+            "updated": "2026-08-03T13:36:24"
+          }
         },
         {
-          "subject": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
-          "body": "Anyone can make a robot move; NVIDIA Jetson makes it think. As...",
-          "timestamp": "2026-07-29T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
+          "subject": "How Much Does a Reasoning Summary Reveal? An Observability Ladder for Large Language Models",
+          "body": "Large language models often show users a final response and a short reasoning summary while the full reasoning trace stays hidden. We introduce an observability ladder that holds each completed run fixed and varies only what a reader inspects to judge whether the answer is correct: the response, a self-summary the model writes from the trace, the trace itself, and internal signals, each with and without the prompt. Across three benchmarks and five open-weight Qwen3 and gpt-oss models, we train matched linear correctness predictors on each access level. Without the prompt, summaries carry most of the trace's ranking signal (mean AUROC 0.774 versus 0.813) and add +0.156 over the response alone. With the prompt visible, the summary's gain collapses to +0.019, while the trace still adds +0.041. Even at equal length, the trace's last words predict correctness as well as summaries, or slightly better, and carry denser and more discriminative uncertainty and self-correction cues. On MMLU-Pro questions with both correct and incorrect runs, linear summary readers are near chance and trace readers retain only modest signal, both with and without the prompt (prompt-withheld AUROC 0.503-0.545 versus 0.544-0.590). With the prompt withheld, a GPT-5-mini reader recovers substantially more signal from both summaries and traces on gpt-oss-20b, and even then the trace keeps a small +0.034 advantage. Much of the linear readers' trace signal is associated with length. In the common case where users already hold the prompt, summaries are less helpful than the full trace for monitoring correctness. Monitorability is thus a joint property of the display and the reader, so any monitorability claim, including for faithfulness, should specify both.",
+          "timestamp": "2026-08-03T11:48:39",
+          "url": "https://arxiv.org/abs/2608.02089v1",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "arXiv",
+            "authors": "Andres Algaba, Francesca Carlon, Lynn Delcon, Marthe Ballon, Bert Verbruggen, Vincent Ginis",
+            "updated": "2026-08-03T11:48:39"
+          }
+        },
+        {
+          "subject": "Open-DiffLoco: Open-Source Differentiable Learning for Deployable Blind Quadruped Locomotion",
+          "body": "Developing deployable locomotion policies through conventional reinforcement learning often requires complex reward engineering and expensive training times. While differentiable simulation offers a highly efficient alternative, open-source tools capable of end-to-end transfer of these policies to physical hardware remain limited. This paper introduces Open-DiffLoco, an open-source framework for training deployable blind quadruped locomotion policies with differentiable simulation. The framework implements the Short-Horizon Actor-Critic (SHAC) algorithm in MuJoCo XLA (MJX) and trains a proprioceptive policy that transfers to real-world hardware. The deployed policy removes privileged actor observations, including base linear velocity, and does not rely on reference trajectories. It also uses a substantially simplified reward function, enabling the robot to discover walking patterns without the complex auxiliary rewards typically used in conventional reinforcement learning pipelines. When deployed on physical hardware (a Unitree Go2 quadruped), the trained policy tracks omnidirectional velocity commands with root-mean-square error below 0.2 m/s, reaches speeds above 1 m/s, and remains robust to uneven terrain and external physical disturbances, such as lateral pushes. Across the reported configurations, training uses under 6 GB of VRAM on a single NVIDIA GeForce RTX 5080 GPU and completes in approximately 20-60 minutes. As an algorithmic extension to SHAC, we propose Jacobian-Augmented Value Estimation (JAVE), which supervises the critic Jacobians to improve early first-order policy-gradient training. To our knowledge, Open-DiffLoco is the first open-source framework for training deployable locomotion policies using differentiable simulation. Deployment videos and source code are available at: https://diffloco.martin-opat.com/",
+          "timestamp": "2026-08-03T11:11:13",
+          "url": "https://arxiv.org/abs/2608.02069v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Martin Opat",
+            "updated": "2026-08-03T11:11:13"
+          }
+        },
+        {
+          "subject": "MIEScore: Human-Aligned Evaluation for Multi-Source Image Editing",
+          "body": "Recent advances in unified multimodal models have significantly improved text-guided image editing abilities. In particular, models such as Nano-Banana-Pro and GPT-Image-2 demonstrate emerging capabilities in multi-source image editing (MIE), including tasks such as object synthesis, person-background composition, and cross-image style fusion. However, existing benchmarks and image editing assessment (IEQA) methods remain primarily focused on single-image editing tasks and largely overlook the more challenging setting of MIE. This highlights the urgent need for a comprehensive and human-aligned benchmark for MIE. To this end, we introduce MIE-Bench, the first large-scale multiple image editing benchmark with fine-grained human preference annotations. Specifically, MIE-Bench includes 3,000 editing instances across 16 tasks, each involving more than two source images and an editing prompt, together with 36K edited images produced by 12 state-of-the-art editing models and over 108K mean opinion scores (MOSs) covering visual quality, instruction following, and attribute preservation. Based on MIE-Bench, we propose MIEScore, a multimodal large language model (MLLM)-based evaluation model enhanced with skill optimization and multi-dimensional supervised fine-tuning, to provide human-aligned feedback for MIE. Extensive experiments show that MIEScore achieves state-of-the-art performance in aligning with human preferences and generalizes well across other IEQA datasets. Both the dataset and the model are available at https://github.com/IntMeGroup/MIEScore.",
+          "timestamp": "2026-08-03T10:57:00",
+          "url": "https://arxiv.org/abs/2608.02059v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Zitong Xu, Huiyu Duan, Xinyun Zhang, Weifei Xiong, Tianyi Zheng, Xiongkuo Min, Qiang Hu, Zhengxue Cheng, Bo Li, Guangtao Zhai",
+            "updated": "2026-08-03T10:57:00"
+          }
+        },
+        {
+          "subject": "Energy-Efficient LLM Serving via Disaggregated Attention--FFN and Flexible Frequency Scaling",
+          "body": "Large language model (LLM) serving spans diverse applications with stringent service-level objectives (SLOs), often requiring GPUs to run at maximum frequencies and increasing energy consumption. Existing energy-management approaches adapt GPU frequencies only at the request or inference-phase level, overlooking operator-level differences in frequency sensitivity between Attention and feed-forward networks (FFNs). We find that the energy-optimal frequencies of Attention and FFN (A/F) differ and vary with the inference phase, workload, and system configurations. However, runtime variability and independent A/F frequency control create a large search space and high communication overhead. To address these challenges, we present AFlex, a framework that jointly optimizes resource provisioning and GPU frequency scaling for disaggregated A/F serving. AFlex introduces a global scheduler and a local operator-level dynamic voltage and frequency scaling (DVFS) controller to determine A/F resource allocations and frequencies. It further introduces an interleaved A/F pipeline with dynamic microbatch depth and adaptive request batching to reduce pipeline bubbles. We implement AFlex in SGLang and evaluate it on NVIDIA A800 GPUs using Qwen3-32B and Mixtral-8$\\times$7B under production Conversation and Coding traces. \\AFlex reduces energy per token by up to 49\\% over state-of-the-art disaggregated serving and 48\\% over frequency-scaling systems while satisfying TTFT and TPOT SLOs.",
+          "timestamp": "2026-08-03T08:32:50",
+          "url": "https://arxiv.org/abs/2608.01891v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Cunchen Hu, Liangliang Xu, Tian Liu, Min Lyu, Yongkun Li, Sa Wang, Shuo Quan, Yanan Yang, Wenda Tang, Yiduo Wang, Fu Yu, Jie Wu",
+            "updated": "2026-08-03T08:32:50"
+          }
+        },
+        {
+          "subject": "RADAR: Rubric-Aware Dependency and Redundancy Analysis for LLM-as-Judge Evaluation",
+          "body": "Rubric-based LLM-as-judge pipelines often assume that evaluation criteria provide independent signals. In practice, however, criteria can be behaviorally coupled: improving one criterion may systematically change scores on another, distorting aggregate scores used in model-release or product-update decisions. We introduce RADAR, a lightweight preflight diagnostic framework for estimating such coupling before large-scale evaluation. Given a rubric, RADAR generates targeted synthetic probes, scores each probe on all criteria, and produces a directional coupling matrix that shows which criteria co-score and how. We validate RADAR on three industry-relevant evaluation settings: NVIDIA HelpSteer2, SumPubMed, and the Yale-Salesforce SummEval benchmark. Using only a small number of probes per criterion, RADAR recovers human inter-criterion correlation structure (Pearson r > 0.84) and provides practitioners with concrete audit signals about redundancy, hierarchy, and aggregation sensitivity before committing to large-scale judging.",
+          "timestamp": "2026-08-03T07:21:32",
+          "url": "https://arxiv.org/abs/2608.01810v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Divyansh Singh, Reza Davari, Afra Mashhadi",
+            "updated": "2026-08-03T07:21:32"
+          }
+        },
+        {
+          "subject": "Meganeura: Portable GPU Training and Inference through Vulkan and Metal",
+          "body": "Training and deployed inference often cross export, conversion, and platform-specific runtime boundaries. Meganeura asks whether one compact native compiler can span both phases on consumer GPUs. Its typed static graph, automatic differentiation, optimizer, checkpoint, memory planner, and runtime lower specialized programs through Vulkan and Metal.\n  We compare five matched workloads with PyTorch on NVIDIA and AMD discrete GPUs, an AMD APU, Apple silicon, and an Intel iGPU. The protocol separates strict f32 from validated fast paths and gates forward and backward independently. Forty-eight of 50 device-workload-mode cells pass both gates; the other two share one unresolved backward-reference disagreement on a newly supported APU. In strict f32, Meganeura wins 12 of 20 GPU-referenced minimal-latency cells and has a median valid training gap of 1.8x. On the discrete AMD GPU, four of five inference workloads are within 1.10x of compiled ROCm PyTorch and three training workloads are faster. Under accelerated contracts, the worst training gap is 4.6x.\n  Compilation takes 0.1-2.4 seconds versus 6-96 seconds for torch.compile on supported GPU paths; the stripped binary is 13 MiB. Dispatch profiles localize the largest gaps to convolution derivatives and attention backward. A physical Android XR case study transfers a Meganeura-trained decoder into an Adreno/OpenXR application sharing the graphics queue. The results show that general consumer graphics APIs can support a compact shared train-to-deploy stack at useful, sometimes vendor-competitive performance. The measured gaps point to kernel coverage, scheduling, and arithmetic policy rather than an identified API limitation.",
+          "timestamp": "2026-08-03T00:42:55",
+          "url": "https://arxiv.org/abs/2608.01563v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Dzmitry Malyshau",
+            "updated": "2026-08-03T00:42:55"
+          }
+        },
+        {
+          "subject": "PolymerGPT: Multi-property Optimization with a Decoder-Based GPT Model for Generative Polymer Design",
+          "body": "Polymer property prediction and inverse generative design targeting desired properties are two crucial tasks in machine learning-assisted polymer design. While the former has received considerable attention, there have been limited methods developed for the latter. Existing methods focus on single-property optimization in the generative process, whereas accurate prediction of macroscopic material behavior requires simultaneous control of multiple physical properties. In this paper, we provide a transformative framework for direct optimization of a large collection of polymer properties. We propose PolymerGPT, a decoder-based GPT model that incorporates up to 37 commonly used polymer properties into the generative process via learned conditioning prefixes. It also supports a scaffold condition that specifies a desired scaffold for predicted structures. Our experimental results demonstrate that PolymerGPT achieves exceptional performance for unconditional and conditional generation while maintaining high validity, uniqueness, and novelty. Conditioning on five key properties yields generated structures whose predicted values closely match all target properties simultaneously.",
+          "timestamp": "2026-08-02T18:26:04",
+          "url": "https://arxiv.org/abs/2608.01431v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Charlie Pyle, Adarsh Gadari, C. Adrian Figg, Zhenquan Jia, Yaohang Li, Chunjiang Zhu",
+            "updated": "2026-08-02T18:26:04"
+          }
+        },
+        {
+          "subject": "Why Formal Monitors Fail: Attack Distribution Entropy as a Coverage Bound for LTL-Based LLM Agent Safety",
+          "body": "Runtime safety monitors based on Linear Temporal Logic (LTL) and finite automata (FSA) are increasingly deployed to intercept unsafe tool-call sequences in LLM agents. Yet the same monitor achieves 68-75% attack coverage on some model architectures and near-zero on others, with no explanation from capability scores, training data, or prompt design. We provide the missing theory. We prove that the recall of any fixed-invariant FSA monitor is bounded above by the concentration of the attack distribution: the fraction of attacks covered by the k most frequent trigger-completion patterns. When attacks concentrate (low Shannon entropy), a small fixed invariant set achieves high recall; when they disperse across many structurally distinct patterns (high entropy), no fixed invariant set of tractable size can, regardless of how the invariants were derived. We validate this entropy-coverage bound across eight frontier LLM architectures. GPT-class and DeepSeek backends yield highly concentrated attacks (H ~ 0.24 bits; one pattern covers 96%), explaining 68-75% recall; Gemini variants yield high-entropy distributions (H ~ 2.81 bits; 7 clusters each <= 7%), explaining near-zero recall (6-13%), invariant to architecture-matched retraining. Entropy accounts for 76% of variance in coverage (Pearson r = -0.87, p = 0.005, 95% CI [-0.98, -0.78]), holding under leave-one-out (r in [-0.91, -0.82]). We introduce a pre-deployment entropy test that predicts monitor coverage from a small attack sample, enabling architecture-aware monitor selection before deployment. The bound and test are architecture-agnostic and apply to any FSA-based runtime monitor over discrete action sequences.",
+          "timestamp": "2026-08-02T17:08:21",
+          "url": "https://arxiv.org/abs/2608.01388v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Ruiyang Zhang",
+            "updated": "2026-08-02T17:08:21"
+          }
+        },
+        {
+          "subject": "A Benchmark Dataset for MLLM-Generated Image Detection: GPT Image2 & Nano Banana2",
+          "body": "The realism of images generated by multimodal large language models (MLLMs), such as GPT Image2 and Nano Banana2, has improved rapidly in recent years. Compared with early generative models, current models have made clear progress in text rendering. They can produce high-quality images that closely resemble real-world application scenarios. The enhanced generation capabilities of current MLLMs pose increasingly severe challenges to AI-generated image detection. Detection is no longer limited to identifying obvious artifacts left by early generators. Instead, it requires systematic and realistic benchmarks for the new generation of generated content. However, most existing benchmarks are still built around early generative models and cannot fully evaluate the forensic challenges introduced by high-quality and multi-form generated images. To address this gap, this paper constructs a benchmark dataset for detecting images generated by MLLMs. The benchmark covers several realistic application scenarios and adopts three generation protocols to simulate direct generation, reference-based reconstruction, and local editing. Based on this benchmark, we evaluate detector degradation from traditional scenarios to MLLM-generated images and analyze false positive rates and false negative rates across three sample types, revealing the failure modes of existing methods. We further propose a structural-artifact-prior-guided dual-stream prompt framework (SAP-DSP) as a strong baseline. SAP-DSP uses dual-stream prompt learning and structure-aware routing fusion to improve representation learning. Extensive experiments show that the proposed benchmark exposes the performance degradation of existing detectors on high-quality generated images, while SAP-DSP achieves more stable detection results on this benchmark. Our code and dataset are publicly available at https://github.com/xbrainnet/SAP-DSP.",
+          "timestamp": "2026-08-02T14:09:17",
+          "url": "https://arxiv.org/abs/2608.01258v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Zirui Zhang, Yinbo Yu, Donghai Guan, Chunwei Tian, Daoqiang Zhang, Qi Zhu",
+            "updated": "2026-08-02T14:09:17"
+          }
+        },
+        {
+          "subject": "VespaSeg: A Resource-Aware Ground-then-Segment Pipeline for Referring Expression Segmentation",
+          "body": "Referring expression segmentation requires language conditioned localization and pixel-accurate masks, but monolithic models can be costly to deploy. We present VespaSeg, a modular pipeline that grounds a text query with a compact vision-language model and converts the predicted box to a mask with MobileSAM. We study Florence-2-base, Florence-2-large, and Moondream2 grounders together with targeted adaptation of the grounding and segmentation stages. Under a repository-specific RefCOCO validation protocol containing the first expression for each of 3,811 referenced-object records, the adapted Florence-2-base pipeline obtains 73.64 mean intersection over union (mIoU) and 84.60 precision at IoU 0.5. On an NVIDIA RTX 6000 Ada GPU it processes 22.8 cached-image queries per second with 2.20 GB mean allocated GPU memory. A matched 500-query comparison gives 73.73 mIoU for Florence-2-base and 72.82 for Florence-2-large, while the base model is 1.70 times faster and uses 1.17 GB less allocated memory. Ablations show that ground-truth-box adaptation raises MobileSAM mIoU from 82.22 to 86.61 and that reducing the Florence-2 output-token budget from 64 to 32 preserves accuracy. These results support compact, modular grounding and segmentation, while also exposing the need for evaluation on the complete standard RefCOCO expression splits and deployment hardware.",
+          "timestamp": "2026-08-02T08:21:48",
+          "url": "https://arxiv.org/abs/2608.01077v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Savindu Dilshan Wickramasinghe",
+            "updated": "2026-08-02T08:21:48"
+          }
+        },
+        {
+          "subject": "DeBERTa-Sentinel: Toward Transparent and Trustworthy Detection of AI-Generated Text",
+          "body": "The rapid spread of large language models (LLMs) across the web raises concerns about misinformation, academic integrity, automated content manipulation, and risks to vulnerable online communities. Existing transformer-based detectors, such as GPT-Sentinel, show promise but struggle to generalize to diverse model outputs and paraphrasing attacks, limiting their role in building trustworthy web ecosystems. This work introduces DeBERTa-Sentinel, a responsible AI-generated text detection framework leveraging DeBERTa-v3's disentangled attention to capture subtle structural irregularities in synthetic content. A central design principle is transparency: unlike black-box commercial detectors, DeBERTa-Sentinel exposes token-level explanations of its decisions, enabling affected stakeholders journalists, educators, and platform trust and safety teams to audit, challenge, and contextualize detection outcomes. Using the GLC-AIText dataset of 28,057 human and LLM-generated samples (GPT, LLaMA, and Claude) with a 60-20-20 split, DeBERTa-Sentinel achieves 98.21\\% validation accuracy and surpasses the RoBERTa-Sentinel baseline from NeurIPS 2025, achieving 97.53\\% test accuracy, 95.89\\% precision, 99.33\\% recall, and 99.53\\% ROC-AUC, and maintaining a 0.665\\% false negative rate. The model's interpretability reveals linguistic markers such as academic phrasing and formal transitions associated with synthetic text, directly supporting stakeholder needs for verifiable, auditable content-authenticity decisions. By advancing responsible detection methods that reduce bias and enhance explainability, DeBERTa-Sentinel promotes trustworthy, ethical, and human-centric AI systems. Code and data are available at https://github.com/Galileo-Galili/HUMAN-VS-AI-TEXT-DETECTION.",
+          "timestamp": "2026-08-02T07:08:20",
+          "url": "https://arxiv.org/abs/2608.01046v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Muhammad Yousaf Rehman, Muhammad Islam",
+            "updated": "2026-08-02T07:08:20"
+          }
+        },
+        {
+          "subject": "MixedComplementarityProblems.jl: A Fast, Batched, Open-Source Interior Point Solver for Mixed Complementarity Problems",
+          "body": "Mixed complementarity problems (MCPs) arise as the first-order optimality conditions of nonlinear programs and noncooperative games, and provide a natural formulation for multi-agent trajectory optimization problems that appear throughout robotics. The dominant solver for problems of this form is PATH, which offers strong performance on robotics problems but remains closed-source. We present MixedComplementarityProblems.jl, an open-source, pure Julia implementation of an interior point method for parametric MCPs that: (i) matches PATH's reliability on standard benchmarks, (ii) natively supports batched, parallel processing of many parameter instances, either across CPU threads or on an NVIDIA GPU, and (iii) supports efficient automatic differentiation of solutions with respect to problem parameters. On a multi-agent lane-change trajectory game representative of robotics planning problems, our CPU-multithreaded batched solver clears a batch of parametric instances ~100x faster than sequential calls to PATH. A GPU backend, running the same solver implementation unmodified, also clears these batches far faster than PATH, but does not outperform the multithreaded CPU on this problem; the GPU pulls ahead only once each per-instance KKT system grows large, and we characterize this regime dependence. We describe the solver's interior point formulation, the abstraction that lets a single solver implementation run unmodified across dense, batched-sparse, and single-large linear-algebra backends, and report benchmarks against PATH on both randomly generated quadratic programs and trajectory games.",
+          "timestamp": "2026-08-02T03:10:50",
+          "url": "https://arxiv.org/abs/2608.00959v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "David Fridovich-Keil",
+            "updated": "2026-08-02T03:10:50"
+          }
+        },
+        {
+          "subject": "Writing-System-Level Tokenizer Adaptation for Byte-Level BPE",
+          "body": "Pretrained byte-level BPE tokenizers can segment underrepresented languages inefficiently. Replacing a tokenizer changes the meaning of nearly every token ID, while vocabulary expansion enlarges the model's embedding and output matrices. We study post-hoc adaptation that keeps the model-vocabulary size fixed and preserves most existing token-to-ID assignments as a construction-time compatibility property. Directly transferring tokens from a language-specific tokenizer does not guarantee derivability through the target BPE merge graph: an inserted entry can conflict with the target's greedy merge ranks. We formalize this failure as the merge ordering problem and introduce BPE-guided insertion, which builds each transferred token through a target-reachable decomposition. Our pipeline uses script-aware row selection to limit collateral fragmentation, reconstructs target-script byte-level prerequisites, and applies guided insertion to maintain merge-graph reachability. On Ukrainian adaptations of Nemotron and GPT-OSS, it reduces token counts by 33.5% and 36.6%, keeps changes on English and the evaluated four-language European aggregate within 0.05%, and retains 78.5%/77.3% of original model-vocabulary rows at the same IDs. Constraint-matched global and frequency-based removal achieve similar Ukrainian compression but increase English/European token counts by 0.7-2.2%; fresh same-size retraining compresses Ukrainian slightly more but retains effectively no same-ID rows and increases English token counts by 7.6-8.6%. The reallocation increases token counts on the evaluated three-language Cyrillic micro-aggregate by 6.7%/10.1%. Structural audits find all 28,134/45,398 inserted BPE nodes reachable under ordinary rank-ordered merging and no retained same-ID model-vocabulary entry newly broken. We release all tokenizers and code.",
+          "timestamp": "2026-08-01T10:38:23",
+          "url": "https://arxiv.org/abs/2608.00582v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Bohdan Didenko",
+            "updated": "2026-08-01T10:38:23"
+          }
+        },
+        {
+          "subject": "CrossProjection: Geometric Grounding Beyond Viewpoint Change in Architectural Drawings",
+          "body": "Architectural drawings violate the usual assumption behind multi-view reasoning: plans and sections are cuts, while elevations are facade projections, so corresponding components change appearance in ways camera motion cannot explain. We introduce CrossProjection, an anchor-grounded diagnostic of whether vision-language models preserve component identity and externalize geometry across heterogeneous architectural views. It evaluates Matching, Registration, and Geometric Grounding through categorical judgments, candidate selection, and free point, line, and region localization.\n  Across 23 real drawing sets and 1,954 categorical conditions per model, GPT-5.5 scores 82.4%, Qwen3-VL-32B-Instruct 62.2%, and GLM-4.5V 57.2%. A matched 200-target study crosses natural and vector-text-suppressed drawings with closed-candidate and free-geometry outputs. Candidate-supported performance is often higher, but free localization remains fragile: on natural drawings, point/region PCK@.05 is 54-76% for GPT, 8-10% for Qwen, and 14-36% for GLM; line endpoint PCK@.05 is 22%, 4%, and 0%. A coordinate grid recovers some GPT point/region precision but not lines. Three architecture-trained participants reach 87.3-93.3% categorical accuracy and 76-92% GT-region hit, supporting task feasibility rather than a population-level human ceiling.\n  Because the categorical families do not form a same-item Matching-Registration contrast and interface controls alter multiple burdens, we avoid mechanistic claims. The supported conclusion is narrower: closed-choice or marked-element success does not entail reliable explicit geometric grounding. For drawing-guided CAD/BIM systems, categorical correctness should not be treated as evidence of candidate-free spatial reliability. Reusable on-sheet anchors, fixed-denominator scoring, and hash-locked artifacts establish an audit trail for this gap.",
+          "timestamp": "2026-08-01T06:51:38",
+          "url": "https://arxiv.org/abs/2608.00473v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Kaho Li, Pengyu Zeng, Yuqin Dai, Jun Yin, Tianjing Feng, Shuai Lu",
+            "updated": "2026-08-01T06:51:38"
+          }
+        },
+        {
+          "subject": "DiffusionGemma Technical Report",
+          "body": "We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text at exceptionally high speed. Rather than decoding one token at a time, DiffusionGemma iteratively refines blocks of 256 tokens in parallel, avoiding the sequential decoding bottleneck of conventional autoregressive (AR) large language models. Instead of training from scratch, we obtain DiffusionGemma by fine-tuning the mixture-of-experts Gemma 4 model with 3.8B activated and 25.2B total parameters. Our compute-efficient two-stage training pipeline uses fewer than 10% of the starting AR model's total training token budget. The first stage uses supervised fine-tuning to teach bidirectional denoising, while the second stage combines reinforcement learning with sampler distillation to jointly improve generation quality and inference efficiency. DiffusionGemma establishes a new Pareto frontier for the trade-off between generation speed and model capability. Averaged across our full evaluation suite, it generates around 20 tokens per forward pass and achieves roughly 1,500 output tokens per second on a single NVIDIA H100 GPU, which is substantially faster than AR models even with state-of-the-art speculative decoding. DiffusionGemma also retains the starting model's support for thinking mode, multimodal inputs, and long contexts. Despite diffusion fine-tuning, it remains capable of AR generation with only minor performance degradation, suggesting a path toward hybrid diffusion-AR decoding.",
+          "timestamp": "2026-07-31T16:11:46",
+          "url": "https://arxiv.org/abs/2608.00146v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "DiffusionGemma Team, Adrien Ali Taïga, James Assiene, Daniele Calandriello, Rahma Chaabouni, João Gante, Tamara von Glehn, Nate Keating, Chris Knutsen, Martin Kukla, Tianlin Liu, Ivan Lobov, Ofir Nabati, João Gabriel Oliveira, Nicolas Perez-Nieves, Nastasia Prutianova, Bobak Shahriari, Jean Tarbouriech, Pavel Tyletski, Çağlar Ünlü, Cindy Wu, Glenn Cameron, Jerome Connor, Sertan Girgin, Maarten Grootendorst, Alon Levkovitch, Eliya Nachmani, Omar Sanseviero, Piotr Stanczyk, Quentin Berthet, Andrew Campbell, Clément Crepy, Valentin De Bortoli, Arnaud Doucet, Romuald Elie, Alexandre Galashov, Klaus Greff, Alexis Jacq, David Ruhe, Yu-Han Wu, Sebastian Flennerhag, Brendan O'Donoghue, George Scrivener, Shantanu Thakoor",
+            "updated": "2026-07-31T16:11:46"
           }
         }
       ]
     },
     "models": {
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "subject": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+          "body": "[\"safetensors\", \"en\", \"arxiv:2410.17196\", \"arxiv:2503.04721\", \"arxiv:2604.04847\", \"arxiv:2505.15670\", \"arxiv:2507.08128\", \"base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2\", \"license:openmdw-1.1\", \"region:us\"]",
+          "timestamp": "2026-08-03T22:18:21",
+          "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        }
+      ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Recent News**\n\n* **OpenAI shares significant advances in mathematics and theoretical computer science**: OpenAI has made progress on long-standing open problems in areas such as geometry, cryptography, and complexity, showcasing the power of AI in driving breakthroughs in fundamental research. (OpenAI News, August 1)\n* **Disruption of a Cambodia-based scam operation**: OpenAI has disrupted a scam operation that used ChatGPT to support investment, romance, and gambling schemes, demonstrating the company's efforts to prevent malicious uses of AI. (OpenAI News, August 1)\n* **Banning of PRC-origin accounts**: OpenAI has banned likely PRC-origin accounts that used AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions, highlighting the company's efforts to combat disinformation. (OpenAI News, August 1)\n* **Banning of a PRC-origin cluster**: OpenAI has also banned a likely PRC-origin cluster that used AI to generate social media content criticizing US data centers and AI infrastructure. (OpenAI News, August 1)\n* **Advancing responsible AI governance in Europe**: OpenAI shares its practices and efforts to support responsible AI governance in Europe as the EU AI Act advances. (OpenAI News, July 31)\n* **Advancing the price-performance frontier with GPT-5.6**: OpenAI has introduced lower pricing for GPT-5.6, enabling enterprises to deploy AI workflows at scale more efficiently. (OpenAI News, July 31)\n\n**Trend:** The increasing use of AI in driving scientific discovery and innovation, as seen in OpenAI's collaboration with academic researchers to accelerate scientific research, collaboration, and discovery using ChatGPT, and NVIDIA's development of compact powerful compute solutions like the NVIDIA Jetson, which enable building AI-powered robots in smaller formats. This trend highlights the growing potential of AI to advance various fields, from mathematics and computer science to scientific research and robotics."
+  "summary": "**Key Developments:**\n\n* OpenAI has developed a real-time system for responsive voice AI, called GPT-Live, which enables continuous voice interaction with AI using a turnless speech model and low-latency architecture.\n* OpenAI has disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.\n* OpenAI has banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions, as part of its \"Tech and Tariffs\" campaign.\n* OpenAI has shared its advances in mathematics and theoretical computer science, including results on long-standing open problems in geometry, cryptography, and complexity.\n* A new framework, AFlex, has been introduced to optimize resource provisioning and GPU frequency scaling for disaggregated Attention and feed-forward networks (A/F) serving, reducing energy per token by up to 49% over state-of-the-art disaggregated serving.\n* A new benchmark dataset for detecting images generated by multimodal large language models (MLLMs) has been constructed, covering several realistic application scenarios and adopting three generation protocols to simulate direct generation, reference-based reconstruction, and local editing.\n* A new model, DeBERTa-Sentinel, has been introduced for detecting AI-generated text, leveraging DeBERTa-v3's disentangled attention to capture subtle structural irregularities in synthetic content.\n\n**Trend:**\n\n* The increasing use of AI in various industries and applications is leading to a growing need for responsible AI development and deployment, including the development of AI systems that can detect and prevent malicious uses of AI, such as scams and misinformation campaigns."
 }
