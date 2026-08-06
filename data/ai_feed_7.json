@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-05T05:10:31.310Z",
+  "timestamp": "2026-08-06T05:12:13.400Z",
   "categories": {
     "news": {
-      "count": 10,
+      "count": 12,
       "items": [
+        {
+          "subject": "New ways to learn and teach with ChatGPT Work and Codex",
+          "body": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+          "timestamp": "2026-08-05T04:00:02",
+          "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
+          "body": "NVIDIA is participating in the U. S. National Science Foundation’s (NSF) State and...",
+          "timestamp": "2026-08-05T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+          "body": "For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the...",
+          "timestamp": "2026-08-05T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "How we built a realtime system for responsive voice AI in six months",
           "body": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
@@ -85,21 +112,56 @@
           "extras": {
             "data_origin": "AWS AI News"
           }
-        },
-        {
-          "subject": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-          "body": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-          "timestamp": "2026-07-30T04:00:01",
-          "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 16,
+      "count": 20,
       "items": [
+        {
+          "subject": "JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
+          "body": "Real-time video editing requires low-latency causal generation with bounded computational resources while preserving source fidelity and long-term temporal consistency. We present JoyAI-Video-Edit, a 16B-parameter autoregressive diffusion framework for real-time, open-ended video editing without access to future frames or a predefined video duration. Our method combines chunk-wise autoregressive adaptation, Source-Anchored Distribution Matching Distillation (SA-DMD), and Long-Horizon Autoregressive Distillation to reduce train--inference mismatch, preserve source fidelity during two-step generation, and mitigate accumulated temporal drift. Extensive automatic and human evaluations show that JoyAI-Video-Edit substantially outperforms existing streaming editors and remains competitive with strong offline systems on both short and long videos. The complete system achieves end-to-end 720p video editing at approximately 30 FPS on a single Nvidia B200 GPU. Code is available at https://github.com/jd-opensource/JoyAI-Video-Edit.",
+          "timestamp": "2026-08-04T17:40:48",
+          "url": "https://arxiv.org/abs/2608.03974v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Yicheng Xiao, Wenxun Dai, Xinran Qin, Lin Song, Maoquan Zhang, Hang Xu, Yukang Chen, Yitong Li, Guohui Zhang, Yuan Zhang, Xuying Zhang, Tommy Zhang, Jianlong Yuan, Peihao Li, Shuai Lu, Siming Fu, Chuyang Zhao, Xin Han, Jie Huang, Wenbo Li, Guoqing Ma, Wei Huang, Xiaojuan Qi, Haoyang Huang, Nan Duan",
+            "updated": "2026-08-04T17:40:48"
+          }
+        },
+        {
+          "subject": "Bimanual Manipulation Within an 8 GB Budget: Zero-Copy Sensing and Quantized ACT on an Entry-Level Jetson",
+          "body": "Bimanual manipulation policies trained with imitation learning are typically evaluated on workstation or datacenter-class GPUs, leaving the cost of deploying them on embedded hardware largely uncharacterized. We present a bimanual SO-101 system running entirely on an NVIDIA Jetson Orin Nano Super (8 GB), the entry-level tier of NVIDIA's embedded line, using a desktop GPU (RTX 3070) only for offline training, evaluated on pick-and-place of a deformable beanbag. First, we build a GStreamer capture pipeline backed by NVMM buffers that removes redundant host-device copies from three-camera sensing. Contrary to expectation, the conventional path fit the memory budget and dropped no frames; what zero-copy sensing recovers is CPU headroom (peak single-core utilization 98.0% to 77.0%) and worst-case latency (117.31 ms to 101.52 ms). Second, we train ACT and Diffusion Policy on identical demonstrations, each at its own reference budget (100k gradient steps for ACT, 200k for Diffusion Policy). ACT converges to a task-competent policy (19/20 trials) while Diffusion Policy does not converge to a usable one (0/10) even at twice the step count, which we attribute to differing convergence costs rather than an accuracy ceiling. Third, we convert ACT to TensorRT. FP16 reduces mean inference latency from 114.02 ms to 17.93 ms (6.4x) and INT8 to 12.65 ms (9.0x), with task success preserved at all three precisions (19/20, 18/20, 19/20). We report two findings not previously documented for ACT: TensorRT's general-purpose INT8 calibration quantizes the ResNet18 backbone but accepts zero of 145 transformer layers, explaining INT8's negligible size reduction over FP16 (0.9%) despite a further 28% latency gain; and the need for quantization is conditional on ACT's action-chunking configuration, feasible in full precision at n_action_steps = 100 but not at the per-step re-prediction temporal ensembling requires.",
+          "timestamp": "2026-08-04T17:09:41",
+          "url": "https://arxiv.org/abs/2608.03938v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Ekansh Singh, Eva Samuel, Alessandra Reneau, Ryan Schmeelk, Yashvi Gandhi",
+            "updated": "2026-08-04T17:09:41"
+          }
+        },
+        {
+          "subject": "ETA: A New Agentic Paradigm for Embodied Tasks",
+          "body": "When will robots have their ChatGPT moment? Such a breakthrough requires a general-purpose robot that can handle unfamiliar tasks in unfamiliar environments, remain controllable over long interactions, and learn from experience.\n  Today's embodied systems largely follow an end-to-end observation-to-action path. Despite rapid progress, they remain far from this goal: their generalization depends heavily on the coverage of robot training data, while long task execution remains difficult to control and inspect. To realize this goal, we introduce the Embodied Task Agent (ETA), a new paradigm for extending digital agents into the physical world, and release OpenETA as its open-source implementation. ETA centers the robot around a Planner that chooses one Tool call at a time, an Interface that controls execution, and a World that returns the result and a fresh observation. This loop allows the agent to verify outcomes, adapt its plan, and turn successful and failed interactions into reusable experience. OpenETA provides replaceable Planners, composable Tools and Skills, auditable memory, replayable trajectories, and common interfaces for simulation and real robots. For Codex, OpenETA can operate as a lightweight plugin that exposes only observe, mark_point, and move_to.",
+          "timestamp": "2026-08-04T16:56:09",
+          "url": "https://arxiv.org/abs/2608.03924v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Yitong Chen, Zezheng Huai, Sixian Li, Yubang Wang, Haozhe Zhang, Yifei Zhang, Hechang Chen, Jingjing Gong, Yu-Gang Jiang, Xipeng Qiu",
+            "updated": "2026-08-04T16:56:09"
+          }
+        },
+        {
+          "subject": "Accelerating Dynamic Graph Clustering on GPU Architectures with cuGraph",
+          "body": "This work addresses community detection in temporal networks through GPU-accelerated extensions of spectral clustering and modularity-based algorithms originally designed for static graphs. Built on the NVIDIA RAPIDS ecosystem, the framework enables the characterization and tracking of communities in snapshot-based dynamic graphs, either by Leiden greedy optimization with multi-GPU support via Dask-based workload distribution, or eigendecomposition of a symmetric Bethe-Hessian operator. Our multislice modularity backend achieves up to roughly three orders of magnitude speedup over the CPU reference under an equal-work budget, depending on graph density and snapshot count, while preserving compatibility with existing graph analytics pipelines. We demonstrate its applicability on real-world and synthetic datasets, facilitating exploratory analysis of structural network properties over time. Such capabilities are relevant across several application domains, such as epidemic spreading, financial systems, cybersecurity, and trajectory and mobility analysis. We release our implementation as free and open-source software, including Python bindings through the NetworkX-Temporal library for ease of use and zero-code acceleration with existing codebases.",
+          "timestamp": "2026-08-04T14:01:00",
+          "url": "https://arxiv.org/abs/2608.03695v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Nelson Aloysio Reis de Almeida Passos, Emanuele Carlini, Salvatore Trani",
+            "updated": "2026-08-04T14:01:00"
+          }
+        },
         {
           "subject": "VARPose: Flexible 2D Pose Densification via Visual Autoregressive Modeling for Enhanced 3D Lifting",
           "body": "Visual AutoRegressive Modeling (VAR) has excelled in natural image generation via next-scale prediction, but its use on topology-structured data like human skeletons is still unexplored. VARPose is proposed to adaptively densify 2D sparse poses, thereby enriching the anatomical information available for 3D lifting models. Our core contributions are twofold. First, we introduce a Granularity-agnostic Pose Tokenizer (GPT), which employs a single hybrid codebook and a residual quantization strategy to encode poses of varying densities into a unified, multi-scale discrete representation. Our results demonstrate the strong generalizability of this representation. By decoupling the representation from the projection, we can successfully decode novel pose granularities using a frozen codebook with a retrained decoder. Second, we propose UniSkelar, a unified autoregressive model that treats \"joint density\" as \"scale\". UniSkelar learns to predict the token sequence for the next density level in a coarse-to-fine manner, conditioned on the sparsest pose. VARPose not only outperforms state-of-the-art methods and generalizes to unseen granularities, but also confers tangible performance gains on downstream tasks, such as 3D Pose Estimation and Human Mesh Recovery, through 2D pose densification. Our code and model are available at https://github.com/BRL-SYSU/VARPose.git.",
@@ -284,7 +346,7 @@
         {
           "subject": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
           "body": "[\"safetensors\", \"en\", \"arxiv:2410.17196\", \"arxiv:2503.04721\", \"arxiv:2604.04847\", \"arxiv:2505.15670\", \"arxiv:2507.08128\", \"base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2\", \"license:openmdw-1.1\", \"region:us\"]",
-          "timestamp": "2026-08-03T22:18:21",
+          "timestamp": "2026-08-04T09:26:31",
           "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
           "extras": {
             "data_origin": "huggingface",
@@ -294,5 +356,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* OpenAI has developed a real-time system for responsive voice AI, called GPT-Live, which enables continuous voice interaction with AI using a turnless speech model and low-latency architecture.\n* OpenAI has disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.\n* OpenAI has banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions, as part of its \"Tech and Tariffs\" campaign.\n* OpenAI has shared its advances in mathematics and theoretical computer science, including results on long-standing open problems in geometry, cryptography, and complexity.\n* A new framework, AFlex, has been introduced to optimize resource provisioning and GPU frequency scaling for disaggregated Attention and feed-forward networks (A/F) serving, reducing energy per token by up to 49% over state-of-the-art disaggregated serving.\n* A new benchmark dataset for detecting images generated by multimodal large language models (MLLMs) has been constructed, covering several realistic application scenarios and adopting three generation protocols to simulate direct generation, reference-based reconstruction, and local editing.\n* A new model, DeBERTa-Sentinel, has been introduced for detecting AI-generated text, leveraging DeBERTa-v3's disentangled attention to capture subtle structural irregularities in synthetic content.\n\n**Trend:**\n\n* The increasing use of AI in various industries and applications is leading to a growing need for responsible AI development and deployment, including the development of AI systems that can detect and prevent malicious uses of AI, such as scams and misinformation campaigns."
+  "summary": "Here are 4-6 bullet points summarizing key developments with insight, along with a trend:\n\n* **Advances in AI research and education**: NVIDIA has joined the US National Science Foundation's (NSF) State and Regional AI Hubs Program to expand AI research and education across the US. This partnership will provide resources and funding for AI research and education, promoting innovation and collaboration in the field.\n* **New education plugins for ChatGPT Work and Codex**: OpenAI has introduced new education plugins for ChatGPT Work and Codex, which can help K-12 teachers, college educators, and students learn, teach, research, and build. These plugins can facilitate more effective and engaging learning experiences.\n* **Real-time video editing with JoyAI-Video-Edit**: Researchers have developed a real-time video editing framework called JoyAI-Video-Edit, which uses a 16B-parameter autoregressive diffusion framework to achieve high-quality results. This framework can edit videos without access to future frames or a predefined video duration.\n* **Bimanual manipulation with Zero-Copy Sensing and Quantized ACT**: Researchers have developed a bimanual manipulation system that can run entirely on an NVIDIA Jetson Orin Nano Super (8 GB) using a desktop GPU (RTX 3070) only for offline training. This system achieves high performance and efficiency, making it suitable for real-world applications.\n* **Energy-efficient LLM serving with AFlex**: Researchers have developed a framework called AFlex, which can optimize resource provisioning and GPU frequency scaling for disaggregated attention and feed-forward networks (A/F) serving. AFlex can reduce energy consumption by up to 49% compared to state-of-the-art disaggregated serving.\n* **Transparent and trustworthy detection of AI-generated text with DeBERTa-Sentinel**: Researchers have developed a framework called DeBERTa-Sentinel, which can detect AI-generated text with high accuracy and provide transparent and trustworthy results. This framework uses disentangled attention to capture subtle structural irregularities in synthetic content.\n\n**Trend:** The trend in AI research and development is towards more efficient, scalable, and transparent systems that can be applied to various real-world problems. The advancements in AI research and education, as well as the development of new education plugins and real-time video editing frameworks, demonstrate this trend. Additionally, the focus on energy efficiency, bimanual manipulation, and transparent detection of AI-generated text highlights the importance of responsible AI development and deployment."
 }
