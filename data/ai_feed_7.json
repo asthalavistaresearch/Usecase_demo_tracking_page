@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-06T05:12:13.400Z",
+  "timestamp": "2026-08-07T04:22:11.506Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 9,
       "items": [
         {
           "subject": "New ways to learn and teach with ChatGPT Work and Codex",
@@ -84,33 +84,6 @@
           "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
           "extras": {
             "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Advancing the price-performance frontier with GPT-5.6",
-          "body": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-          "timestamp": "2026-07-31T04:00:02",
-          "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-          "body": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-          "timestamp": "2026-07-31T04:00:02",
-          "url": "https://openai.com/index/avatarin",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "AWS: Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
-          "body": "This post is co-written with Chris Dickens from OpenAI OpenAI GPT-5.6 Sol,...",
-          "timestamp": "2026-07-31T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-          "extras": {
-            "data_origin": "AWS AI News"
           }
         }
       ]
@@ -356,5 +329,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments with insight, along with a trend:\n\n* **Advances in AI research and education**: NVIDIA has joined the US National Science Foundation's (NSF) State and Regional AI Hubs Program to expand AI research and education across the US. This partnership will provide resources and funding for AI research and education, promoting innovation and collaboration in the field.\n* **New education plugins for ChatGPT Work and Codex**: OpenAI has introduced new education plugins for ChatGPT Work and Codex, which can help K-12 teachers, college educators, and students learn, teach, research, and build. These plugins can facilitate more effective and engaging learning experiences.\n* **Real-time video editing with JoyAI-Video-Edit**: Researchers have developed a real-time video editing framework called JoyAI-Video-Edit, which uses a 16B-parameter autoregressive diffusion framework to achieve high-quality results. This framework can edit videos without access to future frames or a predefined video duration.\n* **Bimanual manipulation with Zero-Copy Sensing and Quantized ACT**: Researchers have developed a bimanual manipulation system that can run entirely on an NVIDIA Jetson Orin Nano Super (8 GB) using a desktop GPU (RTX 3070) only for offline training. This system achieves high performance and efficiency, making it suitable for real-world applications.\n* **Energy-efficient LLM serving with AFlex**: Researchers have developed a framework called AFlex, which can optimize resource provisioning and GPU frequency scaling for disaggregated attention and feed-forward networks (A/F) serving. AFlex can reduce energy consumption by up to 49% compared to state-of-the-art disaggregated serving.\n* **Transparent and trustworthy detection of AI-generated text with DeBERTa-Sentinel**: Researchers have developed a framework called DeBERTa-Sentinel, which can detect AI-generated text with high accuracy and provide transparent and trustworthy results. This framework uses disentangled attention to capture subtle structural irregularities in synthetic content.\n\n**Trend:** The trend in AI research and development is towards more efficient, scalable, and transparent systems that can be applied to various real-world problems. The advancements in AI research and education, as well as the development of new education plugins and real-time video editing frameworks, demonstrate this trend. Additionally, the focus on energy efficiency, bimanual manipulation, and transparent detection of AI-generated text highlights the importance of responsible AI development and deployment."
+  "summary": "Here are 4-6 key developments and 1 trend from the news and research developments in the field of artificial intelligence:\n\n**Key Developments:**\n\n* **Advances in Large Language Models**: Research has focused on developing more advanced large language models, such as Transbart and DiffusionGemma, which can generate text at high speed and scale.\n* **Improvements in Image Generation**: Researchers have made progress in generating high-quality images using multimodal large language models, such as GPT Image2 and Nano Banana2, which can produce realistic images that closely resemble real-world scenarios.\n* **Advances in Safety and Security**: There have been efforts to develop more transparent and trustworthy AI-generated text detection frameworks, such as DeBERTa-Sentinel, which can identify synthetic content and provide token-level explanations of its decisions.\n* **New Applications for AI**: Researchers have explored new applications for AI, such as using it for robotic locomotion, bimanual manipulation, and energy-efficient LLM serving.\n* **Efforts to Improve Model Explainability and Understanding**: There has been a growing emphasis on developing methods to improve model explainability and understanding, such as the observability ladder for large language models.\n\n**Trend:**\n* **Focus on Applications and Integration**: The trend in AI research is shifting from purely theoretical and conceptual developments to applied research and integration with real-world applications. Researchers are exploring ways to apply AI to a wide range of domains, from robotics and locomotion to energy efficiency and safety. This trend is driven by the need to make AI more practical and useful for real-world problems."
 }
