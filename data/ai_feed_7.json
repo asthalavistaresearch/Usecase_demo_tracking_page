@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-07T04:22:11.506Z",
+  "timestamp": "2026-08-08T03:19:47.396Z",
   "categories": {
     "news": {
-      "count": 9,
+      "count": 11,
       "items": [
+        {
+          "subject": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
+          "body": "The company recently unveiled a new office in London, where Hassabis will remain and focus on AI vision and strategy. Google said London remains an important hub for Google’s AI talent and ambitions",
+          "timestamp": "2026-08-07T13:30:02",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
+          "extras": {
+            "data_origin": "Bloomberg"
+          }
+        },
+        {
+          "subject": "Working with the American Psychological Association on youth mental health and AI",
+          "body": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+          "timestamp": "2026-08-07T04:00:02",
+          "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "From asking to doing: How the world is putting ChatGPT to work",
+          "body": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+          "timestamp": "2026-08-07T04:00:02",
+          "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "New ways to learn and teach with ChatGPT Work and Codex",
           "body": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
@@ -76,21 +103,34 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Advancing responsible AI across Europe",
-          "body": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-          "timestamp": "2026-07-31T13:30:02",
-          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 20,
+      "count": 21,
       "items": [
+        {
+          "subject": "What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations)",
+          "body": "Large language model (LLM) benchmark evaluations are routinely used to support claims about model safety, reliability, and deployment readiness. Yet most evaluations rely on a single access modality (model APIs), perform a single run per prompt, and report accuracy as the primary outcome metric, without accounting for conditions such as web search that may have effects on model behavior in deployment. We audit these assumptions for one of the most widely-used LLMs, comparing two modalities, ChatGPT's chat UI and OpenAI's API, with and without web search enabled. We use a stratified total sample of 401 prompts from two popular benchmarks, BBQ and SafetyBench, collecting 4,812 total responses across three repeated runs per prompt. Beyond standard performance measures, we evaluate model output dimensions including response consistency, response text similarity, citation grounding, and abstention behavior. For instance, chat UI responses were less accurate than API responses on both benchmarks with search disabled. Enabling web search reduced accuracy by up to 8 percentage points, and even reversed the direction of modality performance trends for one benchmark. Repeated runs of the same prompt produced inconsistent responses in up to 21\\% of prompts. The two modalities also grounded answers in different citations, and abstention behavior was also inconsistent across both modalities. These results illustrate that, even within a model family, reporting only simple accuracy metrics can obscure important forms of model behavioral variation relevant to AI safety assessments. We argue that AI safety evaluations should systematically account for modality, multi-run consistency, search conditions, and response-level behaviors to better reflect how deployed AI systems behave in practice.",
+          "timestamp": "2026-08-06T15:58:32",
+          "url": "https://arxiv.org/abs/2608.06202v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Ro Encarnación, Tina Behzad, Emma Lurie, Danaé Metaxa",
+            "updated": "2026-08-06T15:58:32"
+          }
+        },
+        {
+          "subject": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
+          "body": "Deep Reinforcement Learning (RL) is notoriously sample inefficient. One contributing factor is that RL agents are typically initialized from scratch, forcing them to acquire task-relevant knowledge through online interaction. Existing approaches obtain informative initializations through pre-collected datasets, high-fidelity simulators, or meta-learning over related tasks, but these prerequisites may be difficult to access or even unavailable. In this paper, we propose Programmatic Dynamics Priors for Value Network Initialization (ProDVI), a framework that leverages the commonsense and domain knowledge encoded in large language models to initialize RL agents without relying on these resources. Specifically, ProDVI prompts a code-generating language model to produce executable Python functions that encode coarse hypotheses about environment dynamics. These functions are then used to generate synthetic transitions. Based on these transitions, we construct an auxiliary dynamics prediction objective to pretrain the state-action encoder of the value network in an actor-critic framework. The learned representation provides dynamics-aware inductive biases before online RL begins. Importantly, the generated programs are used only for representation pretraining and are not required to faithfully simulate the target environment. While the generated programs may be inaccurate, their induced initialization can be corrected through online learning from real transitions and rewards. Experiments on OpenAI Gym and DeepMind Control Suite tasks show that ProDVI can effectively improve the sample efficiency of model-free RL algorithms.",
+          "timestamp": "2026-08-06T13:19:29",
+          "url": "https://arxiv.org/abs/2608.06015v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Xinwei Liu, Junyuan Liang, Jianting Zhang, Wuhui Chen",
+            "updated": "2026-08-06T13:19:29"
+          }
+        },
         {
           "subject": "JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
           "body": "Real-time video editing requires low-latency causal generation with bounded computational resources while preserving source fidelity and long-term temporal consistency. We present JoyAI-Video-Edit, a 16B-parameter autoregressive diffusion framework for real-time, open-ended video editing without access to future frames or a predefined video duration. Our method combines chunk-wise autoregressive adaptation, Source-Anchored Distribution Matching Distillation (SA-DMD), and Long-Horizon Autoregressive Distillation to reduce train--inference mismatch, preserve source fidelity during two-step generation, and mitigate accumulated temporal drift. Extensive automatic and human evaluations show that JoyAI-Video-Edit substantially outperforms existing streaming editors and remains competitive with strong offline systems on both short and long videos. The complete system achieves end-to-end 720p video editing at approximately 30 FPS on a single Nvidia B200 GPU. Code is available at https://github.com/jd-opensource/JoyAI-Video-Edit.",
@@ -299,17 +339,6 @@
             "authors": "Kaho Li, Pengyu Zeng, Yuqin Dai, Jun Yin, Tianjing Feng, Shuai Lu",
             "updated": "2026-08-01T06:51:38"
           }
-        },
-        {
-          "subject": "DiffusionGemma Technical Report",
-          "body": "We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text at exceptionally high speed. Rather than decoding one token at a time, DiffusionGemma iteratively refines blocks of 256 tokens in parallel, avoiding the sequential decoding bottleneck of conventional autoregressive (AR) large language models. Instead of training from scratch, we obtain DiffusionGemma by fine-tuning the mixture-of-experts Gemma 4 model with 3.8B activated and 25.2B total parameters. Our compute-efficient two-stage training pipeline uses fewer than 10% of the starting AR model's total training token budget. The first stage uses supervised fine-tuning to teach bidirectional denoising, while the second stage combines reinforcement learning with sampler distillation to jointly improve generation quality and inference efficiency. DiffusionGemma establishes a new Pareto frontier for the trade-off between generation speed and model capability. Averaged across our full evaluation suite, it generates around 20 tokens per forward pass and achieves roughly 1,500 output tokens per second on a single NVIDIA H100 GPU, which is substantially faster than AR models even with state-of-the-art speculative decoding. DiffusionGemma also retains the starting model's support for thinking mode, multimodal inputs, and long contexts. Despite diffusion fine-tuning, it remains capable of AR generation with only minor performance degradation, suggesting a path toward hybrid diffusion-AR decoding.",
-          "timestamp": "2026-07-31T16:11:46",
-          "url": "https://arxiv.org/abs/2608.00146v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "DiffusionGemma Team, Adrien Ali Taïga, James Assiene, Daniele Calandriello, Rahma Chaabouni, João Gante, Tamara von Glehn, Nate Keating, Chris Knutsen, Martin Kukla, Tianlin Liu, Ivan Lobov, Ofir Nabati, João Gabriel Oliveira, Nicolas Perez-Nieves, Nastasia Prutianova, Bobak Shahriari, Jean Tarbouriech, Pavel Tyletski, Çağlar Ünlü, Cindy Wu, Glenn Cameron, Jerome Connor, Sertan Girgin, Maarten Grootendorst, Alon Levkovitch, Eliya Nachmani, Omar Sanseviero, Piotr Stanczyk, Quentin Berthet, Andrew Campbell, Clément Crepy, Valentin De Bortoli, Arnaud Doucet, Romuald Elie, Alexandre Galashov, Klaus Greff, Alexis Jacq, David Ruhe, Yu-Han Wu, Sebastian Flennerhag, Brendan O'Donoghue, George Scrivener, Shantanu Thakoor",
-            "updated": "2026-07-31T16:11:46"
-          }
         }
       ]
     },
@@ -329,5 +358,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 key developments and 1 trend from the news and research developments in the field of artificial intelligence:\n\n**Key Developments:**\n\n* **Advances in Large Language Models**: Research has focused on developing more advanced large language models, such as Transbart and DiffusionGemma, which can generate text at high speed and scale.\n* **Improvements in Image Generation**: Researchers have made progress in generating high-quality images using multimodal large language models, such as GPT Image2 and Nano Banana2, which can produce realistic images that closely resemble real-world scenarios.\n* **Advances in Safety and Security**: There have been efforts to develop more transparent and trustworthy AI-generated text detection frameworks, such as DeBERTa-Sentinel, which can identify synthetic content and provide token-level explanations of its decisions.\n* **New Applications for AI**: Researchers have explored new applications for AI, such as using it for robotic locomotion, bimanual manipulation, and energy-efficient LLM serving.\n* **Efforts to Improve Model Explainability and Understanding**: There has been a growing emphasis on developing methods to improve model explainability and understanding, such as the observability ladder for large language models.\n\n**Trend:**\n* **Focus on Applications and Integration**: The trend in AI research is shifting from purely theoretical and conceptual developments to applied research and integration with real-world applications. Researchers are exploring ways to apply AI to a wide range of domains, from robotics and locomotion to energy efficiency and safety. This trend is driven by the need to make AI more practical and useful for real-world problems."
+  "summary": "Here are the key developments with insight, along with 4-6 bullet points and 1 trend:\n\n**Key Developments:**\n\nThe AI industry has seen significant advancements in recent times, with a focus on large language models (LLMs) and their applications. The developments include:\n\n* **Google's shift in AI power to California**: Google has shifted its AI power to California in a bid to stay ahead in the AI race against Anthropic and OpenAI.\n* **OpenAI's advancements in AI safety**: OpenAI has made significant advancements in AI safety, including the development of a new system for responsive voice AI and the disruption of a Cambodia-based scam operation using ChatGPT.\n* **NVIDIA's participation in NSF's State and Regional AI Hubs Program**: NVIDIA has joined the US National Science Foundation's (NSF) State and Regional AI Hubs Program to expand AI research and education across the US.\n* **New education plugins for ChatGPT Work and Codex**: OpenAI has released new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.\n\n**Bullet Points:**\n\n* **Google's AI power shift**: Google's shift in AI power to California is a significant development in the AI industry, as it indicates a major player is investing heavily in AI research and development.\n* **OpenAI's advancements in AI safety**: OpenAI's advancements in AI safety, including the development of a new system for responsive voice AI and the disruption of a scam operation, demonstrate the company's commitment to responsible AI development.\n* **NVIDIA's participation in NSF's program**: NVIDIA's participation in the NSF's program is a significant development, as it indicates a major player in the AI industry is investing in AI research and education.\n* **New education plugins for ChatGPT Work and Codex**: The new education plugins for ChatGPT Work and Codex are a significant development, as they indicate a major player in the AI industry is investing in education and research.\n* **Google's shift in AI power to California**: Google's shift in AI power to California is a significant development, as it indicates a major player in the AI industry is investing heavily in AI research and development.\n* **OpenAI's advancements in AI safety**: OpenAI's advancements in AI safety demonstrate the company's commitment to responsible AI development and its focus on developing AI systems that are safe and reliable.\n\n**Trend:**\n\nThe trend in the AI industry is towards more responsible and safe AI development. This is evident in the advancements made by OpenAI in AI safety, as well as the investments being made by major players in the AI industry in AI research and education. As AI becomes more pervasive in our lives, the need for responsible and safe AI development becomes increasingly important."
 }
