@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-08T03:19:47.396Z",
+  "timestamp": "2026-08-09T03:28:06.302Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 8,
       "items": [
+        {
+          "subject": "Responding to the next frontier of critical cyber capabilities",
+          "body": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+          "timestamp": "2026-08-08T04:00:02",
+          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
           "body": "The company recently unveiled a new office in London, where Hassabis will remain and focus on AI vision and strategy. Google said London remains an important hub for Google’s AI talent and ambitions",
@@ -67,278 +76,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Ten advances in mathematics and theoretical computer science",
-          "body": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-          "timestamp": "2026-08-01T13:30:02",
-          "url": "https://openai.com/index/ten-advances-in-mathematics",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Disrupting a Criminal Scam Operation",
-          "body": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-          "timestamp": "2026-08-01T04:00:02",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "“Tech and Tariffs” Campaign: Influence activity targeting US tech policy",
-          "body": "OpenAI banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions.",
-          "timestamp": "2026-08-01T04:00:02",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "“Data Center Bandwagon” Campaign: US-targeted influence activity",
-          "body": "OpenAI banned a likely PRC-origin cluster using AI to generate social media content criticizing US data centers and AI infrastructure.",
-          "timestamp": "2026-08-01T04:00:02",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        }
-      ]
-    },
-    "papers": {
-      "count": 21,
-      "items": [
-        {
-          "subject": "What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations)",
-          "body": "Large language model (LLM) benchmark evaluations are routinely used to support claims about model safety, reliability, and deployment readiness. Yet most evaluations rely on a single access modality (model APIs), perform a single run per prompt, and report accuracy as the primary outcome metric, without accounting for conditions such as web search that may have effects on model behavior in deployment. We audit these assumptions for one of the most widely-used LLMs, comparing two modalities, ChatGPT's chat UI and OpenAI's API, with and without web search enabled. We use a stratified total sample of 401 prompts from two popular benchmarks, BBQ and SafetyBench, collecting 4,812 total responses across three repeated runs per prompt. Beyond standard performance measures, we evaluate model output dimensions including response consistency, response text similarity, citation grounding, and abstention behavior. For instance, chat UI responses were less accurate than API responses on both benchmarks with search disabled. Enabling web search reduced accuracy by up to 8 percentage points, and even reversed the direction of modality performance trends for one benchmark. Repeated runs of the same prompt produced inconsistent responses in up to 21\\% of prompts. The two modalities also grounded answers in different citations, and abstention behavior was also inconsistent across both modalities. These results illustrate that, even within a model family, reporting only simple accuracy metrics can obscure important forms of model behavioral variation relevant to AI safety assessments. We argue that AI safety evaluations should systematically account for modality, multi-run consistency, search conditions, and response-level behaviors to better reflect how deployed AI systems behave in practice.",
-          "timestamp": "2026-08-06T15:58:32",
-          "url": "https://arxiv.org/abs/2608.06202v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Ro Encarnación, Tina Behzad, Emma Lurie, Danaé Metaxa",
-            "updated": "2026-08-06T15:58:32"
-          }
-        },
-        {
-          "subject": "ProDVI: Programmatic Dynamics Priors for Value Network Initialization",
-          "body": "Deep Reinforcement Learning (RL) is notoriously sample inefficient. One contributing factor is that RL agents are typically initialized from scratch, forcing them to acquire task-relevant knowledge through online interaction. Existing approaches obtain informative initializations through pre-collected datasets, high-fidelity simulators, or meta-learning over related tasks, but these prerequisites may be difficult to access or even unavailable. In this paper, we propose Programmatic Dynamics Priors for Value Network Initialization (ProDVI), a framework that leverages the commonsense and domain knowledge encoded in large language models to initialize RL agents without relying on these resources. Specifically, ProDVI prompts a code-generating language model to produce executable Python functions that encode coarse hypotheses about environment dynamics. These functions are then used to generate synthetic transitions. Based on these transitions, we construct an auxiliary dynamics prediction objective to pretrain the state-action encoder of the value network in an actor-critic framework. The learned representation provides dynamics-aware inductive biases before online RL begins. Importantly, the generated programs are used only for representation pretraining and are not required to faithfully simulate the target environment. While the generated programs may be inaccurate, their induced initialization can be corrected through online learning from real transitions and rewards. Experiments on OpenAI Gym and DeepMind Control Suite tasks show that ProDVI can effectively improve the sample efficiency of model-free RL algorithms.",
-          "timestamp": "2026-08-06T13:19:29",
-          "url": "https://arxiv.org/abs/2608.06015v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Xinwei Liu, Junyuan Liang, Jianting Zhang, Wuhui Chen",
-            "updated": "2026-08-06T13:19:29"
-          }
-        },
-        {
-          "subject": "JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
-          "body": "Real-time video editing requires low-latency causal generation with bounded computational resources while preserving source fidelity and long-term temporal consistency. We present JoyAI-Video-Edit, a 16B-parameter autoregressive diffusion framework for real-time, open-ended video editing without access to future frames or a predefined video duration. Our method combines chunk-wise autoregressive adaptation, Source-Anchored Distribution Matching Distillation (SA-DMD), and Long-Horizon Autoregressive Distillation to reduce train--inference mismatch, preserve source fidelity during two-step generation, and mitigate accumulated temporal drift. Extensive automatic and human evaluations show that JoyAI-Video-Edit substantially outperforms existing streaming editors and remains competitive with strong offline systems on both short and long videos. The complete system achieves end-to-end 720p video editing at approximately 30 FPS on a single Nvidia B200 GPU. Code is available at https://github.com/jd-opensource/JoyAI-Video-Edit.",
-          "timestamp": "2026-08-04T17:40:48",
-          "url": "https://arxiv.org/abs/2608.03974v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Yicheng Xiao, Wenxun Dai, Xinran Qin, Lin Song, Maoquan Zhang, Hang Xu, Yukang Chen, Yitong Li, Guohui Zhang, Yuan Zhang, Xuying Zhang, Tommy Zhang, Jianlong Yuan, Peihao Li, Shuai Lu, Siming Fu, Chuyang Zhao, Xin Han, Jie Huang, Wenbo Li, Guoqing Ma, Wei Huang, Xiaojuan Qi, Haoyang Huang, Nan Duan",
-            "updated": "2026-08-04T17:40:48"
-          }
-        },
-        {
-          "subject": "Bimanual Manipulation Within an 8 GB Budget: Zero-Copy Sensing and Quantized ACT on an Entry-Level Jetson",
-          "body": "Bimanual manipulation policies trained with imitation learning are typically evaluated on workstation or datacenter-class GPUs, leaving the cost of deploying them on embedded hardware largely uncharacterized. We present a bimanual SO-101 system running entirely on an NVIDIA Jetson Orin Nano Super (8 GB), the entry-level tier of NVIDIA's embedded line, using a desktop GPU (RTX 3070) only for offline training, evaluated on pick-and-place of a deformable beanbag. First, we build a GStreamer capture pipeline backed by NVMM buffers that removes redundant host-device copies from three-camera sensing. Contrary to expectation, the conventional path fit the memory budget and dropped no frames; what zero-copy sensing recovers is CPU headroom (peak single-core utilization 98.0% to 77.0%) and worst-case latency (117.31 ms to 101.52 ms). Second, we train ACT and Diffusion Policy on identical demonstrations, each at its own reference budget (100k gradient steps for ACT, 200k for Diffusion Policy). ACT converges to a task-competent policy (19/20 trials) while Diffusion Policy does not converge to a usable one (0/10) even at twice the step count, which we attribute to differing convergence costs rather than an accuracy ceiling. Third, we convert ACT to TensorRT. FP16 reduces mean inference latency from 114.02 ms to 17.93 ms (6.4x) and INT8 to 12.65 ms (9.0x), with task success preserved at all three precisions (19/20, 18/20, 19/20). We report two findings not previously documented for ACT: TensorRT's general-purpose INT8 calibration quantizes the ResNet18 backbone but accepts zero of 145 transformer layers, explaining INT8's negligible size reduction over FP16 (0.9%) despite a further 28% latency gain; and the need for quantization is conditional on ACT's action-chunking configuration, feasible in full precision at n_action_steps = 100 but not at the per-step re-prediction temporal ensembling requires.",
-          "timestamp": "2026-08-04T17:09:41",
-          "url": "https://arxiv.org/abs/2608.03938v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Ekansh Singh, Eva Samuel, Alessandra Reneau, Ryan Schmeelk, Yashvi Gandhi",
-            "updated": "2026-08-04T17:09:41"
-          }
-        },
-        {
-          "subject": "ETA: A New Agentic Paradigm for Embodied Tasks",
-          "body": "When will robots have their ChatGPT moment? Such a breakthrough requires a general-purpose robot that can handle unfamiliar tasks in unfamiliar environments, remain controllable over long interactions, and learn from experience.\n  Today's embodied systems largely follow an end-to-end observation-to-action path. Despite rapid progress, they remain far from this goal: their generalization depends heavily on the coverage of robot training data, while long task execution remains difficult to control and inspect. To realize this goal, we introduce the Embodied Task Agent (ETA), a new paradigm for extending digital agents into the physical world, and release OpenETA as its open-source implementation. ETA centers the robot around a Planner that chooses one Tool call at a time, an Interface that controls execution, and a World that returns the result and a fresh observation. This loop allows the agent to verify outcomes, adapt its plan, and turn successful and failed interactions into reusable experience. OpenETA provides replaceable Planners, composable Tools and Skills, auditable memory, replayable trajectories, and common interfaces for simulation and real robots. For Codex, OpenETA can operate as a lightweight plugin that exposes only observe, mark_point, and move_to.",
-          "timestamp": "2026-08-04T16:56:09",
-          "url": "https://arxiv.org/abs/2608.03924v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Yitong Chen, Zezheng Huai, Sixian Li, Yubang Wang, Haozhe Zhang, Yifei Zhang, Hechang Chen, Jingjing Gong, Yu-Gang Jiang, Xipeng Qiu",
-            "updated": "2026-08-04T16:56:09"
-          }
-        },
-        {
-          "subject": "Accelerating Dynamic Graph Clustering on GPU Architectures with cuGraph",
-          "body": "This work addresses community detection in temporal networks through GPU-accelerated extensions of spectral clustering and modularity-based algorithms originally designed for static graphs. Built on the NVIDIA RAPIDS ecosystem, the framework enables the characterization and tracking of communities in snapshot-based dynamic graphs, either by Leiden greedy optimization with multi-GPU support via Dask-based workload distribution, or eigendecomposition of a symmetric Bethe-Hessian operator. Our multislice modularity backend achieves up to roughly three orders of magnitude speedup over the CPU reference under an equal-work budget, depending on graph density and snapshot count, while preserving compatibility with existing graph analytics pipelines. We demonstrate its applicability on real-world and synthetic datasets, facilitating exploratory analysis of structural network properties over time. Such capabilities are relevant across several application domains, such as epidemic spreading, financial systems, cybersecurity, and trajectory and mobility analysis. We release our implementation as free and open-source software, including Python bindings through the NetworkX-Temporal library for ease of use and zero-code acceleration with existing codebases.",
-          "timestamp": "2026-08-04T14:01:00",
-          "url": "https://arxiv.org/abs/2608.03695v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Nelson Aloysio Reis de Almeida Passos, Emanuele Carlini, Salvatore Trani",
-            "updated": "2026-08-04T14:01:00"
-          }
-        },
-        {
-          "subject": "VARPose: Flexible 2D Pose Densification via Visual Autoregressive Modeling for Enhanced 3D Lifting",
-          "body": "Visual AutoRegressive Modeling (VAR) has excelled in natural image generation via next-scale prediction, but its use on topology-structured data like human skeletons is still unexplored. VARPose is proposed to adaptively densify 2D sparse poses, thereby enriching the anatomical information available for 3D lifting models. Our core contributions are twofold. First, we introduce a Granularity-agnostic Pose Tokenizer (GPT), which employs a single hybrid codebook and a residual quantization strategy to encode poses of varying densities into a unified, multi-scale discrete representation. Our results demonstrate the strong generalizability of this representation. By decoupling the representation from the projection, we can successfully decode novel pose granularities using a frozen codebook with a retrained decoder. Second, we propose UniSkelar, a unified autoregressive model that treats \"joint density\" as \"scale\". UniSkelar learns to predict the token sequence for the next density level in a coarse-to-fine manner, conditioned on the sparsest pose. VARPose not only outperforms state-of-the-art methods and generalizes to unseen granularities, but also confers tangible performance gains on downstream tasks, such as 3D Pose Estimation and Human Mesh Recovery, through 2D pose densification. Our code and model are available at https://github.com/BRL-SYSU/VARPose.git.",
-          "timestamp": "2026-08-03T13:36:24",
-          "url": "https://arxiv.org/abs/2608.02214v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Kaiyuan Pu, Tiantian Yang, Dan Zeng",
-            "updated": "2026-08-03T13:36:24"
-          }
-        },
-        {
-          "subject": "How Much Does a Reasoning Summary Reveal? An Observability Ladder for Large Language Models",
-          "body": "Large language models often show users a final response and a short reasoning summary while the full reasoning trace stays hidden. We introduce an observability ladder that holds each completed run fixed and varies only what a reader inspects to judge whether the answer is correct: the response, a self-summary the model writes from the trace, the trace itself, and internal signals, each with and without the prompt. Across three benchmarks and five open-weight Qwen3 and gpt-oss models, we train matched linear correctness predictors on each access level. Without the prompt, summaries carry most of the trace's ranking signal (mean AUROC 0.774 versus 0.813) and add +0.156 over the response alone. With the prompt visible, the summary's gain collapses to +0.019, while the trace still adds +0.041. Even at equal length, the trace's last words predict correctness as well as summaries, or slightly better, and carry denser and more discriminative uncertainty and self-correction cues. On MMLU-Pro questions with both correct and incorrect runs, linear summary readers are near chance and trace readers retain only modest signal, both with and without the prompt (prompt-withheld AUROC 0.503-0.545 versus 0.544-0.590). With the prompt withheld, a GPT-5-mini reader recovers substantially more signal from both summaries and traces on gpt-oss-20b, and even then the trace keeps a small +0.034 advantage. Much of the linear readers' trace signal is associated with length. In the common case where users already hold the prompt, summaries are less helpful than the full trace for monitoring correctness. Monitorability is thus a joint property of the display and the reader, so any monitorability claim, including for faithfulness, should specify both.",
-          "timestamp": "2026-08-03T11:48:39",
-          "url": "https://arxiv.org/abs/2608.02089v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Andres Algaba, Francesca Carlon, Lynn Delcon, Marthe Ballon, Bert Verbruggen, Vincent Ginis",
-            "updated": "2026-08-03T11:48:39"
-          }
-        },
-        {
-          "subject": "Open-DiffLoco: Open-Source Differentiable Learning for Deployable Blind Quadruped Locomotion",
-          "body": "Developing deployable locomotion policies through conventional reinforcement learning often requires complex reward engineering and expensive training times. While differentiable simulation offers a highly efficient alternative, open-source tools capable of end-to-end transfer of these policies to physical hardware remain limited. This paper introduces Open-DiffLoco, an open-source framework for training deployable blind quadruped locomotion policies with differentiable simulation. The framework implements the Short-Horizon Actor-Critic (SHAC) algorithm in MuJoCo XLA (MJX) and trains a proprioceptive policy that transfers to real-world hardware. The deployed policy removes privileged actor observations, including base linear velocity, and does not rely on reference trajectories. It also uses a substantially simplified reward function, enabling the robot to discover walking patterns without the complex auxiliary rewards typically used in conventional reinforcement learning pipelines. When deployed on physical hardware (a Unitree Go2 quadruped), the trained policy tracks omnidirectional velocity commands with root-mean-square error below 0.2 m/s, reaches speeds above 1 m/s, and remains robust to uneven terrain and external physical disturbances, such as lateral pushes. Across the reported configurations, training uses under 6 GB of VRAM on a single NVIDIA GeForce RTX 5080 GPU and completes in approximately 20-60 minutes. As an algorithmic extension to SHAC, we propose Jacobian-Augmented Value Estimation (JAVE), which supervises the critic Jacobians to improve early first-order policy-gradient training. To our knowledge, Open-DiffLoco is the first open-source framework for training deployable locomotion policies using differentiable simulation. Deployment videos and source code are available at: https://diffloco.martin-opat.com/",
-          "timestamp": "2026-08-03T11:11:13",
-          "url": "https://arxiv.org/abs/2608.02069v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Martin Opat",
-            "updated": "2026-08-03T11:11:13"
-          }
-        },
-        {
-          "subject": "MIEScore: Human-Aligned Evaluation for Multi-Source Image Editing",
-          "body": "Recent advances in unified multimodal models have significantly improved text-guided image editing abilities. In particular, models such as Nano-Banana-Pro and GPT-Image-2 demonstrate emerging capabilities in multi-source image editing (MIE), including tasks such as object synthesis, person-background composition, and cross-image style fusion. However, existing benchmarks and image editing assessment (IEQA) methods remain primarily focused on single-image editing tasks and largely overlook the more challenging setting of MIE. This highlights the urgent need for a comprehensive and human-aligned benchmark for MIE. To this end, we introduce MIE-Bench, the first large-scale multiple image editing benchmark with fine-grained human preference annotations. Specifically, MIE-Bench includes 3,000 editing instances across 16 tasks, each involving more than two source images and an editing prompt, together with 36K edited images produced by 12 state-of-the-art editing models and over 108K mean opinion scores (MOSs) covering visual quality, instruction following, and attribute preservation. Based on MIE-Bench, we propose MIEScore, a multimodal large language model (MLLM)-based evaluation model enhanced with skill optimization and multi-dimensional supervised fine-tuning, to provide human-aligned feedback for MIE. Extensive experiments show that MIEScore achieves state-of-the-art performance in aligning with human preferences and generalizes well across other IEQA datasets. Both the dataset and the model are available at https://github.com/IntMeGroup/MIEScore.",
-          "timestamp": "2026-08-03T10:57:00",
-          "url": "https://arxiv.org/abs/2608.02059v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Zitong Xu, Huiyu Duan, Xinyun Zhang, Weifei Xiong, Tianyi Zheng, Xiongkuo Min, Qiang Hu, Zhengxue Cheng, Bo Li, Guangtao Zhai",
-            "updated": "2026-08-03T10:57:00"
-          }
-        },
-        {
-          "subject": "Energy-Efficient LLM Serving via Disaggregated Attention--FFN and Flexible Frequency Scaling",
-          "body": "Large language model (LLM) serving spans diverse applications with stringent service-level objectives (SLOs), often requiring GPUs to run at maximum frequencies and increasing energy consumption. Existing energy-management approaches adapt GPU frequencies only at the request or inference-phase level, overlooking operator-level differences in frequency sensitivity between Attention and feed-forward networks (FFNs). We find that the energy-optimal frequencies of Attention and FFN (A/F) differ and vary with the inference phase, workload, and system configurations. However, runtime variability and independent A/F frequency control create a large search space and high communication overhead. To address these challenges, we present AFlex, a framework that jointly optimizes resource provisioning and GPU frequency scaling for disaggregated A/F serving. AFlex introduces a global scheduler and a local operator-level dynamic voltage and frequency scaling (DVFS) controller to determine A/F resource allocations and frequencies. It further introduces an interleaved A/F pipeline with dynamic microbatch depth and adaptive request batching to reduce pipeline bubbles. We implement AFlex in SGLang and evaluate it on NVIDIA A800 GPUs using Qwen3-32B and Mixtral-8$\\times$7B under production Conversation and Coding traces. \\AFlex reduces energy per token by up to 49\\% over state-of-the-art disaggregated serving and 48\\% over frequency-scaling systems while satisfying TTFT and TPOT SLOs.",
-          "timestamp": "2026-08-03T08:32:50",
-          "url": "https://arxiv.org/abs/2608.01891v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Cunchen Hu, Liangliang Xu, Tian Liu, Min Lyu, Yongkun Li, Sa Wang, Shuo Quan, Yanan Yang, Wenda Tang, Yiduo Wang, Fu Yu, Jie Wu",
-            "updated": "2026-08-03T08:32:50"
-          }
-        },
-        {
-          "subject": "RADAR: Rubric-Aware Dependency and Redundancy Analysis for LLM-as-Judge Evaluation",
-          "body": "Rubric-based LLM-as-judge pipelines often assume that evaluation criteria provide independent signals. In practice, however, criteria can be behaviorally coupled: improving one criterion may systematically change scores on another, distorting aggregate scores used in model-release or product-update decisions. We introduce RADAR, a lightweight preflight diagnostic framework for estimating such coupling before large-scale evaluation. Given a rubric, RADAR generates targeted synthetic probes, scores each probe on all criteria, and produces a directional coupling matrix that shows which criteria co-score and how. We validate RADAR on three industry-relevant evaluation settings: NVIDIA HelpSteer2, SumPubMed, and the Yale-Salesforce SummEval benchmark. Using only a small number of probes per criterion, RADAR recovers human inter-criterion correlation structure (Pearson r > 0.84) and provides practitioners with concrete audit signals about redundancy, hierarchy, and aggregation sensitivity before committing to large-scale judging.",
-          "timestamp": "2026-08-03T07:21:32",
-          "url": "https://arxiv.org/abs/2608.01810v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Divyansh Singh, Reza Davari, Afra Mashhadi",
-            "updated": "2026-08-03T07:21:32"
-          }
-        },
-        {
-          "subject": "Meganeura: Portable GPU Training and Inference through Vulkan and Metal",
-          "body": "Training and deployed inference often cross export, conversion, and platform-specific runtime boundaries. Meganeura asks whether one compact native compiler can span both phases on consumer GPUs. Its typed static graph, automatic differentiation, optimizer, checkpoint, memory planner, and runtime lower specialized programs through Vulkan and Metal.\n  We compare five matched workloads with PyTorch on NVIDIA and AMD discrete GPUs, an AMD APU, Apple silicon, and an Intel iGPU. The protocol separates strict f32 from validated fast paths and gates forward and backward independently. Forty-eight of 50 device-workload-mode cells pass both gates; the other two share one unresolved backward-reference disagreement on a newly supported APU. In strict f32, Meganeura wins 12 of 20 GPU-referenced minimal-latency cells and has a median valid training gap of 1.8x. On the discrete AMD GPU, four of five inference workloads are within 1.10x of compiled ROCm PyTorch and three training workloads are faster. Under accelerated contracts, the worst training gap is 4.6x.\n  Compilation takes 0.1-2.4 seconds versus 6-96 seconds for torch.compile on supported GPU paths; the stripped binary is 13 MiB. Dispatch profiles localize the largest gaps to convolution derivatives and attention backward. A physical Android XR case study transfers a Meganeura-trained decoder into an Adreno/OpenXR application sharing the graphics queue. The results show that general consumer graphics APIs can support a compact shared train-to-deploy stack at useful, sometimes vendor-competitive performance. The measured gaps point to kernel coverage, scheduling, and arithmetic policy rather than an identified API limitation.",
-          "timestamp": "2026-08-03T00:42:55",
-          "url": "https://arxiv.org/abs/2608.01563v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Dzmitry Malyshau",
-            "updated": "2026-08-03T00:42:55"
-          }
-        },
-        {
-          "subject": "PolymerGPT: Multi-property Optimization with a Decoder-Based GPT Model for Generative Polymer Design",
-          "body": "Polymer property prediction and inverse generative design targeting desired properties are two crucial tasks in machine learning-assisted polymer design. While the former has received considerable attention, there have been limited methods developed for the latter. Existing methods focus on single-property optimization in the generative process, whereas accurate prediction of macroscopic material behavior requires simultaneous control of multiple physical properties. In this paper, we provide a transformative framework for direct optimization of a large collection of polymer properties. We propose PolymerGPT, a decoder-based GPT model that incorporates up to 37 commonly used polymer properties into the generative process via learned conditioning prefixes. It also supports a scaffold condition that specifies a desired scaffold for predicted structures. Our experimental results demonstrate that PolymerGPT achieves exceptional performance for unconditional and conditional generation while maintaining high validity, uniqueness, and novelty. Conditioning on five key properties yields generated structures whose predicted values closely match all target properties simultaneously.",
-          "timestamp": "2026-08-02T18:26:04",
-          "url": "https://arxiv.org/abs/2608.01431v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Charlie Pyle, Adarsh Gadari, C. Adrian Figg, Zhenquan Jia, Yaohang Li, Chunjiang Zhu",
-            "updated": "2026-08-02T18:26:04"
-          }
-        },
-        {
-          "subject": "Why Formal Monitors Fail: Attack Distribution Entropy as a Coverage Bound for LTL-Based LLM Agent Safety",
-          "body": "Runtime safety monitors based on Linear Temporal Logic (LTL) and finite automata (FSA) are increasingly deployed to intercept unsafe tool-call sequences in LLM agents. Yet the same monitor achieves 68-75% attack coverage on some model architectures and near-zero on others, with no explanation from capability scores, training data, or prompt design. We provide the missing theory. We prove that the recall of any fixed-invariant FSA monitor is bounded above by the concentration of the attack distribution: the fraction of attacks covered by the k most frequent trigger-completion patterns. When attacks concentrate (low Shannon entropy), a small fixed invariant set achieves high recall; when they disperse across many structurally distinct patterns (high entropy), no fixed invariant set of tractable size can, regardless of how the invariants were derived. We validate this entropy-coverage bound across eight frontier LLM architectures. GPT-class and DeepSeek backends yield highly concentrated attacks (H ~ 0.24 bits; one pattern covers 96%), explaining 68-75% recall; Gemini variants yield high-entropy distributions (H ~ 2.81 bits; 7 clusters each <= 7%), explaining near-zero recall (6-13%), invariant to architecture-matched retraining. Entropy accounts for 76% of variance in coverage (Pearson r = -0.87, p = 0.005, 95% CI [-0.98, -0.78]), holding under leave-one-out (r in [-0.91, -0.82]). We introduce a pre-deployment entropy test that predicts monitor coverage from a small attack sample, enabling architecture-aware monitor selection before deployment. The bound and test are architecture-agnostic and apply to any FSA-based runtime monitor over discrete action sequences.",
-          "timestamp": "2026-08-02T17:08:21",
-          "url": "https://arxiv.org/abs/2608.01388v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Ruiyang Zhang",
-            "updated": "2026-08-02T17:08:21"
-          }
-        },
-        {
-          "subject": "A Benchmark Dataset for MLLM-Generated Image Detection: GPT Image2 & Nano Banana2",
-          "body": "The realism of images generated by multimodal large language models (MLLMs), such as GPT Image2 and Nano Banana2, has improved rapidly in recent years. Compared with early generative models, current models have made clear progress in text rendering. They can produce high-quality images that closely resemble real-world application scenarios. The enhanced generation capabilities of current MLLMs pose increasingly severe challenges to AI-generated image detection. Detection is no longer limited to identifying obvious artifacts left by early generators. Instead, it requires systematic and realistic benchmarks for the new generation of generated content. However, most existing benchmarks are still built around early generative models and cannot fully evaluate the forensic challenges introduced by high-quality and multi-form generated images. To address this gap, this paper constructs a benchmark dataset for detecting images generated by MLLMs. The benchmark covers several realistic application scenarios and adopts three generation protocols to simulate direct generation, reference-based reconstruction, and local editing. Based on this benchmark, we evaluate detector degradation from traditional scenarios to MLLM-generated images and analyze false positive rates and false negative rates across three sample types, revealing the failure modes of existing methods. We further propose a structural-artifact-prior-guided dual-stream prompt framework (SAP-DSP) as a strong baseline. SAP-DSP uses dual-stream prompt learning and structure-aware routing fusion to improve representation learning. Extensive experiments show that the proposed benchmark exposes the performance degradation of existing detectors on high-quality generated images, while SAP-DSP achieves more stable detection results on this benchmark. Our code and dataset are publicly available at https://github.com/xbrainnet/SAP-DSP.",
-          "timestamp": "2026-08-02T14:09:17",
-          "url": "https://arxiv.org/abs/2608.01258v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Zirui Zhang, Yinbo Yu, Donghai Guan, Chunwei Tian, Daoqiang Zhang, Qi Zhu",
-            "updated": "2026-08-02T14:09:17"
-          }
-        },
-        {
-          "subject": "VespaSeg: A Resource-Aware Ground-then-Segment Pipeline for Referring Expression Segmentation",
-          "body": "Referring expression segmentation requires language conditioned localization and pixel-accurate masks, but monolithic models can be costly to deploy. We present VespaSeg, a modular pipeline that grounds a text query with a compact vision-language model and converts the predicted box to a mask with MobileSAM. We study Florence-2-base, Florence-2-large, and Moondream2 grounders together with targeted adaptation of the grounding and segmentation stages. Under a repository-specific RefCOCO validation protocol containing the first expression for each of 3,811 referenced-object records, the adapted Florence-2-base pipeline obtains 73.64 mean intersection over union (mIoU) and 84.60 precision at IoU 0.5. On an NVIDIA RTX 6000 Ada GPU it processes 22.8 cached-image queries per second with 2.20 GB mean allocated GPU memory. A matched 500-query comparison gives 73.73 mIoU for Florence-2-base and 72.82 for Florence-2-large, while the base model is 1.70 times faster and uses 1.17 GB less allocated memory. Ablations show that ground-truth-box adaptation raises MobileSAM mIoU from 82.22 to 86.61 and that reducing the Florence-2 output-token budget from 64 to 32 preserves accuracy. These results support compact, modular grounding and segmentation, while also exposing the need for evaluation on the complete standard RefCOCO expression splits and deployment hardware.",
-          "timestamp": "2026-08-02T08:21:48",
-          "url": "https://arxiv.org/abs/2608.01077v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Savindu Dilshan Wickramasinghe",
-            "updated": "2026-08-02T08:21:48"
-          }
-        },
-        {
-          "subject": "DeBERTa-Sentinel: Toward Transparent and Trustworthy Detection of AI-Generated Text",
-          "body": "The rapid spread of large language models (LLMs) across the web raises concerns about misinformation, academic integrity, automated content manipulation, and risks to vulnerable online communities. Existing transformer-based detectors, such as GPT-Sentinel, show promise but struggle to generalize to diverse model outputs and paraphrasing attacks, limiting their role in building trustworthy web ecosystems. This work introduces DeBERTa-Sentinel, a responsible AI-generated text detection framework leveraging DeBERTa-v3's disentangled attention to capture subtle structural irregularities in synthetic content. A central design principle is transparency: unlike black-box commercial detectors, DeBERTa-Sentinel exposes token-level explanations of its decisions, enabling affected stakeholders journalists, educators, and platform trust and safety teams to audit, challenge, and contextualize detection outcomes. Using the GLC-AIText dataset of 28,057 human and LLM-generated samples (GPT, LLaMA, and Claude) with a 60-20-20 split, DeBERTa-Sentinel achieves 98.21\\% validation accuracy and surpasses the RoBERTa-Sentinel baseline from NeurIPS 2025, achieving 97.53\\% test accuracy, 95.89\\% precision, 99.33\\% recall, and 99.53\\% ROC-AUC, and maintaining a 0.665\\% false negative rate. The model's interpretability reveals linguistic markers such as academic phrasing and formal transitions associated with synthetic text, directly supporting stakeholder needs for verifiable, auditable content-authenticity decisions. By advancing responsible detection methods that reduce bias and enhance explainability, DeBERTa-Sentinel promotes trustworthy, ethical, and human-centric AI systems. Code and data are available at https://github.com/Galileo-Galili/HUMAN-VS-AI-TEXT-DETECTION.",
-          "timestamp": "2026-08-02T07:08:20",
-          "url": "https://arxiv.org/abs/2608.01046v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Muhammad Yousaf Rehman, Muhammad Islam",
-            "updated": "2026-08-02T07:08:20"
-          }
-        },
-        {
-          "subject": "MixedComplementarityProblems.jl: A Fast, Batched, Open-Source Interior Point Solver for Mixed Complementarity Problems",
-          "body": "Mixed complementarity problems (MCPs) arise as the first-order optimality conditions of nonlinear programs and noncooperative games, and provide a natural formulation for multi-agent trajectory optimization problems that appear throughout robotics. The dominant solver for problems of this form is PATH, which offers strong performance on robotics problems but remains closed-source. We present MixedComplementarityProblems.jl, an open-source, pure Julia implementation of an interior point method for parametric MCPs that: (i) matches PATH's reliability on standard benchmarks, (ii) natively supports batched, parallel processing of many parameter instances, either across CPU threads or on an NVIDIA GPU, and (iii) supports efficient automatic differentiation of solutions with respect to problem parameters. On a multi-agent lane-change trajectory game representative of robotics planning problems, our CPU-multithreaded batched solver clears a batch of parametric instances ~100x faster than sequential calls to PATH. A GPU backend, running the same solver implementation unmodified, also clears these batches far faster than PATH, but does not outperform the multithreaded CPU on this problem; the GPU pulls ahead only once each per-instance KKT system grows large, and we characterize this regime dependence. We describe the solver's interior point formulation, the abstraction that lets a single solver implementation run unmodified across dense, batched-sparse, and single-large linear-algebra backends, and report benchmarks against PATH on both randomly generated quadratic programs and trajectory games.",
-          "timestamp": "2026-08-02T03:10:50",
-          "url": "https://arxiv.org/abs/2608.00959v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "David Fridovich-Keil",
-            "updated": "2026-08-02T03:10:50"
-          }
-        },
-        {
-          "subject": "Writing-System-Level Tokenizer Adaptation for Byte-Level BPE",
-          "body": "Pretrained byte-level BPE tokenizers can segment underrepresented languages inefficiently. Replacing a tokenizer changes the meaning of nearly every token ID, while vocabulary expansion enlarges the model's embedding and output matrices. We study post-hoc adaptation that keeps the model-vocabulary size fixed and preserves most existing token-to-ID assignments as a construction-time compatibility property. Directly transferring tokens from a language-specific tokenizer does not guarantee derivability through the target BPE merge graph: an inserted entry can conflict with the target's greedy merge ranks. We formalize this failure as the merge ordering problem and introduce BPE-guided insertion, which builds each transferred token through a target-reachable decomposition. Our pipeline uses script-aware row selection to limit collateral fragmentation, reconstructs target-script byte-level prerequisites, and applies guided insertion to maintain merge-graph reachability. On Ukrainian adaptations of Nemotron and GPT-OSS, it reduces token counts by 33.5% and 36.6%, keeps changes on English and the evaluated four-language European aggregate within 0.05%, and retains 78.5%/77.3% of original model-vocabulary rows at the same IDs. Constraint-matched global and frequency-based removal achieve similar Ukrainian compression but increase English/European token counts by 0.7-2.2%; fresh same-size retraining compresses Ukrainian slightly more but retains effectively no same-ID rows and increases English token counts by 7.6-8.6%. The reallocation increases token counts on the evaluated three-language Cyrillic micro-aggregate by 6.7%/10.1%. Structural audits find all 28,134/45,398 inserted BPE nodes reachable under ordinary rank-ordered merging and no retained same-ID model-vocabulary entry newly broken. We release all tokenizers and code.",
-          "timestamp": "2026-08-01T10:38:23",
-          "url": "https://arxiv.org/abs/2608.00582v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Bohdan Didenko",
-            "updated": "2026-08-01T10:38:23"
-          }
-        },
-        {
-          "subject": "CrossProjection: Geometric Grounding Beyond Viewpoint Change in Architectural Drawings",
-          "body": "Architectural drawings violate the usual assumption behind multi-view reasoning: plans and sections are cuts, while elevations are facade projections, so corresponding components change appearance in ways camera motion cannot explain. We introduce CrossProjection, an anchor-grounded diagnostic of whether vision-language models preserve component identity and externalize geometry across heterogeneous architectural views. It evaluates Matching, Registration, and Geometric Grounding through categorical judgments, candidate selection, and free point, line, and region localization.\n  Across 23 real drawing sets and 1,954 categorical conditions per model, GPT-5.5 scores 82.4%, Qwen3-VL-32B-Instruct 62.2%, and GLM-4.5V 57.2%. A matched 200-target study crosses natural and vector-text-suppressed drawings with closed-candidate and free-geometry outputs. Candidate-supported performance is often higher, but free localization remains fragile: on natural drawings, point/region PCK@.05 is 54-76% for GPT, 8-10% for Qwen, and 14-36% for GLM; line endpoint PCK@.05 is 22%, 4%, and 0%. A coordinate grid recovers some GPT point/region precision but not lines. Three architecture-trained participants reach 87.3-93.3% categorical accuracy and 76-92% GT-region hit, supporting task feasibility rather than a population-level human ceiling.\n  Because the categorical families do not form a same-item Matching-Registration contrast and interface controls alter multiple burdens, we avoid mechanistic claims. The supported conclusion is narrower: closed-choice or marked-element success does not entail reliable explicit geometric grounding. For drawing-guided CAD/BIM systems, categorical correctness should not be treated as evidence of candidate-free spatial reliability. Reusable on-sheet anchors, fixed-denominator scoring, and hash-locked artifacts establish an audit trail for this gap.",
-          "timestamp": "2026-08-01T06:51:38",
-          "url": "https://arxiv.org/abs/2608.00473v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Kaho Li, Pengyu Zeng, Yuqin Dai, Jun Yin, Tianjing Feng, Shuai Lu",
-            "updated": "2026-08-01T06:51:38"
-          }
         }
       ]
     },
@@ -358,5 +95,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight, along with 4-6 bullet points and 1 trend:\n\n**Key Developments:**\n\nThe AI industry has seen significant advancements in recent times, with a focus on large language models (LLMs) and their applications. The developments include:\n\n* **Google's shift in AI power to California**: Google has shifted its AI power to California in a bid to stay ahead in the AI race against Anthropic and OpenAI.\n* **OpenAI's advancements in AI safety**: OpenAI has made significant advancements in AI safety, including the development of a new system for responsive voice AI and the disruption of a Cambodia-based scam operation using ChatGPT.\n* **NVIDIA's participation in NSF's State and Regional AI Hubs Program**: NVIDIA has joined the US National Science Foundation's (NSF) State and Regional AI Hubs Program to expand AI research and education across the US.\n* **New education plugins for ChatGPT Work and Codex**: OpenAI has released new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.\n\n**Bullet Points:**\n\n* **Google's AI power shift**: Google's shift in AI power to California is a significant development in the AI industry, as it indicates a major player is investing heavily in AI research and development.\n* **OpenAI's advancements in AI safety**: OpenAI's advancements in AI safety, including the development of a new system for responsive voice AI and the disruption of a scam operation, demonstrate the company's commitment to responsible AI development.\n* **NVIDIA's participation in NSF's program**: NVIDIA's participation in the NSF's program is a significant development, as it indicates a major player in the AI industry is investing in AI research and education.\n* **New education plugins for ChatGPT Work and Codex**: The new education plugins for ChatGPT Work and Codex are a significant development, as they indicate a major player in the AI industry is investing in education and research.\n* **Google's shift in AI power to California**: Google's shift in AI power to California is a significant development, as it indicates a major player in the AI industry is investing heavily in AI research and development.\n* **OpenAI's advancements in AI safety**: OpenAI's advancements in AI safety demonstrate the company's commitment to responsible AI development and its focus on developing AI systems that are safe and reliable.\n\n**Trend:**\n\nThe trend in the AI industry is towards more responsible and safe AI development. This is evident in the advancements made by OpenAI in AI safety, as well as the investments being made by major players in the AI industry in AI research and education. As AI becomes more pervasive in our lives, the need for responsible and safe AI development becomes increasingly important."
+  "summary": "Here are 4-6 bullet points summarizing the key developments in the AI industry:\n\n* **OpenAI's efforts to strengthen cybersecurity** (subject: \"Responding to the next frontier of critical cyber capabilities\"): OpenAI is releasing initial cybersecurity evaluations for Astra and outlining steps to enhance safeguards and security controls.\n* **Google's shift in AI power**: Google has shifted its AI focus to California and set up a new office in London, with Demis Hassabis remaining in London to focus on AI vision and strategy.\n* **Partnership between OpenAI and the American Psychological Association**: OpenAI and the American Psychological Association are working together to advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.\n* **New ways to learn with ChatGPT**: OpenAI has introduced new education plugins for ChatGPT Work and Codex to help K-12 teachers, college educators, and students learn, teach, research, and build.\n* **NVIDIA's partnership with the NSF**: NVIDIA has joined the U.S. National Science Foundation's (NSF) State and Regional AI Hubs Program to expand AI research and education across the US.\n* **NVIDIA's Alpamayo 2 Super**: NVIDIA's Alpamayo 2 Super model is now available for commercial use, aimed at robotaxis and autonomous vehicles.\n\n**Trend: Continued focus on AI innovation and education**\n\nA growing trend in the AI industry is the focus on innovation and education. With the rise of AI, companies like NVIDIA and OpenAI are investing in partnerships, research, and development to enhance the capabilities of AI models, improve cybersecurity, and promote responsible AI use. Additionally, OpenAI's partnerships with educational institutions and the American Psychological Association demonstrate a commitment to using AI for the greater good, particularly in areas like youth mental health and education."
 }
