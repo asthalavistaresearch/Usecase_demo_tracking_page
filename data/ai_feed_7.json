@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-14T04:02:12.239Z",
+  "timestamp": "2026-08-15T02:46:53.109Z",
   "categories": {
     "news": {
-      "count": 19,
+      "count": 21,
       "items": [
+        {
+          "subject": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+          "body": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+          "timestamp": "2026-08-14T04:00:01",
+          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "body": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+          "timestamp": "2026-08-14T04:00:01",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "AI giants are quiet on climate in sign of post-ESG Wall Street",
+          "body": "OpenAI, Anthropic and SpaceX haven't disclosed greenhouse gas emissions or set net-zero goals, even as California's SB253 law nears enforcement.",
+          "timestamp": "2026-08-14T04:00:01",
+          "url": "https://fortune.com/2026/08/12/ai-giants-are-quiet-on-climate-in-sign-of-post-esg-wall-street/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
         {
           "subject": "Oh Lord, AI Reporters Are Actually Breaking Big News",
           "body": "Last week, an AI newsroom beat mainstream journalists—including WIRED—to a story about OpenAI and hacking. It’s just the beginning.",
@@ -166,21 +193,32 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Google Shifts AI Power to California in Race Against Anthropic, OpenAI",
-          "body": "The company recently unveiled a new office in London, where Hassabis will remain and focus on AI vision and strategy. Google said London remains an important hub for Google’s AI talent and ambitions",
-          "timestamp": "2026-08-07T13:30:02",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/google-shifts-ai-power-to-california-in-race-against-anthropic-openai",
-          "extras": {
-            "data_origin": "Bloomberg"
-          }
         }
       ]
     },
     "models": {
       "count": 6,
       "items": [
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"license:other\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"deploy:azure\", \"deploy:sagemaker\", \"region:us\"]",
+          "timestamp": "2026-08-13T18:36:59",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"deploy:azure\", \"deploy:sagemaker\", \"region:us\"]",
+          "timestamp": "2026-08-13T18:36:30",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "unsloth/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
           "body": "[\"transformers\", \"gguf\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"text-generation\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"imatrix\", \"conversational\"]",
@@ -189,26 +227,6 @@
           "extras": {
             "data_origin": "huggingface",
             "namespace": "unsloth"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-08-12T17:21:44",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"license:other\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-08-12T16:45:22",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
           }
         },
         {
@@ -244,5 +262,5 @@
       ]
     }
   },
-  "summary": "**Developments:**\n\n1. **NVIDIA CEO Jensen Huang ranked #1 on Glassdoor's Best CEOs list for 2026**: NVIDIA's CEO has been recognized as the top CEO in the world according to Glassdoor's annual list, reflecting the company's success in the AI space.\n2. **NVIDIA announces partnerships with leading financial institutions to establish AI infrastructure financing platforms**: NVIDIA has partnered with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure, solidifying NVIDIA's position as a leader in the AI computing space.\n3. **OpenAI's ChatGPT Work accelerates business operations for Virgin Atlantic and Zapier**: The airline and the automation platform have both implemented ChatGPT Work, a tool that helps teams connect signals across the customer journey, reducing the number of drop-offs in the lead funnel and automating reporting.\n4. **NVIDIA releases Nemotron 3.5 models for easier open-source AI model development**: NVIDIA has released Nemotron 3.5 models, a suite of AI models designed to make it easier for developers to build and deploy AI models, further advancing the open-source ecosystem.\n5. **OpenAI makes Daybreak models available on AWS, enhancing cybersecurity capabilities**: OpenAI's AI-powered cybersecurity models are now available on AWS, enabling enterprises to gain more effective threat detection and mitigation capabilities.\n6. **Google shifting AI power to California in the AI race with OpenAI and Anthropic**: Google has shifted its AI efforts to California, reflecting the growing competition in the AI space between major players like Google, OpenAI, and Anthropic.\n\n**Trend:** **Growing importance of AI infrastructure financing** is becoming increasingly important as the demand for AI computing continues to grow. Companies like NVIDIA are establishing partnerships with leading financial institutions to mobilize capital and support the buildout of AI infrastructure, reflecting the importance of stable and scalable infrastructure for the continued growth of the AI industry."
+  "summary": "Here are 6 bullet points and 1 trend summarizing the key developments:\n\n**Bullet Points:**\n\n* OpenAI has appointed Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.\n* OpenAI has previewed Ultrafast, a new API service tier that runs GPT-5.6 Sol up to 14× faster, powered by Cerebras.\n* NVIDIA has announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to establish independent compute financing platforms for AI infrastructure.\n* NVIDIA has made its Nemotron 3.5 Lightning and NeMo Switchyard models available, which deliver faster, smarter, and more efficient agentic AI.\n* Virgin Atlantic is using ChatGPT Work to accelerate research, product planning, and decision-making, helping teams connect signals across the customer journey.\n* OpenAI has made its Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.\n\n**Trend:**\n\n* **Increased adoption of AI-native work**: Enterprises are adopting agentic AI, using ChatGPT and Codex, and frontier firms are pulling ahead in AI adoption. This trend suggests that AI is becoming an essential tool for businesses to stay competitive and drive innovation."
 }
