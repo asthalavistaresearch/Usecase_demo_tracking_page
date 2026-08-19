@@ -1,24 +1,24 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-18T02:50:46.512Z",
+  "timestamp": "2026-08-19T02:52:02.364Z",
   "categories": {
     "news": {
-      "count": 25,
+      "count": 16,
       "items": [
         {
-          "subject": "NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute",
-          "body": "News Summary: NVIDIA will be the exclusive AI compute infrastructure provider at...",
-          "timestamp": "2026-08-17T13:30:01",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute",
+          "subject": "AWS: NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
+          "body": "NVIDIA Nemotron 3.5 Lightning is designed for the fast, specialized model execution...",
+          "timestamp": "2026-08-18T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "AWS AI News"
           }
         },
         {
-          "subject": "New policy ideas for the Intelligence Age",
-          "body": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "subject": "The Defender’s Window",
+          "body": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
           "timestamp": "2026-08-17T13:30:01",
-          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "url": "https://openai.com/index/the-defenders-window",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -33,12 +33,21 @@
           }
         },
         {
-          "subject": "The Defender’s Window",
-          "body": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+          "subject": "New policy ideas for the Intelligence Age",
+          "body": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
           "timestamp": "2026-08-17T13:30:01",
-          "url": "https://openai.com/index/the-defenders-window",
+          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
           "extras": {
             "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute",
+          "body": "News Summary: NVIDIA will be the exclusive AI compute infrastructure provider at...",
+          "timestamp": "2026-08-17T13:30:01",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -51,12 +60,12 @@
           }
         },
         {
-          "subject": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-          "body": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+          "subject": "AI giants are quiet on climate in sign of post-ESG Wall Street",
+          "body": "OpenAI, Anthropic and SpaceX haven't disclosed greenhouse gas emissions or set net-zero goals, even as California's SB253 law nears enforcement.",
           "timestamp": "2026-08-14T04:00:01",
-          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "url": "https://fortune.com/2026/08/12/ai-giants-are-quiet-on-climate-in-sign-of-post-esg-wall-street/",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "Fortune"
           }
         },
         {
@@ -69,12 +78,12 @@
           }
         },
         {
-          "subject": "AI giants are quiet on climate in sign of post-ESG Wall Street",
-          "body": "OpenAI, Anthropic and SpaceX haven't disclosed greenhouse gas emissions or set net-zero goals, even as California's SB253 law nears enforcement.",
+          "subject": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+          "body": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
           "timestamp": "2026-08-14T04:00:01",
-          "url": "https://fortune.com/2026/08/12/ai-giants-are-quiet-on-climate-in-sign-of-post-esg-wall-street/",
+          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
           "extras": {
-            "data_origin": "Fortune"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -87,21 +96,21 @@
           }
         },
         {
-          "subject": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-          "body": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s...",
-          "timestamp": "2026-08-13T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "How RingCentral builds AI-native work from engineering to ops",
           "body": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
           "timestamp": "2026-08-13T04:00:02",
           "url": "https://openai.com/index/ringcentral",
           "extras": {
             "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
+          "body": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s...",
+          "timestamp": "2026-08-13T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -114,12 +123,12 @@
           }
         },
         {
-          "subject": "AWS: Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock",
-          "body": "Cyber defenders have never had more capability at their fingertips, and they...",
+          "subject": "Daybreak models are now available on AWS",
+          "body": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
           "timestamp": "2026-08-12T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/",
+          "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
           "extras": {
-            "data_origin": "AWS AI News"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -132,109 +141,29 @@
           }
         },
         {
-          "subject": "Daybreak models are now available on AWS",
-          "body": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+          "subject": "AWS: Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock",
+          "body": "Cyber defenders have never had more capability at their fingertips, and they...",
           "timestamp": "2026-08-12T04:00:02",
-          "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/",
           "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
-          "body": "The open source ecosystem is making it easier for AI enthusiasts and...",
-          "timestamp": "2026-08-11T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
-          "body": "As AI shifts from chatbots to autonomous agents, open models are serving...",
-          "timestamp": "2026-08-11T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-          "body": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
-          "timestamp": "2026-08-11T04:00:02",
-          "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
-          "body": "NVIDIA today announced strategic partnerships to establish independent compute financing platforms with...",
-          "timestamp": "2026-08-11T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-          "body": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-          "timestamp": "2026-08-11T04:00:02",
-          "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Zapier transformed core marketing processes with ChatGPT Work",
-          "body": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-          "timestamp": "2026-08-11T04:00:02",
-          "url": "https://openai.com/index/zapier",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Premium seats are coming to ChatGPT Business",
-          "body": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-          "timestamp": "2026-08-11T04:00:02",
-          "url": "https://openai.com/index/premium-seats-chatgpt-business",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Putting frontier cyber models in more trusted hands",
-          "body": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-          "timestamp": "2026-08-11T04:00:02",
-          "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Expanding Daybreak as the Cyber Defense Window Narrows",
-          "body": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
-          "timestamp": "2026-08-11T04:00:02",
-          "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "What building an AI-native finance function taught me",
-          "body": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
-          "timestamp": "2026-08-11T04:00:02",
-          "url": "https://openai.com/index/building-an-ai-native-finance-function",
-          "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "AWS AI News"
           }
         }
       ]
     },
     "models": {
-      "count": 7,
+      "count": 4,
       "items": [
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"deploy:azure\", \"deploy:sagemaker\", \"region:us\"]",
+          "timestamp": "2026-08-17T17:49:30",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "ggml-org/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
           "body": "[\"gguf\", \"quantized\", \"text-generation\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
@@ -243,16 +172,6 @@
           "extras": {
             "data_origin": "huggingface",
             "namespace": "ggml-org"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"license:other\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"deploy:azure\", \"deploy:sagemaker\", \"region:us\"]",
-          "timestamp": "2026-08-13T18:36:59",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
           }
         },
         {
@@ -274,39 +193,9 @@
             "data_origin": "huggingface",
             "namespace": "unsloth"
           }
-        },
-        {
-          "subject": "bartowski/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
-          "body": "[\"gguf\", \"nvidia\", \"nemotron-3.5\", \"text-generation\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"imatrix\", \"conversational\"]",
-          "timestamp": "2026-08-12T00:18:07",
-          "url": "https://huggingface.co/bartowski/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "bartowski"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen3\", \"nvidia\", \"ModelOpt\", \"Nemotron-3.5-Lightning\", \"latent-moe\", \"mtp\", \"DSpark\", \"text-generation\", \"arxiv:2607.05147\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"license:other\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-08-11T14:10:11",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
-          "body": "[\"safetensors\", \"en\", \"arxiv:2410.17196\", \"arxiv:2503.04721\", \"arxiv:2604.04847\", \"arxiv:2505.15670\", \"arxiv:2507.08128\", \"base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2\", \"license:openmdw-1.1\", \"region:us\"]",
-          "timestamp": "2026-08-11T09:46:06",
-          "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **NVIDIA and OpenAI collaborate on AI compute infrastructure**: NVIDIA has partnered with OpenAI to establish a dedicated AI compute infrastructure at SB Energy's PORTS-Pike Technology Campus in Ohio, ensuring exclusive hosting of NVIDIA AI compute.\n* **OpenAI expands community investment and supports thousands of jobs**: OpenAI has joined the PORTS-Pike project, expanding community investment and supporting thousands of jobs in Southern Ohio.\n* **NVIDIA and OpenAI strengthen cybersecurity**: OpenAI's Daybreak models are now available on AWS, making it easier for enterprises to accelerate cyber defense and deliver authorized, governed cybersecurity services.\n* **NVIDIA AI Factory Compute becomes an investable asset class**: NVIDIA has announced partnerships with leading financial institutions to establish independent financing platforms for AI compute infrastructure, mobilizing over $500 billion of third-party capital.\n* **OpenAI's Chief Revenue Officer appointed**: Dali Rajic has been appointed as OpenAI's Chief Revenue Officer to lead the company's global revenue organization and help businesses realize the full value of AI.\n* **OpenAI's Ultrafast API service tier delivers up to 14x faster performance**: OpenAI has previewed Ultrafast, a new API service tier that runs GPT-5.6 Sol up to 14x faster, powered by Cerebras and delivering up to 750 output tokens per second.\n\n**Trend:**\n\n* **AI compute infrastructure is becoming a key investment area**: The increasing demand for AI compute infrastructure is driving investment and partnerships in the sector, with NVIDIA and OpenAI at the forefront of this trend."
+  "summary": "**Key Developments:**\n\n* **NVIDIA Nemotron 3.5 Lightning**: Now available in Amazon SageMaker JumpStart, this specialized model execution is designed for fast and efficient processing.\n* **OpenAI's Daybreak models**: Now available on AWS, these cybersecurity capabilities support enterprise security workflows and are designed to accelerate cyber defense.\n* **NVIDIA's AI Factory Compute**: Becoming an investable asset class, this initiative aims to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure.\n* **NVIDIA's partnership with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR**: Establishing independent financing platforms to support the development of AI infrastructure.\n* **OpenAI's Ultrafast API service tier**: Previewing a new service that runs GPT-5.6 Sol up to 14× faster, powered by Cerebras, and delivering up to 750 output tokens per second.\n\n**Trend:**\n\n* **Growing Adoption of AI in Enterprise Settings**: Enterprises are increasingly adopting AI technologies, with OpenAI research revealing how frontier firms are pulling ahead in AI adoption, and how enterprises are putting AI to work in various aspects of their operations."
 }
