@@ -1,10 +1,64 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-19T02:52:02.364Z",
+  "timestamp": "2026-08-20T02:51:40.170Z",
   "categories": {
     "news": {
-      "count": 16,
+      "count": 18,
       "items": [
+        {
+          "subject": "Product Hunt Launch: ChatGPT for Teens",
+          "body": "ChatGPT, built differently for teens",
+          "timestamp": "2026-08-19T13:30:02",
+          "url": "https://www.producthunt.com/products/openai",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "ChatGPT Ads expands across Europe",
+          "body": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+          "timestamp": "2026-08-19T13:30:02",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+          "body": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+          "timestamp": "2026-08-19T04:00:02",
+          "url": "https://openai.com/index/asana",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How NVIDIA scales expertise with ChatGPT Work",
+          "body": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+          "timestamp": "2026-08-19T04:00:02",
+          "url": "https://openai.com/index/nvidia/chatgpt-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Pacing model development in an era of cyber-critical capabilities",
+          "body": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+          "timestamp": "2026-08-19T04:00:02",
+          "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Strengthening democratic oversight in national security",
+          "body": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+          "timestamp": "2026-08-19T04:00:02",
+          "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "AWS: NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
           "body": "NVIDIA Nemotron 3.5 Lightning is designed for the fast, specialized model execution...",
@@ -12,24 +66,6 @@
           "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/",
           "extras": {
             "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "The Defender’s Window",
-          "body": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
-          "timestamp": "2026-08-17T13:30:01",
-          "url": "https://openai.com/index/the-defenders-window",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI joins PORTS-Pike project",
-          "body": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
-          "timestamp": "2026-08-17T13:30:01",
-          "url": "https://openai.com/index/openai-joins-ports-pike-project",
-          "extras": {
-            "data_origin": "OpenAI News"
           }
         },
         {
@@ -51,6 +87,24 @@
           }
         },
         {
+          "subject": "OpenAI joins PORTS-Pike project",
+          "body": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+          "timestamp": "2026-08-17T13:30:01",
+          "url": "https://openai.com/index/openai-joins-ports-pike-project",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "The Defender’s Window",
+          "body": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+          "timestamp": "2026-08-17T13:30:01",
+          "url": "https://openai.com/index/the-defenders-window",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
           "body": "Indonesia is taking charge of its AI future. This week, the Ministry...",
           "timestamp": "2026-08-15T04:00:02",
@@ -60,12 +114,12 @@
           }
         },
         {
-          "subject": "AI giants are quiet on climate in sign of post-ESG Wall Street",
-          "body": "OpenAI, Anthropic and SpaceX haven't disclosed greenhouse gas emissions or set net-zero goals, even as California's SB253 law nears enforcement.",
+          "subject": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+          "body": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
           "timestamp": "2026-08-14T04:00:01",
-          "url": "https://fortune.com/2026/08/12/ai-giants-are-quiet-on-climate-in-sign-of-post-esg-wall-street/",
+          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
           "extras": {
-            "data_origin": "Fortune"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -78,12 +132,12 @@
           }
         },
         {
-          "subject": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-          "body": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+          "subject": "AI giants are quiet on climate in sign of post-ESG Wall Street",
+          "body": "OpenAI, Anthropic and SpaceX haven't disclosed greenhouse gas emissions or set net-zero goals, even as California's SB253 law nears enforcement.",
           "timestamp": "2026-08-14T04:00:01",
-          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "url": "https://fortune.com/2026/08/12/ai-giants-are-quiet-on-climate-in-sign-of-post-esg-wall-street/",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "Fortune"
           }
         },
         {
@@ -112,47 +166,11 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "From assistance to execution: How enterprises put AI to work",
-          "body": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-          "timestamp": "2026-08-12T13:30:02",
-          "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Daybreak models are now available on AWS",
-          "body": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-          "timestamp": "2026-08-12T04:00:02",
-          "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
-          "body": "We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure over time.",
-          "timestamp": "2026-08-12T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "AWS: Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock",
-          "body": "Cyber defenders have never had more capability at their fingertips, and they...",
-          "timestamp": "2026-08-12T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 4,
+      "count": 3,
       "items": [
         {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
@@ -183,19 +201,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "unsloth/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
-          "body": "[\"transformers\", \"gguf\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"text-generation\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"imatrix\", \"conversational\"]",
-          "timestamp": "2026-08-13T00:19:58",
-          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "unsloth"
-          }
         }
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **NVIDIA Nemotron 3.5 Lightning**: Now available in Amazon SageMaker JumpStart, this specialized model execution is designed for fast and efficient processing.\n* **OpenAI's Daybreak models**: Now available on AWS, these cybersecurity capabilities support enterprise security workflows and are designed to accelerate cyber defense.\n* **NVIDIA's AI Factory Compute**: Becoming an investable asset class, this initiative aims to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure.\n* **NVIDIA's partnership with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR**: Establishing independent financing platforms to support the development of AI infrastructure.\n* **OpenAI's Ultrafast API service tier**: Previewing a new service that runs GPT-5.6 Sol up to 14× faster, powered by Cerebras, and delivering up to 750 output tokens per second.\n\n**Trend:**\n\n* **Growing Adoption of AI in Enterprise Settings**: Enterprises are increasingly adopting AI technologies, with OpenAI research revealing how frontier firms are pulling ahead in AI adoption, and how enterprises are putting AI to work in various aspects of their operations."
+  "summary": "Here are 6 key developments with insight:\n\n* **ChatGPT Expansion**: OpenAI has launched a new version of ChatGPT specifically designed for teens, expanding the platform's reach to a younger audience. Additionally, ChatGPT Ads is expanding to 31 European markets, allowing advertisers to reach a wider audience.\n* **NVIDIA Continues to Innovate**: NVIDIA has made significant advancements in AI capabilities, including the release of NVIDIA Nemotron 3.5 Lightning, a new model designed for fast, specialized model execution. The company has also partnered with AWS to bring this technology to Amazon SageMaker JumpStart.\n* **Government and Industry Partnerships**: OpenAI has partnered with the government and industry leaders to strengthen democratic oversight of AI in national security and to develop local AI talent in Indonesia through the establishment of a new AI center.\n* **New Models and APIs**: OpenAI has released new models and APIs, including the Ultrafast mode of GPT-5.6 Sol, which can run up to 14 times faster than the standard version, and the Codex API, which allows for AI-native work from engineering to ops.\n* **Environmental Impact**: Despite California's SB253 law requiring companies to disclose their greenhouse gas emissions, some notable AI companies, including OpenAI, Anthropic, and SpaceX, have been quiet on climate issues, highlighting a potential shift away from ESG (Environmental, Social, and Governance) focus.\n* **Increased Adoption**: Companies such as Asana and RingCentral are adopting OpenAI's tools, including ChatGPT Work and Codex, to accelerate AI development and centralize operational intelligence.\n\n**Trend:** The trend is the increased adoption of AI and machine learning technologies across various industries, driven by the advancements in model development, partnership with governments and industry leaders, and the growing need for efficient and scalable AI solutions. This trend is expected to continue as more companies invest in AI and machine learning technologies to stay competitive in the market."
 }
