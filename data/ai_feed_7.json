@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-20T02:51:40.170Z",
+  "timestamp": "2026-08-21T02:57:00.207Z",
   "categories": {
     "news": {
-      "count": 18,
+      "count": 17,
       "items": [
+        {
+          "subject": "How ChatGPT Work helps Stampli move ideas to market",
+          "body": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+          "timestamp": "2026-08-20T17:12:02",
+          "url": "https://openai.com/index/stampli",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Offering Zero Data Retention for frontier models",
+          "body": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+          "timestamp": "2026-08-20T04:00:02",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Product Hunt Launch: ChatGPT for Teens",
           "body": "ChatGPT, built differently for teens",
@@ -69,21 +87,21 @@
           }
         },
         {
-          "subject": "New policy ideas for the Intelligence Age",
-          "body": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
-          "timestamp": "2026-08-17T13:30:01",
-          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
           "subject": "NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute",
           "body": "News Summary: NVIDIA will be the exclusive AI compute infrastructure provider at...",
           "timestamp": "2026-08-17T13:30:01",
           "url": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute",
           "extras": {
             "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "New policy ideas for the Intelligence Age",
+          "body": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "timestamp": "2026-08-17T13:30:01",
+          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -114,6 +132,15 @@
           }
         },
         {
+          "subject": "AI giants are quiet on climate in sign of post-ESG Wall Street",
+          "body": "OpenAI, Anthropic and SpaceX haven't disclosed greenhouse gas emissions or set net-zero goals, even as California's SB253 law nears enforcement.",
+          "timestamp": "2026-08-14T04:00:01",
+          "url": "https://fortune.com/2026/08/12/ai-giants-are-quiet-on-climate-in-sign-of-post-esg-wall-street/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
+        {
           "subject": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
           "body": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
           "timestamp": "2026-08-14T04:00:01",
@@ -130,47 +157,11 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "AI giants are quiet on climate in sign of post-ESG Wall Street",
-          "body": "OpenAI, Anthropic and SpaceX haven't disclosed greenhouse gas emissions or set net-zero goals, even as California's SB253 law nears enforcement.",
-          "timestamp": "2026-08-14T04:00:01",
-          "url": "https://fortune.com/2026/08/12/ai-giants-are-quiet-on-climate-in-sign-of-post-esg-wall-street/",
-          "extras": {
-            "data_origin": "Fortune"
-          }
-        },
-        {
-          "subject": "Oh Lord, AI Reporters Are Actually Breaking Big News",
-          "body": "Last week, an AI newsroom beat mainstream journalists—including WIRED—to a story about OpenAI and hacking. It’s just the beginning.",
-          "timestamp": "2026-08-13T13:30:02",
-          "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
-          "extras": {
-            "data_origin": "Wired"
-          }
-        },
-        {
-          "subject": "How RingCentral builds AI-native work from engineering to ops",
-          "body": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-          "timestamp": "2026-08-13T04:00:02",
-          "url": "https://openai.com/index/ringcentral",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-          "body": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s...",
-          "timestamp": "2026-08-13T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
@@ -191,19 +182,9 @@
             "data_origin": "huggingface",
             "namespace": "ggml-org"
           }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"deploy:azure\", \"deploy:sagemaker\", \"region:us\"]",
-          "timestamp": "2026-08-13T18:36:30",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 6 key developments with insight:\n\n* **ChatGPT Expansion**: OpenAI has launched a new version of ChatGPT specifically designed for teens, expanding the platform's reach to a younger audience. Additionally, ChatGPT Ads is expanding to 31 European markets, allowing advertisers to reach a wider audience.\n* **NVIDIA Continues to Innovate**: NVIDIA has made significant advancements in AI capabilities, including the release of NVIDIA Nemotron 3.5 Lightning, a new model designed for fast, specialized model execution. The company has also partnered with AWS to bring this technology to Amazon SageMaker JumpStart.\n* **Government and Industry Partnerships**: OpenAI has partnered with the government and industry leaders to strengthen democratic oversight of AI in national security and to develop local AI talent in Indonesia through the establishment of a new AI center.\n* **New Models and APIs**: OpenAI has released new models and APIs, including the Ultrafast mode of GPT-5.6 Sol, which can run up to 14 times faster than the standard version, and the Codex API, which allows for AI-native work from engineering to ops.\n* **Environmental Impact**: Despite California's SB253 law requiring companies to disclose their greenhouse gas emissions, some notable AI companies, including OpenAI, Anthropic, and SpaceX, have been quiet on climate issues, highlighting a potential shift away from ESG (Environmental, Social, and Governance) focus.\n* **Increased Adoption**: Companies such as Asana and RingCentral are adopting OpenAI's tools, including ChatGPT Work and Codex, to accelerate AI development and centralize operational intelligence.\n\n**Trend:** The trend is the increased adoption of AI and machine learning technologies across various industries, driven by the advancements in model development, partnership with governments and industry leaders, and the growing need for efficient and scalable AI solutions. This trend is expected to continue as more companies invest in AI and machine learning technologies to stay competitive in the market."
+  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments:**\n\n1. **Stampli and NVIDIA use OpenAI's Codex and ChatGPT Work to compress weeks of launch production into days**: This development highlights the potential of AI tools in accelerating business processes.\n2. **OpenAI reaffirms Zero Data Retention for eligible API customers**: This move demonstrates OpenAI's commitment to data privacy and security.\n3. **NVIDIA Nemotron 3.5 Lightning is now available in Amazon SageMaker JumpStart**: This development showcases the growing collaboration between AI giants and cloud computing providers.\n4. **OpenAI appoints Dali Rajic as Chief Revenue Officer**: This appointment signals OpenAI's focus on expanding its global revenue organization.\n\n**Bullet Points:**\n\n* **Codex and ChatGPT Work help businesses accelerate production**: OpenAI's tools are being used to compress weeks of launch production into days, demonstrating the potential of AI in accelerating business processes.\n* **OpenAI strengthens data security and privacy**: The company reaffirms its commitment to data privacy and security by maintaining Zero Data Retention for eligible API customers.\n* **NVIDIA and Amazon collaborate on AI computing**: The availability of NVIDIA Nemotron 3.5 Lightning in Amazon SageMaker JumpStart highlights the growing collaboration between AI giants and cloud computing providers.\n* **OpenAI expands its global revenue organization**: The appointment of Dali Rajic as Chief Revenue Officer signals OpenAI's focus on expanding its global revenue organization.\n\n**Trend:**\n\n**Increased Collaboration between AI Giants and Cloud Computing Providers**: The growing collaboration between OpenAI, NVIDIA, and Amazon on AI computing and data security highlights a trend towards increased cooperation between AI giants and cloud computing providers. This trend is likely to continue as the AI industry evolves and becomes more complex."
 }
