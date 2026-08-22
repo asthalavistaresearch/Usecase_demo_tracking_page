@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-21T02:57:00.207Z",
+  "timestamp": "2026-08-22T02:48:43.380Z",
   "categories": {
     "news": {
       "count": 17,
       "items": [
+        {
+          "subject": "AWS: Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+          "body": "This post is co-written with Chris Dickens from OpenAI Amazon Bedrock now...",
+          "timestamp": "2026-08-21T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "Stampli cuts launch hours by 68% using ChatGPT Work",
+          "body": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+          "timestamp": "2026-08-21T04:00:02",
+          "url": "https://openai.com/index/stampli",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Introducing AI Futures",
+          "body": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+          "timestamp": "2026-08-21T04:00:02",
+          "url": "https://openai.com/index/introducing-ai-futures",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "How ChatGPT Work helps Stampli move ideas to market",
           "body": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
@@ -42,19 +69,19 @@
           }
         },
         {
-          "subject": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-          "body": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+          "subject": "How NVIDIA scales expertise with ChatGPT Work",
+          "body": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
           "timestamp": "2026-08-19T04:00:02",
-          "url": "https://openai.com/index/asana",
+          "url": "https://openai.com/index/nvidia/chatgpt-work",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "How NVIDIA scales expertise with ChatGPT Work",
-          "body": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+          "subject": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+          "body": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
           "timestamp": "2026-08-19T04:00:02",
-          "url": "https://openai.com/index/nvidia/chatgpt-work",
+          "url": "https://openai.com/index/asana",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -130,38 +157,11 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "AI giants are quiet on climate in sign of post-ESG Wall Street",
-          "body": "OpenAI, Anthropic and SpaceX haven't disclosed greenhouse gas emissions or set net-zero goals, even as California's SB253 law nears enforcement.",
-          "timestamp": "2026-08-14T04:00:01",
-          "url": "https://fortune.com/2026/08/12/ai-giants-are-quiet-on-climate-in-sign-of-post-esg-wall-street/",
-          "extras": {
-            "data_origin": "Fortune"
-          }
-        },
-        {
-          "subject": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-          "body": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-          "timestamp": "2026-08-14T04:00:01",
-          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-          "body": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-          "timestamp": "2026-08-14T04:00:01",
-          "url": "https://openai.com/index/previewing-ultrafast",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 2,
+      "count": 1,
       "items": [
         {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
@@ -172,19 +172,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "ggml-org/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
-          "body": "[\"gguf\", \"quantized\", \"text-generation\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
-          "timestamp": "2026-08-14T07:02:44",
-          "url": "https://huggingface.co/ggml-org/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-GGUF",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "ggml-org"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments:**\n\n1. **Stampli and NVIDIA use OpenAI's Codex and ChatGPT Work to compress weeks of launch production into days**: This development highlights the potential of AI tools in accelerating business processes.\n2. **OpenAI reaffirms Zero Data Retention for eligible API customers**: This move demonstrates OpenAI's commitment to data privacy and security.\n3. **NVIDIA Nemotron 3.5 Lightning is now available in Amazon SageMaker JumpStart**: This development showcases the growing collaboration between AI giants and cloud computing providers.\n4. **OpenAI appoints Dali Rajic as Chief Revenue Officer**: This appointment signals OpenAI's focus on expanding its global revenue organization.\n\n**Bullet Points:**\n\n* **Codex and ChatGPT Work help businesses accelerate production**: OpenAI's tools are being used to compress weeks of launch production into days, demonstrating the potential of AI in accelerating business processes.\n* **OpenAI strengthens data security and privacy**: The company reaffirms its commitment to data privacy and security by maintaining Zero Data Retention for eligible API customers.\n* **NVIDIA and Amazon collaborate on AI computing**: The availability of NVIDIA Nemotron 3.5 Lightning in Amazon SageMaker JumpStart highlights the growing collaboration between AI giants and cloud computing providers.\n* **OpenAI expands its global revenue organization**: The appointment of Dali Rajic as Chief Revenue Officer signals OpenAI's focus on expanding its global revenue organization.\n\n**Trend:**\n\n**Increased Collaboration between AI Giants and Cloud Computing Providers**: The growing collaboration between OpenAI, NVIDIA, and Amazon on AI computing and data security highlights a trend towards increased cooperation between AI giants and cloud computing providers. This trend is likely to continue as the AI industry evolves and becomes more complex."
+  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **AWS and OpenAI Partnership**: AWS has introduced cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock, enabling faster and more efficient AI model deployment.\n* **Stampli's Successful Launch**: Stampli, a company that uses AI to compress weeks of launch production into days, has successfully launched its product using ChatGPT Work, reducing launch hours by 68%.\n* **NVIDIA's AI Compute Infrastructure**: NVIDIA has guaranteed SB Energy's PORTS-Pike Technology Campus in Ohio to exclusively host NVIDIA AI Compute, further solidifying its position in the AI compute infrastructure market.\n* **OpenAI's Cybersecurity Efforts**: OpenAI is strengthening monitoring, alignment, and security for frontier AI models, and has launched an initiative to strengthen democratic oversight of AI in national security.\n* **Asana's AI-Powered Productivity**: Asana has used OpenAI Codex to replace an outdated testing system, completing work expected to take five years in just two weeks, for about $12K.\n* **Universitas Gadjah Mada's AI Center**: The University of Indonesia has established the first university AI center in Indonesia, in collaboration with NVIDIA and Indosat, to develop local AI talent and drive the country's AI future.\n\n**Trend:**\n\n* **Rapid Advancements in AI Compute Infrastructure**: The trend is towards rapid advancements in AI compute infrastructure, with companies like NVIDIA and AWS investing heavily in AI compute capabilities, and OpenAI and other organizations developing new AI models and applications at an unprecedented pace. This trend is driven by the increasing demand for AI-powered solutions across industries, and the need for faster, more efficient, and more secure AI model deployment."
 }
