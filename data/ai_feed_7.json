@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-24T02:57:36.747Z",
+  "timestamp": "2026-08-25T02:53:12.630Z",
   "categories": {
     "news": {
-      "count": 16,
+      "count": 12,
       "items": [
         {
           "subject": "Introducing AI Futures",
@@ -112,60 +112,13 @@
           "extras": {
             "data_origin": "AWS AI News"
           }
-        },
-        {
-          "subject": "The Defender’s Window",
-          "body": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
-          "timestamp": "2026-08-17T13:30:01",
-          "url": "https://openai.com/index/the-defenders-window",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI joins PORTS-Pike project",
-          "body": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
-          "timestamp": "2026-08-17T13:30:01",
-          "url": "https://openai.com/index/openai-joins-ports-pike-project",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "New policy ideas for the Intelligence Age",
-          "body": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
-          "timestamp": "2026-08-17T13:30:01",
-          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute",
-          "body": "News Summary: NVIDIA will be the exclusive AI compute infrastructure provider at...",
-          "timestamp": "2026-08-17T13:30:01",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 1,
-      "items": [
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h\", \"text-generation\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"deploy:azure\", \"deploy:sagemaker\", \"region:us\"]",
-          "timestamp": "2026-08-17T17:49:30",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   },
-  "summary": "Here are 4-6 bullet points and 1 trend:\n\n**Recent Developments:**\n\n* **OpenAI releases \"AI Futures\" blog series**: OpenAI has launched a new blog series, \"AI Futures\", which explores how advanced AI can reshape power, governance, the economy, and individual freedom.\n* **Companies adopt ChatGPT Work for productivity**: Company partnerships with OpenAI include NVIDIA, Asana, and Stampli, which utilized ChatGPT Work to increase efficiency, reduce manual tasks, and scale their workflows.\n* **Nvidia scales expertise with ChatGPT Work**: NVIDIA teams use ChatGPT Work to reduce manual tasks and connect fast-moving signals, while launching a new AI compute infrastructure in Ohio with SB Energy.\n* **OpenAI launches Zero Data Retention for frontier models**: OpenAI reaffirms its commitment to data privacy by offering Zero Data Retention for eligible API customers.\n* **AWS offers NVIDIA Nemotron 3.5 Lightning in Amazon SageMaker JumpStart**: NVIDIA Nemotron 3.5 Lightning is now available in Amazon SageMaker JumpStart for fast, specialized model execution.\n\n**Trend:**\n**Growing Adoption of Large Language Models (LLMs)**: The widespread adoption of LLMs, like ChatGPT Work and NVIDIA Nemotron 3.5 Lightning, is a notable trend. Companies are leveraging these models to increase productivity, accelerate development, and innovate in various industries. This trend is expected to continue as AI technology improves and more businesses integrate these models into their operations."
+  "summary": "Here are 4-6 bullet points summarizing the key developments:\n\n* **OpenAI introduces AI Futures blog**: OpenAI has launched a new blog, AI Futures, which explores the transformative potential of AI on power, governance, economy, and individual freedom.\n* **Companies leverage OpenAI's AI products for productivity gains**: Several companies, including Stampli, NVIDIA, and Asana, have used OpenAI's Codex and ChatGPT Work to reduce manual tasks, scale workflows, and speed up product development.\n* **OpenAI expands ChatGPT Ads to Europe**: ChatGPT Ads is now available in 31 European markets, enabling advertisers to reach people as they explore and make decisions.\n* **OpenAI strengthens democratic oversight in national security**: OpenAI has launched an initiative to support government institutions with tools, training, and expertise to strengthen democratic oversight of AI in national security.\n* **OpenAI introduces zero data retention for frontier models**: OpenAI has reaffirmed its commitment to zero data retention for eligible API customers, while previewing Private Safety Processing for advanced AI safety without compromising data privacy.\n* **AWS and NVIDIA collaborate on AI-infused features**: Amazon has made NVIDIA Nemotron 3.5 Lightning available in Amazon SageMaker JumpStart, a feature designed for fast and specialized model execution.\n\nTrend: **Accelerated adoption of AI-powered productivity solutions**: The past few days have seen a surge in announcements highlighting the use of AI-powered tools and services to boost productivity and efficiency, demonstrating a growing trend of companies leveraging AI to drive business success."
 }
