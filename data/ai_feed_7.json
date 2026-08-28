@@ -1,10 +1,82 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-27T12:15:59.774Z",
+  "timestamp": "2026-08-28T13:41:28.293Z",
   "categories": {
     "news": {
-      "count": 18,
+      "count": 22,
       "items": [
+        {
+          "subject": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
+          "body": "NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new...",
+          "timestamp": "2026-08-27T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Expanding OpenAI’s presence in Brazil",
+          "body": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+          "timestamp": "2026-08-27T13:30:02",
+          "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "body": "NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July...",
+          "timestamp": "2026-08-27T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
+          "body": "The next wave of AI is placing new demands on infrastructure. As...",
+          "timestamp": "2026-08-27T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
+          "body": "Amazon Web Services (AWS), an Amazon.com, Inc. company (NASDAQ: AMZN), and NVIDIA...",
+          "timestamp": "2026-08-27T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Introducing Intelligence Age",
+          "body": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+          "timestamp": "2026-08-27T04:00:02",
+          "url": "https://openai.com/index/introducing-ai-futures",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "The Hugging Face incident and the road ahead",
+          "body": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+          "timestamp": "2026-08-27T04:00:02",
+          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Learning never stops: How AI makes learning continuous",
+          "body": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+          "timestamp": "2026-08-27T04:00:02",
+          "url": "https://openai.com/index/learning-never-stops",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "How loveholidays is making everyone a builder with Codex",
           "body": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
@@ -69,6 +141,15 @@
           }
         },
         {
+          "subject": "Product Hunt Launch: ChatGPT Ad Library",
+          "body": "See every ad running inside ChatGPT",
+          "timestamp": "2026-08-25T13:30:01",
+          "url": "https://www.producthunt.com/products/chatgpt-ad-library",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
           "subject": "Disrupting a new covert influence campaign from Russia",
           "body": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
           "timestamp": "2026-08-25T13:30:01",
@@ -78,12 +159,12 @@
           }
         },
         {
-          "subject": "Product Hunt Launch: ChatGPT Ad Library",
-          "body": "See every ad running inside ChatGPT",
-          "timestamp": "2026-08-25T13:30:01",
-          "url": "https://www.producthunt.com/products/chatgpt-ad-library",
+          "subject": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+          "body": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+          "timestamp": "2026-08-25T04:00:02",
+          "url": "https://openai.com/index/gpt-5-6-in-kiro",
           "extras": {
-            "data_origin": "Product Hunt"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -121,51 +202,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-          "body": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-          "timestamp": "2026-08-25T04:00:02",
-          "url": "https://openai.com/index/gpt-5-6-in-kiro",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "AWS: Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
-          "body": "This post is co-written with Chris Dickens from OpenAI Amazon Bedrock now...",
-          "timestamp": "2026-08-21T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "Stampli cuts launch hours by 68% using ChatGPT Work",
-          "body": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-          "timestamp": "2026-08-21T04:00:02",
-          "url": "https://openai.com/index/stampli",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing AI Futures",
-          "body": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-          "timestamp": "2026-08-21T04:00:02",
-          "url": "https://openai.com/index/introducing-ai-futures",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How ChatGPT Work helps Stampli move ideas to market",
-          "body": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-          "timestamp": "2026-08-20T17:12:02",
-          "url": "https://openai.com/index/stampli",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -174,5 +210,5 @@
       "items": []
     }
   },
-  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **Love Holidays and OpenAI Codex**: Love Holidays, a travel company, is using OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.\n* **NVIDIA's Jetson Orin Nano 2**: NVIDIA has announced a new robotics computer, Jetson Orin Nano 2, which is designed to redefine entry-level edge AI.\n* **ChatGPT Ad Library**: OpenAI has launched a new feature, ChatGPT Ad Library, which allows developers to see every ad running inside ChatGPT.\n* **Jalapeño's First Results**: OpenAI's custom inference chip, Jalapeño, has delivered faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\n* **NVIDIA Vera Rubin NVL72**: NVIDIA has announced a new efficiency standard for AI agents, with the Vera Rubin NVL72 system delivering 30x higher throughput per megawatt and 35x lower token costs than NVIDIA GB300 NVL72.\n* **SpaceXAI and NVIDIA Vera CPU**: SpaceXAI will deploy NVIDIA Vera CPUs to accelerate its next generation of agentic AI applications, bringing the first CPU built for AI agents to one of the world's most ambitious AI deployments.\n\n**Trend:**\n\n* **AI Inference and Edge AI**: The trend is towards more efficient and powerful AI inference and edge AI, with companies like NVIDIA and OpenAI developing new technologies and systems to accelerate and improve AI performance. This trend is driven by the increasing demand for AI in various industries, including robotics, gaming, and autonomous vehicles."
+  "summary": "**Breaking News and Key Developments in AI**\n\n* **NVIDIA Announces Financial Results for Second Quarter Fiscal 2027**: NVIDIA reported revenue for the second quarter ended July 2026, indicating a strong financial performance for the company.\n* **OpenAI Expands Presence in Brazil**: OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.\n* **NVIDIA Announces Jetson Orin Nano 2 Robotics Computer**: NVIDIA has announced the Jetson Orin Nano 2, a new robotics computer designed to redefine entry-level edge AI.\n* **AWS and NVIDIA to Deliver Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI**: AWS and NVIDIA have partnered to deliver 2 million additional GPUs and next-generation infrastructure for agentic and physical AI.\n* **OpenAI Unveils Jalapeño Custom Inference Chip**: OpenAI has unveiled Jalapeño, a custom inference chip that delivers faster, more power-efficient AI inference.\n* **NVIDIA Vera Rubin NVL72 Sets New Efficiency Standard for AI Agents**: NVIDIA's Vera Rubin NVL72 has set a new standard for AI agents, delivering 30x higher throughput per megawatt and 35x lower token costs than NVIDIA GB300 NVL72.\n\n**Trend: AI Infrastructure and Hardware Evolution**\n\nThe current trend in AI development is focused on the evolution of AI infrastructure and hardware, as companies like NVIDIA and OpenAI work to deliver faster, more efficient, and cost-effective solutions for AI agents and applications. The advancements in AI hardware and infrastructure are critical to unlocking the full potential of AI in various sectors, including computing, robotics, and more."
 }
