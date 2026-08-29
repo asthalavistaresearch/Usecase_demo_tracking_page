@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-28T13:41:28.293Z",
+  "timestamp": "2026-08-29T08:32:35.489Z",
   "categories": {
     "news": {
-      "count": 22,
+      "count": 26,
       "items": [
+        {
+          "subject": "Supporting Thailand’s next generation of AI startups",
+          "body": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+          "timestamp": "2026-08-28T13:30:01",
+          "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "AWS: Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+          "body": "This post is a collaboration between AWS, NVIDIA and Heidi Reducing automatic...",
+          "timestamp": "2026-08-28T04:11:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "AWS: Introducing India cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+          "body": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in...",
+          "timestamp": "2026-08-28T04:11:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+          "body": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+          "timestamp": "2026-08-28T04:11:02",
+          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
           "body": "NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new...",
@@ -210,5 +246,5 @@
       "items": []
     }
   },
-  "summary": "**Breaking News and Key Developments in AI**\n\n* **NVIDIA Announces Financial Results for Second Quarter Fiscal 2027**: NVIDIA reported revenue for the second quarter ended July 2026, indicating a strong financial performance for the company.\n* **OpenAI Expands Presence in Brazil**: OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.\n* **NVIDIA Announces Jetson Orin Nano 2 Robotics Computer**: NVIDIA has announced the Jetson Orin Nano 2, a new robotics computer designed to redefine entry-level edge AI.\n* **AWS and NVIDIA to Deliver Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI**: AWS and NVIDIA have partnered to deliver 2 million additional GPUs and next-generation infrastructure for agentic and physical AI.\n* **OpenAI Unveils Jalapeño Custom Inference Chip**: OpenAI has unveiled Jalapeño, a custom inference chip that delivers faster, more power-efficient AI inference.\n* **NVIDIA Vera Rubin NVL72 Sets New Efficiency Standard for AI Agents**: NVIDIA's Vera Rubin NVL72 has set a new standard for AI agents, delivering 30x higher throughput per megawatt and 35x lower token costs than NVIDIA GB300 NVL72.\n\n**Trend: AI Infrastructure and Hardware Evolution**\n\nThe current trend in AI development is focused on the evolution of AI infrastructure and hardware, as companies like NVIDIA and OpenAI work to deliver faster, more efficient, and cost-effective solutions for AI agents and applications. The advancements in AI hardware and infrastructure are critical to unlocking the full potential of AI in various sectors, including computing, robotics, and more."
+  "summary": "Here are 6 key developments with insight and 1 trend:\n\n**Key Developments:**\n\n* **OpenAI and Thailand's MHESI launch an accelerator program**: OpenAI and Thailand's Ministry of Higher Education, Science, Research, and Innovation (MHESI) have launched an eight-week accelerator program to help 10 health, wellness, and education startups turn AI prototypes into trusted products.\n* **AWS and NVIDIA reduce ASR inference costs by 75%**: AWS and NVIDIA have collaborated to reduce Automatic Speech Recognition (ASR) inference costs by 75% using NVIDIA's Multi-Process Service (MPS) on Amazon EC2.\n* **Amazon Bedrock supports OpenAI GPT-5.6 models**: Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India, enabling faster and more efficient AI inference.\n* **NVIDIA announces Jetson Orin Nano 2 robotics computer**: NVIDIA has announced the Jetson Orin Nano 2, a new robotics computer for edge AI, which is designed to redefine entry-level edge AI.\n* **OpenAI expands presence in Brazil**: OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.\n* **NVIDIA and AWS deliver 2 million additional GPUs**: Amazon Web Services (AWS) and NVIDIA have partnered to deliver 2 million additional GPUs and next-generation infrastructure for agentic and physical AI.\n\n**Trend:**\n\n* **Growing demand for AI inference and edge AI**: The increasing demand for AI inference and edge AI is driving the development of new technologies and infrastructure, such as NVIDIA's Jetson Orin Nano 2 and AWS's support for OpenAI GPT-5.6 models on Amazon Bedrock. This trend is expected to continue as AI adoption grows across industries and applications."
 }
