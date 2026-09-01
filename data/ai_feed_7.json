@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-08-31T08:00:05.525Z",
+  "timestamp": "2026-09-01T07:07:07.968Z",
   "categories": {
     "news": {
-      "count": 26,
+      "count": 22,
       "items": [
+        {
+          "subject": "NVIDIA and MediaTek Deepen Long-Standing Partnership to Build AI Edge to Cloud Computing Platforms",
+          "body": "Companies Expand Collaboration Across Multigenerational Cloud AI Factories, Local AI Computing and Automotive. MediaTek to Adopt New NVIDIA NVLink Fusion Platform, Helping Customers Take Custom XPUs to NVIDIA NVLink-Connected, Rack-Scale AI Factories.",
+          "timestamp": "2026-08-31T13:30:01",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Supporting Thailand’s next generation of AI startups",
           "body": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
@@ -60,6 +69,15 @@
           }
         },
         {
+          "subject": "Introducing Intelligence Age",
+          "body": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+          "timestamp": "2026-08-27T04:00:02",
+          "url": "https://openai.com/index/introducing-ai-futures",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
           "body": "NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July...",
           "timestamp": "2026-08-27T04:00:02",
@@ -84,15 +102,6 @@
           "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
           "extras": {
             "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Introducing Intelligence Age",
-          "body": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-          "timestamp": "2026-08-27T04:00:02",
-          "url": "https://openai.com/index/introducing-ai-futures",
-          "extras": {
-            "data_origin": "OpenAI News"
           }
         },
         {
@@ -177,15 +186,6 @@
           }
         },
         {
-          "subject": "Product Hunt Launch: ChatGPT Ad Library",
-          "body": "See every ad running inside ChatGPT",
-          "timestamp": "2026-08-25T13:30:01",
-          "url": "https://www.producthunt.com/products/chatgpt-ad-library",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
-        },
-        {
           "subject": "Disrupting a new covert influence campaign from Russia",
           "body": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
           "timestamp": "2026-08-25T13:30:01",
@@ -195,56 +195,31 @@
           }
         },
         {
-          "subject": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-          "body": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-          "timestamp": "2026-08-25T04:00:02",
-          "url": "https://openai.com/index/gpt-5-6-in-kiro",
+          "subject": "Product Hunt Launch: ChatGPT Ad Library",
+          "body": "See every ad running inside ChatGPT",
+          "timestamp": "2026-08-25T13:30:01",
+          "url": "https://www.producthunt.com/products/chatgpt-ad-library",
           "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-          "body": "The next era of AI inference won’t be defined by a single...",
-          "timestamp": "2026-08-25T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-          "body": "New on-silicon performance data measured by NVIDIA using real-world agentic coding trajectories shows Vera Rubin NVL72 systems deliver 30x higher throughput per megawatt and 35x lower token costs than NVIDIA GB300 NVL72.",
-          "timestamp": "2026-08-25T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "SpaceXAI Adopts NVIDIA Vera CPU to Accelerate Agentic AI at Massive Scale",
-          "body": "NVIDIA today announced that SpaceXAI will deploy NVIDIA Vera CPUs to accelerate its next generation of agentic AI applications, bringing the first CPU built for AI agents to one of the worlds most ambitious AI deployments.",
-          "timestamp": "2026-08-25T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Groq 3 LPX Now in Full Production With World-Class Speed for Agentic AI",
-          "body": "NVIDIA today announced that NVIDIA Groq 3 LPX, the interactive AI inference...",
-          "timestamp": "2026-08-25T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-groq-3-lpx-now-in-full-production-with-world-class-speed-for-agentic-ai",
-          "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "Product Hunt"
           }
         }
       ]
     },
     "models": {
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "subject": "nvidia/Nemotron-3-Diarization-preview",
+          "body": "[\"nemo\", \"speaker-diarization\", \"streaming-sortformer\", \"speaker-tagging\", \"audio\", \"voice-activity-detection\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-08-29T19:54:07",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        }
+      ]
     }
   },
-  "summary": "Here are the key developments in the field of AI with insight:\n\n**Key Developments:**\n\n1. **OpenAI Expands in Thailand and Brazil**: OpenAI has launched an eight-week accelerator in Thailand to help health, wellness, and education startups turn AI prototypes into trusted products. Additionally, OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities.\n2. **Advances in AI Inference**: NVIDIA has released several updates, including the NVIDIA Jetson Orin Nano 2 robotics computer for entry-level edge AI, and the Vera Rubin NVL72 system, which sets a new efficiency standard for AI agents with up to 30x more work per watt.\n3. **Improved AI Model Security**: OpenAI has shared findings from a security incident with Hugging Face and outlined steps to strengthen AI model security, monitoring, and alignment.\n4. **New AI Tools and Resources**: OpenAI has introduced several new tools and resources, including the Admin plugin for ChatGPT Work and Codex, which allows for workspace usage analysis and management, and the Product Hunt Launch of ChatGPT Ad Library, which showcases ads running inside ChatGPT.\n5. **Partnerships and Collaborations**: NVIDIA has announced partnerships with Amazon Web Services (AWS) to deliver 2 million additional GPUs and next-generation infrastructure for agentic and physical AI.\n\n**Trend:**\n\n* **Growing Emphasis on Efficient and Powerful AI Infrastructure**: The trend is towards more efficient and powerful AI infrastructure, with NVIDIA's Vera Rubin NVL72 system and NVIDIA's release of the Vera Rubin Inference for Agents setting new efficiency standards. This trend highlights the need for innovation in AI hardware and software to support the growing demands of AI adoption."
+  "summary": "Here are the key developments in the AI space with some insight:\n\n• **NVIDIA and MediaTek deepen their partnership**: NVIDIA and MediaTek have expanded their collaboration to build AI edge-to-cloud computing platforms, including the adoption of NVIDIA's NVLink Fusion Platform by MediaTek. This partnership will help customers integrate custom XPUs with NVIDIA's rack-scale AI factories.\n\n• **AWS announces cost reduction for ASR inference**: AWS, in collaboration with NVIDIA, has developed a solution to reduce Automatic Speech Recognition (ASR) inference costs by 75% using NVIDIA's MPS (Multi-Process Service) on Amazon EC2. This is a significant cost-saving opportunity for companies using ASR services.\n\n• **NVIDIA introduces Jetson Orin Nano 2 robotics computer**: NVIDIA has announced a new robotics computer, the Jetson Orin Nano 2, which is designed to redefine entry-level edge AI. This device is expected to provide improved performance and efficiency for edge AI applications.\n\n• **OpenAI expands its presence in Brazil**: OpenAI is increasing its presence in Brazil by engaging with developers, businesses, and communities to promote AI adoption in the country. This move reflects OpenAI's growing efforts to establish a global presence.\n\n• **OpenAI shares insights on AI model security**: OpenAI has shared findings from a security incident involving Hugging Face and has outlined steps to strengthen AI model security, monitoring, and alignment.\n\n• **NVIDIA announces next-generation infrastructure for physical AI**: NVIDIA and AWS plan to deliver 2 million additional GPUs and next-generation infrastructure for agentic and physical AI.\n\nThe trend:\n\nThe trend is the **increasing adoption of AI across industries and geographies**. Major players like NVIDIA, OpenAI, and AWS are expanding their partnerships, products, and presence globally, indicating a growing demand for AI solutions and a shift towards a more connected and automated world."
 }
