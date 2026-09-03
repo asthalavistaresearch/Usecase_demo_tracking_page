@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-02T06:43:43.713Z",
+  "timestamp": "2026-09-03T06:46:37.604Z",
   "categories": {
     "news": {
-      "count": 17,
+      "count": 13,
       "items": [
+        {
+          "subject": "Path to Astra: critical capabilities and frontier safeguards",
+          "body": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+          "timestamp": "2026-09-02T04:00:02",
+          "url": "https://openai.com/index/path-to-astra",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+          "body": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+          "timestamp": "2026-09-02T04:00:02",
+          "url": "https://openai.com/index/gilbert-tobin",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
+          "body": "New CrowdStrike SafeMind agentic cybersecurity system built with NVIDIA Nemotron open models delivers greater protection and cost savings for cyber defense.",
+          "timestamp": "2026-09-02T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "OpenAI supports California’s bill to advance youth AI safety",
           "body": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
@@ -15,19 +42,19 @@
           }
         },
         {
-          "subject": "A milestone in expanding access to AI",
-          "body": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+          "subject": "Polimill builds Japan's next-generation public AI infrastructure",
+          "body": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
           "timestamp": "2026-09-01T04:00:02",
-          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+          "url": "https://openai.com/index/polimill",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Polimill builds Japan's next-generation public AI infrastructure",
-          "body": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+          "subject": "A milestone in expanding access to AI",
+          "body": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
           "timestamp": "2026-09-01T04:00:02",
-          "url": "https://openai.com/index/polimill",
+          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -51,12 +78,12 @@
           }
         },
         {
-          "subject": "AWS: Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
-          "body": "This post is a collaboration between AWS, NVIDIA and Heidi Reducing automatic...",
+          "subject": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+          "body": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
           "timestamp": "2026-08-28T04:11:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
+          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
           "extras": {
-            "data_origin": "AWS AI News"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -69,21 +96,12 @@
           }
         },
         {
-          "subject": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-          "body": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+          "subject": "AWS: Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+          "body": "This post is a collaboration between AWS, NVIDIA and Heidi Reducing automatic...",
           "timestamp": "2026-08-28T04:11:02",
-          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
           "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
-          "body": "NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new...",
-          "timestamp": "2026-08-27T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "AWS AI News"
           }
         },
         {
@@ -96,73 +114,78 @@
           }
         },
         {
-          "subject": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-          "body": "NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July...",
-          "timestamp": "2026-08-27T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+          "subject": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
+          "body": "NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new...",
+          "timestamp": "2026-08-27T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
+        }
+      ]
+    },
+    "papers": {
+      "count": 4,
+      "items": [
         {
-          "subject": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-          "body": "The next wave of AI is placing new demands on infrastructure. As...",
-          "timestamp": "2026-08-27T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/",
+          "subject": "One Prompt Is Enough: Watermark Laundering Through Foundation Image Models",
+          "body": "Invisible watermarks are typically evaluated against predefined perturbations such as compression, blur, noise, cropping, and denoising. Public foundation image models expose a distinct threat: an attacker can submit a watermarked image with a single reconstruction prompt and obtain a visually faithful output from which the invisible watermark can no longer be decoded reliably. We formalize this failure mode as watermark laundering and evaluate it using a joint payload-fidelity profile that combines bit error rate (BER) with visual and semantic preservation. Across six OpenAI and Google image editing models, three representative watermarking schemes, and 1,800 reconstructed outputs, we identify two complementary laundering regimes: OpenAI models produce the strongest payload disruption across the evaluated schemes, whereas Nano Banana 2 shows that DwtDct remains vulnerable under high-fidelity reconstruction. Prompt ablations show that no single removal-oriented instruction is necessary for payload disruption, indicating that the effect is primarily induced by the reconstruction pathway rather than by explicit attack wording. Comparisons with conventional attacks further show that prompt-conditioned reconstruction constitutes a distinct operational attack interface. These findings motivate foundation-model reconstruction as a missing robustness condition in invisible watermark evaluation.",
+          "timestamp": "2026-09-01T13:46:31",
+          "url": "https://arxiv.org/abs/2609.01249v1",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "arXiv",
+            "authors": "Jidong Yang, Qi Li, Wei Zong, Yang-Wai Chow, Willy Susilo, Huaike Yu, Chunpeng Wang, Suo Gao",
+            "updated": "2026-09-01T13:46:31"
           }
         },
         {
-          "subject": "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
-          "body": "Amazon Web Services (AWS), an Amazon.com, Inc. company (NASDAQ: AMZN), and NVIDIA...",
-          "timestamp": "2026-08-27T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
+          "subject": "From Tool Use to Technological Agency: LoopCAT as a Local-First, Open-Source Tool for Translation Technology Education",
+          "body": "Translation students need to learn both how to use translation technologies and how to judge the choices those technologies make available. This article presents LoopCAT, an Apache-2.0-licensed, local-first computer-assisted translation environment co-created with OpenAI Codex using GPT-5.5 and GPT-5.6, and proposes a framework connecting workflow competence, evaluative judgement, and technological agency. The account draws on repository history, implementation inspection, and the verification records of an identified development build. LoopCAT combines local project storage, translation memories, terminology, quality assurance, document exchange, and optional connections to local or hosted AI services. Its English, Catalan, and Turkish interface catalogs also make the application itself available as teaching material: students can translate English UI strings into another language, review the existing automatically generated target drafts, import their revisions, and test the interface. We organize these opportunities around four forms of participation: operating a workflow, evaluating outputs, inspecting and configuring mechanisms, and making or defending a bounded intervention. A six-session sequence, a UI-localization assignment, a placeholder example, and an assessment rubric specify how teachers could use the framework. The paper separates implemented capabilities from proposed educational benefits; it reports no new student-learning outcomes. It distinguishes the latest package checks from earlier regression evidence and sets out a protocol for classroom evaluation. LoopCAT provides an inspectable setting for teaching how translation decisions interact with data, interfaces, and software rules. Whether these activities improve judgement, transfer, or participation remains an empirical question.",
+          "timestamp": "2026-08-31T20:38:34",
+          "url": "https://arxiv.org/abs/2609.00344v1",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "arXiv",
+            "authors": "Gokhan Dogru, Adrià Martín Mor",
+            "updated": "2026-08-31T20:38:34"
           }
         },
         {
-          "subject": "Introducing Intelligence Age",
-          "body": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-          "timestamp": "2026-08-27T04:00:02",
-          "url": "https://openai.com/index/introducing-ai-futures",
+          "subject": "Workload Identification with Physical Side Channels for AI Governance",
+          "body": "AI compute verification is one of the first tangible and tractable points for international policy aimed at AI governance. Determining whether frontier labs, or any operator, comply with agreements requires the regulating authority to discern how their compute is used. The elementary building block of AI compute is the GPU, and any activity it executes leaves a physical trace. Here, we show that an external observer can identify the class of the workload running on an NVIDIA H200 from its power draw. Unlike on-chip NVML telemetry, which can be spoofed or replayed, such a physical channel can in principle be observed independently of operator cooperation. We recorded $930$ five-second traces at $\\sim 10$ MHz, covering seventeen open LLM families and twenty-five non-AI workloads. Over this corpus we separate training from inference and from non-AI computation with an accuracy of $97\\%$ and a macro-averaged F1 score of $0.955$, evaluated on model families unseen during training. AI workload spectral content predominantly lies below $\\sim 20$kHz and training is particularly recognizable through the memory-bound optimizer update. The GPU operator is then treated as adversarial and able to reshape the physical computation itself. Four evasion strategies are tested to disguise training as inference, producing an additional 680 adversarial traces. A detector hardened against evasion strategies, with the tested strategy held out, catches training $\\geq 99\\%$ of the time for three of the four strategies. The fourth, diluted low-rank adaptation (LoRA), is detected $48$--$88\\%$ of the time with a hardened classifier, rising to $\\geq 98\\%$ with an additional rescue rule. While these attacks are not a comprehensive evaluation against adversarial behaviour, they offer initial insights beyond genuine activities and a dataset for developing and testing stronger evasion mechanisms.",
+          "timestamp": "2026-08-31T19:59:35",
+          "url": "https://arxiv.org/abs/2609.00309v1",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "arXiv",
+            "authors": "Simone Gargiulo, Gabriel Kulp",
+            "updated": "2026-08-31T19:59:35"
           }
         },
         {
-          "subject": "The Hugging Face incident and the road ahead",
-          "body": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-          "timestamp": "2026-08-27T04:00:02",
-          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+          "subject": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
+          "body": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity. Egocentric videos offer a far more scalable source of embodied experience, capturing object interactions, contact dynamics, tool use, and long-horizon behaviors across diverse environments. The central challenge is how to convert this abundant but action-free experience into effective robot control. We introduce ZimaBlue, a scalable framework for learning generalizable World Action Models (WAMs) from large-scale video. ZimaBlue follows a three-stage training curriculum: it first performs causal embodied video pre-training on large-scale human and robot egocentric videos, then grounds the learned visual dynamics in heterogeneous robot trajectories through video-action mid-training with a unified action representation, and finally specializes the model to a target robot for deployment. To make generative WAMs practical for real-time control, ZimaBluefurther adopts an asynchronous Slow-Fast dual-system architecture, where a high-capacity Slow world model provides generalizable spatiotemporal representations and a lightweight Fast branch enables 30 Hz action prediction on NVIDIA RTX 4090. On real-robot zero-shot evaluations, scaling from target-robot data alone to over 120,000 hours of embodied video improves success from 36.1% to 77.8%. ZimaBlue further delivers strong performance across multiple benchmarks, with particularly pronounced gains on unseen tasks.",
+          "timestamp": "2026-08-31T18:09:52",
+          "url": "https://arxiv.org/abs/2609.00188v1",
           "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Learning never stops: How AI makes learning continuous",
-          "body": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-          "timestamp": "2026-08-27T04:00:02",
-          "url": "https://openai.com/index/learning-never-stops",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "New Platform Peers Inside AI’s Black Box",
-          "body": "Prompt Claude, ChatGPT, Gemini, or any other popular large language model (LLM) with a question like “What is the best film ever made?” and the response will vary, and you (and most worryingly, the people who built the LLM) have little idea exactly...",
-          "timestamp": "2026-08-26T13:30:02",
-          "url": "https://spectrum.ieee.org/silico-ai-interpretability",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
+            "data_origin": "arXiv",
+            "authors": "Xionghao Wu, Yijun Yang, Shiyang Zhou, Haoze Sun, Jianhui Liu, Songsong Yu, Jiyao Zhang, Wenbo Li, Bo Wang, Guoqing Ma, Lin Song, Renjie Liao, Shenghe Zheng, Wei Tang, Xiaojuan Qi, Yanwei Li, Yuan Zhang, Zhuotao Tian, Haoyang Huang, Nan Duan",
+            "updated": "2026-08-31T18:09:52"
           }
         }
       ]
     },
     "models": {
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "subject": "nvidia/DeepSeek-V4-Flash-0731-NVFP4",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"deepseek_v4\", \"nvidia\", \"ModelOpt\", \"DeepSeekV4\", \"quantized\", \"NVFP4\", \"nvfp4\", \"text-generation\", \"base_model:deepseek-ai/DeepSeek-V4-Flash-0731\", \"base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-0731\", \"license:mit\", \"8-bit\", \"fp8\", \"region:us\"]",
+          "timestamp": "2026-09-02T11:49:38",
+          "url": "https://huggingface.co/nvidia/DeepSeek-V4-Flash-0731-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/Nemotron-3-Diarization-preview",
           "body": "[\"nemo\", \"speaker-diarization\", \"streaming-sortformer\", \"speaker-tagging\", \"audio\", \"voice-activity-detection\", \"license:other\", \"region:us\"]",
@@ -176,5 +199,5 @@
       ]
     }
   },
-  "summary": "Here are 6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **OpenAI supports California's bill to advance youth AI safety**: OpenAI has expressed its support for California's SB 1119, which aims to establish strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.\n* **ChatGPT Ads reaches $1 billion in annualized revenue run rate**: ChatGPT Ads has achieved a significant milestone, reaching $1 billion in annualized revenue run rate, and expanding globally to support broader access to AI through free and affordable options.\n* **Polimill builds Japan's next-generation public AI infrastructure**: Polimill is using OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.\n* **NVIDIA and MediaTek deepen partnership to build AI edge to cloud computing platforms**: NVIDIA and MediaTek have expanded their collaboration to build AI edge to cloud computing platforms, with MediaTek adopting NVIDIA's NVLink Fusion Platform.\n* **AWS and NVIDIA to deliver 2 million additional GPUs and next-generation infrastructure for agentic and physical AI**: AWS and NVIDIA are collaborating to deliver 2 million additional GPUs and next-generation infrastructure for agentic and physical AI, enabling faster and more efficient AI development.\n* **Introducing Intelligence Age, a new OpenAI blog exploring AI's transformative impact**: OpenAI has introduced a new blog, Intelligence Age, which explores the transformative impact of AI on power, governance, the economy, and individual freedom.\n\n**Trend:**\n\n* **Increased focus on AI safety and security**: The recent developments highlight an increased focus on AI safety and security, with OpenAI, NVIDIA, and AWS collaborating to establish strong, age-appropriate AI safeguards and to deliver next-generation infrastructure for agentic and physical AI. This trend suggests that the industry is recognizing the importance of responsible AI development and deployment, and is taking steps to address the challenges and risks associated with AI."
+  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments with Insight:**\n\nThe recent advancements in AI and machine learning have led to significant breakthroughs in various fields, including cybersecurity, AI governance, and natural language processing.\n\n**Bullet Points:**\n\n* **Astra Meets Critical Cybersecurity Capability Threshold**: Astra, the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, has stronger safeguards for release.\n* **NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier**: The new CrowdStrike SafeMind agentic cybersecurity system built with NVIDIA Nemotron open models delivers greater protection and cost savings for cyber defense.\n* **OpenAI Supports California's Bill to Advance Youth AI Safety**: OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.\n* **AWS Introduces India Cross-Region Inference for OpenAI GPT-5.6 Models**: Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India, enabling faster and more efficient AI model deployment.\n\n**Trend:**\n\nThe trend towards more robust and secure AI systems is becoming increasingly important, with advancements in cybersecurity, AI governance, and natural language processing driving this shift. As AI continues to evolve and become more pervasive in our lives, the need for secure and reliable AI systems will only continue to grow.\n\n**Insight:** The recent developments in AI and machine learning have led to significant breakthroughs in various fields, including cybersecurity, AI governance, and natural language processing. The trend towards more robust and secure AI systems is becoming increasingly important, with advancements in cybersecurity, AI governance, and natural language processing driving this shift."
 }
