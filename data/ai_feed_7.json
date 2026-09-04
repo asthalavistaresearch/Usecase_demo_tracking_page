@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-03T06:46:37.604Z",
+  "timestamp": "2026-09-04T06:51:19.939Z",
   "categories": {
     "news": {
-      "count": 13,
+      "count": 12,
       "items": [
+        {
+          "subject": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 26 New Games Coming to GeForce NOW",
+          "body": "Stream NBA 2K27 with DLSS 5 across supported devices  plus, jump into The Blood of Dawnwalker, Onimusha: Way of the Sword and more.",
+          "timestamp": "2026-09-03T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA to Acquire Hugging Face",
+          "body": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face...",
+          "timestamp": "2026-09-03T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+          "body": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+          "timestamp": "2026-09-03T04:00:02",
+          "url": "https://openai.com/index/atv-big-air-tour",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "AWS: Accessing OpenAI GPT-5.6 models on Amazon Bedrock from Australia with global cross-Region inference",
+          "body": "Australian teams working with OpenAI models can now access the latest OpenAI...",
+          "timestamp": "2026-09-03T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "Path to Astra: critical capabilities and frontier safeguards",
           "body": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
@@ -76,57 +112,78 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-          "body": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-          "timestamp": "2026-08-28T04:11:02",
-          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "AWS: Introducing India cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
-          "body": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in...",
-          "timestamp": "2026-08-28T04:11:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "AWS: Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
-          "body": "This post is a collaboration between AWS, NVIDIA and Heidi Reducing automatic...",
-          "timestamp": "2026-08-28T04:11:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "Expanding OpenAI’s presence in Brazil",
-          "body": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-          "timestamp": "2026-08-27T13:30:02",
-          "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
-          "body": "NVIDIA’s Gamescom announcements are revealing what’s next for GeForce NOW, with new...",
-          "timestamp": "2026-08-27T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 4,
+      "count": 10,
       "items": [
+        {
+          "subject": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+          "body": "Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajectories suit graphics processing units (GPUs), but current GPU software forces a trade-off: the fastest ensemble solvers cannot be differentiated in reverse mode at the speed they solve, and the solvers built for differentiation solve more slowly. No single tool has yet offered a reverse-mode gradient at the speed of a fused-kernel solve.\n  We present GRADSOLVE, an open-source JAX library for solving and reverse-mode differentiating low-dimensional ODE ensembles on NVIDIA GPUs. It records the steps an adaptive solver accepts and differentiates a fixed-step replay of them; the returned gradient is the exact discrete adjoint of those steps, the same derivative Diffrax returns by default, obtained more cheaply from a fixed-length chain than from an adaptive loop. It targets ensembles differentiated many times against one recorded mesh, keeps Diffrax as a fallback, and supports explicit and Rosenbrock integrators.\n  Used as a solver, GRADSOLVE's forward-only kernel ran 2.8x faster than DiffEqGPU.jl; used for gradients, once a record exists, it computed them 5.6-14.1x faster than Diffrax's checkpointed adjoint at matched forward-state accuracy across three GPU generations, the advantage narrowing on large ensembles and, on stiff systems, down to parity at tight accuracy. GRADSOLVE is released at https://github.com/ECLIPSE-AI4Science/gradsolve.",
+          "timestamp": "2026-09-02T17:56:10",
+          "url": "https://arxiv.org/abs/2609.02876v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Alessio Spurio Mancini",
+            "updated": "2026-09-02T17:56:10"
+          }
+        },
+        {
+          "subject": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
+          "body": "Stable 4-bit floating-point (FP4) pretraining is difficult because the E2M1 payload represents only a narrow range of magnitudes. NVIDIA's Transformer Engine \\nv{} recipe addresses this with current-tensor scaling, a randomized Hadamard transform (RHT), and bfloat16 (BF16) final layers, adding work outside the FP4 matrix multiplications. We instead pair E2M1 payloads with unsigned E5M3 (\\ue{}) block scales. Their wider range permits periodic tensor scaling, while our recipe applies selective stochastic rounding to backward gradients, omits RHT, and uses FP4 in all eligible internal linears.\n  We pretrain a Nemotron-H 8B model for nearly 190 billion tokens. Compared with Transformer Engine \\nv{}, the proposed block-16 recipe finishes with lower final-window training loss and, under their respective quantized-inference policies, lower validation loss measured as held-out negative log-likelihood. Its quantized-inference downstream point estimates are also higher on all three reported aggregates. A native \\nv{} execution ablation that jointly removes RHT and the BF16 final-block exemption increases measured model-body token throughput by 21.2\\%. These results demonstrate end-to-end software-emulated \\uefp{} pretraining with a simpler recipe and motivate native support for \\ue{} block scaling.",
+          "timestamp": "2026-09-02T17:32:07",
+          "url": "https://arxiv.org/abs/2609.02846v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Robert Hu, Carlo Luschi, Paul Balanca",
+            "updated": "2026-09-02T17:32:07"
+          }
+        },
+        {
+          "subject": "Door-in-the-Face Requests and Refusal Behaviour in Large Language Models",
+          "body": "Does the door-in-the-face technique work on language models? In humans, a large request that is refused makes a smaller follow-up request more likely to be granted. We test this on nine production models from three providers: each model refuses a large request, then receives a smaller version of the same request, and we compare its compliance with asking directly. The answer depends on the model. On Anthropic's frontier models the technique works: Opus 5 answers the smaller request 65.8% of the time after refusing the larger one, against 29.3% when asked directly. On the frontier models of OpenAI and Google, and on Haiku 4.5, it backfires, lowering compliance by 15.5 to 23.0 points. A control locates the effect: a refused large request on an unrelated topic does less than the related one on all nine models, so the concession itself matters everywhere, while the reaction to having just refused something differs by model family. The technique does not transfer to refusals drawn from public benchmarks. What decides whether a retreat can work is what the request asks for: rewriting 265 refused requests for usable instructions into requests for explanations of the same topic removed the refusal in 263 cases. Human influence techniques port to language models one model family at a time.",
+          "timestamp": "2026-09-02T15:08:51",
+          "url": "https://arxiv.org/abs/2609.02707v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Til Jordan",
+            "updated": "2026-09-02T15:08:51"
+          }
+        },
+        {
+          "subject": "H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression",
+          "body": "Deploying 3D point cloud models on edge hardware such as the NVIDIA Jetson Orin Nano is severely constrained by compute and memory budgets. Existing compression methods require access to the model's original source code, rendering them inapplicable to the Open Neural Network Exchange (ONNX) binaries commonly distributed by vendors and model repositories. We present \\textbf{H3DNAS}, a hardware-aware model compression framework that operates directly on ONNX computational graphs without requiring original source code, architecture class definition, or gradient access during search. H3DNAS makes three contributions: (1) a \\textbf{Channel Dependency Graph (CDG)} that classifies ONNX operators into four constraint classes and formally establishes that the free parameter fraction $ρ_f$ is topological invariant, a provable compression ceiling computable in $\\mathcal{O}(|V|+|E|)$; (2) a \\textbf{Two-Stage Hierarchical Search} that prunes candidate architectures by $L_1$-importance channel selection, ranks them by output fidelity as a zero-shot label-free proxy, and applies GhostConv structural mutation to Pareto-optimal candidates; and (3) the \\textbf{first source-code-free compression pipeline for 3D point cloud models}, operating entirely via ONNX graph surgery with no original architecture definition required. On ModelNet40, H3DNAS reduces the number of parameters in PointNet, PointNet++, and PointMLP by $65.5\\%$, $43.2\\%$, and $49.1\\%$, respectively, while achieving $1.99\\times$, $1.29\\times$, and $1.67\\times$ inference speedups with negligible loss in accuracy. The source code is publicly available\\footnote{https://github.com/ClarityLab-Org/h3dnas}.",
+          "timestamp": "2026-09-02T14:53:35",
+          "url": "https://arxiv.org/abs/2609.02684v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Anchit Mulye, Rhythm Baghel, Sujay Kumar Ingle, Hardik Jain",
+            "updated": "2026-09-02T14:53:35"
+          }
+        },
+        {
+          "subject": "From Multi-Fisheye Sensing to Panoramic Perception: A Parallax-Aware Onboard Platform for Ultra-Low-Altitude UAVs",
+          "body": "Ultra-low-altitude unmanned aerial vehicles (UAVs) require surround vision near buildings, vegetation, and other obstacles. We present a parallax-aware onboard platform that converts four synchronized fisheye streams into an open 1280x640 equirectangular panorama (ERP) interface. A purpose-built carbon-fiber airframe integrates the cameras, NVIDIA Jetson Orin NX, a flight controller, and a global navigation satellite system (GNSS) receiver. The formation pipeline selects projection depth per overlap and combines controlled seams and photometric fusion. Its accuracy profile adds content-adaptive seam search and a validation-gated residual mesh, whereas its deployed profile retains margin-gated Per-seam updates for sensor-rate operation. Evaluation uses more than 50,000 four-view groups from 18 field sequences. Relative to Fixed Depth, the accuracy profile reduces far-field P90 feature misalignment by 41.6%; the deployed Per-seam profile achieves the lowest aggregate geometric errors across held-out sites. Under a paced 20 Hz replay, the deployed profile sustains 19.99 frames/s at 13.29W mean module-input power. Eight-sector ERP sampling reaches 90.8% mean daytime visual-place-recognition Recall@5. Together, these results validate an integrated onboard panoramic-perception architecture that unifies parallax-aware formation, sensor-rate embedded execution, and reusable downstream vision interfaces for ultra-low-altitude UAVs. The project has been open-sourced at https://github.com/DUNDAI1998/parallax-aware-uav-panorama.",
+          "timestamp": "2026-09-02T09:04:52",
+          "url": "https://arxiv.org/abs/2609.02319v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Dun Dai, Ze Lu, Cheng He, Yaowen Wang, Quan Quan",
+            "updated": "2026-09-02T09:04:52"
+          }
+        },
+        {
+          "subject": "Efficient Passive Acoustic Monitoring of Killer Whales Using a Two-Stage Detection and Ecotype Classification Cascade",
+          "body": "Passive acoustic monitoring of killer whales is particularly important for conservation of the endangered Southern Resident killer whale population, but requires accurate models that can operate in real time under severe class imbalance and deployment shift. We propose a lightweight ResNet-based two-stage cascade that first detects killer whale vocalizations and then classifies confident detections into five eastern North Pacific ecotypes, abstaining on ambiguous calls. We train and evaluate the pipeline on the DCLDE 2027 dataset, where the detector achieves 0.960 macro-F1 and the classifier 0.958, outperforming frozen Perch 2.0 embeddings on the five-ecotype benchmark. By separating detection from ecotype recognition, the end-to-end cascade improves seven-class macro-F1 from 0.919 for a single-stage model to 0.933, with the largest gain on the rare OKW ecotype. To assess transfer beyond the benchmark, we use active learning to adapt the Stage 1 to the acoustic environment of Puget Sound, WA, increasing killer whale detection F1 from 0.405 to 0.755 on manually verified detection windows. Finally, each stage processes a 3 s window in approximately 1.4 ms on an NVIDIA H100, enabling faster than real time inference. These results demonstrate that the proposed two-stage cascade pipeline enables reliable killer whale detection and classification, adaptation to new acoustic domains, and real-time monitoring for conservation applications.",
+          "timestamp": "2026-09-01T19:03:10",
+          "url": "https://arxiv.org/abs/2609.01792v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Daniela Ruiz, Manuel Castellote, Zhongqi Miao, Carl Chalmers, Bruno Demuro, Rahul Dodhia, Pablo Arbelaez, Juan M. Lavista",
+            "updated": "2026-09-01T19:03:10"
+          }
+        },
         {
           "subject": "One Prompt Is Enough: Watermark Laundering Through Foundation Image Models",
           "body": "Invisible watermarks are typically evaluated against predefined perturbations such as compression, blur, noise, cropping, and denoising. Public foundation image models expose a distinct threat: an attacker can submit a watermarked image with a single reconstruction prompt and obtain a visually faithful output from which the invisible watermark can no longer be decoded reliably. We formalize this failure mode as watermark laundering and evaluate it using a joint payload-fidelity profile that combines bit error rate (BER) with visual and semantic preservation. Across six OpenAI and Google image editing models, three representative watermarking schemes, and 1,800 reconstructed outputs, we identify two complementary laundering regimes: OpenAI models produce the strongest payload disruption across the evaluated schemes, whereas Nano Banana 2 shows that DwtDct remains vulnerable under high-fidelity reconstruction. Prompt ablations show that no single removal-oriented instruction is necessary for payload disruption, indicating that the effect is primarily induced by the reconstruction pathway rather than by explicit attack wording. Comparisons with conventional attacks further show that prompt-conditioned reconstruction constitutes a distinct operational attack interface. These findings motivate foundation-model reconstruction as a missing robustness condition in invisible watermark evaluation.",
@@ -199,5 +256,5 @@
       ]
     }
   },
-  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments with Insight:**\n\nThe recent advancements in AI and machine learning have led to significant breakthroughs in various fields, including cybersecurity, AI governance, and natural language processing.\n\n**Bullet Points:**\n\n* **Astra Meets Critical Cybersecurity Capability Threshold**: Astra, the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, has stronger safeguards for release.\n* **NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier**: The new CrowdStrike SafeMind agentic cybersecurity system built with NVIDIA Nemotron open models delivers greater protection and cost savings for cyber defense.\n* **OpenAI Supports California's Bill to Advance Youth AI Safety**: OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.\n* **AWS Introduces India Cross-Region Inference for OpenAI GPT-5.6 Models**: Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India, enabling faster and more efficient AI model deployment.\n\n**Trend:**\n\nThe trend towards more robust and secure AI systems is becoming increasingly important, with advancements in cybersecurity, AI governance, and natural language processing driving this shift. As AI continues to evolve and become more pervasive in our lives, the need for secure and reliable AI systems will only continue to grow.\n\n**Insight:** The recent developments in AI and machine learning have led to significant breakthroughs in various fields, including cybersecurity, AI governance, and natural language processing. The trend towards more robust and secure AI systems is becoming increasingly important, with advancements in cybersecurity, AI governance, and natural language processing driving this shift."
+  "summary": "Here are 4-6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA Acquires Hugging Face**: NVIDIA has agreed to acquire Hugging Face, a leading AI model development company, to further advance its AI research and development capabilities.\n* **OpenAI and AWS Expand Access to AI**: OpenAI's ChatGPT Ads has reached $1 billion in annualized revenue run rate, and AWS has expanded access to OpenAI GPT-5.6 models on Amazon Bedrock, enabling global cross-region inference.\n* **NVIDIA and MediaTek Deepen Partnership**: NVIDIA and MediaTek have deepened their partnership to build AI edge-to-cloud computing platforms, expanding their collaboration across multigenerational cloud AI factories, local AI computing, and automotive.\n* **Astra Meets Critical Cybersecurity Capability Threshold**: OpenAI's Astra model has met the critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.\n* **Efficient Passive Acoustic Monitoring**: Researchers have proposed a lightweight ResNet-based two-stage cascade for efficient passive acoustic monitoring of killer whales, achieving 0.960 macro-F1 and 0.958 classification accuracy.\n* **LoopCAT: An Open-Source Translation Technology Education Tool**: LoopCAT, an open-source computer-assisted translation environment, has been developed using OpenAI Codex and GPT-5.5 and GPT-5.6, enabling translation students to learn how to use translation technologies and judge the choices those technologies make available.\n\n**Trend:**\n\n* **Growing Importance of AI Compute Verification**: The trend is towards AI compute verification, with researchers and regulators recognizing the need to determine whether frontier labs or operators comply with agreements. This requires identifying the class of workload running on a GPU, which can be done through power draw analysis.\n\n**Insight:**\n\n* The increasing importance of AI compute verification highlights the need for robust and transparent AI development practices, as well as the importance of international policy aimed at AI governance.\n* The acquisition of Hugging Face by NVIDIA demonstrates the growing significance of AI model development companies in advancing AI research and development capabilities.\n* The expansion of access to OpenAI GPT-5.6 models on Amazon Bedrock by AWS highlights the growing importance of cloud-based AI services in enabling global cross-region inference.\n* The development of LoopCAT, an open-source translation technology education tool, demonstrates the growing need for accessible and transparent AI education tools.\n* The efficient passive acoustic monitoring of killer whales using a lightweight ResNet-based two-stage cascade highlights the growing importance of AI-based monitoring and conservation applications.\n* The growing importance of AI compute verification and the need for robust and transparent AI development practices are key trends in the field of AI development and governance."
 }
