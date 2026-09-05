@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-04T06:51:19.939Z",
+  "timestamp": "2026-09-05T06:36:09.559Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 15,
       "items": [
+        {
+          "subject": "Trump administration backs OpenAI in New York Times' copyright case",
+          "body": "The Trump administration is backing OpenAI over the New York Times in a closely watched case over how it builds its AI technology using millions of news articles. In court papers filed Tuesday, the Justice Department supported OpenAI’s argument that training …",
+          "timestamp": "2026-09-04T04:00:02",
+          "url": "https://apnews.com/article/justice-department-new-york-times-openai-copyright-dbb22e8e02c660ee5a8644915dec39a4",
+          "extras": {
+            "data_origin": "Associated Press"
+          }
+        },
+        {
+          "subject": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "body": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+          "timestamp": "2026-09-04T04:00:02",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+          "body": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its...",
+          "timestamp": "2026-09-04T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AWS: Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
+          "body": "OpenAI ChatGPT Codex with LiteLLM can provide centralized enterprise controls for generative AI coding agents. These agents help developers understand repositories, write code, run tests, and complete multi-step engineering tasks. As organizations move from individual experimentation to managed adoption, teams need a consistent way to control model access and attribute consumption. They must also apply budgets and rate limits, and observe the model-access path.",
+          "timestamp": "2026-09-04T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 26 New Games Coming to GeForce NOW",
           "body": "Stream NBA 2K27 with DLSS 5 across supported devices  plus, jump into The Blood of Dawnwalker, Onimusha: Way of the Sword and more.",
@@ -103,21 +139,89 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "Supporting Thailand’s next generation of AI startups",
-          "body": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-          "timestamp": "2026-08-28T13:30:01",
-          "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 10,
+      "count": 17,
       "items": [
+        {
+          "subject": "Hardware-Aware FP4 FlashAttention-4",
+          "body": "Blackwell's 4-bit floating-point (FP4) tensor cores do not automatically make attention faster because softmax conversion and on-chip dependencies dominate once its matrix products shrink. We address this with \\emph{Direct-P} for noncausal inference and a causal path that passes the forward quantization directly into backward. Direct-P maps scores directly to FP4 probabilities and reaches up to 2.13$\\times$ the bfloat16 (BF16) forward throughput on an NVIDIA GB200. The causal path reconstructs probabilities from saved quantized queries and keys and uses 8-bit floating-point (FP8) gradient operands, accelerating a complete single-GPU 8-billion-parameter update by up to 1.14$\\times$. Matched distributed training retains FP8 probabilities and values; every tested MXFP4 probability/value training trajectory diverges.",
+          "timestamp": "2026-09-03T17:12:35",
+          "url": "https://arxiv.org/abs/2609.04105v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Robert Hu",
+            "updated": "2026-09-03T17:12:35"
+          }
+        },
+        {
+          "subject": "Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving",
+          "body": "Bridging the gap between the discrete reasoning of Vision-Language Models and the continuous, physics-constrained nature of autonomous driving remains a significant challenge. In this work, we introduce LaPla, a unified Vision-Language-Action (VLA) framework featuring latent-aligned planning to seamlessly ground semantic understanding in precise motion execution. We first design an action tokenizer based on a residual vector-quantized variational autoencoder (VQ-VAE), capturing vehicle kinematics and encoding trajectory features into a structured latent space. Rather than discrete codebook lookups that inevitably introduce quantization errors, LaPla repurposes this representation as a physical prior to bridge the modality gap between high-dimensional semantics and the raw action space. Specifically, given multimodal inputs integrating multi-view images, historical actions, and textual instructions, LaPla incorporates concurrent action queries to causally attend to the multimodal context in a single forward pass, projecting hidden states directly into the pretrained VQ-VAE latent space. The frozen decoder then translates these continuous latents into actions, effectively eliminating quantization errors and ensuring physically plausible trajectories while bypassing time-consuming autoregressive generation. Extensive experiments on the nuScenes benchmark demonstrate that LaPla achieves competitive open-loop performance, reducing long-horizon L2 error by 15.52% compared to state-of-the-art VLA methods. Closed-loop evaluations on the NVIDIA AlpaSim simulator further confirm its superior capability in ensuring smooth driving progress, improving the success rate by 33.34 percentage points with significantly reduced inference latency.",
+          "timestamp": "2026-09-03T16:42:11",
+          "url": "https://arxiv.org/abs/2609.04070v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Ruoyu Yao, Yusen Xie, Qingzhao Liu, Pei Liu, Zewei Yang, Yipeng Zhu, Xiaolong Wang, Jun Ma",
+            "updated": "2026-09-03T16:42:11"
+          }
+        },
+        {
+          "subject": "RealCADBench: Benchmarking Parametric CAD Modeling from Industrial Design Intents",
+          "body": "Parametric computer-aided design (CAD) modeling is difficult to evaluate with a single metric. Existing CAD benchmarks often emphasize synthetic or CAD-native settings, limited input modalities, or executability and IoUs alone. We introduce RealCADBench, a benchmark for intent-to-program CAD modeling from real industrial design intents. It contains 12,632 tasks from 19 factory-automation categories and spans text descriptions, 2D engineering drawings, real product pictures, and rendered images for both Part and Assembly modeling. We report results on a 1,770-task evaluation slice: 1,745 Part tasks across four input regimes and RCB-Assm25, a 25-task assembly study used in every reported assembly comparison. Each method generates FreeCAD API Python, which a shared runtime executes to export the 3D model. We evaluate the exported model using executability, Solid IoU, Surface IoU, and a rubric-based visual-semantic identity Judge. Among the nine standalone frontier large models evaluated, no model leads all four metrics. Across six frontier-scale large models, executability ranges from 0.565 to 0.812, Solid IoU from 0.2841 to 0.5379, and Surface IoU from 0.112 to 0.217 across the four Part regimes. The highest regime-balanced composite comes from a different model than the leaders on the four component metrics. On RCB-Assm25, Codex with GPT-5.5 improves executability and both IoU metrics over standalone GPT-5.5, but lowers the Judge score by 6.98 percentage points, leaving GPT-5.5 as the Judge leader. We also observe recurring failure modes, most notably missing fine structures, loss of part identity, and incorrect assembly placement. These results show that execution alone is insufficient to characterize realistic CAD modeling and that frontier models and agents differ substantially across executability, IoUs, and visual-semantic identity.",
+          "timestamp": "2026-09-03T12:43:23",
+          "url": "https://arxiv.org/abs/2609.03773v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "JoyIndustrial VisCAD Team, Linxin Cai, Qiuhe Hong, Zhichao Huang, Guanlin Li, Zongzhen Li, Hongsen Liu, Yichen Long, Wei Wang, Yuchen Wang, Dongyue Yang, Huimu Yu, Xianwen Zhong",
+            "updated": "2026-09-03T12:43:23"
+          }
+        },
+        {
+          "subject": "Building Pretraining Data for World Models: An Unreal Engine-Based Pipeline for Action-Conditioned Video Generation",
+          "body": "Action-conditioned video models require large-scale visual data paired with control signals that are temporally aligned with the resulting scene transitions. Such supervision is difficult to obtain from ordinary real-world video because the actions that caused each visual change are typically unknown. We present a large-scale synthetic data production pipeline built on Unreal Engine for generating action-conditioned, multi-view video. To accommodate the different execution requirements of real-time physics and high-quality offline rendering, the pipeline executes trajectory generation and final rendering in two stages: Stage I runs real physics in PIE and records per-frame character states, control inputs, and camera states into an intermediate trajectory representation; Stage II replays those trajectories in a new engine process and renders them offline with Movie Render Queue (MRQ). Around this core, we develop a distributed production system with cache-aware task partitioning, node-local slot scheduling, automated scene screening, aesthetic and luminance filtering, partial-output recovery, asynchronous upload, and continuous cluster health monitoring. The production cluster contains 25 servers with eight NVIDIA RTX 5090 GPUs per server. From 2,384 asset packs, 429 levels were retained for production together with a pool of 40 humanoid characters. The pipeline has produced 2,691 hours of 1080p video and 6,076 hours of 720p video. We describe the system architecture, the implementation decisions that emerged from production failures, and the limitations of using perceptual quality proxies for world-model data curation. The pipeline described in this report constitutes the Unreal Engine synthetic-data production component used in EchoWM.",
+          "timestamp": "2026-09-03T08:58:04",
+          "url": "https://arxiv.org/abs/2609.03557v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Haoyu Wang, Songchun Zhang, Haoran Li, Haoyang Huang, Zeyue Xue, Nan Duan",
+            "updated": "2026-09-03T08:58:04"
+          }
+        },
+        {
+          "subject": "Efficient Constant Optimization for Symbolic Regression with GPU-Accelerated Tree-Based Genetic Programming",
+          "body": "Constant optimization refines the numerical coefficients of candidate expressions in tree-based genetic programming for symbolic regression. But its per-generation cost has led modern GPU-accelerated frameworks to omit it or restrict it to lightweight forms. We present a GPU-resident, batched Levenberg--Marquardt solver that optimizes constants across a structurally heterogeneous population of expression trees using a fixed number of population-wide CUDA launches per iteration. Reverse-mode automatic differentiation assembles the per-tree Jacobian in one backward sweep, making the dominant per-iteration cost independent of the number of constants per tree, and a double-precision delivery guard guarantees that returned constants are never worse than their initial values. On early-generation populations, the solver sustains up to $5.1{\\times}10^{5}$ trees per second on an NVIDIA A100; at a GPU-saturated benchmark configuration it delivers roughly $9.9{\\times}$ the throughput of Operon running on a 64-core EPYC 7763, while matching fp64-reference quality. Integrated in-process into EvoGP, the solver enables end-to-end search to recover governing equations on $10$ of $18$ constructed problems versus 0 for stock EvoGP. Our code is at https://github.com/TensorConv/CuSR.",
+          "timestamp": "2026-09-03T04:20:27",
+          "url": "https://arxiv.org/abs/2609.03352v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Hao Mao, Xu Tony Liu, Shuai Lu, Peng Zhao, Wenzheng Jiang, Yuntian Chen",
+            "updated": "2026-09-03T04:20:27"
+          }
+        },
+        {
+          "subject": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+          "body": "We present Jina-OCR-v1, an end-to-end document parsing model built to serve on low-budget GPUs. It combines the compressed-vision encoder and the 3B mixture-of-experts decoder of DeepSeek-OCR, which activates about 570M parameters per token, with a FastMTP speculative decoding head that shares a single draft block recursively across K=3 prediction steps. Greedy verification makes decoding lossless. Post-training combines instruction alignment, robustness fine-tuning on difficult documents, and GRPO under dense verifiable rewards: deterministic formula, table, and structural checks that award partial credit. The training data mixes cleaned public corpora with targeted synthetic pages. At the default dynamic-resolution setting, Jina-OCR-v1 scores 91.14 on OmniDocBench v1.6 and 83.4 on olmOCR-Bench, and reaches the highest page throughput in our comparison at 2.57 pages per second. On a low-budget GPU such as the NVIDIA L4, FastMTP doubles decoding speed over greedy autoregressive decoding. The model is publicly available at https://huggingface.co/jinaai/jina-ocr-v1.",
+          "timestamp": "2026-09-02T21:49:21",
+          "url": "https://arxiv.org/abs/2609.03181v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Alejandro Barón García, Feng Wang, Emilia Garcia Casademont, Han Xiao",
+            "updated": "2026-09-02T21:49:21"
+          }
+        },
+        {
+          "subject": "BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training",
+          "body": "Long-context reasoning for large language models (LLMs) is becoming increasingly important, but training over long sequences remains challenging due to massive memory and communication requirements. Sequence parallelism has emerged as an essential technique for addressing bottlenecks in long sequence LLM training. However, we observe that existing sequence parallelism methods are batch-agnostic and apply uniform sequence partitioning across all batch sizes, resulting in inefficient communication. In this paper, we introduce Batch- Aware Sequence Parallelism (BASP), a sequence parallelism approach that leverages batch structure to reduce communication overhead. BASP exploits batch structure by partitioning GPUs into disjoint sequence-parallel groups according to the micro- batch size. This design reduces the all-to-all communication group size, thereby localizing communication and improving training efficiency. Experimental results on an NVIDIA A100 cluster show that BASP improves end-to-end training time by up to 1.17 - 1.31x in Llama and Qwen models compared to standard sequence parallel baselines, while preserving identical model accuracy and memory usage.",
+          "timestamp": "2026-09-02T20:33:23",
+          "url": "https://arxiv.org/abs/2609.03151v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Bigyan Ghimire, Jon C. Calhoun",
+            "updated": "2026-09-02T20:33:23"
+          }
+        },
         {
           "subject": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
           "body": "Ordinary differential equations (ODEs) underlie models in science and engineering, and many applications need derivatives of their solutions with respect to parameters. Ensembles of independent trajectories suit graphics processing units (GPUs), but current GPU software forces a trade-off: the fastest ensemble solvers cannot be differentiated in reverse mode at the speed they solve, and the solvers built for differentiation solve more slowly. No single tool has yet offered a reverse-mode gradient at the speed of a fused-kernel solve.\n  We present GRADSOLVE, an open-source JAX library for solving and reverse-mode differentiating low-dimensional ODE ensembles on NVIDIA GPUs. It records the steps an adaptive solver accepts and differentiates a fixed-step replay of them; the returned gradient is the exact discrete adjoint of those steps, the same derivative Diffrax returns by default, obtained more cheaply from a fixed-length chain than from an adaptive loop. It targets ensembles differentiated many times against one recorded mesh, keeps Diffrax as a fallback, and supports explicit and Rosenbrock integrators.\n  Used as a solver, GRADSOLVE's forward-only kernel ran 2.8x faster than DiffEqGPU.jl; used for gradients, once a record exists, it computed them 5.6-14.1x faster than Diffrax's checkpointed adjoint at matched forward-state accuracy across three GPU generations, the advantage narrowing on large ensembles and, on stiff systems, down to parity at tight accuracy. GRADSOLVE is released at https://github.com/ECLIPSE-AI4Science/gradsolve.",
@@ -234,6 +338,16 @@
       "count": 2,
       "items": [
         {
+          "subject": "nvidia/Nemotron-3-Diarization-preview",
+          "body": "[\"nemo\", \"speaker-diarization\", \"streaming-sortformer\", \"speaker-tagging\", \"audio\", \"voice-activity-detection\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-09-05T00:06:17",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
           "subject": "nvidia/DeepSeek-V4-Flash-0731-NVFP4",
           "body": "[\"Model Optimizer\", \"safetensors\", \"deepseek_v4\", \"nvidia\", \"ModelOpt\", \"DeepSeekV4\", \"quantized\", \"NVFP4\", \"nvfp4\", \"text-generation\", \"base_model:deepseek-ai/DeepSeek-V4-Flash-0731\", \"base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-0731\", \"license:mit\", \"8-bit\", \"fp8\", \"region:us\"]",
           "timestamp": "2026-09-02T11:49:38",
@@ -242,19 +356,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Diarization-preview",
-          "body": "[\"nemo\", \"speaker-diarization\", \"streaming-sortformer\", \"speaker-tagging\", \"audio\", \"voice-activity-detection\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-08-29T19:54:07",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 4-6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA Acquires Hugging Face**: NVIDIA has agreed to acquire Hugging Face, a leading AI model development company, to further advance its AI research and development capabilities.\n* **OpenAI and AWS Expand Access to AI**: OpenAI's ChatGPT Ads has reached $1 billion in annualized revenue run rate, and AWS has expanded access to OpenAI GPT-5.6 models on Amazon Bedrock, enabling global cross-region inference.\n* **NVIDIA and MediaTek Deepen Partnership**: NVIDIA and MediaTek have deepened their partnership to build AI edge-to-cloud computing platforms, expanding their collaboration across multigenerational cloud AI factories, local AI computing, and automotive.\n* **Astra Meets Critical Cybersecurity Capability Threshold**: OpenAI's Astra model has met the critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.\n* **Efficient Passive Acoustic Monitoring**: Researchers have proposed a lightweight ResNet-based two-stage cascade for efficient passive acoustic monitoring of killer whales, achieving 0.960 macro-F1 and 0.958 classification accuracy.\n* **LoopCAT: An Open-Source Translation Technology Education Tool**: LoopCAT, an open-source computer-assisted translation environment, has been developed using OpenAI Codex and GPT-5.5 and GPT-5.6, enabling translation students to learn how to use translation technologies and judge the choices those technologies make available.\n\n**Trend:**\n\n* **Growing Importance of AI Compute Verification**: The trend is towards AI compute verification, with researchers and regulators recognizing the need to determine whether frontier labs or operators comply with agreements. This requires identifying the class of workload running on a GPU, which can be done through power draw analysis.\n\n**Insight:**\n\n* The increasing importance of AI compute verification highlights the need for robust and transparent AI development practices, as well as the importance of international policy aimed at AI governance.\n* The acquisition of Hugging Face by NVIDIA demonstrates the growing significance of AI model development companies in advancing AI research and development capabilities.\n* The expansion of access to OpenAI GPT-5.6 models on Amazon Bedrock by AWS highlights the growing importance of cloud-based AI services in enabling global cross-region inference.\n* The development of LoopCAT, an open-source translation technology education tool, demonstrates the growing need for accessible and transparent AI education tools.\n* The efficient passive acoustic monitoring of killer whales using a lightweight ResNet-based two-stage cascade highlights the growing importance of AI-based monitoring and conservation applications.\n* The growing importance of AI compute verification and the need for robust and transparent AI development practices are key trends in the field of AI development and governance."
+  "summary": "**Key Developments:**\n\n1. **OpenAI backs down in copyright case with the New York Times**: The Justice Department has supported OpenAI's argument that training its AI technology using millions of news articles does not infringe on the Copyright Act of 1976.\n2. **NVIDIA and Hugging Face announce acquisition**: NVIDIA has announced its plan to acquire Hugging Face, a popular open-source AI library, in an effort to expand its portfolio of AI-related technologies.\n3. **OpenAI expands access to AI with ChatGPT Ads**: OpenAI has announced that ChatGPT Ads has reached $1 billion in annualized revenue run rate, expanding access to AI through free and affordable options.\n4. **AWS integrates OpenAI's ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock**: AWS has developed a new solution for enterprise customers to access and manage OpenAI's ChatGPT Codex, a language model that helps developers write code and complete engineering tasks.\n5. **NVIDIA announces new partnership with MediaTek**: NVIDIA and MediaTek have expanded their partnership to build AI edge-to-cloud computing platforms, including custom XPUs and Rack-Scale AI Factories.\n\n**Trend:** The growth of OpenAI and other AI companies: The recent developments suggest that AI companies are expanding their presence and influence in various industries, including AI research, technology, and business. The acquisition of Hugging Face by NVIDIA and the integration of OpenAI's technology with Amazon's platforms demonstrate the growing significance of AI in the tech world.\n\n**Insight:** The trend suggests that the AI industry is shifting towards a more integrated and collaborative approach, with major players like OpenAI and NVIDIA partnering with each other and other companies to drive innovation and expansion. This trend is likely to continue, with AI companies playing a more significant role in shaping the future of technology and business."
 }
