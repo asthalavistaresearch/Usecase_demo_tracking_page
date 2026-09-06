@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-05T06:36:09.559Z",
+  "timestamp": "2026-09-06T06:45:53.823Z",
   "categories": {
     "news": {
-      "count": 15,
+      "count": 16,
       "items": [
+        {
+          "subject": "AWS: Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+          "body": "A Physical AI system, such as a robot or autonomous vehicle (AV)...",
+          "timestamp": "2026-09-05T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "Trump administration backs OpenAI in New York Times' copyright case",
           "body": "The Trump administration is backing OpenAI over the New York Times in a closely watched case over how it builds its AI technology using millions of news articles. In court papers filed Tuesday, the Justice Department supported OpenAI’s argument that training …",
@@ -335,8 +344,18 @@
       ]
     },
     "models": {
-      "count": 2,
+      "count": 3,
       "items": [
+        {
+          "subject": "nvidia/Qwen3.8-Flash-Next-NVFP4",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen4_exp\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"FP4\", \"fp4\", \"image-text-to-text\", \"conversational\", \"base_model:Qwen/Qwen3.8-Flash-Next\", \"base_model:quantized:Qwen/Qwen3.8-Flash-Next\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-09-05T23:36:02",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/Nemotron-3-Diarization-preview",
           "body": "[\"nemo\", \"speaker-diarization\", \"streaming-sortformer\", \"speaker-tagging\", \"audio\", \"voice-activity-detection\", \"license:other\", \"region:us\"]",
@@ -360,5 +379,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n1. **OpenAI backs down in copyright case with the New York Times**: The Justice Department has supported OpenAI's argument that training its AI technology using millions of news articles does not infringe on the Copyright Act of 1976.\n2. **NVIDIA and Hugging Face announce acquisition**: NVIDIA has announced its plan to acquire Hugging Face, a popular open-source AI library, in an effort to expand its portfolio of AI-related technologies.\n3. **OpenAI expands access to AI with ChatGPT Ads**: OpenAI has announced that ChatGPT Ads has reached $1 billion in annualized revenue run rate, expanding access to AI through free and affordable options.\n4. **AWS integrates OpenAI's ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock**: AWS has developed a new solution for enterprise customers to access and manage OpenAI's ChatGPT Codex, a language model that helps developers write code and complete engineering tasks.\n5. **NVIDIA announces new partnership with MediaTek**: NVIDIA and MediaTek have expanded their partnership to build AI edge-to-cloud computing platforms, including custom XPUs and Rack-Scale AI Factories.\n\n**Trend:** The growth of OpenAI and other AI companies: The recent developments suggest that AI companies are expanding their presence and influence in various industries, including AI research, technology, and business. The acquisition of Hugging Face by NVIDIA and the integration of OpenAI's technology with Amazon's platforms demonstrate the growing significance of AI in the tech world.\n\n**Insight:** The trend suggests that the AI industry is shifting towards a more integrated and collaborative approach, with major players like OpenAI and NVIDIA partnering with each other and other companies to drive innovation and expansion. This trend is likely to continue, with AI companies playing a more significant role in shaping the future of technology and business."
+  "summary": "**Key Developments:**\n\n* OpenAI and NVIDIA are collaborating on various projects, including the development of a new AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod.\n* The Trump administration is backing OpenAI in a copyright case against the New York Times, arguing that the company's use of news articles to train its AI technology is fair use.\n* OpenAI has introduced Daybreak for Frontline Defenders, a $1 billion commitment to expand access to frontier cyber AI, training, and support for essential services.\n* NVIDIA has acquired Hugging Face, a company that provides a popular open-source transformer library.\n* A new AI model, Astra, has been developed by OpenAI, which meets the Critical cybersecurity capability threshold under the Preparedness Framework.\n* NVIDIA and MediaTek are deepening their partnership to build AI edge to cloud computing platforms.\n\n**Trend:**\n\n* The increasing importance of AI in various industries, with companies like OpenAI, NVIDIA, and AWS developing and deploying AI models and technologies at an rapid pace.\n\n**Insights:**\n\n* The collaboration between OpenAI and NVIDIA is a significant development in the field of AI, as it brings together two of the leading companies in the industry.\n* The copyright case between OpenAI and the New York Times highlights the complex issues surrounding the use of news articles to train AI models.\n* The introduction of Daybreak for Frontline Defenders demonstrates OpenAI's commitment to expanding access to frontier cyber AI, training, and support for essential services.\n* The acquisition of Hugging Face by NVIDIA is a significant development in the field of natural language processing and AI.\n* The development of Astra by OpenAI is a significant step towards the development of more secure and reliable AI models.\n* The partnership between NVIDIA and MediaTek is a significant development in the field of AI edge to cloud computing, as it brings together two of the leading companies in the industry."
 }
