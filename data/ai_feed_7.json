@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-07T06:54:55.154Z",
+  "timestamp": "2026-09-08T06:50:26.254Z",
   "categories": {
     "news": {
-      "count": 16,
+      "count": 15,
       "items": [
+        {
+          "subject": "Supporting independent journalism in Ukraine",
+          "body": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+          "timestamp": "2026-09-07T13:30:02",
+          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Research acceleration: The view inside OpenAI",
+          "body": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+          "timestamp": "2026-09-07T04:00:02",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "AWS: Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
           "body": "A Physical AI system, such as a robot or autonomous vehicle (AV)...",
@@ -121,39 +139,23 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Polimill builds Japan's next-generation public AI infrastructure",
-          "body": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-          "timestamp": "2026-09-01T04:00:02",
-          "url": "https://openai.com/index/polimill",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "A milestone in expanding access to AI",
-          "body": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-          "timestamp": "2026-09-01T04:00:02",
-          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA and MediaTek Deepen Long-Standing Partnership to Build AI Edge to Cloud Computing Platforms",
-          "body": "Companies Expand Collaboration Across Multigenerational Cloud AI Factories, Local AI Computing and Automotive. MediaTek to Adopt New NVIDIA NVLink Fusion Platform, Helping Customers Take Custom XPUs to NVIDIA NVLink-Connected, Rack-Scale AI Factories.",
-          "timestamp": "2026-08-31T13:30:01",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 17,
+      "count": 15,
       "items": [
+        {
+          "subject": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
+          "body": "Autonomous AI agents increasingly select actions in environments whose memory, execution-time, runtime, compute, and operational constraints determine what counts as a suitable plan. We call the absence of this execution context from an agent's planning state substrate blindness. We test this general proposition through numerical code generation, where selected implementation choices and operational consequences are directly observable. Three frontier model configurations--Anthropic Claude Opus 5, OpenAI GPT-5.6-Sol, and Google Gemini 3.7 Flash--generate code for a high-dimensional pairwise Euclidean-distance task either from the task alone or with a 128 MB RAM and 10.0 s wall-time contract. Contract disclosure reduced measured peak process memory in 13 of 14 executable index-aligned task-only versus contract-disclosed comparisons and reduced mean wall time in all three cohorts, making execution up to 3.1x faster. Across the audited corpus, disclosure produced structural code changes including bounded blocking, float32 retention, upper-triangle traversal, and in-place or memory-mapped buffers. At a tighter 96 MB contract, independently sampled contract-disclosed cohorts achieved correct-and-within-budget outcomes of 4/5 for Claude Opus 5, 5/5 for GPT-5.6-Sol, and 3/5 for Gemini 3.7 Flash, compared with task-only outcomes of 0/5, 1/5, and 0/5; cohort mean MaxRSS and wall time were 49-74% and 35-64% lower than their task-only references. These results establish a controlled proof of concept for substrate-aware agent planning: a minimal execution contract induces proactive structural adaptation in generated programs, shifting computation away from unconstrained allocations and substantially improving observed resource-time profiles before execution.",
+          "timestamp": "2026-09-04T14:57:17",
+          "url": "https://arxiv.org/abs/2609.05232v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Manu Agrawal",
+            "updated": "2026-09-04T14:57:17"
+          }
+        },
         {
           "subject": "Hardware-Aware FP4 FlashAttention-4",
           "body": "Blackwell's 4-bit floating-point (FP4) tensor cores do not automatically make attention faster because softmax conversion and on-chip dependencies dominate once its matrix products shrink. We address this with \\emph{Direct-P} for noncausal inference and a causal path that passes the forward quantization directly into backward. Direct-P maps scores directly to FP4 probabilities and reaches up to 2.13$\\times$ the bfloat16 (BF16) forward throughput on an NVIDIA GB200. The causal path reconstructs probabilities from saved quantized queries and keys and uses 8-bit floating-point (FP8) gradient operands, accelerating a complete single-GPU 8-billion-parameter update by up to 1.14$\\times$. Matched distributed training retains FP8 probabilities and values; every tested MXFP4 probability/value training trajectory diverges.",
@@ -307,39 +309,6 @@
             "authors": "Jidong Yang, Qi Li, Wei Zong, Yang-Wai Chow, Willy Susilo, Huaike Yu, Chunpeng Wang, Suo Gao",
             "updated": "2026-09-01T13:46:31"
           }
-        },
-        {
-          "subject": "From Tool Use to Technological Agency: LoopCAT as a Local-First, Open-Source Tool for Translation Technology Education",
-          "body": "Translation students need to learn both how to use translation technologies and how to judge the choices those technologies make available. This article presents LoopCAT, an Apache-2.0-licensed, local-first computer-assisted translation environment co-created with OpenAI Codex using GPT-5.5 and GPT-5.6, and proposes a framework connecting workflow competence, evaluative judgement, and technological agency. The account draws on repository history, implementation inspection, and the verification records of an identified development build. LoopCAT combines local project storage, translation memories, terminology, quality assurance, document exchange, and optional connections to local or hosted AI services. Its English, Catalan, and Turkish interface catalogs also make the application itself available as teaching material: students can translate English UI strings into another language, review the existing automatically generated target drafts, import their revisions, and test the interface. We organize these opportunities around four forms of participation: operating a workflow, evaluating outputs, inspecting and configuring mechanisms, and making or defending a bounded intervention. A six-session sequence, a UI-localization assignment, a placeholder example, and an assessment rubric specify how teachers could use the framework. The paper separates implemented capabilities from proposed educational benefits; it reports no new student-learning outcomes. It distinguishes the latest package checks from earlier regression evidence and sets out a protocol for classroom evaluation. LoopCAT provides an inspectable setting for teaching how translation decisions interact with data, interfaces, and software rules. Whether these activities improve judgement, transfer, or participation remains an empirical question.",
-          "timestamp": "2026-08-31T20:38:34",
-          "url": "https://arxiv.org/abs/2609.00344v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Gokhan Dogru, Adrià Martín Mor",
-            "updated": "2026-08-31T20:38:34"
-          }
-        },
-        {
-          "subject": "Workload Identification with Physical Side Channels for AI Governance",
-          "body": "AI compute verification is one of the first tangible and tractable points for international policy aimed at AI governance. Determining whether frontier labs, or any operator, comply with agreements requires the regulating authority to discern how their compute is used. The elementary building block of AI compute is the GPU, and any activity it executes leaves a physical trace. Here, we show that an external observer can identify the class of the workload running on an NVIDIA H200 from its power draw. Unlike on-chip NVML telemetry, which can be spoofed or replayed, such a physical channel can in principle be observed independently of operator cooperation. We recorded $930$ five-second traces at $\\sim 10$ MHz, covering seventeen open LLM families and twenty-five non-AI workloads. Over this corpus we separate training from inference and from non-AI computation with an accuracy of $97\\%$ and a macro-averaged F1 score of $0.955$, evaluated on model families unseen during training. AI workload spectral content predominantly lies below $\\sim 20$kHz and training is particularly recognizable through the memory-bound optimizer update. The GPU operator is then treated as adversarial and able to reshape the physical computation itself. Four evasion strategies are tested to disguise training as inference, producing an additional 680 adversarial traces. A detector hardened against evasion strategies, with the tested strategy held out, catches training $\\geq 99\\%$ of the time for three of the four strategies. The fourth, diluted low-rank adaptation (LoRA), is detected $48$--$88\\%$ of the time with a hardened classifier, rising to $\\geq 98\\%$ with an additional rescue rule. While these attacks are not a comprehensive evaluation against adversarial behaviour, they offer initial insights beyond genuine activities and a dataset for developing and testing stronger evasion mechanisms.",
-          "timestamp": "2026-08-31T19:59:35",
-          "url": "https://arxiv.org/abs/2609.00309v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Simone Gargiulo, Gabriel Kulp",
-            "updated": "2026-08-31T19:59:35"
-          }
-        },
-        {
-          "subject": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
-          "body": "Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity. Egocentric videos offer a far more scalable source of embodied experience, capturing object interactions, contact dynamics, tool use, and long-horizon behaviors across diverse environments. The central challenge is how to convert this abundant but action-free experience into effective robot control. We introduce ZimaBlue, a scalable framework for learning generalizable World Action Models (WAMs) from large-scale video. ZimaBlue follows a three-stage training curriculum: it first performs causal embodied video pre-training on large-scale human and robot egocentric videos, then grounds the learned visual dynamics in heterogeneous robot trajectories through video-action mid-training with a unified action representation, and finally specializes the model to a target robot for deployment. To make generative WAMs practical for real-time control, ZimaBluefurther adopts an asynchronous Slow-Fast dual-system architecture, where a high-capacity Slow world model provides generalizable spatiotemporal representations and a lightweight Fast branch enables 30 Hz action prediction on NVIDIA RTX 4090. On real-robot zero-shot evaluations, scaling from target-robot data alone to over 120,000 hours of embodied video improves success from 36.1% to 77.8%. ZimaBlue further delivers strong performance across multiple benchmarks, with particularly pronounced gains on unseen tasks.",
-          "timestamp": "2026-08-31T18:09:52",
-          "url": "https://arxiv.org/abs/2609.00188v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Xionghao Wu, Yijun Yang, Shiyang Zhou, Haoze Sun, Jianhui Liu, Songsong Yu, Jiyao Zhang, Wenbo Li, Bo Wang, Guoqing Ma, Lin Song, Renjie Liao, Shenghe Zheng, Wei Tang, Xiaojuan Qi, Yanwei Li, Yuan Zhang, Zhuotao Tian, Haoyang Huang, Nan Duan",
-            "updated": "2026-08-31T18:09:52"
-          }
         }
       ]
     },
@@ -379,5 +348,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* OpenAI introduces Daybreak for Frontline Defenders, a $1 billion commitment to expand access to frontier cyber AI, training, and support for essential services.\n* NVIDIA announces the acquisition of Hugging Face, a popular open-source deep learning library.\n* AWS and OpenAI collaborate on a series of projects, including building a physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod and accessing OpenAI GPT-5.6 models on Amazon Bedrock from Australia with global cross-Region inference.\n* Researchers introduce a new benchmark, RealCADBench, for intent-to-program CAD modeling from industrial design intents, and a new method, LaPla, for latent-aligned planning to seamlessly ground semantic understanding in precise motion execution.\n* A new study on efficient constant optimization for symbolic regression with GPU-accelerated tree-based genetic programming shows that a GPU-resident, batched Levenberg--Marquardt solver can optimize constants across a structurally heterogeneous population of expression trees using a fixed number of population-wide CUDA launches per iteration.\n* A new method, Jina-OCR-v1, is presented for efficient document parsing with speculative decoding and dense verifiable rewards, achieving a score of 91.14 on OmniDocBench v1.6 and 83.4 on olmOCR-Bench.\n\n**Trend:**\n\n* The increasing use of AI in various industries, including healthcare, finance, and education, is driving the development of more efficient and effective AI models and techniques. This trend is expected to continue, with AI becoming an increasingly important tool for businesses and organizations to stay competitive and innovate.\n\n**Insight:**\n\n* The collaboration between AWS and OpenAI is a significant development in the field of AI, as it brings together two of the leading players in the industry. This collaboration is expected to lead to the development of more advanced and effective AI models and techniques.\n* The use of AI in various industries is driving the need for more efficient and effective AI models and techniques. This trend is expected to continue, with AI becoming an increasingly important tool for businesses and organizations to stay competitive and innovate."
+  "summary": "Key Developments:\n\n* **NVIDIA Acquires Hugging Face**: NVIDIA has announced that it has agreed to acquire Hugging Face, a leading developer of open-source artificial intelligence (AI) models and libraries. \n* **OpenAI Introduces Daybreak for Frontline Defenders**: OpenAI has launched Daybreak for Frontline Defenders, a $1 billion commitment to expand access to frontier cyber AI, training, and support for essential services.\n* **New AI Model Compression Framework**: Researchers have presented a hardware-aware model compression framework that operates directly on ONNX computational graphs without requiring original source code.\n* **Efficient Constant Optimization for Symbolic Regression**: A new GPU-resident solver has been proposed to optimize constants across a structurally heterogeneous population of expression trees using a fixed number of population-wide CUDA launches per iteration.\n* **Two-Stage Cascade for Efficient Passive Acoustic Monitoring**: A lightweight ResNet-based two-stage cascade has been proposed for detection and classification of killer whale vocalizations, achieving an F1 score of 0.933.\n\nTrend: **Advances in Edge AI and Model Compression**: The recent developments in AI research focus on edge AI and model compression, with a focus on creating more efficient and portable AI models that can be deployed on low-power devices. This trend is driven by the need for real-time AI applications in various industries such as healthcare, finance, and transportation."
 }
