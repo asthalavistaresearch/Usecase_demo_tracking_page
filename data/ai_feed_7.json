@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-09T06:59:13.888Z",
+  "timestamp": "2026-09-10T09:06:06.943Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 13,
       "items": [
+        {
+          "subject": "Introducing ChatGPT Images 2.5",
+          "body": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+          "timestamp": "2026-09-09T04:00:02",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Funding grants for new research into AI and teen development",
+          "body": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+          "timestamp": "2026-09-09T04:00:02",
+          "url": "https://openai.com/index/teen-development-research-grants",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+          "body": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+          "timestamp": "2026-09-09T04:00:02",
+          "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "AWS: Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock",
+          "body": "GPT-6 Astra from OpenAI brings greater depth and judgment to your most...",
+          "timestamp": "2026-09-09T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "Supporting independent journalism in Ukraine",
           "body": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
@@ -85,29 +121,11 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-          "body": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-          "timestamp": "2026-09-03T04:00:02",
-          "url": "https://openai.com/index/atv-big-air-tour",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "AWS: Accessing OpenAI GPT-5.6 models on Amazon Bedrock from Australia with global cross-Region inference",
-          "body": "Australian teams working with OpenAI models can now access the latest OpenAI...",
-          "timestamp": "2026-09-03T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "subject": "nvidia/Qwen3.8-Flash-Next-NVFP4",
@@ -128,19 +146,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/DeepSeek-V4-Flash-0731-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"deepseek_v4\", \"nvidia\", \"ModelOpt\", \"DeepSeekV4\", \"quantized\", \"NVFP4\", \"nvfp4\", \"text-generation\", \"base_model:deepseek-ai/DeepSeek-V4-Flash-0731\", \"base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-0731\", \"license:mit\", \"8-bit\", \"fp8\", \"region:us\"]",
-          "timestamp": "2026-09-02T11:49:38",
-          "url": "https://huggingface.co/nvidia/DeepSeek-V4-Flash-0731-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 5 key developments with insight, 4-6 bullet points, and 1 trend:\n\n**Key Developments with Insight:**\n\n1. **OpenAI's Support for Independent Journalism in Ukraine**: OpenAI, AIRPPU, and WAN-IFRA have launched an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.\n2. **AWS and NVIDIA Collaborate on AI Model Factory**: AWS and NVIDIA have collaborated to build a physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod, enabling the creation of AI models for various applications.\n3. **Trump Administration Backs OpenAI in Copyright Case**: The Trump administration has supported OpenAI in a closely watched case over how it builds its AI technology using millions of news articles.\n4. **NVIDIA to Acquire Hugging Face**: NVIDIA has agreed to acquire Hugging Face, a leading AI model provider, to expand its capabilities in natural language processing and computer vision.\n\n**Bullet Points:**\n\n* OpenAI's ChatGPT Codex with LiteLLM can provide centralized enterprise controls for generative AI coding agents.\n* NVIDIA's DLSS 5 leads 26 new games coming to GeForce NOW, including NBA 2K27 and Onimusha: Way of the Sword.\n* ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more, turning 3 days of work into 3 hours.\n* Australian teams working with OpenAI models can now access the latest OpenAI GPT-5.6 models on Amazon Bedrock from Australia with global cross-region inference.\n\n**Trend:**\n\n* **Growing Importance of AI in Various Industries**: The increasing use of AI in various industries, such as journalism, entertainment, and finance, highlights the growing importance of AI in modern society.\n\nNote: The trend is based on the observation that AI is being increasingly used in various industries, and its importance is growing as a result."
+  "summary": "Here are 5 key developments with insight:\n\n* **OpenAI releases ChatGPT Images 2.5**: OpenAI has announced the release of ChatGPT Images 2.5, a new version of its image generation tool that helps users turn their ideas, sketches, and reference photos into more personalized and polished images.\n* **OpenAI expands support for journalism**: OpenAI is expanding its support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations to help them use AI in their work.\n* **AWS and NVIDIA announce new AI tools**: AWS and NVIDIA have announced new AI tools and platforms, including GPT-6 Astra and NVIDIA Cosmos 3, which can help organizations build and deploy AI models.\n* **Trump administration backs OpenAI in copyright case**: The Trump administration has filed a brief in support of OpenAI in a high-profile copyright case against the New York Times, arguing that OpenAI's use of AI technology is protected under fair use.\n* **NVIDIA acquires Hugging Face**: NVIDIA has acquired Hugging Face, a popular platform for AI model development and deployment, in a move that could further expand NVIDIA's offerings in the AI space.\n\nTrend: **Growing Adoption of AI in Content Creation and Journalism**: The recent developments highlight the growing adoption of AI in content creation and journalism, with OpenAI releasing new tools to help users create images and editors, and NVIDIA acquiring Hugging Face to expand its offerings in AI model development and deployment. This trend suggests that AI will continue to play a larger role in the content creation and journalism industries in the future."
 }
