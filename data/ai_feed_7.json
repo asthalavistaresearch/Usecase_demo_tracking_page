@@ -1,10 +1,73 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-10T09:06:06.943Z",
+  "timestamp": "2026-09-11T06:55:19.040Z",
   "categories": {
     "news": {
-      "count": 13,
+      "count": 14,
       "items": [
+        {
+          "subject": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+          "body": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion...",
+          "timestamp": "2026-09-10T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains",
+          "body": "Palantir Technologies Inc. (NASDAQ: PLTR) and NVIDIA (NASDAQ: NVDA) today announced a...",
+          "timestamp": "2026-09-10T13:30:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-palantir-bring-sovereign-intelligence-to-critical-supply-chains",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Job seekers are adding AI skills on LinkedIn to roles they held pre-ChatGPT: researchers",
+          "body": "Job seekers are adding AI skills on LinkedIn to roles they held...",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://www.cnbc.com/2026/08/25/job-seekers-are-adding-ai-skills-on-linkedin-to-roles-they-held-pre-chatgpt-researchers.html",
+          "extras": {
+            "data_origin": "NBER"
+          }
+        },
+        {
+          "subject": "GPT-6 Astra: The next generation in intelligence for work",
+          "body": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Paul Christiano joins OpenAI Foundation Board",
+          "body": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem",
+          "body": "NVIDIA today announced that it is collaborating with a growing ecosystem of...",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+          "body": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology...",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Introducing ChatGPT Images 2.5",
           "body": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
@@ -67,66 +130,32 @@
           "extras": {
             "data_origin": "AWS AI News"
           }
-        },
-        {
-          "subject": "Trump administration backs OpenAI in New York Times' copyright case",
-          "body": "The Trump administration is backing OpenAI over the New York Times in a closely watched case over how it builds its AI technology using millions of news articles. In court papers filed Tuesday, the Justice Department supported OpenAI’s argument that training …",
-          "timestamp": "2026-09-04T04:00:02",
-          "url": "https://apnews.com/article/justice-department-new-york-times-openai-copyright-dbb22e8e02c660ee5a8644915dec39a4",
-          "extras": {
-            "data_origin": "Associated Press"
-          }
-        },
-        {
-          "subject": "Daybreak for Frontline Defenders: $1B to protect essential services",
-          "body": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-          "timestamp": "2026-09-04T04:00:02",
-          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
-          "body": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its...",
-          "timestamp": "2026-09-04T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "AWS: Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
-          "body": "OpenAI ChatGPT Codex with LiteLLM can provide centralized enterprise controls for generative AI coding agents. These agents help developers understand repositories, write code, run tests, and complete multi-step engineering tasks. As organizations move from individual experimentation to managed adoption, teams need a consistent way to control model access and attribute consumption. They must also apply budgets and rate limits, and observe the model-access path.",
-          "timestamp": "2026-09-04T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 26 New Games Coming to GeForce NOW",
-          "body": "Stream NBA 2K27 with DLSS 5 across supported devices  plus, jump into The Blood of Dawnwalker, Onimusha: Way of the Sword and more.",
-          "timestamp": "2026-09-03T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA to Acquire Hugging Face",
-          "body": "I’m excited to announce that NVIDIA has agreed to acquire Hugging Face...",
-          "timestamp": "2026-09-03T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 2,
+      "count": 4,
       "items": [
+        {
+          "subject": "nvidia/GLM-5.3-Flash-NVFP4",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"glm5_next\", \"nvidia\", \"ModelOpt\", \"GLM-5\", \"quantized\", \"FP4\", \"fp4\", \"image-text-to-text\", \"conversational\", \"base_model:zai-org/GLM-5.3-Flash\", \"base_model:quantized:zai-org/GLM-5.3-Flash\", \"license:mit\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-09-09T18:19:14",
+          "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Qwen3.8-27B-NVFP4",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen3_5\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"FP4\", \"fp4\", \"FP8\", \"fp8\", \"text-generation\", \"conversational\", \"base_model:Qwen/Qwen3.8-27B\", \"base_model:quantized:Qwen/Qwen3.8-27B\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-09-09T07:22:48",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/Qwen3.8-Flash-Next-NVFP4",
           "body": "[\"Model Optimizer\", \"safetensors\", \"qwen4_exp\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"FP4\", \"fp4\", \"image-text-to-text\", \"conversational\", \"base_model:Qwen/Qwen3.8-Flash-Next\", \"base_model:quantized:Qwen/Qwen3.8-Flash-Next\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
@@ -150,5 +179,5 @@
       ]
     }
   },
-  "summary": "Here are 5 key developments with insight:\n\n* **OpenAI releases ChatGPT Images 2.5**: OpenAI has announced the release of ChatGPT Images 2.5, a new version of its image generation tool that helps users turn their ideas, sketches, and reference photos into more personalized and polished images.\n* **OpenAI expands support for journalism**: OpenAI is expanding its support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations to help them use AI in their work.\n* **AWS and NVIDIA announce new AI tools**: AWS and NVIDIA have announced new AI tools and platforms, including GPT-6 Astra and NVIDIA Cosmos 3, which can help organizations build and deploy AI models.\n* **Trump administration backs OpenAI in copyright case**: The Trump administration has filed a brief in support of OpenAI in a high-profile copyright case against the New York Times, arguing that OpenAI's use of AI technology is protected under fair use.\n* **NVIDIA acquires Hugging Face**: NVIDIA has acquired Hugging Face, a popular platform for AI model development and deployment, in a move that could further expand NVIDIA's offerings in the AI space.\n\nTrend: **Growing Adoption of AI in Content Creation and Journalism**: The recent developments highlight the growing adoption of AI in content creation and journalism, with OpenAI releasing new tools to help users create images and editors, and NVIDIA acquiring Hugging Face to expand its offerings in AI model development and deployment. This trend suggests that AI will continue to play a larger role in the content creation and journalism industries in the future."
+  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **d-Matrix Adopts NVIDIA NVLink Fusion**: AI inference chipmaker d-Matrix announced it will use NVIDIA NVLink Fusion for rack-scale XPU deployment, enhancing AI performance and efficiency.\n* **NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains**: NVIDIA and Palantir Technologies Inc. (PLTR) collaborated to bring sovereign intelligence to critical supply chains, ensuring data security and integrity.\n* **Job Seekers Add AI Skills on LinkedIn**: Job seekers are increasingly adding AI skills on LinkedIn to roles they held pre-ChatGPT, indicating a growing demand for AI expertise.\n* **GPT-6 Astra: The Next Generation in Intelligence for Work**: OpenAI's GPT-6 Astra is the most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.\n* **NVIDIA Expands AI Infrastructure Capacity in Partnership with Australia's Data Center Ecosystem**: NVIDIA collaborated with Australia's data center ecosystem to expand AI infrastructure capacity, enhancing data processing and analysis capabilities.\n* **ChatGPT Images 2.5: Turning Ideas into Polished Images**: OpenAI's ChatGPT Images 2.5 helps turn ideas, sketches, and reference photos into more personalized, polished images that better reflect ideas.\n\n**Trend:**\n\n* **Growing Demand for AI Expertise**: The increasing demand for AI skills on LinkedIn and the growing adoption of AI models like GPT-6 Astra indicate a trend towards greater adoption of AI in various industries, including business, education, and research.\n\nThese developments highlight the growing importance of AI in various fields, from chip design to supply chain management, and the increasing demand for AI expertise across industries."
 }
