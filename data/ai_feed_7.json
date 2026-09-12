@@ -1,17 +1,44 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-11T06:55:19.040Z",
+  "timestamp": "2026-09-12T06:46:54.242Z",
   "categories": {
     "news": {
-      "count": 14,
+      "count": 17,
       "items": [
         {
-          "subject": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-          "body": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion...",
-          "timestamp": "2026-09-10T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+          "subject": "Together AI: To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
+          "body": "We ported Thunder: Kittens to NVIDIA's Vera Rubin NVL72 and rebuilt our NVFP4 GEMM around the new hardware, taking it from 42% of roofline to over 22 PFLOPS — competitive with cu: BLAS and Cu: Te DSL. Here is what changed in the ISA and how we used it.",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72",
+          "extras": {
+            "data_origin": "Together AI News"
+          }
+        },
+        {
+          "subject": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+          "body": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change...",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
           "extras": {
             "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+          "body": "The global robotaxi market — physical AI’s first commercial breakthrough — is...",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Now everyone can put data to work",
+          "body": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://openai.com/index/put-data-to-work",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -24,21 +51,12 @@
           }
         },
         {
-          "subject": "Job seekers are adding AI skills on LinkedIn to roles they held pre-ChatGPT: researchers",
-          "body": "Job seekers are adding AI skills on LinkedIn to roles they held...",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://www.cnbc.com/2026/08/25/job-seekers-are-adding-ai-skills-on-linkedin-to-roles-they-held-pre-chatgpt-researchers.html",
+          "subject": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+          "body": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion...",
+          "timestamp": "2026-09-10T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
           "extras": {
-            "data_origin": "NBER"
-          }
-        },
-        {
-          "subject": "GPT-6 Astra: The next generation in intelligence for work",
-          "body": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-          "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -51,15 +69,6 @@
           }
         },
         {
-          "subject": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem",
-          "body": "NVIDIA today announced that it is collaborating with a growing ecosystem of...",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
           "body": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology...",
           "timestamp": "2026-09-10T04:00:02",
@@ -69,10 +78,46 @@
           }
         },
         {
-          "subject": "Introducing ChatGPT Images 2.5",
-          "body": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+          "subject": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem",
+          "body": "NVIDIA today announced that it is collaborating with a growing ecosystem of...",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "GPT-6 Astra: The next generation in intelligence for work",
+          "body": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Job seekers are adding AI skills on LinkedIn to roles they held pre-ChatGPT: researchers",
+          "body": "Job seekers are adding AI skills on LinkedIn to roles they held...",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://www.cnbc.com/2026/08/25/job-seekers-are-adding-ai-skills-on-linkedin-to-roles-they-held-pre-chatgpt-researchers.html",
+          "extras": {
+            "data_origin": "NBER"
+          }
+        },
+        {
+          "subject": "AWS: Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock",
+          "body": "GPT-6 Astra from OpenAI brings greater depth and judgment to your most...",
           "timestamp": "2026-09-09T04:00:02",
-          "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+          "url": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+          "body": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+          "timestamp": "2026-09-09T04:00:02",
+          "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -87,21 +132,12 @@
           }
         },
         {
-          "subject": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-          "body": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+          "subject": "Introducing ChatGPT Images 2.5",
+          "body": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
           "timestamp": "2026-09-09T04:00:02",
-          "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
           "extras": {
             "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "AWS: Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock",
-          "body": "GPT-6 Astra from OpenAI brings greater depth and judgment to your most...",
-          "timestamp": "2026-09-09T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
-          "extras": {
-            "data_origin": "AWS AI News"
           }
         },
         {
@@ -121,25 +157,16 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "AWS: Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
-          "body": "A Physical AI system, such as a robot or autonomous vehicle (AV)...",
-          "timestamp": "2026-09-05T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 4,
+      "count": 3,
       "items": [
         {
           "subject": "nvidia/GLM-5.3-Flash-NVFP4",
           "body": "[\"Model Optimizer\", \"safetensors\", \"glm5_next\", \"nvidia\", \"ModelOpt\", \"GLM-5\", \"quantized\", \"FP4\", \"fp4\", \"image-text-to-text\", \"conversational\", \"base_model:zai-org/GLM-5.3-Flash\", \"base_model:quantized:zai-org/GLM-5.3-Flash\", \"license:mit\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-09-09T18:19:14",
+          "timestamp": "2026-09-11T06:55:33",
           "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-NVFP4",
           "extras": {
             "data_origin": "huggingface",
@@ -165,19 +192,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Nemotron-3-Diarization-preview",
-          "body": "[\"nemo\", \"speaker-diarization\", \"streaming-sortformer\", \"speaker-tagging\", \"audio\", \"voice-activity-detection\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-09-05T00:06:17",
-          "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **d-Matrix Adopts NVIDIA NVLink Fusion**: AI inference chipmaker d-Matrix announced it will use NVIDIA NVLink Fusion for rack-scale XPU deployment, enhancing AI performance and efficiency.\n* **NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains**: NVIDIA and Palantir Technologies Inc. (PLTR) collaborated to bring sovereign intelligence to critical supply chains, ensuring data security and integrity.\n* **Job Seekers Add AI Skills on LinkedIn**: Job seekers are increasingly adding AI skills on LinkedIn to roles they held pre-ChatGPT, indicating a growing demand for AI expertise.\n* **GPT-6 Astra: The Next Generation in Intelligence for Work**: OpenAI's GPT-6 Astra is the most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.\n* **NVIDIA Expands AI Infrastructure Capacity in Partnership with Australia's Data Center Ecosystem**: NVIDIA collaborated with Australia's data center ecosystem to expand AI infrastructure capacity, enhancing data processing and analysis capabilities.\n* **ChatGPT Images 2.5: Turning Ideas into Polished Images**: OpenAI's ChatGPT Images 2.5 helps turn ideas, sketches, and reference photos into more personalized, polished images that better reflect ideas.\n\n**Trend:**\n\n* **Growing Demand for AI Expertise**: The increasing demand for AI skills on LinkedIn and the growing adoption of AI models like GPT-6 Astra indicate a trend towards greater adoption of AI in various industries, including business, education, and research.\n\nThese developments highlight the growing importance of AI in various fields, from chip design to supply chain management, and the increasing demand for AI expertise across industries."
+  "summary": "Here are four key points, one trend, and two notable quotes:\n\n**Key Points:**\n\n* Together AI has ported their Thunder: Kittens model to NVIDIA's Vera Rubin NVL72 and achieved a massive performance boost, reaching over 22 PFLOPS.\n* Skild AI is using NVIDIA's Physical AI to teach robots new tasks from a single video, enabling on-the-fly adaptation to changing manufacturing environments.\n* OpenAI has announced GPT-6 Astra, a new model for business with advanced reasoning, computer use, and stronger writing and design judgment.\n* NVIDIA and Palantir are partnering to bring sovereign intelligence to critical supply chains using AI.\n\n**Notable Quote 1:** \"The global robotaxi market — physical AI’s first commercial breakthrough — is expected to continue growing in the coming years.\" (from NVIDIA's blog on robotaxi leaders)\n\n**Notable Quote 2:** \"Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.\" (from OpenAI's blog on GPT-6 Astra)\n\n**Trend:** The increasing focus on AI in various industries, including manufacturing, supply chains, and journalism, highlighting the growing importance of AI in real-world applications.\n\nOverall, this batch of news articles highlights the rapid advancements in AI technology, with companies like NVIDIA and OpenAI pushing the boundaries of what is possible with AI."
 }
