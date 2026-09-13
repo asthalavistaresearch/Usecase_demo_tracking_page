@@ -1,6 +1,6 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-12T06:46:54.242Z",
+  "timestamp": "2026-09-13T07:05:09.998Z",
   "categories": {
     "news": {
       "count": 17,
@@ -161,7 +161,7 @@
       ]
     },
     "models": {
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "subject": "nvidia/GLM-5.3-Flash-NVFP4",
@@ -182,19 +182,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Qwen3.8-Flash-Next-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen4_exp\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"FP4\", \"fp4\", \"image-text-to-text\", \"conversational\", \"base_model:Qwen/Qwen3.8-Flash-Next\", \"base_model:quantized:Qwen/Qwen3.8-Flash-Next\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-09-05T23:36:02",
-          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are four key points, one trend, and two notable quotes:\n\n**Key Points:**\n\n* Together AI has ported their Thunder: Kittens model to NVIDIA's Vera Rubin NVL72 and achieved a massive performance boost, reaching over 22 PFLOPS.\n* Skild AI is using NVIDIA's Physical AI to teach robots new tasks from a single video, enabling on-the-fly adaptation to changing manufacturing environments.\n* OpenAI has announced GPT-6 Astra, a new model for business with advanced reasoning, computer use, and stronger writing and design judgment.\n* NVIDIA and Palantir are partnering to bring sovereign intelligence to critical supply chains using AI.\n\n**Notable Quote 1:** \"The global robotaxi market — physical AI’s first commercial breakthrough — is expected to continue growing in the coming years.\" (from NVIDIA's blog on robotaxi leaders)\n\n**Notable Quote 2:** \"Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.\" (from OpenAI's blog on GPT-6 Astra)\n\n**Trend:** The increasing focus on AI in various industries, including manufacturing, supply chains, and journalism, highlighting the growing importance of AI in real-world applications.\n\nOverall, this batch of news articles highlights the rapid advancements in AI technology, with companies like NVIDIA and OpenAI pushing the boundaries of what is possible with AI."
+  "summary": "Here are 4-6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **NVIDIA's Vera Rubin NVL72**: Together AI has successfully ported their ThunderKittens model to NVIDIA's Vera Rubin NVL72, achieving competitive performance with cuBLAS and cuTENSOR. This is a significant milestone for the company and the AI community.\n* **Skild AI's Physical AI**: Skild AI has developed a physical AI system that can teach robots new tasks from a single video. This technology has the potential to revolutionize manufacturing, warehouses, and production lines.\n* **OpenAI's GPT-6 Astra**: OpenAI has introduced GPT-6 Astra, a new AI model that can perform advanced reasoning, computer use, and stronger writing and design judgment. This model is designed for business use cases and has the potential to transform industries.\n* **NVIDIA and Palantir Partnership**: NVIDIA and Palantir have partnered to bring sovereign intelligence to critical supply chains. This partnership has the potential to enhance security and efficiency in global supply chains.\n* **d-Matrix's NVIDIA NVLink Fusion**: d-Matrix has announced that they will use NVIDIA's NVLink Fusion for rack-scale XPU deployment. This is a significant development for the AI infrastructure market.\n* **Job Seekers Adding AI Skills**: There is a growing trend of job seekers adding AI skills to their LinkedIn profiles, even if they held those roles before ChatGPT. This suggests that the demand for AI skills is increasing.\n\n**Trend:**\n\n* **Growing Demand for AI Skills**: The increasing demand for AI skills is a trend that is likely to continue in the coming years. As AI technology advances and becomes more pervasive in industries, the need for professionals with AI skills will only continue to grow. This trend is reflected in the growing number of job seekers adding AI skills to their LinkedIn profiles, even if they held those roles before ChatGPT."
 }
