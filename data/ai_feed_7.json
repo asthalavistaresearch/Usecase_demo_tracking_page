@@ -1,35 +1,26 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-14T07:28:31.917Z",
+  "timestamp": "2026-09-15T07:05:27.779Z",
   "categories": {
     "news": {
-      "count": 16,
+      "count": 17,
       "items": [
         {
-          "subject": "Now everyone can put data to work",
-          "body": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://openai.com/index/put-data-to-work",
+          "subject": "NVIDIA Expands Open Source CUDA-Q Platform for Fault-Tolerant Quantum Computing",
+          "body": "NVIDIA today announced an expansion of the NVIDIA CUDA-Q™ open source platform...",
+          "timestamp": "2026-09-14T13:36:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-open-source-cuda-q-platform-for-fault-tolerant-quantum-computing",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How Fyxer built an AI executive assistant people trust",
+          "body": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+          "timestamp": "2026-09-14T13:36:02",
+          "url": "https://openai.com/index/fyxer",
           "extras": {
             "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-          "body": "The global robotaxi market — physical AI’s first commercial breakthrough — is...",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-          "body": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change...",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-          "extras": {
-            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -42,12 +33,30 @@
           }
         },
         {
-          "subject": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-          "body": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion...",
-          "timestamp": "2026-09-10T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+          "subject": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+          "body": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change...",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
           "extras": {
             "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+          "body": "The global robotaxi market — physical AI’s first commercial breakthrough — is...",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Now everyone can put data to work",
+          "body": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://openai.com/index/put-data-to-work",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -60,37 +69,10 @@
           }
         },
         {
-          "subject": "Job seekers are adding AI skills on LinkedIn to roles they held pre-ChatGPT: researchers",
-          "body": "Job seekers are adding AI skills on LinkedIn to roles they held...",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://www.cnbc.com/2026/08/25/job-seekers-are-adding-ai-skills-on-linkedin-to-roles-they-held-pre-chatgpt-researchers.html",
-          "extras": {
-            "data_origin": "NBER"
-          }
-        },
-        {
-          "subject": "GPT-6 Astra: The next generation in intelligence for work",
-          "body": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Paul Christiano joins OpenAI Foundation Board",
-          "body": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem",
-          "body": "NVIDIA today announced that it is collaborating with a growing ecosystem of...",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
+          "subject": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+          "body": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion...",
+          "timestamp": "2026-09-10T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -105,28 +87,46 @@
           }
         },
         {
+          "subject": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem",
+          "body": "NVIDIA today announced that it is collaborating with a growing ecosystem of...",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Paul Christiano joins OpenAI Foundation Board",
+          "body": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "GPT-6 Astra: The next generation in intelligence for work",
+          "body": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Job seekers are adding AI skills on LinkedIn to roles they held pre-ChatGPT: researchers",
+          "body": "Job seekers are adding AI skills on LinkedIn to roles they held...",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://www.cnbc.com/2026/08/25/job-seekers-are-adding-ai-skills-on-linkedin-to-roles-they-held-pre-chatgpt-researchers.html",
+          "extras": {
+            "data_origin": "NBER"
+          }
+        },
+        {
           "subject": "Introducing ChatGPT Images 2.5",
           "body": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
           "timestamp": "2026-09-09T04:00:02",
           "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Funding grants for new research into AI and teen development",
-          "body": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-          "timestamp": "2026-09-09T04:00:02",
-          "url": "https://openai.com/index/teen-development-research-grants",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-          "body": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-          "timestamp": "2026-09-09T04:00:02",
-          "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -141,10 +141,19 @@
           }
         },
         {
-          "subject": "Supporting independent journalism in Ukraine",
-          "body": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-          "timestamp": "2026-09-07T13:30:02",
-          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+          "subject": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+          "body": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+          "timestamp": "2026-09-09T04:00:02",
+          "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Funding grants for new research into AI and teen development",
+          "body": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+          "timestamp": "2026-09-09T04:00:02",
+          "url": "https://openai.com/index/teen-development-research-grants",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -177,5 +186,5 @@
       ]
     }
   },
-  "summary": "**Summary of AI Developments and Trends:**\n\nHere are the key developments and insights:\n\n**Key Developments:**\n\n* **OpenAI releases ChatGPT Images 2.5**: a tool that helps turn ideas, sketches, and reference photos into more personalized and polished images.\n* **NVIDIA announces new AI infrastructure partnership with Australia's data center ecosystem**: to expand its AI infrastructure capacity.\n* **AWS introduces GPT-6 Astra on Amazon Bedrock**: bringing greater depth and judgment to users' most ambitious work.\n* **OpenAI launches initiatives to support journalism**: including tools, training, and partnerships for students, educators, journalists, and news organizations.\n* **Paul Christiano joins OpenAI Foundation Board**: an expert in AI alignment, safety, and standards.\n\n**Trend: The growing importance of AI in various industries**: many of the recent developments highlight the increasing adoption and integration of AI in various sectors, including:\n\t+ **Robotics**: NVIDIA's physical AI platform is being used by robotaxi leaders to build AI-powered vehicles.\n\t+ **Manufacturing**: Skild AI is using NVIDIA physical AI to teach robots new tasks from a single video.\n\t+ **AI infrastructure**: NVIDIA's partnerships and expansions are increasing AI infrastructure capacity, enabling more AI-powered applications.\n\t+ **Content creation**: ChatGPT Images 2.5 and GPT-6 Astra are enhancing content creation capabilities.\n\t+ **Education and journalism**: OpenAI is expanding its support for journalism and education, indicating a growing recognition of the importance of AI in these fields.\n\nOverall, the current AI landscape is marked by rapid advancements and widespread adoption of AI technologies across various industries."
+  "summary": "Here are the key developments with insight in 4-6 bullet points and 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA Expands Open Source CUDA-Q Platform for Fault-Tolerant Quantum Computing**: NVIDIA has expanded its CUDA-Q platform, an open source platform for fault-tolerant quantum computing, to provide developers with a scalable and secure way to build quantum computing applications.\n* **OpenAI Introduces GPT-6 Astra**: OpenAI has released its most capable model for business, GPT-6 Astra, with advanced reasoning, computer use, and stronger writing and design judgment.\n* **NVIDIA and Palantir Partner to Bring Sovereign Intelligence to Critical Supply Chains**: NVIDIA and Palantir have partnered to bring sovereign intelligence to critical supply chains, using AI and data analytics to provide deeper insights and improve decision-making.\n* **d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment**: d-Matrix has adopted NVIDIA's NVLink Fusion to deploy their AI inference chip in a rack-scale XPU configuration, enabling fast and efficient data processing.\n* **AWS Announces Support for GPT-6 Astra on Amazon Bedrock**: AWS has announced support for GPT-6 Astra on Amazon Bedrock, enabling developers to access the powerful AI model and integrate it into their workflows.\n* **ChatGPT Images 2.5 Launched by OpenAI**: OpenAI has launched ChatGPT Images 2.5, an image generation tool that uses AI to generate personalized and polished images based on user ideas and reference photos.\n\n**Trend:**\n**Expanding AI Infrastructure and Capabilities**: The trend among the key developments is the expansion of AI infrastructure and capabilities, with companies like NVIDIA, OpenAI, and AWS investing in new technologies and models that enable faster, more efficient, and more powerful AI computations. This trend highlights the growing importance of AI in various industries, from quantum computing and critical supply chains to image generation and chatbots."
 }
