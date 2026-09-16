@@ -1,15 +1,24 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-15T07:05:27.779Z",
+  "timestamp": "2026-09-16T07:06:06.366Z",
   "categories": {
     "news": {
-      "count": 17,
+      "count": 15,
       "items": [
         {
-          "subject": "NVIDIA Expands Open Source CUDA-Q Platform for Fault-Tolerant Quantum Computing",
-          "body": "NVIDIA today announced an expansion of the NVIDIA CUDA-Q™ open source platform...",
-          "timestamp": "2026-09-14T13:36:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-open-source-cuda-q-platform-for-fault-tolerant-quantum-computing",
+          "subject": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+          "body": "On 25 August, OpenAI fully unveiled Jalapeño, the company’s debut AI accelerator chip. Jalapeño delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of the most advanced memory available, linking to it at a blazing 15.4...",
+          "timestamp": "2026-09-15T04:00:02",
+          "url": "https://spectrum.ieee.org/llms-for-chip-design",
+          "extras": {
+            "data_origin": "IEEE Spectrum"
+          }
+        },
+        {
+          "subject": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+          "body": "As local models become more capable, AI agents can handle more work...",
+          "timestamp": "2026-09-15T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -24,28 +33,10 @@
           }
         },
         {
-          "subject": "Together AI: To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
-          "body": "We ported Thunder: Kittens to NVIDIA's Vera Rubin NVL72 and rebuilt our NVFP4 GEMM around the new hardware, taking it from 42% of roofline to over 22 PFLOPS — competitive with cu: BLAS and Cu: Te DSL. Here is what changed in the ISA and how we used it.",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72",
-          "extras": {
-            "data_origin": "Together AI News"
-          }
-        },
-        {
-          "subject": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-          "body": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change...",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-          "body": "The global robotaxi market — physical AI’s first commercial breakthrough — is...",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+          "subject": "NVIDIA Expands Open Source CUDA-Q Platform for Fault-Tolerant Quantum Computing",
+          "body": "NVIDIA today announced an expansion of the NVIDIA CUDA-Q™ open source platform...",
+          "timestamp": "2026-09-14T13:36:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-open-source-cuda-q-platform-for-fault-tolerant-quantum-computing",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -60,12 +51,30 @@
           }
         },
         {
-          "subject": "NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains",
-          "body": "Palantir Technologies Inc. (NASDAQ: PLTR) and NVIDIA (NASDAQ: NVDA) today announced a...",
-          "timestamp": "2026-09-10T13:30:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-palantir-bring-sovereign-intelligence-to-critical-supply-chains",
+          "subject": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+          "body": "The global robotaxi market — physical AI’s first commercial breakthrough — is...",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
           "extras": {
             "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+          "body": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change...",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Together AI: To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
+          "body": "We ported Thunder: Kittens to NVIDIA's Vera Rubin NVL72 and rebuilt our NVFP4 GEMM around the new hardware, taking it from 42% of roofline to over 22 PFLOPS — competitive with cu: BLAS and Cu: Te DSL. Here is what changed in the ISA and how we used it.",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72",
+          "extras": {
+            "data_origin": "Together AI News"
           }
         },
         {
@@ -78,39 +87,12 @@
           }
         },
         {
-          "subject": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
-          "body": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology...",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
+          "subject": "NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains",
+          "body": "Palantir Technologies Inc. (NASDAQ: PLTR) and NVIDIA (NASDAQ: NVDA) today announced a...",
+          "timestamp": "2026-09-10T13:30:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-palantir-bring-sovereign-intelligence-to-critical-supply-chains",
           "extras": {
             "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem",
-          "body": "NVIDIA today announced that it is collaborating with a growing ecosystem of...",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Paul Christiano joins OpenAI Foundation Board",
-          "body": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "GPT-6 Astra: The next generation in intelligence for work",
-          "body": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-          "extras": {
-            "data_origin": "OpenAI News"
           }
         },
         {
@@ -123,39 +105,39 @@
           }
         },
         {
-          "subject": "Introducing ChatGPT Images 2.5",
-          "body": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-          "timestamp": "2026-09-09T04:00:02",
-          "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+          "subject": "GPT-6 Astra: The next generation in intelligence for work",
+          "body": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "AWS: Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock",
-          "body": "GPT-6 Astra from OpenAI brings greater depth and judgment to your most...",
-          "timestamp": "2026-09-09T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-          "body": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-          "timestamp": "2026-09-09T04:00:02",
-          "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+          "subject": "Paul Christiano joins OpenAI Foundation Board",
+          "body": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Funding grants for new research into AI and teen development",
-          "body": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-          "timestamp": "2026-09-09T04:00:02",
-          "url": "https://openai.com/index/teen-development-research-grants",
+          "subject": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem",
+          "body": "NVIDIA today announced that it is collaborating with a growing ecosystem of...",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+          "body": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology...",
+          "timestamp": "2026-09-10T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         }
       ]
@@ -186,5 +168,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments with insight in 4-6 bullet points and 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA Expands Open Source CUDA-Q Platform for Fault-Tolerant Quantum Computing**: NVIDIA has expanded its CUDA-Q platform, an open source platform for fault-tolerant quantum computing, to provide developers with a scalable and secure way to build quantum computing applications.\n* **OpenAI Introduces GPT-6 Astra**: OpenAI has released its most capable model for business, GPT-6 Astra, with advanced reasoning, computer use, and stronger writing and design judgment.\n* **NVIDIA and Palantir Partner to Bring Sovereign Intelligence to Critical Supply Chains**: NVIDIA and Palantir have partnered to bring sovereign intelligence to critical supply chains, using AI and data analytics to provide deeper insights and improve decision-making.\n* **d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment**: d-Matrix has adopted NVIDIA's NVLink Fusion to deploy their AI inference chip in a rack-scale XPU configuration, enabling fast and efficient data processing.\n* **AWS Announces Support for GPT-6 Astra on Amazon Bedrock**: AWS has announced support for GPT-6 Astra on Amazon Bedrock, enabling developers to access the powerful AI model and integrate it into their workflows.\n* **ChatGPT Images 2.5 Launched by OpenAI**: OpenAI has launched ChatGPT Images 2.5, an image generation tool that uses AI to generate personalized and polished images based on user ideas and reference photos.\n\n**Trend:**\n**Expanding AI Infrastructure and Capabilities**: The trend among the key developments is the expansion of AI infrastructure and capabilities, with companies like NVIDIA, OpenAI, and AWS investing in new technologies and models that enable faster, more efficient, and more powerful AI computations. This trend highlights the growing importance of AI in various industries, from quantum computing and critical supply chains to image generation and chatbots."
+  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **OpenAI's Jalapeño Chip**: OpenAI unveiled its debut AI accelerator chip, Jalapeño, which delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of advanced memory.\n* **NVIDIA's Open Source CUDA-Q Platform**: NVIDIA expanded its open source CUDA-Q platform for fault-tolerant quantum computing, enabling developers to build and deploy quantum applications.\n* **Fyxer's AI Executive Assistant**: Fyxer, an AI-powered executive assistant, uses OpenAI models, fine-tuning, and real user feedback to organize inboxes and draft emails in each user's voice.\n* **NVIDIA's Physical AI**: NVIDIA's Physical AI technology is being used by companies like Skild AI to teach robots new tasks from a single video, enabling manufacturing floors, warehouses, and production lines to adapt to changing tasks.\n* **GPT-6 Astra**: OpenAI released GPT-6 Astra, its most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.\n* **NVIDIA's Partnership with Australia's Data Center Ecosystem**: NVIDIA is collaborating with a growing ecosystem of data centers in Australia to expand its AI infrastructure capacity and support the growth of AI adoption in the region.\n\n**Trend:**\n\n* **Growing Adoption of AI in Business and Industry**: The trend is clear: AI is becoming increasingly integrated into business and industry, with companies like OpenAI, NVIDIA, and Fyxer developing and deploying AI solutions to drive efficiency, innovation, and growth. As AI adoption continues to grow, we can expect to see even more innovative applications of AI in various sectors."
 }
