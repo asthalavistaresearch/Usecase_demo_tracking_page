@@ -1,10 +1,73 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-16T07:06:06.366Z",
+  "timestamp": "2026-09-17T07:03:38.143Z",
   "categories": {
     "news": {
-      "count": 15,
+      "count": 17,
       "items": [
+        {
+          "subject": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+          "body": "Air pollution is a serious public health risk, contributing to an estimated...",
+          "timestamp": "2026-09-16T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+          "body": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly...",
+          "timestamp": "2026-09-16T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Reimagining advertising with AI",
+          "body": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+          "timestamp": "2026-09-16T13:30:02",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+          "body": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declare…",
+          "timestamp": "2026-09-16T04:00:02",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+          "extras": {
+            "data_origin": "The Verge"
+          }
+        },
+        {
+          "subject": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+          "body": "On a sweltering August evening in Silicon Valley, as the sun dropped...",
+          "timestamp": "2026-09-15T22:44:02",
+          "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+          "body": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday...",
+          "timestamp": "2026-09-15T22:44:02",
+          "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+          "body": "Know everything. Do anything. That was the message NVIDIA founder and CEO...",
+          "timestamp": "2026-09-15T22:44:02",
+          "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
           "body": "On 25 August, OpenAI fully unveiled Jalapeño, the company’s debut AI accelerator chip. Jalapeño delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of the most advanced memory available, linking to it at a blazing 15.4...",
@@ -24,15 +87,6 @@
           }
         },
         {
-          "subject": "How Fyxer built an AI executive assistant people trust",
-          "body": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-          "timestamp": "2026-09-14T13:36:02",
-          "url": "https://openai.com/index/fyxer",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
           "subject": "NVIDIA Expands Open Source CUDA-Q Platform for Fault-Tolerant Quantum Computing",
           "body": "NVIDIA today announced an expansion of the NVIDIA CUDA-Q™ open source platform...",
           "timestamp": "2026-09-14T13:36:02",
@@ -42,21 +96,21 @@
           }
         },
         {
-          "subject": "Now everyone can put data to work",
-          "body": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://openai.com/index/put-data-to-work",
+          "subject": "How Fyxer built an AI executive assistant people trust",
+          "body": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+          "timestamp": "2026-09-14T13:36:02",
+          "url": "https://openai.com/index/fyxer",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-          "body": "The global robotaxi market — physical AI’s first commercial breakthrough — is...",
+          "subject": "Together AI: To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
+          "body": "We ported Thunder: Kittens to NVIDIA's Vera Rubin NVL72 and rebuilt our NVFP4 GEMM around the new hardware, taking it from 42% of roofline to over 22 PFLOPS — competitive with cu: BLAS and Cu: Te DSL. Here is what changed in the ISA and how we used it.",
           "timestamp": "2026-09-11T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+          "url": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "Together AI News"
           }
         },
         {
@@ -69,12 +123,21 @@
           }
         },
         {
-          "subject": "Together AI: To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
-          "body": "We ported Thunder: Kittens to NVIDIA's Vera Rubin NVL72 and rebuilt our NVFP4 GEMM around the new hardware, taking it from 42% of roofline to over 22 PFLOPS — competitive with cu: BLAS and Cu: Te DSL. Here is what changed in the ISA and how we used it.",
+          "subject": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+          "body": "The global robotaxi market — physical AI’s first commercial breakthrough — is...",
           "timestamp": "2026-09-11T04:00:02",
-          "url": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72",
+          "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
           "extras": {
-            "data_origin": "Together AI News"
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Now everyone can put data to work",
+          "body": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+          "timestamp": "2026-09-11T04:00:02",
+          "url": "https://openai.com/index/put-data-to-work",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -94,56 +157,11 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "Job seekers are adding AI skills on LinkedIn to roles they held pre-ChatGPT: researchers",
-          "body": "Job seekers are adding AI skills on LinkedIn to roles they held...",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://www.cnbc.com/2026/08/25/job-seekers-are-adding-ai-skills-on-linkedin-to-roles-they-held-pre-chatgpt-researchers.html",
-          "extras": {
-            "data_origin": "NBER"
-          }
-        },
-        {
-          "subject": "GPT-6 Astra: The next generation in intelligence for work",
-          "body": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Paul Christiano joins OpenAI Foundation Board",
-          "body": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia’s Data Center Ecosystem",
-          "body": "NVIDIA today announced that it is collaborating with a growing ecosystem of...",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
-          "body": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology...",
-          "timestamp": "2026-09-10T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
-      "count": 2,
+      "count": 1,
       "items": [
         {
           "subject": "nvidia/GLM-5.3-Flash-NVFP4",
@@ -154,19 +172,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Qwen3.8-27B-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen3_5\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"FP4\", \"fp4\", \"FP8\", \"fp8\", \"text-generation\", \"conversational\", \"base_model:Qwen/Qwen3.8-27B\", \"base_model:quantized:Qwen/Qwen3.8-27B\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-09-09T07:22:48",
-          "url": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **OpenAI's Jalapeño Chip**: OpenAI unveiled its debut AI accelerator chip, Jalapeño, which delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of advanced memory.\n* **NVIDIA's Open Source CUDA-Q Platform**: NVIDIA expanded its open source CUDA-Q platform for fault-tolerant quantum computing, enabling developers to build and deploy quantum applications.\n* **Fyxer's AI Executive Assistant**: Fyxer, an AI-powered executive assistant, uses OpenAI models, fine-tuning, and real user feedback to organize inboxes and draft emails in each user's voice.\n* **NVIDIA's Physical AI**: NVIDIA's Physical AI technology is being used by companies like Skild AI to teach robots new tasks from a single video, enabling manufacturing floors, warehouses, and production lines to adapt to changing tasks.\n* **GPT-6 Astra**: OpenAI released GPT-6 Astra, its most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.\n* **NVIDIA's Partnership with Australia's Data Center Ecosystem**: NVIDIA is collaborating with a growing ecosystem of data centers in Australia to expand its AI infrastructure capacity and support the growth of AI adoption in the region.\n\n**Trend:**\n\n* **Growing Adoption of AI in Business and Industry**: The trend is clear: AI is becoming increasingly integrated into business and industry, with companies like OpenAI, NVIDIA, and Fyxer developing and deploying AI solutions to drive efficiency, innovation, and growth. As AI adoption continues to grow, we can expect to see even more innovative applications of AI in various sectors."
+  "summary": "Here are the key developments and insights from the recent AI news:\n\n**Key Developments:**\n\n* **University of Manchester uses NVIDIA Earth-2 to forecast air pollution**: The University of Manchester is leveraging NVIDIA's Earth-2 platform to forecast air pollution across the UK, a serious public health risk that affects millions of people.\n* **OpenAI unveils Jalapeño chip**: OpenAI has introduced its debut AI accelerator chip, Jalapeño, which delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of advanced memory.\n* **NVIDIA expands open-source CUDA-Q platform**: NVIDIA has expanded its CUDA-Q open-source platform for fault-tolerant quantum computing, enabling developers to create more efficient and scalable quantum computing systems.\n* **AI exec assistant Fyxer built on OpenAI models**: Fyxer, an AI executive assistant, uses OpenAI models, fine-tuning, and user feedback to organize inboxes and draft emails in each user's voice.\n* **d-Matrix adopts NVIDIA NVLink Fusion**: AI inference chipmaker d-Matrix has adopted NVIDIA's NVLink Fusion for rack-scale XPU deployment, enabling efficient and scalable AI computing.\n* **NVIDIA and Palantir bring sovereign intelligence to critical supply chains**: NVIDIA and Palantir are working together to bring sovereign intelligence to critical supply chains, enhancing security and efficiency.\n\n**Trend:** **Increasing adoption of NVIDIA's technologies in various industries**: NVIDIA's technologies, including its Earth-2 platform, CUDA-Q platform, and NVLink Fusion, are being increasingly adopted by various industries, including education, finance, and supply chain management, highlighting the growing importance of AI and deep learning in these sectors.\n\nLet me know if you have any further questions or need additional context!"
 }
