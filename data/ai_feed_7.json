@@ -1,26 +1,44 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-17T07:03:38.143Z",
+  "timestamp": "2026-09-18T06:57:54.769Z",
   "categories": {
     "news": {
-      "count": 17,
+      "count": 15,
       "items": [
         {
-          "subject": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
-          "body": "Air pollution is a serious public health risk, contributing to an estimated...",
-          "timestamp": "2026-09-16T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+          "subject": "Helping older adults use AI in everyday life",
+          "body": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U. S. cities to build practical AI skills safely.",
+          "timestamp": "2026-09-17T07:49:02",
+          "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-          "body": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly...",
-          "timestamp": "2026-09-16T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+          "subject": "Our framework for reporting model misalignment",
+          "body": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+          "timestamp": "2026-09-17T07:49:02",
+          "url": "https://openai.com/index/model-misalignment-reporting-framework",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How workers are unlocking new ways of working",
+          "body": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+          "timestamp": "2026-09-17T07:49:02",
+          "url": "https://openai.com/index/unlocking-new-ways-of-working",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Disrupting a Cambodia-based criminal scam operation",
+          "body": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+          "timestamp": "2026-09-17T07:49:02",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -33,6 +51,24 @@
           }
         },
         {
+          "subject": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+          "body": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly...",
+          "timestamp": "2026-09-16T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+          "body": "Air pollution is a serious public health risk, contributing to an estimated...",
+          "timestamp": "2026-09-16T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
           "subject": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
           "body": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declare…",
           "timestamp": "2026-09-16T04:00:02",
@@ -42,10 +78,10 @@
           }
         },
         {
-          "subject": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
-          "body": "On a sweltering August evening in Silicon Valley, as the sun dropped...",
+          "subject": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+          "body": "Know everything. Do anything. That was the message NVIDIA founder and CEO...",
           "timestamp": "2026-09-15T22:44:02",
-          "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+          "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -60,10 +96,10 @@
           }
         },
         {
-          "subject": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
-          "body": "Know everything. Do anything. That was the message NVIDIA founder and CEO...",
+          "subject": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+          "body": "On a sweltering August evening in Silicon Valley, as the sun dropped...",
           "timestamp": "2026-09-15T22:44:02",
-          "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+          "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -87,15 +123,6 @@
           }
         },
         {
-          "subject": "NVIDIA Expands Open Source CUDA-Q Platform for Fault-Tolerant Quantum Computing",
-          "body": "NVIDIA today announced an expansion of the NVIDIA CUDA-Q™ open source platform...",
-          "timestamp": "2026-09-14T13:36:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-open-source-cuda-q-platform-for-fault-tolerant-quantum-computing",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "How Fyxer built an AI executive assistant people trust",
           "body": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
           "timestamp": "2026-09-14T13:36:02",
@@ -105,55 +132,10 @@
           }
         },
         {
-          "subject": "Together AI: To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
-          "body": "We ported Thunder: Kittens to NVIDIA's Vera Rubin NVL72 and rebuilt our NVFP4 GEMM around the new hardware, taking it from 42% of roofline to over 22 PFLOPS — competitive with cu: BLAS and Cu: Te DSL. Here is what changed in the ISA and how we used it.",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72",
-          "extras": {
-            "data_origin": "Together AI News"
-          }
-        },
-        {
-          "subject": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-          "body": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change...",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
-          "body": "The global robotaxi market — physical AI’s first commercial breakthrough — is...",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Now everyone can put data to work",
-          "body": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-          "timestamp": "2026-09-11T04:00:02",
-          "url": "https://openai.com/index/put-data-to-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
-          "body": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion...",
-          "timestamp": "2026-09-10T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains",
-          "body": "Palantir Technologies Inc. (NASDAQ: PLTR) and NVIDIA (NASDAQ: NVDA) today announced a...",
-          "timestamp": "2026-09-10T13:30:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-palantir-bring-sovereign-intelligence-to-critical-supply-chains",
+          "subject": "NVIDIA Expands Open Source CUDA-Q Platform for Fault-Tolerant Quantum Computing",
+          "body": "NVIDIA today announced an expansion of the NVIDIA CUDA-Q™ open source platform...",
+          "timestamp": "2026-09-14T13:36:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-open-source-cuda-q-platform-for-fault-tolerant-quantum-computing",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -164,10 +146,10 @@
       "count": 1,
       "items": [
         {
-          "subject": "nvidia/GLM-5.3-Flash-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"glm5_next\", \"nvidia\", \"ModelOpt\", \"GLM-5\", \"quantized\", \"FP4\", \"fp4\", \"image-text-to-text\", \"conversational\", \"base_model:zai-org/GLM-5.3-Flash\", \"base_model:quantized:zai-org/GLM-5.3-Flash\", \"license:mit\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-09-11T06:55:33",
-          "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-NVFP4",
+          "subject": "nvidia/Qwen3.8-27B-NVFP4",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen3_5\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"FP4\", \"fp4\", \"FP8\", \"fp8\", \"text-generation\", \"conversational\", \"base_model:Qwen/Qwen3.8-27B\", \"base_model:quantized:Qwen/Qwen3.8-27B\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-09-17T17:16:07",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -176,5 +158,5 @@
       ]
     }
   },
-  "summary": "Here are the key developments and insights from the recent AI news:\n\n**Key Developments:**\n\n* **University of Manchester uses NVIDIA Earth-2 to forecast air pollution**: The University of Manchester is leveraging NVIDIA's Earth-2 platform to forecast air pollution across the UK, a serious public health risk that affects millions of people.\n* **OpenAI unveils Jalapeño chip**: OpenAI has introduced its debut AI accelerator chip, Jalapeño, which delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of advanced memory.\n* **NVIDIA expands open-source CUDA-Q platform**: NVIDIA has expanded its CUDA-Q open-source platform for fault-tolerant quantum computing, enabling developers to create more efficient and scalable quantum computing systems.\n* **AI exec assistant Fyxer built on OpenAI models**: Fyxer, an AI executive assistant, uses OpenAI models, fine-tuning, and user feedback to organize inboxes and draft emails in each user's voice.\n* **d-Matrix adopts NVIDIA NVLink Fusion**: AI inference chipmaker d-Matrix has adopted NVIDIA's NVLink Fusion for rack-scale XPU deployment, enabling efficient and scalable AI computing.\n* **NVIDIA and Palantir bring sovereign intelligence to critical supply chains**: NVIDIA and Palantir are working together to bring sovereign intelligence to critical supply chains, enhancing security and efficiency.\n\n**Trend:** **Increasing adoption of NVIDIA's technologies in various industries**: NVIDIA's technologies, including its Earth-2 platform, CUDA-Q platform, and NVLink Fusion, are being increasingly adopted by various industries, including education, finance, and supply chain management, highlighting the growing importance of AI and deep learning in these sectors.\n\nLet me know if you have any further questions or need additional context!"
+  "summary": "Here are the key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **OpenAI and AARP collaborate to bring AI skills to older adults**: OpenAI and AARP are partnering to provide free, hands-on ChatGPT workshops to 1,000 older adults across 10 US cities, aiming to build practical AI skills safely.\n* **OpenAI shares framework for reporting model misalignment**: OpenAI has released a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.\n* **NVIDIA expands open source CUDA-Q platform for fault-tolerant quantum computing**: NVIDIA has expanded its open source CUDA-Q platform to enable fault-tolerant quantum computing, a significant step towards advancing quantum computing capabilities.\n* **OpenAI's Jalapeño chip delivers up to 13.4 petaflops of 4-bit compute**: OpenAI's debut AI accelerator chip, Jalapeño, has been unveiled, offering up to 13.4 petaflops of 4-bit compute and accessing 232 gigabytes of advanced memory.\n* **NVIDIA's Perplexity portable computer is now available on Windows**: NVIDIA's Perplexity portable computer, powered by NVIDIA RTX, is now available on Windows, enabling local AI capabilities on PCs.\n\n**Trend:**\n\n* **Advancements in AI infrastructure and tools**: The past week has seen significant developments in AI infrastructure and tools, with OpenAI and NVIDIA pushing the boundaries of AI capabilities, from AI accelerator chips to quantum computing platforms. This trend highlights the rapid progress being made in AI development, with major players investing heavily in research and innovation."
 }
