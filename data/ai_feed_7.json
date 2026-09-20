@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-19T06:56:26.723Z",
+  "timestamp": "2026-09-20T07:21:59.722Z",
   "categories": {
     "news": {
-      "count": 17,
+      "count": 18,
       "items": [
+        {
+          "subject": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+          "body": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+          "timestamp": "2026-09-19T04:00:02",
+          "url": "https://openai.com/index/hex-gpt-6-astra",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Introducing Astra for Law",
           "body": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
@@ -60,12 +69,12 @@
           }
         },
         {
-          "subject": "Reimagining advertising with AI",
-          "body": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+          "subject": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+          "body": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly...",
           "timestamp": "2026-09-16T13:30:02",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -78,12 +87,12 @@
           }
         },
         {
-          "subject": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-          "body": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly...",
+          "subject": "Reimagining advertising with AI",
+          "body": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
           "timestamp": "2026-09-16T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -176,5 +185,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **Astra for Law:** OpenAI has introduced Astra, a platform that brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.\n* **Cooley and ChatGPT:** Cooley has built GO Public with ChatGPT Work, which helps lawyers surface issues earlier and focus judgment where it matters most, accelerating the IPO process.\n* **Disrupting Scams:** OpenAI has disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.\n* **New Ways of Working:** OpenAI Economic Research has shown how workers use AI beyond traditional roles, and which new activities become recurring parts of their work.\n\n**Trend:**\n**Increased Adoption of AI in Various Industries:** There is a growing trend of AI adoption across various industries, including law, advertising, and energy efficiency. Companies like OpenAI, NVIDIA, and Google are investing heavily in AI research and development, leading to innovative solutions and applications that are changing the way businesses operate.\n\n**Insights:**\n\n* AI is becoming increasingly important in various industries, from law to advertising and energy efficiency.\n* Companies are investing heavily in AI research and development to stay ahead of the competition.\n* AI is being used to solve complex problems and improve efficiency in various areas, such as law, advertising, and energy efficiency.\n* The adoption of AI is happening rapidly, with companies like OpenAI, NVIDIA, and Google at the forefront of the trend."
+  "summary": "Here are 4-6 bullet points summarizing the key developments in AI news, along with one trend:\n\n**Bullet Points:**\n\n* **Hex's data agents using GPT-6 Astra**: Hex has integrated GPT-6 Astra into its toolset, allowing data agents to create interactive visualizations that employees can use to share complex analysis.\n* **Cooley IPO work accelerated with ChatGPT**: Cooley has built a tool called GO Public using ChatGPT Work, which helps lawyers surface issues earlier and focus on high-value tasks related to IPOs.\n* **OpenAI tackles a Cambodian scam operation**: OpenAI used ChatGPT to help disrupt a Cambodia-based scam operation that was involved in various types of illegal activities.\n* **New OpenAI Economic Research on new ways of working**: A study by OpenAI found that AI is being used in new and innovative ways beyond traditional roles, with some workers incorporating AI into their daily tasks.\n* **OpenAI and AARP collaboration to help older adults use AI**: OpenAI and AARP are partnering to provide free AI workshops for 1,000 older adults in 10 US cities, teaching them how to use AI safely and practically.\n\n**Trend:** **Increased focus on AI in business and public sector applications**: The recent developments highlight the growing use of AI in various industries, including law (Cooley's work with ChatGPT), finance (Hex's use of GPT-6 Astra), and the public sector (OpenAI's collaboration with AARP). This trend suggests that AI is becoming increasingly integrated into various aspects of business and public life."
 }
