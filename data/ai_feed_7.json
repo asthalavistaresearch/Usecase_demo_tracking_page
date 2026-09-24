@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-23T07:12:08.946Z",
+  "timestamp": "2026-09-24T07:04:17.864Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 12,
       "items": [
+        {
+          "subject": "Product Hunt Launch: RankControl",
+          "body": "Get Cited by ChatGPT & Ranked on Google",
+          "timestamp": "2026-09-23T08:37:02",
+          "url": "https://www.producthunt.com/products/rankcontrol",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "Parallel cut research time and cost in half with GPT‑6 Astra",
+          "body": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+          "timestamp": "2026-09-23T04:00:02",
+          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+          "body": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles...",
+          "timestamp": "2026-09-23T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+          "body": "To build and deploy sophisticated robotics applications that can perceive, reason and...",
+          "timestamp": "2026-09-23T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "5 Companies Using NVIDIA AI for Clean Energy",
           "body": "Clean energy isn’t hard to come by, but the pace of large-scale...",
@@ -76,33 +112,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Reimagining advertising with AI",
-          "body": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-          "timestamp": "2026-09-16T13:30:02",
-          "url": "https://openai.com/index/reimagining-advertising-with-ai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
-          "body": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly...",
-          "timestamp": "2026-09-16T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
-          "body": "Air pollution is a serious public health risk, contributing to an estimated...",
-          "timestamp": "2026-09-16T13:30:02",
-          "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -122,5 +131,5 @@
       ]
     }
   },
-  "summary": "Here are 6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **NVIDIA AI for Clean Energy**: 5 companies are using NVIDIA AI to accelerate the transition to clean energy, highlighting the growing importance of AI in the energy sector.\n* **GPT-6 Astra and Hex**: OpenAI's GPT-6 Astra is being used by Hex to turn complex analysis into visual reports, making data more accessible and actionable for employees.\n* **Cooley and ChatGPT**: Law firm Cooley is leveraging ChatGPT to accelerate IPO work, bringing intelligence to the process and helping lawyers focus on high-priority issues.\n* **OpenAI for Law**: OpenAI has introduced Astra for Law, a platform that brings frontier intelligence to law firms, enabling them to work more efficiently and securely.\n* **AI for Older Adults**: OpenAI and AARP are partnering to bring free, hands-on ChatGPT workshops to older adults, helping them develop practical AI skills and stay safe online.\n* **Model Misalignment Reporting Framework**: OpenAI has shared a framework for tracking, investigating, and disclosing model misalignment, highlighting the need for transparency in AI development.\n\n**Trend:**\n\n* **Increased Adoption of AI in Various Industries**: The developments mentioned above highlight a trend of increasing adoption of AI in various industries, including energy, law, and education. As AI becomes more pervasive, it's essential to ensure that it's being developed and deployed responsibly, with a focus on transparency, safety, and accessibility."
+  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments:**\n\n1. **OpenAI's Astra for Law**: OpenAI has launched Astra for Law, a platform that brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.\n2. **NVIDIA's AI Advancements**: NVIDIA has showcased its AI advancements across Southeast Asia at AI Day Singapore, highlighting its agentic and open-source robotics development capabilities.\n3. **ChatGPT's Impact on Industries**: ChatGPT is being used by companies like Cooley to accelerate IPO work, and by Hex to turn complex analysis into visual reports.\n4. **Disrupting Malicious Uses of AI**: OpenAI has disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.\n\n**Insight:** These developments highlight the growing importance of AI in various industries, including law, finance, and robotics. They also demonstrate the need for companies to use AI responsibly and to develop strategies to mitigate the risks associated with its use.\n\n**Bullet Points:**\n\n* **Product Hunt Launch: RankControl**: Product Hunt has launched a new product, RankControl, which allows users to get cited by ChatGPT and ranked on Google.\n* **GPT-6 Astra's Impact on Research**: GPT-6 Astra has allowed Parallel's agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.\n* **NVIDIA's AI Advancements**: NVIDIA has showcased its AI advancements across Southeast Asia at AI Day Singapore, highlighting its agentic and open-source robotics development capabilities.\n* **Hex's Use of GPT-6 Astra**: Hex has used GPT-6 Astra to turn complex analysis into visual reports, making it easier for employees to share insights.\n\n**Trend:** The increasing use of AI in various industries, including law, finance, and robotics, and the growing importance of responsible AI development and use."
 }
