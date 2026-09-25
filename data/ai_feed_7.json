@@ -1,10 +1,91 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-09-24T07:04:17.864Z",
+  "timestamp": "2026-09-25T07:01:22.100Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 15,
       "items": [
+        {
+          "subject": "Two years of OpenAI Academy",
+          "body": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+          "timestamp": "2026-09-24T04:00:02",
+          "url": "https://openai.com/index/two-years-of-openai-academy",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "body": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+          "timestamp": "2026-09-24T04:00:02",
+          "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Sam Altman’s remarks at the United Nations Security Council",
+          "body": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+          "timestamp": "2026-09-24T04:00:02",
+          "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How invideo improves color grading 3x with GPT‑6 Astra",
+          "body": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+          "timestamp": "2026-09-24T04:00:02",
+          "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "body": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+          "timestamp": "2026-09-24T04:00:02",
+          "url": "https://openai.com/index/ringg",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+          "body": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+          "timestamp": "2026-09-24T04:00:02",
+          "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+          "body": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+          "timestamp": "2026-09-24T04:00:02",
+          "url": "https://openai.com/index/airbnb-gpt-6-astra",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+          "body": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+          "timestamp": "2026-09-24T04:00:02",
+          "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+          "body": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA...",
+          "timestamp": "2026-09-24T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Product Hunt Launch: RankControl",
           "body": "Get Cited by ChatGPT & Ranked on Google",
@@ -58,78 +139,13 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "How Cooley is accelerating IPO work with ChatGPT",
-          "body": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-          "timestamp": "2026-09-18T04:00:02",
-          "url": "https://openai.com/index/cooley-gopublic",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing Astra for Law",
-          "body": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-          "timestamp": "2026-09-18T04:00:02",
-          "url": "https://openai.com/index/astra-for-law",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Helping older adults use AI in everyday life",
-          "body": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U. S. cities to build practical AI skills safely.",
-          "timestamp": "2026-09-17T07:49:02",
-          "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Our framework for reporting model misalignment",
-          "body": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-          "timestamp": "2026-09-17T07:49:02",
-          "url": "https://openai.com/index/model-misalignment-reporting-framework",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How workers are unlocking new ways of working",
-          "body": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
-          "timestamp": "2026-09-17T07:49:02",
-          "url": "https://openai.com/index/unlocking-new-ways-of-working",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Disrupting a Cambodia-based criminal scam operation",
-          "body": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-          "timestamp": "2026-09-17T07:49:02",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 1,
-      "items": [
-        {
-          "subject": "nvidia/Qwen3.8-27B-NVFP4",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen3_5\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"FP4\", \"fp4\", \"FP8\", \"fp8\", \"text-generation\", \"conversational\", \"base_model:Qwen/Qwen3.8-27B\", \"base_model:quantized:Qwen/Qwen3.8-27B\", \"license:apache-2.0\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-09-17T17:16:07",
-          "url": "https://huggingface.co/nvidia/Qwen3.8-27B-NVFP4",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   },
-  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments:**\n\n1. **OpenAI's Astra for Law**: OpenAI has launched Astra for Law, a platform that brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.\n2. **NVIDIA's AI Advancements**: NVIDIA has showcased its AI advancements across Southeast Asia at AI Day Singapore, highlighting its agentic and open-source robotics development capabilities.\n3. **ChatGPT's Impact on Industries**: ChatGPT is being used by companies like Cooley to accelerate IPO work, and by Hex to turn complex analysis into visual reports.\n4. **Disrupting Malicious Uses of AI**: OpenAI has disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.\n\n**Insight:** These developments highlight the growing importance of AI in various industries, including law, finance, and robotics. They also demonstrate the need for companies to use AI responsibly and to develop strategies to mitigate the risks associated with its use.\n\n**Bullet Points:**\n\n* **Product Hunt Launch: RankControl**: Product Hunt has launched a new product, RankControl, which allows users to get cited by ChatGPT and ranked on Google.\n* **GPT-6 Astra's Impact on Research**: GPT-6 Astra has allowed Parallel's agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.\n* **NVIDIA's AI Advancements**: NVIDIA has showcased its AI advancements across Southeast Asia at AI Day Singapore, highlighting its agentic and open-source robotics development capabilities.\n* **Hex's Use of GPT-6 Astra**: Hex has used GPT-6 Astra to turn complex analysis into visual reports, making it easier for employees to share insights.\n\n**Trend:** The increasing use of AI in various industries, including law, finance, and robotics, and the growing importance of responsible AI development and use."
+  "summary": "Here are the key developments with insight:\n\n* **OpenAI Academy reaches two-year milestone**: OpenAI's Academy program has been providing AI skills to communities for two years, marking a significant milestone in democratizing AI education.\n* **Expanded access to OpenAI models**: Airbnb, Grab, and other companies are gaining access to OpenAI's GPT-6 Astra and frontier models, enabling them to solve complex problems, design systems, and ship products faster.\n* **Cyber defense support for Ukraine**: OpenAI is extending access to its Daybreak program to the Government of Ukraine, supporting the country's civilian defense efforts.\n* **AI skills for Southeast Asia**: OpenAI and Grab are launching a program to provide practical AI skills to 30,000 partners across Southeast Asia, promoting digital transformation in the region.\n* **NVIDIA's AI advancements**: NVIDIA is showcasing AI advancements across Southeast Asia, including agentic and open-source robotics development, at its AI Day Singapore event.\n* **ChatGPT Ads expansion**: ChatGPT Ads is expanding to Southeast Asia and Taiwan, enabling businesses to reach people across more than 60 countries.\n\nTrend: **Growing access to AI capabilities**: Companies like Airbnb, Grab, and others are gaining access to OpenAI's advanced models, enabling them to solve complex problems and drive innovation. This trend suggests a widening availability of AI capabilities, which could lead to increased productivity, efficiency, and creativity across industries."
 }
