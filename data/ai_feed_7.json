@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-02T07:51:22.324Z",
+  "timestamp": "2026-10-03T07:28:28.835Z",
   "categories": {
     "news": {
-      "count": 13,
+      "count": 15,
       "items": [
+        {
+          "subject": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+          "body": "Local AI is becoming more useful by the token. As AI agents...",
+          "timestamp": "2026-10-02T13:30:02",
+          "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+          "body": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+          "timestamp": "2026-10-02T05:12:02",
+          "url": "https://openai.com/index/the-den-family-social",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+          "body": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in...",
+          "timestamp": "2026-10-02T05:12:02",
+          "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AWS: Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+          "body": "In my previous post: Building persistent memory for multi-agent AI systems with...",
+          "timestamp": "2026-10-02T05:12:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "Productive, Durable, Fungible: How NVIDIA AI Factories Maximize Return on Investment",
           "body": "AI factories are built by the megawatt, even by the gigawatt. Each...",
@@ -103,23 +139,43 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
+        }
+      ]
+    },
+    "papers": {
+      "count": 3,
+      "items": [
         {
-          "subject": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-          "body": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-          "timestamp": "2026-09-26T04:00:02",
-          "url": "https://openai.com/index/proaction",
+          "subject": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
+          "body": "We introduce Faynt, a family of 10M- and 75M-parameter Transformer policies for Super Smash Bros. Melee, each controlling all 26 characters with a single checkpoint. After reinforcement learning (RL), the 10M wins 240 of 244 same-character games (98.4%) against fourteen specialist and multi-character releases on their supported rosters, with a winning record against every release. These opponents retain 21- or 24-frame action delays; Faynt uses no added delay, and we have not isolated the effect of this difference. In a separate evaluation against a privately supplied zero-delay Slippi-AI model, the 10M wins all 68 games across two conditioning settings. We study architecture, optimization, scaling, and hyperparameter transfer to guide pretraining on approximately 840,000 human replays. Post-training combines rank- and outcome-based curricula, 75M-to-10M distillation, and RL restricted to Fox mirror matches. On the initial 152-game benchmark, the supervised 10M wins 69.7% of games, compared with 45.4% for the pretrained 75M, despite higher overall held-out controller-prediction loss. The weighted validation loss used for supervised checkpoint selection agrees with the win-rate ordering of all four pretrained and supervised policies. After supervised post-training, both models take less damage per minute, build larger early leads, and win more often after losing the first life. Optimized inference on recorded game states averages 5.2 ms per decision for the 10M and 8.7 ms for the 75M on an NVIDIA T4, excluding emulator execution and communication. We open-source the weights, both benchmark suites, and a platform for automated model tournaments.",
+          "timestamp": "2026-10-01T17:48:38",
+          "url": "https://arxiv.org/abs/2610.02144v1",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "arXiv",
+            "authors": "Ali Janati, Nikita Kuzmin, Rohit Swamy, Charles Niu",
+            "updated": "2026-10-01T17:48:38"
           }
         },
         {
-          "subject": "OpenAI agents hacked an Australian government website in search for data",
-          "body": "OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website…",
-          "timestamp": "2026-09-25T13:30:02",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+          "subject": "Beyond Leaderboard Scores: A Deployment-Focused Protocol for Interpretable Tracking Evaluation in Pedestrian-Centric Environments",
+          "body": "Mobile robots operating among pedestrians need trajectories that become available quickly, remain spatially credible through missed observations, preserve identity, and fit within an embedded computing budget. Aggregate tracking scores provide limited insight into when and how trajectories fail, while varying detector inputs can confound tracker and detector quality. We present a deployment-focused, tracker-only evaluation protocol that uses shared detections to isolate tracker behavior and directly evaluates initialization, detector-gap continuation, identity recovery, close-neighbor association, and load-dependent tracker-step runtime, while Higher Order Tracking Accuracy (HOTA) is retained as a complementary aggregate measure. We apply the protocol to the JackRabbot Dataset and Benchmark (JRDB) using six open-source trackers and our lightweight Pedestrian Reference Tracker (PedRefTrack), together with a GT-assisted variant that estimates the remaining tracker-side gap under idealized association and motion. Under fixed detections, the non-GT trackers span only 24.26%-29.67% HOTA yet exhibit markedly different capability profiles. After 1.0 s without detector support, no tracker without GT assistance maintains spatially correct, same-identity output in more than half of eligible cases, making missing-observation continuation the dominant limitation among the tested properties. Close-neighbor failures are smaller and increase mainly at the shortest separations. Tracker-step runtime on an NVIDIA Jetson Orin is heavy-tailed and load-sensitive, causing several trackers to fall below the 10 Hz real-time target in crowded frames. The protocol provides a reproducible way to characterize tracker behavior and deployment suitability in pedestrian-centric environments. Code and evaluation scripts are released at https://github.com/SCAI-Lab/tracker_eval.",
+          "timestamp": "2026-10-01T13:39:25",
+          "url": "https://arxiv.org/abs/2610.01682v1",
           "extras": {
-            "data_origin": "The Verge"
+            "data_origin": "arXiv",
+            "authors": "Dominik Wojcikiewicz, Diego Paez-Granados",
+            "updated": "2026-10-01T13:39:25"
+          }
+        },
+        {
+          "subject": "Towards Reliable Vision-Language Models for Autonomous Driving",
+          "body": "Vision-Language models (VLMs) are increasingly being explored in autonomous driving for tasks such as scene understanding, driving reasoning, decision-making, and end-to-end driving. As their role becomes more prominent, ensuring their robustness and reliability is increasingly important. In real-world conditions, visual inputs may be degraded by sensor imperfections and environmental conditions, potentially affecting both model predictions and their associated confidence. Such degradation is especially concerning in autonomous driving, where safety-critical decisions require models to make accurate predictions and recognize when their predictions may be unreliable. In this work, we evaluate five VLMs (Qwen3.5-9B, Gemma4-E4B, LLaVA-OneVision-7B, DriveFusion/DriveFusionQA-4B, and NVIDIA Alpamayo-1.5-10B) across four driving-related QA datasets with different visual input settings, including single-frame, multi-view, multi-frame, and monocular inputs. Our results show that the effects of visual corruption vary across models, datasets, and input settings, with changes in accuracy and confidence reliability and also differing across conditions. We then apply Visual Evidence Augmentation ($\\mathrm{V}{\\scriptstyle \\mathrm{EA}}$), a recent inference-time method to examine whether it can improve model reliability under degraded visual conditions. We find that $\\mathrm{V}{\\scriptstyle \\mathrm{EA}}$ improves performance for some models and datasets, although the gains are not consistent across all settings.",
+          "timestamp": "2026-10-01T12:06:13",
+          "url": "https://arxiv.org/abs/2610.01531v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Manasa Mariam Mammen, Priyanka Mary Mammen, Zafer Kayatas, Stefan Wagner",
+            "updated": "2026-10-01T12:06:13"
           }
         }
       ]
@@ -129,5 +185,5 @@
       "items": []
     }
   },
-  "summary": "Here are 6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **NVIDIA AI Factories:** NVIDIA has built AI factories that maximize return on investment, with each factory capable of producing massive amounts of AI computing power. This highlights the growing importance of AI infrastructure in accelerating AI research and development.\n* **OpenAI's Disruption of Model-Distillation Campaign:** OpenAI has disrupted a coordinated model-distillation campaign, where attackers attempted to extract protected model reasoning. This demonstrates OpenAI's commitment to strengthening defenses against adversarial attacks.\n* **Partnership with America's SBDC:** OpenAI is partnering with America's SBDC to expand hands-on AI training and local support for small businesses. This highlights the growing importance of AI in small business development.\n* **NVIDIA Graduate Fellowships:** NVIDIA has opened applications for 2027-2028 graduate fellowships, with awards up to $60,000. This demonstrates NVIDIA's commitment to supporting the next generation of AI researchers and developers.\n* **Agentic AI on CoreWeave:** NVIDIA and CoreWeave have accelerated agentic AI for companies, including Cognition, using NVIDIA's Vera Rubin and Vera CPU. This highlights the growing importance of AI in business and industry.\n* **Macaly Cloud:** Product Hunt has launched Macaly Cloud, a platform for building and publishing sites with AI models like Claude or ChatGPT. This highlights the growing importance of AI in content creation and publishing.\n\n**Trend:**\n\n* **AI Infrastructure Growth:** The growing importance of AI infrastructure in accelerating AI research and development is a trend that is becoming increasingly clear. As AI continues to grow in importance, we can expect to see more investment in AI infrastructure, including AI factories, and more partnerships between AI companies and other organizations."
+  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments:**\n\n1. **NVIDIA DGX Spark 64GB**: NVIDIA has introduced a new AI system that enables developers to build and scale local AI, making it more useful for various applications.\n2. **OpenAI's GPT-6 Astra Ultrafast**: OpenAI has released a new version of its GPT-6 model, which is available on NVIDIA GPUs and can process large amounts of data quickly.\n3. **AWS and NVIDIA Collaboration**: AWS and NVIDIA have collaborated to build agent memory using NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors, making it easier to develop and deploy AI models.\n4. **OpenAI's DevDay 2026 Recap**: OpenAI has released a recap of its DevDay 2026 event, which included announcements on GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.\n\n**Bullet Points:**\n\n* **AI Factories**: NVIDIA has introduced a new concept of AI factories, which are built by the megawatt, even by the gigawatt, and can maximize return on investment.\n* **AI Collaboration**: OpenAI has disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.\n* **Small Business AI**: OpenAI is partnering with America's SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.\n* **AI Ethics**: OpenAI has apologized for incidents involving Australian government websites and has outlined stronger safeguards and support to strengthen Australia's cyber defenses.\n\n**Trend:**\n\n* **Growing Importance of AI in Business**: The increasing importance of AI in business is evident from the various developments and collaborations mentioned above. As AI continues to advance, it is likely that we will see more companies investing in AI research and development, and more collaborations between tech giants and startups."
 }
