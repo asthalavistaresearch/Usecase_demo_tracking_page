@@ -1,10 +1,55 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-07T08:03:26.053Z",
+  "timestamp": "2026-10-08T08:19:24.909Z",
   "categories": {
     "news": {
       "count": 10,
       "items": [
+        {
+          "subject": "How Jump Trading is scaling quant research with ChatGPT",
+          "body": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+          "timestamp": "2026-10-07T04:00:01",
+          "url": "https://openai.com/index/jump-trading",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Sharing AI progress in mathematics",
+          "body": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+          "timestamp": "2026-10-07T04:00:01",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Advancing computer use with Ironclad",
+          "body": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+          "timestamp": "2026-10-07T04:00:01",
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+          "body": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+          "timestamp": "2026-10-07T04:00:01",
+          "url": "https://openai.com/index/atlassian-partnership",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Together AI: Expanding our enterprise inference capacity with IBM Cloud and NVIDIA",
+          "body": "Enterprises can now run open models at production scale on a dedicated B300 inference cluster, built by Together AI, IBM Cloud, and NVIDIA",
+          "timestamp": "2026-10-07T04:00:01",
+          "url": "https://www.together.ai/blog/expanding-our-enterprise-inference-capacity-with-ibm-cloud-and-nvidia",
+          "extras": {
+            "data_origin": "Together AI News"
+          }
+        },
         {
           "subject": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
           "body": "Local AI is becoming more useful by the token. As AI agents...",
@@ -49,57 +94,89 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "Disrupting a coordinated model-distillation campaign",
-          "body": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-          "timestamp": "2026-10-01T04:43:02",
-          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Helping small businesses put AI to work",
-          "body": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-          "timestamp": "2026-10-01T04:43:02",
-          "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
-          "body": "Bringing together the world’s brightest minds and the latest accelerated computing technology...",
-          "timestamp": "2026-10-01T04:43:02",
-          "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
-          "body": "NVIDIA Vera Rubin NVL72 and Vera CPU on CoreWeave accelerate agentic AI for companies including Cognition, extending a nearly decade-long run on NVIDIA infrastructure that stays productive, durable and fungible across generations.",
-          "timestamp": "2026-10-01T04:43:02",
-          "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Product Hunt Launch: Macaly Cloud",
-          "body": "Build and publish sites with your Claude or ChatGPT",
-          "timestamp": "2026-09-30T13:30:02",
-          "url": "https://www.producthunt.com/products/macaly",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
         }
       ]
     },
     "papers": {
-      "count": 3,
+      "count": 10,
       "items": [
+        {
+          "subject": "Demo: Closed-Loop Sionna-Isaac Sim Co-Simulation Framework for Wireless-Aware Robot Navigation over ROS 2",
+          "body": "A robot that offloads its control loop to the network carries the receiver with it, so link quality is decided by where it goes. Simulating this requires both a physics engine and a site-specific propagation model at once; to our knowledge no simulator natively unifies both, with existing couplings of the two limited to offline analyses. We demonstrate a real-time co-simulation framework coupling NVIDIA Isaac Sim and NVIDIA Sionna over ROS 2 that closes the perception-action-communication (PAC) loop between them. Sionna ray-traces the base-station-to-robot channel over the exact geometry Isaac Sim simulates on, rather than modeling it stochastically, and feeds channel states back into the control loop in real time. Ray-traced on GPU, the coverage map is refreshed in ~16ms (~60 Hz), fast enough for real-time control. To showcase the framework's utility, we implement a wireless-aware navigation application in an OpenStreetMap(OSM)-derived SUTD campus twin with two Nova Carter robots: the closed-loop planner eliminates communication outage at only +7.4% traversal time over the shortest-path baseline (which spends 7.9 s of its 81.2 s run disconnected).",
+          "timestamp": "2026-10-06T16:17:51",
+          "url": "https://arxiv.org/abs/2610.08618v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Yi Shen Lim, Seungeun Oh, Jihong Park",
+            "updated": "2026-10-06T16:17:51"
+          }
+        },
+        {
+          "subject": "WareFly-VLA: A Vision-Language-Action Framework for UAV Navigation and Human Tracking in Smart Warehouses",
+          "body": "Vision-Language-Action (VLA) models have achieved impressive results in robotic manipulation and ground-mobile navigation, yet language-conditioned control of unmanned aerial vehicles (UAVs) in smart warehouses remains largely unexplored, hindered by the lack of benchmarks that jointly provide continuous low-level flight actions, fine-grained natural-language target descriptions, and realistic industrial environments. This paper introduces WareFly-VLA, a photorealistic UAV VLA framework and dataset for language-guided human search, localization, and tracking in warehouse environments. It contains 507 human-teleoperated flight episodes and 8,504 high-resolution RGB transitions collected in NVIDIA Isaac Sim, each paired with a human-written appearance description of the target worker and a synchronized four-degree-of-freedom control command. Two aerial tasks are covered: target approach and person following, under occlusion, long-range search, altitude variation, and clutter. A unified benchmark of four open-source VLA architectures (SmolVLA, GR00T N1.7, pi_0 and OpenVLA) is established under a leakage-free episode-level protocol at two control rates. The results show that language-conditioned aerial control in warehouses is far from solved: performance drops substantially under strict generalization settings, continuous action modeling consistently outperforms discrete action tokenization, only the forward channel is reliably learnable from a single frame, and current foundation-model interfaces transfer poorly from ground and humanoid embodiments to aerial platforms. The synchronized video, language, action, pose, and difficulty annotations further support world-model research. The dataset, baselines, and evaluation protocol are released to support language-grounded aerial autonomy in smart warehouses.",
+          "timestamp": "2026-10-06T15:21:14",
+          "url": "https://arxiv.org/abs/2610.08526v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Thinh D. Le, Son T. Nguyen, Duong Q. Nguyen, Dung D. Le, Ngo Anh Vien, H. Nguyen-Xuan",
+            "updated": "2026-10-06T15:21:14"
+          }
+        },
+        {
+          "subject": "Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs",
+          "body": "Autoformalisation is increasingly used to verify mathematical texts, including those generated by AI, as in OpenAI's announced proof of blow-up of solutions to the Navier-Stokes equations. In this process, an AI system translates the text from a natural language (NL) into a formal language such as Lean. Once this translation is done, the argument expressed in the formal language can easily be mechanically verified. The purpose of this article is to demonstrate why this process may offer no confidence in the original NL argument, owing to the various difficulties in performing the translation semantically faithfully. In particular, we highlight that the problem of resolving ambiguities in mathematical NL text, which is necessary in order to provide semantically faithful translation, is arbitrarily high up in the Solvability Complexity Index (SCI) hierarchy/arithmetical hierarchy (the SCI $= \\infty$). Hence, informally, providing semantically faithful AI autoformalisation is harder than any computational problem including the Halting problem (which has SCI $= 1$). To demonstrate the effect of this result we provide several examples of AI mistranslations of NL statements and proofs into Lean in practice, resulting in mismatches between NL proofs and their Lean `verifications'. These include OpenAI's announced Navier-Stokes proof. In particular, we show that the formalised Lean proof does not correspond to the NL proof of blow-up of solutions to the Navier-Stokes equations.",
+          "timestamp": "2026-10-06T10:58:01",
+          "url": "https://arxiv.org/abs/2610.08144v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Alexander Bastounis, Fabian Circelli, Anders C. Hansen",
+            "updated": "2026-10-06T10:58:01"
+          }
+        },
+        {
+          "subject": "Rethinking Visual Provenance: Detection and Watermarking Across Direct Visual Generation and LLM-Driven Code Rendering",
+          "body": "AI systems create images and videos with image/video generation models or by writing code and graphics descriptions that are then rendered. These routes can produce similar visible artifacts but expose different representations, intervention points, and provenance evidence. We develop a production-centered framework that compares detection and watermarking across both routes. An explicit verification specification distinguishes passive inference, message recovery, and authenticated provenance. We organize image, video, source-code, and rendering-aware watermarks by production stage. We examine the different requirements of generated images and video, plots and SVG, programmable video, and agent-composed workflows. Documented Claude, OpenAI, and rendering-tool interfaces connect the framework to concrete systems. We pose ten scoped research questions on identifiability, observability, fair comparison across stages, recoverable payload, reconstruction, synchronization, composition, hybrid local contribution, and private production-event authentication. The result is a conceptual research agenda grounded in published methods, inspected interfaces, and elementary boundary examples. It reports no experiments and claims no new theorems; its appendix results are elementary calculations, and documentation and source inspection establish interfaces, not empirical robustness.",
+          "timestamp": "2026-10-06T10:53:19",
+          "url": "https://arxiv.org/abs/2610.08137v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Zheng Gao, Xiaoyu Li, Zhicheng Bao, Yang Song, Jiaojiao Jiang",
+            "updated": "2026-10-06T10:53:19"
+          }
+        },
+        {
+          "subject": "CCDF: A Benchmark Dataset for Deepfake Detection in Real-World Surveillance Footage",
+          "body": "Due to rapid advances in Generative AI, commercial video generation tools can be used to produce fabricated surveillance footage that can fool both human viewers and automated synthetic video detectors. Since these tools are so widely accessible, a malicious user can create a harmful video clip at minimal cost. The production and dissemination of such videos in high-stakes settings, such as crime reporting and elections, can misdirect emergency response efforts or distort political discourse. Existing deepfake video datasets, used by the research community to develop deepfake detection algorithms, exhibit two limitations: (1) they emphasize benign web content rather than footage of possibly malicious activity, and (2) they rely on older or open-source generators that do not represent recent advances in generative systems. We assemble CCtv DeepFakes (CCDF), a video deepfake dataset, to address both gaps. CCDF contains 1840 videos (460 real and 1380 generated) spanning 16 crime and accident categories, with generated content produced using three leading commercial systems: Grok Imagine, Google VEO 3.1, and OpenAI Sora 2. CCDF is a highly realistic, small-scale, manually annotated dataset targeting evaluation of detection models. We release three versions of the dataset: the raw generated data, a cleaned version in which video metadata are standardized between real and synthetic samples to prevent detectors from exploiting trivial cues, and an altered version simulating low-effort post-processing attacks. We evaluate CCDF with ten recent state-of-the-art detectors covering different detection approaches. Our results suggest that these approaches do not reliably distinguish CCDF's generated videos from real ones, despite their strong reported performance on existing datasets. These results further confirm that existing datasets are not well-suited to evaluating certain threats.",
+          "timestamp": "2026-10-06T08:13:10",
+          "url": "https://arxiv.org/abs/2610.07939v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Baptiste Chopin, Thomas Swearingen, Arun Ross, Antitza Dantcheva, Christian Rathgeb",
+            "updated": "2026-10-06T08:13:10"
+          }
+        },
+        {
+          "subject": "Semantic Capability Acquisition and Specialization During Vision-Language Model Fine-Tuning",
+          "body": "Fine-tuning vision-language models (VLMs) is typically evaluated at a single downstream checkpoint, obscuring whether a semantic capability was never acquired or emerged earlier and later declined during specialization. We ask how semantic capabilities are acquired, when they peak, how well they transfer, and what remains at deployment. We study these dynamics as a semantic capability trajectory, tracking identity- and attribute-based capabilities over training.\n  We formulate a trajectory-based framework that separates capability acquisition, capability-specific optima, and later specialization, and introduce Structured Semantic Routing (SSR) to study how the representation of supervision shapes what is acquired. Across six pretrained backbones spanning DFN, MetaCLIP, and OpenAI CLIP, we show that fine-tuning can acquire semantic capability beyond the pretrained state, including gains observed on held-out evaluations. Unstructured name-and-attribute supervision produces strong name-and-attribute retrieval with comparatively weak name-free attribute-profile retrieval, whereas SSR yields substantially stronger name-free attribute-profile retrieval and is further strengthened by stochastic name-branch dropout. Different capabilities can peak at different stages, so a checkpoint selected by target class-name retrieval need not coincide with a transferable semantic optimum. Continued optimization can therefore preserve strong target class-name retrieval while reducing previously acquired transferable semantic capability. In a representative diagnostic study, this late specialization is consistent with reduced cross-modal semantic accessibility while substantial image-only class structure remains available.",
+          "timestamp": "2026-10-05T20:56:19",
+          "url": "https://arxiv.org/abs/2610.07385v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Suguru Onda, Matthew Bailey, Ryan Farrell",
+            "updated": "2026-10-05T20:56:19"
+          }
+        },
+        {
+          "subject": "Demo: Vision-Language Model-Guided Online Calibration of an Electromagnetic Digital Twin",
+          "body": "An electromagnetic (EM) digital twin gives mobile robots wireless situational awareness but depends on material conductivities that change with the environment. Online calibration faces initialization sensitivity and measurement travel costs. We demonstrate a vision-language model (VLM)-guided framework using a Unitree G1 robot and NVIDIA Sionna, with two VLM calls: material classification maps visible materials through ITU-R P.2040 to conductivity priors for Sionna's gradient descent on accumulated received signal strength (RSS) measurements; waypoint planning selects the next measurement location online using residual RSS calibration error and image coverage. In a real indoor scenario, the framework achieves a normalized mean absolute conductivity error of $1.74\\times10^{-4}$ within 20 m of travel; random initialization never converges, while random waypoints require over twice the travel.",
+          "timestamp": "2026-10-05T11:15:49",
+          "url": "https://arxiv.org/abs/2610.07081v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Zerui Kang, Yishen Lim, Zhouyou Gu, Seungnyun Kim, Seung-Woo Ko, Tony Q. S. Quek, Jihong Park",
+            "updated": "2026-10-05T11:15:49"
+          }
+        },
         {
           "subject": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
           "body": "We introduce Faynt, a family of 10M- and 75M-parameter Transformer policies for Super Smash Bros. Melee, each controlling all 26 characters with a single checkpoint. After reinforcement learning (RL), the 10M wins 240 of 244 same-character games (98.4%) against fourteen specialist and multi-character releases on their supported rosters, with a winning record against every release. These opponents retain 21- or 24-frame action delays; Faynt uses no added delay, and we have not isolated the effect of this difference. In a separate evaluation against a privately supplied zero-delay Slippi-AI model, the 10M wins all 68 games across two conditioning settings. We study architecture, optimization, scaling, and hyperparameter transfer to guide pretraining on approximately 840,000 human replays. Post-training combines rank- and outcome-based curricula, 75M-to-10M distillation, and RL restricted to Fox mirror matches. On the initial 152-game benchmark, the supervised 10M wins 69.7% of games, compared with 45.4% for the pretrained 75M, despite higher overall held-out controller-prediction loss. The weighted validation loss used for supervised checkpoint selection agrees with the win-rate ordering of all four pretrained and supervised policies. After supervised post-training, both models take less damage per minute, build larger early leads, and win more often after losing the first life. Optimized inference on recorded game states averages 5.2 ms per decision for the 10M and 8.7 ms for the 75M on an NVIDIA T4, excluding emulator execution and communication. We open-source the weights, both benchmark suites, and a platform for automated model tournaments.",
@@ -140,5 +217,5 @@
       "items": []
     }
   },
-  "summary": "**Recent Developments in AI and ML:**\n\n• **NVIDIA Announces DGX Spark 64GB for Local AI Development**: NVIDIA has launched a new platform for building and scaling local AI, enabling developers to create and deploy AI models more efficiently.\n\n• **OpenAI Partners with Small Businesses for AI Adoption**: OpenAI is collaborating with small businesses to promote AI adoption and provide hands-on training and local support for entrepreneurs.\n\n• **OpenAI Disrupts Model Distillation Campaign**: OpenAI has taken steps to prevent a coordinated campaign to extract protected model reasoning and has strengthened defenses against adversarial distillation.\n\n• **New Research on Agentic AI and Pedestrian Tracking**: Recent papers on agentic AI and pedestrian tracking evaluation provide insights into the capabilities and limitations of different AI models and architectures.\n\n• **NVIDIA and CoreWeave Accelerate Agentic AI**: NVIDIA and CoreWeave have closed the loop on agentic AI, extending a nearly decade-long run on NVIDIA infrastructure that remains productive, durable, and fungible.\n\n**Trend:** The growing focus on local AI development and deployment, as seen in the NVIDIA DGX Spark 64GB announcement, suggests a shift towards more localized and efficient AI computing. This trend is likely driven by the need for more agile and responsive AI systems that can be developed and deployed quickly, without relying on cloud infrastructure."
+  "summary": "Here are 4-6 bullet points summarizing the key developments in the field of AI, along with a trend:\n\n**Key Developments:**\n\n* **OpenAI expands quant research capabilities**: OpenAI has partnered with Jump Trading to expand its quantitative research capabilities using its AI-powered tool. This collaboration will help researchers combine multiple data sources and human review to improve trading strategies.\n* **Advances in AI for robotics**: Researchers have made progress in developing AI-powered robots for various tasks, including aerial navigation, human tracking, and navigation in warehouses. The use of NVIDIA's Isaac Sim and Sionna platforms has enabled the creation of more realistic and accurate simulations for robotic tasks.\n* **Language understanding and generation**: Studies have shown that language understanding and generation capabilities of AI models are still limited, particularly in tasks such as human tracking and navigation. Researchers have proposed new methods to improve language understanding and generation in these areas.\n* **Concerns over AI veracity**: A study has highlighted the limitations of using AI-generated videos to create fake deepfakes, which can fool both humans and automated detectors. The study calls for the development of more robust detection methods to identify and prevent such fake videos.\n* **Advances in vision-language models**: Researchers have made progress in developing vision-language models (VLMs) that can understand and generate text-based descriptions of visual data. These models have been applied to tasks such as scene understanding, driving reasoning, and decision-making.\n\n**Trend:** The increasing importance of testing and evaluation of AI models in real-world scenarios, rather than just benchmarks and simulations. As AI is being applied to more complex tasks and domains, the need to assess its reliability and robustness in real-world conditions has become more pressing. Researchers are developing new methods and protocols to evaluate AI models in real-world settings, including tracking evaluation, deployment-focused protocols, and visual evidence augmentation."
 }
