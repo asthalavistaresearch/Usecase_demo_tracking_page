@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-13T08:51:15.828Z",
+  "timestamp": "2026-10-14T07:00:57.184Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 8,
       "items": [
+        {
+          "subject": "AWS: Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+          "body": "Single-Region inference can throttle when demand exceeds local capacity. Teams in Thailand...",
+          "timestamp": "2026-10-13T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
         {
           "subject": "OpenAI says teen ChatGPT use limited but research finds it an 'unacceptable risk'",
           "body": "The research found that important guardrails for teens using ChatGPT often failed.",
@@ -67,51 +76,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "How Jump Trading is scaling quant research with ChatGPT",
-          "body": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-          "timestamp": "2026-10-07T04:00:01",
-          "url": "https://openai.com/index/jump-trading",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Sharing AI progress in mathematics",
-          "body": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-          "timestamp": "2026-10-07T04:00:01",
-          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Advancing computer use with Ironclad",
-          "body": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-          "timestamp": "2026-10-07T04:00:01",
-          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-          "body": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-          "timestamp": "2026-10-07T04:00:01",
-          "url": "https://openai.com/index/atlassian-partnership",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Together AI: Expanding our enterprise inference capacity with IBM Cloud and NVIDIA",
-          "body": "Enterprises can now run open models at production scale on a dedicated B300 inference cluster, built by Together AI, IBM Cloud, and NVIDIA",
-          "timestamp": "2026-10-07T04:00:01",
-          "url": "https://www.together.ai/blog/expanding-our-enterprise-inference-capacity-with-ibm-cloud-and-nvidia",
-          "extras": {
-            "data_origin": "Together AI News"
-          }
         }
       ]
     },
@@ -120,5 +84,5 @@
       "items": []
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **ChatGPT Raises Concerns:** Research found that important guardrails for teens using ChatGPT often failed, making it an \"unacceptable risk\" for minors.\n* **AI in Cars:** Three engineers successfully used AI to drive a Toyota Corolla, with one of them being successful in a real-world test.\n* **Oracle's Efficiency:** Oracle uses ChatGPT and Codex to turn days of work into minutes, streamlining specialist knowledge into fast and repeatable workflows across recruiting, engineering, and operations.\n* **Pollo AI's Creative Ideas:** Pollo AI uses GPT-5.6, GPT-6 Astra, and GPT-Image-2.5 to help creators turn bold ideas into detailed images and cinematic video ads.\n* **Disrupting AI-Enabled Influence Operations:** OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\n* **Radisson's Hotel Discovery:** Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.\n\n**Trend:**\n\n* **Increased Adoption of AI in Enterprise:** The trend is towards increased adoption of AI in various industries, with companies like Oracle, Pollo AI, and Radisson leveraging AI to improve efficiency, creativity, and customer experience. This is driven by the growing availability of AI tools and the recognition of AI's potential to transform business operations."
+  "summary": "Here are 4-6 bullet points summarizing the key developments with insight:\n\n* **AWS enables global cross-Region inference for OpenAI GPT models**: Amazon Web Services (AWS) has announced that it can now support global cross-Region inference for OpenAI GPT models, allowing teams in Thailand, Malaysia, Singapore, Indonesia, and Taiwan to access these models with reduced latency.\n* **Research finds ChatGPT use by teens an \"unacceptable risk\"**: A recent study found that important guardrails for teens using ChatGPT often failed, highlighting the need for increased parental control and education to mitigate potential risks.\n* **AI drives a Toyota Corolla to success**: Three engineers successfully used AI to drive a Toyota Corolla, with one of them achieving a perfect drive, demonstrating the potential of AI in autonomous vehicles.\n* **Oracle turns days of work into minutes with ChatGPT and Codex**: Oracle has implemented ChatGPT and Codex to automate specialist knowledge, reducing the time spent on tasks from days to minutes, increasing productivity and efficiency.\n* **Pollo AI turns creative ideas into campaigns with OpenAI**: Pollo AI has developed a platform that uses OpenAI's GPT-5.6, GPT-6 Astra, and GPT-Image-2.5 to turn creative ideas into detailed images and cinematic video ads, showcasing the potential of AI in creative industries.\n* **OpenAI disrupts AI-enabled \"false front\" operations**: OpenAI has disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging, highlighting the need for increased transparency and accountability in AI-powered operations.\n\n**Trend:** The increasing adoption of AI in various industries, including technology, healthcare, and finance, is driving the need for more effective and transparent use of AI. As AI becomes more prevalent, there is a growing concern about the potential risks and consequences of AI misuse, and the need for increased regulation and accountability is becoming more pressing."
 }
