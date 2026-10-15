@@ -1,10 +1,55 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-14T07:00:57.184Z",
+  "timestamp": "2026-10-15T06:51:57.282Z",
   "categories": {
     "news": {
-      "count": 8,
+      "count": 11,
       "items": [
+        {
+          "subject": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+          "body": "Across industries, the U. K. is putting the full stack to work —...",
+          "timestamp": "2026-10-14T08:31:02",
+          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+          "body": "Keeping a city running means making decisions that affect residents every day...",
+          "timestamp": "2026-10-14T08:31:02",
+          "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years",
+          "body": "NVIDIA today announced a five-year compute donation valued at $250 million to...",
+          "timestamp": "2026-10-14T08:31:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Higgsfield takes AI video from 1 minute to over 10",
+          "body": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+          "timestamp": "2026-10-14T04:00:02",
+          "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+          "body": "NVIDIA RTX Spark is a new beginning for the PC — a...",
+          "timestamp": "2026-10-14T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "AWS: Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
           "body": "Single-Region inference can throttle when demand exceeds local capacity. Teams in Thailand...",
@@ -58,24 +103,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-          "body": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-          "timestamp": "2026-10-08T04:00:02",
-          "url": "https://openai.com/index/radisson",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs with RTX Spark and AI Agents",
-          "body": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and...",
-          "timestamp": "2026-10-08T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -84,5 +111,5 @@
       "items": []
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing the key developments with insight:\n\n* **AWS enables global cross-Region inference for OpenAI GPT models**: Amazon Web Services (AWS) has announced that it can now support global cross-Region inference for OpenAI GPT models, allowing teams in Thailand, Malaysia, Singapore, Indonesia, and Taiwan to access these models with reduced latency.\n* **Research finds ChatGPT use by teens an \"unacceptable risk\"**: A recent study found that important guardrails for teens using ChatGPT often failed, highlighting the need for increased parental control and education to mitigate potential risks.\n* **AI drives a Toyota Corolla to success**: Three engineers successfully used AI to drive a Toyota Corolla, with one of them achieving a perfect drive, demonstrating the potential of AI in autonomous vehicles.\n* **Oracle turns days of work into minutes with ChatGPT and Codex**: Oracle has implemented ChatGPT and Codex to automate specialist knowledge, reducing the time spent on tasks from days to minutes, increasing productivity and efficiency.\n* **Pollo AI turns creative ideas into campaigns with OpenAI**: Pollo AI has developed a platform that uses OpenAI's GPT-5.6, GPT-6 Astra, and GPT-Image-2.5 to turn creative ideas into detailed images and cinematic video ads, showcasing the potential of AI in creative industries.\n* **OpenAI disrupts AI-enabled \"false front\" operations**: OpenAI has disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging, highlighting the need for increased transparency and accountability in AI-powered operations.\n\n**Trend:** The increasing adoption of AI in various industries, including technology, healthcare, and finance, is driving the need for more effective and transparent use of AI. As AI becomes more prevalent, there is a growing concern about the potential risks and consequences of AI misuse, and the need for increased regulation and accountability is becoming more pressing."
+  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA's UK Ecosystem Deployment**: NVIDIA is deploying its full stack across various industries in the UK, enabling the country's ecosystem to move from ambition to application.\n* **European Cities Deploy AI Agents**: European cities are using NVIDIA-powered AI agents to run smarter urban operations, making decisions that affect residents every day.\n* **NVIDIA's $250 Million Commitment**: NVIDIA has committed $250 million to advance UK agentic safety and security research over the next five years.\n* **Higgsfield's AI Video Advancements**: Higgsfield has developed AI video capabilities that enable creators to produce longer videos, precise visuals, and a path to voice filmmaking with GPT-6 Astra.\n* **NVIDIA RTX Spark**: NVIDIA RTX Spark is a new beginning for the PC, enabling a new level of performance and efficiency for local AI applications.\n* **AWS and OpenAI Collaboration**: AWS has enabled global cross-region inference for OpenAI GPT models on Amazon Bedrock, allowing teams in Thailand, Malaysia, Singapore, Indonesia, and Taiwan to access these models.\n\n**Trend:**\n\n* **Increased Adoption of AI in Various Industries**: The trend is towards increased adoption of AI in various industries, including urban operations, safety and security research, video production, and PC applications. This trend is driven by the need for efficiency, performance, and innovation in these industries."
 }
