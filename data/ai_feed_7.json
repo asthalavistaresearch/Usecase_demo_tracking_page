@@ -1,10 +1,55 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-15T06:51:57.282Z",
+  "timestamp": "2026-10-16T06:39:27.357Z",
   "categories": {
     "news": {
       "count": 11,
       "items": [
+        {
+          "subject": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+          "body": "The Nordic countries have become the European leader in unicorn startup density...",
+          "timestamp": "2026-10-15T08:13:02",
+          "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Amp puts AI agents to work beyond code with OpenAI models",
+          "body": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+          "timestamp": "2026-10-15T04:00:02",
+          "url": "https://openai.com/index/amp-beyond-coding",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "SentinelOne cuts malware analysis from weeks to hours",
+          "body": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+          "timestamp": "2026-10-15T04:00:02",
+          "url": "https://openai.com/index/sentinelone",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How Block is building AI-powered security with OpenAI technology",
+          "body": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+          "timestamp": "2026-10-15T04:00:02",
+          "url": "https://openai.com/index/block-ai-powered-security",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs",
+          "body": "NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including...",
+          "timestamp": "2026-10-15T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
           "body": "Across industries, the U. K. is putting the full stack to work —...",
@@ -58,51 +103,6 @@
           "extras": {
             "data_origin": "AWS AI News"
           }
-        },
-        {
-          "subject": "OpenAI says teen ChatGPT use limited but research finds it an 'unacceptable risk'",
-          "body": "The research found that important guardrails for teens using ChatGPT often failed.",
-          "timestamp": "2026-10-09T04:00:02",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0vrmxkvy4o",
-          "extras": {
-            "data_origin": "BBC News"
-          }
-        },
-        {
-          "subject": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
-          "body": "Three engineers put GPT, Claude, and Grok in charge of a real car. Only one of them was successful.",
-          "timestamp": "2026-10-09T04:00:02",
-          "url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
-          "extras": {
-            "data_origin": "Wired"
-          }
-        },
-        {
-          "subject": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-          "body": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-          "timestamp": "2026-10-09T04:00:02",
-          "url": "https://openai.com/index/oracle",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Pollo AI turns creative ideas into campaigns with OpenAI",
-          "body": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-          "timestamp": "2026-10-09T04:00:02",
-          "url": "https://openai.com/index/pollo-ai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Disrupting AI-enabled “false front” operations",
-          "body": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-          "timestamp": "2026-10-09T04:00:02",
-          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -111,5 +111,5 @@
       "items": []
     }
   },
-  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA's UK Ecosystem Deployment**: NVIDIA is deploying its full stack across various industries in the UK, enabling the country's ecosystem to move from ambition to application.\n* **European Cities Deploy AI Agents**: European cities are using NVIDIA-powered AI agents to run smarter urban operations, making decisions that affect residents every day.\n* **NVIDIA's $250 Million Commitment**: NVIDIA has committed $250 million to advance UK agentic safety and security research over the next five years.\n* **Higgsfield's AI Video Advancements**: Higgsfield has developed AI video capabilities that enable creators to produce longer videos, precise visuals, and a path to voice filmmaking with GPT-6 Astra.\n* **NVIDIA RTX Spark**: NVIDIA RTX Spark is a new beginning for the PC, enabling a new level of performance and efficiency for local AI applications.\n* **AWS and OpenAI Collaboration**: AWS has enabled global cross-region inference for OpenAI GPT models on Amazon Bedrock, allowing teams in Thailand, Malaysia, Singapore, Indonesia, and Taiwan to access these models.\n\n**Trend:**\n\n* **Increased Adoption of AI in Various Industries**: The trend is towards increased adoption of AI in various industries, including urban operations, safety and security research, video production, and PC applications. This trend is driven by the need for efficiency, performance, and innovation in these industries."
+  "summary": "Here are 4-6 bullet points summarizing the key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **Nordic countries lead in unicorn startup density**: The Nordic countries have become the European leader in unicorn startup density, thanks to their commitment to advanced computing and AI.\n* **Amp and OpenAI models push AI agent capabilities**: Amp, a platform that utilizes OpenAI models, has pushed the frontier of what AI agents can do, enabling them to perform tasks beyond coding.\n* **SentinelOne and Block leverage OpenAI technology for security**: SentinelOne and Block are using OpenAI technology to improve their security capabilities, with SentinelOne cutting malware analysis time from weeks to hours and Block building AI-powered security.\n* **NVIDIA and semiconductor leaders advance AI in chip design and manufacturing**: NVIDIA has announced that semiconductor leaders are adopting its CUDA-X libraries, enabling AI across chip design and manufacturing.\n* **UK ecosystem moves from ambition to application with NVIDIA**: The UK is putting the full stack to work, with industries across the country deploying NVIDIA-powered AI agents to run smarter urban operations.\n* **Higgsfield and AWS enable longer videos and global cross-Region inference**: Higgsfield has enabled longer videos with GPT-6 Astra, and AWS has enabled global cross-Region inference for OpenAI GPT models.\n\n**Trend:**\n\n* **Growing adoption of AI and OpenAI models**: The trend is clear - AI and OpenAI models are being increasingly adopted across industries, from security to video production, and are being used to improve capabilities and efficiency. This trend is expected to continue, with more companies and organizations leveraging AI and OpenAI models to drive innovation and growth."
 }
