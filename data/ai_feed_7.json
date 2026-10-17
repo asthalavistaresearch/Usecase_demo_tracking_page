@@ -1,10 +1,82 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-16T06:39:27.357Z",
+  "timestamp": "2026-10-17T06:28:25.139Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 19,
       "items": [
+        {
+          "subject": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+          "body": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s...",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+          "body": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS...",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+          "body": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that...",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+          "body": "A new beginning for Windows PCs starts tomorrow with the launch of...",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
+          "body": "Adobe (Nasdaq: ADBE), the global technology leader that unleashes creativity, productivity and...",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
+          "body": "Volvo Cars today announced it is expanding its partnership with NVIDIA to...",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Sullivan & Cromwell brings legal expertise into agreement review",
+          "body": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://openai.com/index/sullivan-cromwell",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Bringing GPT-Rosalind to academic research labs",
+          "body": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
           "body": "The Nordic countries have become the European leader in unicorn startup density...",
@@ -15,10 +87,19 @@
           }
         },
         {
-          "subject": "Amp puts AI agents to work beyond code with OpenAI models",
-          "body": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+          "subject": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs",
+          "body": "NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including...",
           "timestamp": "2026-10-15T04:00:02",
-          "url": "https://openai.com/index/amp-beyond-coding",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How Block is building AI-powered security with OpenAI technology",
+          "body": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+          "timestamp": "2026-10-15T04:00:02",
+          "url": "https://openai.com/index/block-ai-powered-security",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -33,28 +114,19 @@
           }
         },
         {
-          "subject": "How Block is building AI-powered security with OpenAI technology",
-          "body": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+          "subject": "Amp puts AI agents to work beyond code with OpenAI models",
+          "body": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
           "timestamp": "2026-10-15T04:00:02",
-          "url": "https://openai.com/index/block-ai-powered-security",
+          "url": "https://openai.com/index/amp-beyond-coding",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs",
-          "body": "NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including...",
-          "timestamp": "2026-10-15T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
-          "body": "Across industries, the U. K. is putting the full stack to work —...",
+          "subject": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years",
+          "body": "NVIDIA today announced a five-year compute donation valued at $250 million to...",
           "timestamp": "2026-10-14T08:31:02",
-          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -69,10 +141,19 @@
           }
         },
         {
-          "subject": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years",
-          "body": "NVIDIA today announced a five-year compute donation valued at $250 million to...",
+          "subject": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+          "body": "Across industries, the U. K. is putting the full stack to work —...",
           "timestamp": "2026-10-14T08:31:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
+          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+          "body": "NVIDIA RTX Spark is a new beginning for the PC — a...",
+          "timestamp": "2026-10-14T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -87,15 +168,6 @@
           }
         },
         {
-          "subject": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-          "body": "NVIDIA RTX Spark is a new beginning for the PC — a...",
-          "timestamp": "2026-10-14T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "AWS: Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
           "body": "Single-Region inference can throttle when demand exceeds local capacity. Teams in Thailand...",
           "timestamp": "2026-10-13T04:00:02",
@@ -107,9 +179,90 @@
       ]
     },
     "models": {
-      "count": 0,
-      "items": []
+      "count": 8,
+      "items": [
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"deploy:sagemaker\", \"region:us\"]",
+          "timestamp": "2026-10-16T23:39:54",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt_mixed\", \"deploy:sagemaker\", \"region:us\"]",
+          "timestamp": "2026-10-16T23:39:43",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "unsloth/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF",
+          "body": "[\"gguf\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"unsloth\", \"image-text-to-text\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
+          "timestamp": "2026-10-16T13:25:22",
+          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-GGUF",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "unsloth"
+          }
+        },
+        {
+          "subject": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen4_exp\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"FP4\", \"fp4\", \"image-text-to-text\", \"conversational\", \"base_model:Qwen/Qwen3.8-Flash-Next\", \"base_model:quantized:Qwen/Qwen3.8-Flash-Next\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-10-15T19:45:54",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+          "body": "[\"transformers\", \"gguf\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"image-text-to-text\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"arxiv:2601.20088\", \"arxiv:2502.02631\", \"arxiv:2502.05003\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
+          "timestamp": "2026-10-15T18:10:28",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"arxiv:2601.20088\", \"arxiv:2502.02631\", \"arxiv:2502.05003\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"license:other\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-10-15T18:09:19",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-10-15T18:06:22",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-10-15T17:03:20",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        }
+      ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing the key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **Nordic countries lead in unicorn startup density**: The Nordic countries have become the European leader in unicorn startup density, thanks to their commitment to advanced computing and AI.\n* **Amp and OpenAI models push AI agent capabilities**: Amp, a platform that utilizes OpenAI models, has pushed the frontier of what AI agents can do, enabling them to perform tasks beyond coding.\n* **SentinelOne and Block leverage OpenAI technology for security**: SentinelOne and Block are using OpenAI technology to improve their security capabilities, with SentinelOne cutting malware analysis time from weeks to hours and Block building AI-powered security.\n* **NVIDIA and semiconductor leaders advance AI in chip design and manufacturing**: NVIDIA has announced that semiconductor leaders are adopting its CUDA-X libraries, enabling AI across chip design and manufacturing.\n* **UK ecosystem moves from ambition to application with NVIDIA**: The UK is putting the full stack to work, with industries across the country deploying NVIDIA-powered AI agents to run smarter urban operations.\n* **Higgsfield and AWS enable longer videos and global cross-Region inference**: Higgsfield has enabled longer videos with GPT-6 Astra, and AWS has enabled global cross-Region inference for OpenAI GPT models.\n\n**Trend:**\n\n* **Growing adoption of AI and OpenAI models**: The trend is clear - AI and OpenAI models are being increasingly adopted across industries, from security to video production, and are being used to improve capabilities and efficiency. This trend is expected to continue, with more companies and organizations leveraging AI and OpenAI models to drive innovation and growth."
+  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Trend: Advancements in AI and Computing**\n\nThe trend in the tech industry is the rapid advancement of AI and computing technologies, with companies like NVIDIA and OpenAI pushing the boundaries of what is possible with AI and machine learning.\n\n**Key Developments:**\n\n* **NVIDIA Expands Advanced Technology Access for Europe's Scientific Community**: NVIDIA has expanded its access to advanced technology for Europe's scientific community, making it easier for researchers to access and use its computing resources.\n* **NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW**: NVIDIA has released its DLSS 4.5 controls on GeForce NOW, allowing gamers to experience improved performance and image quality.\n* **NVIDIA Expands Nemotron Family with Highest Efficiency Super VL and Bolt Models**: NVIDIA has released its Nemotron 3.5 Super VL model, which is the highest efficiency model in its Nemotron family, and also announced the expansion of its Nemotron family with the addition of the Bolt model.\n* **Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation**: Adobe and NVIDIA have expanded their collaboration to speed up agentic creation, allowing users to create more efficient and effective AI models.\n* **Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving**: Volvo Cars and NVIDIA have expanded their partnership to advance safe automated driving, using NVIDIA's AI technology to improve the safety and efficiency of Volvo's autonomous vehicles.\n\n**Insight:**\n\nThe advancements in AI and computing technologies are driving innovation and improvement in various industries, from gaming to scientific research to automotive. Companies like NVIDIA and OpenAI are at the forefront of this trend, pushing the boundaries of what is possible with AI and machine learning."
 }
