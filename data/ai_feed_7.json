@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-17T06:28:25.139Z",
+  "timestamp": "2026-10-18T06:53:00.426Z",
   "categories": {
     "news": {
-      "count": 19,
+      "count": 21,
       "items": [
+        {
+          "subject": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
+          "body": "Mercedes-Benz and NVIDIA today announced that they will extend their strategic partnership...",
+          "timestamp": "2026-10-17T04:00:01",
+          "url": "https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
+          "body": "NVIDIA today announced the availability of NVIDIA RTX Spark™ laptops, bringing together...",
+          "timestamp": "2026-10-17T04:00:01",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
           "body": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s...",
@@ -179,7 +197,7 @@
       ]
     },
     "models": {
-      "count": 8,
+      "count": 10,
       "items": [
         {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
@@ -196,6 +214,16 @@
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt_mixed\", \"deploy:sagemaker\", \"region:us\"]",
           "timestamp": "2026-10-16T23:39:43",
           "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/GLM-5.3-Flash-FP4-Local",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"glm5_next\", \"nvidia\", \"ModelOpt\", \"GLM-5\", \"quantized\", \"FP4\", \"fp4\", \"image-text-to-text\", \"conversational\", \"base_model:zai-org/GLM-5.3-Flash\", \"base_model:quantized:zai-org/GLM-5.3-Flash\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-10-16T20:28:36",
+          "url": "https://huggingface.co/nvidia/GLM-5.3-Flash-FP4-Local",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -260,9 +288,19 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
+        },
+        {
+          "subject": "unsloth/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-GGUF",
+          "body": "[\"gguf\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"unsloth\", \"image-text-to-text\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
+          "timestamp": "2026-10-15T14:55:06",
+          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-GGUF",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "unsloth"
+          }
         }
       ]
     }
   },
-  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Trend: Advancements in AI and Computing**\n\nThe trend in the tech industry is the rapid advancement of AI and computing technologies, with companies like NVIDIA and OpenAI pushing the boundaries of what is possible with AI and machine learning.\n\n**Key Developments:**\n\n* **NVIDIA Expands Advanced Technology Access for Europe's Scientific Community**: NVIDIA has expanded its access to advanced technology for Europe's scientific community, making it easier for researchers to access and use its computing resources.\n* **NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW**: NVIDIA has released its DLSS 4.5 controls on GeForce NOW, allowing gamers to experience improved performance and image quality.\n* **NVIDIA Expands Nemotron Family with Highest Efficiency Super VL and Bolt Models**: NVIDIA has released its Nemotron 3.5 Super VL model, which is the highest efficiency model in its Nemotron family, and also announced the expansion of its Nemotron family with the addition of the Bolt model.\n* **Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation**: Adobe and NVIDIA have expanded their collaboration to speed up agentic creation, allowing users to create more efficient and effective AI models.\n* **Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving**: Volvo Cars and NVIDIA have expanded their partnership to advance safe automated driving, using NVIDIA's AI technology to improve the safety and efficiency of Volvo's autonomous vehicles.\n\n**Insight:**\n\nThe advancements in AI and computing technologies are driving innovation and improvement in various industries, from gaming to scientific research to automotive. Companies like NVIDIA and OpenAI are at the forefront of this trend, pushing the boundaries of what is possible with AI and machine learning."
+  "summary": "Here are 4-6 bullet points and 1 trend:\n\n**Key Developments:**\n\n* **Mercedes-Benz and NVIDIA expand strategic partnership**: The companies will work together to advance safe highly automated driving in the next decade.\n* **NVIDIA RTX Spark PCs available**: NVIDIA has made its RTX Spark PCs available, which bring together Windows PCs, desktops, and laptops to supercharge productivity and gaming.\n* **Adobe and NVIDIA expand collaboration**: The two companies are working together to speed up creative tasks and workflows with AI and Machine Learning.\n* **Volvo Cars and NVIDIA expand partnership**: The two companies are expanding their partnership to advance safe automated driving.\n* **OpenAI news**: OpenAI has made several announcements, including a new AI-powered security system with Block, a malware analysis tool with SentinelOne, and the availability of GPT-Rosalind in academic research labs.\n* **NVIDIA commits $250 million to UK research**: NVIDIA has committed to donate $250 million to advance UK research in AI, safety, and security over the next five years.\n\n**Trend:** \n\nThe trend here is the continued investment in AI and Machine Learning by major tech companies like NVIDIA, OpenAI, and Adobe. These investments are leading to advancements in various fields, including autonomous driving, cybersecurity, and creative workflows. The integration of AI and Machine Learning is becoming increasingly important in various industries, and we can expect to see more innovations and announcements in the coming months."
 }
