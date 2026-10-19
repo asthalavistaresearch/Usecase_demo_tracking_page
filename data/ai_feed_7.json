@@ -1,6 +1,6 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-18T06:53:00.426Z",
+  "timestamp": "2026-10-19T07:13:14.013Z",
   "categories": {
     "news": {
       "count": 21,
@@ -200,6 +200,16 @@
       "count": 10,
       "items": [
         {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
+          "timestamp": "2026-10-19T04:31:02",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"deploy:sagemaker\", \"region:us\"]",
           "timestamp": "2026-10-16T23:39:54",
@@ -270,16 +280,6 @@
           }
         },
         {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-10-15T18:06:22",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
           "timestamp": "2026-10-15T17:03:20",
@@ -302,5 +302,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points and 1 trend:\n\n**Key Developments:**\n\n* **Mercedes-Benz and NVIDIA expand strategic partnership**: The companies will work together to advance safe highly automated driving in the next decade.\n* **NVIDIA RTX Spark PCs available**: NVIDIA has made its RTX Spark PCs available, which bring together Windows PCs, desktops, and laptops to supercharge productivity and gaming.\n* **Adobe and NVIDIA expand collaboration**: The two companies are working together to speed up creative tasks and workflows with AI and Machine Learning.\n* **Volvo Cars and NVIDIA expand partnership**: The two companies are expanding their partnership to advance safe automated driving.\n* **OpenAI news**: OpenAI has made several announcements, including a new AI-powered security system with Block, a malware analysis tool with SentinelOne, and the availability of GPT-Rosalind in academic research labs.\n* **NVIDIA commits $250 million to UK research**: NVIDIA has committed to donate $250 million to advance UK research in AI, safety, and security over the next five years.\n\n**Trend:** \n\nThe trend here is the continued investment in AI and Machine Learning by major tech companies like NVIDIA, OpenAI, and Adobe. These investments are leading to advancements in various fields, including autonomous driving, cybersecurity, and creative workflows. The integration of AI and Machine Learning is becoming increasingly important in various industries, and we can expect to see more innovations and announcements in the coming months."
+  "summary": "Here are 5 key developments with insight, 4-6 bullet points, and 1 trend:\n\n**Trend:** The increasing focus on AI-powered innovation and collaboration in the tech industry, with a particular emphasis on advancing safe and secure highly automated driving, agentic creation, and scientific computing.\n\n**Key Developments:**\n\n* **NVIDIA and Mercedes-Benz expand strategic partnership**: The companies have extended their partnership to advance safe highly automated driving in the next decade, with a focus on developing autonomous vehicles that can navigate complex scenarios.\n* **NVIDIA RTX Spark PCs are now available**: NVIDIA has launched its RTX Spark laptops, which bring together high graphics performance and AI capabilities, marking a \"new beginning\" for Windows PCs.\n* **Sullivan & Cromwell and OpenAI collaborate on AI tool for agreement review**: The law firm and OpenAI have developed a tool that uses AI to identify issues in draft agreements, demonstrating the increasing use of AI in the legal sector.\n* **NVIDIA committs $250 million to advance UK agentic safety and security research**: The company has pledged $250 million to support research in the UK, which will focus on developing safe and secure AI-powered agents.\n* **Volvo and NVIDIA expand their partnership on safe automated driving**: The two companies have expanded their partnership to advance the development of safe and reliable autonomous vehicles.\n* **OpenAI introduces GPT-Rosalind for academic research labs**: The company has made GPT-Rosalind, a version of its large language model, available to academic research labs, with the aim of advancing research in life sciences.\n* **European cities deploy NVIDIA-powered AI agents to run smarter urban operations**: Cities in Europe are using NVIDIA-powered AI agents to improve urban operations, such as traffic management and social services.\n\nOverall, the trend of AI-powered innovation and collaboration is continuing to drive advancements in various industries, including transportation, technology, and scientific computing."
 }
