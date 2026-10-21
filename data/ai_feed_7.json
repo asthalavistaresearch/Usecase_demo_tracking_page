@@ -1,10 +1,55 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-20T07:02:03.803Z",
+  "timestamp": "2026-10-21T06:55:19.088Z",
   "categories": {
     "news": {
-      "count": 20,
+      "count": 23,
       "items": [
+        {
+          "subject": "Product Hunt Launch: Jotform App Builder for ChatGPT & Claude",
+          "body": "Build and edit no-code apps inside ChatGPT & Claude",
+          "timestamp": "2026-10-20T08:12:02",
+          "url": "https://www.producthunt.com/products/jotform",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+          "body": "At a creative industry event that took place today in Berlin —...",
+          "timestamp": "2026-10-20T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
+          "body": "NVIDIA today announced a record-breaking quantum computing simulation on JUPITER, Europe’s first...",
+          "timestamp": "2026-10-20T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+          "body": "In the cavernous hall of Kraftwerk, a former power station in Berlin...",
+          "timestamp": "2026-10-20T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Advancing coding in low‑resource programming languages",
+          "body": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+          "timestamp": "2026-10-20T04:00:02",
+          "url": "https://openai.com/index/low-resource-programming-languages",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
           "body": "Mercedes-Benz and NVIDIA today announced that they will extend their strategic partnership...",
@@ -24,12 +69,12 @@
           }
         },
         {
-          "subject": "Bringing GPT-Rosalind to academic research labs",
-          "body": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+          "subject": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
+          "body": "Adobe (Nasdaq: ADBE), the global technology leader that unleashes creativity, productivity and...",
           "timestamp": "2026-10-16T04:00:02",
-          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+          "url": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -69,15 +114,6 @@
           }
         },
         {
-          "subject": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
-          "body": "Adobe (Nasdaq: ADBE), the global technology leader that unleashes creativity, productivity and...",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
           "body": "Volvo Cars today announced it is expanding its partnership with NVIDIA to...",
           "timestamp": "2026-10-16T04:00:02",
@@ -91,6 +127,15 @@
           "body": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
           "timestamp": "2026-10-16T04:00:02",
           "url": "https://openai.com/index/sullivan-cromwell",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Bringing GPT-Rosalind to academic research labs",
+          "body": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -141,6 +186,15 @@
           }
         },
         {
+          "subject": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+          "body": "Across industries, the U. K. is putting the full stack to work —...",
+          "timestamp": "2026-10-14T08:31:02",
+          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
           "subject": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years",
           "body": "NVIDIA today announced a five-year compute donation valued at $250 million to...",
           "timestamp": "2026-10-14T08:31:02",
@@ -157,39 +211,22 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
-          "body": "Across industries, the U. K. is putting the full stack to work —...",
-          "timestamp": "2026-10-14T08:31:02",
-          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Higgsfield takes AI video from 1 minute to over 10",
-          "body": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-          "timestamp": "2026-10-14T04:00:02",
-          "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-          "body": "NVIDIA RTX Spark is a new beginning for the PC — a...",
-          "timestamp": "2026-10-14T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
     "models": {
       "count": 10,
       "items": [
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"arxiv:2601.20088\", \"arxiv:2502.02631\", \"arxiv:2502.05003\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"license:other\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
+          "timestamp": "2026-10-20T20:02:05",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
@@ -261,16 +298,6 @@
           }
         },
         {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"arxiv:2601.20088\", \"arxiv:2502.02631\", \"arxiv:2502.05003\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"license:other\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-10-15T18:09:19",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
           "timestamp": "2026-10-15T17:03:20",
@@ -293,5 +320,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **Mercedes-Benz and NVIDIA expand their strategic partnership to advance safe highly automated driving**: The companies will work together to develop and deploy highly automated vehicles, leveraging NVIDIA's AI technology and Mercedes-Benz's automotive expertise.\n* **NVIDIA expands advanced technology access for Europe's scientific community**: The company will provide access to its computing resources and other tools to support research and development in various fields, including life sciences and climate modeling.\n* **NVIDIA releases Nemotron 3.5 Super VL, an open 120-billion-parameter model**: The model is designed for a wide range of applications, including image and text-to-text tasks, and is available for deployment on NVIDIA's Sagemaker platform.\n* **Adobe and NVIDIA expand collaboration to speed up agent creation**: The companies will work together to accelerate the development of creative agents, using NVIDIA's AI technology and Adobe's creative tools.\n* **Volvo Cars and NVIDIA expand their partnership to advance safe automated driving**: The companies will collaborate on the development and deployment of safe automated driving solutions, leveraging NVIDIA's AI technology and Volvo's automotive expertise.\n\n**Trend:**\n\n* **Increased emphasis on AI adoption across industries**: The developments mentioned above highlight the growing interest in AI technology across various sectors, including automotive, scientific research, creative industries, and more. This trend suggests that AI is becoming increasingly integrated into various aspects of modern society, from transportation to scientific inquiry to creative endeavors.\n\nAdditionally, I notice that both NVIDIA and OpenAI are actively collaborating with various companies and organizations to advance AI research and development, which reinforces the trend towards increased AI adoption across industries."
+  "summary": "**Key Developments:**\n\n* NVIDIA announced a record-breaking quantum computing simulation on JUPITER, Europe’s first quantum computer.\n* NVIDIA and Mercedes-Benz expanded their strategic partnership to advance safe highly automated driving in the next decade.\n* NVIDIA RTX Spark PCs are now available, bringing together AI, graphics, and compute capabilities.\n* Adobe and NVIDIA expanded their collaboration to speed agentic creation.\n* OpenAI improved ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.\n* NVIDIA and semiconductor leaders advanced AI across chip design and manufacturing for AI-defined Fabs.\n\n**Trend:**\n\n* **Increased focus on AI and agentic creation**: Many of the key developments highlight the growing importance of AI and agentic creation in various industries, including automotive, computing, and software development. This trend is expected to continue as companies invest in AI research and development to stay competitive.\n\n**Insight:**\n\n* The developments suggest that AI is becoming increasingly integral to various industries, with a focus on creating more efficient and effective systems. This is likely to lead to further advancements in AI research and development, as well as increased adoption in various sectors.\n\n**Bullet Points:**\n\n* NVIDIA's quantum computing simulation on JUPITER achieved a record-breaking result.\n* NVIDIA and Mercedes-Benz expanded their partnership to advance safe highly automated driving.\n* NVIDIA RTX Spark PCs are now available, bringing together AI, graphics, and compute capabilities.\n* OpenAI improved ChatGPT across low-resource programming languages.\n* NVIDIA and semiconductor leaders advanced AI across chip design and manufacturing for AI-defined Fabs."
 }
