@@ -1,10 +1,46 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-21T06:55:19.088Z",
+  "timestamp": "2026-10-22T06:59:02.760Z",
   "categories": {
     "news": {
-      "count": 23,
+      "count": 20,
       "items": [
+        {
+          "subject": "AWS: Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
+          "body": "Canadian organizations building generative AI applications on Amazon Bedrock often need the...",
+          "timestamp": "2026-10-21T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "AWS: Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
+          "body": "GPT-OSS-20B is an open-weight reasoning model that thinks in English. Ask it...",
+          "timestamp": "2026-10-21T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "OpenAI acquires Orchestra Bio",
+          "body": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;D, helping biopharma teams accelerate drug development and advance new treatments.",
+          "timestamp": "2026-10-21T04:00:02",
+          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+          "body": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+          "timestamp": "2026-10-21T04:00:02",
+          "url": "https://openai.com/index/ted-taylor-restaurant",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Product Hunt Launch: Jotform App Builder for ChatGPT & Claude",
           "body": "Build and edit no-code apps inside ChatGPT & Claude",
@@ -69,15 +105,6 @@
           }
         },
         {
-          "subject": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
-          "body": "Adobe (Nasdaq: ADBE), the global technology leader that unleashes creativity, productivity and...",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
           "body": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s...",
           "timestamp": "2026-10-16T04:00:02",
@@ -114,6 +141,15 @@
           }
         },
         {
+          "subject": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
+          "body": "Adobe (Nasdaq: ADBE), the global technology leader that unleashes creativity, productivity and...",
+          "timestamp": "2026-10-16T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
           "subject": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
           "body": "Volvo Cars today announced it is expanding its partnership with NVIDIA to...",
           "timestamp": "2026-10-16T04:00:02",
@@ -145,69 +181,6 @@
           "body": "The Nordic countries have become the European leader in unicorn startup density...",
           "timestamp": "2026-10-15T08:13:02",
           "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs",
-          "body": "NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including...",
-          "timestamp": "2026-10-15T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "How Block is building AI-powered security with OpenAI technology",
-          "body": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-          "timestamp": "2026-10-15T04:00:02",
-          "url": "https://openai.com/index/block-ai-powered-security",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "SentinelOne cuts malware analysis from weeks to hours",
-          "body": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-          "timestamp": "2026-10-15T04:00:02",
-          "url": "https://openai.com/index/sentinelone",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Amp puts AI agents to work beyond code with OpenAI models",
-          "body": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-          "timestamp": "2026-10-15T04:00:02",
-          "url": "https://openai.com/index/amp-beyond-coding",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
-          "body": "Across industries, the U. K. is putting the full stack to work —...",
-          "timestamp": "2026-10-14T08:31:02",
-          "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years",
-          "body": "NVIDIA today announced a five-year compute donation valued at $250 million to...",
-          "timestamp": "2026-10-14T08:31:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-          "body": "Keeping a city running means making decisions that affect residents every day...",
-          "timestamp": "2026-10-14T08:31:02",
-          "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -320,5 +293,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* NVIDIA announced a record-breaking quantum computing simulation on JUPITER, Europe’s first quantum computer.\n* NVIDIA and Mercedes-Benz expanded their strategic partnership to advance safe highly automated driving in the next decade.\n* NVIDIA RTX Spark PCs are now available, bringing together AI, graphics, and compute capabilities.\n* Adobe and NVIDIA expanded their collaboration to speed agentic creation.\n* OpenAI improved ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.\n* NVIDIA and semiconductor leaders advanced AI across chip design and manufacturing for AI-defined Fabs.\n\n**Trend:**\n\n* **Increased focus on AI and agentic creation**: Many of the key developments highlight the growing importance of AI and agentic creation in various industries, including automotive, computing, and software development. This trend is expected to continue as companies invest in AI research and development to stay competitive.\n\n**Insight:**\n\n* The developments suggest that AI is becoming increasingly integral to various industries, with a focus on creating more efficient and effective systems. This is likely to lead to further advancements in AI research and development, as well as increased adoption in various sectors.\n\n**Bullet Points:**\n\n* NVIDIA's quantum computing simulation on JUPITER achieved a record-breaking result.\n* NVIDIA and Mercedes-Benz expanded their partnership to advance safe highly automated driving.\n* NVIDIA RTX Spark PCs are now available, bringing together AI, graphics, and compute capabilities.\n* OpenAI improved ChatGPT across low-resource programming languages.\n* NVIDIA and semiconductor leaders advanced AI across chip design and manufacturing for AI-defined Fabs."
+  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **AWS and OpenAI Collaboration**: AWS and OpenAI have collaborated to provide Canadian organizations with access to OpenAI GPT models on Amazon Bedrock from Canada with cross-region inference.\n* **NVIDIA and Mercedes-Benz Partnership**: NVIDIA and Mercedes-Benz have expanded their strategic partnership to advance safe automated driving in the next decade.\n* **NVIDIA and Volvo Cars Partnership**: NVIDIA and Volvo Cars have also expanded their partnership to advance safe automated driving.\n* **OpenAI Acquisition**: OpenAI has acquired Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.\n* **Adobe and NVIDIA Collaboration**: Adobe and NVIDIA have expanded their collaboration to speed agentic creation.\n* **NVIDIA's Nemotron Models**: NVIDIA has released several Nemotron models, including Nemotron 3.5 Super VL, an open 120-billion-parameter model that can be fine-tuned for multilingual reasoning.\n\n**Trend:**\n\n* **Advancements in AI and Machine Learning**: The trend in the AI and machine learning space is towards more advanced and sophisticated models, such as the Nemotron models, which can be fine-tuned for specific tasks and applications. This trend is driven by the increasing demand for AI and machine learning solutions in various industries, including healthcare, finance, and transportation."
 }
