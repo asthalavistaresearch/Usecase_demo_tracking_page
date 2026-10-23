@@ -1,17 +1,233 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-22T06:59:02.760Z",
+  "timestamp": "2026-10-23T06:51:52.897Z",
   "categories": {
     "news": {
-      "count": 20,
+      "count": 36,
       "items": [
         {
-          "subject": "AWS: Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
-          "body": "Canadian organizations building generative AI applications on Amazon Bedrock often need the...",
-          "timestamp": "2026-10-21T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
+          "subject": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+          "body": "To help developers rapidly build world models, which help physical AI systems...",
+          "timestamp": "2026-10-22T08:18:01",
+          "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
           "extras": {
-            "data_origin": "AWS AI News"
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+          "body": "Companies around the world are building on the NVIDIA DSX AI Factory...",
+          "timestamp": "2026-10-22T08:18:01",
+          "url": "https://blogs.nvidia.com/blog/dsx-power/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+          "body": "European retailers are using open models and physical intelligence across use cases...",
+          "timestamp": "2026-10-22T08:18:01",
+          "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+          "body": "Weather forecasts shape more than daily plans; timely weather information is crucial...",
+          "timestamp": "2026-10-22T08:18:01",
+          "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+          "body": "Governments need modern solutions to serve the public while keeping sensitive information...",
+          "timestamp": "2026-10-22T08:18:01",
+          "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+          "body": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs.",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+          "body": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://openai.com/index/empowering-cyber-defenders",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+          "body": "To increase productivity, accelerate innovation and create new opportunities for economic growth...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+          "body": "General availability of the instances is coming next month, with planned expansion...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+          "body": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
+          "body": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+          "body": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+          "body": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+          "body": "NVIDIA today announced plans with a group of supply chain partners to...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+          "body": "Agents are only as useful as what they know, and only as...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Healthcare and Life Sciences Leaders Build on NVIDIA to Advance Drug Discovery and Expand Patient Care",
+          "body": "NVIDIA today announced collaborations with leading global healthcare and research organizations to...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "European Mobility Leaders Build Safe Vehicles and Robotaxi Fleets on NVIDIA Hyperion",
+          "body": "NVIDIA today announced that leading automakers in Europe and mobility providers, including...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/european-mobility-leaders-build-safe-vehicles-and-robotaxi-fleets-on-nvidia-hyperion",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Advances Isaac Platform for General-Purpose Robotics With New Reference Humanoid, Frameworks, Simulation Pipelines and Data",
+          "body": "NVIDIA today announced a major expansion of the NVIDIA Isaac™ open robotics...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+          "body": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://openai.com/index/building-chatgpt-ad-stack",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Cloudflare links vulnerability discovery to defense with OpenAI",
+          "body": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://openai.com/index/cloudflare-cyber",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Using thousands of AI agents to uncover new leads in biological data",
+          "body": "How OpenAI, PerturbAI, and Scripps Research used distributed AI agents to help scientists identify promising research leads in data from millions of brain cells",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+          "body": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI models are coming to Google Cloud",
+          "body": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://openai.com/index/openai-models-google-cloud",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Broad access through consistent standards",
+          "body": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://openai.com/index/broad-access-through-consistent-standards",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How AT&T is rethinking in-house legal work with OpenAI",
+          "body": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://openai.com/index/att-legal",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -24,6 +240,15 @@
           }
         },
         {
+          "subject": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+          "body": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+          "timestamp": "2026-10-21T04:00:02",
+          "url": "https://openai.com/index/ted-taylor-restaurant",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "OpenAI acquires Orchestra Bio",
           "body": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;D, helping biopharma teams accelerate drug development and advance new treatments.",
           "timestamp": "2026-10-21T04:00:02",
@@ -33,12 +258,12 @@
           }
         },
         {
-          "subject": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-          "body": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+          "subject": "AWS: Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
+          "body": "Canadian organizations building generative AI applications on Amazon Bedrock often need the...",
           "timestamp": "2026-10-21T04:00:02",
-          "url": "https://openai.com/index/ted-taylor-restaurant",
+          "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "AWS AI News"
           }
         },
         {
@@ -87,15 +312,6 @@
           }
         },
         {
-          "subject": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
-          "body": "Mercedes-Benz and NVIDIA today announced that they will extend their strategic partnership...",
-          "timestamp": "2026-10-17T04:00:01",
-          "url": "https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
           "body": "NVIDIA today announced the availability of NVIDIA RTX Spark™ laptops, bringing together...",
           "timestamp": "2026-10-17T04:00:01",
@@ -105,82 +321,10 @@
           }
         },
         {
-          "subject": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
-          "body": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s...",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
-          "body": "Dial in the next gaming session this GFN Thursday. New NVIDIA DLSS...",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-          "body": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that...",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-          "body": "A new beginning for Windows PCs starts tomorrow with the launch of...",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
-          "body": "Adobe (Nasdaq: ADBE), the global technology leader that unleashes creativity, productivity and...",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
-          "body": "Volvo Cars today announced it is expanding its partnership with NVIDIA to...",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Sullivan & Cromwell brings legal expertise into agreement review",
-          "body": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://openai.com/index/sullivan-cromwell",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Bringing GPT-Rosalind to academic research labs",
-          "body": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "timestamp": "2026-10-16T04:00:02",
-          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
-          "body": "The Nordic countries have become the European leader in unicorn startup density...",
-          "timestamp": "2026-10-15T08:13:02",
-          "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+          "subject": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
+          "body": "Mercedes-Benz and NVIDIA today announced that they will extend their strategic partnership...",
+          "timestamp": "2026-10-17T04:00:01",
+          "url": "https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -188,8 +332,18 @@
       ]
     },
     "models": {
-      "count": 10,
+      "count": 6,
       "items": [
+        {
+          "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"deploy:sagemaker\", \"deploy:azure\", \"region:us\"]",
+          "timestamp": "2026-10-22T17:24:14",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
         {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"arxiv:2601.20088\", \"arxiv:2502.02631\", \"arxiv:2502.05003\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"license:other\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
@@ -205,16 +359,6 @@
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:finetune:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
           "timestamp": "2026-10-19T04:31:02",
           "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"deploy:sagemaker\", \"region:us\"]",
-          "timestamp": "2026-10-16T23:39:54",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
           "extras": {
             "data_origin": "huggingface",
             "namespace": "nvidia"
@@ -249,49 +393,9 @@
             "data_origin": "huggingface",
             "namespace": "unsloth"
           }
-        },
-        {
-          "subject": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen4_exp\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"FP4\", \"fp4\", \"image-text-to-text\", \"conversational\", \"base_model:Qwen/Qwen3.8-Flash-Next\", \"base_model:quantized:Qwen/Qwen3.8-Flash-Next\", \"license:other\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-10-15T19:45:54",
-          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
-          "body": "[\"transformers\", \"gguf\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"image-text-to-text\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"arxiv:2601.20088\", \"arxiv:2502.02631\", \"arxiv:2502.05003\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
-          "timestamp": "2026-10-15T18:10:28",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"mtp\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"region:us\"]",
-          "timestamp": "2026-10-15T17:03:20",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        },
-        {
-          "subject": "unsloth/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-GGUF",
-          "body": "[\"gguf\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"unsloth\", \"image-text-to-text\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
-          "timestamp": "2026-10-15T14:55:06",
-          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-GGUF",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "unsloth"
-          }
         }
       ]
     }
   },
-  "summary": "Here are the key developments with insight:\n\n**Key Developments:**\n\n* **AWS and OpenAI Collaboration**: AWS and OpenAI have collaborated to provide Canadian organizations with access to OpenAI GPT models on Amazon Bedrock from Canada with cross-region inference.\n* **NVIDIA and Mercedes-Benz Partnership**: NVIDIA and Mercedes-Benz have expanded their strategic partnership to advance safe automated driving in the next decade.\n* **NVIDIA and Volvo Cars Partnership**: NVIDIA and Volvo Cars have also expanded their partnership to advance safe automated driving.\n* **OpenAI Acquisition**: OpenAI has acquired Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.\n* **Adobe and NVIDIA Collaboration**: Adobe and NVIDIA have expanded their collaboration to speed agentic creation.\n* **NVIDIA's Nemotron Models**: NVIDIA has released several Nemotron models, including Nemotron 3.5 Super VL, an open 120-billion-parameter model that can be fine-tuned for multilingual reasoning.\n\n**Trend:**\n\n* **Advancements in AI and Machine Learning**: The trend in the AI and machine learning space is towards more advanced and sophisticated models, such as the Nemotron models, which can be fine-tuned for specific tasks and applications. This trend is driven by the increasing demand for AI and machine learning solutions in various industries, including healthcare, finance, and transportation."
+  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA Cosmos**: NVIDIA has launched a new toolset to help developers rapidly build world models, which help physical AI systems understand and interact with the world.\n* **NVIDIA DSX**: Companies around the world are using NVIDIA DSX AI Factory to build and deploy AI models, breaking the power bottleneck and accelerating innovation.\n* **NVIDIA Earth-2**: Pioneers across Europe are deploying NVIDIA Earth-2 open models to power real-world weather and climate prediction, shaping daily plans and providing timely weather information.\n* **NVIDIA Open Models**: NVIDIA Open Models are being used in various European public sector projects, enabling governments to serve the public while keeping sensitive information secure.\n* **NVIDIA cuDSS**: NVIDIA has launched cuDSS, a CUDA-X library that shifts critical parts of engineering and scientific simulations onto GPUs, accelerating these simulations.\n* **NVIDIA and Supply Chain Partners**: NVIDIA and a group of supply chain partners are expanding capacity to accelerate AI infrastructure buildout, enabling companies to build and deploy AI models more quickly.\n\n**Trend:**\n\n* **AI Infrastructure Buildout**: The trend in the AI industry is towards accelerating AI infrastructure buildout, with companies like NVIDIA and supply chain partners working together to expand capacity and enable faster AI model development and deployment. This trend is driven by the increasing demand for AI-powered applications and the need for companies to stay competitive in the market."
 }
