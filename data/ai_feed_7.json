@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-24T06:47:50.122Z",
+  "timestamp": "2026-10-25T07:11:45.648Z",
   "categories": {
     "news": {
-      "count": 39,
+      "count": 40,
       "items": [
+        {
+          "subject": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+          "body": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+          "timestamp": "2026-10-24T04:00:01",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Product Hunt Launch: Dots Phone",
           "body": "A phone-calling plugin for OpenAI Dots",
@@ -51,19 +60,19 @@
           }
         },
         {
-          "subject": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
-          "body": "Governments need modern solutions to serve the public while keeping sensitive information...",
+          "subject": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+          "body": "Weather forecasts shape more than daily plans; timely weather information is crucial...",
           "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+          "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-          "body": "Weather forecasts shape more than daily plans; timely weather information is crucial...",
+          "subject": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+          "body": "Governments need modern solutions to serve the public while keeping sensitive information...",
           "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+          "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -96,10 +105,10 @@
           }
         },
         {
-          "subject": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-          "body": "General availability of the instances is coming next month, with planned expansion...",
+          "subject": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+          "body": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI...",
           "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+          "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -177,19 +186,10 @@
           }
         },
         {
-          "subject": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-          "body": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI...",
+          "subject": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+          "body": "General availability of the instances is coming next month, with planned expansion...",
           "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-          "body": "To increase productivity, accelerate innovation and create new opportunities for economic growth...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -271,6 +271,15 @@
           "body": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs.",
           "timestamp": "2026-10-22T04:00:02",
           "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+          "body": "To increase productivity, accelerate innovation and create new opportunities for economic growth...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -359,8 +368,18 @@
       ]
     },
     "models": {
-      "count": 4,
+      "count": 5,
       "items": [
+        {
+          "subject": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+          "body": "[\"gguf\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"unsloth\", \"text-generation\", \"en\", \"ar\", \"bg\", \"cs\", \"da\", \"de\", \"el\", \"es\", \"et\", \"fi\", \"fr\", \"hi\", \"hr\", \"hu\", \"id\", \"it\", \"ja\", \"ko\", \"lt\", \"lv\", \"nl\", \"no\", \"pl\", \"pt\", \"ro\", \"ru\", \"sk\", \"sl\", \"sv\", \"th\", \"tr\", \"uk\", \"vi\", \"zh\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"conversational\"]",
+          "timestamp": "2026-10-24T04:00:15",
+          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "unsloth"
+          }
+        },
         {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16\", \"license:other\", \"eval-results\", \"endpoints_compatible\", \"8-bit\", \"modelopt_mixed\", \"deploy:sagemaker\", \"deploy:azure\", \"region:us\"]",
@@ -404,5 +423,5 @@
       ]
     }
   },
-  "summary": "Here are 4-6 bullet points highlighting key developments with insight:\n\n* **OpenAI and NVIDIA partner on AI safety and security**: OpenAI and Poland's NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.\n* **NVIDIA makes major strides in AI technology**: NVIDIA has announced several major advancements in AI technology, including the expansion of the NVIDIA Isaac platform for general-purpose robotics, the NVIDIA Vera CPUs for building local infrastructure, and the NVIDIA cuDSS library for accelerating engineering and scientific simulations.\n* **OpenAI expands its capabilities**: OpenAI has acquired Orchestra Bio, a biopharma platform, and is working with companies such as Uber, AT&T, and Google Cloud to bring its technology to new domains.\n* **ChatGPT Ads expands to 26 new countries**: OpenAI has expanded its ChatGPT Ads platform to 26 new countries, allowing more advertisers to reach people as they explore, compare, and decide what to buy in ChatGPT.\n* **European leaders turn to NVIDIA for AI infrastructure**: European leaders are turning to NVIDIA for AI infrastructure, with companies such as Blaize and Scaleways building on NVIDIA's GPU acceleration, and Jülich Supercomputing Centre partnership to simulate fault-tolerant quantum computing.\n* **Natural Language Processing (NLP) advancements**: The Nemotron-3.5 AI model has been fine-tuned for multilingual reasoning and is compatible with various environments, and NVIDIA has announced the NVIDIA/Nemotron-3.5-Super-VL-120B-A12B-NVFP4 model, which can handle conversational dialogue.\n\nTrend: **Increased focus on AI infrastructure and safety**: There is a growing emphasis on building more robust and secure AI infrastructure, with companies like NVIDIA and OpenAI investing heavily in this area and working with partners to develop new technologies and safeguards."
+  "summary": "Here are 4-6 bullet points and 1 trend with insights:\n\n**Bullet Points:**\n\n* OpenAI has scaled its online storage to serve over 1 billion ChatGPT users, with a 12x faster read speed, using reliable multi-tenancy, global caching, and Azure Cosmos DB.\n* Uber is rolling out ChatGPT Work to all employees, helping teams research, analyze data, create presentations, and complete complex workflows.\n* OpenAI has acquired Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.\n* NVIDIA has announced a major expansion of the NVIDIA Isaac platform for general-purpose robotics, with new reference humanoids, frameworks, simulation pipelines, and data.\n* Google Cloud and NVIDIA have announced the general availability of NVIDIA Vera Rubin Infrastructure, with planned expansion to support AI workloads.\n* NVIDIA has launched cuDSS, a CUDA-X library that shifts critical parts of engineering and scientific simulations onto GPUs, in general availability.\n\n**Trend:**\n\n* **AI Infrastructure and Scaling:** The trend is towards AI infrastructure and scaling, with companies like OpenAI, NVIDIA, and Google Cloud investing heavily in AI infrastructure and scaling to support the increasing demand for AI workloads. This trend is driven by the growing need for AI-powered applications, research, and innovation, and the need for companies to stay competitive in the market.\n\n**Insights:**\n\n* The increasing demand for AI workloads is driving the growth of AI infrastructure and scaling, with companies investing in new technologies and partnerships to support this growth.\n* The trend towards AI infrastructure and scaling is not limited to any specific company or industry, but is a broader trend that is shaping the future of AI development and deployment.\n* The growth of AI infrastructure and scaling is also driving the growth of new technologies and innovations, such as NVIDIA's cuDSS library and OpenAI's scaling of online storage to serve over 1 billion ChatGPT users."
 }
