@@ -1,15 +1,78 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-27T07:11:37.584Z",
+  "timestamp": "2026-10-28T07:50:33.093Z",
   "categories": {
     "news": {
-      "count": 36,
+      "count": 37,
       "items": [
+        {
+          "subject": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+          "body": "NVIDIA and Meta today announced they will partner to expand their work...",
+          "timestamp": "2026-10-27T08:41:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+          "body": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+          "timestamp": "2026-10-27T04:00:02",
+          "url": "https://openai.com/index/openai-cut-incident-investigation",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How Fanatics and OpenAI streamline the fan experience",
+          "body": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+          "timestamp": "2026-10-27T04:00:02",
+          "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "ChatGPT’s expanding world of work",
+          "body": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+          "timestamp": "2026-10-27T04:00:02",
+          "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Working with academic communities to build scientific understanding",
+          "body": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+          "timestamp": "2026-10-27T04:00:02",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Tech leaders want to use religion to teach AI right from wrong. But that can prioritize certain traditions and distort others, anthropologist warns",
+          "body": "“What I think ChatGPT should do is reflect that weighted average, or whatever, of humanity’s moral view,” OpenAI CEO Sam Altman said last year.",
+          "timestamp": "2026-10-27T04:00:02",
+          "url": "https://fortune.com/2026/10/25/tech-leaders-religion-ai-morality-traditions-anthropic-openai/",
+          "extras": {
+            "data_origin": "Fortune"
+          }
+        },
         {
           "subject": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
           "body": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
           "timestamp": "2026-10-24T04:00:01",
           "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+          "body": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+          "timestamp": "2026-10-23T08:14:01",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -21,15 +84,6 @@
           "url": "https://www.producthunt.com/products/dots-phone",
           "extras": {
             "data_origin": "Product Hunt"
-          }
-        },
-        {
-          "subject": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-          "body": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-          "timestamp": "2026-10-23T08:14:01",
-          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-          "extras": {
-            "data_origin": "OpenAI News"
           }
         },
         {
@@ -60,28 +114,10 @@
           }
         },
         {
-          "subject": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-          "body": "European retailers are using open models and physical intelligence across use cases...",
+          "subject": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+          "body": "To help developers rapidly build world models, which help physical AI systems...",
           "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
-          "body": "Governments need modern solutions to serve the public while keeping sensitive information...",
-          "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-          "body": "Weather forecasts shape more than daily plans; timely weather information is crucial...",
-          "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+          "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -96,28 +132,28 @@
           }
         },
         {
-          "subject": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-          "body": "To help developers rapidly build world models, which help physical AI systems...",
+          "subject": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+          "body": "European retailers are using open models and physical intelligence across use cases...",
           "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+          "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-          "body": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+          "subject": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+          "body": "Weather forecasts shape more than daily plans; timely weather information is crucial...",
+          "timestamp": "2026-10-22T08:18:01",
+          "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "NVIDIA Advances Isaac Platform for General-Purpose Robotics With New Reference Humanoid, Frameworks, Simulation Pipelines and Data",
-          "body": "NVIDIA today announced a major expansion of the NVIDIA Isaac™ open robotics...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
+          "subject": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+          "body": "Governments need modern solutions to serve the public while keeping sensitive information...",
+          "timestamp": "2026-10-22T08:18:01",
+          "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -132,57 +168,21 @@
           }
         },
         {
-          "subject": "Healthcare and Life Sciences Leaders Build on NVIDIA to Advance Drug Discovery and Expand Patient Care",
-          "body": "NVIDIA today announced collaborations with leading global healthcare and research organizations to...",
+          "subject": "NVIDIA Advances Isaac Platform for General-Purpose Robotics With New Reference Humanoid, Frameworks, Simulation Pipelines and Data",
+          "body": "NVIDIA today announced a major expansion of the NVIDIA Isaac™ open robotics...",
           "timestamp": "2026-10-22T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
           "extras": {
             "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-          "body": "Agents are only as useful as what they know, and only as...",
+          "subject": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+          "body": "To increase productivity, accelerate innovation and create new opportunities for economic growth...",
           "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+          "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
           "extras": {
             "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
-          "body": "NVIDIA today announced plans with a group of supply chain partners to...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-          "body": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
-          "body": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "How AT&T is rethinking in-house legal work with OpenAI",
-          "body": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://openai.com/index/att-legal",
-          "extras": {
-            "data_origin": "OpenAI News"
           }
         },
         {
@@ -258,12 +258,12 @@
           }
         },
         {
-          "subject": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-          "body": "To increase productivity, accelerate innovation and create new opportunities for economic growth...",
+          "subject": "How AT&T is rethinking in-house legal work with OpenAI",
+          "body": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
           "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+          "url": "https://openai.com/index/att-legal",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -285,48 +285,57 @@
           }
         },
         {
-          "subject": "AWS: Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
-          "body": "Canadian organizations building generative AI applications on Amazon Bedrock often need the...",
-          "timestamp": "2026-10-21T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
+          "subject": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
+          "body": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
           "extras": {
-            "data_origin": "AWS AI News"
+            "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "AWS: Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
-          "body": "GPT-OSS-20B is an open-weight reasoning model that thinks in English. Ask it...",
-          "timestamp": "2026-10-21T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
+          "subject": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+          "body": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
           "extras": {
-            "data_origin": "AWS AI News"
+            "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "OpenAI acquires Orchestra Bio",
-          "body": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;D, helping biopharma teams accelerate drug development and advance new treatments.",
-          "timestamp": "2026-10-21T04:00:02",
-          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+          "subject": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+          "body": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-          "body": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-          "timestamp": "2026-10-21T04:00:02",
-          "url": "https://openai.com/index/ted-taylor-restaurant",
+          "subject": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+          "body": "NVIDIA today announced plans with a group of supply chain partners to...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "Product Hunt Launch: Jotform App Builder for ChatGPT & Claude",
-          "body": "Build and edit no-code apps inside ChatGPT & Claude",
-          "timestamp": "2026-10-20T08:12:02",
-          "url": "https://www.producthunt.com/products/jotform",
+          "subject": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+          "body": "Agents are only as useful as what they know, and only as...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
           "extras": {
-            "data_origin": "Product Hunt"
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Healthcare and Life Sciences Leaders Build on NVIDIA to Advance Drug Discovery and Expand Patient Care",
+          "body": "NVIDIA today announced collaborations with leading global healthcare and research organizations to...",
+          "timestamp": "2026-10-22T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         }
       ]
@@ -355,6 +364,16 @@
           }
         },
         {
+          "subject": "nvidia/MotionBricks",
+          "body": "[\"pytorch\", \"nvidia\", \"motionbricks\", \"motion-generation\", \"pose-conditioned\", \"robotics\", \"animation\", \"arxiv:2604.24833\", \"region:us\"]",
+          "timestamp": "2026-10-23T18:49:31",
+          "url": "https://huggingface.co/nvidia/MotionBricks",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
           "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
           "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"deploy:sagemaker\", \"deploy:azure\", \"region:us\"]",
           "timestamp": "2026-10-22T17:24:14",
@@ -363,19 +382,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"arxiv:2605.07182\", \"arxiv:2601.20088\", \"arxiv:2502.02631\", \"arxiv:2502.05003\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16\", \"license:other\", \"endpoints_compatible\", \"8-bit\", \"modelopt\", \"region:us\"]",
-          "timestamp": "2026-10-20T20:02:05",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are the key developments with insights:\n\n**Bullet Points:**\n\n* **ChatGPT Expansion**: ChatGPT is expanding rapidly, with OpenAI announcing that it now has over 1 billion users. To serve such a large user base, OpenAI has scaled its online storage using Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB, delivering 12× faster reads.\n* **NVIDIA and OpenAI Partnerships**: NVIDIA and OpenAI are partnering to advance AI safety and security. Additionally, NVIDIA has announced various partnerships with European retailers, public sector projects, and healthcare and life sciences leaders to build on its technology for AI.\n* **Product Hunt Launches**: Product Hunt has launched several new products, including Dots Phone (a phone-calling plugin for OpenAI Dots), Kalender Sync (a tool for syncing calendars and connecting them to ChatGPT and Claude), and Jotform App Builder for ChatGPT & Claude (a no-code app builder).\n* **Cloudflare and OpenAI Partnership**: Cloudflare has partnered with OpenAI to use its Daybreak tool for vulnerability discovery and propose fixes for review.\n* **NVIDIA and Google Cloud Partnership**: Google Cloud and NVIDIA have announced the general availability of NVIDIA Vera Rubin Infrastructure.\n* **OpenAI Model Availability**: OpenAI models are now available on Google Cloud, including frontier models and Codex workflows in Gemini's Model Garden.\n* **European Leaders Embracing NVIDIA Technology**: European leaders are embracing NVIDIA technology, with NVIDIA announcing various partnerships with European retailers, public sector projects, and healthcare and life sciences leaders.\n\n**Trend:**\n\nThe trend observed in the data is the ongoing expansion of AI and related technologies across various industries and sectors. The partnerships between NVIDIA and OpenAI, NVIDIA and Google Cloud, and the launch of new products on Product Hunt demonstrate the increasing interest in AI and machine learning. Additionally, the availability of OpenAI models on Google Cloud and the expanding user base of ChatGPT indicate the growing demand for AI and related technologies."
+  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments with Insight:**\n\nThe recent news highlights the growing collaboration between tech giants and AI researchers, with NVIDIA and Meta expanding their work on Muse and Muse Family of Models, and OpenAI partnering with various organizations to advance AI safety and security. Additionally, OpenAI is making its models available on Google Cloud, and NVIDIA is launching new tools and infrastructure to accelerate AI development.\n\n**Bullet Points:**\n\n* **NVIDIA and Meta expand collaboration on Muse and Muse Family of Models**: NVIDIA and Meta announced they will partner to expand their work on Muse and Muse Family of Models, amid robust growth.\n* **OpenAI partners with various organizations**: OpenAI is partnering with organizations such as Poland's NASK to advance AI safety and security, and with Google Cloud to make its models available on the platform.\n* **NVIDIA launches new tools and infrastructure**: NVIDIA is launching new tools and infrastructure to accelerate AI development, including NVIDIA cuDSS, a CUDA-X library that shifts critical parts of engineering and scientific simulations onto GPUs.\n* **OpenAI makes its models available on Google Cloud**: OpenAI is making its models available on Google Cloud, enabling developers to access and deploy AI models more easily.\n* **NVIDIA and OpenAI advance AI safety and security**: NVIDIA and OpenAI are partnering to advance AI safety and security, with a focus on strengthening safeguards and supporting a more resilient digital ecosystem.\n\n**Trend:**\n\n**Increased Collaboration and Advancements in AI Research and Development**\n\nThe recent news highlights the growing collaboration between tech giants and AI researchers, with a focus on advancing AI safety and security, and making AI models more accessible and deployable. This trend is expected to continue, with more organizations partnering to accelerate AI research and development, and making significant advancements in AI capabilities."
 }
