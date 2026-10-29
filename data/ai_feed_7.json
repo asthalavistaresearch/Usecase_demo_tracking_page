@@ -1,10 +1,64 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-28T07:50:33.093Z",
+  "timestamp": "2026-10-29T07:55:53.174Z",
   "categories": {
     "news": {
-      "count": 37,
+      "count": 23,
       "items": [
+        {
+          "subject": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
+          "body": "NVIDIA and Oracle today announced plans to expand Oracle Cloud Infrastructure (OCI)...",
+          "timestamp": "2026-10-28T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How Localiza reorganized work around generative AI",
+          "body": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+          "timestamp": "2026-10-28T04:00:02",
+          "url": "https://openai.com/index/localiza-generative-ai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+          "body": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+          "timestamp": "2026-10-28T04:00:02",
+          "url": "https://openai.com/index/anima",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How Check Point accelerates vulnerability research with Daybreak",
+          "body": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+          "timestamp": "2026-10-28T04:00:02",
+          "url": "https://openai.com/index/check-point-daybreak",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "body": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+          "timestamp": "2026-10-28T04:00:02",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Retell uses OpenAI models to help power 100M monthly calls",
+          "body": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "timestamp": "2026-10-28T04:00:02",
+          "url": "https://openai.com/index/retell-ai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
           "body": "NVIDIA and Meta today announced they will partner to expand their work...",
@@ -12,6 +66,15 @@
           "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
           "extras": {
             "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Tech leaders want to use religion to teach AI right from wrong. But that can prioritize certain traditions and distort others, anthropologist warns",
+          "body": "“What I think ChatGPT should do is reflect that weighted average, or whatever, of humanity’s moral view,” OpenAI CEO Sam Altman said last year.",
+          "timestamp": "2026-10-27T04:00:02",
+          "url": "https://fortune.com/2026/10/25/tech-leaders-religion-ai-morality-traditions-anthropic-openai/",
+          "extras": {
+            "data_origin": "Fortune"
           }
         },
         {
@@ -51,28 +114,10 @@
           }
         },
         {
-          "subject": "Tech leaders want to use religion to teach AI right from wrong. But that can prioritize certain traditions and distort others, anthropologist warns",
-          "body": "“What I think ChatGPT should do is reflect that weighted average, or whatever, of humanity’s moral view,” OpenAI CEO Sam Altman said last year.",
-          "timestamp": "2026-10-27T04:00:02",
-          "url": "https://fortune.com/2026/10/25/tech-leaders-religion-ai-morality-traditions-anthropic-openai/",
-          "extras": {
-            "data_origin": "Fortune"
-          }
-        },
-        {
           "subject": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
           "body": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
           "timestamp": "2026-10-24T04:00:01",
           "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-          "body": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-          "timestamp": "2026-10-23T08:14:01",
-          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -84,6 +129,15 @@
           "url": "https://www.producthunt.com/products/dots-phone",
           "extras": {
             "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+          "body": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+          "timestamp": "2026-10-23T08:14:01",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+          "extras": {
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -111,6 +165,15 @@
           "url": "https://openai.com/index/forward-deployed-engineering-means",
           "extras": {
             "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+          "body": "Governments need modern solutions to serve the public while keeping sensitive information...",
+          "timestamp": "2026-10-22T08:18:01",
+          "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -145,195 +208,6 @@
           "body": "Weather forecasts shape more than daily plans; timely weather information is crucial...",
           "timestamp": "2026-10-22T08:18:01",
           "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
-          "body": "Governments need modern solutions to serve the public while keeping sensitive information...",
-          "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "European Mobility Leaders Build Safe Vehicles and Robotaxi Fleets on NVIDIA Hyperion",
-          "body": "NVIDIA today announced that leading automakers in Europe and mobility providers, including...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/european-mobility-leaders-build-safe-vehicles-and-robotaxi-fleets-on-nvidia-hyperion",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Advances Isaac Platform for General-Purpose Robotics With New Reference Humanoid, Frameworks, Simulation Pipelines and Data",
-          "body": "NVIDIA today announced a major expansion of the NVIDIA Isaac™ open robotics...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-          "body": "To increase productivity, accelerate innovation and create new opportunities for economic growth...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Broad access through consistent standards",
-          "body": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://openai.com/index/broad-access-through-consistent-standards",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI models are coming to Google Cloud",
-          "body": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://openai.com/index/openai-models-google-cloud",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-          "body": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Using thousands of AI agents to uncover new leads in biological data",
-          "body": "How OpenAI, PerturbAI, and Scripps Research used distributed AI agents to help scientists identify promising research leads in data from millions of brain cells",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Cloudflare links vulnerability discovery to defense with OpenAI",
-          "body": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://openai.com/index/cloudflare-cyber",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-          "body": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://openai.com/index/building-chatgpt-ad-stack",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-          "body": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://openai.com/index/empowering-cyber-defenders",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-          "body": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs.",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "How AT&T is rethinking in-house legal work with OpenAI",
-          "body": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://openai.com/index/att-legal",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-          "body": "General availability of the instances is coming next month, with planned expansion...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-          "body": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
-          "body": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-          "body": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-          "body": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
-          "body": "NVIDIA today announced plans with a group of supply chain partners to...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-          "body": "Agents are only as useful as what they know, and only as...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Healthcare and Life Sciences Leaders Build on NVIDIA to Advance Drug Discovery and Expand Patient Care",
-          "body": "NVIDIA today announced collaborations with leading global healthcare and research organizations to...",
-          "timestamp": "2026-10-22T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/healthcare-and-life-sciences-leaders-build-on-nvidia-to-advance-drug-discovery-and-expand-patient-care",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -386,5 +260,5 @@
       ]
     }
   },
-  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments with Insight:**\n\nThe recent news highlights the growing collaboration between tech giants and AI researchers, with NVIDIA and Meta expanding their work on Muse and Muse Family of Models, and OpenAI partnering with various organizations to advance AI safety and security. Additionally, OpenAI is making its models available on Google Cloud, and NVIDIA is launching new tools and infrastructure to accelerate AI development.\n\n**Bullet Points:**\n\n* **NVIDIA and Meta expand collaboration on Muse and Muse Family of Models**: NVIDIA and Meta announced they will partner to expand their work on Muse and Muse Family of Models, amid robust growth.\n* **OpenAI partners with various organizations**: OpenAI is partnering with organizations such as Poland's NASK to advance AI safety and security, and with Google Cloud to make its models available on the platform.\n* **NVIDIA launches new tools and infrastructure**: NVIDIA is launching new tools and infrastructure to accelerate AI development, including NVIDIA cuDSS, a CUDA-X library that shifts critical parts of engineering and scientific simulations onto GPUs.\n* **OpenAI makes its models available on Google Cloud**: OpenAI is making its models available on Google Cloud, enabling developers to access and deploy AI models more easily.\n* **NVIDIA and OpenAI advance AI safety and security**: NVIDIA and OpenAI are partnering to advance AI safety and security, with a focus on strengthening safeguards and supporting a more resilient digital ecosystem.\n\n**Trend:**\n\n**Increased Collaboration and Advancements in AI Research and Development**\n\nThe recent news highlights the growing collaboration between tech giants and AI researchers, with a focus on advancing AI safety and security, and making AI models more accessible and deployable. This trend is expected to continue, with more organizations partnering to accelerate AI research and development, and making significant advancements in AI capabilities."
+  "summary": "Here are key developments, insights, and a trend:\n\n**Key Developments:**\n\n* **NVIDIA-Oracle Partnership Expansion**: NVIDIA and Oracle announced plans to expand NVIDIA Vera Rubin to multi-gigawatt scale and bring NVIDIA Vera CPU to Oracle Cloud Infrastructure, enhancing AI computation capabilities.\n* **OpenAI-Powered Enterprise Solutions**: Companies such as Localiza, Anima, and Retell are leveraging OpenAI's technologies, including ChatGPT, GPT-6, and Codex, to reorganize work, streamline processes, and build AI-native experiences.\n* **NVIDIA-Cosmos Expansion**: NVIDIA and Meta will collaborate to expand their work on Muse and Muse Family of Models, driving robust growth in AI research and development.\n\n**Key Insights:**\n\n* **Growing Adoption of Generative AI**: Enterprises are rapidly adopting OpenAI's generative AI technologies, demonstrating the increasing importance of AI in business operations and decision-making.\n* **Partnerships and Collaborations**: Strategic partnerships between NVIDIA, Oracle, OpenAI, and Meta are driving innovation, growth, and market expansion in the AI ecosystem.\n* **Advances in AI Model Development**: The development of complex AI models, such as NVIDIA's Nemotron and OpenAI's ChatGPT, is enabling new applications, enhancing productivity, and improving business outcomes.\n\n**Trend:**\n\n**The Rise of Generative AI in Enterprise Applications**: The increasing adoption of generative AI technologies, such as OpenAI's ChatGPT and GPT-6, demonstrates the growing importance of AI in enterprise decision-making and operations. As enterprises seek to automate processes, improve productivity, and enhance customer experiences, generative AI is becoming a critical component of business strategy."
 }
