@@ -1,42 +1,15 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-10-29T07:55:53.174Z",
+  "timestamp": "2026-10-30T07:58:30.617Z",
   "categories": {
     "news": {
-      "count": 23,
+      "count": 15,
       "items": [
         {
-          "subject": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
-          "body": "NVIDIA and Oracle today announced plans to expand Oracle Cloud Infrastructure (OCI)...",
+          "subject": "Retell uses OpenAI models to help power 100M monthly calls",
+          "body": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
           "timestamp": "2026-10-28T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "How Localiza reorganized work around generative AI",
-          "body": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-          "timestamp": "2026-10-28T04:00:02",
-          "url": "https://openai.com/index/localiza-generative-ai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
-          "body": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
-          "timestamp": "2026-10-28T04:00:02",
-          "url": "https://openai.com/index/anima",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Check Point accelerates vulnerability research with Daybreak",
-          "body": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-          "timestamp": "2026-10-28T04:00:02",
-          "url": "https://openai.com/index/check-point-daybreak",
+          "url": "https://openai.com/index/retell-ai",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -51,12 +24,39 @@
           }
         },
         {
-          "subject": "Retell uses OpenAI models to help power 100M monthly calls",
-          "body": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "subject": "How Check Point accelerates vulnerability research with Daybreak",
+          "body": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
           "timestamp": "2026-10-28T04:00:02",
-          "url": "https://openai.com/index/retell-ai",
+          "url": "https://openai.com/index/check-point-daybreak",
           "extras": {
             "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+          "body": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+          "timestamp": "2026-10-28T04:00:02",
+          "url": "https://openai.com/index/anima",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How Localiza reorganized work around generative AI",
+          "body": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+          "timestamp": "2026-10-28T04:00:02",
+          "url": "https://openai.com/index/localiza-generative-ai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
+          "body": "NVIDIA and Oracle today announced plans to expand Oracle Cloud Infrastructure (OCI)...",
+          "timestamp": "2026-10-28T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -78,19 +78,10 @@
           }
         },
         {
-          "subject": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-          "body": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+          "subject": "Working with academic communities to build scientific understanding",
+          "body": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
           "timestamp": "2026-10-27T04:00:02",
-          "url": "https://openai.com/index/openai-cut-incident-investigation",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Fanatics and OpenAI streamline the fan experience",
-          "body": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-          "timestamp": "2026-10-27T04:00:02",
-          "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -105,10 +96,19 @@
           }
         },
         {
-          "subject": "Working with academic communities to build scientific understanding",
-          "body": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+          "subject": "How Fanatics and OpenAI streamline the fan experience",
+          "body": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
           "timestamp": "2026-10-27T04:00:02",
-          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+          "body": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+          "timestamp": "2026-10-27T04:00:02",
+          "url": "https://openai.com/index/openai-cut-incident-investigation",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -123,15 +123,6 @@
           }
         },
         {
-          "subject": "Product Hunt Launch: Dots Phone",
-          "body": "A phone-calling plugin for OpenAI Dots",
-          "timestamp": "2026-10-23T08:14:01",
-          "url": "https://www.producthunt.com/products/dots-phone",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
-        },
-        {
           "subject": "OpenAI and Poland’s NASK partner to advance AI safety and security",
           "body": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
           "timestamp": "2026-10-23T08:14:01",
@@ -141,81 +132,18 @@
           }
         },
         {
-          "subject": "Product Hunt Launch: Kalender Sync",
-          "body": "Sync your calendars & connect them to ChatGPT, Claude & Co.",
-          "timestamp": "2026-10-23T04:00:02",
-          "url": "https://www.producthunt.com/products/kalender-sync",
+          "subject": "Product Hunt Launch: Dots Phone",
+          "body": "A phone-calling plugin for OpenAI Dots",
+          "timestamp": "2026-10-23T08:14:01",
+          "url": "https://www.producthunt.com/products/dots-phone",
           "extras": {
             "data_origin": "Product Hunt"
-          }
-        },
-        {
-          "subject": "Uber brings ChatGPT Work to all employees with OpenAI",
-          "body": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-          "timestamp": "2026-10-23T04:00:02",
-          "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "What FDE means at OpenAI",
-          "body": "What forward deployed engineering means at OpenAI",
-          "timestamp": "2026-10-23T04:00:02",
-          "url": "https://openai.com/index/forward-deployed-engineering-means",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
-          "body": "Governments need modern solutions to serve the public while keeping sensitive information...",
-          "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-          "body": "To help developers rapidly build world models, which help physical AI systems...",
-          "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
-          "body": "Companies around the world are building on the NVIDIA DSX AI Factory...",
-          "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/dsx-power/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-          "body": "European retailers are using open models and physical intelligence across use cases...",
-          "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-          "body": "Weather forecasts shape more than daily plans; timely weather information is crucial...",
-          "timestamp": "2026-10-22T08:18:01",
-          "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
-          "extras": {
-            "data_origin": "NVIDIA News"
           }
         }
       ]
     },
     "models": {
-      "count": 4,
+      "count": 3,
       "items": [
         {
           "subject": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
@@ -246,19 +174,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-          "body": "[\"transformers\", \"safetensors\", \"nemotron_h_omni\", \"image-text-to-text\", \"nvidia\", \"pytorch\", \"nemotron-3.5\", \"conversational\", \"custom_code\", \"en\", \"es\", \"fr\", \"de\", \"it\", \"ja\", \"dataset:nvidia/nemotron-post-training-v3\", \"dataset:nvidia/nemotron-pre-training-datasets\", \"license:other\", \"endpoints_compatible\", \"deploy:sagemaker\", \"deploy:azure\", \"region:us\"]",
-          "timestamp": "2026-10-22T17:24:14",
-          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "Here are key developments, insights, and a trend:\n\n**Key Developments:**\n\n* **NVIDIA-Oracle Partnership Expansion**: NVIDIA and Oracle announced plans to expand NVIDIA Vera Rubin to multi-gigawatt scale and bring NVIDIA Vera CPU to Oracle Cloud Infrastructure, enhancing AI computation capabilities.\n* **OpenAI-Powered Enterprise Solutions**: Companies such as Localiza, Anima, and Retell are leveraging OpenAI's technologies, including ChatGPT, GPT-6, and Codex, to reorganize work, streamline processes, and build AI-native experiences.\n* **NVIDIA-Cosmos Expansion**: NVIDIA and Meta will collaborate to expand their work on Muse and Muse Family of Models, driving robust growth in AI research and development.\n\n**Key Insights:**\n\n* **Growing Adoption of Generative AI**: Enterprises are rapidly adopting OpenAI's generative AI technologies, demonstrating the increasing importance of AI in business operations and decision-making.\n* **Partnerships and Collaborations**: Strategic partnerships between NVIDIA, Oracle, OpenAI, and Meta are driving innovation, growth, and market expansion in the AI ecosystem.\n* **Advances in AI Model Development**: The development of complex AI models, such as NVIDIA's Nemotron and OpenAI's ChatGPT, is enabling new applications, enhancing productivity, and improving business outcomes.\n\n**Trend:**\n\n**The Rise of Generative AI in Enterprise Applications**: The increasing adoption of generative AI technologies, such as OpenAI's ChatGPT and GPT-6, demonstrates the growing importance of AI in enterprise decision-making and operations. As enterprises seek to automate processes, improve productivity, and enhance customer experiences, generative AI is becoming a critical component of business strategy."
+  "summary": "Here are the key developments with insight:\n\n• **Retell uses OpenAI models to reach $1.6M annual revenue run rate per employee**: Retell has successfully deployed OpenAI models, specifically GPT-6 Astra and Codex, to power 100M monthly calls, achieving a significant revenue milestone of $1.6M annual revenue run rate per employee. This showcase highlights the commercial success of using OpenAI technology in call centers and contact centers.\n\n• **Oracle and OpenAI expand partnership**: Oracle and OpenAI have expanded their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings. This expanded partnership demonstrates the growing collaboration between key players in the tech industry to integrate AI and chatbots into their products and services.\n\n• **Daybreak accelerates Check Point's vulnerability research**: Check Point has leveraged OpenAI's Daybreak to speed up the research behind new security protections, enabling analysts to turn vulnerability intelligence into customer defenses faster. This highlights the importance of AI-assisted research in the cybersecurity field.\n\n• **Anima reduces call waits by 75%**: Anima has successfully deployed GPT-6 and GPT-Live to reduce call waits by 75% for clinics, demonstrating the potential of AI in improving customer service and patient care experiences.\n\n• **Localiza reorganizes work with generative AI**: Localiza has implemented OpenAI's ChatGPT Enterprise, API, Codex, and 60+ specialized agents to reorganize work and create AI-native mobility experiences. This showcases the adoption of generative AI in innovative industries.\n\nTrend: **Increased adoption of OpenAI technology across industries**: The news highlights various companies across different industries, such as customer service (Retell), business applications (Oracle), cybersecurity (Check Point), healthcare (Anima), and mobility (Localiza), leveraging OpenAI technology to enhance their products, services, and experiences. This trend underscores the growing acceptance and adoption of AI-driven solutions across the market."
 }
