@@ -1,10 +1,55 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-03T08:55:49.484Z",
+  "timestamp": "2026-11-04T08:28:53.763Z",
   "categories": {
     "news": {
-      "count": 9,
+      "count": 8,
       "items": [
+        {
+          "subject": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+          "body": "Cities generate enormous amounts of data from cameras, sensors and operational systems...",
+          "timestamp": "2026-11-03T08:52:02",
+          "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Introducing the Grid Protectors Program",
+          "body": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+          "timestamp": "2026-11-03T04:00:02",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Rewarding defenders with bigger bug bounties",
+          "body": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+          "timestamp": "2026-11-03T04:00:02",
+          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Preparing our next security sprint to harden OpenAI",
+          "body": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+          "timestamp": "2026-11-03T04:00:02",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+          "body": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U. S. allies.",
+          "timestamp": "2026-11-03T04:00:02",
+          "url": "https://openai.com/index/dan-driscoll-joins-openai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "An updated Model Spec for more capable and beneficial AI",
           "body": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
@@ -31,67 +76,205 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
+        }
+      ]
+    },
+    "papers": {
+      "count": 16,
+      "items": [
         {
-          "subject": "Retell uses OpenAI models to help power 100M monthly calls",
-          "body": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-          "timestamp": "2026-10-28T04:00:02",
-          "url": "https://openai.com/index/retell-ai",
+          "subject": "KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL",
+          "body": "Progress in robot learning, particularly physical multi-agent reinforcement learning (MARL), is currently challenged by a limited availability of accessible, standardized benchmarks. While simulation-based MARL has produced remarkable emergent behaviors, from coordinated team play to complex tool use, translating these advances to physical systems remains difficult. A key barrier is infrastructural: physical platforms are often prohibitively expensive, require specialized facilities, or lack open mechanisms and designs for reproducibility. We introduce KlaskTron, an open-source, low-cost (<\\$2500 USD), desktop-scale robotic testbed for adversarial MARL based on the dynamic tabletop game KLASK. The platform features dual CoreXY gantries with high-torque brushless motors, enabling the high-speed, precise manipulation required for competitive play. Crucially, we provide a complete ecosystem: hardware designs (CAD, BOM), a GPU-native digital twin in NVIDIA Isaac Lab for high-fidelity modeling and simulation, and a validated sim-to-real baseline using a learned neural actuator model. We demonstrate that this baseline enables zero-shot policy transfer, with trained agents exhibiting emergent adversarial behaviors. To ensure full reproducibility of our results, all project assets are released publicly: hardware CAD/BOM and assembly documentation at [https://idscethzurich.github.io/klask_hardware], inference software stack at [https://github.com/IDSCETHZurich/klask_software] and the simulation and MARL setup at [https://github.com/IDSCETHZurich/klask_rl].",
+          "timestamp": "2026-11-02T13:49:53",
+          "url": "https://arxiv.org/abs/2611.03138v1",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "arXiv",
+            "authors": "Aswin Ramachandran, Jona Schulz, Maurus Derungs, Carlo Angelini, Tobias Meier, Raffaello D'Andrea",
+            "updated": "2026-11-02T13:49:53"
           }
         },
         {
-          "subject": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-          "body": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-          "timestamp": "2026-10-28T04:00:02",
-          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "subject": "MuCHMDPoser: Multiview RGB-Camera Full-Body Pose Tracking for Virtual Reality",
+          "body": "Accurate full-body tracking in Virtual Reality (VR) is heavily underconstrained when relying solely on consumer-grade sparse sensors, such as Head-Mounted Displays (HMDs) and handheld controllers. Indeed, the self-avatar full-body pose must be inferred based on the 3 available upper-body joints tracked by these devices. This leads to significant tracking error, especially in lower-body pose. To overcome this issue, we propose to extend the tracking setup with external multiview RGB cameras. We show that integrating RGB-based pose estimation this framework is able to significantly decrease lower-body tracking errors, even under common artifacts in RGB-based estimates. Additionally, we evaluate a only-once HMD-camera calibration procedure that does not require any physical markers. We finally propose an implementation of the overall framework, achieving an end-to-end animation at 60 FPS on a Nvidia RTX3080 GPU. Codes are available at https://github.com/antmaio/MuCHMDPoser.",
+          "timestamp": "2026-11-02T12:51:00",
+          "url": "https://arxiv.org/abs/2611.03062v1",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "arXiv",
+            "authors": "Antoine Maiorca, George Fletcher, Thierry Ravet, Thierry Dutoit",
+            "updated": "2026-11-02T12:51:00"
           }
         },
         {
-          "subject": "How Check Point accelerates vulnerability research with Daybreak",
-          "body": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-          "timestamp": "2026-10-28T04:00:02",
-          "url": "https://openai.com/index/check-point-daybreak",
+          "subject": "SHq: Learnable Grids for LLM Weight Quantization",
+          "body": "Block-scaled lookup-table (LUT) formats, which represent weights as indices into a small value set (the grid), have become standard for low-bit LLM quantization, ranging from NF4 and BOF4 to the 3-bit LUT instruction in NVIDIA Rubin. While these formats leave the grid definition flexible, existing implementations rely on fixed grids derived either from numerical data types (INT, FP) or assumed weight distributions (NF, BOF). We demonstrate that no single fixed grid is universally optimal; the best fixed grid varies with bit-width: BOFS at 2 bits, NF at 4 and 5 bits, and INT at 6 bits. We introduce SHq, a closed-form family of grids parameterized by two critical degrees of freedom: a companding strength α that interpolates level spacing from uniform to floating-point-like, and an offset c that introduces asymmetry. This offset allows the sign bit of the FP8 block scale, otherwise unused, to select between the grid and its mirror image, up to doubling the number of distinct values available per block. SHq modifies only the lookup table contents and serves as a drop-in replacement for the grid in any such format. Across five models ranging from 3B to 35B parameters, including a mixture-of-experts architecture, evaluated at 2-6 bits using RTN and GPTQ, SHq achieves the lowest KL divergence in every setting at 3 and 4 bits and in most settings at 2, 5 and 6 bits. It outperforms the best fixed grid by up to 34% and remains superior under mixed-precision configurations. At 4.5 bits per weight, the SHq format reduces the KL divergence of NVFP4 by 41-67% while improving downstream accuracy. Grid families incorporating both spacing and offset parameters perform comparably, whereas those lacking an offset exhibit clearly higher error, confirming that these two degrees of freedom drive the observed gains. We therefore propose SHq as the standard grid for block-scaled lookup-table formats.",
+          "timestamp": "2026-11-02T11:35:38",
+          "url": "https://arxiv.org/abs/2611.02966v1",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "arXiv",
+            "authors": "Michael Helcig, Earl Killian, Dan Alistarh",
+            "updated": "2026-11-02T11:35:38"
           }
         },
         {
-          "subject": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
-          "body": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
-          "timestamp": "2026-10-28T04:00:02",
-          "url": "https://openai.com/index/anima",
+          "subject": "TLAPS-Bench: Formally Proving Correctness of Real-World System Specifications with TLA+ Proof System",
+          "body": "TLAPS-Bench is a benchmark and execution harness for constructing machine-checked proofs for real-world system specifications in TLA+ with agentic AI. Proving correctness of complex system specifications requires discovering inductive invariants, reasoning about intricate state transitions, and decomposing proofs into tractable obligations. TLAPS-Bench provides a proof harness that supports iterative proof development atop the TLA+ Proof System (TLAPS), where agents are equipped with proof tools and libraries, with safeguards against reward hacking. Using the harness, we have employed AI agents to prove desired properties for important system specifications that were not proved before, spanning cache coherence, Byzantine consensus, and write-ahead logs. TLAPS-Bench contains 265 proof targets (each encodes a property to prove) from 95 TLA+ specifications of real-world systems. We evaluated frontier AI agents, represented by Codex with GPT models, on a subset of 70 proof targets across 12 specifications. The highest-scoring model, GPT-6.1 Sol (max), proved 31 (44.3%) proof targets. The results show challenges and opportunities in end-to-end proof development.",
+          "timestamp": "2026-11-02T09:51:18",
+          "url": "https://arxiv.org/abs/2611.02849v1",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "arXiv",
+            "authors": "Qian Cheng, Ruize Tang, Saad Mohammad Rafid Pial, Zhizhen Cathy Cai, Yiming Su, Jackson Clark, Munim Thahmid, Mahdiya Rahman Sukanya, Chris Newcombe, Igor Konnov, Stephan Merz, Xudong Sun, Murat Demirbas, Yu Huang, Markus Alexander Kuppe, Tianyin Xu",
+            "updated": "2026-11-02T09:51:18"
           }
         },
         {
-          "subject": "How Localiza reorganized work around generative AI",
-          "body": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-          "timestamp": "2026-10-28T04:00:02",
-          "url": "https://openai.com/index/localiza-generative-ai",
+          "subject": "HLSClaw: Bringing Vibe Coding to High-Level Synthesis through Skill-Based Agentic Harness",
+          "body": "LLM agents are rapidly shifting software development toward intent-driven \\emph{vibe coding}, yet their effectiveness drops sharply in high-level synthesis (HLS), where code optimization must jointly consider design structure, directive search, and downstream hardware constraints. Existing HLS optimization approaches, including both heuristic-based methods and recent LLM-assisted pipelines, typically operate at fixed abstraction levels or in weakly coupled stages, limiting their ability to leverage the strong interplay between source code restructuring and directive search outcomes.\n  Our key insight is that HLS optimization can be reframed from a fixed, hardwired transformation pipeline into a skill-based agentic control problem: an LLM agent equipped with modular, executable optimization skills and a feedback-driven orchestrator can autonomously navigate the coupled space of code restructuring and directive search. This motivates the design of HLSClaw, the first HLS-specific, skill-based agentic harness for holistic HLS optimization. On real-world HLS benchmarks, HLSClaw achieves a 39.12x geometric-mean latency speedup, outperforming the compiler baseline ScaleHLS by 1.98x, and surpassing the commercial coding agents Claude Code and Codex by 1.86x and 1.70x, respectively, while maintaining strong timing robustness.",
+          "timestamp": "2026-11-02T09:01:06",
+          "url": "https://arxiv.org/abs/2611.02784v1",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "arXiv",
+            "authors": "Jinming Ge, Shang Liu, Jiawei Liang, Shangkun Li, Afzal Ahmad, Jiang Xu, Linfeng Du, Wei Zhang",
+            "updated": "2026-11-02T09:01:06"
           }
         },
         {
-          "subject": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
-          "body": "NVIDIA and Oracle today announced plans to expand Oracle Cloud Infrastructure (OCI)...",
-          "timestamp": "2026-10-28T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+          "subject": "LLMs Cannot Be Neutral: Gender Sensitivity Across Candidates, Evaluators, and Models",
+          "body": "Large language models (LLMs) are increasingly used to evaluate candidates for professional roles, raising concerns about their sensitivity to demographic identities. We examine how candidate and evaluator gender assignments affect decisions by LLM-as-a-Judge (LaJ) models and decision language models (DLMs). In a hypothetical city council voting task, eight models evaluated 240 synthetic professional narratives from NVIDIA's US and French Nemotron-Personas datasets under independently varied gender assignments, producing 30,720 judgments. Explicit candidate gender labels increased Yes-vote probability by 1.05-1.73 percentage points relative to unspecified gender, while only the nonbinary evaluator assignment showed a significant increase (1.26 points). Identity matching showed no significant overall association. Yes-vote rates varied across models (81.3-97.2%), and 2.5-3.3% of decisions reversed relative to the unspecified-identity baseline. Under direct substitutions between explicit gender identities, DLMs exhibited fewer decision reversals than LaJ models (1.18% vs. 3.38%), indicating lower observed decision-level gender sensitivity among the tested DLMs. These findings demonstrate that gender sensitivity depends on candidate and evaluator identities and the evaluation model, while highlighting the importance of examining individual decision consistency alongside aggregate differences.",
+          "timestamp": "2026-11-02T07:41:05",
+          "url": "https://arxiv.org/abs/2611.02692v1",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "arXiv",
+            "authors": "Danial Amin, Joni Salminen, Bernard J. Jansen",
+            "updated": "2026-11-02T07:41:05"
+          }
+        },
+        {
+          "subject": "Tune the Baseline First: Most of Muon's Scaled Weight Decay Gain Is a Tuning Gap, but Its Small Real Advantage Grows With Model Size",
+          "body": "Scaled weight decay for Muon (Muon-SW) has been reported to train language models more efficiently than constant decoupled weight decay, but such comparisons usually reuse one learning-rate (LR) and weight-decay (WD) setting for both methods. We re-run the comparison under the MAI-Base-2 protocol: LR and WD are tuned jointly through their product for each method, on a source-scaled mixture-of-experts (MoE) scaling ladder (1.9M to 15M active parameters) that holds tokens per active parameter and data repetition fixed across sizes. We find: (1) Most of the gain is a tuning gap. At the shared setting Muon-SW wins by 0.035 bits per byte (BPB), a 1.52x compute saving; after both methods are tuned, the gap is 0.0026 BPB (95% CI [0.0018, 0.0034]), a 1.03x saving, so about 90% of the advantage disappears. (2) The small advantage that remains is real: at the smallest size, all four paired seeds favour Muon-SW at the tuned settings. (3) That advantage grows with model size: across an 8x range of active parameters, the tuned gap rises from 0.0036 to 0.0051 BPB while the untuned gap shrinks from 0.035 to 0.024, so the surviving share rises from about 10% to 21%. (4) The best weight decay moves with scale: the optimal LRWD product grows for both methods, faster for Muon-SW (ratio 1.40 to 1.91), and a law fitted on the two smallest sizes overshoots the third by 1.3-1.5x, costing up to 0.002 BPB. The whole study runs on one NVIDIA T4 GPU; we release the code and all run results.",
+          "timestamp": "2026-11-02T04:59:08",
+          "url": "https://arxiv.org/abs/2611.02529v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Esther Xin",
+            "updated": "2026-11-02T04:59:08"
+          }
+        },
+        {
+          "subject": "Turbo-GMM: FlashAttention-Inspired GPU-Accelerated Gaussian Mixture Model",
+          "body": "Expectation-maximization (EM) for Gaussian mixture models (GMMs) requires scoring $N$ data points against $K$ mixture components. Prior fused GPU implementations, notably Flash-GMM, eliminate materialization of the $N \\times K$ responsibility matrix but traverse the component dimension twice to compute normalization terms and accumulate sufficient statistics. We introduce Turbo-GMM, a single-sweep fused EM kernel that completes responsibility normalization and sufficient-statistic accumulation within one traversal of the component dimension. By retaining the complete component axis on chip, Turbo-GMM avoids the second score computation required by the released two-sweep Flash-GMM implementation. Its applicability is limited by register pressure, occupancy, and the component and feature dimensions, making it particularly suitable for large datasets with relatively small numbers of components. For larger configurations, Turbo-GMM employs a two-pass fallback following the established fused design. We establish algebraic equivalence to standard EM in real arithmetic and evaluate sixteen configurations on an NVIDIA A100. Under the reported benchmarking protocol, Turbo-GMM achieves a median $2.15\\times$ speedup over the evaluated Flash-GMM implementation and up to $5.3\\times$ and $9.9\\times$ over PyTorch and \\texttt{scikit-learn}, respectively. The results demonstrate the potential of single-sweep component traversal while identifying on-chip resource constraints as the principal limitation of this approach.",
+          "timestamp": "2026-11-02T03:13:34",
+          "url": "https://arxiv.org/abs/2611.02449v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Momin Abbas, Sadia Asif, Asad Ul Haq, Kaoutar El Maghraoui",
+            "updated": "2026-11-02T03:13:34"
+          }
+        },
+        {
+          "subject": "InteractionBench: Measuring Timing, Task Accuracy, Whisper and Volume, and Grounding in Real-Time Voice Systems",
+          "body": "Most benchmarks for real-time voice systems focus on one aspect, such as turn-taking, instruction following, paralinguistic control, or conversational memory, each with its own data and set of systems. We present InteractionBench, a benchmark and evaluation harness that measures four dimensions on the same systems from the same recorded user audio: conversational timing, spoken-task accuracy, whisper and volume, and groundedness in conversations of more than twenty turns. The benchmark contains 221 items per system in thirteen scenarios. Before any system runs, we fix the expected floor-control actions for spoken tasks by rule and take the expected answers from scripted dialogues. We score whispering from the audio signal. We evaluate GPT-Live, GPT-Realtime, Gemini Live, Moshi, PersonaPlex, Freeze-Omni, and a turn-based cascade in 1,519 graded runs. Among the six full-duplex systems, timing and spoken-task accuracy are rank-correlated ($ρ= 0.83$), while the cascade has the highest spoken-task score (38/50) and the second-lowest timing score. No system corrects a user's grammar within the required window. Only Gemini Live whispers on most requests (8/10). Hosted systems pass 67-88% of groundedness probes, compared with 14-35% for open full-duplex models. Timing is measured where the client hears each system, so the timing of hosted systems includes network delay: for GPT-Live, whose server reports its own clock, removing a delay of about 1.5 s lowers its timing score from 86% to 56%. We also document where the protocol differs across systems, including the text instructions.",
+          "timestamp": "2026-11-02T02:53:57",
+          "url": "https://arxiv.org/abs/2611.02430v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Richard Yucheng He, Chen Xu, Yihang Liu, Tairan Chen, Baodong Cao",
+            "updated": "2026-11-02T02:53:57"
+          }
+        },
+        {
+          "subject": "VisCodeBench: a new benchmark dataset for Text-to-Vis reflecting real-world practice",
+          "body": "Generating visualisations from natural language requests (text-to-vis) enables users to explore data more efficiently. While LLMs can complete simple visualisation requests, their performance on challenging ones is not well covered by existing benchmarks. We introduce VisCodeBench, an end-to-end text-to-vis benchmark with 2,672 samples from three different domains: educational, scientific, and general audience scenarios with varying levels of complexity. We benchmark three visualisation systems---Codex, Claude Code, and LIDA---paired with a range of open and commercial LLMs across seven metrics covering execution, chart content, and visual quality. While basic execution is near-solved for strong systems, no system comes close to reproducing the reference data, with the best displayed data similarity reaching only $0.81$ and falling to $0.69$ on our hardest subset for this metric. We further find that frontier models separate on chart correctness and efficiency, with ClaudeCode-Opus-4.7 improving chart correctness by around 5 points over Codex-GPT-5 while running roughly 20 seconds faster. Separately, we find that system design matters as much as the underlying model: despite both running on GPT-5, Codex clearly outperforms LIDA, showing that the surrounding prompting, execution, and refinement pipeline can shape outcomes as much as the model itself. Finally, latency remains a practical obstacle, as even the strongest systems take 39-78 seconds to produce results. VisCodeBench is available at \\href{https://github.com/SAIPLL/VisCodeBench}{https://github.com/SAIPLL/VisCodeBench} and accessed via a leaderboard; the full dataset is kept private to prevent LLM training use.",
+          "timestamp": "2026-11-02T01:00:32",
+          "url": "https://arxiv.org/abs/2611.02353v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Hy Nguyen, Thomas James Elton, Ella Wilson, Andrew Reeson, Cecile Paris, Josiah Poon, Jonathan K. Kummerfeld",
+            "updated": "2026-11-02T01:00:32"
+          }
+        },
+        {
+          "subject": "GatedV: Self-Gated Values for Transformer Language Models",
+          "body": "Standard attention forms query (Q), key (K), and value (V) matrices through learned linear projections of input hidden states. Architectures such as GAU and Mega incorporate nonlinear transformations into attention. In this paper, we propose GatedV, a simple attention variant that applies SiLU only to V before aggregation without introducing additional trainable parameters. We evaluate GatedV against a standard decoder-only Transformer using matched parameter counts, paired initializations, and equal training-token budgets. At 2.33M parameters, GatedV reduces mean held-out perplexity from 59.1 to 57.9 (2.0%), with improvements across all five paired seeds. At 26.16M parameters, following an equal-budget learning-rate search, mean held-out perplexity falls from 20.2 to 19.7 (2.4%), with improvements across all three paired seeds. Small-model ablations show that the tested affine rescaling of values does not fully reproduce GatedV's gains. A short interleaved benchmark on NVIDIA DGX Spark measures approximately 0.7% higher full-context forward latency for the larger model, based on synchronized wall-clock timings. These findings suggest that value-only self-gating can improve language modeling performance without increasing parameter count or redesigning the attention-weighting mechanism.",
+          "timestamp": "2026-11-01T19:24:49",
+          "url": "https://arxiv.org/abs/2611.02145v2",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Li-Ming Yu, Hongyu Zhou",
+            "updated": "2026-11-03T04:33:30"
+          }
+        },
+        {
+          "subject": "Beyond Prompt Injection: The Tool Update Gap in LLM Agent Security",
+          "body": "Large language model based agents increasingly rely on external tools to invoke services and interact with web resources. These tools can evolve through software updates, yet agentic frameworks may continue trusting them without re-verifying their safety after implementation changes. This tool update gap creates a supply-chain vulnerability in agentic systems: because updated tool code executes outside the LLM's context window, malicious functionality embedded in tool updates can bypass defenses centered on model-visible interactions, leaving agents exposed to stealthy, persistent threats that existing in-context defenses can hardly address.\n  To thoroughly investigate this threat, we introduce ETUDE (Exploiting Tool Updates for Direct Execution), an attack that embeds malicious functionality into updates of initially benign tools to produce compromised tools, while preserving their legitimate tool functionality. Unlike prompt-based attacks, ETUDE operates entirely outside the LLM's context and requires no adversarial instructions, thereby bypassing defenses restricted to model-visible content. We evaluate ETUDE across three representative attack workloads and seven widely used commercial and open-source agentic frameworks, including Gemini CLI, Codex CLI, and Claude Code. The results show that ETUDE achieves a 97.6% ASR while maintaining a 95.9% legitimate task completion rate.\n  We further examine existing defenses and find that they provide insufficient protection against this threat. These findings expose a fundamental blind spot in current agent security practices: trust established for a tool does not necessarily remain valid after its implementation updates.",
+          "timestamp": "2026-11-01T15:14:02",
+          "url": "https://arxiv.org/abs/2611.01976v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Shiyu Kan, Yue Qi, Yufei Han, Xinjian Luo, Guojun Xiong, Xiaofeng Gao",
+            "updated": "2026-11-01T15:14:02"
+          }
+        },
+        {
+          "subject": "ReWY: Faster Gradient Computation for Delta-Rule Attention Family",
+          "body": "Delta-rule linear attention underlies language models such as Kimi Linear and Qwen3-Next. Chunkwise implementations expose matrix parallelism, but their backward passes compute unnecessary auxiliary adjoints. We present ReWY, an algebraic reformulation that reduces this work before optimizing accelerator execution. Differentiating the chunk correction as one triangular residual system eliminates the inverse adjoint and reduces seven local WY matrix products to three. Two complementary transformations expose further reuse: centered matrix contractions replace pairwise vector-gate processing, and scalar-gate reductions reuse key-gradient products instead of forming a key Gram matrix. These identities simplify backward computation for DeltaNet, GDN, KDA, and GDN2 while preserving the recurrence and gradients in exact arithmetic, without changing the architecture or training objective.\n  We implement the reduced graph on GPUs and Ascend NPUs. Under matched recomputation and full-saving policies, precision-qualified six-shape comparisons with frozen FLA references yield 1.15-1.81$\\times$ geometric-mean complete low-level backward speedups on NVIDIA GPUs. All four operators achieve 1.18-1.70$\\times$ on H100 and H200 while retaining original FP32 working matrices. A separate public-autograd evaluation on Ascend 950DT, including gradient conversions, yields 1.09-2.89$\\times$ under available matched policies. Paired ablations establish further ReWY gains after optimizing the complementary contractions. Complete-gradient checks validate the recorded operator cases; supplementary full-model backward measurements assess integration into community FLA models and a GDN2 layer port. Code and reproduction materials: https://github.com/flashserve/ReWY.",
+          "timestamp": "2026-11-01T14:21:46",
+          "url": "https://arxiv.org/abs/2611.01940v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Yi Zhang, Zhixin Zhao, Weiwei Sun, Yitao Hu, Sheng Chen, Keqiu Li",
+            "updated": "2026-11-01T14:21:46"
+          }
+        },
+        {
+          "subject": "PREM: Prediction-Regulated Memory for Robot Manipulation",
+          "body": "A robot's next action can depend on recent motion or earlier visual evidence absent from its current observation. A recurrent visual-memory architecture can retain this history in a visual state, but its usefulness depends on what the state represents and how it is updated with new observations. We introduce Prediction-Regulated Memory (PREM), a framework that uses action-conditioned future prediction to guide both memory learning and updating in vision-language-action policies. During training, predicting future visual features provides temporal supervision for memory learning. During execution, PREM compares current visual features with the prediction made at the preceding decision and uses the spatially normalized prediction discrepancy to regulate updates to the visual state at each spatial location. The updated visual state supplies temporal context for action generation alongside current observations. Built on $π_{0.5}$, PREM improves average success rate from 9.63% to 20.74% on DOMINO dynamic manipulation tasks and from 14.4% to 83.8% on the RMBench M(1) memory-dependent setting. Further evaluations on LIBERO and LIBERO-Pro show improvements in general manipulation and robustness to spatial perturbations. PREM incurs a mean inference overhead of 7.7 ms on a single NVIDIA H800 GPU.",
+          "timestamp": "2026-10-31T04:58:50",
+          "url": "https://arxiv.org/abs/2611.00634v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Xiao Huang, Ya Zhang, Weidi Xie",
+            "updated": "2026-10-31T04:58:50"
+          }
+        },
+        {
+          "subject": "Skill++: Towards Lifelong Agents via Routing-Aware Skill Refinement",
+          "body": "Large language model (LLM) agents extend their capabilities with skills, each with a name, a description, and a body. Under progressive disclosure, an LLM router selects skills by name and description alone and loads only the selected bodies. Skill libraries grow continually as users and agents add new skills. Because the router relies on this metadata, a similar new skill can displace an earlier one, breaking previously correct routing even though the earlier skill and the router are unchanged. This routing interference is aggravated for public skills, whose descriptions may not match their bodies. We formulate the problem as lifelong skill routing, a class-incremental continual learning problem. A solution must keep earlier skills selectable without suppressing new ones. Existing approaches fall short, since continually retraining the router risks catastrophic forgetting and rewriting methods either ignore similar skills or require per-skill feedback. We therefore propose Skill++, which rewrites only the name and description of each incoming skill, without router training or labeled data. The new description states what the body supports, how the skill differs from its closest predecessor, and what related work it excludes. As a library grows to 731 skills over ten sessions, Skill++ selects all required skills for 76.3% of queries, versus 36.4% under the original metadata. Across three benchmarks and five LLM routers, it outperforms all compared approaches, and its gains carry over to the Codex CLI agent harness.",
+          "timestamp": "2026-10-31T01:58:58",
+          "url": "https://arxiv.org/abs/2611.00544v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Hanrong Zhang, Minghao Liang, Jiawei Wu, Yankai Chen, Shicheng Fan, Zhiwei Liu, Enze Ma, Junwei Yuan, Tianyi Wang, Dehai Min, Kening Zheng, Xue Liu, Philip S. Yu",
+            "updated": "2026-10-31T01:58:58"
+          }
+        },
+        {
+          "subject": "Teach, Abstract, Apply: A Framework for Dialogue-Driven Task Learning with Collaborative Robots",
+          "body": "Collaborative robots (cobots) are designed to be safer and more interactive than traditional industrial robots, share the same workspace as humans, and assist them in a range of shop-floor tasks such as palletization, joint assembly, and part inspection. Many of these tasks involve repetitive workflows that may evolve with changes in production environments and task specifications. These requirements motivate the need for intuitive interfaces that allow workers to modify workflows on the shop floor and generalise these routines for future use. This work introduces the Teach-Abstract-Apply (TAA) framework, which enables human operators to (a) teach new workflows to cobots in natural language, (b) abstract the taught workflows into skills for later use, and (c) apply these skills in different settings. As a case study, we apply the TAA framework to a collaborative structure-building task and evaluate it with both open-weight (Qwen3-Coder) and closed (GPT5.2-Codex) models in self-play and cross-model configurations. Our results show that skill abstraction improves task success rates and reduces interaction cost. Beyond automated evaluation, a preliminary human-in-the-loop study suggests that the pipeline also works with human instructions.",
+          "timestamp": "2026-10-30T19:21:30",
+          "url": "https://arxiv.org/abs/2611.00297v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Chalamalasetti Kranti, Sherzod Hakimov, David Schlangen",
+            "updated": "2026-10-30T19:21:30"
           }
         }
       ]
     },
     "models": {
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "subject": "AtomicChat/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF",
+          "body": "[\"gguf\", \"nemotron-3.5\", \"nemo-speech-cpp\", \"speech-to-text\", \"asr\", \"transcription\", \"speaker-diarization\", \"speech-translation\", \"nvfp4\", \"automatic-speech-recognition\", \"en\", \"de\", \"fr\", \"es\", \"it\", \"pt\", \"nl\", \"pl\", \"cs\", \"sk\", \"hi\", \"ja\", \"ko\", \"zh\", \"multilingual\", \"base_model:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B\", \"base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B\", \"license:other\", \"endpoints_compatible\", \"region:us\", \"imatrix\", \"conversational\"]",
+          "timestamp": "2026-10-28T21:27:22",
+          "url": "https://huggingface.co/AtomicChat/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "AtomicChat"
+          }
+        }
+      ]
     }
   },
-  "summary": "Here are 5 key developments with insight and 1 trend:\n\n**Key Developments:**\n\n* **OpenAI's Updated Model Spec**: OpenAI has released an updated Model Spec that outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.\n* **Frontier Model Misalignment Detection**: OpenAI has developed a layered monitoring system to detect frontier model misalignment and unauthorized agent behavior, enabling responders to intervene before incidents escalate.\n* **AI for Transactional Diligence**: Ropes & Gray is developing AI for transactional diligence with OpenAI, allowing lawyers to review grouped documents, summaries, and reports before advising clients.\n* **Retell's Voice Agent Benchmark**: Retell's voice agent benchmark, powered by GPT-6 Astra, has reached a $1.6M annual revenue run rate per employee.\n* **OpenAI and Oracle Partnership Expansion**: OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.\n\n**Trend:**\n\n* **Increased Adoption of AI in Enterprise Settings**: The developments above highlight the growing adoption of AI in enterprise settings, with companies like OpenAI, Oracle, and Ropes & Gray integrating AI into their products and services to enhance efficiency, productivity, and decision-making. This trend suggests a shift towards more widespread and sophisticated AI adoption in the business world."
+  "summary": "**Key Developments:**\n\n* **Cities Worldwide Build and Scale AI Services with NVIDIA Physical and Agentic AI**: Cities are leveraging AI to improve their services, with NVIDIA providing physical and agentic AI solutions to help cities build and scale their AI services.\n* **OpenAI's Grid Protectors Program**: OpenAI has launched the Grid Protectors Program, which aims to work with utilities to support grid reliability and protect consumer electricity costs.\n* **Rewarding Defenders with Bigger Bug Bounties**: OpenAI is raising security bug bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.\n* **Preparing for the Next Security Sprint**: OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.\n* **OpenAI Appoints Dan Driscoll as Senior Counselor for National Security Modernization**: OpenAI has appointed Dan Driscoll as Senior Counselor for National Security Modernization, Cyber Resilience, and Collaboration with U.S. Allies.\n\n**Trend:**\n\n* **Increased Focus on AI Security**: There is a growing trend of companies and organizations prioritizing AI security, with OpenAI and NVIDIA taking steps to strengthen their defenses and support grid reliability.\n\n**Insight:**\n\n* **Cities are leveraging AI to improve their services**: Cities are turning to AI to improve their services, with NVIDIA providing physical and agentic AI solutions to help cities build and scale their AI services.\n* **AI security is becoming a top priority**: Companies and organizations are recognizing the importance of AI security, with OpenAI and NVIDIA taking steps to strengthen their defenses and support grid reliability."
 }
