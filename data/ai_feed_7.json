@@ -1,10 +1,28 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-05T08:52:48.532Z",
+  "timestamp": "2026-11-06T08:51:58.111Z",
   "categories": {
     "news": {
-      "count": 11,
+      "count": 10,
       "items": [
+        {
+          "subject": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "body": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+          "timestamp": "2026-11-05T04:00:02",
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "A thousand fewer paths to root",
+          "body": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "timestamp": "2026-11-05T04:00:02",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "How Cisco defends at machine speed with OpenAI",
           "body": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
@@ -76,39 +94,23 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "An updated Model Spec for more capable and beneficial AI",
-          "body": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-          "timestamp": "2026-10-30T04:00:02",
-          "url": "https://openai.com/index/updated-model-spec",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How we detect frontier model misalignment",
-          "body": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-          "timestamp": "2026-10-30T04:00:02",
-          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Ropes & Gray is developing AI for transactional diligence",
-          "body": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-          "timestamp": "2026-10-30T04:00:02",
-          "url": "https://openai.com/index/ropes-gray-ai-diligence",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "papers": {
-      "count": 18,
+      "count": 19,
       "items": [
+        {
+          "subject": "Iterated creation, grading, and revision of data science projects by language models",
+          "body": "We evaluate the extent to which agentic AI models can complete an end-to-end data science project, and how this improves with feedback. A 'writer' model with specific tools creates a complete data science project including downloading, cleaning, and analyzing a dataset, and writing a short paper about it. The project is executed and a 'grader' model evaluates it. The writer can then revise its submission, and this repeats for a total of three rounds. We consider seven models from five developers: Anthropic, OpenAI, Google, DeepSeek, and Z.AI. Each model is both a writer and a grader, so there are 49 writer-grader pairs and we run each pair three times. Of the 147 initial submissions, 107 run and render, and the average score increases from 59 per cent to 76 per cent after the final round of feedback. By writer the extent of the increase ranges from 3 percentage points for Anthropic's Opus 5.5 to 46 percentage points for Anthropic's Haiku 4.5, and by grader it ranges from 13 percentage points for Google's Gemini 3.8 Flash to 32 percentage points for Anthropic's Haiku 4.5. When a model grades its own writing the score tends to be about 9 percentage points higher than the average of what the other models give it. About half of the difference that we see from round to round is within the grader's own noise. Feedback generally results in the highest marks, but even just having the chance to revise, or having the additional budget, in terms of time or tool calls, without any feedback, results in considerable increases for some of the models but not for others. We find that how much such a loop helps depends on which model plays which role, but weaker models generally do not improve stronger models.",
+          "timestamp": "2026-11-03T19:39:03",
+          "url": "https://arxiv.org/abs/2611.05548v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Rohan Alexander",
+            "updated": "2026-11-03T19:39:03"
+          }
+        },
         {
           "subject": "The Agent Board: Kanban for Machines; Durable Coordination for Agents That Outlive the Conversation",
           "body": "Harnesses for large language models have converged on a single-threaded shape: one agent, one history, one machine, one sitting. That shape fails work that spans many agents, outlives any one model call, or waits on systems that are not agents. We describe the Agent Board, the coordination substrate in the Corvic harness. The board is a durable, shared table of semi-semantic tasks: a few exact fields the system routes on, and a free-form body that only language models read. Agents post tasks, watch tasks, and block on them, ending their turn and holding no process until a matching post wakes them. A system agent, the Board Keeper, acts as the interrupt handler for the board: it carries events from non-agent parts of the harness onto the board, matches them to waiting tasks by reading their prose, and allocates new agents for tasks that name a kind of agent rather than an instance. Loadable coordination policy kernels give statuses and roles meaning for a given pattern of work, without the board enforcing them. The design mirrors the kanban board a human team puts on a wall. We argue it is what persistent agent products such as Meta Muse, OpenAI dots and SpaceXAI Grok Bot need once an agent must wait, hand off work, or work with agents from another vendor. We view the board as an operating-system scheduler for agents and state where the analogy breaks. We separate what the mechanism guarantees from what it leaves to convention, and report a trace from a live board and three small simulated pilots. In the pilots, the wait cost of the board was flat in wait length while naive polling grew about 165-fold, but a plain external watcher was cheaper than the board. The Board Keeper matched prose waiters with no false wakes but missed 3.6 percent of real wakes.",
@@ -314,5 +316,5 @@
       "items": []
     }
   },
-  "summary": "**Summary of key developments in AI and related research:**\n\n* **Improved AI Security:** \n  + Cisco is using OpenAI's models to strengthen its enterprise security by combining network intelligence with AI defenses.\n  + OpenAI is launching the Grid Protectors Program to work with utilities in promoting grid reliability and protecting consumer electricity costs.\n\n* **Application of AI in various industries:**\n  + Heimstaden is using OpenAI's ChatGPT Enterprise and Codex to transform residential real estate management, cut costs, and empower employees across Europe.\n  + NVIDIA is working with cities worldwide to build and scale AI services using its physical and agentic AI.\n\n* **Research advancements:**\n  + The development of Agent Board, a coordination substrate for managing large language model interactions.\n  + Research on Gaussian mixture models (GMMs), where a single-sweep fused EM kernel (Turbo-GMM) achieved a 2.15x speedup over the evaluated Flash-GMM implementation.\n  + Investigation into the security vulnerability introduced by the tool update gap in LLM agent security.\n\n* **New AI models and frameworks:**\n  + Introduction of Skill++, a skill routing method that rewrites the name and description of each incoming skill without router training or labeled data.\n  + Development of PREM, a framework for memory learning and updating in vision-language-action policies using action-conditioned future prediction.\n\n* **AI Ethics and Bias:**\n  + Research on the sensitivity of LLM-as-a-Judge (LaJ) models to candidate and evaluator gender assignments, highlighting the importance of examining individual decision consistency alongside aggregate differences.\n\n**Current trend:** The trend in AI research and development is to focus on creating more robust, adaptive, and secure AI systems that can be applied across various industries and domains. This includes improvements in AI security, advancements in AI applications, and research into new AI models and frameworks."
+  "summary": "**Key Developments:**\n\n* OpenAI is expanding its capabilities by acquiring Pierre Computer Company, Inc. to improve Codex's tools for building, understanding, and reviewing code.\n* OpenAI has built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.\n* Cisco is using OpenAI models to strengthen enterprise security by combining network intelligence with machine learning.\n* Heimstaden is using OpenAI's ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.\n* Jill Hazelbaker has been appointed as OpenAI's Chief Corporate Affairs Officer, leading the company's global communications and corporate positioning.\n* NVIDIA is working with cities worldwide to build and scale AI services using physical and agentic AI.\n\n**Trend:**\n\n* The trend in AI development is shifting towards more autonomous and adaptive systems, with a focus on building more robust and secure AI models that can adapt to new situations and tasks. This is evident in the development of new AI frameworks, tools, and techniques that enable more efficient and effective AI development, such as the acquisition of Pierre Computer Company, Inc. by OpenAI, and the use of OpenAI models by Cisco to strengthen enterprise security.\n\n**Insights:**\n\n* The use of AI in various industries, such as property management and security, is becoming more widespread.\n* The development of more autonomous and adaptive AI systems is a key area of focus for researchers and companies.\n* The use of OpenAI models is becoming more prevalent in various industries, including enterprise security and property management.\n* The trend towards more autonomous and adaptive AI systems is driven by the need for more efficient and effective AI development, as well as the need for more robust and secure AI models."
 }
