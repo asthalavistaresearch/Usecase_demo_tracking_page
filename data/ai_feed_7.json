@@ -1,10 +1,64 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-06T08:51:58.111Z",
+  "timestamp": "2026-11-07T08:11:24.503Z",
   "categories": {
     "news": {
-      "count": 10,
+      "count": 16,
       "items": [
+        {
+          "subject": "AI Text Watermarking May Not Be Able to Meet the E.U.’s New Rules",
+          "body": "The European Union now requires AI-generated text to be watermarked so that it can be identified as such. But tests on OpenAI’s new textGrain watermark, released in October and developed to comply with the new E.U.",
+          "timestamp": "2026-11-06T04:00:02",
+          "url": "https://spectrum.ieee.org/ai-watermark-openai-textgrain-europe",
+          "extras": {
+            "data_origin": "IEEE Spectrum"
+          }
+        },
+        {
+          "subject": "Australian universities are creating AI-native graduates",
+          "body": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+          "timestamp": "2026-11-06T04:00:02",
+          "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "body": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+          "timestamp": "2026-11-06T04:00:02",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Merge builds product and business tools with OpenAI technology",
+          "body": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+          "timestamp": "2026-11-06T04:00:02",
+          "url": "https://openai.com/index/merge-builds-with-openai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Setting a new standard for responsible AI infrastructure",
+          "body": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+          "timestamp": "2026-11-06T04:00:02",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Franklin Templeton uses OpenAI to support investment research",
+          "body": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+          "timestamp": "2026-11-06T04:00:02",
+          "url": "https://openai.com/index/franklin-templeton",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "OpenAI to acquire Pierre Computer Company, Inc.",
           "body": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
@@ -98,8 +152,19 @@
       ]
     },
     "papers": {
-      "count": 19,
+      "count": 17,
       "items": [
+        {
+          "subject": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
+          "body": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv papers, recent papers disclosing substantive AI use, and manuscripts released by OpenAI provide a rich empirical basis for studying this question. However, several challenges remain: lack of matched case-control pairs; potential incompleteness of disclosure; and lack of ready-to-use features designed to capture signals of AI involvement in proofs.\n  To address these challenges, we construct five cohorts comprising 8,281 papers by combining existing manuscripts with those we produced using generative AI. These cohorts span different levels of AI involvement and include matched pairs of papers addressing the same research problems. We then introduce ProofTrace, a framework that represents each paper as a graph of immediate proof support (GIPS) and extracts interpretable features of mathematical organization.\n  Our study yields three discoveries. First, principal-component projections of our features reveal a qualitative gradient of AI involvement, where AI-reworded papers remain close to human papers, the two AI-generated cohorts depart in broadly shared directions, and papers disclosing substantive AI use occupy intermediate positions which shifts toward AI-generated cohorts over time. Second, we identify recurring signatures of AI-generated proofs, such as fewer externally cited results, greater reliance on intermediate conclusions, and altered graph connectivity; many of these signatures persist under controls for research field, manuscript length, or graph size. Finally, in a separate detection experiment, ProofTrace distinguishes human-written papers from those disclosing substantive AI use. Its performance remains stable under AI rewording, whereas the performance of state-of-the-art text-based detectors declines sharply.",
+          "timestamp": "2026-11-05T18:17:18",
+          "url": "https://arxiv.org/abs/2611.08412v1",
+          "extras": {
+            "data_origin": "arXiv",
+            "authors": "Yuanchuan Guo, Jiashun Jin, Zheng Tracy Ke, Bingcheng Sui",
+            "updated": "2026-11-05T18:17:18"
+          }
+        },
         {
           "subject": "Iterated creation, grading, and revision of data science projects by language models",
           "body": "We evaluate the extent to which agentic AI models can complete an end-to-end data science project, and how this improves with feedback. A 'writer' model with specific tools creates a complete data science project including downloading, cleaning, and analyzing a dataset, and writing a short paper about it. The project is executed and a 'grader' model evaluates it. The writer can then revise its submission, and this repeats for a total of three rounds. We consider seven models from five developers: Anthropic, OpenAI, Google, DeepSeek, and Z.AI. Each model is both a writer and a grader, so there are 49 writer-grader pairs and we run each pair three times. Of the 147 initial submissions, 107 run and render, and the average score increases from 59 per cent to 76 per cent after the final round of feedback. By writer the extent of the increase ranges from 3 percentage points for Anthropic's Opus 5.5 to 46 percentage points for Anthropic's Haiku 4.5, and by grader it ranges from 13 percentage points for Google's Gemini 3.8 Flash to 32 percentage points for Anthropic's Haiku 4.5. When a model grades its own writing the score tends to be about 9 percentage points higher than the average of what the other models give it. About half of the difference that we see from round to round is within the grader's own noise. Feedback generally results in the highest marks, but even just having the chance to revise, or having the additional budget, in terms of time or tool calls, without any feedback, results in considerable increases for some of the models but not for others. We find that how much such a loop helps depends on which model plays which role, but weaker models generally do not improve stronger models.",
@@ -275,39 +340,6 @@
             "authors": "Yi Zhang, Zhixin Zhao, Weiwei Sun, Yitao Hu, Sheng Chen, Keqiu Li",
             "updated": "2026-11-01T14:21:46"
           }
-        },
-        {
-          "subject": "PREM: Prediction-Regulated Memory for Robot Manipulation",
-          "body": "A robot's next action can depend on recent motion or earlier visual evidence absent from its current observation. A recurrent visual-memory architecture can retain this history in a visual state, but its usefulness depends on what the state represents and how it is updated with new observations. We introduce Prediction-Regulated Memory (PREM), a framework that uses action-conditioned future prediction to guide both memory learning and updating in vision-language-action policies. During training, predicting future visual features provides temporal supervision for memory learning. During execution, PREM compares current visual features with the prediction made at the preceding decision and uses the spatially normalized prediction discrepancy to regulate updates to the visual state at each spatial location. The updated visual state supplies temporal context for action generation alongside current observations. Built on $π_{0.5}$, PREM improves average success rate from 9.63% to 20.74% on DOMINO dynamic manipulation tasks and from 14.4% to 83.8% on the RMBench M(1) memory-dependent setting. Further evaluations on LIBERO and LIBERO-Pro show improvements in general manipulation and robustness to spatial perturbations. PREM incurs a mean inference overhead of 7.7 ms on a single NVIDIA H800 GPU.",
-          "timestamp": "2026-10-31T04:58:50",
-          "url": "https://arxiv.org/abs/2611.00634v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Xiao Huang, Ya Zhang, Weidi Xie",
-            "updated": "2026-10-31T04:58:50"
-          }
-        },
-        {
-          "subject": "Skill++: Towards Lifelong Agents via Routing-Aware Skill Refinement",
-          "body": "Large language model (LLM) agents extend their capabilities with skills, each with a name, a description, and a body. Under progressive disclosure, an LLM router selects skills by name and description alone and loads only the selected bodies. Skill libraries grow continually as users and agents add new skills. Because the router relies on this metadata, a similar new skill can displace an earlier one, breaking previously correct routing even though the earlier skill and the router are unchanged. This routing interference is aggravated for public skills, whose descriptions may not match their bodies. We formulate the problem as lifelong skill routing, a class-incremental continual learning problem. A solution must keep earlier skills selectable without suppressing new ones. Existing approaches fall short, since continually retraining the router risks catastrophic forgetting and rewriting methods either ignore similar skills or require per-skill feedback. We therefore propose Skill++, which rewrites only the name and description of each incoming skill, without router training or labeled data. The new description states what the body supports, how the skill differs from its closest predecessor, and what related work it excludes. As a library grows to 731 skills over ten sessions, Skill++ selects all required skills for 76.3% of queries, versus 36.4% under the original metadata. Across three benchmarks and five LLM routers, it outperforms all compared approaches, and its gains carry over to the Codex CLI agent harness.",
-          "timestamp": "2026-10-31T01:58:58",
-          "url": "https://arxiv.org/abs/2611.00544v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Hanrong Zhang, Minghao Liang, Jiawei Wu, Yankai Chen, Shicheng Fan, Zhiwei Liu, Enze Ma, Junwei Yuan, Tianyi Wang, Dehai Min, Kening Zheng, Xue Liu, Philip S. Yu",
-            "updated": "2026-10-31T01:58:58"
-          }
-        },
-        {
-          "subject": "Teach, Abstract, Apply: A Framework for Dialogue-Driven Task Learning with Collaborative Robots",
-          "body": "Collaborative robots (cobots) are designed to be safer and more interactive than traditional industrial robots, share the same workspace as humans, and assist them in a range of shop-floor tasks such as palletization, joint assembly, and part inspection. Many of these tasks involve repetitive workflows that may evolve with changes in production environments and task specifications. These requirements motivate the need for intuitive interfaces that allow workers to modify workflows on the shop floor and generalise these routines for future use. This work introduces the Teach-Abstract-Apply (TAA) framework, which enables human operators to (a) teach new workflows to cobots in natural language, (b) abstract the taught workflows into skills for later use, and (c) apply these skills in different settings. As a case study, we apply the TAA framework to a collaborative structure-building task and evaluate it with both open-weight (Qwen3-Coder) and closed (GPT5.2-Codex) models in self-play and cross-model configurations. Our results show that skill abstraction improves task success rates and reduces interaction cost. Beyond automated evaluation, a preliminary human-in-the-loop study suggests that the pipeline also works with human instructions.",
-          "timestamp": "2026-10-30T19:21:30",
-          "url": "https://arxiv.org/abs/2611.00297v1",
-          "extras": {
-            "data_origin": "arXiv",
-            "authors": "Chalamalasetti Kranti, Sherzod Hakimov, David Schlangen",
-            "updated": "2026-10-30T19:21:30"
-          }
         }
       ]
     },
@@ -316,5 +348,5 @@
       "items": []
     }
   },
-  "summary": "**Key Developments:**\n\n* OpenAI is expanding its capabilities by acquiring Pierre Computer Company, Inc. to improve Codex's tools for building, understanding, and reviewing code.\n* OpenAI has built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.\n* Cisco is using OpenAI models to strengthen enterprise security by combining network intelligence with machine learning.\n* Heimstaden is using OpenAI's ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.\n* Jill Hazelbaker has been appointed as OpenAI's Chief Corporate Affairs Officer, leading the company's global communications and corporate positioning.\n* NVIDIA is working with cities worldwide to build and scale AI services using physical and agentic AI.\n\n**Trend:**\n\n* The trend in AI development is shifting towards more autonomous and adaptive systems, with a focus on building more robust and secure AI models that can adapt to new situations and tasks. This is evident in the development of new AI frameworks, tools, and techniques that enable more efficient and effective AI development, such as the acquisition of Pierre Computer Company, Inc. by OpenAI, and the use of OpenAI models by Cisco to strengthen enterprise security.\n\n**Insights:**\n\n* The use of AI in various industries, such as property management and security, is becoming more widespread.\n* The development of more autonomous and adaptive AI systems is a key area of focus for researchers and companies.\n* The use of OpenAI models is becoming more prevalent in various industries, including enterprise security and property management.\n* The trend towards more autonomous and adaptive AI systems is driven by the need for more efficient and effective AI development, as well as the need for more robust and secure AI models."
+  "summary": "**Key Developments:**\n\n* OpenAI's textGrain watermark may not meet the E.U.'s new rules requiring AI-generated text to be watermarked.\n* Australian universities are incorporating AI into teaching and learning to prepare students for an AI-enabled workforce.\n* OpenAI has released GPT-6 Cyber, a cybersecurity model for finding exploitable vulnerabilities and developing fixes.\n* Merge, a product and business tools company, has built its product and business tools with OpenAI technology.\n* OpenAI has introduced its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.\n* Franklin Templeton is using OpenAI to support investment research, developing AI workflows to help portfolio managers compare research views and examine investment risks.\n* OpenAI has acquired Pierre Computer Company, Inc. to expand Codex's tools for building, understanding, and reviewing code.\n\n**Trend:**\n\n* The increasing use of AI in various industries, such as education, investment research, and cybersecurity, is becoming more prevalent, with companies like OpenAI and universities incorporating AI into their practices to prepare for an AI-enabled workforce.\n\n**Insight:**\n\n* The trend towards AI adoption is not limited to one industry or company, but rather is a broader shift towards incorporating AI into various aspects of life and work. This shift is driven by the need to prepare for an AI-enabled workforce and to leverage AI's capabilities to improve efficiency and accuracy."
 }
