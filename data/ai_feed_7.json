@@ -1,10 +1,73 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-09T08:58:08.826Z",
+  "timestamp": "2026-11-10T09:06:09.306Z",
   "categories": {
     "news": {
-      "count": 17,
+      "count": 19,
       "items": [
+        {
+          "subject": "Korea Advances Physical AI Across Industries With NVIDIA",
+          "body": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping...",
+          "timestamp": "2026-11-09T10:24:02",
+          "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+          "body": "As AI agents take on more work, they need capable open models...",
+          "timestamp": "2026-11-09T10:24:02",
+          "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+          "body": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their...",
+          "timestamp": "2026-11-09T10:24:02",
+          "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
+          "body": "NVIDIA, Rebellions and SK Telecom today announced a collaboration to advance Korea’s...",
+          "timestamp": "2026-11-09T10:24:02",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production",
+          "body": "NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A. X...",
+          "timestamp": "2026-11-09T10:24:02",
+          "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+          "body": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI...",
+          "timestamp": "2026-11-09T10:24:02",
+          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Statement from NVIDIA Board of Directors",
+          "body": "The NVIDIA Board is initiating an independent investigation in light of recent...",
+          "timestamp": "2026-11-09T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Product Hunt Launch: GPT‑6 Cyber",
           "body": "OpenAI’s cyber model, with vetted access for defenders",
@@ -15,19 +78,19 @@
           }
         },
         {
-          "subject": "Franklin Templeton uses OpenAI to support investment research",
-          "body": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+          "subject": "Setting a new standard for responsible AI infrastructure",
+          "body": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
           "timestamp": "2026-11-06T04:00:02",
-          "url": "https://openai.com/index/franklin-templeton",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Setting a new standard for responsible AI infrastructure",
-          "body": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+          "subject": "Franklin Templeton uses OpenAI to support investment research",
+          "body": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
           "timestamp": "2026-11-06T04:00:02",
-          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "url": "https://openai.com/index/franklin-templeton",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -69,6 +132,15 @@
           }
         },
         {
+          "subject": "A thousand fewer paths to root",
+          "body": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "timestamp": "2026-11-05T04:00:02",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "OpenAI to acquire Pierre Computer Company, Inc.",
           "body": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
           "timestamp": "2026-11-05T04:00:02",
@@ -78,10 +150,10 @@
           }
         },
         {
-          "subject": "A thousand fewer paths to root",
-          "body": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-          "timestamp": "2026-11-05T04:00:02",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "subject": "How Cisco defends at machine speed with OpenAI",
+          "body": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+          "timestamp": "2026-11-04T04:00:02",
+          "url": "https://openai.com/index/cisco-cyber",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -103,60 +175,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "How Cisco defends at machine speed with OpenAI",
-          "body": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-          "timestamp": "2026-11-04T04:00:02",
-          "url": "https://openai.com/index/cisco-cyber",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-          "body": "Cities generate enormous amounts of data from cameras, sensors and operational systems...",
-          "timestamp": "2026-11-03T08:52:02",
-          "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Introducing the Grid Protectors Program",
-          "body": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-          "timestamp": "2026-11-03T04:00:02",
-          "url": "https://openai.com/index/grid-protectors-program",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-          "body": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U. S. allies.",
-          "timestamp": "2026-11-03T04:00:02",
-          "url": "https://openai.com/index/dan-driscoll-joins-openai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Preparing our next security sprint to harden OpenAI",
-          "body": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-          "timestamp": "2026-11-03T04:00:02",
-          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Rewarding defenders with bigger bug bounties",
-          "body": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-          "timestamp": "2026-11-03T04:00:02",
-          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -165,5 +183,5 @@
       "items": []
     }
   },
-  "summary": "Here are 6 key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **OpenAI's GPT-6 Cyber**: OpenAI has launched its GPT-6 Cyber model, which is a cybersecurity model designed to help defenders find exploitable vulnerabilities and develop fixes. The model is trained to stay within authorized scope, making it a significant advancement in aligned cybersecurity agents.\n* **Franklin Templeton uses OpenAI for investment research**: Franklin Templeton is using OpenAI's technology to support its investment research, helping portfolio managers compare research views and examine investment risks. This is a notable example of how OpenAI's technology is being applied in a real-world setting.\n* **OpenAI introduces National Community Compact and Compute Campus Policy Blueprint**: OpenAI has introduced a new policy blueprint aimed at protecting local resources, creating jobs, and guiding responsible AI infrastructure development. This move highlights OpenAI's commitment to responsible AI development.\n* **Merge builds product and business tools with OpenAI technology**: Merge, a company that uses GPT-6 Astra, ChatGPT, and Codex, is building product and business tools with OpenAI technology. This is a significant example of how OpenAI's technology is being integrated into various industries and applications.\n* **Australian universities create AI-native graduates**: Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce. This is a notable example of how education institutions are adapting to the changing landscape of AI.\n* **OpenAI acquires Pierre Computer Company, Inc.**: OpenAI has acquired Pierre Computer Company, expanding Codex's tools for building, understanding, and reviewing code. This move highlights OpenAI's efforts to expand its capabilities and offerings in the AI space.\n\n**Trend:**\n\n* **Increased Adoption of AI in Various Industries**: The key developments listed above highlight the increasing adoption of AI in various industries, including finance, cybersecurity, education, and more. This trend suggests that AI is becoming an integral part of many sectors, and its applications are expanding rapidly."
+  "summary": "Here are 4-6 bullet points summarizing the key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA and Korea's Ministry of Science and ICT (MSIT) expand sovereign AI collaboration**: NVIDIA and Korea's MSIT are expanding their collaboration to advance Korea's AI ecosystem, with a focus on manufacturing, engineering, and open models.\n* **OpenAI releases GPT-6 Cyber, a cybersecurity model for finding exploitable vulnerabilities**: OpenAI's GPT-6 Cyber model is designed to stay within authorized scope and provide fixes for vulnerabilities, marking a significant advancement in aligned cybersecurity agents.\n* **Australian universities integrate AI into teaching and learning**: Australian universities are expanding access to ChatGPT and incorporating AI into their teaching and learning programs to prepare students for an AI-enabled workforce.\n* **OpenAI builds an autonomous pipeline for patching Linux kernel vulnerabilities**: OpenAI's autonomous pipeline found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel, demonstrating the potential of AI for cybersecurity.\n* **NVIDIA announces new investments in Korean startups**: NVIDIA is planning to invest in Korean startups, further solidifying its collaboration with Korea's AI ecosystem.\n\n**Trend:**\n\n* **Increased focus on responsible AI infrastructure development**: The trend towards responsible AI infrastructure development is evident in OpenAI's National Community Compact and Compute Campus Policy Blueprint, which aims to protect local resources, create jobs, and guide responsible AI infrastructure development.\n\nThese developments and trend highlight the growing importance of AI in various industries, including manufacturing, cybersecurity, education, and infrastructure development."
 }
