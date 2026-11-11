@@ -1,10 +1,64 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-10T09:06:09.306Z",
+  "timestamp": "2026-11-11T08:45:20.322Z",
   "categories": {
     "news": {
-      "count": 19,
+      "count": 21,
       "items": [
+        {
+          "subject": "AWS: NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+          "body": "Today, we’re announcing that NVIDIA Nemotron 3.5 Super VL is available in...",
+          "timestamp": "2026-11-10T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+          "body": "Simulation, which has long been the proving ground for robots learning to...",
+          "timestamp": "2026-11-10T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Kuken Industries searches 70 years of drawings in minutes",
+          "body": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+          "timestamp": "2026-11-10T04:00:02",
+          "url": "https://openai.com/index/kuken",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "CodeRabbit scales agentic software development and ships 20x more",
+          "body": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+          "timestamp": "2026-11-10T04:00:02",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+          "body": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+          "timestamp": "2026-11-10T04:00:02",
+          "url": "https://openai.com/index/control-room",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+          "body": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI...",
+          "timestamp": "2026-11-09T10:24:02",
+          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
         {
           "subject": "Korea Advances Physical AI Across Industries With NVIDIA",
           "body": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping...",
@@ -51,15 +105,6 @@
           }
         },
         {
-          "subject": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
-          "body": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI...",
-          "timestamp": "2026-11-09T10:24:02",
-          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
           "subject": "Statement from NVIDIA Board of Directors",
           "body": "The NVIDIA Board is initiating an independent investigation in light of recent...",
           "timestamp": "2026-11-09T04:00:02",
@@ -78,19 +123,19 @@
           }
         },
         {
-          "subject": "Setting a new standard for responsible AI infrastructure",
-          "body": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+          "subject": "Franklin Templeton uses OpenAI to support investment research",
+          "body": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
           "timestamp": "2026-11-06T04:00:02",
-          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "url": "https://openai.com/index/franklin-templeton",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Franklin Templeton uses OpenAI to support investment research",
-          "body": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+          "subject": "Setting a new standard for responsible AI infrastructure",
+          "body": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
           "timestamp": "2026-11-06T04:00:02",
-          "url": "https://openai.com/index/franklin-templeton",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -132,15 +177,6 @@
           }
         },
         {
-          "subject": "A thousand fewer paths to root",
-          "body": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-          "timestamp": "2026-11-05T04:00:02",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
           "subject": "OpenAI to acquire Pierre Computer Company, Inc.",
           "body": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
           "timestamp": "2026-11-05T04:00:02",
@@ -150,28 +186,10 @@
           }
         },
         {
-          "subject": "How Cisco defends at machine speed with OpenAI",
-          "body": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-          "timestamp": "2026-11-04T04:00:02",
-          "url": "https://openai.com/index/cisco-cyber",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-          "body": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
-          "timestamp": "2026-11-04T04:00:02",
-          "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Heimstaden is changing residential real estate management with AI",
-          "body": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-          "timestamp": "2026-11-04T04:00:02",
-          "url": "https://openai.com/index/heimstaden",
+          "subject": "A thousand fewer paths to root",
+          "body": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "timestamp": "2026-11-05T04:00:02",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -183,5 +201,5 @@
       "items": []
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing the key developments with insight, along with 1 trend:\n\n**Key Developments:**\n\n* **NVIDIA and Korea's Ministry of Science and ICT (MSIT) expand sovereign AI collaboration**: NVIDIA and Korea's MSIT are expanding their collaboration to advance Korea's AI ecosystem, with a focus on manufacturing, engineering, and open models.\n* **OpenAI releases GPT-6 Cyber, a cybersecurity model for finding exploitable vulnerabilities**: OpenAI's GPT-6 Cyber model is designed to stay within authorized scope and provide fixes for vulnerabilities, marking a significant advancement in aligned cybersecurity agents.\n* **Australian universities integrate AI into teaching and learning**: Australian universities are expanding access to ChatGPT and incorporating AI into their teaching and learning programs to prepare students for an AI-enabled workforce.\n* **OpenAI builds an autonomous pipeline for patching Linux kernel vulnerabilities**: OpenAI's autonomous pipeline found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel, demonstrating the potential of AI for cybersecurity.\n* **NVIDIA announces new investments in Korean startups**: NVIDIA is planning to invest in Korean startups, further solidifying its collaboration with Korea's AI ecosystem.\n\n**Trend:**\n\n* **Increased focus on responsible AI infrastructure development**: The trend towards responsible AI infrastructure development is evident in OpenAI's National Community Compact and Compute Campus Policy Blueprint, which aims to protect local resources, create jobs, and guide responsible AI infrastructure development.\n\nThese developments and trend highlight the growing importance of AI in various industries, including manufacturing, cybersecurity, education, and infrastructure development."
+  "summary": "Here are 6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **NVIDIA and OpenAI collaborate on various projects**: NVIDIA and OpenAI are collaborating on several projects, including the release of NVIDIA Nemotron 3.5 Super VL in Amazon SageMaker JumpStart, the development of sovereign AI infrastructure with NVIDIA NVLink Fusion, and the use of OpenAI models to govern and trust AI-generated code.\n* **Kuken Industries uses OpenAI API to search 70 years of drawings in minutes**: Kuken Industries has successfully used the OpenAI API to search 70 years of cooling tower drawings, reducing the time from nearly an hour to 4.5 minutes.\n* **CodeRabbit scales agentic software development and ships 20x more**: CodeRabbit has used OpenAI models to govern and trust AI-generated code, resulting in a 20x increase in software shipping with the same engineering team.\n* **OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint**: OpenAI has introduced a new policy to protect local resources, create jobs, and guide responsible AI infrastructure development.\n* **Merge builds product and business tools with OpenAI technology**: Merge has used GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing, and has also used AI to plan executive dinners and prepare sales updates.\n* **OpenAI acquires Pierre Computer Company, Inc.**: OpenAI has acquired Pierre Computer Company, expanding Codex's tools for building, understanding, and reviewing code.\n\n**Trend:**\n\n* **Increased collaboration between tech giants and AI companies**: The trend in the industry is towards increased collaboration between tech giants and AI companies, with NVIDIA and OpenAI being prominent examples. This collaboration is driving innovation and advancing the state-of-the-art in AI and related technologies."
 }
