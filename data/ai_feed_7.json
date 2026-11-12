@@ -1,10 +1,82 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-11T08:45:20.322Z",
+  "timestamp": "2026-11-12T09:07:34.615Z",
   "categories": {
     "news": {
-      "count": 21,
+      "count": 27,
       "items": [
+        {
+          "subject": "Cogent and OpenAI build cyber defense factories for enterprises",
+          "body": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+          "timestamp": "2026-11-11T08:54:02",
+          "url": "https://openai.com/index/cogent-security",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Singapore Airlines elevates travel & work with OpenAI technology",
+          "body": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+          "timestamp": "2026-11-11T08:54:02",
+          "url": "https://openai.com/index/singapore-airlines-travel-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "ChatGPT Plus for veterans and servicemembers",
+          "body": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "timestamp": "2026-11-11T08:54:02",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+          "body": "Kubernetes, the open source system that manages how applications run across thousands...",
+          "timestamp": "2026-11-11T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Statement From the Independent Members of the NVIDIA Board",
+          "body": "The independent members of the NVIDIA Board have retained former acting U. S...",
+          "timestamp": "2026-11-11T04:00:02",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "Work at the Frontier: AI’s effect on freelance work",
+          "body": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+          "timestamp": "2026-11-11T04:00:02",
+          "url": "https://openai.com/index/ai-effect-on-freelance-work",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Introducing Businesses in ChatGPT",
+          "body": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "timestamp": "2026-11-11T04:00:02",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Helping caregivers use AI in everyday life",
+          "body": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U. S. cities, helping them build practical AI skills for everyday life.",
+          "timestamp": "2026-11-11T04:00:02",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "AWS: NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
           "body": "Today, we’re announcing that NVIDIA Nemotron 3.5 Super VL is available in...",
@@ -48,15 +120,6 @@
           "url": "https://openai.com/index/control-room",
           "extras": {
             "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
-          "body": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI...",
-          "timestamp": "2026-11-09T10:24:02",
-          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-          "extras": {
-            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -105,6 +168,15 @@
           }
         },
         {
+          "subject": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+          "body": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI...",
+          "timestamp": "2026-11-09T10:24:02",
+          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
           "subject": "Statement from NVIDIA Board of Directors",
           "body": "The NVIDIA Board is initiating an independent investigation in light of recent...",
           "timestamp": "2026-11-09T04:00:02",
@@ -120,6 +192,15 @@
           "url": "https://www.producthunt.com/products/openai",
           "extras": {
             "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "AI Text Watermarking May Not Be Able to Meet the E.U.’s New Rules",
+          "body": "The European Union now requires AI-generated text to be watermarked so that it can be identified as such. But tests on OpenAI’s new textGrain watermark, released in October and developed to comply with the new E.U.",
+          "timestamp": "2026-11-06T04:00:02",
+          "url": "https://spectrum.ieee.org/ai-watermark-openai-textgrain-europe",
+          "extras": {
+            "data_origin": "IEEE Spectrum"
           }
         },
         {
@@ -166,33 +247,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "AI Text Watermarking May Not Be Able to Meet the E.U.’s New Rules",
-          "body": "The European Union now requires AI-generated text to be watermarked so that it can be identified as such. But tests on OpenAI’s new textGrain watermark, released in October and developed to comply with the new E.U.",
-          "timestamp": "2026-11-06T04:00:02",
-          "url": "https://spectrum.ieee.org/ai-watermark-openai-textgrain-europe",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
-          }
-        },
-        {
-          "subject": "OpenAI to acquire Pierre Computer Company, Inc.",
-          "body": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-          "timestamp": "2026-11-05T04:00:02",
-          "url": "https://openai.com/index/openai-to-acquire-pierre",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "A thousand fewer paths to root",
-          "body": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-          "timestamp": "2026-11-05T04:00:02",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -201,5 +255,5 @@
       "items": []
     }
   },
-  "summary": "Here are 6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **NVIDIA and OpenAI collaborate on various projects**: NVIDIA and OpenAI are collaborating on several projects, including the release of NVIDIA Nemotron 3.5 Super VL in Amazon SageMaker JumpStart, the development of sovereign AI infrastructure with NVIDIA NVLink Fusion, and the use of OpenAI models to govern and trust AI-generated code.\n* **Kuken Industries uses OpenAI API to search 70 years of drawings in minutes**: Kuken Industries has successfully used the OpenAI API to search 70 years of cooling tower drawings, reducing the time from nearly an hour to 4.5 minutes.\n* **CodeRabbit scales agentic software development and ships 20x more**: CodeRabbit has used OpenAI models to govern and trust AI-generated code, resulting in a 20x increase in software shipping with the same engineering team.\n* **OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint**: OpenAI has introduced a new policy to protect local resources, create jobs, and guide responsible AI infrastructure development.\n* **Merge builds product and business tools with OpenAI technology**: Merge has used GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing, and has also used AI to plan executive dinners and prepare sales updates.\n* **OpenAI acquires Pierre Computer Company, Inc.**: OpenAI has acquired Pierre Computer Company, expanding Codex's tools for building, understanding, and reviewing code.\n\n**Trend:**\n\n* **Increased collaboration between tech giants and AI companies**: The trend in the industry is towards increased collaboration between tech giants and AI companies, with NVIDIA and OpenAI being prominent examples. This collaboration is driving innovation and advancing the state-of-the-art in AI and related technologies."
+  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments:**\n\n1. **OpenAI and Cogent build cyber defense factories**: Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.\n2. **Singapore Airlines elevates travel & work with OpenAI technology**: Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.\n3. **NVIDIA expands Open Source Commitment with OpenShell Donation and New AI Infrastructure**: NVIDIA donates OpenShell to the open source community and expands its AI infrastructure to support research and development.\n4. **Work at the Frontier: AI’s effect on freelance work**: New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.\n\n**Bullet Points:**\n\n* **AI-powered search**: Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings in minutes, down from nearly an hour.\n* **AI-generated code**: CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.\n* **AI-powered business management**: Introducing Businesses in ChatGPT, which helps manage business information, get insights about how a business shows up, and turn interest into action in ChatGPT.\n* **AI-powered caregiving**: OpenAI Academy brings free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.\n\n**Trend:**\n\n* **Increased adoption of AI in various industries**: The recent developments demonstrate the growing adoption of AI in industries such as cybersecurity, travel, and education, as well as the increasing use of AI in various aspects of life, including caregiving and freelance work."
 }
