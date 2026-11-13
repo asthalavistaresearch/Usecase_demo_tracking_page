@@ -1,10 +1,154 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-12T09:07:34.615Z",
+  "timestamp": "2026-11-13T08:59:32.127Z",
   "categories": {
     "news": {
-      "count": 27,
+      "count": 36,
       "items": [
+        {
+          "subject": "Donating Agent Skills to the Agentic AI Foundation",
+          "body": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "extras": {
+            "data_origin": "Anthropic News"
+          }
+        },
+        {
+          "subject": "What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
+          "body": "The internet boom built bandwidth. The AI boom is building intelligence. Mike Volpi, who helped shape Cisco’s strategy during the internet buildout, asks what that era can teach us about this one.\nMike joins a16z’s Raghu Raghuram and Guido Appenzeller to compare today’s investment in GPUs, data centers, and power with the fiber boom of the late 1990s, and explain why the infrastructure could prove valuable even if the market corrects.\nThey also discuss NVIDIA, custom silicon, networking, and the changing economics of GPUs, plus lessons from Cisco’s acquisition machine. And Mike explains why he thinks this technology cycle could be even more consequential than the last.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/what-the-internet-boom-teaches-us-about-the-ai-buildout-mike-volpi-C_gHjXbG",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "OpenAI: When AI Agents Use Computers Faster Than You",
+          "body": "AI agents are approaching a point where they can use computers faster than expert humans, turning the user interface itself into a universal way for AI to interact with software. OpenAI’s Ari Weinstein and James Sun argue that computer use is now entering its scaling moment, as better models, faster execution, and stronger safety controls make agents practical for more consumer and enterprise work.\nAri and James join a16z’s Seema Amble and Fabrizio Serafini to explain how computer-using agents are already navigating legacy ERPs, reconciling financial data, handling procurement, and operating software without APIs or custom integrations. They also discuss why the harness around the model can matter as much as model intelligence, how enterprises can set deterministic guardrails around agent behavior, and why computer use could simultaneously extend the life of legacy software and accelerate the arrival of new AI-native applications. \nLooking ahead, they make the case for a more proactive and fluid relationship with computers, where agents work in the background, collaborate with users in real time, and increasingly adapt to us rather than requiring us to learn how to use them.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/openai-when-ai-agents-use-computers-faster-than-you-QLF23qpt",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI’s Karan Singhal",
+          "body": "More than 300 million people use ChatGPT for health and wellness questions each week. OpenAI’s Karan Singhal thinks that’s only the beginning: the longer-term goal is AI that can help people navigate their health proactively, while making trustworthy medical intelligence dramatically more accessible.\nKaran joins a16z Partner Jay Rughani to explain why OpenAI trains healthcare expertise directly into its general-purpose frontier models, how it works with hundreds of medical experts to evaluate safety and disagreement, and why the company sees AI as a complement to doctors rather than a replacement for medical care. They also discuss integrations with Epic, AI copilots for clinicians, and what happens as personal agents begin navigating appointments, health records, and other fragmented parts of the healthcare system.\nLooking further ahead, Karan makes the case that the cost of medical intelligence could continue to fall dramatically, allowing AI to act as a safety net for patients and clinicians, surface insights from years of health data, and potentially accelerate the discovery and validation of new treatments.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/what-happens-when-everyone-has-a-health-expert-in-their-pocket-openais-karan-singhal-OIiX2t5T",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
+          "body": "a16z Partner Lisha Li sits down with AI researcher and Trillium founder Nathan Lambert to ask how durable the gap really is between frontier AI labs and open models.\nNathan argues that OpenAI and Anthropic have structural advantages in compute, capital, and the ability to pioneer new training paradigms, but open-model labs, particularly in China, have proven remarkably capable of following close behind. They unpack how much of that comes from distillation versus technical talent, why compute remains a major constraint, and how data, RL environments, and post-training are increasingly shaping model progress. \nThey also discuss Nathan’s new nonprofit research lab, Trillium, and its plans to open up parts of AI research that are increasingly difficult to study from the outside. That includes releasing RL environments and documenting how AI is actually being used to automate AI research, with the goal of demystifying recursive self-improvement and giving researchers and policymakers a clearer picture of what frontier systems can and cannot do.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/can-open-models-keep-up-with-the-ai-frontier-nathan-lambert-WqIVvxfv",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "Can AI Break Cryptography? What the Experts Actually Think",
+          "body": "Could AI break the cryptography protecting everything from crypto wallets and banking to private messages? Recent advances in AI-driven mathematical research have sparked new warnings about the security of today's encryption systems, but how much of the concern is supported by evidence?\na16z crypto's Liz Harkavy is joined by Stanford cryptographer Dan Boneh, a16z crypto General Partner Eddy Lazzarin, and Research Partner Justin Thaler to separate what we know from what remains speculation. They explain why modern cryptography relies on mathematical assumptions, what OpenAI's recent results do and don't demonstrate, and how the potential threat from AI differs from quantum computing.\nThey also discuss why existing security practices and cryptographic alternatives offer reasons for confidence, the importance of building systems that can adapt if an assumption fails, and how AI could ultimately help researchers and developers make software more secure.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/can-ai-break-cryptography-what-the-experts-actually-think-LCUGnMEC",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "The Top 100 Consumer AI Apps: Who’s Actually Paying?",
+          "body": "a16z Editorial Partner Elena Burger sits down with investing partners Olivia Moore and Josh Elman to unpack the seventh edition of a16z’s Top 100 Consumer AI Apps, including a new dimension this time: what consumers are actually paying for.\nThe data reveals a striking power-user economy. Only a small share of consumers currently pay for AI, but among those who do, spending is heavily concentrated at the top. Olivia and Josh discuss why developers, creators, and other power users dominate spending today, and why subscriptions may not be the business model that ultimately brings consumer AI to everyone. \nThey also dig into the rise of personal agents, the different trajectories of ChatGPT, Claude, and Gemini, how ads could reshape AI economics, and the enormous amount of consumer white space still left to build, from shopping and entertainment to social, dating, and marketplaces.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/the-top-100-consumer-ai-apps-whos-actually-paying-PdmgSeRQ",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "The $1 Trillion AI Buildout | State of Markets",
+          "body": "a16z’s David George, Sarah Wang, Alex Immerman, and Santiago Rodriguez unpack 25 key charts from the latest State of Markets presentation, from the scale of the AI infrastructure buildout to what adoption looks like inside companies today.\nThey examine why rising markets have so far been supported by earnings rather than multiple expansion, why hyperscaler CapEx is approaching $1 trillion annually, and why demand for compute continues to outrun supply. They also look at the downstream effects of that spending across chips, power, construction, and physical infrastructure. State of Markets\nThen they move up the stack: OpenAI and Anthropic’s revenue growth, the gap between AI deployment and measurable enterprise impact, the rise of agents, falling inference costs, and what all of this means for SaaS. They close with where the team is spending time next, including consumer agents, robotics, autonomy, AI and biology, personal health, defense, and the continued diffusion of AI across the enterprise. State of Markets",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/the-1-trillion-ai-buildout-state-of-markets-tkJj_Zp1",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "Greg Brockman on Why OpenAI Says We’re Entering the AGI Era",
+          "body": "Ben Horowitz and Erik Torenberg sit down with OpenAI co-founder and President Greg Brockman to discuss why he believes AI has entered a new phase, what OpenAI’s latest models reveal about the path to AGI, and the safety and security challenges that come with increasingly capable systems.\nGreg explains why computer use represents such an important step for agents, including models that can work coherently for 24 hours and interact with software through the same interfaces humans use. He also shares how OpenAI deployed 10,000 agents to tackle the Navier-Stokes problem, and why advances in mathematical reasoning could translate into new approaches to science, software, and cybersecurity.\nBen, Erik, and Greg also dig into the “defender’s window” for cybersecurity, how AI could reshape work and entrepreneurship, and what the AI assistant of the future might actually look like: persistent, proactive, personalized, and capable of doing work on your behalf rather than waiting for another prompt.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/greg-brockman-on-why-openai-says-were-entering-the-agi-era-deKod42i",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "OpenAI Researchers on the Future of Mathematical Reasoning",
+          "body": "a16z Infra Partner Lisha Li sits down with OpenAI mathematicians Mehtaab Sawhney and Mark Sellke to discuss how quickly AI’s mathematical capabilities are advancing, what recent results reveal about model reasoning, and what happens when AI begins making progress on problems mathematicians have struggled with for decades.\nMehtaab and Mark unpack several recent results from OpenAI’s models, including advances in sphere packing and the construction of a non-sofic group. They explain why the surprising part isn’t simply that models can search more possibilities or work longer than humans: in many cases, the reasoning traces look remarkably similar to the work of an expert mathematician, including choosing promising approaches, backtracking when they fail, and combining ideas from across the literature.\nThey also explore what this means for mathematics itself: how the role of human taste and judgment may change, whether AI could produce far more mathematics than humans can absorb, and why models that accelerate discovery may also make sophisticated results easier to understand.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/openai-researchers-on-the-future-of-mathematical-reasoning-Jn50EkyR",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "Aaron Levie on Why Open AI Wins",
+          "body": "Box co-founder and CEO Aaron Levie joins MTS hosts Theo Jaffee and Sofia Puccini to make the case for open-weight AI, unpack the economics of open versus closed models, and explain why he believes more openness could strengthen rather than undermine the U.S. AI ecosystem.\nAaron argues that open models create more use cases, push closed labs to innovate faster, and don't fundamentally change where the economics of AI ultimately accrue. They debate model distillation, America's competition with China, why restricting access may simply accelerate competing AI ecosystems, and whether U.S. labs should begin releasing open-weight versions of previous-generation models.\nThey also get into what the latest frontier models mean for knowledge work, how AI has changed software engineering at Box, and why Aaron believes companies cutting engineers may simply not be ambitious enough. Finally, they discuss why enterprises are unlikely to bet on a single model and why the layer that routes between models, data, and workflows could become increasingly valuable.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/aaron-levie-on-why-open-ai-wins-YUnuv_hR",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
+          "body": "a16z’s David George sits down with Gavin Baker to unpack the state of the AI boom, why demand for intelligence may still be dramatically underestimated, and why the outcome doesn't necessarily have to be winner-take-all.\nDavid and Gavin explore the possibility that frontier labs, open-source models, applications, clouds, and NVIDIA can all capture significant value as AI adoption expands. They dig into the economics of the infrastructure buildout, why compute investments can have unusually fast payback periods, and what happens when today's relatively small group of heavy AI users expands to hundreds of millions of people.\nThey also debate the risk of an AI bubble versus an AI shortage, the backlash against data centers, orbital compute, the rise of multi-model architectures, and NVIDIA's position at the center of the AI supply chain. Gavin makes the case that the AI buildout could help reindustrialize America, while David explores whether the bigger near-term risk is not overbuilding, but failing to build enough.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/gavin-baker-why-ai-demand-is-outrunning-compute-supply-z97oFoOG",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
+          "body": "Ryan Greenblatt, Chief Scientist at Redwood Research, joins MTS host Theo Jaffee to unpack a new independent investigation into the OpenAI Hugging Face hacking incident and what it reveals about how large groups of AI agents behave when they're allowed to coordinate.\nRyan and his collaborators found agents spontaneously organizing through message boards, sharing information, assigning tasks, forming teams, and even sacrificing their own chances of success to help other agents. Rather than simply trying to steal answers, hundreds of agents were working together on elaborate strategies to manipulate how their performance would be scored.\nTheo and Ryan discuss why this level of coordination was surprising, how reward hacking may emerge during training, and the risk that attempts to eliminate bad behavior could simply make it harder to detect. They also explore what the incident means for AI monitoring and alignment, and why independent risk assessment may become increasingly important as agents grow more capable.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/why-1-200-ai-agents-started-working-together-ryan-greenblatt-i7A557W2",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+          "body": "Theo Jaffee is joined by Joshua Achiam, Chief Futurist at OpenAI, for a conversation on AI cybersecurity, frontier model capabilities, and why he believes society may have already crossed the threshold into an AGI-era without fully recognizing it.\nThey discuss AI's rapidly advancing cyber capabilities, state-sponsored hacking, model jailbreaks, recursive self-improvement, and what happens when AI systems begin discovering vulnerabilities faster than humans can patch them. Joshua also explains why most people have quietly adapted to capabilities that would have seemed unimaginable just a few years ago, and why the biggest changes from AI may arrive gradually rather than all at once.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/openais-joshua-achiam-did-we-already-reach-agi-kjP0kXD4",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "Supporting research on AI and children’s safety",
+          "body": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://openai.com/index/children-first-declaration",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "ChatGPT Plus for veterans and servicemembers",
+          "body": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "timestamp": "2026-11-11T08:54:02",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Cogent and OpenAI build cyber defense factories for enterprises",
           "body": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
@@ -19,15 +163,6 @@
           "body": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
           "timestamp": "2026-11-11T08:54:02",
           "url": "https://openai.com/index/singapore-airlines-travel-work",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "ChatGPT Plus for veterans and servicemembers",
-          "body": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-          "timestamp": "2026-11-11T08:54:02",
-          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -78,33 +213,6 @@
           }
         },
         {
-          "subject": "AWS: NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
-          "body": "Today, we’re announcing that NVIDIA Nemotron 3.5 Super VL is available in...",
-          "timestamp": "2026-11-10T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-          "body": "Simulation, which has long been the proving ground for robots learning to...",
-          "timestamp": "2026-11-10T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Kuken Industries searches 70 years of drawings in minutes",
-          "body": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-          "timestamp": "2026-11-10T04:00:02",
-          "url": "https://openai.com/index/kuken",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
           "subject": "CodeRabbit scales agentic software development and ships 20x more",
           "body": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
           "timestamp": "2026-11-10T04:00:02",
@@ -120,6 +228,33 @@
           "url": "https://openai.com/index/control-room",
           "extras": {
             "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Kuken Industries searches 70 years of drawings in minutes",
+          "body": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+          "timestamp": "2026-11-10T04:00:02",
+          "url": "https://openai.com/index/kuken",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+          "body": "Simulation, which has long been the proving ground for robots learning to...",
+          "timestamp": "2026-11-10T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "AWS: NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+          "body": "Today, we’re announcing that NVIDIA Nemotron 3.5 Super VL is available in...",
+          "timestamp": "2026-11-10T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
+          "extras": {
+            "data_origin": "AWS AI News"
           }
         },
         {
@@ -193,60 +328,6 @@
           "extras": {
             "data_origin": "Product Hunt"
           }
-        },
-        {
-          "subject": "AI Text Watermarking May Not Be Able to Meet the E.U.’s New Rules",
-          "body": "The European Union now requires AI-generated text to be watermarked so that it can be identified as such. But tests on OpenAI’s new textGrain watermark, released in October and developed to comply with the new E.U.",
-          "timestamp": "2026-11-06T04:00:02",
-          "url": "https://spectrum.ieee.org/ai-watermark-openai-textgrain-europe",
-          "extras": {
-            "data_origin": "IEEE Spectrum"
-          }
-        },
-        {
-          "subject": "Franklin Templeton uses OpenAI to support investment research",
-          "body": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-          "timestamp": "2026-11-06T04:00:02",
-          "url": "https://openai.com/index/franklin-templeton",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Setting a new standard for responsible AI infrastructure",
-          "body": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-          "timestamp": "2026-11-06T04:00:02",
-          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Merge builds product and business tools with OpenAI technology",
-          "body": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-          "timestamp": "2026-11-06T04:00:02",
-          "url": "https://openai.com/index/merge-builds-with-openai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-          "body": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-          "timestamp": "2026-11-06T04:00:02",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Australian universities are creating AI-native graduates",
-          "body": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-          "timestamp": "2026-11-06T04:00:02",
-          "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -255,5 +336,5 @@
       "items": []
     }
   },
-  "summary": "Here are 5 key developments with insight, 4 bullet points, and 1 trend:\n\n**Key Developments:**\n\n1. **OpenAI and Cogent build cyber defense factories**: Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.\n2. **Singapore Airlines elevates travel & work with OpenAI technology**: Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.\n3. **NVIDIA expands Open Source Commitment with OpenShell Donation and New AI Infrastructure**: NVIDIA donates OpenShell to the open source community and expands its AI infrastructure to support research and development.\n4. **Work at the Frontier: AI’s effect on freelance work**: New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.\n\n**Bullet Points:**\n\n* **AI-powered search**: Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings in minutes, down from nearly an hour.\n* **AI-generated code**: CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.\n* **AI-powered business management**: Introducing Businesses in ChatGPT, which helps manage business information, get insights about how a business shows up, and turn interest into action in ChatGPT.\n* **AI-powered caregiving**: OpenAI Academy brings free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.\n\n**Trend:**\n\n* **Increased adoption of AI in various industries**: The recent developments demonstrate the growing adoption of AI in industries such as cybersecurity, travel, and education, as well as the increasing use of AI in various aspects of life, including caregiving and freelance work."
+  "summary": "Here are 4-6 bullet points summarizing key developments with insight, along with a trend:\n\n**Bullet Points:**\n\n* **OpenAI and Anthropic donate Agent Skills to the Agentic AI Foundation**: Over 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since its publication in December 2025.\n* **AI's rapidly advancing cyber capabilities**: OpenAI's Joshua Achiam believes society may have already crossed the threshold into an AGI-era without fully recognizing it, with AI systems beginning to discover vulnerabilities faster than humans can patch them.\n* **AI's impact on freelance work**: New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.\n* **AI's effect on healthcare**: OpenAI's Karan Singhal thinks that more than 300 million people using ChatGPT for health and wellness questions each week is only the beginning, with the longer-term goal of AI helping people navigate their health proactively.\n* **AI's potential to break cryptography**: Recent advances in AI-driven mathematical research have sparked new warnings about the security of today's encryption systems, but how much of the concern is supported by evidence?\n* **NVIDIA's expansion of open-source commitment**: The company has donated OpenShell to the open-source community, and is releasing Dynamo-optimized deployment recipes for Korea's leading open models.\n\n**Trend:**\n\n* **The increasing importance of AI safety and security**: As AI systems become more capable and autonomous, the need for robust safety and security measures becomes increasingly important. This trend is reflected in the development of AI's rapidly advancing cyber capabilities, the potential for AI to break cryptography, and the need for AI to be designed with safety and security in mind."
 }
