@@ -1,17 +1,44 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-13T08:59:32.127Z",
+  "timestamp": "2026-11-14T08:28:34.406Z",
   "categories": {
     "news": {
-      "count": 36,
+      "count": 39,
       "items": [
         {
-          "subject": "Donating Agent Skills to the Agentic AI Foundation",
-          "body": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.",
-          "timestamp": "2026-11-12T11:09:02",
-          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "subject": "Product Hunt Launch: GAtrends",
+          "body": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
+          "timestamp": "2026-11-13T09:15:02",
+          "url": "https://www.producthunt.com/products/gatrends",
           "extras": {
-            "data_origin": "Anthropic News"
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "AWS: Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
+          "body": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain per-user cost controls, quota isolation, and observability.",
+          "timestamp": "2026-11-13T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "body": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "timestamp": "2026-11-13T04:00:02",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "OpenAI Researchers on the Future of Mathematical Reasoning",
+          "body": "a16z Infra Partner Lisha Li sits down with OpenAI mathematicians Mehtaab Sawhney and Mark Sellke to discuss how quickly AI’s mathematical capabilities are advancing, what recent results reveal about model reasoning, and what happens when AI begins making progress on problems mathematicians have struggled with for decades.\nMehtaab and Mark unpack several recent results from OpenAI’s models, including advances in sphere packing and the construction of a non-sofic group. They explain why the surprising part isn’t simply that models can search more possibilities or work longer than humans: in many cases, the reasoning traces look remarkably similar to the work of an expert mathematician, including choosing promising approaches, backtracking when they fail, and combining ideas from across the literature.\nThey also explore what this means for mathematics itself: how the role of human taste and judgment may change, whether AI could produce far more mathematics than humans can absorb, and why models that accelerate discovery may also make sophisticated results easier to understand.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://a16z.simplecast.com/episodes/openai-researchers-on-the-future-of-mathematical-reasoning-Jn50EkyR",
+          "extras": {
+            "data_origin": "a16z"
           }
         },
         {
@@ -87,15 +114,6 @@
           }
         },
         {
-          "subject": "OpenAI Researchers on the Future of Mathematical Reasoning",
-          "body": "a16z Infra Partner Lisha Li sits down with OpenAI mathematicians Mehtaab Sawhney and Mark Sellke to discuss how quickly AI’s mathematical capabilities are advancing, what recent results reveal about model reasoning, and what happens when AI begins making progress on problems mathematicians have struggled with for decades.\nMehtaab and Mark unpack several recent results from OpenAI’s models, including advances in sphere packing and the construction of a non-sofic group. They explain why the surprising part isn’t simply that models can search more possibilities or work longer than humans: in many cases, the reasoning traces look remarkably similar to the work of an expert mathematician, including choosing promising approaches, backtracking when they fail, and combining ideas from across the literature.\nThey also explore what this means for mathematics itself: how the role of human taste and judgment may change, whether AI could produce far more mathematics than humans can absorb, and why models that accelerate discovery may also make sophisticated results easier to understand.",
-          "timestamp": "2026-11-12T11:09:02",
-          "url": "https://a16z.simplecast.com/episodes/openai-researchers-on-the-future-of-mathematical-reasoning-Jn50EkyR",
-          "extras": {
-            "data_origin": "a16z"
-          }
-        },
-        {
           "subject": "Aaron Levie on Why Open AI Wins",
           "body": "Box co-founder and CEO Aaron Levie joins MTS hosts Theo Jaffee and Sofia Puccini to make the case for open-weight AI, unpack the economics of open versus closed models, and explain why he believes more openness could strengthen rather than undermine the U.S. AI ecosystem.\nAaron argues that open models create more use cases, push closed labs to innovate faster, and don't fundamentally change where the economics of AI ultimately accrue. They debate model distillation, America's competition with China, why restricting access may simply accelerate competing AI ecosystems, and whether U.S. labs should begin releasing open-weight versions of previous-generation models.\nThey also get into what the latest frontier models mean for knowledge work, how AI has changed software engineering at Box, and why Aaron believes companies cutting engineers may simply not be ambitious enough. Finally, they discuss why enterprises are unlikely to bet on a single model and why the layer that routes between models, data, and workflows could become increasingly valuable.",
           "timestamp": "2026-11-12T11:09:02",
@@ -141,10 +159,19 @@
           }
         },
         {
-          "subject": "ChatGPT Plus for veterans and servicemembers",
-          "body": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "subject": "Donating Agent Skills to the Agentic AI Foundation",
+          "body": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.",
+          "timestamp": "2026-11-12T11:09:02",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "extras": {
+            "data_origin": "Anthropic News"
+          }
+        },
+        {
+          "subject": "Singapore Airlines elevates travel & work with OpenAI technology",
+          "body": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
           "timestamp": "2026-11-11T08:54:02",
-          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "url": "https://openai.com/index/singapore-airlines-travel-work",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -159,10 +186,10 @@
           }
         },
         {
-          "subject": "Singapore Airlines elevates travel & work with OpenAI technology",
-          "body": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+          "subject": "ChatGPT Plus for veterans and servicemembers",
+          "body": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
           "timestamp": "2026-11-11T08:54:02",
-          "url": "https://openai.com/index/singapore-airlines-travel-work",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -213,10 +240,10 @@
           }
         },
         {
-          "subject": "CodeRabbit scales agentic software development and ships 20x more",
-          "body": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+          "subject": "Kuken Industries searches 70 years of drawings in minutes",
+          "body": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
           "timestamp": "2026-11-10T04:00:02",
-          "url": "https://openai.com/index/coderabbit-codex-daybreak",
+          "url": "https://openai.com/index/kuken",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -231,10 +258,10 @@
           }
         },
         {
-          "subject": "Kuken Industries searches 70 years of drawings in minutes",
-          "body": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+          "subject": "CodeRabbit scales agentic software development and ships 20x more",
+          "body": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
           "timestamp": "2026-11-10T04:00:02",
-          "url": "https://openai.com/index/kuken",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -336,5 +363,5 @@
       "items": []
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments with insight, along with a trend:\n\n**Bullet Points:**\n\n* **OpenAI and Anthropic donate Agent Skills to the Agentic AI Foundation**: Over 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since its publication in December 2025.\n* **AI's rapidly advancing cyber capabilities**: OpenAI's Joshua Achiam believes society may have already crossed the threshold into an AGI-era without fully recognizing it, with AI systems beginning to discover vulnerabilities faster than humans can patch them.\n* **AI's impact on freelance work**: New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.\n* **AI's effect on healthcare**: OpenAI's Karan Singhal thinks that more than 300 million people using ChatGPT for health and wellness questions each week is only the beginning, with the longer-term goal of AI helping people navigate their health proactively.\n* **AI's potential to break cryptography**: Recent advances in AI-driven mathematical research have sparked new warnings about the security of today's encryption systems, but how much of the concern is supported by evidence?\n* **NVIDIA's expansion of open-source commitment**: The company has donated OpenShell to the open-source community, and is releasing Dynamo-optimized deployment recipes for Korea's leading open models.\n\n**Trend:**\n\n* **The increasing importance of AI safety and security**: As AI systems become more capable and autonomous, the need for robust safety and security measures becomes increasingly important. This trend is reflected in the development of AI's rapidly advancing cyber capabilities, the potential for AI to break cryptography, and the need for AI to be designed with safety and security in mind."
+  "summary": "Here are 6 key developments with insight:\n\n* **Advances in AI-driven mathematical research**: Recent breakthroughs in AI-driven mathematical research have sparked warnings about the security of today's encryption systems. However, experts argue that the concern is not entirely supported by evidence, and existing security practices and cryptographic alternatives offer reasons for confidence.\n* **The rise of AI agents**: AI agents are approaching a point where they can use computers faster than expert humans, turning the user interface itself into a universal way for AI to interact with software. OpenAI's Ari Weinstein and James Sun argue that computer use is now entering its scaling moment.\n* **OpenAI's commitment to research on AI and children's safety**: OpenAI has committed $2 million to research on AI and children's safety, supporting shared tools to measure risks and opportunities for young people.\n* **NVIDIA's expansion of open-source commitment**: NVIDIA has donated OpenShell, an open-source system that manages how applications run across thousands of servers, and has announced new collaborations to advance sovereign AI infrastructure with NVIDIA NVLink Fusion.\n* **The impact of AI on freelance work**: New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.\n* **The importance of model distillation**: Aaron Levie, co-founder and CEO of Box, argues that open models create more use cases, push closed labs to innovate faster, and don't fundamentally change where the economics of AI ultimately accrue.\n\nTrend: **The growing importance of AI in various industries**: The recent developments highlight the increasing importance of AI in various industries, including healthcare, finance, education, and more. As AI continues to advance, we can expect to see more applications and innovations in these areas."
 }
