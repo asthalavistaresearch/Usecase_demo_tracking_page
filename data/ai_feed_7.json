@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-15T08:44:08.202Z",
+  "timestamp": "2026-11-16T08:55:09.871Z",
   "categories": {
     "news": {
-      "count": 40,
+      "count": 39,
       "items": [
         {
           "subject": "Product Hunt Launch: Businesses in ChatGPT",
@@ -258,12 +258,12 @@
           }
         },
         {
-          "subject": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-          "body": "Simulation, which has long been the proving ground for robots learning to...",
+          "subject": "AWS: NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+          "body": "Today, we’re announcing that NVIDIA Nemotron 3.5 Super VL is available in...",
           "timestamp": "2026-11-10T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "AWS AI News"
           }
         },
         {
@@ -294,12 +294,21 @@
           }
         },
         {
-          "subject": "AWS: NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
-          "body": "Today, we’re announcing that NVIDIA Nemotron 3.5 Super VL is available in...",
+          "subject": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+          "body": "Simulation, which has long been the proving ground for robots learning to...",
           "timestamp": "2026-11-10T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
           "extras": {
-            "data_origin": "AWS AI News"
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+          "body": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI...",
+          "timestamp": "2026-11-09T10:24:02",
+          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+          "extras": {
+            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -346,24 +355,6 @@
           "extras": {
             "data_origin": "NVIDIA News"
           }
-        },
-        {
-          "subject": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
-          "body": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI...",
-          "timestamp": "2026-11-09T10:24:02",
-          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "Statement from NVIDIA Board of Directors",
-          "body": "The NVIDIA Board is initiating an independent investigation in light of recent...",
-          "timestamp": "2026-11-09T04:00:02",
-          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -372,5 +363,5 @@
       "items": []
     }
   },
-  "summary": "**Key Developments:**\n\n* OpenAI launches \"Businesses in ChatGPT\" to help customers discover businesses through ChatGPT.\n* Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.\n* Product Hunt launches GAtrends, a spike alert service for keywords in Telegram, Claude, and ChatGPT.\n* AWS builds a self-service LLM gateway with Amazon Bedrock and LiteLLM, providing developers with instant access to OpenAI-compatible APIs.\n* Amplitude uses OpenAI models to ship product improvements in 1-2 days, identifying what to build and measuring the impact.\n* OpenAI's Ari Weinstein and James Sun argue that AI agents are approaching a point where they can use computers faster than expert humans, turning the user interface into a universal way for AI to interact with software.\n* The AI boom is building intelligence, similar to the internet boom building bandwidth. Mike Volpi compares the investment in GPUs, data centers, and power with the fiber boom of the late 1990s.\n* OpenAI trains healthcare expertise directly into its general-purpose frontier models, making trustworthy medical intelligence more accessible.\n* Nathan Lambert argues that OpenAI and Anthropic have structural advantages in compute, capital, and the ability to pioneer new training paradigms, but open-model labs have proven capable of following close behind.\n* The internet boom teaches us about the AI buildout, with Mike Volpi comparing the investment in GPUs, data centers, and power with the fiber boom of the late 1990s.\n* OpenAI's Karan Singhal thinks that the longer-term goal is AI that can help people navigate their health proactively, making trustworthy medical intelligence dramatically more accessible.\n* Nathan Lambert argues that the gap between frontier AI labs and open models is not as significant as it seems, with open-model labs capable of following close behind.\n* A16z's David George, Sarah Wang, Alex Immerman, and Santiago Rodriguez unpack 25 key charts from the latest State of Markets presentation, examining the scale of the AI infrastructure buildout and what adoption looks like inside companies today.\n\n**Trend:**\n\n* The AI buildout is accelerating, with demand for intelligence outpacing compute supply. This trend is driven by the rapid advancements in AI capabilities, the increasing adoption of AI in various industries, and the growing investment in AI infrastructure."
+  "summary": "Here are 4-6 bullet points summarizing key developments and 1 trend:\n\n**Key Developments:**\n\n* OpenAI's ChatGPT Plus is being used by over 20,000 veterans and transitioning service members to prepare for civilian careers.\n* NVIDIA has expanded its open-source commitment by donating OpenShell and announcing new AI infrastructure.\n* OpenAI has committed $2 million to research on AI and children's safety.\n* CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.\n* Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings, reducing the time it takes to find a repair drawing from nearly an hour to 4.5 minutes.\n* Singapore Airlines is using OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.\n\n**Trend:**\n\n* **Increased adoption of AI in various industries and applications**: The trend is towards widespread adoption of AI in various industries, including healthcare, finance, customer support, and employee productivity. This trend is driven by the increasing capabilities of AI models and the growing demand for AI-powered solutions.\n\n**Insight:**\n\n* The trend towards increased adoption of AI is driven by the growing capabilities of AI models and the demand for AI-powered solutions. However, this trend also raises concerns about the potential risks and challenges associated with AI, such as job displacement, bias, and cybersecurity threats."
 }
