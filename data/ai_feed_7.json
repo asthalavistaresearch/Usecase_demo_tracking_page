@@ -1,10 +1,82 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-18T09:38:48.337Z",
+  "timestamp": "2026-11-19T09:45:21.498Z",
   "categories": {
     "news": {
-      "count": 34,
+      "count": 42,
       "items": [
+        {
+          "subject": "Product Hunt Launch: GPT-6.2 Astra",
+          "body": "OpenAI's frontier model for your hardest projects",
+          "timestamp": "2026-11-18T09:25:02",
+          "url": "https://www.producthunt.com/products/openai",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "body": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+          "timestamp": "2026-11-18T09:25:02",
+          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "AWS: Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+          "body": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
+          "timestamp": "2026-11-18T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+          "body": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago...",
+          "timestamp": "2026-11-18T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "ChatGPT Ads increases its market presence in 44 countries",
+          "body": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
+          "timestamp": "2026-11-18T04:00:02",
+          "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Introducing OpenAI for Chile",
+          "body": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+          "timestamp": "2026-11-18T04:00:02",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Introducing GPT-6.2 Astra and Sol",
+          "body": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "timestamp": "2026-11-18T04:00:02",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Can AI Learn to Improve Itself? | Recursive Self-Improvement",
+          "body": "For decades, the idea of AI improving itself was just a thought experiment. Today, AI is already helping researchers at frontier labs run experiments, write code and test ideas faster. Mark Chen says OpenAI has built “AI research interns.” So how far are we from AI that can do the research on its own?\nIn our first episode of Working Theory, a16z general partner Sarah Wang explores recursive self-improvement with two leading AI researchers: Mark Chen, Chief Research Officer at OpenAI, and John Schulman, co-founder and Chief Scientist of Thinking Machines Lab, and co-founder of OpenAI.\nThey cover what RSI actually means, why research taste is so hard to teach, and why AI may be one of our best tools for solving alignment.",
+          "timestamp": "2026-11-18T04:00:02",
+          "url": "https://a16z.simplecast.com/episodes/can-ai-learn-to-improve-itself-recursive-self-improvement-MhAlOhBQ",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
         {
           "subject": "Strengthening NATO and allied cyber defenses with AI",
           "body": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
@@ -15,12 +87,12 @@
           }
         },
         {
-          "subject": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-          "body": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing...",
+          "subject": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "body": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
           "timestamp": "2026-11-17T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+          "url": "https://openai.com/index/lvmh-media-division-partnership",
           "extras": {
-            "data_origin": "NVIDIA News"
+            "data_origin": "OpenAI News"
           }
         },
         {
@@ -28,15 +100,6 @@
           "body": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
           "timestamp": "2026-11-17T04:00:02",
           "url": "https://openai.com/index/science-at-the-frontier",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "LVMH’s Media Division announces strategic partnership with OpenAI",
-          "body": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://openai.com/index/lvmh-media-division-partnership",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -64,6 +127,15 @@
           "body": "At SC26, an annual supercomputing conference taking place this week in Chicago...",
           "timestamp": "2026-11-17T04:00:02",
           "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+          "body": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing...",
+          "timestamp": "2026-11-17T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
@@ -314,9 +386,30 @@
       ]
     },
     "models": {
-      "count": 0,
-      "items": []
+      "count": 2,
+      "items": [
+        {
+          "subject": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
+          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen3_5_text\", \"nvidia\", \"ModelOpt\", \"Qwen3.5\", \"Qwen3.8\", \"Draft\", \"text-generation\", \"conversational\", \"base_model:Qwen/Qwen3.5-4B\", \"base_model:finetune:Qwen/Qwen3.5-4B\", \"license:other\", \"region:us\"]",
+          "timestamp": "2026-11-17T15:52:50",
+          "url": "https://huggingface.co/nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        },
+        {
+          "subject": "nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
+          "body": "[\"modelopt\", \"safetensors\", \"qwen4_exp\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"nvfp4\", \"mxfp8\", \"qad\", \"image-text-to-text\", \"conversational\", \"base_model:Qwen/Qwen3.8-Flash-Next\", \"base_model:quantized:Qwen/Qwen3.8-Flash-Next\", \"license:other\", \"8-bit\", \"region:us\"]",
+          "timestamp": "2026-11-17T11:41:45",
+          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
+          "extras": {
+            "data_origin": "huggingface",
+            "namespace": "nvidia"
+          }
+        }
+      ]
     }
   },
-  "summary": "Here are 4-6 bullet points summarizing key developments:\n\n* **NATO and OpenAI collaborate on cyber defense**: OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes, and protect essential systems.\n* **NVIDIA announces new GPU and AI infrastructure advancements**: NVIDIA has announced new GPUs, including the Rubin HPC, and AI infrastructure advancements, such as the CUDA-X libraries, to accelerate scientific discovery and supercomputing.\n* **AI adoption in healthcare and education**: OpenAI's Karan Singhal discusses the potential of AI to help people navigate their health proactively and make trustworthy medical intelligence more accessible. Amplitude's Wave uses OpenAI models to identify what to build and help teams ship changes with coding agents.\n* **AI's impact on cybersecurity**: Experts discuss the potential threat of AI to cryptography, with recent advances in AI-driven mathematical research sparking warnings about the security of today's encryption systems.\n* **Open-source models and the AI buildout**: Nathan Lambert argues that open-source models can keep up with the AI frontier, but open-model labs have structural advantages in compute, capital, and innovation.\n* **AI's impact on work and entrepreneurship**: Aaron Levie makes the case for open-weight AI, arguing that it can create more use cases, push closed labs to innovate faster, and strengthen the US AI ecosystem.\n\nTrend: **The AI buildout is accelerating, with significant investments in compute, power, and infrastructure, but the pace of adoption and the potential risks are still underestimated.**"
+  "summary": "**Summary of Key Developments:**\n\n* OpenAI introduced GPT-6.2 Astra and Sol, with improved professional outputs, coding, and computer use at a lower cost.\n* Le Groupe Figaro and OpenAI partnered to bring Le Figaro's journalism to ChatGPT through summaries and excerpts.\n* Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery.\n* NVIDIA announced the Rubin HPC GPU to accelerate agents for science, engineering, and analytics.\n* The King's Trust and OpenAI launched a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.\n* OpenAI researchers made significant advancements in mathematical reasoning, including advances in sphere packing and the construction of a non-sofic group.\n\n**Bullet Points:**\n\n* OpenAI's latest models, GPT-6.2 Astra and Sol, have improved capabilities, including better professional outputs, coding, and computer use.\n* NVIDIA introduced the Rubin HPC GPU, designed to accelerate agents for science, engineering, and analytics.\n* Le Groupe Figaro and OpenAI partnered to bring Le Figaro's journalism to ChatGPT through summaries and excerpts.\n* The King's Trust and OpenAI launched a £1m partnership to support young people in building practical AI skills for work.\n* OpenAI researchers made significant advancements in mathematical reasoning, including advances in sphere packing and the construction of a non-sofic group.\n\n**Trend:**\n\n* The rapidly advancing capabilities of AI models, particularly in mathematical reasoning and language processing, are driving innovations in various fields, including science, engineering, and medicine.\n\n**Insights:**\n\n* The increasing focus on applied AI and its practical applications is driving the development of new AI models and technologies.\n* The collaboration between OpenAI and other organizations, such as Le Groupe Figaro and the King's Trust, is highlighting the potential of AI to transform industries and improve people's lives.\n* The rapid progress in AI research is creating new opportunities for innovation and discovery in various fields, including mathematics, computer science, and engineering."
 }
