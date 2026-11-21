@@ -1,10 +1,55 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-20T09:33:16.510Z",
+  "timestamp": "2026-11-21T09:05:21.346Z",
   "categories": {
     "news": {
-      "count": 28,
+      "count": 32,
       "items": [
+        {
+          "subject": "Product Hunt Launch: Telo",
+          "body": "Apple Health in ChatGPT and Claude, in any country",
+          "timestamp": "2026-11-20T09:06:01",
+          "url": "https://www.producthunt.com/products/telo-2",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "Product Hunt Launch: CodeDesign v3",
+          "body": "Run your website and business apps from ChatGPT or Claude",
+          "timestamp": "2026-11-20T04:00:02",
+          "url": "https://www.producthunt.com/products/codedesign",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "AWS: Using NVIDIA Run:ai GPU Fractioning on Amazon EKS",
+          "body": "Learn how to run two memory-bounded Kubernetes Pods on a single NVIDIA A10G GPU using open-source NVIDIA Run:ai GPU Fractioning on Amazon EKS. This walkthrough builds a custom Amazon Linux 2023 image, installs KAI Scheduler and the GPU Fractioning Operator, and validates per-Pod GPU-memory contracts with enforcement and metrics.",
+          "timestamp": "2026-11-20T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/using-nvidia-runai-gpu-fractioning-on-amazon-eks/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+          "body": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build...",
+          "timestamp": "2026-11-20T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+          "extras": {
+            "data_origin": "NVIDIA News"
+          }
+        },
+        {
+          "subject": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "body": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "timestamp": "2026-11-20T04:00:02",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "NVIDIA RTX Spark Compact Desktops Out Now",
           "body": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are...",
@@ -60,6 +105,15 @@
           }
         },
         {
+          "subject": "Introducing GPT-6.2 Astra and Sol",
+          "body": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "timestamp": "2026-11-18T04:00:02",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "AWS: Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
           "body": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
           "timestamp": "2026-11-18T04:00:02",
@@ -91,15 +145,6 @@
           "body": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
           "timestamp": "2026-11-18T04:00:02",
           "url": "https://openai.com/index/introducing-openai-for-chile",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing GPT-6.2 Astra and Sol",
-          "body": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-          "timestamp": "2026-11-18T04:00:02",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -247,15 +292,6 @@
           "extras": {
             "data_origin": "Product Hunt"
           }
-        },
-        {
-          "subject": "Introducing ChatGPT Wallet",
-          "body": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-          "timestamp": "2026-11-14T04:00:02",
-          "url": "https://openai.com/index/introducing-chatgpt-wallet",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
@@ -285,5 +321,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **NVIDIA RTX Spark Compact Desktops**: New compact desktops from ASUS, Dell, and MSI are now available, featuring NVIDIA RTX technology for local AI acceleration.\n* **OpenAI's Frontier Model**: OpenAI has released its frontier model, GPT-6.2 Astra, which is designed for the hardest projects and can generate professional outputs, code, and computer use.\n* **AWS and NVIDIA Partnership**: Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery.\n* **NVIDIA's CUDA-X Libraries**: NVIDIA has expanded its CUDA-X libraries to include cuPhoton, cuPotential, and cuSpa, allowing researchers to accelerate research in astrophysics, materials science, and single-cell biology.\n* **OpenAI's Partnership with Le Groupe Figaro**: OpenAI has partnered with Le Groupe Figaro to bring Le Figaro's journalism to ChatGPT, providing summaries and excerpts with links to original stories.\n* **NVIDIA's Rubin HPC**: NVIDIA has announced its new GPU, Rubin HPC, designed to accelerate agents for science, engineering, and analytics.\n\n**Trend:**\n\n* **Advancements in AI Infrastructure**: The rapid development of AI infrastructure, including NVIDIA's CUDA-X libraries and AWS's SageMaker HyperPod Inference, is enabling researchers and organizations to accelerate their work in various fields, from astrophysics to single-cell biology.\n\nThese developments demonstrate the growing importance of AI infrastructure in various industries, from research to journalism, and highlight the need for continued innovation in this area."
+  "summary": "Here are 6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **NVIDIA and Microsoft expand accelerated computing**: NVIDIA and Microsoft are extending their collaboration to help organizations build AI applications on Azure and Windows PCs.\n* **OpenAI's Performance Factory keeps ChatGPT fast**: OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.\n* **NVIDIA RTX Spark compact desktops are now available**: NVIDIA RTX Spark compact desktops from ASUS, Dell, and MSI are now available, offering a compact and powerful AI computing solution.\n* **AWS and NVIDIA collaborate on AI infrastructure**: AWS and NVIDIA are collaborating on AI infrastructure, including the use of NVIDIA's GPU fractioning technology on Amazon EKS.\n* **OpenAI and the Government of Chile partner on AI adoption**: OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills, and help local startups develop AI applications.\n* **NVIDIA announces Rubin HPC, a new GPU for science and engineering**: NVIDIA announced Rubin HPC, a new GPU designed to accelerate AI and scientific computing workloads.\n\n**Trend:**\n\n* **The increasing importance of AI infrastructure**: The trend is clear: AI infrastructure is becoming increasingly important for organizations to develop and deploy AI applications. This is evident in the collaborations between AWS and NVIDIA, as well as the partnerships between OpenAI and governments and organizations. The demand for powerful and efficient AI computing solutions is driving innovation in the field of AI infrastructure."
 }
