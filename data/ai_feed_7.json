@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-21T09:05:21.346Z",
+  "timestamp": "2026-11-22T09:13:34.619Z",
   "categories": {
     "news": {
-      "count": 32,
+      "count": 31,
       "items": [
         {
           "subject": "Product Hunt Launch: Telo",
@@ -283,15 +283,6 @@
           "extras": {
             "data_origin": "Product Hunt"
           }
-        },
-        {
-          "subject": "Product Hunt Launch: Businesses in ChatGPT",
-          "body": "Help customers discover your business through ChatGPT",
-          "timestamp": "2026-11-14T11:20:02",
-          "url": "https://www.producthunt.com/products/openai",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
         }
       ]
     },
@@ -321,5 +312,5 @@
       ]
     }
   },
-  "summary": "Here are 6 key developments with insight, along with a trend:\n\n**Key Developments:**\n\n* **NVIDIA and Microsoft expand accelerated computing**: NVIDIA and Microsoft are extending their collaboration to help organizations build AI applications on Azure and Windows PCs.\n* **OpenAI's Performance Factory keeps ChatGPT fast**: OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.\n* **NVIDIA RTX Spark compact desktops are now available**: NVIDIA RTX Spark compact desktops from ASUS, Dell, and MSI are now available, offering a compact and powerful AI computing solution.\n* **AWS and NVIDIA collaborate on AI infrastructure**: AWS and NVIDIA are collaborating on AI infrastructure, including the use of NVIDIA's GPU fractioning technology on Amazon EKS.\n* **OpenAI and the Government of Chile partner on AI adoption**: OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills, and help local startups develop AI applications.\n* **NVIDIA announces Rubin HPC, a new GPU for science and engineering**: NVIDIA announced Rubin HPC, a new GPU designed to accelerate AI and scientific computing workloads.\n\n**Trend:**\n\n* **The increasing importance of AI infrastructure**: The trend is clear: AI infrastructure is becoming increasingly important for organizations to develop and deploy AI applications. This is evident in the collaborations between AWS and NVIDIA, as well as the partnerships between OpenAI and governments and organizations. The demand for powerful and efficient AI computing solutions is driving innovation in the field of AI infrastructure."
+  "summary": "**Key Developments:**\n\n* **Product Hunt Releases:**\n\t+ Telo: Apple Health in ChatGPT and Claude, in any country.\n\t+ CodeDesign v3: Run your website and business apps from ChatGPT or Claude.\n\t+ GPT-6.2 Astra: OpenAI's frontier model for your hardest projects.\n\t+ ChatGPT Wallet: Let ChatGPT agents buy things without seeing your card.\n* **AI Advancements:**\n\t+ NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs.\n\t+ NVIDIA RTX Spark Compact Desktops Out Now.\n\t+ NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics.\n* **AI Adoption and Partnerships:**\n\t+ Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT.\n\t+ OpenAI and the Government of Chile partner to support responsible AI adoption.\n\t+ LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI.\n* **Research and Development:**\n\t+ OpenAI's Mark Chen explains the concept of Recursive Self-Improvement in AI research.\n\t+ NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing.\n\n**Trend:** **Increased Adoption of AI in Various Industries**: There is a growing trend of AI adoption in various industries, including healthcare, journalism, education, and more. This is evident from the partnerships and collaborations mentioned in the key developments, such as OpenAI's partnership with Le Groupe Figaro and LVMH’s Media Division, and the use of ChatGPT by over 1,800 scientists in research. This trend is expected to continue, with more industries embracing AI to improve efficiency, productivity, and decision-making."
 }
