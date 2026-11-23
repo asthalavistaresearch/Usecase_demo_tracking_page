@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-22T09:13:34.619Z",
+  "timestamp": "2026-11-23T10:10:32.311Z",
   "categories": {
     "news": {
-      "count": 31,
+      "count": 30,
       "items": [
         {
           "subject": "Product Hunt Launch: Telo",
@@ -105,10 +105,10 @@
           }
         },
         {
-          "subject": "Introducing GPT-6.2 Astra and Sol",
-          "body": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "subject": "Introducing OpenAI for Chile",
+          "body": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
           "timestamp": "2026-11-18T04:00:02",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -141,10 +141,10 @@
           }
         },
         {
-          "subject": "Introducing OpenAI for Chile",
-          "body": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+          "subject": "Introducing GPT-6.2 Astra and Sol",
+          "body": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
           "timestamp": "2026-11-18T04:00:02",
-          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -163,6 +163,15 @@
           "body": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
           "timestamp": "2026-11-17T08:40:02",
           "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Science at the Frontier: How scientists use ChatGPT",
+          "body": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+          "timestamp": "2026-11-17T04:00:02",
+          "url": "https://openai.com/index/science-at-the-frontier",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -265,24 +274,6 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Science at the Frontier: How scientists use ChatGPT",
-          "body": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://openai.com/index/science-at-the-frontier",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Product Hunt Launch: ChatGPT Wallet",
-          "body": "Let ChatGPT agents buy things without seeing your card",
-          "timestamp": "2026-11-16T08:37:01",
-          "url": "https://www.producthunt.com/products/chatgpt",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
         }
       ]
     },
@@ -312,5 +303,5 @@
       ]
     }
   },
-  "summary": "**Key Developments:**\n\n* **Product Hunt Releases:**\n\t+ Telo: Apple Health in ChatGPT and Claude, in any country.\n\t+ CodeDesign v3: Run your website and business apps from ChatGPT or Claude.\n\t+ GPT-6.2 Astra: OpenAI's frontier model for your hardest projects.\n\t+ ChatGPT Wallet: Let ChatGPT agents buy things without seeing your card.\n* **AI Advancements:**\n\t+ NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs.\n\t+ NVIDIA RTX Spark Compact Desktops Out Now.\n\t+ NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics.\n* **AI Adoption and Partnerships:**\n\t+ Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT.\n\t+ OpenAI and the Government of Chile partner to support responsible AI adoption.\n\t+ LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI.\n* **Research and Development:**\n\t+ OpenAI's Mark Chen explains the concept of Recursive Self-Improvement in AI research.\n\t+ NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing.\n\n**Trend:** **Increased Adoption of AI in Various Industries**: There is a growing trend of AI adoption in various industries, including healthcare, journalism, education, and more. This is evident from the partnerships and collaborations mentioned in the key developments, such as OpenAI's partnership with Le Groupe Figaro and LVMH’s Media Division, and the use of ChatGPT by over 1,800 scientists in research. This trend is expected to continue, with more industries embracing AI to improve efficiency, productivity, and decision-making."
+  "summary": "**Key Developments and Insights**\n\n* **AI Infrastructure Advancements:** NVIDIA announced several significant advancements in AI infrastructure, including the introduction of the NVIDIA Rubin HPC GPU, which accelerates agents for science, engineering, and analytics.\n* **OpenAI Expands Partnership Network:** OpenAI has partnered with various organizations, including LVMH's Media Division, Le Groupe Figaro, and the Government of Chile, to promote responsible AI adoption and develop AI applications.\n* **GPT-6.2 Astra and Sol:** OpenAI released GPT-6.2 Astra and Sol, frontier models for professional outputs, coding, and computer use, with improved efficiency at lower costs.\n* **AI Education and Training:** The King's Trust and OpenAI launched a £1m partnership to provide young people in the UK with practical AI skills for work.\n* **NVIDIA CUDA-X Libraries:** NVIDIA expanded its CUDA-X libraries, enabling researchers to accelerate scientific discovery in areas such as astrophysics, materials science, and single-cell biology.\n\n**Trend:** The increasing focus on developing and deploying large-scale AI models is driving advancements in AI infrastructure, model optimization, and training techniques. This trend is expected to continue as more organizations invest in AI research and development to stay competitive in the AI-driven economy."
 }
