@@ -1,9 +1,9 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-23T10:10:32.311Z",
+  "timestamp": "2026-11-24T11:55:36.363Z",
   "categories": {
     "news": {
-      "count": 30,
+      "count": 17,
       "items": [
         {
           "subject": "Product Hunt Launch: Telo",
@@ -51,6 +51,15 @@
           }
         },
         {
+          "subject": "The Silent Consensus",
+          "body": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+          "timestamp": "2026-11-19T04:00:02",
+          "url": "https://openai.com/index/the-silent-consensus",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "NVIDIA RTX Spark Compact Desktops Out Now",
           "body": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are...",
           "timestamp": "2026-11-19T04:00:02",
@@ -78,15 +87,6 @@
           }
         },
         {
-          "subject": "The Silent Consensus",
-          "body": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-          "timestamp": "2026-11-19T04:00:02",
-          "url": "https://openai.com/index/the-silent-consensus",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
           "subject": "Product Hunt Launch: GPT-6.2 Astra",
           "body": "OpenAI's frontier model for your hardest projects",
           "timestamp": "2026-11-18T09:25:02",
@@ -105,12 +105,12 @@
           }
         },
         {
-          "subject": "Introducing OpenAI for Chile",
-          "body": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+          "subject": "Can AI Learn to Improve Itself? | Recursive Self-Improvement",
+          "body": "For decades, the idea of AI improving itself was just a thought experiment. Today, AI is already helping researchers at frontier labs run experiments, write code and test ideas faster. Mark Chen says OpenAI has built “AI research interns.” So how far are we from AI that can do the research on its own?\nIn our first episode of Working Theory, a16z general partner Sarah Wang explores recursive self-improvement with two leading AI researchers: Mark Chen, Chief Research Officer at OpenAI, and John Schulman, co-founder and Chief Scientist of Thinking Machines Lab, and co-founder of OpenAI.\nThey cover what RSI actually means, why research taste is so hard to teach, and why AI may be one of our best tools for solving alignment.",
           "timestamp": "2026-11-18T04:00:02",
-          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "url": "https://a16z.simplecast.com/episodes/can-ai-learn-to-improve-itself-recursive-self-improvement-MhAlOhBQ",
           "extras": {
-            "data_origin": "OpenAI News"
+            "data_origin": "a16z"
           }
         },
         {
@@ -141,6 +141,15 @@
           }
         },
         {
+          "subject": "Introducing OpenAI for Chile",
+          "body": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+          "timestamp": "2026-11-18T04:00:02",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
           "subject": "Introducing GPT-6.2 Astra and Sol",
           "body": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
           "timestamp": "2026-11-18T04:00:02",
@@ -148,137 +157,11 @@
           "extras": {
             "data_origin": "OpenAI News"
           }
-        },
-        {
-          "subject": "Can AI Learn to Improve Itself? | Recursive Self-Improvement",
-          "body": "For decades, the idea of AI improving itself was just a thought experiment. Today, AI is already helping researchers at frontier labs run experiments, write code and test ideas faster. Mark Chen says OpenAI has built “AI research interns.” So how far are we from AI that can do the research on its own?\nIn our first episode of Working Theory, a16z general partner Sarah Wang explores recursive self-improvement with two leading AI researchers: Mark Chen, Chief Research Officer at OpenAI, and John Schulman, co-founder and Chief Scientist of Thinking Machines Lab, and co-founder of OpenAI.\nThey cover what RSI actually means, why research taste is so hard to teach, and why AI may be one of our best tools for solving alignment.",
-          "timestamp": "2026-11-18T04:00:02",
-          "url": "https://a16z.simplecast.com/episodes/can-ai-learn-to-improve-itself-recursive-self-improvement-MhAlOhBQ",
-          "extras": {
-            "data_origin": "a16z"
-          }
-        },
-        {
-          "subject": "Strengthening NATO and allied cyber defenses with AI",
-          "body": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-          "timestamp": "2026-11-17T08:40:02",
-          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Science at the Frontier: How scientists use ChatGPT",
-          "body": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://openai.com/index/science-at-the-frontier",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-          "body": "To train an AI model, thousands of GPUs have to work together...",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
-          "body": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the...",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
-          "body": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera...",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-          "body": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology.",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "CUDA at 20: How the Platform Transformed Scientific Computing",
-          "body": "This week at SC26, NVIDIA is marking two decades of CUDA by...",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-          "body": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in...",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-          "body": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing...",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-          "body": "At SC26, an annual supercomputing conference taking place this week in Chicago...",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "The King’s Trust and OpenAI launch £1m partnership",
-          "body": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://openai.com/index/the-kings-trust-and-openai",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Our first phase of embedded assessments",
-          "body": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "LVMH’s Media Division announces strategic partnership with OpenAI",
-          "body": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-          "timestamp": "2026-11-17T04:00:02",
-          "url": "https://openai.com/index/lvmh-media-division-partnership",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
         }
       ]
     },
     "models": {
-      "count": 2,
+      "count": 1,
       "items": [
         {
           "subject": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
@@ -289,19 +172,9 @@
             "data_origin": "huggingface",
             "namespace": "nvidia"
           }
-        },
-        {
-          "subject": "nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
-          "body": "[\"modelopt\", \"safetensors\", \"qwen4_exp\", \"nvidia\", \"ModelOpt\", \"Qwen3.8\", \"quantized\", \"nvfp4\", \"mxfp8\", \"qad\", \"image-text-to-text\", \"conversational\", \"base_model:Qwen/Qwen3.8-Flash-Next\", \"base_model:quantized:Qwen/Qwen3.8-Flash-Next\", \"license:other\", \"8-bit\", \"region:us\"]",
-          "timestamp": "2026-11-17T11:41:45",
-          "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
         }
       ]
     }
   },
-  "summary": "**Key Developments and Insights**\n\n* **AI Infrastructure Advancements:** NVIDIA announced several significant advancements in AI infrastructure, including the introduction of the NVIDIA Rubin HPC GPU, which accelerates agents for science, engineering, and analytics.\n* **OpenAI Expands Partnership Network:** OpenAI has partnered with various organizations, including LVMH's Media Division, Le Groupe Figaro, and the Government of Chile, to promote responsible AI adoption and develop AI applications.\n* **GPT-6.2 Astra and Sol:** OpenAI released GPT-6.2 Astra and Sol, frontier models for professional outputs, coding, and computer use, with improved efficiency at lower costs.\n* **AI Education and Training:** The King's Trust and OpenAI launched a £1m partnership to provide young people in the UK with practical AI skills for work.\n* **NVIDIA CUDA-X Libraries:** NVIDIA expanded its CUDA-X libraries, enabling researchers to accelerate scientific discovery in areas such as astrophysics, materials science, and single-cell biology.\n\n**Trend:** The increasing focus on developing and deploying large-scale AI models is driving advancements in AI infrastructure, model optimization, and training techniques. This trend is expected to continue as more organizations invest in AI research and development to stay competitive in the AI-driven economy."
+  "summary": "Here are four to six key developments with insight:\n\n* **Advancements in AI Research**: The recent announcements from OpenAI, including the launch of GPT-6.2 Astra and Sol, as well as the introduction of OpenAI's Performance Factory, demonstrate the rapid progress being made in AI research. These advancements are enabling more efficient and effective AI systems, such as ChatGPT, which is now available in 44 countries.\n* **Expansion of AI Adoption**: The partnership between OpenAI and the Government of Chile to support responsible AI adoption and the selection of Aleph as the exclusive reseller for ChatGPT Ads in 44 countries highlight the growing interest in AI adoption globally. This expansion of AI adoption is expected to drive further innovation and applications of AI technology.\n* **NVIDIA's Growing Influence**: NVIDIA's announcements, including the launch of NVIDIA RTX Spark compact desktops and the expansion of accelerated computing from Azure to Windows PCs, demonstrate the company's growing influence in the AI space. NVIDIA's hardware and software solutions are becoming increasingly important for AI applications, and its partnership with OpenAI and Microsoft is driving the development of more powerful and efficient AI systems.\n* **OpenAI's Growing Ecosystem**: The partnerships between OpenAI and companies like Le Groupe Figaro, Sumitomo Life, and the Government of Chile demonstrate the growth of OpenAI's ecosystem. This ecosystem is expected to drive the adoption of AI technology and enable more applications of AI in various industries.\n\nTrend: **Increasing Adoption of AI in Industries**\n\nThe trend in AI adoption is clear: AI is becoming increasingly important in various industries, from healthcare to finance to education. The growing number of partnerships between companies and OpenAI, as well as the expansion of AI adoption globally, demonstrate the growing importance of AI in driving innovation and efficiency in various industries. This trend is expected to continue in the coming years, with AI playing an increasingly important role in shaping the future of various industries."
 }
