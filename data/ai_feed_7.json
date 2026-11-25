@@ -1,10 +1,37 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-24T11:55:36.363Z",
+  "timestamp": "2026-11-25T10:47:38.221Z",
   "categories": {
     "news": {
-      "count": 17,
+      "count": 12,
       "items": [
+        {
+          "subject": "The One-Person Biotech | OpenAI Life Sciences",
+          "body": "What happens when scientists are no longer limited by human attention? OpenAI’s Joy Jiao and Ashoka Rajendra join a16z’s Jay Rughani and Jorge Conde to discuss how AI and thousands of parallel agents could reshape drug discovery and development.\nThey trace OpenAI’s life sciences work from scientific reasoning to the acquisition of Orchestra Bio, and how agents could search biological data, manage clinical trials, and navigate regulatory and manufacturing workflows.\nThey also discuss AI’s role in solving difficult diagnoses and a future where a single person could potentially launch and advance multiple biotech programs.",
+          "timestamp": "2026-11-24T04:00:02",
+          "url": "https://a16z.simplecast.com/episodes/the-one-person-biotech-openai-life-sciences-TrZddFUB",
+          "extras": {
+            "data_origin": "a16z"
+          }
+        },
+        {
+          "subject": "OpenAI and Cisco introduce Shirudo",
+          "body": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+          "timestamp": "2026-11-24T04:00:02",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
+        {
+          "subject": "Connected intelligence for in-house legal",
+          "body": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+          "timestamp": "2026-11-24T04:00:02",
+          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "Product Hunt Launch: Telo",
           "body": "Apple Health in ChatGPT and Claude, in any country",
@@ -12,33 +39,6 @@
           "url": "https://www.producthunt.com/products/telo-2",
           "extras": {
             "data_origin": "Product Hunt"
-          }
-        },
-        {
-          "subject": "Product Hunt Launch: CodeDesign v3",
-          "body": "Run your website and business apps from ChatGPT or Claude",
-          "timestamp": "2026-11-20T04:00:02",
-          "url": "https://www.producthunt.com/products/codedesign",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
-        },
-        {
-          "subject": "AWS: Using NVIDIA Run:ai GPU Fractioning on Amazon EKS",
-          "body": "Learn how to run two memory-bounded Kubernetes Pods on a single NVIDIA A10G GPU using open-source NVIDIA Run:ai GPU Fractioning on Amazon EKS. This walkthrough builds a custom Amazon Linux 2023 image, installs KAI Scheduler and the GPU Fractioning Operator, and validates per-Pod GPU-memory contracts with enforcement and metrics.",
-          "timestamp": "2026-11-20T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/using-nvidia-runai-gpu-fractioning-on-amazon-eks/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
-          "body": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build...",
-          "timestamp": "2026-11-20T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
-          "extras": {
-            "data_origin": "NVIDIA News"
           }
         },
         {
@@ -51,28 +51,37 @@
           }
         },
         {
-          "subject": "The Silent Consensus",
-          "body": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-          "timestamp": "2026-11-19T04:00:02",
-          "url": "https://openai.com/index/the-silent-consensus",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA RTX Spark Compact Desktops Out Now",
-          "body": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are...",
-          "timestamp": "2026-11-19T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+          "subject": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+          "body": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build...",
+          "timestamp": "2026-11-20T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
           "extras": {
             "data_origin": "NVIDIA News"
           }
         },
         {
-          "subject": "Managing frontier AI risk: From training to deployment",
-          "body": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "subject": "AWS: Using NVIDIA Run:ai GPU Fractioning on Amazon EKS",
+          "body": "Learn how to run two memory-bounded Kubernetes Pods on a single NVIDIA A10G GPU using open-source NVIDIA Run:ai GPU Fractioning on Amazon EKS. This walkthrough builds a custom Amazon Linux 2023 image, installs KAI Scheduler and the GPU Fractioning Operator, and validates per-Pod GPU-memory contracts with enforcement and metrics.",
+          "timestamp": "2026-11-20T04:00:02",
+          "url": "https://aws.amazon.com/blogs/machine-learning/using-nvidia-runai-gpu-fractioning-on-amazon-eks/",
+          "extras": {
+            "data_origin": "AWS AI News"
+          }
+        },
+        {
+          "subject": "Product Hunt Launch: CodeDesign v3",
+          "body": "Run your website and business apps from ChatGPT or Claude",
+          "timestamp": "2026-11-20T04:00:02",
+          "url": "https://www.producthunt.com/products/codedesign",
+          "extras": {
+            "data_origin": "Product Hunt"
+          }
+        },
+        {
+          "subject": "The Silent Consensus",
+          "body": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
           "timestamp": "2026-11-19T04:00:02",
-          "url": "https://openai.com/index/managing-frontier-ai-risk",
+          "url": "https://openai.com/index/the-silent-consensus",
           "extras": {
             "data_origin": "OpenAI News"
           }
@@ -87,94 +96,29 @@
           }
         },
         {
-          "subject": "Product Hunt Launch: GPT-6.2 Astra",
-          "body": "OpenAI's frontier model for your hardest projects",
-          "timestamp": "2026-11-18T09:25:02",
-          "url": "https://www.producthunt.com/products/openai",
-          "extras": {
-            "data_origin": "Product Hunt"
-          }
-        },
-        {
-          "subject": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-          "body": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-          "timestamp": "2026-11-18T09:25:02",
-          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "subject": "Managing frontier AI risk: From training to deployment",
+          "body": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "timestamp": "2026-11-19T04:00:02",
+          "url": "https://openai.com/index/managing-frontier-ai-risk",
           "extras": {
             "data_origin": "OpenAI News"
           }
         },
         {
-          "subject": "Can AI Learn to Improve Itself? | Recursive Self-Improvement",
-          "body": "For decades, the idea of AI improving itself was just a thought experiment. Today, AI is already helping researchers at frontier labs run experiments, write code and test ideas faster. Mark Chen says OpenAI has built “AI research interns.” So how far are we from AI that can do the research on its own?\nIn our first episode of Working Theory, a16z general partner Sarah Wang explores recursive self-improvement with two leading AI researchers: Mark Chen, Chief Research Officer at OpenAI, and John Schulman, co-founder and Chief Scientist of Thinking Machines Lab, and co-founder of OpenAI.\nThey cover what RSI actually means, why research taste is so hard to teach, and why AI may be one of our best tools for solving alignment.",
-          "timestamp": "2026-11-18T04:00:02",
-          "url": "https://a16z.simplecast.com/episodes/can-ai-learn-to-improve-itself-recursive-self-improvement-MhAlOhBQ",
-          "extras": {
-            "data_origin": "a16z"
-          }
-        },
-        {
-          "subject": "AWS: Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
-          "body": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
-          "timestamp": "2026-11-18T04:00:02",
-          "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
-          "extras": {
-            "data_origin": "AWS AI News"
-          }
-        },
-        {
-          "subject": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-          "body": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago...",
-          "timestamp": "2026-11-18T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+          "subject": "NVIDIA RTX Spark Compact Desktops Out Now",
+          "body": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are...",
+          "timestamp": "2026-11-19T04:00:02",
+          "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
           "extras": {
             "data_origin": "NVIDIA News"
-          }
-        },
-        {
-          "subject": "ChatGPT Ads increases its market presence in 44 countries",
-          "body": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
-          "timestamp": "2026-11-18T04:00:02",
-          "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing OpenAI for Chile",
-          "body": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-          "timestamp": "2026-11-18T04:00:02",
-          "url": "https://openai.com/index/introducing-openai-for-chile",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Introducing GPT-6.2 Astra and Sol",
-          "body": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-          "timestamp": "2026-11-18T04:00:02",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-          "extras": {
-            "data_origin": "OpenAI News"
           }
         }
       ]
     },
     "models": {
-      "count": 1,
-      "items": [
-        {
-          "subject": "nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
-          "body": "[\"Model Optimizer\", \"safetensors\", \"qwen3_5_text\", \"nvidia\", \"ModelOpt\", \"Qwen3.5\", \"Qwen3.8\", \"Draft\", \"text-generation\", \"conversational\", \"base_model:Qwen/Qwen3.5-4B\", \"base_model:finetune:Qwen/Qwen3.5-4B\", \"license:other\", \"region:us\"]",
-          "timestamp": "2026-11-17T15:52:50",
-          "url": "https://huggingface.co/nvidia/Qwen3.5-4B-Qwen3.8-27B-Draft",
-          "extras": {
-            "data_origin": "huggingface",
-            "namespace": "nvidia"
-          }
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   },
-  "summary": "Here are four to six key developments with insight:\n\n* **Advancements in AI Research**: The recent announcements from OpenAI, including the launch of GPT-6.2 Astra and Sol, as well as the introduction of OpenAI's Performance Factory, demonstrate the rapid progress being made in AI research. These advancements are enabling more efficient and effective AI systems, such as ChatGPT, which is now available in 44 countries.\n* **Expansion of AI Adoption**: The partnership between OpenAI and the Government of Chile to support responsible AI adoption and the selection of Aleph as the exclusive reseller for ChatGPT Ads in 44 countries highlight the growing interest in AI adoption globally. This expansion of AI adoption is expected to drive further innovation and applications of AI technology.\n* **NVIDIA's Growing Influence**: NVIDIA's announcements, including the launch of NVIDIA RTX Spark compact desktops and the expansion of accelerated computing from Azure to Windows PCs, demonstrate the company's growing influence in the AI space. NVIDIA's hardware and software solutions are becoming increasingly important for AI applications, and its partnership with OpenAI and Microsoft is driving the development of more powerful and efficient AI systems.\n* **OpenAI's Growing Ecosystem**: The partnerships between OpenAI and companies like Le Groupe Figaro, Sumitomo Life, and the Government of Chile demonstrate the growth of OpenAI's ecosystem. This ecosystem is expected to drive the adoption of AI technology and enable more applications of AI in various industries.\n\nTrend: **Increasing Adoption of AI in Industries**\n\nThe trend in AI adoption is clear: AI is becoming increasingly important in various industries, from healthcare to finance to education. The growing number of partnerships between companies and OpenAI, as well as the expansion of AI adoption globally, demonstrate the growing importance of AI in driving innovation and efficiency in various industries. This trend is expected to continue in the coming years, with AI playing an increasingly important role in shaping the future of various industries."
+  "summary": "Based on the provided data, here are 6 key developments with insights in bullet points,  along with a trend:\n\n**Key Developments:**\n\n* **One-Person Biotech:** OpenAI's Joy Jiao and Ashoka Rajendra discuss how AI and thousands of parallel agents could reshape drug discovery and development, making it possible for a single person to launch and advance multiple biotech programs.\n* **Shirudo Introduction:** OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux that helps teams protect running systems while rolling out patches.\n* **Connected Intelligence for In-House Legal:** OpenAI explores how AI can help in-house legal teams connect business context, build reusable workflows, and get more from outside counsel.\n* **Product Hunt Launch: Telo:** Telo is a new product that allows users to access Apple Health in ChatGPT and Claude, in any country.\n* **How OpenAI's Performance Factory Keeps ChatGPT Fast:** OpenAI built a system, Performance Factory, to find and fix performance issues that helps keep ChatGPT fast.\n* **NVIDIA and Microsoft Expand Accelerated Computing:** NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build and deploy AI applications.\n\n**Trend:**\n\n* **Growing Adoption of AI in Various Industries:** The data highlights the growing adoption of AI in various industries, including biotech, legal, and healthcare. This trend suggests that AI is becoming increasingly mainstream and is being applied in a wide range of use cases. The emergence of new products and services, such as Telo, also indicates a growing demand for AI-powered solutions."
 }
