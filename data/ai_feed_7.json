@@ -1,10 +1,19 @@
 {
   "cutoff": 7,
-  "timestamp": "2026-11-25T10:47:38.221Z",
+  "timestamp": "2026-11-26T10:20:54.293Z",
   "categories": {
     "news": {
-      "count": 12,
+      "count": 9,
       "items": [
+        {
+          "subject": "Clay helps sales teams win with Codex and ChatGPT",
+          "body": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+          "timestamp": "2026-11-25T04:00:02",
+          "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+          "extras": {
+            "data_origin": "OpenAI News"
+          }
+        },
         {
           "subject": "The One-Person Biotech | OpenAI Life Sciences",
           "body": "What happens when scientists are no longer limited by human attention? OpenAI’s Joy Jiao and Ashoka Rajendra join a16z’s Jay Rughani and Jorge Conde to discuss how AI and thousands of parallel agents could reshape drug discovery and development.\nThey trace OpenAI’s life sciences work from scientific reasoning to the acquisition of Orchestra Bio, and how agents could search biological data, manage clinical trials, and navigate regulatory and manufacturing workflows.\nThey also discuss AI’s role in solving difficult diagnoses and a future where a single person could potentially launch and advance multiple biotech programs.",
@@ -76,42 +85,6 @@
           "extras": {
             "data_origin": "Product Hunt"
           }
-        },
-        {
-          "subject": "The Silent Consensus",
-          "body": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-          "timestamp": "2026-11-19T04:00:02",
-          "url": "https://openai.com/index/the-silent-consensus",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-          "body": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-          "timestamp": "2026-11-19T04:00:02",
-          "url": "https://openai.com/business/customer-stories/sumitomo-life",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "Managing frontier AI risk: From training to deployment",
-          "body": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-          "timestamp": "2026-11-19T04:00:02",
-          "url": "https://openai.com/index/managing-frontier-ai-risk",
-          "extras": {
-            "data_origin": "OpenAI News"
-          }
-        },
-        {
-          "subject": "NVIDIA RTX Spark Compact Desktops Out Now",
-          "body": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are...",
-          "timestamp": "2026-11-19T04:00:02",
-          "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
-          "extras": {
-            "data_origin": "NVIDIA News"
-          }
         }
       ]
     },
@@ -120,5 +93,5 @@
       "items": []
     }
   },
-  "summary": "Based on the provided data, here are 6 key developments with insights in bullet points,  along with a trend:\n\n**Key Developments:**\n\n* **One-Person Biotech:** OpenAI's Joy Jiao and Ashoka Rajendra discuss how AI and thousands of parallel agents could reshape drug discovery and development, making it possible for a single person to launch and advance multiple biotech programs.\n* **Shirudo Introduction:** OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux that helps teams protect running systems while rolling out patches.\n* **Connected Intelligence for In-House Legal:** OpenAI explores how AI can help in-house legal teams connect business context, build reusable workflows, and get more from outside counsel.\n* **Product Hunt Launch: Telo:** Telo is a new product that allows users to access Apple Health in ChatGPT and Claude, in any country.\n* **How OpenAI's Performance Factory Keeps ChatGPT Fast:** OpenAI built a system, Performance Factory, to find and fix performance issues that helps keep ChatGPT fast.\n* **NVIDIA and Microsoft Expand Accelerated Computing:** NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build and deploy AI applications.\n\n**Trend:**\n\n* **Growing Adoption of AI in Various Industries:** The data highlights the growing adoption of AI in various industries, including biotech, legal, and healthcare. This trend suggests that AI is becoming increasingly mainstream and is being applied in a wide range of use cases. The emergence of new products and services, such as Telo, also indicates a growing demand for AI-powered solutions."
+  "summary": "Here are the key developments and a trend from the provided data:\n\n**Key Developments:**\n\n• **Clay Integrates with OpenAI's Codex and ChatGPT**: Clay, a platform for sales teams, has integrated with OpenAI's Codex and ChatGPT models to help users research deals and turn data into go-to-market plays.\n• **OpenAI's Life Sciences Initiatives**: OpenAI is exploring the use of AI in life sciences, including the acquisition of Orchestra Bio, and plans to use agents to search biological data, manage clinical trials, and navigate regulatory and manufacturing workflows.\n• **Shirudo Runtime**: OpenAI and Cisco have introduced Shirudo, an open-source runtime for Linux that helps teams protect running systems while rolling out patches.\n• **Connected Intelligence for In-House Legal**: OpenAI is exploring the use of AI to help in-house legal teams connect business context, build reusable workflows, and get more from outside counsel.\n• **Product Hunts: Telo and CodeDesign v3**: Two new products have been launched on Product Hunt: Telo, an Apple Health app, and CodeDesign v3, a platform for running websites and business apps from ChatGPT or Claude.\n\n**Trend:** The trend we see here is the increasing integration of AI technologies, such as ChatGPT and Codex, in various industries and domains, including sales, life sciences, security, and enterprise software development. This trend is likely to continue as AI continues to advance and more businesses look for ways to leverage its power to improve efficiency and productivity."
 }
